@@ -60,9 +60,19 @@ npm run qa:site
 npm run qa:docs
 npm run qa:mirror
 npm run qa:spec
+npm run qa:product-seo
 npm run qa:agent
 npm run qa:source-needed
 ```
+
+若 `qa:product-seo` 回報多個 H1，先使用：
+
+```powershell
+npm run fix:h1-hierarchy:dry-run
+npm run fix:h1-hierarchy
+```
+
+這個修正只保留產品頁第一個 H1，後續 H1 降級為 H2，避免破壞 SEO heading hierarchy。
 
 產生 backlog 與 issue index：
 
@@ -172,6 +182,7 @@ agent-source-needed
 - 目標頁為 `agent-approved-clean`，或 source gaps 已列為 `source-needed`。
 - `產品規格詳情` 位置正確。
 - 無本機路徑、`.txt`、`href="#"`、placeholder、內部註解。
+- `product-page-structure-seo-qa.html` 沒有 critical fail；warning 需在 PR 中說明處理或保留原因。
 - SEO 基本結構未倒退。
 
 ## 目前限制
