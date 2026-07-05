@@ -2,7 +2,7 @@
 
 更新日期：2026-07-06
 
-本文件記錄 GitHub-ready 本機 preview 的產品規格詳情模組審核狀態。機器可讀來源以 `site/reports/product-spec-agent-review.json`、`site/reports/product-spec-module-qa.json` 與 `site/reports/optimization-backlog.json` 為準。
+本文件是 GitHub-ready 本機 preview 的產品規格詳情模組審核入口。機器可讀來源以 `site/reports/product-spec-agent-review.json`、`site/reports/product-spec-module-qa.json`、`site/reports/source-needed-audit.json` 與 `site/reports/optimization-backlog.json` 為準。
 
 ## 目前總覽
 
@@ -12,72 +12,100 @@
 - `agent-fix-required`：0
 - `agent-structure-review`：0
 - `agent-source-audit-needed`：0
-- blocking pages：6，皆為缺官方來源或缺既有規格模組，不自動補寫推測內容。
-- 目前分支：`phase-1-smac-spec-standard`
+- blocking pages：6，全部是來源不足或非硬體規格頁，不是結構錯誤。
+- 目前基準分支：`phase-1-smac-spec-standard`
 
-## 狀態定義
+## Agent Review 狀態定義
 
 | 狀態 | 意義 | 下一步 |
 | --- | --- | --- |
-| `agent-approved-clean` | AI agent 審核通過；規格模組 QA 無 critical / warning，且未見內部註解、`.txt`、本機路徑、`href="#"` 等前台風險。 | 可進入類別 PR 驗收與後續上架準備。 |
-| `agent-fix-required` | 可由 agent 自行修正的前台結構或可用性問題，例如 CTA、accordion、表格、下載按鈕文字。 | 由 agent 批次或逐頁修正。 |
-| `agent-structure-review` | 模組標題或版面歸類不確定，需要結構審核。 | 由 AI agent 先審核；只有無法判定時才升級人工。 |
-| `agent-source-audit-needed` | 下載或來源對應可能不明確。 | 查官方來源或既有專案檔案，無法確認則維持待確認。 |
-| `agent-source-needed` | 找不到足夠來源或沒有既有規格模組候選。 | 不補寫假規格；列入來源補齊清單。 |
+| `agent-approved-clean` | 本機 preview 與 QA 已通過；無 critical / warning；無本機路徑、`.txt`、`href="#"`、前台可見內部註解。 | 可進入對應類別 PR 與後續部署準備。 |
+| `agent-fix-required` | AI agent 可直接修正的結構或內容問題。 | 在對應 phase 分支修正後重跑 `npm run validate`。 |
+| `agent-structure-review` | 結構、模組順序、UIUX 或命名仍需審核。 | 由 AI agent 先修正；若規則不明確再交人工。 |
+| `agent-source-audit-needed` | 下載或規格來源需要再查核。 | 只做來源稽核；不得猜測規格。 |
+| `agent-source-needed` | 官方來源不足或頁型不適合硬體規格表。 | 不補寫規格；保留在 source-needed audit，待來源補齊或排除。 |
 
-## 本輪已完成
+## 目前類別狀態
 
-- 新增 `tools/apply-common-spec-module-fixes.mjs`，可重跑共通規格模組修正。
-- 新增 npm scripts：
-  - `npm run fix:spec-common`
-  - `npm run fix:spec-common:dry-run`
-- 全站規格模組補上標準 CTA 區塊 `.st-spec-cta`。
-- 對缺少 `aria-label` 的 PDF / CAD / Manual / Catalog / Drawing / Software 下載入口補上可辨識標籤。
-- 收斂 AI agent review 判定：已審核的未知模組標題若符合合理產品內容或規格子模組，不再停留於 `agent-structure-review`。
-- 保留 6 頁 `agent-source-needed`，因沒有足夠來源或沒有既有規格模組候選，不自動生成推測規格。
+| Priority | Category | Branch | Pages | Source-needed | Status |
+| --- | --- | --- | ---: | ---: | --- |
+| 1 | 電動缸 | `phase-1-smac-spec-standard` | 14 | 0 | approved |
+| 2 | 驅動器 | `phase-2-drivers-spec-review` | 12 | 0 | approved |
+| 3 | 各類馬達 | `phase-2-motors-spec-review` | 24 | 0 | approved |
+| 4 | ACS 控制器 / 驅動器 | `phase-2-drivers-spec-review` | 18 | 6 | source-needed |
+| 5 | Harmonic Drive 減速機 | `phase-3-harmonic-drive` | 31 | 0 | approved |
+| 6 | Renishaw 回授元件產品 | `phase-3-renishaw-feedback` | 36 | 0 | approved |
+| 7 | 定位平台 | `phase-3-positioning-stage` | 11 | 0 | approved |
+| 8 | 空氣軸承 / 滾珠•滾柱軸承 | `phase-3-bearings-air-mechanical` | 9 | 0 | approved |
+| 9 | 聯軸器 | `phase-4-couplings` | 18 | 0 | approved |
+| 10 | FMS 張力系統 | `phase-4-fms-tension` | 24 | 0 | approved |
+| 11 | 固態繼電器 | `phase-4-solid-state-relays` | 10 | 0 | approved |
+| 12 | 山洋電氣 SANYO DENKI | `phase-4-sanyo-denki` | 6 | 0 | approved |
+| 13 | 特殊環境 | `phase-4-special-environments` | 11 | 0 | approved |
+| 14 | 陶瓷吸盤 | `phase-5-ceramic-chucks` | 1 | 0 | approved |
+| 15 | SEJINIGB 滾輪齒排 | `phase-5-sejinigb` | 2 | 0 | approved |
+| 16 | 鼓風機 | `phase-5-blowers` | 2 | 0 | approved |
+| 17 | 自動化系統 | `phase-5-automation-systems` | 5 | 0 | approved |
+| 18 | 其他回授元件 | `phase-5-other-feedback` | 8 | 0 | approved |
 
-## 驗證結果
+## Source-needed 頁面
+
+目前 6 頁全部位於 ACS 控制器 / 驅動器類別：
+
+- 241：測試頁，建議排除硬體規格表。
+- 253：軟體頁，需官方軟體來源與下載映射。
+- 254：軟體頁，需官方軟體來源與下載映射。
+- 255：軟體頁，需官方軟體來源與下載映射。
+- 268：說明型頁，需判定是否需要規格模組。
+- 269：教育訓練影片頁，建議不強制建立硬體規格表。
+
+詳細處置見：`site/reports/source-needed-audit.html`。
+
+## 已建立的自動修正與驗證
+
+- `tools/apply-common-spec-module-fixes.mjs`
+- `tools/validate-product-spec-modules.mjs`
+- `tools/generate-product-spec-agent-review.mjs`
+- `tools/generate-source-needed-audit.mjs`
+- `tools/generate-optimization-backlog.mjs`
+- `tools/generate-github-issue-index.mjs`
+- `tools/github-bootstrap.mjs`
+
+常用指令：
+
+```powershell
+npm run validate
+npm run fix:spec-common:dry-run
+npm run github:bootstrap:dry-run
+```
+
+## 最新驗證結果
 
 `npm run validate`：
 
 - static site validation：`errors=0`
+- local mirror readiness：`errors=0`、`warnings=0`
 - product spec QA：`pass=242`、`no-spec-module=6`、`fail=0`、`warn=0`
 - AI agent review：`agent-approved-clean=242`、`agent-source-needed=6`
-- optimization backlog：`total_blocking_pages=6`
+- source-needed audit：6 頁已分類為測試頁、軟體頁、說明型頁或教育訓練頁
+- optimization backlog：`total_pages=248`、`total_blocking_pages=6`
 
-瀏覽器抽樣（Edge headless）：
+## GitHub 工作流要求
 
-- 抽樣頁：79、100、173、244、354、398
-- 視窗：desktop 1366x900、mobile 390x844
-- 結果：標準 CTA 皆存在、無破圖、無 whole-page horizontal overflow。
-
-## 待來源補齊頁面
-
-下列頁面仍維持 `agent-source-needed`，不應由 agent 憑空撰寫規格：
-
-- 241
-- 253
-- 254
-- 255
-- 268
-- 269
-
-## GitHub 工作流規則
-
-- `main` 保持可驗證狀態。
-- 每個類別/品牌用獨立 branch 與 PR 收斂。
-- 每個 PR 至少附：
+- 每個類別或品牌使用一個 phase branch 與一個 PR。
+- 每個 PR 必須附上：
   - 修改頁數
-  - QA 報告連結
+  - QA 報告路徑
   - AI review 狀態
-  - 待來源確認項
-- 合併前必跑：
+  - source-needed 或後台限制例外
+- 每個 PR 必須通過：
   - `npm run validate`
   - GitHub Actions `preview-qa.yml`
 
-## 後續優先順序
+## 建議下一步
 
-1. 鎖定 SMAC / 電動缸樣板與本輪共通規格模組修正。
-2. 進入第一優先類別：電動缸、驅動器、各類馬達、ACS、Harmonic Drive、Renishaw、定位平台、軸承。
-3. 第二優先類別：聯軸器、FMS、固態繼電器、山洋電氣、特殊環境。
-4. 第三優先類別：陶瓷吸盤、SEJINIGB、鼓風機、自動化系統。
+1. 使用 `npm run github:bootstrap:dry-run` 確認 labels / issues / PRs。
+2. 若要實際建立 GitHub labels、issues、PRs，提供目前 PowerShell session 的 `GITHUB_TOKEN` 後執行 `npm run github:bootstrap`。
+3. 從 `phase-1-smac-spec-standard` 的 SMAC 樣板 PR 開始合併。
+4. 依序處理第一優先類別：電動缸、驅動器、各類馬達、ACS、Harmonic Drive、Renishaw、定位平台、軸承。
+5. `agent-source-needed` 六頁不補假規格；等官方來源或人工決策後再處理。
