@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T22:05:32.032Z",
+  "generatedAt": "2026-07-05T22:09:32.794Z",
   "status": "ready-needs-token",
   "repository": "wangpinyu/taiwan-servo-website",
   "tokenPresent": false,
@@ -11,7 +11,7 @@
     },
     {
       "branch": "phase-1-smac-spec-standard",
-      "remoteSha": "4115779"
+      "remoteSha": "d9880ac"
     },
     {
       "branch": "phase-2-drivers-spec-review",
