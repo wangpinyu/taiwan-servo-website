@@ -33,6 +33,7 @@ Documents linked from included product pages may still be present under `site/do
 ```powershell
 npm run serve
 npm run validate
+npm run qa:mirror
 ```
 
 Then open:
@@ -63,9 +64,48 @@ Large images and documents are tracked through Git LFS via `.gitattributes`.
    - `site/reports/product-spec-module-qa.html`
    - `site/reports/product-spec-agent-review.html`
    - `site/reports/github-ready-validation.html`
+   - `site/reports/local-mirror-readiness-current.html`
    - `site/reports/optimization-backlog.html`
 4. Use AI agent review status to decide next step.
 5. Only after local preview is accepted, prepare backend or server deployment.
+
+## Pull Request Control
+
+Regenerate the PR control table:
+
+```powershell
+npm run workflow:pr-index
+```
+
+Review the generated control page:
+
+```text
+site/reports/github-prs/index.md
+```
+
+Open PR creation pages in a browser that is already logged in to GitHub:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\open-github-pr-pages.ps1
+```
+
+Prepare one PR page and copy its Markdown body to the clipboard:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\prepare-github-pr.ps1 -Branch phase-1-smac-spec-standard
+```
+
+By default this opens only the phase-1 PR page. To open a specific branch:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\open-github-pr-pages.ps1 -Branch phase-3-harmonic-drive
+```
+
+To open all PR pages:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\open-github-pr-pages.ps1 -All
+```
 
 ## GitHub Optimization Workflow
 
