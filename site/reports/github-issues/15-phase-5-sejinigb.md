@@ -3,18 +3,19 @@
 Branch: `phase-5-sejinigb`
 Priority: 15
 Pages: 2
-Blocking pages: 0
+Blocking pages: 1
 
 ## Status counts
 
-- agent-approved-clean: 2
+- agent-approved-clean: 1
+- agent-structure-review: 1
 
 ## Target pages
 
 | ID | Title | Status | Preview |
 | --- | --- | --- | --- |
 | 151 | SEJINIGB 精密線性齒排、滾輪 | agent-approved-clean | preview/products/detail/151.html |
-| 152 | SEJINIGB 模組化齒圈轉台 | agent-approved-clean | preview/products/detail/152.html |
+| 152 | SEJINIGB 模組化齒圈轉台 | agent-structure-review | preview/products/detail/152.html |
 
 ## Acceptance criteria
 
