@@ -211,6 +211,13 @@ npm run fix:h1-hierarchy:dry-run
 npm run fix:h1-hierarchy
 ```
 
+If `qa:product-seo` reports body-level `<title>` tags, run:
+
+```powershell
+npm run fix:body-title-tags:dry-run
+npm run fix:body-title-tags
+```
+
 This keeps the first product title H1 and converts later H1 tags in product body content to H2.
 
 Human review is reserved for exceptions:
