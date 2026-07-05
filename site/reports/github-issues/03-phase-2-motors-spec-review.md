@@ -3,12 +3,12 @@
 Branch: `phase-2-motors-spec-review`
 Priority: 3
 Pages: 24
-Blocking pages: 13
+Blocking pages: 5
 
 ## Status counts
 
-- agent-approved-clean: 11
-- agent-fix-required: 12
+- agent-approved-clean: 19
+- agent-fix-required: 4
 - agent-structure-review: 1
 
 ## Target pages
@@ -22,15 +22,15 @@ Blocking pages: 13
 | 86 | SMAC 高速伺服圓形電動缸 | agent-approved-clean | preview/products/detail/86.html |
 | 87 | Phytron二相步進馬達(真空環境用) | agent-approved-clean | preview/products/detail/87.html |
 | 88 | Harmonic AC Servo Motors（交流伺服馬達） | agent-fix-required | preview/products/detail/88.html |
-| 89 | Harmonic Direct Drive Motor （直驅電動機） | agent-fix-required | preview/products/detail/89.html |
-| 90 | Kollmorgen 兩相步進馬達 | agent-fix-required | preview/products/detail/90.html |
-| 92 | Kollmorgen KBM 無刷轉子、定子 | agent-fix-required | preview/products/detail/92.html |
+| 89 | Harmonic Direct Drive Motor （直驅電動機） | agent-approved-clean | preview/products/detail/89.html |
+| 90 | Kollmorgen 兩相步進馬達 | agent-approved-clean | preview/products/detail/90.html |
+| 92 | Kollmorgen KBM 無刷轉子、定子 | agent-approved-clean | preview/products/detail/92.html |
 | 93 | Kollmorgen TBM低壓無框馬達 | agent-fix-required | preview/products/detail/93.html |
-| 94 | Kollmorgen 線性伺服馬達 | agent-fix-required | preview/products/detail/94.html |
-| 95 | Kollmorgen CDDR 直驅伺服控制系統 | agent-fix-required | preview/products/detail/95.html |
-| 96 | Kollmorgen 防水馬達 | agent-fix-required | preview/products/detail/96.html |
-| 97 | Kollmorgen AKM低溫伺服電機 | agent-fix-required | preview/products/detail/97.html |
-| 98 | Kollmorgen 防爆步進馬達 | agent-fix-required | preview/products/detail/98.html |
+| 94 | Kollmorgen 線性伺服馬達 | agent-approved-clean | preview/products/detail/94.html |
+| 95 | Kollmorgen CDDR 直驅伺服控制系統 | agent-approved-clean | preview/products/detail/95.html |
+| 96 | Kollmorgen 防水馬達 | agent-approved-clean | preview/products/detail/96.html |
+| 97 | Kollmorgen AKM低溫伺服電機 | agent-approved-clean | preview/products/detail/97.html |
+| 98 | Kollmorgen 防爆步進馬達 | agent-approved-clean | preview/products/detail/98.html |
 | 102 | JVL整合型伺服馬達及步進馬達的特色 | agent-fix-required | preview/products/detail/102.html |
 | 103 | Parker 鐵芯式線性馬達 | agent-approved-clean | preview/products/detail/103.html |
 | 104 | Parker 防爆馬達 | agent-approved-clean | preview/products/detail/104.html |
