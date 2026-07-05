@@ -204,6 +204,8 @@ AI agent performs normal structure, source, CTA, table, and download-link review
 
 `npm run qa:product-seo` adds product-page-level checks for H1, title, canonical, breadcrumb detection, standardized spec module order, accordion controls, tables, CTA links, download labels, and public-facing internal notes.
 
+`npm run qa:product-seo-taxonomy` groups remaining product SEO warnings by fix type, category, and phase branch so batch agents can work on one issue pattern at a time.
+
 If a product page has more than one H1, run:
 
 ```powershell
