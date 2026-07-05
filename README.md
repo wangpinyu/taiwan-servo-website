@@ -64,6 +64,7 @@ Large images and documents are tracked through Git LFS via `.gitattributes`.
    - `site/reports/product-spec-module-qa.html`
    - `site/reports/product-spec-agent-review.html`
    - `site/reports/source-needed-audit.html`
+   - `site/reports/github-bootstrap-readiness.html`
    - `site/reports/github-ready-validation.html`
    - `site/reports/local-mirror-readiness-current.html`
    - `site/reports/optimization-backlog.html`
@@ -171,6 +172,27 @@ You can also select by priority:
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\tools\prepare-github-issue.ps1 -Priority 1
 ```
+
+## GitHub Bootstrap Readiness
+
+Regenerate the readiness report that checks labels, issue drafts, PR drafts, pushed branches, token availability, and remote PR refs:
+
+```powershell
+npm run workflow:github-readiness
+```
+
+Review:
+
+```text
+site/reports/github-bootstrap-readiness.html
+site/reports/github-bootstrap-readiness.json
+```
+
+Status meanings:
+
+- `ready`: GitHub bootstrap prerequisites are satisfied.
+- `ready-needs-token`: local repo, branches, drafts, and reports are ready, but no `GITHUB_TOKEN` / `GH_TOKEN` is available in the shell.
+- `blocked`: an expected branch, generated draft, or local prerequisite is missing.
 
 ## Current Review Policy
 
