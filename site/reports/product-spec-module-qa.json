@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-05T18:12:36.116Z",
+  "generated_at": "2026-07-05T18:20:26.377Z",
   "scope": "GitHub-ready product spec module QA",
   "summary": {
     "total_pages": 248,
     "qa_status_counts": {
-      "warn": 212,
-      "pass": 30,
+      "warn": 208,
+      "pass": 34,
       "no-spec-module": 6
     },
     "fail_count": 0,
-    "warn_count": 212,
-    "pass_count": 30,
+    "warn_count": 208,
+    "pass_count": 34,
     "no_spec_module_count": 6
   },
   "pages": [
@@ -273,22 +273,20 @@
       "preview_rel": "preview/products/detail/86.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-smac-electric-cylinders-id86-spec-inserts/id-86-smac-electric-cylinders/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 2,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "87",
@@ -6409,22 +6407,20 @@
       "preview_rel": "preview/products/detail/373.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-h-smac-373-375/id-373-smac-circular-voice-coil-actuators/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 2,
         "tables": 1,
         "pdf_links": 11,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "374",
@@ -6437,22 +6433,20 @@
       "preview_rel": "preview/products/detail/374.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-h-smac-373-375/id-374-smac-linear-rotary-actuators/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 1,
         "pdf_links": 14,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "375",
@@ -6465,22 +6459,20 @@
       "preview_rel": "preview/products/detail/375.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-h-smac-373-375/id-375-smac-linear-slide-actuators/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 5,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "376",

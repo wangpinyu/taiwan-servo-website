@@ -1,12 +1,12 @@
 {
   "summary": {
-    "generated_at": "2026-07-05T18:12:36.244Z",
+    "generated_at": "2026-07-05T18:20:26.498Z",
     "total_categories": 18,
     "total_pages": 248,
-    "total_blocking_pages": 221,
+    "total_blocking_pages": 217,
     "status_counts": {
-      "agent-fix-required": 196,
-      "agent-approved-clean": 27,
+      "agent-fix-required": 192,
+      "agent-approved-clean": 31,
       "agent-structure-review": 13,
       "agent-source-needed": 6,
       "agent-source-audit-needed": 6
@@ -19,8 +19,8 @@
       "branch": "phase-1-smac-spec-standard",
       "total": 14,
       "status_counts": {
-        "agent-fix-required": 12,
-        "agent-approved-clean": 1,
+        "agent-fix-required": 9,
+        "agent-approved-clean": 4,
         "agent-structure-review": 1
       },
       "pages": [
@@ -111,11 +111,9 @@
           "title": "SMAC圓形音圈致動器",
           "preview_rel": "preview/products/detail/373.html",
           "overlay_status": "inserted",
-          "qa_status": "warn",
-          "agent_status": "agent-fix-required",
-          "warnings": [
-            "spec_cta_missing_or_outside_block"
-          ],
+          "qa_status": "pass",
+          "agent_status": "agent-approved-clean",
+          "warnings": [],
           "critical": []
         },
         {
@@ -123,11 +121,9 @@
           "title": "SMAC線性加旋轉致動器",
           "preview_rel": "preview/products/detail/374.html",
           "overlay_status": "inserted",
-          "qa_status": "warn",
-          "agent_status": "agent-fix-required",
-          "warnings": [
-            "spec_cta_missing_or_outside_block"
-          ],
+          "qa_status": "pass",
+          "agent_status": "agent-approved-clean",
+          "warnings": [],
           "critical": []
         },
         {
@@ -135,11 +131,9 @@
           "title": "SMAC線性滑塊致動器",
           "preview_rel": "preview/products/detail/375.html",
           "overlay_status": "inserted",
-          "qa_status": "warn",
-          "agent_status": "agent-fix-required",
-          "warnings": [
-            "spec_cta_missing_or_outside_block"
-          ],
+          "qa_status": "pass",
+          "agent_status": "agent-approved-clean",
+          "warnings": [],
           "critical": []
         },
         {
@@ -259,42 +253,6 @@
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "warn",
           "agent_status": "agent-structure-review",
-          "warnings": [
-            "spec_cta_missing_or_outside_block"
-          ],
-          "critical": []
-        },
-        {
-          "product_id": "373",
-          "title": "SMAC圓形音圈致動器",
-          "preview_rel": "preview/products/detail/373.html",
-          "overlay_status": "inserted",
-          "qa_status": "warn",
-          "agent_status": "agent-fix-required",
-          "warnings": [
-            "spec_cta_missing_or_outside_block"
-          ],
-          "critical": []
-        },
-        {
-          "product_id": "374",
-          "title": "SMAC線性加旋轉致動器",
-          "preview_rel": "preview/products/detail/374.html",
-          "overlay_status": "inserted",
-          "qa_status": "warn",
-          "agent_status": "agent-fix-required",
-          "warnings": [
-            "spec_cta_missing_or_outside_block"
-          ],
-          "critical": []
-        },
-        {
-          "product_id": "375",
-          "title": "SMAC線性滑塊致動器",
-          "preview_rel": "preview/products/detail/375.html",
-          "overlay_status": "inserted",
-          "qa_status": "warn",
-          "agent_status": "agent-fix-required",
           "warnings": [
             "spec_cta_missing_or_outside_block"
           ],
@@ -660,8 +618,8 @@
       "branch": "phase-2-motors-spec-review",
       "total": 24,
       "status_counts": {
-        "agent-fix-required": 22,
-        "agent-approved-clean": 1,
+        "agent-fix-required": 21,
+        "agent-approved-clean": 2,
         "agent-structure-review": 1
       },
       "pages": [
@@ -718,11 +676,9 @@
           "title": "SMAC 高速伺服圓形電動缸",
           "preview_rel": "preview/products/detail/86.html",
           "overlay_status": "inserted-before-application",
-          "qa_status": "warn",
-          "agent_status": "agent-fix-required",
-          "warnings": [
-            "spec_cta_missing_or_outside_block"
-          ],
+          "qa_status": "pass",
+          "agent_status": "agent-approved-clean",
+          "warnings": [],
           "critical": []
         },
         {
@@ -994,18 +950,6 @@
           "title": "Accel 音圈馬達",
           "preview_rel": "preview/products/detail/85.html",
           "overlay_status": "inserted",
-          "qa_status": "warn",
-          "agent_status": "agent-fix-required",
-          "warnings": [
-            "spec_cta_missing_or_outside_block"
-          ],
-          "critical": []
-        },
-        {
-          "product_id": "86",
-          "title": "SMAC 高速伺服圓形電動缸",
-          "preview_rel": "preview/products/detail/86.html",
-          "overlay_status": "inserted-before-application",
           "qa_status": "warn",
           "agent_status": "agent-fix-required",
           "warnings": [

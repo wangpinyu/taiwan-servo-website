@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T18:12:36.182Z",
+  "generated_at": "2026-07-05T18:20:26.437Z",
   "scope": "GitHub-ready AI agent review decisions",
   "policy": {
     "default_reviewer": "AI agent",
@@ -13,9 +13,9 @@
   "summary": {
     "total_pages": 248,
     "agent_status_counts": {
-      "agent-fix-required": 196,
+      "agent-fix-required": 192,
       "agent-structure-review": 13,
-      "agent-approved-clean": 27,
+      "agent-approved-clean": 31,
       "agent-source-audit-needed": 6,
       "agent-source-needed": 6
     }
@@ -325,26 +325,24 @@
       "preview_rel": "preview/products/detail/86.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-smac-electric-cylinders-id86-spec-inserts/id-86-smac-electric-cylinders/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 2,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ],
+      "warnings": [],
       "agent_review": {
-        "status": "agent-fix-required",
-        "decision": "需 AI 修版",
-        "reason": "修正 CTA、可讀性、展開提示或可及性文案。"
+        "status": "agent-approved-clean",
+        "decision": "可進入批次套用候選",
+        "reason": "程式化 QA 未發現阻塞或警告。"
       }
     },
     {
@@ -7581,26 +7579,24 @@
       "preview_rel": "preview/products/detail/373.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-h-smac-373-375/id-373-smac-circular-voice-coil-actuators/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 2,
         "tables": 1,
         "pdf_links": 11,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ],
+      "warnings": [],
       "agent_review": {
-        "status": "agent-fix-required",
-        "decision": "需 AI 修版",
-        "reason": "修正 CTA、可讀性、展開提示或可及性文案。"
+        "status": "agent-approved-clean",
+        "decision": "可進入批次套用候選",
+        "reason": "程式化 QA 未發現阻塞或警告。"
       }
     },
     {
@@ -7614,26 +7610,24 @@
       "preview_rel": "preview/products/detail/374.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-h-smac-373-375/id-374-smac-linear-rotary-actuators/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 1,
         "pdf_links": 14,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ],
+      "warnings": [],
       "agent_review": {
-        "status": "agent-fix-required",
-        "decision": "需 AI 修版",
-        "reason": "修正 CTA、可讀性、展開提示或可及性文案。"
+        "status": "agent-approved-clean",
+        "decision": "可進入批次套用候選",
+        "reason": "程式化 QA 未發現阻塞或警告。"
       }
     },
     {
@@ -7647,26 +7641,24 @@
       "preview_rel": "preview/products/detail/375.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-h-smac-373-375/id-375-smac-linear-slide-actuators/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 5,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ],
+      "warnings": [],
       "agent_review": {
-        "status": "agent-fix-required",
-        "decision": "需 AI 修版",
-        "reason": "修正 CTA、可讀性、展開提示或可及性文案。"
+        "status": "agent-approved-clean",
+        "decision": "可進入批次套用候選",
+        "reason": "程式化 QA 未發現阻塞或警告。"
       }
     },
     {
