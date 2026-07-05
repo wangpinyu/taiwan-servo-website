@@ -1,4 +1,4 @@
-# 固態繼電器 optimization tracking
+# 固態繼電器 產品頁優化追蹤
 
 Branch: `phase-4-solid-state-relays`
 Priority: 11
@@ -26,9 +26,9 @@ Blocking pages: 0
 
 ## Acceptance criteria
 
-- npm run validate passes.
-- Target pages are agent-approved-clean, or source-needed is justified.
-- Product spec details sit under Product Series.
+- `npm run validate` passes.
+- Target pages are `agent-approved-clean`, or `source-needed` is justified.
+- `產品規格詳情` sits under `產品系列`.
 - Tables, accordions, CTAs, downloads, and SEO checks match project rules.
-- No public-facing internal notes, local paths, placeholder links, or .txt hrefs.
+- No public-facing internal notes, local paths, placeholder links, or `.txt` hrefs.
 
