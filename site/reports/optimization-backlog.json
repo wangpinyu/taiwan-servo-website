@@ -1,11 +1,13 @@
 {
   "summary": {
-    "generated_at": "2026-07-05T22:47:21.251Z",
+    "generated_at": "2026-07-05T22:55:52.620Z",
     "total_categories": 18,
     "total_pages": 248,
-    "total_blocking_pages": 6,
+    "total_blocking_pages": 164,
     "status_counts": {
-      "agent-approved-clean": 242,
+      "agent-fix-required": 145,
+      "agent-approved-clean": 84,
+      "agent-structure-review": 13,
       "agent-source-needed": 6
     }
   },
@@ -16,7 +18,9 @@
       "branch": "phase-1-smac-spec-standard",
       "total": 14,
       "status_counts": {
-        "agent-approved-clean": 14
+        "agent-fix-required": 12,
+        "agent-approved-clean": 1,
+        "agent-structure-review": 1
       },
       "pages": [
         {
@@ -25,7 +29,7 @@
           "preview_rel": "preview/products/detail/100.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -35,7 +39,7 @@
           "preview_rel": "preview/products/detail/167.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -45,7 +49,7 @@
           "preview_rel": "preview/products/detail/168.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -55,7 +59,7 @@
           "preview_rel": "preview/products/detail/170.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -65,7 +69,7 @@
           "preview_rel": "preview/products/detail/171.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -85,7 +89,7 @@
           "preview_rel": "preview/products/detail/173.html",
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         },
@@ -95,7 +99,7 @@
           "preview_rel": "preview/products/detail/373.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -105,7 +109,7 @@
           "preview_rel": "preview/products/detail/374.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -115,7 +119,7 @@
           "preview_rel": "preview/products/detail/375.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -125,7 +129,7 @@
           "preview_rel": "preview/products/detail/376.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -135,7 +139,7 @@
           "preview_rel": "preview/products/detail/377.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -145,7 +149,7 @@
           "preview_rel": "preview/products/detail/378.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -155,12 +159,143 @@
           "preview_rel": "preview/products/detail/379.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "100",
+          "title": "Thomson 電動缸",
+          "preview_rel": "preview/products/detail/100.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "167",
+          "title": "SMAC 線性致動器",
+          "preview_rel": "preview/products/detail/167.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "168",
+          "title": "Servomech 電動缸",
+          "preview_rel": "preview/products/detail/168.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "170",
+          "title": "Thomson升降柱(Lifting Columns)",
+          "preview_rel": "preview/products/detail/170.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "171",
+          "title": "Thomson不銹鋼食品級線性致動器",
+          "preview_rel": "preview/products/detail/171.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "173",
+          "title": "CMCO 升降器",
+          "preview_rel": "preview/products/detail/173.html",
+          "overlay_status": "needs-review-unknown-module",
+          "qa_status": "pass",
+          "agent_status": "agent-structure-review",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "373",
+          "title": "SMAC圓形音圈致動器",
+          "preview_rel": "preview/products/detail/373.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "374",
+          "title": "SMAC線性加旋轉致動器",
+          "preview_rel": "preview/products/detail/374.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "375",
+          "title": "SMAC線性滑塊致動器",
+          "preview_rel": "preview/products/detail/375.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "376",
+          "title": "Thomson智慧型重載電動推桿",
+          "preview_rel": "preview/products/detail/376.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "377",
+          "title": "Thomson通用工業電動推桿",
+          "preview_rel": "preview/products/detail/377.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "378",
+          "title": "Thomson精密與特殊應用電動推桿",
+          "preview_rel": "preview/products/detail/378.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "379",
+          "title": "Thomson軌道式電動推桿",
+          "preview_rel": "preview/products/detail/379.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -169,7 +304,9 @@
       "branch": "phase-2-drivers-spec-review",
       "total": 12,
       "status_counts": {
-        "agent-approved-clean": 12
+        "agent-approved-clean": 8,
+        "agent-structure-review": 2,
+        "agent-fix-required": 2
       },
       "pages": [
         {
@@ -188,7 +325,7 @@
           "preview_rel": "preview/products/detail/80.html",
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         },
@@ -198,7 +335,7 @@
           "preview_rel": "preview/products/detail/81.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -228,7 +365,7 @@
           "preview_rel": "preview/products/detail/354.html",
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         },
@@ -248,7 +385,7 @@
           "preview_rel": "preview/products/detail/357.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -293,7 +430,48 @@
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "80",
+          "title": "Novanta IMS Mdrive 微步進驅動器",
+          "preview_rel": "preview/products/detail/80.html",
+          "overlay_status": "needs-review-unknown-module",
+          "qa_status": "pass",
+          "agent_status": "agent-structure-review",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "81",
+          "title": "Harmonic Servo Drivers（伺服驅動器）",
+          "preview_rel": "preview/products/detail/81.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "354",
+          "title": "Xenus 驅動器",
+          "preview_rel": "preview/products/detail/354.html",
+          "overlay_status": "needs-review-unknown-module",
+          "qa_status": "pass",
+          "agent_status": "agent-structure-review",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "357",
+          "title": "Integrated Drive",
+          "preview_rel": "preview/products/detail/357.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -302,7 +480,9 @@
       "branch": "phase-2-motors-spec-review",
       "total": 24,
       "status_counts": {
-        "agent-approved-clean": 24
+        "agent-approved-clean": 10,
+        "agent-fix-required": 13,
+        "agent-structure-review": 1
       },
       "pages": [
         {
@@ -341,7 +521,7 @@
           "preview_rel": "preview/products/detail/85.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -371,7 +551,7 @@
           "preview_rel": "preview/products/detail/88.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -381,7 +561,7 @@
           "preview_rel": "preview/products/detail/89.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -391,7 +571,7 @@
           "preview_rel": "preview/products/detail/90.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -401,7 +581,7 @@
           "preview_rel": "preview/products/detail/92.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -411,7 +591,7 @@
           "preview_rel": "preview/products/detail/93.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -421,7 +601,7 @@
           "preview_rel": "preview/products/detail/94.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -431,7 +611,7 @@
           "preview_rel": "preview/products/detail/95.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -441,7 +621,7 @@
           "preview_rel": "preview/products/detail/96.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -451,7 +631,7 @@
           "preview_rel": "preview/products/detail/97.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -461,7 +641,7 @@
           "preview_rel": "preview/products/detail/98.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -471,7 +651,7 @@
           "preview_rel": "preview/products/detail/102.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -531,7 +711,7 @@
           "preview_rel": "preview/products/detail/270.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -541,12 +721,153 @@
           "preview_rel": "preview/products/detail/388.html",
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "85",
+          "title": "Accel 音圈馬達",
+          "preview_rel": "preview/products/detail/85.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "88",
+          "title": "Harmonic AC Servo Motors（交流伺服馬達）",
+          "preview_rel": "preview/products/detail/88.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "89",
+          "title": "Harmonic Direct Drive Motor （直驅電動機）",
+          "preview_rel": "preview/products/detail/89.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "90",
+          "title": "Kollmorgen 兩相步進馬達",
+          "preview_rel": "preview/products/detail/90.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "92",
+          "title": "Kollmorgen KBM 無刷轉子、定子",
+          "preview_rel": "preview/products/detail/92.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "93",
+          "title": "Kollmorgen TBM低壓無框馬達",
+          "preview_rel": "preview/products/detail/93.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "94",
+          "title": "Kollmorgen 線性伺服馬達",
+          "preview_rel": "preview/products/detail/94.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "95",
+          "title": "Kollmorgen CDDR 直驅伺服控制系統",
+          "preview_rel": "preview/products/detail/95.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "96",
+          "title": "Kollmorgen 防水馬達",
+          "preview_rel": "preview/products/detail/96.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "97",
+          "title": "Kollmorgen AKM低溫伺服電機",
+          "preview_rel": "preview/products/detail/97.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "98",
+          "title": "Kollmorgen 防爆步進馬達",
+          "preview_rel": "preview/products/detail/98.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "102",
+          "title": "JVL整合型伺服馬達及步進馬達的特色",
+          "preview_rel": "preview/products/detail/102.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "270",
+          "title": "山洋電氣 SANYO DENKI 馬達相關",
+          "preview_rel": "preview/products/detail/270.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "388",
+          "title": "Novanta IMS MDrive 線性執行器",
+          "preview_rel": "preview/products/detail/388.html",
+          "overlay_status": "needs-review-unknown-module",
+          "qa_status": "pass",
+          "agent_status": "agent-structure-review",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -555,8 +876,9 @@
       "branch": "phase-2-drivers-spec-review",
       "total": 18,
       "status_counts": {
-        "agent-approved-clean": 12,
-        "agent-source-needed": 6
+        "agent-fix-required": 11,
+        "agent-source-needed": 6,
+        "agent-structure-review": 1
       },
       "pages": [
         {
@@ -565,7 +887,7 @@
           "preview_rel": "preview/products/detail/76.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -585,7 +907,7 @@
           "preview_rel": "preview/products/detail/242.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -595,7 +917,7 @@
           "preview_rel": "preview/products/detail/243.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -605,7 +927,7 @@
           "preview_rel": "preview/products/detail/244.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -615,7 +937,7 @@
           "preview_rel": "preview/products/detail/245.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -625,7 +947,7 @@
           "preview_rel": "preview/products/detail/246.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -635,7 +957,7 @@
           "preview_rel": "preview/products/detail/247.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -645,7 +967,7 @@
           "preview_rel": "preview/products/detail/248.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -655,7 +977,7 @@
           "preview_rel": "preview/products/detail/249.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -665,7 +987,7 @@
           "preview_rel": "preview/products/detail/251.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -675,7 +997,7 @@
           "preview_rel": "preview/products/detail/252.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -735,12 +1057,22 @@
           "preview_rel": "preview/products/detail/352.html",
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         }
       ],
       "blocking_pages": [
+        {
+          "product_id": "76",
+          "title": "雷射加工應用軟體：DMC",
+          "preview_rel": "preview/products/detail/76.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
         {
           "product_id": "241",
           "title": "測試-ACS硬體分類",
@@ -748,6 +1080,106 @@
           "overlay_status": "no-spec-module",
           "qa_status": "no-spec-module",
           "agent_status": "agent-source-needed",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "242",
+          "title": "測試-ACS EtherCAT控制主機(控制器)",
+          "preview_rel": "preview/products/detail/242.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "243",
+          "title": "ACS EtherCAT控制主機(控制器)O",
+          "preview_rel": "preview/products/detail/243.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "244",
+          "title": "ACS EtherCAT控制主機+內建驅動器O",
+          "preview_rel": "preview/products/detail/244.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "245",
+          "title": "ACS經濟型控制器+內建驅動器O",
+          "preview_rel": "preview/products/detail/245.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "246",
+          "title": "ACS Ethercat 驅動器(只能搭配ACS主機)O",
+          "preview_rel": "preview/products/detail/246.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "247",
+          "title": "ACS EtherCAT驅動器(可搭配其它品牌主機)O",
+          "preview_rel": "preview/products/detail/247.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "248",
+          "title": "ACS接收+-10V命令nanoPWM驅動器O",
+          "preview_rel": "preview/products/detail/248.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "249",
+          "title": "ACS EtherCAT介面模組O",
+          "preview_rel": "preview/products/detail/249.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "251",
+          "title": "ACS EtherCAT雷射控制模組O",
+          "preview_rel": "preview/products/detail/251.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "252",
+          "title": "ACS配件O",
+          "preview_rel": "preview/products/detail/252.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -798,6 +1230,16 @@
           "overlay_status": "no-spec-module",
           "qa_status": "no-spec-module",
           "agent_status": "agent-source-needed",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "352",
+          "title": "軟體開發與模擬套件",
+          "preview_rel": "preview/products/detail/352.html",
+          "overlay_status": "needs-review-unknown-module",
+          "qa_status": "pass",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         }
@@ -871,7 +1313,9 @@
       "branch": "phase-3-harmonic-drive",
       "total": 29,
       "status_counts": {
-        "agent-approved-clean": 29
+        "agent-fix-required": 14,
+        "agent-structure-review": 3,
+        "agent-approved-clean": 12
       },
       "pages": [
         {
@@ -880,7 +1324,7 @@
           "preview_rel": "preview/products/detail/150.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -890,7 +1334,7 @@
           "preview_rel": "preview/products/detail/196.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -900,7 +1344,7 @@
           "preview_rel": "preview/products/detail/199.html",
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         },
@@ -910,7 +1354,7 @@
           "preview_rel": "preview/products/detail/200.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -920,7 +1364,7 @@
           "preview_rel": "preview/products/detail/202.html",
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         },
@@ -930,7 +1374,7 @@
           "preview_rel": "preview/products/detail/203.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -950,7 +1394,7 @@
           "preview_rel": "preview/products/detail/206.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -970,7 +1414,7 @@
           "preview_rel": "preview/products/detail/273.html",
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         },
@@ -980,7 +1424,7 @@
           "preview_rel": "preview/products/detail/275.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1080,7 +1524,7 @@
           "preview_rel": "preview/products/detail/288.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1090,7 +1534,7 @@
           "preview_rel": "preview/products/detail/291.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1100,7 +1544,7 @@
           "preview_rel": "preview/products/detail/292.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1110,7 +1554,7 @@
           "preview_rel": "preview/products/detail/293.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1120,7 +1564,7 @@
           "preview_rel": "preview/products/detail/295.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1130,7 +1574,7 @@
           "preview_rel": "preview/products/detail/296.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1140,7 +1584,7 @@
           "preview_rel": "preview/products/detail/297.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1150,7 +1594,7 @@
           "preview_rel": "preview/products/detail/298.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1165,7 +1609,178 @@
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "150",
+          "title": "HarmonicDrive® 諧波減速機",
+          "preview_rel": "preview/products/detail/150.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "196",
+          "title": "線性直線致動器 LBC系列",
+          "preview_rel": "preview/products/detail/196.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "199",
+          "title": "KDU",
+          "preview_rel": "preview/products/detail/199.html",
+          "overlay_status": "needs-review-unknown-module",
+          "qa_status": "pass",
+          "agent_status": "agent-structure-review",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "200",
+          "title": "HMA",
+          "preview_rel": "preview/products/detail/200.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "202",
+          "title": "HPGP/HPG系列 行星減速機",
+          "preview_rel": "preview/products/detail/202.html",
+          "overlay_status": "needs-review-unknown-module",
+          "qa_status": "pass",
+          "agent_status": "agent-structure-review",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "203",
+          "title": "CSG-GH/CSF-GH 系列",
+          "preview_rel": "preview/products/detail/203.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "206",
+          "title": "LA 系列 DC線性伺服致動器",
+          "preview_rel": "preview/products/detail/206.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "273",
+          "title": "SHA",
+          "preview_rel": "preview/products/detail/273.html",
+          "overlay_status": "needs-review-unknown-module",
+          "qa_status": "pass",
+          "agent_status": "agent-structure-review",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "275",
+          "title": "RKF",
+          "preview_rel": "preview/products/detail/275.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "288",
+          "title": "SHF-SHG模組型O",
+          "preview_rel": "preview/products/detail/288.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "291",
+          "title": "SHD模組型O",
+          "preview_rel": "preview/products/detail/291.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "292",
+          "title": "FR",
+          "preview_rel": "preview/products/detail/292.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "293",
+          "title": "FB",
+          "preview_rel": "preview/products/detail/293.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "295",
+          "title": "FHA-C",
+          "preview_rel": "preview/products/detail/295.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "296",
+          "title": "RSF Supermini",
+          "preview_rel": "preview/products/detail/296.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "297",
+          "title": "RSF-B mini",
+          "preview_rel": "preview/products/detail/297.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "298",
+          "title": "RSF",
+          "preview_rel": "preview/products/detail/298.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -1174,7 +1789,8 @@
       "branch": "phase-3-renishaw-feedback",
       "total": 35,
       "status_counts": {
-        "agent-approved-clean": 35
+        "agent-fix-required": 21,
+        "agent-approved-clean": 14
       },
       "pages": [
         {
@@ -1183,7 +1799,7 @@
           "preview_rel": "preview/products/detail/116.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1193,7 +1809,7 @@
           "preview_rel": "preview/products/detail/117.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1203,7 +1819,7 @@
           "preview_rel": "preview/products/detail/118.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1213,7 +1829,7 @@
           "preview_rel": "preview/products/detail/119.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1223,7 +1839,7 @@
           "preview_rel": "preview/products/detail/120.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1233,7 +1849,7 @@
           "preview_rel": "preview/products/detail/121.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1243,7 +1859,7 @@
           "preview_rel": "preview/products/detail/122.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1253,7 +1869,7 @@
           "preview_rel": "preview/products/detail/123.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1263,7 +1879,7 @@
           "preview_rel": "preview/products/detail/124.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1283,7 +1899,7 @@
           "preview_rel": "preview/products/detail/126.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1293,7 +1909,7 @@
           "preview_rel": "preview/products/detail/299.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1303,7 +1919,7 @@
           "preview_rel": "preview/products/detail/300.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1423,7 +2039,7 @@
           "preview_rel": "preview/products/detail/315.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1433,7 +2049,7 @@
           "preview_rel": "preview/products/detail/316.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1443,7 +2059,7 @@
           "preview_rel": "preview/products/detail/319.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1473,7 +2089,7 @@
           "preview_rel": "preview/products/detail/322.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1483,7 +2099,7 @@
           "preview_rel": "preview/products/detail/323.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1493,7 +2109,7 @@
           "preview_rel": "preview/products/detail/324.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1503,7 +2119,7 @@
           "preview_rel": "preview/products/detail/325.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1513,7 +2129,7 @@
           "preview_rel": "preview/products/detail/326.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1523,12 +2139,223 @@
           "preview_rel": "preview/products/detail/363.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "116",
+          "title": "Renishaw ATOM 微型光學編碼器",
+          "preview_rel": "preview/products/detail/116.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "117",
+          "title": "Renishaw RESOLUTE™ 絕對式光學尺系列",
+          "preview_rel": "preview/products/detail/117.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "118",
+          "title": "RENISHAW (雷尼紹) RLS 磁性編碼器磁性尺",
+          "preview_rel": "preview/products/detail/118.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "119",
+          "title": "RENISHAW (雷尼紹) QUANTiC 增量式光學尺",
+          "preview_rel": "preview/products/detail/119.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "120",
+          "title": "TONiC™ 增量式光學尺",
+          "preview_rel": "preview/products/detail/120.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "121",
+          "title": "RENISHAW (雷尼紹) EVOLUTE™ 絕對式光學尺",
+          "preview_rel": "preview/products/detail/121.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "122",
+          "title": "RENISHAW (雷尼紹) VIONiC 增量式光學尺系統",
+          "preview_rel": "preview/products/detail/122.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "123",
+          "title": "RENISHAW (雷尼紹) ATOM DX 增量式編碼器",
+          "preview_rel": "preview/products/detail/123.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "124",
+          "title": "RENISHAW (雷尼紹) 增量式光學尺( Linear Encoder)",
+          "preview_rel": "preview/products/detail/124.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "126",
+          "title": "RENISHAW (雷尼紹) 光學尺診斷工具及介面 ADT & E201",
+          "preview_rel": "preview/products/detail/126.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "299",
+          "title": "線性標準增量式磁性尺",
+          "preview_rel": "preview/products/detail/299.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "300",
+          "title": "旋轉標準增量式磁性尺",
+          "preview_rel": "preview/products/detail/300.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "315",
+          "title": "軸向環",
+          "preview_rel": "preview/products/detail/315.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "316",
+          "title": "徑向環",
+          "preview_rel": "preview/products/detail/316.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "319",
+          "title": "RLD檢測頭(干涉儀)",
+          "preview_rel": "preview/products/detail/319.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "322",
+          "title": "RCU10 即時方波補償器",
+          "preview_rel": "preview/products/detail/322.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "323",
+          "title": "鏡面與光學鏡組",
+          "preview_rel": "preview/products/detail/323.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "324",
+          "title": "HS20雷射頭",
+          "preview_rel": "preview/products/detail/324.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "325",
+          "title": "光學計量配件",
+          "preview_rel": "preview/products/detail/325.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "326",
+          "title": "長距雷射編碼器安裝硬體",
+          "preview_rel": "preview/products/detail/326.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "363",
+          "title": "光學尺帶規格總表",
+          "preview_rel": "preview/products/detail/363.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -1537,7 +2364,8 @@
       "branch": "phase-3-positioning-stage",
       "total": 12,
       "status_counts": {
-        "agent-approved-clean": 12
+        "agent-fix-required": 8,
+        "agent-approved-clean": 4
       },
       "pages": [
         {
@@ -1546,7 +2374,7 @@
           "preview_rel": "preview/products/detail/155.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1576,7 +2404,7 @@
           "preview_rel": "preview/products/detail/158.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1586,7 +2414,7 @@
           "preview_rel": "preview/products/detail/159.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1596,7 +2424,7 @@
           "preview_rel": "preview/products/detail/160.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1606,7 +2434,7 @@
           "preview_rel": "preview/products/detail/161.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1636,7 +2464,7 @@
           "preview_rel": "preview/products/detail/164.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1646,7 +2474,7 @@
           "preview_rel": "preview/products/detail/165.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1656,12 +2484,93 @@
           "preview_rel": "preview/products/detail/166.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "155",
+          "title": "ALIO奈米級精密定位平台",
+          "preview_rel": "preview/products/detail/155.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "158",
+          "title": "Theta旋轉平台",
+          "preview_rel": "preview/products/detail/158.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "159",
+          "title": "ALIO Hybrid Hexapod史都華平台",
+          "preview_rel": "preview/products/detail/159.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "160",
+          "title": "精密電動微調平台",
+          "preview_rel": "preview/products/detail/160.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "161",
+          "title": "Primatics 高精密及無塵等級定位平台",
+          "preview_rel": "preview/products/detail/161.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "164",
+          "title": "Thomson滑台",
+          "preview_rel": "preview/products/detail/164.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "165",
+          "title": "PM B.V. 精密線性軸承定位平台",
+          "preview_rel": "preview/products/detail/165.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "166",
+          "title": "ALIO Hybrid Hexapod",
+          "preview_rel": "preview/products/detail/166.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -1670,7 +2579,8 @@
       "branch": "phase-3-bearings-air-mechanical",
       "total": 17,
       "status_counts": {
-        "agent-approved-clean": 17
+        "agent-fix-required": 4,
+        "agent-approved-clean": 13
       },
       "pages": [
         {
@@ -1679,7 +2589,7 @@
           "preview_rel": "preview/products/detail/149.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1689,7 +2599,7 @@
           "preview_rel": "preview/products/detail/174.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1699,7 +2609,7 @@
           "preview_rel": "preview/products/detail/175.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1709,7 +2619,7 @@
           "preview_rel": "preview/products/detail/191.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1844,7 +2754,48 @@
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "149",
+          "title": "Thomson 減速機",
+          "preview_rel": "preview/products/detail/149.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "174",
+          "title": "Winkel 重載傳輸軌道、軸承",
+          "preview_rel": "preview/products/detail/174.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "175",
+          "title": "各式軸承",
+          "preview_rel": "preview/products/detail/175.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "191",
+          "title": "Thomson 直線軸承和導軌",
+          "preview_rel": "preview/products/detail/191.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -1853,7 +2804,8 @@
       "branch": "phase-4-couplings",
       "total": 16,
       "status_counts": {
-        "agent-approved-clean": 16
+        "agent-fix-required": 15,
+        "agent-approved-clean": 1
       },
       "pages": [
         {
@@ -1862,7 +2814,7 @@
           "preview_rel": "preview/products/detail/153.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1872,7 +2824,7 @@
           "preview_rel": "preview/products/detail/154.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1882,7 +2834,7 @@
           "preview_rel": "preview/products/detail/207.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1892,7 +2844,7 @@
           "preview_rel": "preview/products/detail/208.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1902,7 +2854,7 @@
           "preview_rel": "preview/products/detail/209.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1912,7 +2864,7 @@
           "preview_rel": "preview/products/detail/210.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1922,7 +2874,7 @@
           "preview_rel": "preview/products/detail/211.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1932,7 +2884,7 @@
           "preview_rel": "preview/products/detail/212.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1942,7 +2894,7 @@
           "preview_rel": "preview/products/detail/213.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1952,7 +2904,7 @@
           "preview_rel": "preview/products/detail/214.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1962,7 +2914,7 @@
           "preview_rel": "preview/products/detail/215.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1972,7 +2924,7 @@
           "preview_rel": "preview/products/detail/216.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -1992,7 +2944,7 @@
           "preview_rel": "preview/products/detail/332.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2002,7 +2954,7 @@
           "preview_rel": "preview/products/detail/335.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2012,12 +2964,163 @@
           "preview_rel": "preview/products/detail/336.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "153",
+          "title": "RINGFEDER 免鍵式軸襯",
+          "preview_rel": "preview/products/detail/153.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "154",
+          "title": "Huco 精密聯軸器",
+          "preview_rel": "preview/products/detail/154.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "207",
+          "title": "RINGFEDER 聯軸器 防震元件總覽",
+          "preview_rel": "preview/products/detail/207.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "208",
+          "title": "RINGFEDER 波紋管聯軸器",
+          "preview_rel": "preview/products/detail/208.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "209",
+          "title": "RINFEDER 鋼片式聯軸器TND系列",
+          "preview_rel": "preview/products/detail/209.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "210",
+          "title": "RINFEDER齒輪聯軸器TNZ系列",
+          "preview_rel": "preview/products/detail/210.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "211",
+          "title": "RINFEDER筒形聯軸器TNK系列",
+          "preview_rel": "preview/products/detail/211.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "212",
+          "title": "RINFEDER法蘭聯軸器TNF系列",
+          "preview_rel": "preview/products/detail/212.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "213",
+          "title": "RINFEDER撓性聯軸器TNR系列",
+          "preview_rel": "preview/products/detail/213.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "214",
+          "title": "RINFEDER安全聯軸器TNT系列",
+          "preview_rel": "preview/products/detail/214.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "215",
+          "title": "RINGFEDER 摩擦彈簧",
+          "preview_rel": "preview/products/detail/215.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "216",
+          "title": "RINGFEDER工業緩衝器",
+          "preview_rel": "preview/products/detail/216.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "332",
+          "title": "RINGFEDER 彈性體顎式聯軸器 GWE TNM TNS TNB",
+          "preview_rel": "preview/products/detail/332.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "335",
+          "title": "Ringfeder RLP & RLB 彈性插銷聯軸器",
+          "preview_rel": "preview/products/detail/335.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "336",
+          "title": "Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)",
+          "preview_rel": "preview/products/detail/336.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -2026,7 +3129,9 @@
       "branch": "phase-4-fms-tension",
       "total": 26,
       "status_counts": {
-        "agent-approved-clean": 26
+        "agent-fix-required": 24,
+        "agent-approved-clean": 1,
+        "agent-structure-review": 1
       },
       "pages": [
         {
@@ -2035,7 +3140,7 @@
           "preview_rel": "preview/products/detail/130.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2045,7 +3150,7 @@
           "preview_rel": "preview/products/detail/131.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2055,7 +3160,7 @@
           "preview_rel": "preview/products/detail/132.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2065,7 +3170,7 @@
           "preview_rel": "preview/products/detail/133.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2075,7 +3180,7 @@
           "preview_rel": "preview/products/detail/134.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2085,7 +3190,7 @@
           "preview_rel": "preview/products/detail/135.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2095,7 +3200,7 @@
           "preview_rel": "preview/products/detail/136.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2105,7 +3210,7 @@
           "preview_rel": "preview/products/detail/137.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2115,7 +3220,7 @@
           "preview_rel": "preview/products/detail/138.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2125,7 +3230,7 @@
           "preview_rel": "preview/products/detail/139.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2135,7 +3240,7 @@
           "preview_rel": "preview/products/detail/140.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2145,7 +3250,7 @@
           "preview_rel": "preview/products/detail/141.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2155,7 +3260,7 @@
           "preview_rel": "preview/products/detail/143.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2165,7 +3270,7 @@
           "preview_rel": "preview/products/detail/144.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2175,7 +3280,7 @@
           "preview_rel": "preview/products/detail/145.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2185,7 +3290,7 @@
           "preview_rel": "preview/products/detail/146.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2195,7 +3300,7 @@
           "preview_rel": "preview/products/detail/338.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2205,7 +3310,7 @@
           "preview_rel": "preview/products/detail/339.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2215,7 +3320,7 @@
           "preview_rel": "preview/products/detail/340.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2225,7 +3330,7 @@
           "preview_rel": "preview/products/detail/341.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2235,7 +3340,7 @@
           "preview_rel": "preview/products/detail/342.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2245,7 +3350,7 @@
           "preview_rel": "preview/products/detail/343.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2265,7 +3370,7 @@
           "preview_rel": "preview/products/detail/347.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2275,7 +3380,7 @@
           "preview_rel": "preview/products/detail/349.html",
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         },
@@ -2285,12 +3390,263 @@
           "preview_rel": "preview/products/detail/350.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "130",
+          "title": "FMS 無線傳輸數位張力量測放大器",
+          "preview_rel": "preview/products/detail/130.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "131",
+          "title": "FMS 張力控制元件總覽",
+          "preview_rel": "preview/products/detail/131.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "132",
+          "title": "FMS 張力控制系統(無線及有線通訊模式)",
+          "preview_rel": "preview/products/detail/132.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "133",
+          "title": "FMS 張力感測器",
+          "preview_rel": "preview/products/detail/133.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "134",
+          "title": "FMS 張力放大器",
+          "preview_rel": "preview/products/detail/134.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "135",
+          "title": "FMS 張力控制器",
+          "preview_rel": "preview/products/detail/135.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "136",
+          "title": "FMS 糾邊感測器",
+          "preview_rel": "preview/products/detail/136.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "137",
+          "title": "糾邊控制器",
+          "preview_rel": "preview/products/detail/137.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "138",
+          "title": "FMS拉壓式",
+          "preview_rel": "preview/products/detail/138.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "139",
+          "title": "FMS糾邊器",
+          "preview_rel": "preview/products/detail/139.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "140",
+          "title": "FMS活動軸-C203 系列",
+          "preview_rel": "preview/products/detail/140.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "141",
+          "title": "FMS 座式張力傳感器",
+          "preview_rel": "preview/products/detail/141.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "143",
+          "title": "FMS軸徑式",
+          "preview_rel": "preview/products/detail/143.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "144",
+          "title": "FMS 輥式張力傳感器",
+          "preview_rel": "preview/products/detail/144.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "145",
+          "title": "FMS 真空環境之應用",
+          "preview_rel": "preview/products/detail/145.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "146",
+          "title": "FMS 成功案例",
+          "preview_rel": "preview/products/detail/146.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "338",
+          "title": "力傳感器",
+          "preview_rel": "preview/products/detail/338.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "339",
+          "title": "張力量測放大器",
+          "preview_rel": "preview/products/detail/339.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "340",
+          "title": "網狀張力控制器",
+          "preview_rel": "preview/products/detail/340.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "341",
+          "title": "分段式張力輪",
+          "preview_rel": "preview/products/detail/341.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "342",
+          "title": "ATEX 防爆環境",
+          "preview_rel": "preview/products/detail/342.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "343",
+          "title": "客製化產品和解決方案",
+          "preview_rel": "preview/products/detail/343.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "347",
+          "title": "捲材控制器",
+          "preview_rel": "preview/products/detail/347.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "349",
+          "title": "線纜煞車控制器 RTM X42.BC",
+          "preview_rel": "preview/products/detail/349.html",
+          "overlay_status": "needs-review-unknown-module",
+          "qa_status": "pass",
+          "agent_status": "agent-structure-review",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "350",
+          "title": "線纜張力控制中心 RTM X42.CC",
+          "preview_rel": "preview/products/detail/350.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -2299,7 +3655,8 @@
       "branch": "phase-4-solid-state-relays",
       "total": 10,
       "status_counts": {
-        "agent-approved-clean": 10
+        "agent-fix-required": 5,
+        "agent-approved-clean": 5
       },
       "pages": [
         {
@@ -2308,7 +3665,7 @@
           "preview_rel": "preview/products/detail/176.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2348,7 +3705,7 @@
           "preview_rel": "preview/products/detail/367.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2358,7 +3715,7 @@
           "preview_rel": "preview/products/detail/368.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2368,7 +3725,7 @@
           "preview_rel": "preview/products/detail/369.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2378,7 +3735,7 @@
           "preview_rel": "preview/products/detail/370.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2403,7 +3760,58 @@
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "176",
+          "title": "i-Autoc 固態繼電器 SSR 總覽",
+          "preview_rel": "preview/products/detail/176.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "367",
+          "title": "正反轉模組",
+          "preview_rel": "preview/products/detail/367.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "368",
+          "title": "調壓模組",
+          "preview_rel": "preview/products/detail/368.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "369",
+          "title": "智能模組",
+          "preview_rel": "preview/products/detail/369.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "370",
+          "title": "DRA系列工業模組",
+          "preview_rel": "preview/products/detail/370.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -2412,7 +3820,7 @@
       "branch": "phase-4-sanyo-denki",
       "total": 6,
       "status_counts": {
-        "agent-approved-clean": 6
+        "agent-fix-required": 6
       },
       "pages": [
         {
@@ -2421,7 +3829,7 @@
           "preview_rel": "preview/products/detail/193.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2431,7 +3839,7 @@
           "preview_rel": "preview/products/detail/194.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2441,7 +3849,7 @@
           "preview_rel": "preview/products/detail/195.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2451,7 +3859,7 @@
           "preview_rel": "preview/products/detail/403.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2461,7 +3869,7 @@
           "preview_rel": "preview/products/detail/404.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2471,12 +3879,73 @@
           "preview_rel": "preview/products/detail/405.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "193",
+          "title": "山洋電氣 San Ace 冷卻系統",
+          "preview_rel": "preview/products/detail/193.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "194",
+          "title": "山洋電氣 SANUPS電源系統",
+          "preview_rel": "preview/products/detail/194.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "195",
+          "title": "山洋電氣 SANMOTION伺服系統",
+          "preview_rel": "preview/products/detail/195.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "403",
+          "title": "DC冷卻風扇",
+          "preview_rel": "preview/products/detail/403.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "404",
+          "title": "ACDC風扇",
+          "preview_rel": "preview/products/detail/404.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "405",
+          "title": "AC冷卻風扇",
+          "preview_rel": "preview/products/detail/405.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -2485,7 +3954,8 @@
       "branch": "phase-4-special-environments",
       "total": 11,
       "status_counts": {
-        "agent-approved-clean": 11
+        "agent-fix-required": 5,
+        "agent-approved-clean": 6
       },
       "pages": [
         {
@@ -2494,7 +3964,7 @@
           "preview_rel": "preview/products/detail/178.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2504,7 +3974,7 @@
           "preview_rel": "preview/products/detail/179.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2524,7 +3994,7 @@
           "preview_rel": "preview/products/detail/181.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2554,7 +4024,7 @@
           "preview_rel": "preview/products/detail/184.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2594,12 +4064,63 @@
           "preview_rel": "preview/products/detail/188.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "178",
+          "title": "THOMSON Electrak® HD 線性致動器",
+          "preview_rel": "preview/products/detail/178.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "179",
+          "title": "Thomson不銹鋼食品級線性致動器",
+          "preview_rel": "preview/products/detail/179.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "181",
+          "title": "Winkel 重載傳輸軌道、軸承",
+          "preview_rel": "preview/products/detail/181.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "184",
+          "title": "Karl Klein鼓風機",
+          "preview_rel": "preview/products/detail/184.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "188",
+          "title": "Kollmorgen AKM低溫伺服電機",
+          "preview_rel": "preview/products/detail/188.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -2608,7 +4129,7 @@
       "branch": "phase-5-ceramic-chucks",
       "total": 1,
       "status_counts": {
-        "agent-approved-clean": 1
+        "agent-fix-required": 1
       },
       "pages": [
         {
@@ -2617,12 +4138,23 @@
           "preview_rel": "preview/products/detail/129.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "129",
+          "title": "多孔性陶瓷真空吸盤（Porous Ceramic Chuck Table）",
+          "preview_rel": "preview/products/detail/129.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -2631,7 +4163,8 @@
       "branch": "phase-5-sejinigb",
       "total": 2,
       "status_counts": {
-        "agent-approved-clean": 2
+        "agent-approved-clean": 1,
+        "agent-structure-review": 1
       },
       "pages": [
         {
@@ -2650,12 +4183,23 @@
           "preview_rel": "preview/products/detail/152.html",
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "152",
+          "title": "SEJINIGB 模組化齒圈轉台",
+          "preview_rel": "preview/products/detail/152.html",
+          "overlay_status": "needs-review-unknown-module",
+          "qa_status": "pass",
+          "agent_status": "agent-structure-review",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -2664,7 +4208,8 @@
       "branch": "phase-5-blowers",
       "total": 2,
       "status_counts": {
-        "agent-approved-clean": 2
+        "agent-structure-review": 1,
+        "agent-fix-required": 1
       },
       "pages": [
         {
@@ -2673,7 +4218,7 @@
           "preview_rel": "preview/products/detail/101.html",
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         },
@@ -2683,12 +4228,33 @@
           "preview_rel": "preview/products/detail/390.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "101",
+          "title": "Karl Klein鼓風機",
+          "preview_rel": "preview/products/detail/101.html",
+          "overlay_status": "needs-review-unknown-module",
+          "qa_status": "pass",
+          "agent_status": "agent-structure-review",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "390",
+          "title": "移動式防爆徑向鼓風機",
+          "preview_rel": "preview/products/detail/390.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
@@ -2697,7 +4263,8 @@
       "branch": "phase-5-automation-systems",
       "total": 5,
       "status_counts": {
-        "agent-approved-clean": 5
+        "agent-fix-required": 3,
+        "agent-structure-review": 2
       },
       "pages": [
         {
@@ -2706,7 +4273,7 @@
           "preview_rel": "preview/products/detail/177.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2716,7 +4283,7 @@
           "preview_rel": "preview/products/detail/218.html",
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         },
@@ -2726,7 +4293,7 @@
           "preview_rel": "preview/products/detail/219.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         },
@@ -2736,7 +4303,7 @@
           "preview_rel": "preview/products/detail/226.html",
           "overlay_status": "needs-review-unknown-module",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         },
@@ -2746,12 +4313,63 @@
           "preview_rel": "preview/products/detail/234.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-approved-clean",
+          "agent_status": "agent-fix-required",
           "warnings": [],
           "critical": []
         }
       ],
-      "blocking_pages": [],
+      "blocking_pages": [
+        {
+          "product_id": "177",
+          "title": "次系統設備（客製）",
+          "preview_rel": "preview/products/detail/177.html",
+          "overlay_status": "inserted",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "218",
+          "title": "奈米精度對位定位平台",
+          "preview_rel": "preview/products/detail/218.html",
+          "overlay_status": "needs-review-unknown-module",
+          "qa_status": "pass",
+          "agent_status": "agent-structure-review",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "219",
+          "title": "雙軸堆疊型X-Y STAGE",
+          "preview_rel": "preview/products/detail/219.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "226",
+          "title": "單軸線馬模組",
+          "preview_rel": "preview/products/detail/226.html",
+          "overlay_status": "needs-review-unknown-module",
+          "qa_status": "pass",
+          "agent_status": "agent-structure-review",
+          "warnings": [],
+          "critical": []
+        },
+        {
+          "product_id": "234",
+          "title": "全氣浮龍門平台",
+          "preview_rel": "preview/products/detail/234.html",
+          "overlay_status": "inserted-before-application",
+          "qa_status": "pass",
+          "agent_status": "agent-fix-required",
+          "warnings": [],
+          "critical": []
+        }
+      ],
       "source_pages": []
     },
     {
