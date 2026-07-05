@@ -71,6 +71,27 @@ powershell -ExecutionPolicy Bypass -File .\tools\prepare-github-pr.ps1 -Branch p
 powershell -ExecutionPolicy Bypass -File .\tools\prepare-github-issue.ps1 -Branch phase-1-smac-spec-standard
 ```
 
+若要不用 GitHub CLI、直接用 GitHub API 建立 labels、issues、PR，可先 dry-run：
+
+```powershell
+npm run github:bootstrap:dry-run
+```
+
+確認 dry-run 後，使用具備 private repo 權限的 fine-grained token：
+
+```powershell
+$env:GITHUB_TOKEN = "<token>"
+npm run github:bootstrap
+Remove-Item Env:\GITHUB_TOKEN
+```
+
+首次建議只建立第一個 issue / PR 做 smoke test：
+
+```powershell
+node tools/github-bootstrap.mjs --labels --issues --max-issues=1 --apply
+node tools/github-bootstrap.mjs --prs --max-prs=1 --apply
+```
+
 ## 狀態流轉
 
 主要資料來源是 `site/reports/product-spec-agent-review.json`。
