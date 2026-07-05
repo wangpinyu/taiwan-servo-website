@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T23:29:56.292Z",
+  "generated_at": "2026-07-05T23:44:26.164Z",
   "scope": "Product detail page SEO and structure QA",
   "strict": false,
   "policy": {
@@ -15,13 +15,13 @@
   "summary": {
     "total_pages": 248,
     "status_counts": {
-      "warn": 151,
-      "pass": 91,
+      "warn": 58,
+      "pass": 184,
       "no-spec-module": 6
     },
     "fail_count": 0,
-    "warn_count": 151,
-    "pass_count": 91,
+    "warn_count": 58,
+    "pass_count": 184,
     "no_spec_module_count": 6
   },
   "pages": [
@@ -119,8 +119,17 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [],
-      "qa_status": "pass"
+      "warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_unit_header_not_detected",
+        "table_6_unit_header_not_detected",
+        "table_7_unit_header_not_detected",
+        "table_10_unit_header_not_detected"
+      ],
+      "qa_status": "warn"
     },
     {
       "product_id": "80",
@@ -150,10 +159,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "81",
@@ -183,10 +190,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "82",
@@ -442,11 +447,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "90",
@@ -477,10 +479,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_7_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "92",
@@ -511,13 +511,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "93",
@@ -549,7 +544,6 @@
       },
       "critical": [],
       "warnings": [
-        "table_3_model_header_not_detected",
         "table_3_unit_header_not_detected"
       ],
       "qa_status": "warn"
@@ -583,10 +577,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_4_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "95",
@@ -617,11 +609,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "96",
@@ -652,13 +641,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_2_model_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_5_model_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "97",
@@ -689,14 +673,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "98",
@@ -727,11 +705,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "100",
@@ -762,10 +737,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "101",
@@ -795,10 +768,8 @@
         "cta_links": 6
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "102",
@@ -1215,19 +1186,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_model_header_not_detected",
-        "table_5_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "117",
@@ -1258,17 +1218,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_model_header_not_detected",
-        "table_6_model_header_not_detected",
-        "table_6_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "118",
@@ -1299,13 +1250,8 @@
         "cta_links": 2
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_5_model_header_not_detected",
-        "table_5_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "119",
@@ -1337,17 +1283,7 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_model_header_not_detected",
-        "table_5_unit_header_not_detected",
-        "table_6_model_header_not_detected",
-        "table_6_unit_header_not_detected"
+        "table_2_model_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -1380,21 +1316,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_model_header_not_detected",
-        "table_5_unit_header_not_detected",
-        "table_6_model_header_not_detected",
-        "table_6_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "121",
@@ -1425,17 +1348,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "122",
@@ -1466,16 +1380,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_model_header_not_detected",
-        "table_5_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "123",
@@ -1506,16 +1412,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_model_header_not_detected",
-        "table_5_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "124",
@@ -1546,12 +1444,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_4_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "125",
@@ -1614,13 +1508,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "129",
@@ -1651,14 +1540,7 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected"
+        "table_3_model_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -1690,11 +1572,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "131",
@@ -1724,12 +1603,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_2_unit_header_not_detected",
-        "table_5_model_header_not_detected",
-        "table_5_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "132",
@@ -1759,17 +1634,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_model_header_not_detected",
-        "table_5_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "133",
@@ -1799,10 +1665,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_5_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "134",
@@ -1832,14 +1696,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "135",
@@ -1869,17 +1727,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "136",
@@ -1910,8 +1759,7 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
+        "table_1_model_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -1943,17 +1791,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "138",
@@ -1983,11 +1822,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "139",
@@ -2018,12 +1854,7 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_unit_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_unit_header_not_detected"
+        "table_2_unit_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -2055,11 +1886,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "141",
@@ -2089,11 +1917,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "143",
@@ -2123,11 +1948,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "144",
@@ -2157,11 +1979,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "145",
@@ -2191,11 +2010,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "146",
@@ -2226,16 +2042,8 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
         "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_model_header_not_detected",
-        "table_5_unit_header_not_detected"
+        "table_4_unit_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -2301,15 +2109,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_unit_header_not_detected",
-        "table_6_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "151",
@@ -2370,11 +2171,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "153",
@@ -2404,12 +2202,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_4_unit_header_not_detected",
-        "table_5_model_header_not_detected",
-        "table_5_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "154",
@@ -2439,10 +2233,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_6_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "155",
@@ -2473,10 +2265,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "156",
@@ -2571,10 +2361,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "159",
@@ -2605,10 +2393,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "160",
@@ -2638,14 +2424,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "161",
@@ -2676,10 +2456,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_3_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "162",
@@ -2773,10 +2551,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "165",
@@ -2807,13 +2583,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "166",
@@ -2844,10 +2615,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "167",
@@ -3074,8 +2843,7 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
+        "table_1_model_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -3108,27 +2876,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_unit_header_not_detected",
-        "table_6_unit_header_not_detected",
-        "table_7_unit_header_not_detected",
-        "table_8_unit_header_not_detected",
-        "table_9_unit_header_not_detected",
-        "table_10_unit_header_not_detected",
-        "table_11_unit_header_not_detected",
-        "table_12_unit_header_not_detected",
-        "table_13_unit_header_not_detected",
-        "table_14_unit_header_not_detected",
-        "table_15_unit_header_not_detected",
-        "table_16_unit_header_not_detected",
-        "table_17_unit_header_not_detected",
-        "table_18_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "176",
@@ -3158,15 +2907,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_unit_header_not_detected",
-        "table_5_unit_header_not_detected",
-        "table_6_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "177",
@@ -3197,17 +2939,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_4_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "178",
@@ -3237,10 +2970,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "179",
@@ -3338,8 +3069,7 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
+        "table_1_model_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -3433,10 +3163,8 @@
         "cta_links": 9
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "185",
@@ -3562,11 +3290,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "191",
@@ -3663,10 +3388,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "194",
@@ -3799,7 +3522,6 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_unit_header_not_detected",
         "table_2_model_header_not_detected",
         "table_2_unit_header_not_detected"
       ],
@@ -3902,10 +3624,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_2_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "204",
@@ -3968,12 +3688,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "207",
@@ -4003,10 +3719,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "208",
@@ -4234,10 +3948,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "215",
@@ -4300,10 +4012,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "217",
@@ -4365,11 +4075,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "219",
@@ -4400,11 +4107,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "226",
@@ -4435,11 +4139,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "234",
@@ -4470,11 +4171,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "241",
@@ -4537,10 +4235,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "243",
@@ -4571,10 +4267,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "244",
@@ -4605,10 +4299,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "245",
@@ -4639,10 +4331,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "246",
@@ -4673,10 +4363,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "247",
@@ -4707,10 +4395,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "248",
@@ -4741,10 +4427,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "249",
@@ -4775,10 +4459,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "251",
@@ -4809,10 +4491,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "252",
@@ -4843,10 +4523,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "253",
@@ -5488,10 +5166,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "276",
@@ -5812,10 +5488,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "291",
@@ -5846,10 +5520,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "292",
@@ -5880,10 +5552,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "293",
@@ -5914,10 +5584,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "295",
@@ -5949,10 +5617,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "296",
@@ -5984,10 +5650,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "297",
@@ -6019,10 +5683,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "298",
@@ -6054,10 +5716,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "299",
@@ -6542,10 +6202,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "318",
@@ -6707,10 +6365,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "323",
@@ -6741,11 +6397,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "324",
@@ -6776,10 +6429,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "325",
@@ -6812,11 +6463,7 @@
       "critical": [],
       "warnings": [
         "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected"
+        "table_2_model_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -6850,12 +6497,7 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected"
+        "table_1_model_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -6887,8 +6529,12 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [],
-      "qa_status": "pass"
+      "warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "qa_status": "warn"
     },
     {
       "product_id": "332",
@@ -6918,10 +6564,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "335",
@@ -7117,8 +6761,7 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
+        "table_1_model_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -7151,8 +6794,7 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
+        "table_1_model_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -7185,8 +6827,7 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected"
+        "table_1_model_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -7249,10 +6890,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "349",
@@ -7283,10 +6922,6 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
         "table_3_model_header_not_detected"
       ],
       "qa_status": "warn"
@@ -7321,11 +6956,7 @@
       "critical": [],
       "warnings": [
         "table_1_model_header_not_detected",
-        "table_1_unit_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected"
+        "table_2_model_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -7390,8 +7021,14 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [],
-      "qa_status": "pass"
+      "warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_unit_header_not_detected"
+      ],
+      "qa_status": "warn"
     },
     {
       "product_id": "355",
@@ -7421,8 +7058,12 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [],
-      "qa_status": "pass"
+      "warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_4_unit_header_not_detected"
+      ],
+      "qa_status": "warn"
     },
     {
       "product_id": "357",
@@ -7485,8 +7126,12 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [],
-      "qa_status": "pass"
+      "warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "qa_status": "warn"
     },
     {
       "product_id": "359",
@@ -7547,8 +7192,10 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [],
-      "qa_status": "pass"
+      "warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "qa_status": "warn"
     },
     {
       "product_id": "361",
@@ -7578,8 +7225,10 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [],
-      "qa_status": "pass"
+      "warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "qa_status": "warn"
     },
     {
       "product_id": "363",
@@ -7610,12 +7259,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected",
-        "table_2_unit_header_not_detected",
-        "table_3_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "364",
@@ -7739,8 +7384,6 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_2_model_header_not_detected",
         "table_3_model_header_not_detected",
         "table_4_model_header_not_detected"
       ],
@@ -7777,8 +7420,7 @@
       "warnings": [
         "table_1_model_header_not_detected",
         "table_2_model_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_4_model_header_not_detected"
+        "table_3_model_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -7811,10 +7453,7 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_2_model_header_not_detected",
         "table_3_model_header_not_detected",
-        "table_3_unit_header_not_detected",
         "table_4_model_header_not_detected"
       ],
       "qa_status": "warn"
@@ -7847,10 +7486,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "371",
@@ -7943,10 +7580,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "374",
@@ -7977,10 +7612,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "375",
@@ -8011,10 +7644,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "376",
@@ -8045,11 +7676,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_2_model_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "377",
@@ -8080,14 +7708,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_3_model_header_not_detected",
-        "table_4_model_header_not_detected",
-        "table_5_model_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "378",
@@ -8119,9 +7741,7 @@
       },
       "critical": [],
       "warnings": [
-        "table_1_model_header_not_detected",
-        "table_2_model_header_not_detected",
-        "table_3_model_header_not_detected"
+        "table_1_model_header_not_detected"
       ],
       "qa_status": "warn"
     },
@@ -8154,10 +7774,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_model_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "388",
@@ -8188,10 +7806,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "390",
@@ -8221,10 +7837,8 @@
         "cta_links": 7
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "398",
@@ -8350,10 +7964,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "404",
@@ -8383,10 +7995,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "405",
@@ -8416,10 +8026,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_1_unit_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     }
   ]
 }
