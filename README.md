@@ -140,8 +140,10 @@ Remove-Item Env:\GITHUB_TOKEN
 For a smaller first pass:
 
 ```powershell
-node tools/github-bootstrap.mjs --labels --issues --max-issues=1 --apply
-node tools/github-bootstrap.mjs --prs --max-prs=1 --apply
+npm run github:bootstrap:smoke:dry-run
+$env:GITHUB_TOKEN = "<token>"
+npm run github:bootstrap:smoke
+Remove-Item Env:\GITHUB_TOKEN
 ```
 
 Do not commit or paste the token into files. The script only reads `GITHUB_TOKEN` / `GH_TOKEN` from the environment.
