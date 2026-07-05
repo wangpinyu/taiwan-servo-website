@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-07-05T22:29:22.036Z",
+  "status": "ok",
+  "summary": {
+    "docs": 6,
+    "errors": 0
+  },
+  "checks": [
+    {
+      "file": "README.md",
+      "status": "pass",
+      "title": "# Taiwan Servo Site Optimization",
+      "chars": 6205,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "docs/github-optimization-workflow.md",
+      "status": "pass",
+      "title": "# GitHub 驅動的星泰產品頁優化工作流",
+      "chars": 3940,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "docs/github-private-repo-setup.md",
+      "status": "pass",
+      "title": "# Private GitHub Repo Setup",
+      "chars": 2098,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "docs/product-spec-data-schema.md",
+      "status": "pass",
+      "title": "# 產品規格詳情資料 Schema",
+      "chars": 3570,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "docs/products-page-architecture.md",
+      "status": "pass",
+      "title": "# 產品頁架構標準",
+      "chars": 2046,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "docs/spec-module-review-log.md",
+      "status": "pass",
+      "title": "# 產品規格詳情模組審核紀錄",
+      "chars": 3841,
+      "errors": [],
+      "mojibakeHits": []
+    }
+  ]
+}
