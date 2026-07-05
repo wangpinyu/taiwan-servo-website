@@ -62,6 +62,7 @@ Large images and documents are tracked through Git LFS via `.gitattributes`.
 3. Review:
    - `site/reports/product-standardization-report.html`
    - `site/reports/product-spec-module-qa.html`
+   - `site/reports/product-page-structure-seo-qa.html`
    - `site/reports/product-spec-agent-review.html`
    - `site/reports/source-needed-audit.html`
    - `site/reports/docs-readability-validation.html`
@@ -200,6 +201,17 @@ Status meanings:
 ## Current Review Policy
 
 AI agent performs normal structure, source, CTA, table, and download-link review.
+
+`npm run qa:product-seo` adds product-page-level checks for H1, title, canonical, breadcrumb detection, standardized spec module order, accordion controls, tables, CTA links, download labels, and public-facing internal notes.
+
+If a product page has more than one H1, run:
+
+```powershell
+npm run fix:h1-hierarchy:dry-run
+npm run fix:h1-hierarchy
+```
+
+This keeps the first product title H1 and converts later H1 tags in product body content to H2.
 
 Human review is reserved for exceptions:
 
