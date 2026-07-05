@@ -1,0 +1,169 @@
+{
+  "generated_at": "2026-07-05T21:28:04.384Z",
+  "scope": "Source-needed and no-spec-module audit for product pages",
+  "policy": {
+    "noSpecWithoutSource": true,
+    "noInventedSpecifications": true,
+    "reviewOwner": "AI agent, with human escalation only for business/source decisions"
+  },
+  "summary": {
+    "total_pages": 6,
+    "disposition_counts": {
+      "exclude-test-page": 1,
+      "software-source-needed": 3,
+      "informational-source-needed": 1,
+      "training-content-no-spec": 1
+    }
+  },
+  "pages": [
+    {
+      "product_id": "241",
+      "title": "測試-ACS硬體分類",
+      "category_path": [
+        "ACS 控制器 / 驅動器",
+        "測試-ACS分類",
+        "測試-ACS硬體分類"
+      ],
+      "preview_rel": "preview/products/detail/241.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "no-spec-module",
+      "overlay_status": "no-spec-module",
+      "spec_candidate_rel": "",
+      "validation": {
+        "hasSeries": false,
+        "hasApplications": false,
+        "hasDownloads": false,
+        "tables": 1,
+        "pdfLinks": 0,
+        "unknownHeadings": []
+      },
+      "disposition": "exclude-test-page",
+      "reason": "頁面名稱或分類顯示為測試用途，不應自行補產品規格。",
+      "nextAction": "由站方確認是否保留測試頁；若保留，需提供正式產品來源後再建立規格模組。"
+    },
+    {
+      "product_id": "253",
+      "title": "軟體-1",
+      "category_path": [
+        "ACS 控制器 / 驅動器",
+        "ACS 軟體",
+        "軟體-1"
+      ],
+      "preview_rel": "preview/products/detail/253.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "no-spec-module",
+      "overlay_status": "no-spec-module",
+      "spec_candidate_rel": "",
+      "validation": {
+        "hasSeries": false,
+        "hasApplications": false,
+        "hasDownloads": false,
+        "tables": 0,
+        "pdfLinks": 0,
+        "unknownHeadings": []
+      },
+      "disposition": "software-source-needed",
+      "reason": "軟體頁不適合套用硬體型產品規格表；需要官方軟體版本、功能、相容控制器與下載來源。",
+      "nextAction": "建立軟體型資料 schema，或取得官方 ACS 軟體頁來源後再建模。"
+    },
+    {
+      "product_id": "254",
+      "title": "軟體-2",
+      "category_path": [
+        "ACS 控制器 / 驅動器",
+        "ACS 軟體",
+        "軟體-2"
+      ],
+      "preview_rel": "preview/products/detail/254.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "no-spec-module",
+      "overlay_status": "no-spec-module",
+      "spec_candidate_rel": "",
+      "validation": {
+        "hasSeries": false,
+        "hasApplications": false,
+        "hasDownloads": false,
+        "tables": 0,
+        "pdfLinks": 0,
+        "unknownHeadings": []
+      },
+      "disposition": "software-source-needed",
+      "reason": "軟體頁不適合套用硬體型產品規格表；需要官方軟體版本、功能、相容控制器與下載來源。",
+      "nextAction": "建立軟體型資料 schema，或取得官方 ACS 軟體頁來源後再建模。"
+    },
+    {
+      "product_id": "255",
+      "title": "軟體-3",
+      "category_path": [
+        "ACS 控制器 / 驅動器",
+        "ACS 軟體",
+        "軟體-3"
+      ],
+      "preview_rel": "preview/products/detail/255.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "no-spec-module",
+      "overlay_status": "no-spec-module",
+      "spec_candidate_rel": "",
+      "validation": {
+        "hasSeries": false,
+        "hasApplications": false,
+        "hasDownloads": false,
+        "tables": 0,
+        "pdfLinks": 0,
+        "unknownHeadings": []
+      },
+      "disposition": "software-source-needed",
+      "reason": "軟體頁不適合套用硬體型產品規格表；需要官方軟體版本、功能、相容控制器與下載來源。",
+      "nextAction": "建立軟體型資料 schema，或取得官方 ACS 軟體頁來源後再建模。"
+    },
+    {
+      "product_id": "268",
+      "title": "ACS 特點說明",
+      "category_path": [
+        "ACS 控制器 / 驅動器",
+        "ACS 特點說明"
+      ],
+      "preview_rel": "preview/products/detail/268.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "no-spec-module",
+      "overlay_status": "no-spec-module",
+      "spec_candidate_rel": "",
+      "validation": {
+        "hasSeries": false,
+        "hasApplications": false,
+        "hasDownloads": false,
+        "tables": 1,
+        "pdfLinks": 0,
+        "unknownHeadings": []
+      },
+      "disposition": "informational-source-needed",
+      "reason": "特點說明頁偏資訊架構或說明頁，缺少可驗證的產品系列/型號規格來源。",
+      "nextAction": "保留為說明頁，或提供官方 ACS feature/spec 來源後再建立比較表。"
+    },
+    {
+      "product_id": "269",
+      "title": "ACS 教育訓練影片",
+      "category_path": [
+        "ACS 控制器 / 驅動器",
+        "ACS 教育訓練影片",
+        "ACS 教育訓練影片"
+      ],
+      "preview_rel": "preview/products/detail/269.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "no-spec-module",
+      "overlay_status": "no-spec-module",
+      "spec_candidate_rel": "",
+      "validation": {
+        "hasSeries": false,
+        "hasApplications": false,
+        "hasDownloads": false,
+        "tables": 4,
+        "pdfLinks": 0,
+        "unknownHeadings": []
+      },
+      "disposition": "training-content-no-spec",
+      "reason": "教育訓練或影片型內容不是產品規格頁；不應新增推測規格表。",
+      "nextAction": "若此頁保留於產品分類，應改走內容/影片索引優化，不納入產品規格詳情缺口。"
+    }
+  ]
+}
