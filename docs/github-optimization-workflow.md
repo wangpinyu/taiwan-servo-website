@@ -102,8 +102,10 @@ Remove-Item Env:\GITHUB_TOKEN
 只建立少量物件做 smoke test：
 
 ```powershell
-node tools/github-bootstrap.mjs --labels --issues --max-issues=1 --apply
-node tools/github-bootstrap.mjs --prs --max-prs=1 --apply
+npm run github:bootstrap:smoke:dry-run
+$env:GITHUB_TOKEN = "<token>"
+npm run github:bootstrap:smoke
+Remove-Item Env:\GITHUB_TOKEN
 ```
 
 如果不使用 API，可產出手動建立 PR / issue 的 Markdown：

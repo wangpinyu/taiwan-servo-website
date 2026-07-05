@@ -20,6 +20,8 @@
     "workflow:pr-index": "node tools/generate-github-pr-index.mjs",
     "workflow:github-readiness": "node tools/generate-github-bootstrap-readiness.mjs",
     "github:bootstrap:dry-run": "node tools/github-bootstrap.mjs --all",
+    "github:bootstrap:smoke:dry-run": "node tools/github-bootstrap.mjs --labels --issues --max-issues=1 && node tools/github-bootstrap.mjs --prs --max-prs=1",
+    "github:bootstrap:smoke": "node tools/github-bootstrap.mjs --labels --issues --max-issues=1 --apply && node tools/github-bootstrap.mjs --prs --max-prs=1 --apply",
     "github:bootstrap": "node tools/github-bootstrap.mjs --all --apply"
   },
   "engines": {
