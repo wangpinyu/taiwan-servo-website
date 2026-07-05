@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-05T20:05:07.841Z",
+  "generatedAt": "2026-07-05T20:07:53.967Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
+  "existingPullRequestRefs": 0,
   "note": "Create PRs from lower priority to higher priority only after phase-1 is accepted, or use the listed base branch for stacked review.",
   "entries": [
     {

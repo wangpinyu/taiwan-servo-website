@@ -62,6 +62,10 @@ function readPrSummaryExists(branch) {
 fs.mkdirSync(outDir, { recursive: true });
 
 const generatedAt = new Date().toISOString();
+const existingPullRefs = git(['ls-remote', 'origin', 'refs/pull/*/head'])
+  .split('\n')
+  .map((line) => line.trim())
+  .filter(Boolean);
 const entries = plan.map((item) => {
   const remoteExists = remoteBranchExists(item.branch);
   const smoke = remoteExists ? readSmoke(item.branch) : null;
@@ -84,6 +88,7 @@ const entries = plan.map((item) => {
 const json = {
   generatedAt,
   repository: repo,
+  existingPullRequestRefs: existingPullRefs.length,
   note: 'Create PRs from lower priority to higher priority only after phase-1 is accepted, or use the listed base branch for stacked review.',
   entries,
 };
@@ -94,6 +99,8 @@ const md = [
   `更新時間：${generatedAt}`,
   '',
   '此檔案是本機工作流索引。實際 PR 仍需在 GitHub 網頁建立；每個分支已推送到 remote。',
+  '',
+  `目前 GitHub pull request refs：${existingPullRefs.length}`,
   '',
   '## 開 PR 順序',
   '',
@@ -130,5 +137,6 @@ console.log(JSON.stringify({
   generatedAt,
   entries: entries.length,
   remoteBranches: entries.filter((entry) => entry.remoteExists).length,
+  existingPullRequestRefs: existingPullRefs.length,
   missingSmoke: entries.filter((entry) => !entry.smoke).map((entry) => entry.branch),
 }, null, 2));
