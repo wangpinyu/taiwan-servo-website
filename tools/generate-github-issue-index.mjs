@@ -70,11 +70,11 @@ const output = {
 };
 
 const md = [
-  '# GitHub Issue 控制表',
+  '# GitHub Issue Index',
   '',
-  `更新時間：${generatedAt}`,
+  `Generated at: ${generatedAt}`,
   '',
-  '用途：每個產品分類或品牌建立一個 tracking issue，追蹤產品規格詳情、SEO、UIUX、下載連結與 QA 狀態。',
+  '每個 issue 對應一個產品分類或品牌，用來追蹤產品規格詳情、SEO、UIUX、下載連結與 QA 狀態。',
   '',
   '## 使用方式',
   '',
@@ -83,7 +83,7 @@ const md = [
   'powershell -ExecutionPolicy Bypass -File .\\tools\\prepare-github-issue.ps1 -Branch phase-1-smac-spec-standard',
   '```',
   '',
-  '## Issue 草稿',
+  '## Issue drafts',
   '',
   '| # | Category | Branch | Pages | Blocking | Source needed | Labels | Draft | Create |',
   '| --- | --- | --- | ---: | ---: | ---: | --- | --- | --- |',
@@ -93,12 +93,12 @@ const md = [
     return `| ${entry.priority} | ${mdEscape(entry.category)} | \`${entry.branch}\` | ${entry.pages} | ${entry.blockingPages} | ${entry.sourcePages} | ${labels} | ${draft} | [new issue](${entry.issueNewUrl}) |`;
   }),
   '',
-  '## 驗收規則',
+  '## 執行規則',
   '',
-  '- 每個 issue 對應一個產品分類或品牌。',
-  '- 對應分支與 PR 完成前，issue 保持 open。',
-  '- `source-needed` 只用於官方資料缺失或來源衝突，不作為一般排版問題。',
-  '- `blocked-server-large-file` 是已知伺服器/大檔策略標記，不阻塞本機 preview 優化。',
+  '- 每個 issue 綁定一個產品分類或品牌。',
+  '- 對應 PR 完成後，在 issue 中補上 QA 報告與 AI review 狀態。',
+  '- `source-needed` 表示官方來源或下載映射不足，不應自行補寫規格。',
+  '- `blocked-server-large-file` 是伺服器或大檔限制，不阻塞本機 preview 優化。',
   '',
 ];
 
@@ -120,7 +120,7 @@ const html = `<!doctype html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GitHub Issue 控制表</title>
+  <title>GitHub Issue Index</title>
   <style>
     body{font-family:Arial,"Noto Sans TC",sans-serif;margin:24px;color:#122033;background:#f8faf8}
     table{border-collapse:collapse;width:100%;background:#fff}
@@ -132,7 +132,7 @@ const html = `<!doctype html>
   </style>
 </head>
 <body>
-  <h1>GitHub Issue 控制表</h1>
+  <h1>GitHub Issue Index</h1>
   <p>Generated at ${htmlEscape(generatedAt)} from <code>optimization-backlog.json</code>.</p>
   <div class="summary">
     <div class="card">Issues: ${htmlEscape(output.summary.totalIssues)}</div>
