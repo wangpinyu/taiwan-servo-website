@@ -13,7 +13,8 @@
     "qa:agent": "node tools/generate-product-spec-agent-review.mjs",
     "fix:spec-common": "node tools/apply-common-spec-module-fixes.mjs",
     "fix:spec-common:dry-run": "node tools/apply-common-spec-module-fixes.mjs --dry-run",
-    "workflow:backlog": "node tools/generate-optimization-backlog.mjs"
+    "workflow:backlog": "node tools/generate-optimization-backlog.mjs",
+    "workflow:pr-index": "node tools/generate-github-pr-index.mjs"
   },
   "engines": {
     "node": ">=20"
