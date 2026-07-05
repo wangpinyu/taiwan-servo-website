@@ -104,6 +104,8 @@ node tools/github-bootstrap.mjs --prs --max-prs=1 --apply
 - `agent-source-needed`：官方資料不足或來源衝突，保留缺口，不編造內容。
 - `agent-approved-clean`：本機 preview 與 QA 已通過。
 
+`agent-source-needed` 頁面需附 `site/reports/source-needed-audit.html` 的處置理由。測試頁、軟體頁、教育訓練影片或說明頁不應硬套硬體規格表，除非有明確官方來源與資料 schema。
+
 完成條件：
 
 - 目標頁為 `agent-approved-clean`，或 `source-needed` 已合理列入報告。
