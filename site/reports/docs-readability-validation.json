@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T23:15:07.440Z",
+  "generatedAt": "2026-07-05T23:33:28.981Z",
   "status": "ok",
   "summary": {
     "docs": 6,
@@ -17,8 +17,8 @@
     {
       "file": "docs/github-optimization-workflow.md",
       "status": "pass",
-      "title": "# GitHub 驅動的星泰產品頁優化工作流",
-      "chars": 4467,
+      "title": "# GitHub 驅動的產品頁優化工作流",
+      "chars": 3978,
       "errors": [],
       "mojibakeHits": []
     },
@@ -34,7 +34,7 @@
       "file": "docs/product-spec-data-schema.md",
       "status": "pass",
       "title": "# 產品規格詳情資料 Schema",
-      "chars": 3570,
+      "chars": 3622,
       "errors": [],
       "mojibakeHits": []
     },
@@ -42,15 +42,15 @@
       "file": "docs/products-page-architecture.md",
       "status": "pass",
       "title": "# 產品頁架構標準",
-      "chars": 2046,
+      "chars": 2087,
       "errors": [],
       "mojibakeHits": []
     },
     {
       "file": "docs/spec-module-review-log.md",
       "status": "pass",
-      "title": "# 產品規格詳情模組審核紀錄",
-      "chars": 3841,
+      "title": "# 產品規格詳情審核紀錄",
+      "chars": 3274,
       "errors": [],
       "mojibakeHits": []
     }
