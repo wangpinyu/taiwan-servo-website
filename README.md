@@ -33,6 +33,7 @@ Documents linked from included product pages may still be present under `site/do
 ```powershell
 npm run serve
 npm run validate
+npm run qa:mirror
 ```
 
 Then open:
@@ -63,6 +64,7 @@ Large images and documents are tracked through Git LFS via `.gitattributes`.
    - `site/reports/product-spec-module-qa.html`
    - `site/reports/product-spec-agent-review.html`
    - `site/reports/github-ready-validation.html`
+   - `site/reports/local-mirror-readiness-current.html`
    - `site/reports/optimization-backlog.html`
 4. Use AI agent review status to decide next step.
 5. Only after local preview is accepted, prepare backend or server deployment.
