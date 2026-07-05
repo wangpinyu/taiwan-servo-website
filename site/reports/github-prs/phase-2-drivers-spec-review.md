@@ -41,6 +41,7 @@
   - no broken images after scrolling through the page.
   - no whole-page horizontal overflow.
 - Result: 60 checks, 0 failures.
+- Evidence JSON: `site/reports/github-prs/phase-2-drivers-spec-review-smoke.json`.
 
 ## AI / Human Review
 - AI review status after phase 1 common cleanup:
