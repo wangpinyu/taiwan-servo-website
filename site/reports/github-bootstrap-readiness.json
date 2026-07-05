@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T22:10:41.865Z",
+  "generatedAt": "2026-07-05T22:21:12.439Z",
   "status": "ready-needs-token",
   "repository": "wangpinyu/taiwan-servo-website",
   "tokenPresent": false,
@@ -19,63 +19,63 @@
     },
     {
       "branch": "phase-2-motors-spec-review",
-      "remoteSha": "b2d2d23"
+      "remoteSha": "952f0c1"
     },
     {
       "branch": "phase-3-harmonic-drive",
-      "remoteSha": "40154d7"
+      "remoteSha": "9e9768f"
     },
     {
       "branch": "phase-3-renishaw-feedback",
-      "remoteSha": "3f7a16e"
+      "remoteSha": "7420a7f"
     },
     {
       "branch": "phase-3-positioning-stage",
-      "remoteSha": "37f3169"
+      "remoteSha": "b22d760"
     },
     {
       "branch": "phase-3-bearings-air-mechanical",
-      "remoteSha": "a55bd60"
+      "remoteSha": "f180d99"
     },
     {
       "branch": "phase-4-couplings",
-      "remoteSha": "6959e6d"
+      "remoteSha": "eb712f7"
     },
     {
       "branch": "phase-4-fms-tension",
-      "remoteSha": "e725165"
+      "remoteSha": "0d3fef3"
     },
     {
       "branch": "phase-4-solid-state-relays",
-      "remoteSha": "ae435a0"
+      "remoteSha": "fe35ae2"
     },
     {
       "branch": "phase-4-sanyo-denki",
-      "remoteSha": "b5c27e9"
+      "remoteSha": "3f30870"
     },
     {
       "branch": "phase-4-special-environments",
-      "remoteSha": "5bdb0f2"
+      "remoteSha": "bfcc58f"
     },
     {
       "branch": "phase-5-ceramic-chucks",
-      "remoteSha": "22d1b03"
+      "remoteSha": "766e8c5"
     },
     {
       "branch": "phase-5-sejinigb",
-      "remoteSha": "da0325c"
+      "remoteSha": "ef14926"
     },
     {
       "branch": "phase-5-blowers",
-      "remoteSha": "70179fa"
+      "remoteSha": "159ecc7"
     },
     {
       "branch": "phase-5-automation-systems",
-      "remoteSha": "8f18ca9"
+      "remoteSha": "4b45716"
     },
     {
       "branch": "phase-5-other-feedback",
-      "remoteSha": "ef65642"
+      "remoteSha": "315df85"
     }
   ],
   "summary": {
