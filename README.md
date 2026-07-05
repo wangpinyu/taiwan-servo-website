@@ -67,6 +67,38 @@ Large images and documents are tracked through Git LFS via `.gitattributes`.
 4. Use AI agent review status to decide next step.
 5. Only after local preview is accepted, prepare backend or server deployment.
 
+## Pull Request Control
+
+Regenerate the PR control table:
+
+```powershell
+npm run workflow:pr-index
+```
+
+Review the generated control page:
+
+```text
+site/reports/github-prs/index.md
+```
+
+Open PR creation pages in a browser that is already logged in to GitHub:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\open-github-pr-pages.ps1
+```
+
+By default this opens only the phase-1 PR page. To open a specific branch:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\open-github-pr-pages.ps1 -Branch phase-3-harmonic-drive
+```
+
+To open all PR pages:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\open-github-pr-pages.ps1 -All
+```
+
 ## GitHub Optimization Workflow
 
 - Use one branch and one pull request per product category or brand.
