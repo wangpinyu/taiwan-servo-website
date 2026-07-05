@@ -73,12 +73,41 @@ function tableHeaders(tableHtml) {
   return [...String(tableHtml || '').matchAll(/<th\b[^>]*>([\s\S]*?)<\/th>/gi)].map((m) => stripTags(m[1]));
 }
 
+function headerText(headers) {
+  return headers.join(' | ').toLowerCase();
+}
+
+function hasModelOrIdentifierHeader(headers) {
+  const joined = headerText(headers);
+  return /part\s*number|model|型號|產品型號|系列|frame|frames|product\s*code|規格|名稱|name|工具型號|光學尺|介面|協定|項目|需求|功能|應用|產業|工具|選型|確認|分類|類型|版本|protocol|interface|specifications/i.test(joined);
+}
+
+function hasMeasurementOrUnitHeader(headers) {
+  const joined = headerText(headers);
+  return /\((?:mm|n|kg|v|vdc|dc|vac|ac|nm|rpm|um|μm|a|w|kw|hp|ohm|mh|lbf|ft\/s|arc\s*sec|oz-in|lb-in|c\/w)\)|\b(?:mm|nm|rpm|vdc|vac|kw|kg|nema|od|id)\b|行程|推力|力量|力|扭矩|轉矩|電壓|電流|功率|速度|轉速|精度|解析度|尺寸|長度|直徑|外徑|內徑|重量|負載|張力|過載|防護等級|溫度|範圍|柵距|刻距|供應長度|極長度|連續|峰值|額定|馬達直徑|保持轉矩|最高|最大|最小|質量|慣量|電阻|電感|熱阻|通道|軸數/i.test(joined);
+}
+
+function hasDownloadOrQualitativeHeader(headers) {
+  const joined = headerText(headers);
+  return /原廠頁|文件|下載|資料來源|來源|備註|說明|用途|適用|重點|定位|確認|選型|功能|應用|情境|角色|材質|結構|特色|版本|相容|支援|控制|網路|通訊|介面|官方資料|官方重點/i.test(joined);
+}
+
+function looksLikeQuantitativeTable(tableHtml, headers) {
+  if (hasMeasurementOrUnitHeader(headers)) return true;
+  if (hasDownloadOrQualitativeHeader(headers)) return false;
+
+  const text = stripTags(tableHtml);
+  const numericTokens = text.match(/\b\d+(?:[.,]\d+)?\b/g) || [];
+  const rows = count(tableHtml, /<tr\b/gi);
+  return rows >= 4 && numericTokens.length >= rows;
+}
+
 function classifyDownload(anchor) {
   const joined = `${anchor.href} ${anchor.aria} ${anchor.text}`.toLowerCase();
   if (/\.pdf(?:[#?]|$)/i.test(anchor.href) || /\bpdf\b/i.test(joined)) return 'pdf';
-  if (/\.(?:dwg|dxf|step|stp|cad)(?:[#?]|$)/i.test(anchor.href) || /\bcad\b|drawing|2d|3d|step/i.test(joined)) return 'cad';
+  if (/\.(?:dwg|dxf|step|stp|cad)(?:[#?]|$)/i.test(anchor.href) || /\bcad\b|drawing|2d|3d|step|工程圖|圖檔/i.test(joined)) return 'cad';
   if (/\.zip(?:[#?]|$)/i.test(anchor.href)) return 'zip';
-  if (/manual|installation|user guide|操作|安裝|手冊/i.test(joined)) return 'manual';
+  if (/manual|installation|user guide|操作手冊|安裝|使用手冊/i.test(joined)) return 'manual';
   if (/catalog|datasheet|data sheet|型錄|規格書|資料表/i.test(joined)) return 'document';
   if (/software|軟體/i.test(joined)) return 'software';
   return '';
@@ -97,7 +126,7 @@ function validate(page) {
   const titleText = stripTags(matchOne(head, /<title\b[^>]*>[\s\S]*?<\/title>/i));
   const canonical = head.match(/<link\b[^>]*rel=(["'])canonical\1[^>]*>/i)?.[0] || '';
   const metaDescription = head.match(/<meta\b[^>]*name=(["'])description\1[^>]*>/i)?.[0] || '';
-  const breadcrumbPresent = /BreadcrumbList/i.test(head) || /麵包屑|breadcrumb/i.test(body);
+  const breadcrumbPresent = /BreadcrumbList/i.test(head) || /breadcrumb|麵包屑|首頁\s*[>›]/i.test(body);
   const bodyTitleCount = count(body, /<title\b/gi);
 
   if (!html) critical.push('html_missing');
@@ -135,11 +164,14 @@ function validate(page) {
     if (!tables.length) warnings.push('spec_table_missing');
     for (const [index, table] of tables.entries()) {
       const headers = tableHeaders(table);
-      if (!headers.length) warnings.push(`table_${index + 1}_headers_missing`);
-      const modelLike = headers.some((header) => /part\s*number|model|型號|系列/i.test(header));
-      if (!modelLike) warnings.push(`table_${index + 1}_model_header_not_detected`);
-      const unitLike = headers.some((header) => /\((?:mm|n|kg|v|dc|ac|nm|rpm|um|μm|a|w|kw)\)|mm|力|電壓|行程|尺寸|扭矩|解析度/i.test(header));
-      if (!unitLike) warnings.push(`table_${index + 1}_unit_header_not_detected`);
+      if (!headers.length) {
+        warnings.push(`table_${index + 1}_headers_missing`);
+        continue;
+      }
+      if (!hasModelOrIdentifierHeader(headers)) warnings.push(`table_${index + 1}_model_header_not_detected`);
+      if (looksLikeQuantitativeTable(table, headers) && !hasMeasurementOrUnitHeader(headers)) {
+        warnings.push(`table_${index + 1}_unit_header_not_detected`);
+      }
     }
 
     const specAnchors = anchors(block);
@@ -151,10 +183,9 @@ function validate(page) {
       return !anchor.aria && /^(PDF|CAD|ZIP|Download|下載)$/i.test(visible);
     });
     if (weakDownloadLabels.length) warnings.push(`download_label_too_generic:${weakDownloadLabels.length}`);
-    if (downloadAnchors.some((anchor) => !anchor.downloadType)) warnings.push('download_type_unclassified');
 
-    const ctaAnchors = specAnchors.filter((anchor) => /詢問|加入詢問|洽詢|contact|inquiry|quote/i.test(`${anchor.href} ${anchor.aria} ${anchor.text}`));
-    if (!ctaAnchors.length && !/請洽星泰|洽星泰/i.test(block)) warnings.push('spec_cta_not_detected');
+    const ctaAnchors = specAnchors.filter((anchor) => /詢問|加入詢問|報價|contact|inquiry|quote/i.test(`${anchor.href} ${anchor.aria} ${anchor.text}`));
+    if (!ctaAnchors.length && !/請洽星泰|加入詢問單|詢問/i.test(block)) warnings.push('spec_cta_not_detected');
     if (ctaAnchors.some((anchor) => !anchor.href || anchor.href === '#')) critical.push('spec_cta_placeholder_href');
   }
 
@@ -182,7 +213,7 @@ function validate(page) {
       aria_buttons: buttonTags(block).filter((button) => /aria-expanded=/i.test(button.attrs) && /aria-controls=/i.test(button.attrs)).length,
       tables: count(block, /<table\b/gi),
       download_links: anchors(block).map(classifyDownload).filter(Boolean).length,
-      cta_links: anchors(block).filter((anchor) => /詢問|加入詢問|洽詢|contact|inquiry|quote/i.test(`${anchor.href} ${anchor.aria} ${anchor.text}`)).length,
+      cta_links: anchors(block).filter((anchor) => /詢問|加入詢問|報價|contact|inquiry|quote/i.test(`${anchor.href} ${anchor.aria} ${anchor.text}`)).length,
     },
     critical: criticalSet,
     warnings: warningSet,
@@ -249,7 +280,7 @@ fs.writeFileSync(path.join(reportDir, 'product-page-structure-seo-qa.html'), `<!
 </head>
 <body>
   <h1>產品頁 SEO 與結構 QA</h1>
-  <p>檢查 H1、title、canonical、breadcrumb、產品規格詳情位置、accordion/table/CTA/download 可用性，以及是否有前台不該出現的內部註解。</p>
+  <p>檢查 H1、title、canonical、breadcrumb、產品規格詳情位置、安全屬性、accordion、table、CTA 與下載連結。Warning 是 review queue；critical 才會阻擋 validate。</p>
   <div class="summary">
     <div class="card">Total: ${htmlEscape(report.summary.total_pages)}</div>
     <div class="card">Fail: ${htmlEscape(report.summary.fail_count)}</div>
