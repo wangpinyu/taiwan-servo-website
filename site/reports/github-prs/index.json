@@ -1,0 +1,263 @@
+{
+  "generatedAt": "2026-07-05T20:36:28.564Z",
+  "repository": "https://github.com/wangpinyu/taiwan-servo-website",
+  "existingPullRequestRefs": 0,
+  "note": "Create PRs from lower priority to higher priority only after phase-1 is accepted, or use the listed base branch for stacked review.",
+  "entries": [
+    {
+      "priority": 1,
+      "branch": "phase-1-smac-spec-standard",
+      "category": "電動缸",
+      "base": "main",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-1-smac-spec-standard",
+      "smoke": {
+        "category": "電動缸",
+        "pages": 14,
+        "checks": 28,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 2,
+      "branch": "phase-2-drivers-spec-review",
+      "category": "驅動器 / ACS 控制器",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-2-drivers-spec-review",
+      "smoke": {
+        "category": "??? / ACS ???",
+        "pages": 30,
+        "checks": 60,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 3,
+      "branch": "phase-2-motors-spec-review",
+      "category": "各類馬達",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-2-motors-spec-review",
+      "smoke": {
+        "category": "????",
+        "pages": 24,
+        "checks": 48,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 4,
+      "branch": "phase-3-harmonic-drive",
+      "category": "Harmonic Drive 減速機",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-3-harmonic-drive",
+      "smoke": {
+        "category": "Harmonic Drive",
+        "pages": 29,
+        "checks": 58,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 5,
+      "branch": "phase-3-renishaw-feedback",
+      "category": "Renishaw 回授元件",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-3-renishaw-feedback",
+      "smoke": {
+        "category": "Renishaw 回授元件產品",
+        "pages": 35,
+        "checks": 70,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 6,
+      "branch": "phase-3-positioning-stage",
+      "category": "定位平台",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-3-positioning-stage",
+      "smoke": {
+        "category": "定位平台",
+        "pages": 12,
+        "checks": 24,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 7,
+      "branch": "phase-3-bearings-air-mechanical",
+      "category": "空氣軸承 / 滾珠滾柱軸承",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-3-bearings-air-mechanical",
+      "smoke": {
+        "category": "空氣軸承 / 滾珠•滾柱軸承",
+        "pages": 17,
+        "checks": 34,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 8,
+      "branch": "phase-4-couplings",
+      "category": "聯軸器",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-4-couplings",
+      "smoke": {
+        "category": "聯軸器",
+        "pages": 16,
+        "checks": 32,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 9,
+      "branch": "phase-4-fms-tension",
+      "category": "FMS 張力系統",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-4-fms-tension",
+      "smoke": {
+        "category": "FMS 張力系統",
+        "pages": 26,
+        "checks": 52,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 10,
+      "branch": "phase-4-solid-state-relays",
+      "category": "固態繼電器",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-4-solid-state-relays",
+      "smoke": {
+        "category": "固態繼電器",
+        "pages": 10,
+        "checks": 20,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 11,
+      "branch": "phase-4-sanyo-denki",
+      "category": "山洋電氣 SANYO DENKI",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-4-sanyo-denki",
+      "smoke": {
+        "category": "山洋電氣 SANYO DENKI",
+        "pages": 6,
+        "checks": 12,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 12,
+      "branch": "phase-4-special-environments",
+      "category": "特殊環境",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-4-special-environments",
+      "smoke": {
+        "category": "特殊環境",
+        "pages": 11,
+        "checks": 22,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 13,
+      "branch": "phase-5-ceramic-chucks",
+      "category": "陶瓷吸盤",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-5-ceramic-chucks",
+      "smoke": {
+        "category": "陶瓷吸盤",
+        "pages": 1,
+        "checks": 2,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 14,
+      "branch": "phase-5-sejinigb",
+      "category": "SEJINIGB 齒排與轉台",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-5-sejinigb",
+      "smoke": {
+        "category": "SEJINIGB 滾輪齒排",
+        "pages": 2,
+        "checks": 4,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 15,
+      "branch": "phase-5-blowers",
+      "category": "鼓風機",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-5-blowers",
+      "smoke": {
+        "category": "鼓風機",
+        "pages": 2,
+        "checks": 4,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 16,
+      "branch": "phase-5-automation-systems",
+      "category": "自動化系統",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-5-automation-systems",
+      "smoke": {
+        "category": "自動化系統",
+        "pages": 5,
+        "checks": 10,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 17,
+      "branch": "phase-5-other-feedback",
+      "category": "其他回授元件",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-5-other-feedback",
+      "smoke": {
+        "category": "其他回授元件",
+        "pages": 8,
+        "checks": 16,
+        "failures": 0
+      }
+    }
+  ]
+}

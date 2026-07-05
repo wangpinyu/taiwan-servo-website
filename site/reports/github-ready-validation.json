@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-05T19:43:21.272Z",
+  "generated_at": "2026-07-05T20:41:19.095Z",
   "root": "F:/Taiwan_Servo_website_management_Codex_File/github-ready/taiwan-servo-site-optimization/site",
   "strict": false,
   "summary": {
-    "html_files": 792,
+    "html_files": 793,
     "errors": 0,
-    "warnings": 68280,
+    "warnings": 68271,
     "formal_same_origin_refs": 1090,
-    "missing_local_refs": 67190,
+    "missing_local_refs": 67181,
     "file_path_refs": 0,
     "txt_href_refs": 0
   },
