@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-07-05T20:43:04.921Z",
+  "root": "F:/Taiwan_Servo_website_management_Codex_File/github-ready/taiwan-servo-site-optimization/site",
+  "checked_scope": [
+    "site/index.html",
+    "site/preview/**/*.html"
+  ],
+  "summary": {
+    "html_files": 359,
+    "errors": 0,
+    "warnings": 0,
+    "local_refs": 65821,
+    "missing_local_refs": 0,
+    "same_origin_refs": 176,
+    "same_origin_missing": 0,
+    "external_refs": 7724,
+    "document_refs": 2072,
+    "image_refs": 4884,
+    "file_path_refs": 0,
+    "txt_href_refs": 0,
+    "skipped_section_refs": 143
+  },
+  "issues": [],
+  "warnings": []
+}
