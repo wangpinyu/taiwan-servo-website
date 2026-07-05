@@ -3,12 +3,12 @@
 Branch: `phase-2-motors-spec-review`
 Priority: 3
 Pages: 24
-Blocking pages: 14
+Blocking pages: 13
 
 ## Status counts
 
-- agent-approved-clean: 10
-- agent-fix-required: 13
+- agent-approved-clean: 11
+- agent-fix-required: 12
 - agent-structure-review: 1
 
 ## Target pages
@@ -18,7 +18,7 @@ Blocking pages: 14
 | 77 | KOLLMORGEN AKD PDMM伺服控制器 | agent-approved-clean | preview/products/detail/77.html |
 | 83 | Novanta IMS Mdrive Plus 智慧型步進馬達 | agent-approved-clean | preview/products/detail/83.html |
 | 84 | Accel 線性伺服馬達-U型無鐵心Series | agent-approved-clean | preview/products/detail/84.html |
-| 85 | Accel 音圈馬達 | agent-fix-required | preview/products/detail/85.html |
+| 85 | Accel 音圈馬達 | agent-approved-clean | preview/products/detail/85.html |
 | 86 | SMAC 高速伺服圓形電動缸 | agent-approved-clean | preview/products/detail/86.html |
 | 87 | Phytron二相步進馬達(真空環境用) | agent-approved-clean | preview/products/detail/87.html |
 | 88 | Harmonic AC Servo Motors（交流伺服馬達） | agent-fix-required | preview/products/detail/88.html |
