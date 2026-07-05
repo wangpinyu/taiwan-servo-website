@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T22:57:07.813Z",
+  "generated_at": "2026-07-05T23:07:15.577Z",
   "scope": "GitHub-ready AI agent review decisions",
   "policy": {
     "default_reviewer": "AI agent",
@@ -18,8 +18,8 @@
   "summary": {
     "total_pages": 248,
     "agent_status_counts": {
-      "agent-fix-required": 145,
-      "agent-approved-clean": 84,
+      "agent-fix-required": 142,
+      "agent-approved-clean": 87,
       "agent-structure-review": 13,
       "agent-source-needed": 6
     }
@@ -324,15 +324,13 @@
       },
       "critical": [],
       "warnings": [],
-      "page_seo_qa_status": "warn",
-      "page_seo_warnings": [
-        "body_title_tag:1"
-      ],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-fix-required",
-        "decision": "AI 可繼續修正",
-        "reason": "body_title_tag:1"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -804,14 +802,13 @@
       "warnings": [],
       "page_seo_qa_status": "warn",
       "page_seo_warnings": [
-        "body_title_tag:1",
         "table_1_model_header_not_detected"
       ],
       "page_seo_critical": [],
       "agent_review": {
         "status": "agent-fix-required",
         "decision": "AI 可繼續修正",
-        "reason": "body_title_tag:1 / table_1_model_header_not_detected"
+        "reason": "table_1_model_header_not_detected"
       }
     },
     {
@@ -3039,15 +3036,13 @@
       },
       "critical": [],
       "warnings": [],
-      "page_seo_qa_status": "warn",
-      "page_seo_warnings": [
-        "body_title_tag:1"
-      ],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-fix-required",
-        "decision": "AI 可繼續修正",
-        "reason": "body_title_tag:1"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -3075,15 +3070,13 @@
       },
       "critical": [],
       "warnings": [],
-      "page_seo_qa_status": "warn",
-      "page_seo_warnings": [
-        "body_title_tag:1"
-      ],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-fix-required",
-        "decision": "AI 可繼續修正",
-        "reason": "body_title_tag:1"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -3113,14 +3106,13 @@
       "warnings": [],
       "page_seo_qa_status": "warn",
       "page_seo_warnings": [
-        "body_title_tag:1",
         "spec_table_missing"
       ],
       "page_seo_critical": [],
       "agent_review": {
         "status": "agent-fix-required",
         "decision": "AI 可繼續修正",
-        "reason": "body_title_tag:1 / spec_table_missing"
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -3150,14 +3142,13 @@
       "warnings": [],
       "page_seo_qa_status": "warn",
       "page_seo_warnings": [
-        "body_title_tag:1",
         "spec_table_missing"
       ],
       "page_seo_critical": [],
       "agent_review": {
         "status": "agent-fix-required",
         "decision": "AI 可繼續修正",
-        "reason": "body_title_tag:1 / spec_table_missing"
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -8416,14 +8407,13 @@
       "warnings": [],
       "page_seo_qa_status": "warn",
       "page_seo_warnings": [
-        "body_title_tag:1",
         "table_1_unit_header_not_detected"
       ],
       "page_seo_critical": [],
       "agent_review": {
         "status": "agent-fix-required",
         "decision": "AI 可繼續修正",
-        "reason": "body_title_tag:1 / table_1_unit_header_not_detected"
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -8453,14 +8443,13 @@
       "warnings": [],
       "page_seo_qa_status": "warn",
       "page_seo_warnings": [
-        "body_title_tag:1",
         "table_1_unit_header_not_detected"
       ],
       "page_seo_critical": [],
       "agent_review": {
         "status": "agent-fix-required",
         "decision": "AI 可繼續修正",
-        "reason": "body_title_tag:1 / table_1_unit_header_not_detected"
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -8490,14 +8479,13 @@
       "warnings": [],
       "page_seo_qa_status": "warn",
       "page_seo_warnings": [
-        "body_title_tag:1",
         "table_1_unit_header_not_detected"
       ],
       "page_seo_critical": [],
       "agent_review": {
         "status": "agent-fix-required",
         "decision": "AI 可繼續修正",
-        "reason": "body_title_tag:1 / table_1_unit_header_not_detected"
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -8527,7 +8515,6 @@
       "warnings": [],
       "page_seo_qa_status": "warn",
       "page_seo_warnings": [
-        "body_title_tag:1",
         "table_1_model_header_not_detected",
         "table_2_model_header_not_detected"
       ],
@@ -8535,7 +8522,7 @@
       "agent_review": {
         "status": "agent-fix-required",
         "decision": "AI 可繼續修正",
-        "reason": "body_title_tag:1 / table_1_model_header_not_detected / table_2_model_header_not_detected"
+        "reason": "table_1_model_header_not_detected / table_2_model_header_not_detected"
       }
     },
     {
@@ -8565,7 +8552,6 @@
       "warnings": [],
       "page_seo_qa_status": "warn",
       "page_seo_warnings": [
-        "body_title_tag:1",
         "table_1_model_header_not_detected",
         "table_2_model_header_not_detected",
         "table_3_model_header_not_detected",
@@ -8576,7 +8562,7 @@
       "agent_review": {
         "status": "agent-fix-required",
         "decision": "AI 可繼續修正",
-        "reason": "body_title_tag:1 / table_1_model_header_not_detected / table_2_model_header_not_detected / table_3_model_header_not_detected / table_4_model_header_not_detected / table_5_model_header_not_detected"
+        "reason": "table_1_model_header_not_detected / table_2_model_header_not_detected / table_3_model_header_not_detected / table_4_model_header_not_detected / table_5_model_header_not_detected"
       }
     },
     {
@@ -8606,7 +8592,6 @@
       "warnings": [],
       "page_seo_qa_status": "warn",
       "page_seo_warnings": [
-        "body_title_tag:1",
         "table_1_model_header_not_detected",
         "table_2_model_header_not_detected",
         "table_3_model_header_not_detected"
@@ -8615,7 +8600,7 @@
       "agent_review": {
         "status": "agent-fix-required",
         "decision": "AI 可繼續修正",
-        "reason": "body_title_tag:1 / table_1_model_header_not_detected / table_2_model_header_not_detected / table_3_model_header_not_detected"
+        "reason": "table_1_model_header_not_detected / table_2_model_header_not_detected / table_3_model_header_not_detected"
       }
     },
     {
@@ -8645,14 +8630,13 @@
       "warnings": [],
       "page_seo_qa_status": "warn",
       "page_seo_warnings": [
-        "body_title_tag:1",
         "table_1_model_header_not_detected"
       ],
       "page_seo_critical": [],
       "agent_review": {
         "status": "agent-fix-required",
         "decision": "AI 可繼續修正",
-        "reason": "body_title_tag:1 / table_1_model_header_not_detected"
+        "reason": "table_1_model_header_not_detected"
       }
     },
     {
