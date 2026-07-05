@@ -16,7 +16,9 @@
     "fix:spec-common:dry-run": "node tools/apply-common-spec-module-fixes.mjs --dry-run",
     "workflow:backlog": "node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs",
     "workflow:issue-index": "node tools/generate-github-issue-index.mjs",
-    "workflow:pr-index": "node tools/generate-github-pr-index.mjs"
+    "workflow:pr-index": "node tools/generate-github-pr-index.mjs",
+    "github:bootstrap:dry-run": "node tools/github-bootstrap.mjs --all",
+    "github:bootstrap": "node tools/github-bootstrap.mjs --all --apply"
   },
   "engines": {
     "node": ">=20"
