@@ -117,6 +117,33 @@ powershell -ExecutionPolicy Bypass -File .\tools\open-github-pr-pages.ps1 -All
 - Use `npm run workflow:issue-index` to regenerate the issue control table after backlog changes.
 - See `docs/github-optimization-workflow.md` for the complete operating rules.
 
+## GitHub API Bootstrap
+
+The repo can bootstrap GitHub labels, tracking issues, and pull requests without GitHub CLI.
+
+Dry run first:
+
+```powershell
+npm run github:bootstrap:dry-run
+```
+
+Apply with a fine-grained GitHub token that has access to this private repo and permission to manage issues, labels, and pull requests:
+
+```powershell
+$env:GITHUB_TOKEN = "<token>"
+npm run github:bootstrap
+Remove-Item Env:\GITHUB_TOKEN
+```
+
+For a smaller first pass:
+
+```powershell
+node tools/github-bootstrap.mjs --labels --issues --max-issues=1 --apply
+node tools/github-bootstrap.mjs --prs --max-prs=1 --apply
+```
+
+Do not commit or paste the token into files. The script only reads `GITHUB_TOKEN` / `GH_TOKEN` from the environment.
+
 ## Issue Control
 
 Regenerate category tracking issue drafts and the issue control table:
