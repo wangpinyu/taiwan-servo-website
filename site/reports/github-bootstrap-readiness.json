@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-07-05T21:52:05.963Z",
+  "status": "ready-needs-token",
+  "repository": "wangpinyu/taiwan-servo-website",
+  "tokenPresent": false,
+  "pullRequestRefs": 0,
+  "expectedBranches": [
+    {
+      "branch": "main",
+      "remoteSha": "30a319b"
+    },
+    {
+      "branch": "phase-1-smac-spec-standard",
+      "remoteSha": "1fcb5d7"
+    },
+    {
+      "branch": "phase-2-drivers-spec-review",
+      "remoteSha": "abb7d17"
+    },
+    {
+      "branch": "phase-2-motors-spec-review",
+      "remoteSha": "e9a4809"
+    },
+    {
+      "branch": "phase-3-harmonic-drive",
+      "remoteSha": "6afe6b3"
+    },
+    {
+      "branch": "phase-3-renishaw-feedback",
+      "remoteSha": "13d46a1"
+    },
+    {
+      "branch": "phase-3-positioning-stage",
+      "remoteSha": "1285c3e"
+    },
+    {
+      "branch": "phase-3-bearings-air-mechanical",
+      "remoteSha": "6936189"
+    },
+    {
+      "branch": "phase-4-couplings",
+      "remoteSha": "f6cdbd6"
+    },
+    {
+      "branch": "phase-4-fms-tension",
+      "remoteSha": "fb48dc2"
+    },
+    {
+      "branch": "phase-4-solid-state-relays",
+      "remoteSha": "7ee700c"
+    },
+    {
+      "branch": "phase-4-sanyo-denki",
+      "remoteSha": "15e64e6"
+    },
+    {
+      "branch": "phase-4-special-environments",
+      "remoteSha": "d2163ce"
+    },
+    {
+      "branch": "phase-5-ceramic-chucks",
+      "remoteSha": "9fbfa8d"
+    },
+    {
+      "branch": "phase-5-sejinigb",
+      "remoteSha": "a63d43a"
+    },
+    {
+      "branch": "phase-5-blowers",
+      "remoteSha": "3c31dc7"
+    },
+    {
+      "branch": "phase-5-automation-systems",
+      "remoteSha": "2e634a2"
+    },
+    {
+      "branch": "phase-5-other-feedback",
+      "remoteSha": "8ebaee2"
+    }
+  ],
+  "summary": {
+    "labels": 7,
+    "issueDrafts": 18,
+    "pullRequestDrafts": 17,
+    "sourceNeededPages": 6
+  },
+  "checks": [
+    {
+      "id": "labels-defined",
+      "label": "GitHub labels defined",
+      "status": "pass",
+      "detail": "7 labels in .github/labels.yml"
+    },
+    {
+      "id": "issue-drafts",
+      "label": "Tracking issue drafts generated",
+      "status": "pass",
+      "detail": "18 issue drafts"
+    },
+    {
+      "id": "pr-drafts",
+      "label": "Pull request drafts generated",
+      "status": "pass",
+      "detail": "17 PR drafts"
+    },
+    {
+      "id": "remote-branches",
+      "label": "Required branches pushed",
+      "status": "pass",
+      "detail": "18 branches available on origin"
+    },
+    {
+      "id": "github-token",
+      "label": "GitHub API token available",
+      "status": "needs-action",
+      "detail": "No token in this shell; API apply remains pending"
+    },
+    {
+      "id": "remote-prs",
+      "label": "Remote pull requests exist",
+      "status": "needs-action",
+      "detail": "0 pull request refs detected on origin"
+    },
+    {
+      "id": "agent-review",
+      "label": "AI agent review baseline",
+      "status": "pass",
+      "detail": "{\"agent-approved-clean\":242,\"agent-source-needed\":6}"
+    },
+    {
+      "id": "source-needed-audit",
+      "label": "Source-needed audit generated",
+      "status": "pass",
+      "detail": "{\"total_pages\":6,\"disposition_counts\":{\"exclude-test-page\":1,\"software-source-needed\":3,\"informational-source-needed\":1,\"training-content-no-spec\":1}}"
+    }
+  ],
+  "nextActions": [
+    "Set GITHUB_TOKEN or GH_TOKEN in the current PowerShell session.",
+    "Run npm run github:bootstrap:dry-run again, then npm run github:bootstrap."
+  ]
+}
