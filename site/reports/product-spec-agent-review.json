@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T22:51:06.872Z",
+  "generated_at": "2026-07-05T22:59:19.835Z",
   "scope": "GitHub-ready AI agent review decisions",
   "policy": {
     "default_reviewer": "AI agent",
@@ -8,12 +8,19 @@
       "source conflict",
       "backend/template limitation",
       "business decision"
+    ],
+    "review_inputs": [
+      "product-spec-module-qa.json",
+      "product-page-structure-seo-qa.json",
+      "product-standardization-report.json"
     ]
   },
   "summary": {
     "total_pages": 248,
     "agent_status_counts": {
-      "agent-approved-clean": 242,
+      "agent-fix-required": 145,
+      "agent-approved-clean": 84,
+      "agent-structure-review": 13,
       "agent-source-needed": 6
     }
   },
@@ -43,10 +50,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -74,10 +86,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -104,10 +119,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -134,10 +152,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "已將模組標題視為合理產品內容或規格子模組：MForce 產品型號總覽"
+        "status": "agent-structure-review",
+        "decision": "需確認模組歸類",
+        "reason": "未知或需人工命名判斷的模組：MForce 產品型號總覽"
       }
     },
     {
@@ -164,10 +187,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -194,10 +222,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -225,10 +256,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -256,10 +290,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -287,10 +324,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "body_title_tag:1"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "body_title_tag:1"
       }
     },
     {
@@ -318,10 +360,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -349,10 +394,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -380,10 +428,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -411,10 +464,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -442,10 +501,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_7_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_7_unit_header_not_detected"
       }
     },
     {
@@ -473,10 +537,18 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected"
       }
     },
     {
@@ -504,10 +576,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -535,10 +613,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_4_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_4_unit_header_not_detected"
       }
     },
     {
@@ -566,10 +649,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -597,10 +686,18 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_2_model_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_5_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_2_model_header_not_detected / table_3_model_header_not_detected / table_4_model_header_not_detected / table_5_model_header_not_detected"
       }
     },
     {
@@ -628,10 +725,19 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_model_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -659,10 +765,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_4_model_header_not_detected / table_4_unit_header_not_detected"
       }
     },
     {
@@ -690,10 +802,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "body_title_tag:1",
+        "table_1_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "body_title_tag:1 / table_1_model_header_not_detected"
       }
     },
     {
@@ -720,10 +838,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "已將模組標題視為合理產品內容或規格子模組：低壓工業鼓風機系列 (Low Pressure) / 中壓與高壓系列 (Medium & High Pressure) / 特殊應用鼓風機 / ATEX 防爆與安全系列 / 特殊材質系列"
+        "status": "agent-structure-review",
+        "decision": "需確認模組歸類",
+        "reason": "未知或需人工命名判斷的模組：低壓工業鼓風機系列 (Low Pressure) / 中壓與高壓系列 (Medium & High Pressure) / 特殊應用鼓風機 / ATEX 防爆與安全系列 / 特殊材質系列"
       }
     },
     {
@@ -751,10 +874,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -782,10 +910,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -813,10 +944,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -844,10 +978,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -875,10 +1012,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -906,10 +1046,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -937,10 +1080,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -968,10 +1114,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -999,10 +1148,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -1030,10 +1182,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -1061,10 +1216,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -1092,10 +1250,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -1123,10 +1284,24 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_model_header_not_detected",
+        "table_5_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected / table_4_model_header_not_detected / table_4_unit_header_not_detected / table_5_model_header_not_detected / table_5_unit_header_not_detected"
       }
     },
     {
@@ -1154,10 +1329,22 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_model_header_not_detected",
+        "table_6_model_header_not_detected",
+        "table_6_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_unit_header_not_detected / table_4_model_header_not_detected / table_4_unit_header_not_detected / table_5_model_header_not_detected / table_6_model_header_not_detected / table_6_unit_header_not_detected"
       }
     },
     {
@@ -1185,10 +1372,18 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_5_model_header_not_detected",
+        "table_5_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_2_unit_header_not_detected / table_5_model_header_not_detected / table_5_unit_header_not_detected"
       }
     },
     {
@@ -1216,10 +1411,25 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_model_header_not_detected",
+        "table_5_unit_header_not_detected",
+        "table_6_model_header_not_detected",
+        "table_6_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_model_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected / table_4_model_header_not_detected / table_4_unit_header_not_detected / table_5_model_header_not_detected / table_5_unit_header_not_detected / table_6_model_header_not_detected / table_6_unit_header_not_detected"
       }
     },
     {
@@ -1247,10 +1457,26 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_model_header_not_detected",
+        "table_5_unit_header_not_detected",
+        "table_6_model_header_not_detected",
+        "table_6_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected / table_4_model_header_not_detected / table_4_unit_header_not_detected / table_5_model_header_not_detected / table_5_unit_header_not_detected / table_6_model_header_not_detected / table_6_unit_header_not_detected"
       }
     },
     {
@@ -1278,10 +1504,22 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected / table_4_model_header_not_detected / table_4_unit_header_not_detected"
       }
     },
     {
@@ -1309,10 +1547,21 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_model_header_not_detected",
+        "table_5_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_unit_header_not_detected / table_3_unit_header_not_detected / table_4_unit_header_not_detected / table_5_model_header_not_detected / table_5_unit_header_not_detected"
       }
     },
     {
@@ -1340,10 +1589,21 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_model_header_not_detected",
+        "table_5_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_unit_header_not_detected / table_3_unit_header_not_detected / table_4_unit_header_not_detected / table_5_model_header_not_detected / table_5_unit_header_not_detected"
       }
     },
     {
@@ -1371,10 +1631,17 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_4_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_4_unit_header_not_detected"
       }
     },
     {
@@ -1402,10 +1669,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -1433,10 +1703,18 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -1463,10 +1741,22 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected / table_4_model_header_not_detected / table_4_unit_header_not_detected"
       }
     },
     {
@@ -1493,10 +1783,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected"
       }
     },
     {
@@ -1523,10 +1819,17 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_2_unit_header_not_detected",
+        "table_5_model_header_not_detected",
+        "table_5_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_2_unit_header_not_detected / table_5_model_header_not_detected / table_5_unit_header_not_detected"
       }
     },
     {
@@ -1553,10 +1856,22 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_model_header_not_detected",
+        "table_5_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_unit_header_not_detected / table_3_model_header_not_detected / table_4_model_header_not_detected / table_4_unit_header_not_detected / table_5_model_header_not_detected / table_5_unit_header_not_detected"
       }
     },
     {
@@ -1583,10 +1898,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_5_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_5_unit_header_not_detected"
       }
     },
     {
@@ -1613,10 +1933,19 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_2_unit_header_not_detected / table_3_unit_header_not_detected / table_4_unit_header_not_detected / table_5_unit_header_not_detected"
       }
     },
     {
@@ -1643,10 +1972,22 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected / table_4_model_header_not_detected / table_4_unit_header_not_detected / table_5_unit_header_not_detected"
       }
     },
     {
@@ -1673,10 +2014,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected"
       }
     },
     {
@@ -1703,10 +2050,22 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected / table_4_model_header_not_detected / table_4_unit_header_not_detected / table_5_unit_header_not_detected"
       }
     },
     {
@@ -1733,10 +2092,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -1763,10 +2128,20 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_2_unit_header_not_detected / table_3_unit_header_not_detected / table_4_model_header_not_detected / table_4_unit_header_not_detected / table_5_unit_header_not_detected"
       }
     },
     {
@@ -1793,10 +2168,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -1823,10 +2204,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -1853,10 +2240,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -1883,10 +2276,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -1913,10 +2312,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -1943,10 +2348,24 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_model_header_not_detected",
+        "table_5_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected / table_4_model_header_not_detected / table_4_unit_header_not_detected / table_5_model_header_not_detected / table_5_unit_header_not_detected"
       }
     },
     {
@@ -1974,10 +2393,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -2004,10 +2428,20 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_unit_header_not_detected",
+        "table_6_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_2_unit_header_not_detected / table_3_unit_header_not_detected / table_4_unit_header_not_detected / table_5_unit_header_not_detected / table_6_unit_header_not_detected"
       }
     },
     {
@@ -2034,10 +2468,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -2064,10 +2501,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "已將模組標題視為合理產品內容或規格子模組：規格與性能參數 (Specifications)"
+        "status": "agent-structure-review",
+        "decision": "需確認模組歸類",
+        "reason": "未知或需人工命名判斷的模組：規格與性能參數 (Specifications)"
       }
     },
     {
@@ -2094,10 +2537,17 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_4_unit_header_not_detected",
+        "table_5_model_header_not_detected",
+        "table_5_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_4_unit_header_not_detected / table_5_model_header_not_detected / table_5_unit_header_not_detected"
       }
     },
     {
@@ -2124,10 +2574,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_6_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_6_unit_header_not_detected"
       }
     },
     {
@@ -2155,10 +2610,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -2186,10 +2646,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -2217,10 +2680,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -2248,10 +2714,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -2279,10 +2750,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -2309,10 +2785,19 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -2340,10 +2825,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_3_unit_header_not_detected"
       }
     },
     {
@@ -2370,10 +2860,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -2401,10 +2894,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -2432,10 +2928,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected"
       }
     },
     {
@@ -2463,10 +2964,18 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_3_unit_header_not_detected / table_4_model_header_not_detected / table_4_unit_header_not_detected"
       }
     },
     {
@@ -2494,10 +3003,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -2525,10 +3039,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "body_title_tag:1"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "body_title_tag:1"
       }
     },
     {
@@ -2556,10 +3075,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "body_title_tag:1"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "body_title_tag:1"
       }
     },
     {
@@ -2587,10 +3111,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "body_title_tag:1",
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "body_title_tag:1 / spec_table_missing"
       }
     },
     {
@@ -2618,10 +3148,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "body_title_tag:1",
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "body_title_tag:1 / spec_table_missing"
       }
     },
     {
@@ -2649,10 +3185,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -2679,10 +3218,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "已將模組標題視為合理產品內容或規格子模組：蝸輪絲桿升降機系列 (Screw Jacks) / 電動推桿系列 (Actuators)"
+        "status": "agent-structure-review",
+        "decision": "需確認模組歸類",
+        "reason": "未知或需人工命名判斷的模組：蝸輪絲桿升降機系列 (Screw Jacks) / 電動推桿系列 (Actuators)"
       }
     },
     {
@@ -2710,10 +3252,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected"
       }
     },
     {
@@ -2741,10 +3289,32 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_unit_header_not_detected",
+        "table_6_unit_header_not_detected",
+        "table_7_unit_header_not_detected",
+        "table_8_unit_header_not_detected",
+        "table_9_unit_header_not_detected",
+        "table_10_unit_header_not_detected",
+        "table_11_unit_header_not_detected",
+        "table_12_unit_header_not_detected",
+        "table_13_unit_header_not_detected",
+        "table_14_unit_header_not_detected",
+        "table_15_unit_header_not_detected",
+        "table_16_unit_header_not_detected",
+        "table_17_unit_header_not_detected",
+        "table_18_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_2_unit_header_not_detected / table_3_unit_header_not_detected / table_4_unit_header_not_detected / table_5_unit_header_not_detected / table_6_unit_header_not_detected / table_7_unit_header_not_detected / table_8_unit_header_not_detected / table_9_unit_header_not_detected / table_10_unit_header_not_detected / table_11_unit_header_not_detected / table_12_unit_header_not_detected / table_13_unit_header_not_detected / table_14_unit_header_not_detected / table_15_unit_header_not_detected / table_16_unit_header_not_detected / table_17_unit_header_not_detected / table_18_unit_header_not_detected"
       }
     },
     {
@@ -2771,10 +3341,20 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_unit_header_not_detected",
+        "table_5_unit_header_not_detected",
+        "table_6_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_2_unit_header_not_detected / table_3_unit_header_not_detected / table_4_unit_header_not_detected / table_5_unit_header_not_detected / table_6_unit_header_not_detected"
       }
     },
     {
@@ -2802,10 +3382,22 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_4_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected / table_4_model_header_not_detected / table_4_unit_header_not_detected"
       }
     },
     {
@@ -2832,10 +3424,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected"
       }
     },
     {
@@ -2863,10 +3460,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -2894,10 +3496,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -2925,10 +3530,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected"
       }
     },
     {
@@ -2955,10 +3566,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -2985,10 +3599,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -3015,10 +3632,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -3046,10 +3668,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -3077,10 +3702,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -3107,10 +3735,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -3138,10 +3769,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected"
       }
     },
     {
@@ -3169,10 +3806,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_2_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_2_model_header_not_detected"
       }
     },
     {
@@ -3200,10 +3843,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -3230,10 +3876,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -3260,10 +3911,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -3290,10 +3946,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -3321,10 +3982,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected"
       }
     },
     {
@@ -3352,10 +4019,17 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "已將模組標題視為合理產品內容或規格子模組：型號規格詳情"
+        "status": "agent-structure-review",
+        "decision": "需確認模組歸類",
+        "reason": "未知或需人工命名判斷的模組：型號規格詳情"
       }
     },
     {
@@ -3383,10 +4057,17 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected"
       }
     },
     {
@@ -3414,10 +4095,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "已將模組標題視為合理產品內容或規格子模組：全系列產品陣容"
+        "status": "agent-structure-review",
+        "decision": "需確認模組歸類",
+        "reason": "未知或需人工命名判斷的模組：全系列產品陣容"
       }
     },
     {
@@ -3445,10 +4129,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_2_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_2_unit_header_not_detected"
       }
     },
     {
@@ -3476,10 +4165,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -3507,10 +4199,17 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected"
       }
     },
     {
@@ -3537,10 +4236,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -3567,10 +4271,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -3597,10 +4306,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -3627,10 +4341,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -3657,10 +4376,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -3687,10 +4411,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -3717,10 +4446,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -3747,10 +4481,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -3777,10 +4516,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -3807,10 +4551,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected"
       }
     },
     {
@@ -3837,10 +4586,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -3868,10 +4620,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "已將模組標題視為合理產品內容或規格子模組：產品核心規格 (Standard Specifications)"
+        "status": "agent-structure-review",
+        "decision": "需確認模組歸類",
+        "reason": "未知或需人工命名判斷的模組：產品核心規格 (Standard Specifications)"
       }
     },
     {
@@ -3899,10 +4657,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected"
       }
     },
     {
@@ -3930,10 +4694,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "已將模組標題視為合理產品內容或規格子模組：重點應用場景"
+        "status": "agent-structure-review",
+        "decision": "需確認模組歸類",
+        "reason": "未知或需人工命名判斷的模組：重點應用場景"
       }
     },
     {
@@ -3961,10 +4731,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected"
       }
     },
     {
@@ -3992,10 +4768,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "no-spec-module",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-source-needed",
-        "decision": "來源不足",
-        "reason": "AI 需先找到官方來源或既有規格模組；找不到來源時不得自行撰寫。"
+        "decision": "缺少可用規格模組",
+        "reason": "目前沒有可插入的既有產品規格詳情模組；不得補寫未經來源支持的規格。"
       }
     },
     {
@@ -4023,10 +4802,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -4054,10 +4838,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -4085,10 +4874,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -4116,10 +4910,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -4147,10 +4946,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -4178,10 +4982,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -4209,10 +5018,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -4240,10 +5054,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -4271,10 +5090,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -4302,10 +5126,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -4333,10 +5162,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "no-spec-module",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-source-needed",
-        "decision": "來源不足",
-        "reason": "AI 需先找到官方來源或既有規格模組；找不到來源時不得自行撰寫。"
+        "decision": "缺少可用規格模組",
+        "reason": "目前沒有可插入的既有產品規格詳情模組；不得補寫未經來源支持的規格。"
       }
     },
     {
@@ -4364,10 +5196,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "no-spec-module",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-source-needed",
-        "decision": "來源不足",
-        "reason": "AI 需先找到官方來源或既有規格模組；找不到來源時不得自行撰寫。"
+        "decision": "缺少可用規格模組",
+        "reason": "目前沒有可插入的既有產品規格詳情模組；不得補寫未經來源支持的規格。"
       }
     },
     {
@@ -4395,10 +5230,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "no-spec-module",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-source-needed",
-        "decision": "來源不足",
-        "reason": "AI 需先找到官方來源或既有規格模組；找不到來源時不得自行撰寫。"
+        "decision": "缺少可用規格模組",
+        "reason": "目前沒有可插入的既有產品規格詳情模組；不得補寫未經來源支持的規格。"
       }
     },
     {
@@ -4426,10 +5264,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4457,10 +5298,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4488,10 +5332,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4519,10 +5366,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4550,10 +5400,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4581,10 +5434,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4612,10 +5468,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4643,10 +5502,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4674,10 +5536,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4705,10 +5570,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4736,10 +5604,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4766,10 +5637,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "no-spec-module",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-source-needed",
-        "decision": "來源不足",
-        "reason": "AI 需先找到官方來源或既有規格模組；找不到來源時不得自行撰寫。"
+        "decision": "缺少可用規格模組",
+        "reason": "目前沒有可插入的既有產品規格詳情模組；不得補寫未經來源支持的規格。"
       }
     },
     {
@@ -4797,10 +5671,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "no-spec-module",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-source-needed",
-        "decision": "來源不足",
-        "reason": "AI 需先找到官方來源或既有規格模組；找不到來源時不得自行撰寫。"
+        "decision": "缺少可用規格模組",
+        "reason": "目前沒有可插入的既有產品規格詳情模組；不得補寫未經來源支持的規格。"
       }
     },
     {
@@ -4828,10 +5705,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -4859,10 +5741,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4891,10 +5776,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "已將模組標題視為合理產品內容或規格子模組：產業應用範疇"
+        "status": "agent-structure-review",
+        "decision": "需確認模組歸類",
+        "reason": "未知或需人工命名判斷的模組：產業應用範疇"
       }
     },
     {
@@ -4923,10 +5811,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -4955,10 +5848,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4987,10 +5883,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5018,10 +5917,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5049,10 +5951,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5080,10 +5985,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5111,10 +6019,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5142,10 +6053,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5173,10 +6087,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5204,10 +6121,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5235,10 +6155,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -5266,10 +6191,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -5297,10 +6227,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -5328,10 +6263,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -5360,10 +6300,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -5392,10 +6337,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -5424,10 +6374,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -5456,10 +6411,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -5487,10 +6447,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -5518,10 +6483,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -5549,10 +6519,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5580,10 +6553,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5611,10 +6587,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5642,10 +6621,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5673,10 +6655,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5704,10 +6689,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5735,10 +6723,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5766,10 +6757,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5797,10 +6791,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5828,10 +6825,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5859,10 +6859,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5890,10 +6893,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected"
       }
     },
     {
@@ -5921,10 +6929,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -5953,10 +6966,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5984,10 +7000,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected"
       }
     },
     {
@@ -6015,10 +7036,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -6046,10 +7070,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -6077,10 +7104,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected"
       }
     },
     {
@@ -6108,10 +7140,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected"
       }
     },
     {
@@ -6139,10 +7177,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected"
       }
     },
     {
@@ -6170,10 +7213,20 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -6201,10 +7254,20 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -6231,10 +7294,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -6261,10 +7327,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -6291,10 +7362,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -6321,10 +7397,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -6351,10 +7432,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -6381,10 +7467,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -6411,10 +7502,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -6441,10 +7537,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected"
       }
     },
     {
@@ -6471,10 +7573,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected"
       }
     },
     {
@@ -6501,10 +7609,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected"
       }
     },
     {
@@ -6531,10 +7645,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -6561,10 +7678,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -6591,10 +7713,19 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "已將模組標題視為合理產品內容或規格子模組：系統模組規格 (Modules)"
+        "status": "agent-structure-review",
+        "decision": "需確認模組歸類",
+        "reason": "未知或需人工命名判斷的模組：系統模組規格 (Modules)"
       }
     },
     {
@@ -6621,10 +7752,20 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_1_unit_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_1_unit_header_not_detected / table_2_model_header_not_detected / table_2_unit_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -6651,10 +7792,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "已將模組標題視為合理產品內容或規格子模組：行業應用實例"
+        "status": "agent-structure-review",
+        "decision": "需確認模組歸類",
+        "reason": "未知或需人工命名判斷的模組：行業應用實例"
       }
     },
     {
@@ -6681,10 +7827,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "已將模組標題視為合理產品內容或規格子模組：Xenus Plus 系列 &ndash; CANopen (4 kHz) / Xenus Plus 系列 &ndash; EtherCAT (4 kHz) / Xenus Plus 系列 &ndash; MACRO (4 kHz) / Xenus 系列 &ndash; CANopen (經典/強化型)"
+        "status": "agent-structure-review",
+        "decision": "需確認模組歸類",
+        "reason": "未知或需人工命名判斷的模組：Xenus Plus 系列 &ndash; CANopen (4 kHz) / Xenus Plus 系列 &ndash; EtherCAT (4 kHz) / Xenus Plus 系列 &ndash; MACRO (4 kHz) / Xenus 系列 &ndash; CANopen (經典/強化型)"
       }
     },
     {
@@ -6711,10 +7860,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -6741,10 +7893,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "spec_table_missing"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "spec_table_missing"
       }
     },
     {
@@ -6771,10 +7928,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -6801,10 +7961,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -6831,10 +7994,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -6861,10 +8027,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -6892,10 +8061,17 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected",
+        "table_2_unit_header_not_detected",
+        "table_3_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected / table_2_unit_header_not_detected / table_3_unit_header_not_detected"
       }
     },
     {
@@ -6922,10 +8098,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -6952,10 +8131,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -6982,10 +8164,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -7012,10 +8197,18 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_4_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_2_model_header_not_detected / table_3_model_header_not_detected / table_4_model_header_not_detected"
       }
     },
     {
@@ -7042,10 +8235,18 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_4_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_2_model_header_not_detected / table_3_model_header_not_detected / table_4_model_header_not_detected"
       }
     },
     {
@@ -7072,10 +8273,19 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_model_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_3_unit_header_not_detected",
+        "table_4_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_model_header_not_detected / table_2_model_header_not_detected / table_3_model_header_not_detected / table_3_unit_header_not_detected / table_4_model_header_not_detected"
       }
     },
     {
@@ -7102,10 +8312,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -7132,10 +8347,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -7162,10 +8380,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -7193,10 +8414,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "body_title_tag:1",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "body_title_tag:1 / table_1_unit_header_not_detected"
       }
     },
     {
@@ -7224,10 +8451,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "body_title_tag:1",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "body_title_tag:1 / table_1_unit_header_not_detected"
       }
     },
     {
@@ -7255,10 +8488,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "body_title_tag:1",
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "body_title_tag:1 / table_1_unit_header_not_detected"
       }
     },
     {
@@ -7286,10 +8525,17 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "body_title_tag:1",
+        "table_1_model_header_not_detected",
+        "table_2_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "body_title_tag:1 / table_1_model_header_not_detected / table_2_model_header_not_detected"
       }
     },
     {
@@ -7317,10 +8563,20 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "body_title_tag:1",
+        "table_1_model_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_3_model_header_not_detected",
+        "table_4_model_header_not_detected",
+        "table_5_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "body_title_tag:1 / table_1_model_header_not_detected / table_2_model_header_not_detected / table_3_model_header_not_detected / table_4_model_header_not_detected / table_5_model_header_not_detected"
       }
     },
     {
@@ -7348,10 +8604,18 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "body_title_tag:1",
+        "table_1_model_header_not_detected",
+        "table_2_model_header_not_detected",
+        "table_3_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "body_title_tag:1 / table_1_model_header_not_detected / table_2_model_header_not_detected / table_3_model_header_not_detected"
       }
     },
     {
@@ -7379,10 +8643,16 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "body_title_tag:1",
+        "table_1_model_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "body_title_tag:1 / table_1_model_header_not_detected"
       }
     },
     {
@@ -7410,10 +8680,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "已將模組標題視為合理產品內容或規格子模組：線性執行器系列選型"
+        "status": "agent-structure-review",
+        "decision": "需確認模組歸類",
+        "reason": "未知或需人工命名判斷的模組：線性執行器系列選型"
       }
     },
     {
@@ -7440,10 +8715,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -7471,10 +8751,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -7502,10 +8785,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -7533,10 +8819,13 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
+      "page_seo_critical": [],
       "agent_review": {
         "status": "agent-approved-clean",
         "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -7563,10 +8852,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -7593,10 +8887,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     },
     {
@@ -7623,10 +8922,15 @@
       },
       "critical": [],
       "warnings": [],
+      "page_seo_qa_status": "warn",
+      "page_seo_warnings": [
+        "table_1_unit_header_not_detected"
+      ],
+      "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-approved-clean",
-        "decision": "AI agent 審核通過",
-        "reason": "規格模組 QA 通過，未見 critical 或 warning。"
+        "status": "agent-fix-required",
+        "decision": "AI 可繼續修正",
+        "reason": "table_1_unit_header_not_detected"
       }
     }
   ]
