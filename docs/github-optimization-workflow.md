@@ -61,9 +61,12 @@ npm run qa:docs
 npm run qa:mirror
 npm run qa:spec
 npm run qa:product-seo
+npm run qa:product-seo-taxonomy
 npm run qa:agent
 npm run qa:source-needed
 ```
+
+`qa:product-seo-taxonomy` 會將剩餘 warning 依修復類型、分類與 phase branch 分組，後續優先用同一類型的批次修正，而不是逐頁猜問題。
 
 若 `qa:product-seo` 回報多個 H1，先使用：
 
