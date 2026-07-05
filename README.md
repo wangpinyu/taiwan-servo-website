@@ -63,6 +63,7 @@ Large images and documents are tracked through Git LFS via `.gitattributes`.
    - `site/reports/product-standardization-report.html`
    - `site/reports/product-spec-module-qa.html`
    - `site/reports/product-spec-agent-review.html`
+   - `site/reports/source-needed-audit.html`
    - `site/reports/github-ready-validation.html`
    - `site/reports/local-mirror-readiness-current.html`
    - `site/reports/optimization-backlog.html`
