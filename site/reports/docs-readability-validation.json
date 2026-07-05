@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T22:54:44.442Z",
+  "generatedAt": "2026-07-05T23:04:49.651Z",
   "status": "ok",
   "summary": {
     "docs": 6,
@@ -10,7 +10,7 @@
       "file": "README.md",
       "status": "pass",
       "title": "# Taiwan Servo Site Optimization",
-      "chars": 6707,
+      "chars": 6851,
       "errors": [],
       "mojibakeHits": []
     },
@@ -18,7 +18,7 @@
       "file": "docs/github-optimization-workflow.md",
       "status": "pass",
       "title": "# GitHub 驅動的星泰產品頁優化工作流",
-      "chars": 4214,
+      "chars": 4344,
       "errors": [],
       "mojibakeHits": []
     },

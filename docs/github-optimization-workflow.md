@@ -72,6 +72,13 @@ npm run fix:h1-hierarchy:dry-run
 npm run fix:h1-hierarchy
 ```
 
+若 `qa:product-seo` 回報 body 內殘留 `<title>`，先使用：
+
+```powershell
+npm run fix:body-title-tags:dry-run
+npm run fix:body-title-tags
+```
+
 這個修正只保留產品頁第一個 H1，後續 H1 降級為 H2，避免破壞 SEO heading hierarchy。
 
 產生 backlog 與 issue index：
