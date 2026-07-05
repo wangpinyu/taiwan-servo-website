@@ -1,0 +1,29 @@
+{
+  "id": 8,
+  "label": "custom-solution",
+  "source": "frontend-fallback-login-redirect",
+  "editUrl": "https://new.da-vinci.com.tw/taiwan_servo/newadmin/Applications/edit/8?module_id=10007",
+  "editStatus": 200,
+  "backendBlocked": "login_redirect",
+  "frontend_url": "https://new.da-vinci.com.tw/taiwan_servo/services/detail/8",
+  "frontendStatus": 200,
+  "tw_name": "非標準需求評估與方案規劃",
+  "sequence": "",
+  "publish": "",
+  "seo_title": "非標準需求評估與方案規劃｜客製化運動控制方案｜星泰國際",
+  "seo_keywords": "",
+  "seo_description": "針對非標準尺寸、行程、推力、扭力、精度與安裝限制，星泰協助評估可行性、選型方向與工程風險。",
+  "seo_scripts": "<meta name=\"robots\" content=\"noindex,nofollow\" />\n<meta name=\"robots\" content=\"index, follow, all\" />",
+  "frontend_title": "非標準需求評估與方案規劃｜客製化運動控制方案｜星泰國際",
+  "frontend_h1": "非標準需求評估與方案規劃",
+  "checks": {
+    "contentLength": 3456,
+    "h1Count": 1,
+    "hasCodexWrapper": true,
+    "hasWhy": true,
+    "faqCount": 5,
+    "hasLocalPath": false,
+    "hasTxtHref": false,
+    "hasPending": false
+  }
+}

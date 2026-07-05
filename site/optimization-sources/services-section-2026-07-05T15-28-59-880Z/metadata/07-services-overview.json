@@ -1,0 +1,29 @@
+{
+  "id": 7,
+  "label": "services-overview",
+  "source": "frontend-fallback-login-redirect",
+  "editUrl": "https://new.da-vinci.com.tw/taiwan_servo/newadmin/Applications/edit/7?module_id=10007",
+  "editStatus": 200,
+  "backendBlocked": "login_redirect",
+  "frontend_url": "https://new.da-vinci.com.tw/taiwan_servo/services",
+  "frontendStatus": 200,
+  "tw_name": "服務項目",
+  "sequence": "",
+  "publish": "",
+  "seo_title": "服務項目｜精密運動控制與自動化系統整合服務｜星泰國際",
+  "seo_keywords": "",
+  "seo_description": "星泰服務項目包含技術諮詢、精密運動控制系統整合、非標準需求評估、產品整合、導入支援、子系統設計與維修升級。",
+  "seo_scripts": "<meta name=\"robots\" content=\"noindex,nofollow\" />\n<meta name=\"robots\" content=\"index, follow, all\" />",
+  "frontend_title": "服務項目｜精密運動控制與自動化系統整合服務｜星泰國際",
+  "frontend_h1": "服務項目",
+  "checks": {
+    "contentLength": 4525,
+    "h1Count": 1,
+    "hasCodexWrapper": true,
+    "hasWhy": false,
+    "faqCount": 0,
+    "hasLocalPath": false,
+    "hasTxtHref": false,
+    "hasPending": false
+  }
+}

@@ -1,0 +1,1058 @@
+{
+  "generated_at": "2026-07-05T16:30:27.406Z",
+  "deploy_mode": "needs-review",
+  "file_count": 75,
+  "bytes": 224680,
+  "files": [
+    {
+      "local_rel": "assets-cache/03b89f0e52ff-OpenSansRegular.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/03b89f0e52ff-OpenSansRegular.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 57456,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/06acd8634530-social-wc.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/06acd8634530-social-wc.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 1580,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/09b4ff033f40-icon-search.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/09b4ff033f40-icon-search.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 336,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/0a0ef6269a7d-icon-del.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/0a0ef6269a7d-icon-del.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 280,
+      "usage_count": 2,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/0e8b1310b673-social-o-wa.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/0e8b1310b673-social-o-wa.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 1188,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/0fece143b89e-social-o-qq.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/0fece143b89e-social-o-qq.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 910,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/186436e1bafe-social-o-wc.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/186436e1bafe-social-o-wc.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 1566,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/18b90623b9da-arr1-3-next.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/18b90623b9da-arr1-3-next.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 279,
+      "usage_count": 4,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/1bd9ef5e123d-icon-check.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/1bd9ef5e123d-icon-check.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 230,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/28d14497c424-social-x.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/28d14497c424-social-x.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 375,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/2c026cac47be-social-tg.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/2c026cac47be-social-tg.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 709,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/319c1378ae74-social-o-tg.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/319c1378ae74-social-o-tg.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 709,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/31c7b1abedaf-icon-mail3.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/31c7b1abedaf-icon-mail3.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 1184,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/32e7a71fadba-social-ig.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/32e7a71fadba-social-ig.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 894,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/3426074b3864-icon-plus-2.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/3426074b3864-icon-plus-2.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 266,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/36cb9010e3b0-arr1-3-down.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/36cb9010e3b0-arr1-3-down.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 279,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/3863256ae403-arr2-3-down.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/3863256ae403-arr2-3-down.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 310,
+      "usage_count": 2,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/3c80cd28b1a2-social-o-fb.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/3c80cd28b1a2-social-o-fb.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 373,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/3de7b81ede57-list-icon01.png",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/3de7b81ede57-list-icon01.png",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 105,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/41382b8dfb5a-social-yt.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/41382b8dfb5a-social-yt.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 388,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/46a439e8379a-icon-mail2.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/46a439e8379a-icon-mail2.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 482,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/51a8f4ee9a76-OpenSansLight.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/51a8f4ee9a76-OpenSansLight.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 55478,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/526f98d7f8ab-social-fb.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/526f98d7f8ab-social-fb.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 370,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/594b3553b5e8-social-o-tt.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/594b3553b5e8-social-o-tt.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 622,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/5f2ae9ada625-icon-tel2.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/5f2ae9ada625-icon-tel2.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 628,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/5fbe64d7fb0b-icon-download3.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/5fbe64d7fb0b-icon-download3.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 758,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/6256582e1fee-gotop01.png",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/6256582e1fee-gotop01.png",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 1083,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/691477d7c03a-social-o-ig.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/691477d7c03a-social-o-ig.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 2589,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/6eb792bcda22-list-icon02.png",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/6eb792bcda22-list-icon02.png",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 250,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/6eeee38b0afb-icon-minus-2.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/6eeee38b0afb-icon-minus-2.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 214,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/6f1703324db2-social-qq.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/6f1703324db2-social-qq.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 911,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/759e7d5f5092-icon-refload.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/759e7d5f5092-icon-refload.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 899,
+      "usage_count": 2,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/76520f6454ca-arr3-3-prev.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/76520f6454ca-arr3-3-prev.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 337,
+      "usage_count": 3,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/79f80a6752f2-social-o-yt.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/79f80a6752f2-social-o-yt.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 389,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/7d525888e627-social-o-x.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/7d525888e627-social-o-x.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 375,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/80bf73bd305a-social-sk.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/80bf73bd305a-social-sk.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 2238,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/83a9737dfe9c-social-o-pl.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/83a9737dfe9c-social-o-pl.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 2856,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/893b77bef96b-social-tel.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/893b77bef96b-social-tel.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 689,
+      "usage_count": 2,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/9b27340e8a79-arr1-2-next.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/9b27340e8a79-arr1-2-next.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 279,
+      "usage_count": 2,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/9dd11fed2913-social-o-in.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/9dd11fed2913-social-o-in.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 563,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/a3a4c8f538cb-social-pe.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/a3a4c8f538cb-social-pe.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 1595,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/a53b3158453b-social-o-pe.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/a53b3158453b-social-o-pe.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 1631,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/a8780b989eec-social-tt.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/a8780b989eec-social-tt.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 625,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/aa614f37eb8f-icon-fax2.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/aa614f37eb8f-icon-fax2.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 772,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/aec1ff54f670-social-in.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/aec1ff54f670-social-in.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 569,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/c6e4a9d47012-icon-download.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/c6e4a9d47012-icon-download.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 686,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/c9109f3b3761-social-pl.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/c9109f3b3761-social-pl.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 2856,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/cae4316a7080-arr3-3-next.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/cae4316a7080-arr3-3-next.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 332,
+      "usage_count": 2,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/ce4b3c12e18d-icon-minus-1.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/ce4b3c12e18d-icon-minus-1.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 214,
+      "usage_count": 2,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/ce7b99ede25c-OpenSansBold.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/ce7b99ede25c-OpenSansBold.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 56505,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/d128061be91d-arr2-1-next.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/d128061be91d-arr2-1-next.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 279,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/d2ee72f54671-icon-link.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/d2ee72f54671-icon-link.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 589,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/d2f711f093bb-social-line.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/d2f711f093bb-social-line.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 1602,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/d562c45d7516-icon-plus-1.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/d562c45d7516-icon-plus-1.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 266,
+      "usage_count": 3,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/d68e1e36a267-social-sn.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/d68e1e36a267-social-sn.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 1594,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/d799c76f5325-arr2-1-prev.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/d799c76f5325-arr2-1-prev.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 279,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/d839335e3ea6-hover01.png",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/d839335e3ea6-hover01.png",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 462,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/d85abba4bfbf-icon-share.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/d85abba4bfbf-icon-share.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 1171,
+      "usage_count": 4,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/da77941cd46b-icon-map2.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/da77941cd46b-icon-map2.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 489,
+      "usage_count": 2,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/e146d72b06ba-arr1-2-prev.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/e146d72b06ba-arr1-2-prev.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 287,
+      "usage_count": 2,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/e4b0aebbdd48-social-o-line.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/e4b0aebbdd48-social-o-line.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 1616,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/e83c3bc23ef3-social-wa.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/e83c3bc23ef3-social-wa.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 1188,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/e9143587faa1-social-mail.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/e9143587faa1-social-mail.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 386,
+      "usage_count": 2,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/ec4c2c6d9ebf-icon-home2.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/ec4c2c6d9ebf-icon-home2.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 531,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/f1b1ce9735a9-social-o-sk.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/f1b1ce9735a9-social-o-sk.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 2239,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/f6dead03596b-icon-lang.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/f6dead03596b-icon-lang.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 555,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/fb83105d72f0-hover03.png",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/fb83105d72f0-hover03.png",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 853,
+      "usage_count": 2,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/fd37e14bb5c2-social-o-sn.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/fd37e14bb5c2-social-o-sn.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 1599,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/fde121d48345-icon-download2.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/fde121d48345-icon-download2.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 834,
+      "usage_count": 1,
+      "used_by_pages": [
+        "assets-cache/0a9c1362cb00-style.css"
+      ]
+    },
+    {
+      "local_rel": "assets-cache/missing-source-asset.svg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/assets-cache/missing-source-asset.svg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 649,
+      "usage_count": 4,
+      "used_by_pages": [
+        "/products/detail/242"
+      ]
+    },
+    {
+      "local_rel": "preview/products/detail/images/ringfeder-elastomer-jaw-couplings-overview.jpg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/preview/products/detail/images/ringfeder-elastomer-jaw-couplings-overview.jpg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 0,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/332"
+      ]
+    },
+    {
+      "local_rel": "uploads/editor/images/ACS%20Images/ACS-MMI%20application-Studio.jpg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/editor/images/ACS%20Images/ACS-MMI%20application-Studio.jpg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 0,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/352"
+      ]
+    },
+    {
+      "local_rel": "uploads/images/a3f28c784f673f5fcdb6c3e188e4f76a.jpg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/images/a3f28c784f673f5fcdb6c3e188e4f76a.jpg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 0,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/342"
+      ]
+    },
+    {
+      "local_rel": "uploads/images/ba95541509bb5ad949bc93c4d7b65b24.jpg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/images/ba95541509bb5ad949bc93c4d7b65b24.jpg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 0,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/343"
+      ]
+    },
+    {
+      "local_rel": "uploads/images/c39611a103711ad63a507a5cffe82865.jpg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/images/c39611a103711ad63a507a5cffe82865.jpg",
+      "source_url": "",
+      "future_server_path": "",
+      "deploy_mode": "needs-review",
+      "safe_to_overwrite": false,
+      "category": "image",
+      "bytes": 0,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/341"
+      ]
+    }
+  ]
+}

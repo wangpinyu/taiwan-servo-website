@@ -1,0 +1,29 @@
+{
+  "id": 9,
+  "label": "brand-integration",
+  "source": "frontend-fallback-login-redirect",
+  "editUrl": "https://new.da-vinci.com.tw/taiwan_servo/newadmin/Applications/edit/9?module_id=10007",
+  "editStatus": 200,
+  "backendBlocked": "login_redirect",
+  "frontend_url": "https://new.da-vinci.com.tw/taiwan_servo/services/detail/9",
+  "frontendStatus": 200,
+  "tw_name": "國際品牌代理與產品整合",
+  "sequence": "",
+  "publish": "",
+  "seo_title": "國際品牌代理與產品整合｜跨品牌控制馬達回授傳動選型｜星泰國際",
+  "seo_keywords": "",
+  "seo_description": "星泰協助跨品牌控制、驅動、馬達、回授與傳動元件整合，比對介面相容與替代料方向。",
+  "seo_scripts": "<meta name=\"robots\" content=\"noindex,nofollow\" />\n<meta name=\"robots\" content=\"index, follow, all\" />",
+  "frontend_title": "國際品牌代理與產品整合｜跨品牌控制馬達回授傳動選型｜星泰國際",
+  "frontend_h1": "國際品牌代理與產品整合",
+  "checks": {
+    "contentLength": 3392,
+    "h1Count": 1,
+    "hasCodexWrapper": true,
+    "hasWhy": true,
+    "faqCount": 5,
+    "hasLocalPath": false,
+    "hasTxtHref": false,
+    "hasPending": false
+  }
+}

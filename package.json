@@ -1,0 +1,19 @@
+{
+  "name": "taiwan-servo-site-optimization",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Private local mirror and optimization workflow for Taiwan Servo / Shin Tai website frontend.",
+  "type": "module",
+  "scripts": {
+    "serve": "node tools/serve-site.mjs",
+    "validate": "node tools/validate-static-site.mjs && node tools/validate-product-spec-modules.mjs && node tools/generate-product-spec-agent-review.mjs",
+    "validate:strict": "node tools/validate-static-site.mjs --strict && node tools/validate-product-spec-modules.mjs --strict && node tools/generate-product-spec-agent-review.mjs",
+    "qa:site": "node tools/validate-static-site.mjs",
+    "qa:spec": "node tools/validate-product-spec-modules.mjs",
+    "qa:agent": "node tools/generate-product-spec-agent-review.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

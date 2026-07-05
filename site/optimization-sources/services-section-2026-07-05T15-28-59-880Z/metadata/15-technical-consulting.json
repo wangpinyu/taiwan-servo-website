@@ -1,0 +1,29 @@
+{
+  "id": 15,
+  "label": "technical-consulting",
+  "source": "frontend-fallback-login-redirect",
+  "editUrl": "https://new.da-vinci.com.tw/taiwan_servo/newadmin/Applications/edit/15?module_id=10007",
+  "editStatus": 200,
+  "backendBlocked": "login_redirect",
+  "frontend_url": "https://new.da-vinci.com.tw/taiwan_servo/services/detail/15",
+  "frontendStatus": 200,
+  "tw_name": "技術諮詢與系統規劃",
+  "sequence": "",
+  "publish": "",
+  "seo_title": "技術諮詢與系統規劃｜運動控制選型與自動化架構規劃｜星泰國際",
+  "seo_keywords": "",
+  "seo_description": "星泰協助整理運動控制、伺服驅動、馬達、減速機與回授元件的選型條件，降低規格誤判與整合風險。",
+  "seo_scripts": "<meta name=\"robots\" content=\"noindex,nofollow\" />\n<meta name=\"robots\" content=\"index, follow, all\" />",
+  "frontend_title": "技術諮詢與系統規劃｜運動控制選型與自動化架構規劃｜星泰國際",
+  "frontend_h1": "技術諮詢與系統規劃",
+  "checks": {
+    "contentLength": 3666,
+    "h1Count": 1,
+    "hasCodexWrapper": true,
+    "hasWhy": true,
+    "faqCount": 5,
+    "hasLocalPath": false,
+    "hasTxtHref": false,
+    "hasPending": false
+  }
+}

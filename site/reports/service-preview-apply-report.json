@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-07-05T16:30:29.308297+00:00",
+  "status": "completed",
+  "source_package": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/optimization-sources/services-section-2026-07-05T15-28-59-880Z",
+  "results": [
+    {
+      "target": "index.html",
+      "title": "服務項目",
+      "html_title": "服務項目｜精密運動控制與自動化系統整合服務｜星泰國際",
+      "article_h1": "服務項目",
+      "breadcrumb": "首頁 > 服務項目 > 服務項目",
+      "ok": true,
+      "taiwan_servo_href_count": 0,
+      "formal_host_href_count": 0,
+      "file_path_text": false,
+      "details_count": 0,
+      "service_style_count": 1
+    },
+    {
+      "target": "detail/7.html",
+      "title": "技術諮詢與系統規劃",
+      "html_title": "技術諮詢與系統規劃｜運動控制選型與自動化架構規劃｜星泰國際",
+      "article_h1": "技術諮詢與系統規劃",
+      "breadcrumb": "首頁 > 服務項目 > 技術諮詢與系統規劃",
+      "ok": true,
+      "taiwan_servo_href_count": 0,
+      "formal_host_href_count": 0,
+      "file_path_text": false,
+      "details_count": 5,
+      "service_style_count": 1
+    },
+    {
+      "target": "detail/8.html",
+      "title": "非標準需求評估與方案規劃",
+      "html_title": "非標準需求評估與方案規劃｜客製化運動控制方案｜星泰國際",
+      "article_h1": "非標準需求評估與方案規劃",
+      "breadcrumb": "首頁 > 服務項目 > 非標準需求評估與方案規劃",
+      "ok": true,
+      "taiwan_servo_href_count": 0,
+      "formal_host_href_count": 0,
+      "file_path_text": false,
+      "details_count": 5,
+      "service_style_count": 1
+    },
+    {
+      "target": "detail/9.html",
+      "title": "國際品牌代理與產品整合",
+      "html_title": "國際品牌代理與產品整合｜跨品牌控制馬達回授傳動選型｜星泰國際",
+      "article_h1": "國際品牌代理與產品整合",
+      "breadcrumb": "首頁 > 服務項目 > 國際品牌代理與產品整合",
+      "ok": true,
+      "taiwan_servo_href_count": 0,
+      "formal_host_href_count": 0,
+      "file_path_text": false,
+      "details_count": 5,
+      "service_style_count": 1
+    },
+    {
+      "target": "detail/10.html",
+      "title": "快速導入與技術支援",
+      "html_title": "快速導入與技術支援｜伺服控制與自動化產品上線協助｜星泰國際",
+      "article_h1": "快速導入與技術支援",
+      "breadcrumb": "首頁 > 服務項目 > 快速導入與技術支援",
+      "ok": true,
+      "taiwan_servo_href_count": 0,
+      "formal_host_href_count": 0,
+      "file_path_text": false,
+      "details_count": 5,
+      "service_style_count": 1
+    },
+    {
+      "target": "detail/11.html",
+      "title": "客製子系統設計與組裝",
+      "html_title": "客製子系統設計與組裝｜定位平台電動缸與運動控制模組｜星泰國際",
+      "article_h1": "客製子系統設計與組裝",
+      "breadcrumb": "首頁 > 服務項目 > 客製子系統設計與組裝",
+      "ok": true,
+      "taiwan_servo_href_count": 0,
+      "formal_host_href_count": 0,
+      "file_path_text": false,
+      "details_count": 5,
+      "service_style_count": 1
+    },
+    {
+      "target": "detail/12.html",
+      "title": "維修保固與升級服務",
+      "html_title": "維修保固與升級服務｜伺服驅動馬達回授替換與設備維護｜星泰國際",
+      "article_h1": "維修保固與升級服務",
+      "breadcrumb": "首頁 > 服務項目 > 維修保固與升級服務",
+      "ok": true,
+      "taiwan_servo_href_count": 0,
+      "formal_host_href_count": 0,
+      "file_path_text": false,
+      "details_count": 5,
+      "service_style_count": 1
+    },
+    {
+      "target": "detail/13.html",
+      "title": "精密運動控制系統整合",
+      "html_title": "精密運動控制系統整合｜多軸龍門閉迴路定位服務｜星泰國際",
+      "article_h1": "精密運動控制系統整合",
+      "breadcrumb": "首頁 > 服務項目 > 精密運動控制系統整合",
+      "ok": true,
+      "taiwan_servo_href_count": 0,
+      "formal_host_href_count": 0,
+      "file_path_text": false,
+      "details_count": 5,
+      "service_style_count": 1
+    }
+  ]
+}

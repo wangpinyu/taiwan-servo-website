@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local runtime logs
+*.log
+site/logs/
+
+# Keep generated reports in this repo because they are review artifacts.
+!site/reports/
+
+# Credentials and local-only config
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+cookies*.json
+tokens*.json
+

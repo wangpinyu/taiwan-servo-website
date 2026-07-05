@@ -1,0 +1,29 @@
+{
+  "id": 10,
+  "label": "implementation-support",
+  "source": "frontend-fallback-login-redirect",
+  "editUrl": "https://new.da-vinci.com.tw/taiwan_servo/newadmin/Applications/edit/10?module_id=10007",
+  "editStatus": 200,
+  "backendBlocked": "login_redirect",
+  "frontend_url": "https://new.da-vinci.com.tw/taiwan_servo/services/detail/10",
+  "frontendStatus": 200,
+  "tw_name": "快速導入與技術支援",
+  "sequence": "",
+  "publish": "",
+  "seo_title": "快速導入與技術支援｜伺服控制與自動化產品上線協助｜星泰國際",
+  "seo_keywords": "",
+  "seo_description": "星泰協助整理控制器、驅動器、馬達、回授與自動化產品導入條件，分類接線、參數、通訊與測試問題。",
+  "seo_scripts": "<meta name=\"robots\" content=\"noindex,nofollow\" />\n<meta name=\"robots\" content=\"index, follow, all\" />",
+  "frontend_title": "快速導入與技術支援｜伺服控制與自動化產品上線協助｜星泰國際",
+  "frontend_h1": "快速導入與技術支援",
+  "checks": {
+    "contentLength": 3458,
+    "h1Count": 1,
+    "hasCodexWrapper": true,
+    "hasWhy": true,
+    "faqCount": 5,
+    "hasLocalPath": false,
+    "hasTxtHref": false,
+    "hasPending": false
+  }
+}

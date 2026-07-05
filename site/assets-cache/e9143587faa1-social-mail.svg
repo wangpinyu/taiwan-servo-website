@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+<style type="text/css">
+	.icon{fill:none;stroke:#fff;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<path class="icon" d="M3.4,5.3c-1.1,0-1.9,0.9-1.9,1.9v15.6c0,1.1,0.9,1.9,1.9,1.9h23.1c1.1,0,1.9-0.9,1.9-1.9V7.2
+	c0-1.1-0.9-1.9-1.9-1.9H3.4z"/>
+<path class="icon" d="M2.3,5.7l11.3,10.5c0.8,0.7,2,0.7,
+2.8,0L27.7,5.7"/>
+</svg>

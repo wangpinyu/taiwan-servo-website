@@ -1,0 +1,105 @@
+import fs from 'node:fs';
+import path from 'node:path';
+
+const root = path.resolve(process.env.SITE_ROOT || 'site');
+const reportDir = path.join(root, 'reports');
+const standardizationPath = path.join(reportDir, 'product-standardization-report.json');
+const strict = process.argv.includes('--strict');
+
+function htmlEscape(value) {
+  return String(value ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function stripTags(text) {
+  return String(text || '').replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/gi, ' ').replace(/&amp;/gi, '&').replace(/\s+/g, ' ').trim();
+}
+
+function count(html, re) {
+  return [...String(html || '').matchAll(re)].length;
+}
+
+function specBlock(html) {
+  const m = String(html || '').match(/<!-- standardized-spec-module:start -->([\s\S]*?)<!-- standardized-spec-module:end -->/i);
+  return m ? m[1] : '';
+}
+
+function anchors(html) {
+  return [...String(html || '').matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi)].map((m) => {
+    const attrs = m[1] || '';
+    const href = attrs.match(/\shref=(["'])(.*?)\1/i)?.[2] || '';
+    const aria = attrs.match(/\saria-label=(["'])(.*?)\1/i)?.[2] || '';
+    return { href, aria, text: stripTags(m[2]), tag: m[0] };
+  });
+}
+
+function validate(page) {
+  const file = path.join(root, page.preview_rel);
+  const html = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '';
+  const block = specBlock(html);
+  const linkList = anchors(block);
+  const technical = linkList.filter((a) => /(?:\.pdf|\.zip|\.dwg|\.step|\.stp|\.dxf|\.cad|PDF|CAD|Manual|Catalog|Drawing|Software|下載)/i.test(`${a.tag} ${a.text}`));
+  const critical = [];
+  const warnings = [];
+  if (page.status !== 'no-spec-module' && !block) critical.push('missing_standardized_spec_block');
+  if (/<img\b/i.test(block)) critical.push('spec_contains_image');
+  if (/href=(["'])(?:#|javascript:void\(0\)|)\1/i.test(block)) critical.push('spec_placeholder_href');
+  if (/href=(["'])[^"']*\.txt/i.test(block)) critical.push('spec_txt_href');
+  if (/file:\/\/\/|[A-Z]:\\/i.test(block)) critical.push('spec_local_path');
+  if (/\sdata-(?:local-file|upload-url|source-url)=/i.test(block)) critical.push('spec_internal_data_attrs');
+  if (/待人工|待確認|placeholder|pending|後續由人工|上傳至測試網/i.test(block)) critical.push('spec_internal_note_text');
+  if (block && !/詢問|加入詢問|請洽星泰|洽詢|報價|inquiry|contact/i.test(block)) warnings.push('spec_cta_missing_or_outside_block');
+  const weakLabels = technical.filter((a) => /^(PDF|CAD|ZIP|下載|Download)$/i.test(`${a.aria} ${a.text}`.trim()) && !a.aria).length;
+  if (weakLabels) warnings.push(`download_label_needs_review:${weakLabels}`);
+  const qaStatus = critical.length ? 'fail' : warnings.length ? 'warn' : block ? 'pass' : page.status === 'no-spec-module' ? 'no-spec-module' : 'warn';
+  return {
+    product_id: page.product_id,
+    title: page.title,
+    category_path: page.category_path || [],
+    preview_rel: page.preview_rel,
+    spec_candidate_rel: page.spec_candidate_rel || '',
+    overlay_status: page.status,
+    qa_status: qaStatus,
+    counts: {
+      details: count(block, /<details\b/gi),
+      tables: count(block, /<table\b/gi),
+      pdf_links: count(block, /href=(["'])[^"']*\.pdf(?:[#?][^"']*)?\1/gi),
+      cad_links: count(block, /\.(?:dwg|dxf|step|stp|cad)(?:[#?]|["'])/gi),
+      zip_links: count(block, /href=(["'])[^"']*\.zip(?:[#?][^"']*)?\1/gi),
+      cta_count: count(block, /詢問|加入詢問|請洽星泰|洽詢|報價|inquiry|contact/gi),
+      spec_images: count(block, /<img\b/gi),
+      href_hash: count(block, /href=(["'])(?:#|javascript:void\(0\)|)\1/gi),
+      data_attr_count: count(block, /\sdata-(?:local-file|upload-url|source-url)=/gi),
+    },
+    critical,
+    warnings,
+  };
+}
+
+if (!fs.existsSync(standardizationPath)) {
+  console.error(`Missing ${standardizationPath}`);
+  process.exit(1);
+}
+
+const source = JSON.parse(fs.readFileSync(standardizationPath, 'utf8'));
+const pages = source.pages.map(validate);
+const counts = {};
+for (const page of pages) counts[page.qa_status] = (counts[page.qa_status] || 0) + 1;
+const report = {
+  generated_at: new Date().toISOString(),
+  scope: 'GitHub-ready product spec module QA',
+  summary: {
+    total_pages: pages.length,
+    qa_status_counts: counts,
+    fail_count: counts.fail || 0,
+    warn_count: counts.warn || 0,
+    pass_count: counts.pass || 0,
+    no_spec_module_count: counts['no-spec-module'] || 0,
+  },
+  pages,
+};
+fs.mkdirSync(reportDir, { recursive: true });
+fs.writeFileSync(path.join(reportDir, 'product-spec-module-qa.json'), JSON.stringify(report, null, 2), 'utf8');
+fs.writeFileSync(path.join(reportDir, 'product-spec-module-qa.html'), `<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><title>產品規格詳情 QA</title><style>body{font-family:Arial,'Microsoft JhengHei',sans-serif;margin:24px}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #ddd;padding:8px;text-align:left;vertical-align:top}th{background:#eef7f0}</style></head><body><h1>產品規格詳情 QA</h1><pre>${htmlEscape(JSON.stringify(report.summary, null, 2))}</pre><table><thead><tr><th>ID</th><th>產品</th><th>QA</th><th>阻塞</th><th>警告</th></tr></thead><tbody>${pages.map((p) => `<tr><td>${htmlEscape(p.product_id)}</td><td><a href="../${htmlEscape(p.preview_rel)}">${htmlEscape(p.title)}</a></td><td>${htmlEscape(p.qa_status)}</td><td>${htmlEscape(p.critical.join(' / '))}</td><td>${htmlEscape(p.warnings.join(' / '))}</td></tr>`).join('')}</tbody></table></body></html>`, 'utf8');
+console.log(JSON.stringify({ status: report.summary.fail_count ? 'issues' : 'ok', report: 'site/reports/product-spec-module-qa.html', summary: report.summary }, null, 2));
+if (report.summary.fail_count || (strict && report.summary.warn_count)) process.exit(1);
+

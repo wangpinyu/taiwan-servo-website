@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-07-05T16:30:27.412Z",
+  "status": "blocked",
+  "summary": {
+    "pages_total": 358,
+    "local_resources": 2085,
+    "missing_local_resources": 5,
+    "formal_same_origin_refs": 269,
+    "document_links": 193,
+    "failed_document_links": 0,
+    "render_assets_failed": 4,
+    "deploy_files": 1677,
+    "same_path_overwrite_candidates": 1415,
+    "deploy_needs_review": 262
+  },
+  "gates": [
+    {
+      "name": "local-pages-built",
+      "status": "pass",
+      "evidence": "358 pages built"
+    },
+    {
+      "name": "local-resource-links",
+      "status": "fail",
+      "evidence": "5 missing local resources"
+    },
+    {
+      "name": "formal-site-internal-residue",
+      "status": "review",
+      "evidence": "269 same-origin formal refs remain"
+    },
+    {
+      "name": "document-cache",
+      "status": "pass",
+      "evidence": "193/193 documents local; 0 failed"
+    },
+    {
+      "name": "render-asset-cache",
+      "status": "review",
+      "evidence": "4 render assets failed; local placeholders used where applicable"
+    },
+    {
+      "name": "deploy-manifest",
+      "status": "pass",
+      "evidence": "1677 deploy files; 1415 same-path overwrite candidates"
+    }
+  ],
+  "deploy_packages": {
+    "generated_at": "2026-07-05T16:30:27.412Z",
+    "package_root": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/deploy-packages",
+    "outputs": [
+      {
+        "deploy_mode": "same-path-overwrite",
+        "file_count": 1415,
+        "bytes": 176128724,
+        "manifest_rel": "deploy-packages/same-path-overwrite/manifest.json"
+      },
+      {
+        "deploy_mode": "backend-managed-download-route",
+        "file_count": 184,
+        "bytes": 432027058,
+        "manifest_rel": "deploy-packages/backend-managed-download-route/manifest.json"
+      },
+      {
+        "deploy_mode": "site-static-asset-review",
+        "file_count": 3,
+        "bytes": 15922,
+        "manifest_rel": "deploy-packages/site-static-asset-review/manifest.json"
+      },
+      {
+        "deploy_mode": "needs-review",
+        "file_count": 75,
+        "bytes": 224680,
+        "manifest_rel": "deploy-packages/needs-review/manifest.json"
+      }
+    ]
+  },
+  "known_warnings": [
+    {
+      "type": "formal-source-asset-404",
+      "url": "https://www.taiwan-servo.com.tw/products/detail/ACS%20EtherCAT%E6%8E%A7%E5%88%B6%E4%B8%BB%E6%A9%9F.files/image002.jpg",
+      "status": 404,
+      "note": "Local preview uses a placeholder; fix source image during content optimization."
+    },
+    {
+      "type": "formal-source-asset-404",
+      "url": "https://www.taiwan-servo.com.tw/products/detail/ACS%20EtherCAT%E6%8E%A7%E5%88%B6%E4%B8%BB%E6%A9%9F.files/image004.jpg",
+      "status": 404,
+      "note": "Local preview uses a placeholder; fix source image during content optimization."
+    },
+    {
+      "type": "formal-source-asset-404",
+      "url": "https://www.taiwan-servo.com.tw/products/detail/ACS%20EtherCAT%E6%8E%A7%E5%88%B6%E4%B8%BB%E6%A9%9F.files/image006.jpg",
+      "status": 404,
+      "note": "Local preview uses a placeholder; fix source image during content optimization."
+    },
+    {
+      "type": "formal-source-asset-404",
+      "url": "https://www.taiwan-servo.com.tw/products/detail/ACS%20EtherCAT%E6%8E%A7%E5%88%B6%E4%B8%BB%E6%A9%9F.files/image008.jpg",
+      "status": 404,
+      "note": "Local preview uses a placeholder; fix source image during content optimization."
+    }
+  ],
+  "next_actions": [
+    "Use the local preview as the editing baseline.",
+    "For image compression without URL changes, work from deploy-packages/same-path-overwrite/manifest.json.",
+    "For SEO renaming, create new target paths and update page/backend links before deployment.",
+    "Handle backend-managed-download-route files through backend/file-manager workflows instead of raw server overwrite."
+  ]
+}

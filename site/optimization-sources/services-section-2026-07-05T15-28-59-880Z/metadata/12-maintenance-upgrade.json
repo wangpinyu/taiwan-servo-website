@@ -1,0 +1,29 @@
+{
+  "id": 12,
+  "label": "maintenance-upgrade",
+  "source": "frontend-fallback-login-redirect",
+  "editUrl": "https://new.da-vinci.com.tw/taiwan_servo/newadmin/Applications/edit/12?module_id=10007",
+  "editStatus": 200,
+  "backendBlocked": "login_redirect",
+  "frontend_url": "https://new.da-vinci.com.tw/taiwan_servo/services/detail/12",
+  "frontendStatus": 200,
+  "tw_name": "維修保固與升級服務",
+  "sequence": "",
+  "publish": "",
+  "seo_title": "維修保固與升級服務｜伺服驅動馬達回授替換與設備維護｜星泰國際",
+  "seo_keywords": "",
+  "seo_description": "星泰協助整理運動控制設備故障、零件替換與升級需求，針對伺服驅動、馬達、回授與傳動元件提出支援方向。",
+  "seo_scripts": "<meta name=\"robots\" content=\"noindex,nofollow\" />\n<meta name=\"robots\" content=\"index, follow, all\" />",
+  "frontend_title": "維修保固與升級服務｜伺服驅動馬達回授替換與設備維護｜星泰國際",
+  "frontend_h1": "維修保固與升級服務",
+  "checks": {
+    "contentLength": 3497,
+    "h1Count": 1,
+    "hasCodexWrapper": true,
+    "hasWhy": true,
+    "faqCount": 5,
+    "hasLocalPath": false,
+    "hasTxtHref": false,
+    "hasPending": false
+  }
+}

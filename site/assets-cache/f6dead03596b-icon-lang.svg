@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70">
+<style type="text/css">
+	.icon{
+		fill:none;
+		stroke:#009a3b;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke-width:3.5;
+		}
+</style>
+<ellipse class="icon" cx="35.071" cy="35" rx="32.891" ry="32.99"/>
+<ellipse class="icon" cx="35.071" cy="35" rx="21.517" ry="32.99"/>
+<line class="icon" x1="34.421" y1="2" x2="34.421" y2="68"/>
+<line class="icon" x1="67.921" y1="36.5" x2="1.921" y2="36.5"/>
+<path class="icon" d="M62.921,52.5h-56"/>
+<path class="icon" d="M62.921,19.5h-56"/>
+</svg>

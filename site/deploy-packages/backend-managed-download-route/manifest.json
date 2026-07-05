@@ -1,0 +1,2596 @@
+{
+  "generated_at": "2026-07-05T16:30:27.405Z",
+  "deploy_mode": "backend-managed-download-route",
+  "file_count": 184,
+  "bytes": 432027058,
+  "files": [
+    {
+      "local_rel": "documents-cache/00c3b8a7fe38-Datasheet_RMGZ_8Series_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/00c3b8a7fe38-Datasheet_RMGZ_8Series_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1281/Datasheet_RMGZ_8Series_fms.pdf",
+      "future_server_path": "/file/download/1281/Datasheet_RMGZ_8Series_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 552345,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/144"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/042ada13a4ce-RINFEDER-E6-92-93-E6-80-A7-E8-81-AF-E8-BB-B8-E5-99-A8TNR-E7-B3-BB-E5-88-97-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/042ada13a4ce-RINFEDER-E6-92-93-E6-80-A7-E8-81-AF-E8-BB-B8-E5-99-A8TNR-E7-B3-BB-E5-88-97-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1194/RINFEDER%E6%92%93%E6%80%A7%E8%81%AF%E8%BB%B8%E5%99%A8TNR%E7%B3%BB%E5%88%97%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "future_server_path": "/file/download/1194/RINFEDER%E6%92%93%E6%80%A7%E8%81%AF%E8%BB%B8%E5%99%A8TNR%E7%B3%BB%E5%88%97%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 6462195,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/213"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/045d65572762-Karl-Klein-E9-BC-93-E9-A2-A8-E6-A9-9F.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/045d65572762-Karl-Klein-E9-BC-93-E9-A2-A8-E6-A9-9F.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1177/Karl-Klein-%E9%BC%93%E9%A2%A8%E6%A9%9F.pdf",
+      "future_server_path": "/file/download/1177/Karl-Klein-%E9%BC%93%E9%A2%A8%E6%A9%9F.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1883245,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/184"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/07520d864927-M-6547-9173-03-B_Installation_guide_RKL_ZH-TW_tw.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/07520d864927-M-6547-9173-03-B_Installation_guide_RKL_ZH-TW_tw.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1455/M-6547-9173-03-B_Installation_guide_RKL_ZH-TW_tw.pdf",
+      "future_server_path": "/file/output/1455/M-6547-9173-03-B_Installation_guide_RKL_ZH-TW_tw.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 2770422,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/307"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/08010de314bc-Kollmorgen-CDDR-E7-9B-B4-E9-A9-85-E4-BC-BA-E6-9C-8D-E6-8E-A7-E5-88-B6-E7-B3-BB-E7-B5-B1_20250718195907.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/08010de314bc-Kollmorgen-CDDR-E7-9B-B4-E9-A9-85-E4-BC-BA-E6-9C-8D-E6-8E-A7-E5-88-B6-E7-B3-BB-E7-B5-B1_20250718195907.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1114/Kollmorgen-CDDR-%E7%9B%B4%E9%A9%85%E4%BC%BA%E6%9C%8D%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%B5%B1_20250718195907.pdf",
+      "future_server_path": "/file/download/1114/Kollmorgen-CDDR-%E7%9B%B4%E9%A9%85%E4%BC%BA%E6%9C%8D%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%B5%B1_20250718195907.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 216811,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/95"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/0c861949e589-RINGFEDER-E9-87-91-E5-B1-AC-E6-B3-A2-E7-B4-8B-E7-AE-A1-E8-81-AF-E8-BB-B8-E5-99-A8-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/0c861949e589-RINGFEDER-E9-87-91-E5-B1-AC-E6-B3-A2-E7-B4-8B-E7-AE-A1-E8-81-AF-E8-BB-B8-E5-99-A8-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1189/RINGFEDER%E9%87%91%E5%B1%AC%E6%B3%A2%E7%B4%8B%E7%AE%A1%E8%81%AF%E8%BB%B8%E5%99%A8-%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "future_server_path": "/file/download/1189/RINGFEDER%E9%87%91%E5%B1%AC%E6%B3%A2%E7%B4%8B%E7%AE%A1%E8%81%AF%E8%BB%B8%E5%99%A8-%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 2665134,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/208"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/0da64734dcdd-Datasheet_FASeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/0da64734dcdd-Datasheet_FASeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1326/Datasheet_FASeries_fms.pdf",
+      "future_server_path": "/file/download/1326/Datasheet_FASeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1152184,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/133"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/0fad612d7aad-NEW-WAY-E5-B9-B3-E6-9D-BF-E7-A9-BA-E6-B0-A3-E8-BB-B8-E6-89-BF-E5-9E-8B-E9-8C-84.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/0fad612d7aad-NEW-WAY-E5-B9-B3-E6-9D-BF-E7-A9-BA-E6-B0-A3-E8-BB-B8-E6-89-BF-E5-9E-8B-E9-8C-84.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1198/NEW-WAY-%E5%B9%B3%E6%9D%BF%E7%A9%BA%E6%B0%A3%E8%BB%B8%E6%89%BF-%E5%9E%8B%E9%8C%84.pdf",
+      "future_server_path": "/file/download/1198/NEW-WAY-%E5%B9%B3%E6%9D%BF%E7%A9%BA%E6%B0%A3%E8%BB%B8%E6%89%BF-%E5%9E%8B%E9%8C%84.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 10235025,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/257"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/12fb848cb4dd-Harmonic-CSD-SHD-E7-B3-BB-E5-88-97-E8-A6-8F-E6-A0-BC-E8-A1-A8-E9-A1-8D-E5-AE-9A-E8-A1-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/12fb848cb4dd-Harmonic-CSD-SHD-E7-B3-BB-E5-88-97-E8-A6-8F-E6-A0-BC-E8-A1-A8-E9-A1-8D-E5-AE-9A-E8-A1-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1247/Harmonic-CSD-SHD%E7%B3%BB%E5%88%97-%E8%A6%8F%E6%A0%BC%E8%A1%A8-%E9%A1%8D%E5%AE%9A%E8%A1%A8.pdf",
+      "future_server_path": "/file/download/1247/Harmonic-CSD-SHD%E7%B3%BB%E5%88%97-%E8%A6%8F%E6%A0%BC%E8%A1%A8-%E9%A1%8D%E5%AE%9A%E8%A1%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1041107,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/279"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/1303ca556ba8-Sejin-E7-B2-BE-E5-AF-86-E5-BC-A7-E5-BD-A2-E7-9B-B4-E7-B7-9A-E9-BD-92-E6-8E-92-E6-BB-BE-E8-BC-AA-E6-93-BA-E7-B7-9A-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/1303ca556ba8-Sejin-E7-B2-BE-E5-AF-86-E5-BC-A7-E5-BD-A2-E7-9B-B4-E7-B7-9A-E9-BD-92-E6-8E-92-E6-BB-BE-E8-BC-AA-E6-93-BA-E7-B7-9A-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1142/Sejin-%E7%B2%BE%E5%AF%86%E5%BC%A7%E5%BD%A2-%E7%9B%B4%E7%B7%9A%E9%BD%92%E6%8E%92%E6%BB%BE%E8%BC%AA-%E6%93%BA%E7%B7%9A%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F.pdf",
+      "future_server_path": "/file/download/1142/Sejin-%E7%B2%BE%E5%AF%86%E5%BC%A7%E5%BD%A2-%E7%9B%B4%E7%B7%9A%E9%BD%92%E6%8E%92%E6%BB%BE%E8%BC%AA-%E6%93%BA%E7%B7%9A%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 6894900,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/151"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/16f0fc6ed0ee-Scancon-Enconder-E7-B7-A8-E7-A2-BC-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/16f0fc6ed0ee-Scancon-Enconder-E7-B7-A8-E7-A2-BC-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1129/Scancon-Enconder%E7%B7%A8%E7%A2%BC%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1129/Scancon-Enconder%E7%B7%A8%E7%A2%BC%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1081222,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/110"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/180ae5317c68-Datasheet_CZSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/180ae5317c68-Datasheet_CZSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1291/Datasheet_CZSeries_fms.pdf",
+      "future_server_path": "/file/download/1291/Datasheet_CZSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 780854,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/145"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/18c61275234b-New-way-E5-A4-9A-E5-AD-94-E6-80-A7-E7-9C-9F-E7-A9-BA-E9-99-B6-E7-93-B7-E5-90-B8-E7-9B-A4.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/18c61275234b-New-way-E5-A4-9A-E5-AD-94-E6-80-A7-E7-9C-9F-E7-A9-BA-E9-99-B6-E7-93-B7-E5-90-B8-E7-9B-A4.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1136/New-way-%E5%A4%9A%E5%AD%94%E6%80%A7%E7%9C%9F%E7%A9%BA%E9%99%B6%E7%93%B7%E5%90%B8%E7%9B%A4.pdf",
+      "future_server_path": "/file/download/1136/New-way-%E5%A4%9A%E5%AD%94%E6%80%A7%E7%9C%9F%E7%A9%BA%E9%99%B6%E7%93%B7%E5%90%B8%E7%9B%A4.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 2550387,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/129"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/19eead59f8c6-Thomson-SA-20_Stainless_Steel_Actuator_bren.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/19eead59f8c6-Thomson-SA-20_Stainless_Steel_Actuator_bren.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1163/Thomson-SA-20_Stainless_Steel_Actuator_bren.pdf",
+      "future_server_path": "/file/download/1163/Thomson-SA-20_Stainless_Steel_Actuator_bren.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 296653,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/171"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/1a91f38f835b-Thomson-E4-B8-8D-E9-8A-B9-E9-8B-BC-E9-A3-9F-E5-93-81-E7-B4-9A-E7-B7-9A-E6-80-A7-E8-87-B4-E5-8B-95-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/1a91f38f835b-Thomson-E4-B8-8D-E9-8A-B9-E9-8B-BC-E9-A3-9F-E5-93-81-E7-B4-9A-E7-B7-9A-E6-80-A7-E8-87-B4-E5-8B-95-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1162/Thomson%E4%B8%8D%E9%8A%B9%E9%8B%BC%E9%A3%9F%E5%93%81%E7%B4%9A%E7%B7%9A%E6%80%A7%E8%87%B4%E5%8B%95%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1162/Thomson%E4%B8%8D%E9%8A%B9%E9%8B%BC%E9%A3%9F%E5%93%81%E7%B4%9A%E7%B7%9A%E6%80%A7%E8%87%B4%E5%8B%95%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 133934,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/171"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/1a98cd08e78f-Datenblatt_BKS309_EIP_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/1a98cd08e78f-Datenblatt_BKS309_EIP_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1304/Datenblatt_BKS309_EIP_EN.pdf",
+      "future_server_path": "/file/download/1304/Datenblatt_BKS309_EIP_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 442672,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/137"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/1d92d9cc96a9-Datasheet_ZMGZSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/1d92d9cc96a9-Datasheet_ZMGZSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1293/Datasheet_ZMGZSeries_fms.pdf",
+      "future_server_path": "/file/download/1293/Datasheet_ZMGZSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1094564,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/145"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/1e73eedfd831-Kollmorgen-E8-80-90-E4-BD-8E-E6-BA-AB-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/1e73eedfd831-Kollmorgen-E8-80-90-E4-BD-8E-E6-BA-AB-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1181/Kollmorgen-%E8%80%90%E4%BD%8E%E6%BA%AB%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1181/Kollmorgen-%E8%80%90%E4%BD%8E%E6%BA%AB%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 171226,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/188"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/2140d1045cdc-AKD-Quick-Start-EN-REV-F-.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/2140d1045cdc-AKD-Quick-Start-EN-REV-F-.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1271/AKD-Quick-Start-EN-(REV-F).pdf",
+      "future_server_path": "/file/download/1271/AKD-Quick-Start-EN-(REV-F).pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1575491,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/82"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/214a79b361b4-Phytron-E4-BA-8C-E9-A0-85-E6-AD-A5-E9-80-B2-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/214a79b361b4-Phytron-E4-BA-8C-E9-A0-85-E6-AD-A5-E9-80-B2-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1106/Phytron%E4%BA%8C%E9%A0%85%E6%AD%A5%E9%80%B2%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1106/Phytron%E4%BA%8C%E9%A0%85%E6%AD%A5%E9%80%B2%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 702030,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/87"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/218c8fd4685e-Datasheet_DMGZSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/218c8fd4685e-Datasheet_DMGZSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1300/Datasheet_DMGZSeries_fms.pdf",
+      "future_server_path": "/file/download/1300/Datasheet_DMGZSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 629317,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/138"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/221e97acb027-Datasheet_webMASTER_BKS015_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/221e97acb027-Datasheet_webMASTER_BKS015_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1299/Datasheet_webMASTER_BKS015_EN.pdf",
+      "future_server_path": "/file/download/1299/Datasheet_webMASTER_BKS015_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 178864,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/139"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/2381525c5a56-SHD-E7-B3-BB-E5-88-97-E6-A8-A1-E7-B5-84-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/2381525c5a56-SHD-E7-B3-BB-E5-88-97-E6-A8-A1-E7-B5-84-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1384/SHD%E7%B3%BB%E5%88%97%E6%A8%A1%E7%B5%84%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "future_server_path": "/file/download/1384/SHD%E7%B3%BB%E5%88%97%E6%A8%A1%E7%B5%84%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1115523,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/291"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/257a49afe0b7-L-9517-9603-08-A_Data_sheet_ATOM_zh-tw-3-.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/257a49afe0b7-L-9517-9603-08-A_Data_sheet_ATOM_zh-tw-3-.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1452/L-9517-9603-08-A_Data_sheet_ATOM_zh-tw-(3).pdf",
+      "future_server_path": "/file/output/1452/L-9517-9603-08-A_Data_sheet_ATOM_zh-tw-(3).pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3026537,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/116"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/28097bef2967-CSD-E7-B3-BB-E5-88-97-E6-A8-A1-E7-B5-84-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/28097bef2967-CSD-E7-B3-BB-E5-88-97-E6-A8-A1-E7-B5-84-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1385/CSD%E7%B3%BB%E5%88%97%E6%A8%A1%E7%B5%84%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "future_server_path": "/file/download/1385/CSD%E7%B3%BB%E5%88%97%E6%A8%A1%E7%B5%84%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1287691,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/279"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/2c9746acce92-Datenblatt_EMGZ310_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/2c9746acce92-Datenblatt_EMGZ310_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1310/Datenblatt_EMGZ310_EN.pdf",
+      "future_server_path": "/file/download/1310/Datenblatt_EMGZ310_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 915021,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/134"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/2dae8e6127af-MD34_CAN-NOVA.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/2dae8e6127af-MD34_CAN-NOVA.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1278/MD34_CAN-NOVA.pdf",
+      "future_server_path": "/file/download/1278/MD34_CAN-NOVA.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1399852,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/83"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/2e19a5c27793-Datenblatt_EMGZ310_ComACT_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/2e19a5c27793-Datenblatt_EMGZ310_ComACT_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1287/Datenblatt_EMGZ310_ComACT_EN.pdf",
+      "future_server_path": "/file/download/1287/Datenblatt_EMGZ310_ComACT_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 512088,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/130"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/2ee8f70bc03d-RINFEDER-E6-B3-95-E8-98-AD-E8-81-AF-E8-BB-B8-E5-99-A8-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/2ee8f70bc03d-RINFEDER-E6-B3-95-E8-98-AD-E8-81-AF-E8-BB-B8-E5-99-A8-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1193/RINFEDER%E6%B3%95%E8%98%AD%E8%81%AF%E8%BB%B8%E5%99%A8%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "future_server_path": "/file/download/1193/RINFEDER%E6%B3%95%E8%98%AD%E8%81%AF%E8%BB%B8%E5%99%A8%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3263876,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/212"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/2f5a3693046e-Parker-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/2f5a3693046e-Parker-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1173/Parker-%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1173/Parker-%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1986437,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/180"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/312d8494f8cc-Datenblatt_RTM_X42_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/312d8494f8cc-Datenblatt_RTM_X42_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1285/Datenblatt_RTM_X42_EN.pdf",
+      "future_server_path": "/file/download/1285/Datenblatt_RTM_X42_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3002863,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/130"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/31cafda39cf9-Parker-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/31cafda39cf9-Parker-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1123/Parker-%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1123/Parker-%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1986437,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/104"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/34851afeaff6-Harmonic-E8-AB-A7-E6-B3-A2-E6-B8-9B-E9-80-9F-E6-A9-9F-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E9-A9-85-E5-8B-95-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/34851afeaff6-Harmonic-E8-AB-A7-E6-B3-A2-E6-B8-9B-E9-80-9F-E6-A9-9F-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E9-A9-85-E5-8B-95-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1107/Harmonic-%E8%AB%A7%E6%B3%A2%E6%B8%9B%E9%80%9F%E6%A9%9F-%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94-%E9%A9%85%E5%8B%95%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1107/Harmonic-%E8%AB%A7%E6%B3%A2%E6%B8%9B%E9%80%9F%E6%A9%9F-%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94-%E9%A9%85%E5%8B%95%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 4368623,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/88"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/34a337d1ae33-CSF-mini-E7-B3-BB-E5-88-97-E6-A8-A1-E7-B5-84-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/34a337d1ae33-CSF-mini-E7-B3-BB-E5-88-97-E6-A8-A1-E7-B5-84-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1252/CSF-mini%E7%B3%BB%E5%88%97%E6%A8%A1%E7%B5%84%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "future_server_path": "/file/download/1252/CSF-mini%E7%B3%BB%E5%88%97%E6%A8%A1%E7%B5%84%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1268331,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/283"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/37bd13e24a63-Kollmorgen-E9-98-B2-E6-B0-B4-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/37bd13e24a63-Kollmorgen-E9-98-B2-E6-B0-B4-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1179/Kollmorgen-%E9%98%B2%E6%B0%B4%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1179/Kollmorgen-%E9%98%B2%E6%B0%B4%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 299059,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/186"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/37d92820ad15-SHG-SHF-E7-B3-BB-E5-88-97-E6-A8-A1-E7-B5-84-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/37d92820ad15-SHG-SHF-E7-B3-BB-E5-88-97-E6-A8-A1-E7-B5-84-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1248/SHG-SHF%E7%B3%BB%E5%88%97%E6%A8%A1%E7%B5%84%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "future_server_path": "/file/download/1248/SHG-SHF%E7%B3%BB%E5%88%97%E6%A8%A1%E7%B5%84%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1609354,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/288"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/3828e4709228-HLin-E9-AB-98-E7-B2-BE-E5-BA-A6-E7-B7-9A-E6-80-A7-E7-A3-81-E7-B7-A8-E7-A2-BC-E5-99-A8-E7-B3-BB-E7-B5-B1.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/3828e4709228-HLin-E9-AB-98-E7-B2-BE-E5-BA-A6-E7-B7-9A-E6-80-A7-E7-A3-81-E7-B7-A8-E7-A2-BC-E5-99-A8-E7-B3-BB-E7-B5-B1.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1258/HLin-%E9%AB%98%E7%B2%BE%E5%BA%A6%E7%B7%9A%E6%80%A7%E7%A3%81%E7%B7%A8%E7%A2%BC%E5%99%A8%E7%B3%BB%E7%B5%B1.pdf",
+      "future_server_path": "/file/download/1258/HLin-%E9%AB%98%E7%B2%BE%E5%BA%A6%E7%B7%9A%E6%80%A7%E7%A3%81%E7%B7%A8%E7%A2%BC%E5%99%A8%E7%B3%BB%E7%B5%B1.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 2153490,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/299"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/382e8a399702-ASM-E6-8B-89-E7-B7-9A-E5-BC-8F-E5-9B-9E-E6-8E-88-E5-85-83-E4-BB-B6.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/382e8a399702-ASM-E6-8B-89-E7-B7-9A-E5-BC-8F-E5-9B-9E-E6-8E-88-E5-85-83-E4-BB-B6.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1170/ASM%E6%8B%89%E7%B7%9A%E5%BC%8F%E5%9B%9E%E6%8E%88%E5%85%83%E4%BB%B6.pdf",
+      "future_server_path": "/file/download/1170/ASM%E6%8B%89%E7%B7%9A%E5%BC%8F%E5%9B%9E%E6%8E%88%E5%85%83%E4%BB%B6.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 758942,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/114"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/38bb8ea0d1ec-Scancon-Enconder-E7-B7-A8-E7-A2-BC-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/38bb8ea0d1ec-Scancon-Enconder-E7-B7-A8-E7-A2-BC-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1176/Scancon-Enconder%E7%B7%A8%E7%A2%BC%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1176/Scancon-Enconder%E7%B7%A8%E7%A2%BC%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1081222,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/183"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/39d2b33d1ae6-Accel-E7-B7-9A-E6-80-A7-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E9-9F-B3-E5-9C-88-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/39d2b33d1ae6-Accel-E7-B7-9A-E6-80-A7-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E9-9F-B3-E5-9C-88-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1103/Accel-%E7%B7%9A%E6%80%A7%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94-%E9%9F%B3%E5%9C%88%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1103/Accel-%E7%B7%9A%E6%80%A7%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94-%E9%9F%B3%E5%9C%88%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 794333,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/84"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/3b6dd2662456-Parker-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/3b6dd2662456-Parker-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1122/Parker-%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1122/Parker-%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1986437,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/103"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/3ddf5630c437-NEW-WAY-E6-B0-A3-E6-B5-AE-E6-9D-BF-E7-84-A1-E5-A1-B5-E5-AE-A4-E6-AA-A2-E6-B8-AC-E5-A0-B1-E5-91-8A.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/3ddf5630c437-NEW-WAY-E6-B0-A3-E6-B5-AE-E6-9D-BF-E7-84-A1-E5-A1-B5-E5-AE-A4-E6-AA-A2-E6-B8-AC-E5-A0-B1-E5-91-8A.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1202/NEW-WAY-%E6%B0%A3%E6%B5%AE%E6%9D%BF%E7%84%A1%E5%A1%B5%E5%AE%A4%E6%AA%A2%E6%B8%AC%E5%A0%B1%E5%91%8A.pdf",
+      "future_server_path": "/file/download/1202/NEW-WAY-%E6%B0%A3%E6%B5%AE%E6%9D%BF%E7%84%A1%E5%A1%B5%E5%AE%A4%E6%AA%A2%E6%B8%AC%E5%A0%B1%E5%91%8A.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 6050635,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/260"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/3e86e00361ee-25-CSD-SHD-E7-B3-BB-E5-88-97-E8-B6-85-E6-89-81-E5-B9-B3-E4-B8-AD-E7-A9-BA-QR.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/3e86e00361ee-25-CSD-SHD-E7-B3-BB-E5-88-97-E8-B6-85-E6-89-81-E5-B9-B3-E4-B8-AD-E7-A9-BA-QR.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1356/25-CSD-SHD%E7%B3%BB%E5%88%97-%E8%B6%85%E6%89%81%E5%B9%B3%E4%B8%AD%E7%A9%BA-QR.pdf",
+      "future_server_path": "/file/output/1356/25-CSD-SHD%E7%B3%BB%E5%88%97-%E8%B6%85%E6%89%81%E5%B9%B3%E4%B8%AD%E7%A9%BA-QR.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1078272,
+      "usage_count": 10,
+      "used_by_pages": [
+        "/products/detail/278",
+        "/products/detail/291"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/3ef2adff1eaf-MD34ac_CAN-NOVA.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/3ef2adff1eaf-MD34ac_CAN-NOVA.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1276/MD34ac_CAN-NOVA.pdf",
+      "future_server_path": "/file/download/1276/MD34ac_CAN-NOVA.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1739105,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/83"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/3f8266cfa776-NEW-WAY-E9-BB-8F-E8-B2-BC-E5-BC-8F-E6-B0-A3-E6-B5-AE-E8-BB-B8-E6-89-BF-E8-A6-8F-E6-A0-BC-E8-A1-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/3f8266cfa776-NEW-WAY-E9-BB-8F-E8-B2-BC-E5-BC-8F-E6-B0-A3-E6-B5-AE-E8-BB-B8-E6-89-BF-E8-A6-8F-E6-A0-BC-E8-A1-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1204/NEW-WAY-%E9%BB%8F%E8%B2%BC%E5%BC%8F%E6%B0%A3%E6%B5%AE%E8%BB%B8%E6%89%BF-%E8%A6%8F%E6%A0%BC%E8%A1%A8.pdf",
+      "future_server_path": "/file/download/1204/NEW-WAY-%E9%BB%8F%E8%B2%BC%E5%BC%8F%E6%B0%A3%E6%B5%AE%E8%BB%B8%E6%89%BF-%E8%A6%8F%E6%A0%BC%E8%A1%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 230557,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/262"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/3fce7d21a199-Thomson-E5-8D-87-E9-99-8D-E6-9F-B1.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/3fce7d21a199-Thomson-E5-8D-87-E9-99-8D-E6-9F-B1.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1161/Thomson%E5%8D%87%E9%99%8D%E6%9F%B1.pdf",
+      "future_server_path": "/file/download/1161/Thomson%E5%8D%87%E9%99%8D%E6%9F%B1.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 138862,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/170"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/4121e5c29fef-Del-Tron-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-85-83-E4-BB-B6.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/4121e5c29fef-Del-Tron-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-85-83-E4-BB-B6.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1154/Del-Tron-%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%85%83%E4%BB%B6.pdf",
+      "future_server_path": "/file/download/1154/Del-Tron-%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%85%83%E4%BB%B6.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 416960,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/163"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/4270ff21d427-Datasheet_RMGZ9Series_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/4270ff21d427-Datasheet_RMGZ9Series_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1282/Datasheet_RMGZ9Series_fms.pdf",
+      "future_server_path": "/file/download/1282/Datasheet_RMGZ9Series_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 826109,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/144"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/45ba6e7fc733-Harmonic-E8-AB-A7-E6-B3-A2-E6-B8-9B-E9-80-9F-E6-A9-9F-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E9-A9-85-E5-8B-95-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/45ba6e7fc733-Harmonic-E8-AB-A7-E6-B3-A2-E6-B8-9B-E9-80-9F-E6-A9-9F-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E9-A9-85-E5-8B-95-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1141/Harmonic-%E8%AB%A7%E6%B3%A2%E6%B8%9B%E9%80%9F%E6%A9%9F-%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94-%E9%A9%85%E5%8B%95%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1141/Harmonic-%E8%AB%A7%E6%B3%A2%E6%B8%9B%E9%80%9F%E6%A9%9F-%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94-%E9%A9%85%E5%8B%95%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 4368623,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/150"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/46967abccdad-ACS-E5-A4-9A-E8-BB-B8-E9-81-8B-E5-8B-95-E6-8E-A7-E5-88-B6-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/46967abccdad-ACS-E5-A4-9A-E8-BB-B8-E9-81-8B-E5-8B-95-E6-8E-A7-E5-88-B6-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1445/ACS-%E5%A4%9A%E8%BB%B8%E9%81%8B%E5%8B%95%E6%8E%A7%E5%88%B6%E5%99%A8.pdf",
+      "future_server_path": "/file/output/1445/ACS-%E5%A4%9A%E8%BB%B8%E9%81%8B%E5%8B%95%E6%8E%A7%E5%88%B6%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 6532682,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/4778470b09d6-Kollmorgen-E9-98-B2-E7-88-86-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/4778470b09d6-Kollmorgen-E9-98-B2-E7-88-86-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1117/Kollmorgen-%E9%98%B2%E7%88%86%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1117/Kollmorgen-%E9%98%B2%E7%88%86%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 134533,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/98"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/480fae40e035-Thomson-E9-9B-BB-E5-8B-95-E7-BC-B8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/480fae40e035-Thomson-E9-9B-BB-E5-8B-95-E7-BC-B8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1119/Thomson-%E9%9B%BB%E5%8B%95%E7%BC%B8.pdf",
+      "future_server_path": "/file/download/1119/Thomson-%E9%9B%BB%E5%8B%95%E7%BC%B8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 580157,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/100"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/4970f564d930-Datasheet_RMGZ_1Series_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/4970f564d930-Datasheet_RMGZ_1Series_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1279/Datasheet_RMGZ_1Series_fms.pdf",
+      "future_server_path": "/file/download/1279/Datasheet_RMGZ_1Series_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 742139,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/144"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/49f45a5d4ba5-ALIO-E5-A5-88-E7-B1-B3-E7-B4-9A-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/49f45a5d4ba5-ALIO-E5-A5-88-E7-B1-B3-E7-B4-9A-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1149/ALIO-%E5%A5%88%E7%B1%B3%E7%B4%9A%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "future_server_path": "/file/download/1149/ALIO-%E5%A5%88%E7%B1%B3%E7%B4%9A%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 750312,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/159"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/4b51a4b534c2-SMAC-E4-BC-BA-E6-9C-8D-E9-9B-BB-E5-8B-95-E7-BC-B8-E9-9F-B3-E5-9C-88-E9-A6-AC-E9-81-94-E9-A9-85-E5-8B-95-.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/4b51a4b534c2-SMAC-E4-BC-BA-E6-9C-8D-E9-9B-BB-E5-8B-95-E7-BC-B8-E9-9F-B3-E5-9C-88-E9-A6-AC-E9-81-94-E9-A9-85-E5-8B-95-.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1105/SMAC-%E4%BC%BA%E6%9C%8D%E9%9B%BB%E5%8B%95%E7%BC%B8(%E9%9F%B3%E5%9C%88%E9%A6%AC%E9%81%94%E9%A9%85%E5%8B%95).pdf",
+      "future_server_path": "/file/download/1105/SMAC-%E4%BC%BA%E6%9C%8D%E9%9B%BB%E5%8B%95%E7%BC%B8(%E9%9F%B3%E5%9C%88%E9%A6%AC%E9%81%94%E9%A9%85%E5%8B%95).pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3460502,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/86"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/508450765e6b-SHG-SHF-E7-B3-BB-E5-88-97-E5-85-83-E4-BB-B6-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/508450765e6b-SHG-SHF-E7-B3-BB-E5-88-97-E5-85-83-E4-BB-B6-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1249/SHG-SHF%E7%B3%BB%E5%88%97%E5%85%83%E4%BB%B6%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "future_server_path": "/file/download/1249/SHG-SHF%E7%B3%BB%E5%88%97%E5%85%83%E4%BB%B6%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1227982,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/287"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/5148e23c8132-NMG2-Stop-Time.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/5148e23c8132-NMG2-Stop-Time.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1134/NMG2-Stop-Time.pdf",
+      "future_server_path": "/file/download/1134/NMG2-Stop-Time.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 412395,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/115"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/516fb483fb6e-Datasheet_LMGZSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/516fb483fb6e-Datasheet_LMGZSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1328/Datasheet_LMGZSeries_fms.pdf",
+      "future_server_path": "/file/download/1328/Datasheet_LMGZSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 511979,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/133"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/5281771983b0-CSF-mini-E7-B3-BB-E5-88-97-E8-B6-85-E8-96-84-E9-AB-98-E5-89-9B-E6-80-A7-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/5281771983b0-CSF-mini-E7-B3-BB-E5-88-97-E8-B6-85-E8-96-84-E9-AB-98-E5-89-9B-E6-80-A7-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1253/CSF-mini%E7%B3%BB%E5%88%97%E8%B6%85%E8%96%84-%E9%AB%98%E5%89%9B%E6%80%A7%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "future_server_path": "/file/download/1253/CSF-mini%E7%B3%BB%E5%88%97%E8%B6%85%E8%96%84-%E9%AB%98%E5%89%9B%E6%80%A7%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1032512,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/283"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/556d6c0a014f-M-9693-9797-05-F_Installation_Guide_ATOM_linear_ZH-TW.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/556d6c0a014f-M-9693-9797-05-F_Installation_Guide_ATOM_linear_ZH-TW.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1453/M-9693-9797-05-F_Installation_Guide_ATOM_linear_ZH-TW.pdf",
+      "future_server_path": "/file/output/1453/M-9693-9797-05-F_Installation_Guide_ATOM_linear_ZH-TW.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 7333640,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/116"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/568dafdb3cc0-19-HMA-E7-B3-BB-E5-88-97-E6-8A-80-E8-A1-93-E8-B3-87-E6-96-99-E6-89-81-E5-B9-B3-E4-B8-AD-E7-A9-BAAC-E4-BC-BA-E6-9C-8D-E9-9B-BB-E5-8B-95-E6-A9-9F-QR.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/568dafdb3cc0-19-HMA-E7-B3-BB-E5-88-97-E6-8A-80-E8-A1-93-E8-B3-87-E6-96-99-E6-89-81-E5-B9-B3-E4-B8-AD-E7-A9-BAAC-E4-BC-BA-E6-9C-8D-E9-9B-BB-E5-8B-95-E6-A9-9F-QR.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1350/19-HMA%E7%B3%BB%E5%88%97-%E6%8A%80%E8%A1%93%E8%B3%87%E6%96%99-%E6%89%81%E5%B9%B3%E4%B8%AD%E7%A9%BAAC%E4%BC%BA%E6%9C%8D%E9%9B%BB%E5%8B%95%E6%A9%9F-QR.pdf",
+      "future_server_path": "/file/output/1350/19-HMA%E7%B3%BB%E5%88%97-%E6%8A%80%E8%A1%93%E8%B3%87%E6%96%99-%E6%89%81%E5%B9%B3%E4%B8%AD%E7%A9%BAAC%E4%BC%BA%E6%9C%8D%E9%9B%BB%E5%8B%95%E6%A9%9F-QR.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3362284,
+      "usage_count": 5,
+      "used_by_pages": [
+        "/products/detail/200"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/5858ea2406b8-HD-E6-A9-9F-E9-9B-BB-E7-94-A2-E5-93-81-E6-97-8B-E8-BD-89-E5-88-B6-E5-8B-95-E5-99-A8-RSF-supermini.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/5858ea2406b8-HD-E6-A9-9F-E9-9B-BB-E7-94-A2-E5-93-81-E6-97-8B-E8-BD-89-E5-88-B6-E5-8B-95-E5-99-A8-RSF-supermini.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1386/HD-%E6%A9%9F%E9%9B%BB%E7%94%A2%E5%93%81-%E6%97%8B%E8%BD%89%E5%88%B6%E5%8B%95%E5%99%A8-RSF-supermini.pdf",
+      "future_server_path": "/file/download/1386/HD-%E6%A9%9F%E9%9B%BB%E7%94%A2%E5%93%81-%E6%97%8B%E8%BD%89%E5%88%B6%E5%8B%95%E5%99%A8-RSF-supermini.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3163268,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/296"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/5a06f5cfd38f-Datasheet_UMGZSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/5a06f5cfd38f-Datasheet_UMGZSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1297/Datasheet_UMGZSeries_fms.pdf",
+      "future_server_path": "/file/download/1297/Datasheet_UMGZSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1353035,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/141"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/5aae271c4f81-Thomson-E6-BB-91-E5-8F-B0.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/5aae271c4f81-Thomson-E6-BB-91-E5-8F-B0.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1155/Thomson%E6%BB%91%E5%8F%B0.pdf",
+      "future_server_path": "/file/download/1155/Thomson%E6%BB%91%E5%8F%B0.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 112929,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/164"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/5b8fae17b487-CSG-CSF-E7-B3-BB-E5-88-97-E5-85-83-E4-BB-B6-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/5b8fae17b487-CSG-CSF-E7-B3-BB-E5-88-97-E5-85-83-E4-BB-B6-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1251/CSG-CSF%E7%B3%BB%E5%88%97%E5%85%83%E4%BB%B6%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "future_server_path": "/file/download/1251/CSG-CSF%E7%B3%BB%E5%88%97%E5%85%83%E4%BB%B6%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1429995,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/280"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/5c19246a9507-HD-E6-A9-9F-E9-9B-BB-E7-94-A2-E5-93-81-E6-97-8B-E8-BD-89-E5-88-B6-E5-8B-95-E5-99-A8-RSF-B-mini-E7-B3-BB-E5-88-97_12-17.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/5c19246a9507-HD-E6-A9-9F-E9-9B-BB-E7-94-A2-E5-93-81-E6-97-8B-E8-BD-89-E5-88-B6-E5-8B-95-E5-99-A8-RSF-B-mini-E7-B3-BB-E5-88-97_12-17.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1387/HD-%E6%A9%9F%E9%9B%BB%E7%94%A2%E5%93%81-%E6%97%8B%E8%BD%89%E5%88%B6%E5%8B%95%E5%99%A8-RSF-B-mini%E7%B3%BB%E5%88%97_12-17.pdf",
+      "future_server_path": "/file/download/1387/HD-%E6%A9%9F%E9%9B%BB%E7%94%A2%E5%93%81-%E6%97%8B%E8%BD%89%E5%88%B6%E5%8B%95%E5%99%A8-RSF-B-mini%E7%B3%BB%E5%88%97_12-17.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 2866476,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/297"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/5c39f80a1e89-NEW-WAY-E6-B0-A3-E6-B5-AE-E6-9D-BF-E7-84-A1-E5-A1-B5-E5-AE-A4-E6-AA-A2-E6-B8-AC-E5-A0-B1-E5-91-8A.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/5c39f80a1e89-NEW-WAY-E6-B0-A3-E6-B5-AE-E6-9D-BF-E7-84-A1-E5-A1-B5-E5-AE-A4-E6-AA-A2-E6-B8-AC-E5-A0-B1-E5-91-8A.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1199/NEW-WAY-%E6%B0%A3%E6%B5%AE%E6%9D%BF%E7%84%A1%E5%A1%B5%E5%AE%A4%E6%AA%A2%E6%B8%AC%E5%A0%B1%E5%91%8A.pdf",
+      "future_server_path": "/file/download/1199/NEW-WAY-%E6%B0%A3%E6%B5%AE%E6%9D%BF%E7%84%A1%E5%A1%B5%E5%AE%A4%E6%AA%A2%E6%B8%AC%E5%A0%B1%E5%91%8A.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 6050635,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/257"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/5c5e8b941e4c-Datenblatt_EMGZ321_EIP_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/5c5e8b941e4c-Datenblatt_EMGZ321_EIP_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1312/Datenblatt_EMGZ321_EIP_EN.pdf",
+      "future_server_path": "/file/download/1312/Datenblatt_EMGZ321_EIP_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 687840,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/134"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/5c9d335098eb-RLD10-E5-B9-B3-E9-9D-A2-E9-8F-A1-E5-B9-B2-E6-B6-89-E5-84-80-90-E5-BA-A6-data-sheet.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/5c9d335098eb-RLD10-E5-B9-B3-E9-9D-A2-E9-8F-A1-E5-B9-B2-E6-B6-89-E5-84-80-90-E5-BA-A6-data-sheet.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1267/RLD10-%E5%B9%B3%E9%9D%A2%E9%8F%A1%E5%B9%B2%E6%B6%89%E5%84%80-90%E5%BA%A6-data-sheet.pdf",
+      "future_server_path": "/file/download/1267/RLD10-%E5%B9%B3%E9%9D%A2%E9%8F%A1%E5%B9%B2%E6%B6%89%E5%84%80-90%E5%BA%A6-data-sheet.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 158032,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/319"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/62740dbaf0b8-Thomson-E7-9B-B4-E7-B7-9A-E8-BB-B8-E6-89-BF-E5-92-8C-E5-B0-8E-E8-BB-8C.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/62740dbaf0b8-Thomson-E7-9B-B4-E7-B7-9A-E8-BB-B8-E6-89-BF-E5-92-8C-E5-B0-8E-E8-BB-8C.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1184/Thomson-%E7%9B%B4%E7%B7%9A%E8%BB%B8%E6%89%BF%E5%92%8C%E5%B0%8E%E8%BB%8C.pdf",
+      "future_server_path": "/file/download/1184/Thomson-%E7%9B%B4%E7%B7%9A%E8%BB%B8%E6%89%BF%E5%92%8C%E5%B0%8E%E8%BB%8C.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 133134,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/191"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/633ee5885e87-Datasheet_SMGZSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/633ee5885e87-Datasheet_SMGZSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1296/Datasheet_SMGZSeries_fms.pdf",
+      "future_server_path": "/file/download/1296/Datasheet_SMGZSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 2026580,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/141"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/68b35f1c68b3-Datasheet_RMGZ_9MSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/68b35f1c68b3-Datasheet_RMGZ_9MSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1283/Datasheet_RMGZ_9MSeries_fms.pdf",
+      "future_server_path": "/file/download/1283/Datasheet_RMGZ_9MSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1182849,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/144"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/6aa3cf49bcde-E6-AC-A1-E7-B3-BB-E7-B5-B1-E8-A8-AD-E5-82-99.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/6aa3cf49bcde-E6-AC-A1-E7-B3-BB-E7-B5-B1-E8-A8-AD-E5-82-99.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1169/%E6%AC%A1%E7%B3%BB%E7%B5%B1%E8%A8%AD%E5%82%99.pdf",
+      "future_server_path": "/file/download/1169/%E6%AC%A1%E7%B3%BB%E7%B5%B1%E8%A8%AD%E5%82%99.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 601471,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/177"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/6ba590aabd2c-Datenblatt_CMGZ309_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/6ba590aabd2c-Datenblatt_CMGZ309_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1305/Datenblatt_CMGZ309_EN.pdf",
+      "future_server_path": "/file/download/1305/Datenblatt_CMGZ309_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 638957,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/135"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/6ce610b57d53-CSF-Supermini-E7-B3-BB-E5-88-97-E6-A8-A1-E7-B5-84-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/6ce610b57d53-CSF-Supermini-E7-B3-BB-E5-88-97-E6-A8-A1-E7-B5-84-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1254/CSF-Supermini%E7%B3%BB%E5%88%97%E6%A8%A1%E7%B5%84%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "future_server_path": "/file/download/1254/CSF-Supermini%E7%B3%BB%E5%88%97%E6%A8%A1%E7%B5%84%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 954883,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/284"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/6d5afaf0d5a4-ALIO-E5-A5-88-E7-B1-B3-E7-B4-9A-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/6d5afaf0d5a4-ALIO-E5-A5-88-E7-B1-B3-E7-B4-9A-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1146/ALIO-%E5%A5%88%E7%B1%B3%E7%B4%9A%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "future_server_path": "/file/download/1146/ALIO-%E5%A5%88%E7%B1%B3%E7%B4%9A%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 750312,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/156"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/6d6d8d52e860-HUCO-E8-81-AF-E8-BB-B8-E5-99-A8-E6-89-AD-E5-8A-9B-E9-99-90-E5-88-B6-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/6d6d8d52e860-HUCO-E8-81-AF-E8-BB-B8-E5-99-A8-E6-89-AD-E5-8A-9B-E9-99-90-E5-88-B6-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1144/HUCO-%E8%81%AF%E8%BB%B8%E5%99%A8-%E6%89%AD%E5%8A%9B%E9%99%90%E5%88%B6%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1144/HUCO-%E8%81%AF%E8%BB%B8%E5%99%A8-%E6%89%AD%E5%8A%9B%E9%99%90%E5%88%B6%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1732860,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/154"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/6f701b637ff9-RLD10-E5-B9-B3-E9-9D-A2-E9-8F-A1-E5-B9-B2-E6-B6-89-E5-84-80-0-E5-BA-A6-data-sheet.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/6f701b637ff9-RLD10-E5-B9-B3-E9-9D-A2-E9-8F-A1-E5-B9-B2-E6-B6-89-E5-84-80-0-E5-BA-A6-data-sheet.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1266/RLD10-%E5%B9%B3%E9%9D%A2%E9%8F%A1%E5%B9%B2%E6%B6%89%E5%84%80-0%E5%BA%A6-data-sheet.pdf",
+      "future_server_path": "/file/download/1266/RLD10-%E5%B9%B3%E9%9D%A2%E9%8F%A1%E5%B9%B2%E6%B6%89%E5%84%80-0%E5%BA%A6-data-sheet.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 152815,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/319"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/713476fa8714-RINFEDER-E7-AD-92-E5-BD-A2-E8-81-AF-E8-BB-B8-E5-99-A8-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/713476fa8714-RINFEDER-E7-AD-92-E5-BD-A2-E8-81-AF-E8-BB-B8-E5-99-A8-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1192/RINFEDER%E7%AD%92%E5%BD%A2%E8%81%AF%E8%BB%B8%E5%99%A8%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "future_server_path": "/file/download/1192/RINFEDER%E7%AD%92%E5%BD%A2%E8%81%AF%E8%BB%B8%E5%99%A8%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 4615619,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/211"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/74188bb83846-RINGFEDER-E9-8B-BC-E7-89-87-E5-BC-8F-E8-81-AF-E8-BB-B8-E5-99-A8-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/74188bb83846-RINGFEDER-E9-8B-BC-E7-89-87-E5-BC-8F-E8-81-AF-E8-BB-B8-E5-99-A8-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1190/RINGFEDER%E9%8B%BC%E7%89%87%E5%BC%8F%E8%81%AF%E8%BB%B8%E5%99%A8%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "future_server_path": "/file/download/1190/RINGFEDER%E9%8B%BC%E7%89%87%E5%BC%8F%E8%81%AF%E8%BB%B8%E5%99%A8%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 7360996,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/209"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/7650ebd46174-BEI-E7-B7-A8-E7-A2-BC-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/7650ebd46174-BEI-E7-B7-A8-E7-A2-BC-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1130/BEI-%E7%B7%A8%E7%A2%BC%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1130/BEI-%E7%B7%A8%E7%A2%BC%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 149011,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/111"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/767e29edfa6e-Phytron-E4-BA-8C-E9-A0-85-E6-AD-A5-E9-80-B2-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/767e29edfa6e-Phytron-E4-BA-8C-E9-A0-85-E6-AD-A5-E9-80-B2-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1178/Phytron%E4%BA%8C%E9%A0%85%E6%AD%A5%E9%80%B2%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1178/Phytron%E4%BA%8C%E9%A0%85%E6%AD%A5%E9%80%B2%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 702030,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/185"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/779d6d37d97b-Kollmorgen-E9-A9-85-E5-8B-95-E5-99-A8-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/779d6d37d97b-Kollmorgen-E9-A9-85-E5-8B-95-E5-99-A8-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1113/Kollmorgen-%E9%A9%85%E5%8B%95%E5%99%A8-%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1113/Kollmorgen-%E9%A9%85%E5%8B%95%E5%99%A8-%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3572975,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/94"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/7ce67ff055f3-03-E6-A9-9F-E9-9B-BB-E7-94-A2-E5-93-81-E7-B6-9C-E5-90-88-E5-9E-8B-E9-8C-84-QR.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/7ce67ff055f3-03-E6-A9-9F-E9-9B-BB-E7-94-A2-E5-93-81-E7-B6-9C-E5-90-88-E5-9E-8B-E9-8C-84-QR.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1334/03-%E6%A9%9F%E9%9B%BB%E7%94%A2%E5%93%81%E7%B6%9C%E5%90%88%E5%9E%8B%E9%8C%84-QR.pdf",
+      "future_server_path": "/file/output/1334/03-%E6%A9%9F%E9%9B%BB%E7%94%A2%E5%93%81%E7%B6%9C%E5%90%88%E5%9E%8B%E9%8C%84-QR.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 20028322,
+      "usage_count": 15,
+      "used_by_pages": [
+        "/products/detail/273",
+        "/products/detail/296",
+        "/products/detail/297",
+        "/products/detail/298"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/81537ab9faad-Datasheet_ZMGZSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/81537ab9faad-Datasheet_ZMGZSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1294/Datasheet_ZMGZSeries_fms.pdf",
+      "future_server_path": "/file/download/1294/Datasheet_ZMGZSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1094564,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/143"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/84bab3c12e77-Datasheet_RMGZ_9MSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/84bab3c12e77-Datasheet_RMGZ_9MSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1330/Datasheet_RMGZ_9MSeries_fms.pdf",
+      "future_server_path": "/file/download/1330/Datasheet_RMGZ_9MSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1182849,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/133"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/8517a0f8e6aa-02-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E7-94-A8-E9-AB-98-E6-80-A7-E8-83-BD-E6-B8-9B-E9-80-9F-E6-A9-9F-QR.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/8517a0f8e6aa-02-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E7-94-A8-E9-AB-98-E6-80-A7-E8-83-BD-E6-B8-9B-E9-80-9F-E6-A9-9F-QR.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1333/02-%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94%E7%94%A8%E9%AB%98%E6%80%A7%E8%83%BD%E6%B8%9B%E9%80%9F%E6%A9%9F--QR.pdf",
+      "future_server_path": "/file/output/1333/02-%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94%E7%94%A8%E9%AB%98%E6%80%A7%E8%83%BD%E6%B8%9B%E9%80%9F%E6%A9%9F--QR.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 24527990,
+      "usage_count": 7,
+      "used_by_pages": [
+        "/products/detail/202",
+        "/products/detail/203"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/8847506e2914-Thomson-E6-B8-9B-E9-80-9F-E6-A9-9F.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/8847506e2914-Thomson-E6-B8-9B-E9-80-9F-E6-A9-9F.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1140/Thomson-%E6%B8%9B%E9%80%9F%E6%A9%9F.pdf",
+      "future_server_path": "/file/download/1140/Thomson-%E6%B8%9B%E9%80%9F%E6%A9%9F.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 138650,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/149"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/8abecfb13482-RINGFEDER-E9-87-91-E5-B1-AC-E6-B3-A2-E7-B4-8B-E7-AE-A1-E8-81-AF-E8-BB-B8-E5-99-A8-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/8abecfb13482-RINGFEDER-E9-87-91-E5-B1-AC-E6-B3-A2-E7-B4-8B-E7-AE-A1-E8-81-AF-E8-BB-B8-E5-99-A8-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1187/RINGFEDER-%E9%87%91%E5%B1%AC%E6%B3%A2%E7%B4%8B%E7%AE%A1%E8%81%AF%E8%BB%B8%E5%99%A8%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "future_server_path": "/file/download/1187/RINGFEDER-%E9%87%91%E5%B1%AC%E6%B3%A2%E7%B4%8B%E7%AE%A1%E8%81%AF%E8%BB%B8%E5%99%A8%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 7645055,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/208"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/8ae44cb58892-Novanta-IMS-E6-99-BA-E6-85-A7-E5-9E-8B-E6-AD-A5-E9-80-B2-E9-A6-AC-E9-81-94-amp-E9-A9-85-E5-8B-95-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/8ae44cb58892-Novanta-IMS-E6-99-BA-E6-85-A7-E5-9E-8B-E6-AD-A5-E9-80-B2-E9-A6-AC-E9-81-94-amp-E9-A9-85-E5-8B-95-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1100/Novanta(IMS)%E6%99%BA%E6%85%A7%E5%9E%8B%E6%AD%A5%E9%80%B2%E9%A6%AC%E9%81%94-&amp;%E9%A9%85%E5%8B%95%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1100/Novanta(IMS)%E6%99%BA%E6%85%A7%E5%9E%8B%E6%AD%A5%E9%80%B2%E9%A6%AC%E9%81%94-&amp;%E9%A9%85%E5%8B%95%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 903201,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/80"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/8bd8568bbf72-NEW-WAY-E7-A9-BA-E6-B0-A3-E9-A0-90-E5-A3-93-E8-BB-B8-E6-89-BF-E5-9E-8B-E9-8C-84.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/8bd8568bbf72-NEW-WAY-E7-A9-BA-E6-B0-A3-E9-A0-90-E5-A3-93-E8-BB-B8-E6-89-BF-E5-9E-8B-E9-8C-84.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1205/NEW-WAY-%E7%A9%BA%E6%B0%A3%E9%A0%90%E5%A3%93%E8%BB%B8%E6%89%BF-%E5%9E%8B%E9%8C%84.pdf",
+      "future_server_path": "/file/download/1205/NEW-WAY-%E7%A9%BA%E6%B0%A3%E9%A0%90%E5%A3%93%E8%BB%B8%E6%89%BF-%E5%9E%8B%E9%8C%84.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 624084,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/265"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/8cd670c16364-HD-E6-A9-9F-E9-9B-BB-E7-94-A2-E5-93-81-E7-B7-9A-E6-80-A7-E5-88-B6-E5-8B-95-E5-99-A8-LA-E7-B3-BB-E5-88-97.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/8cd670c16364-HD-E6-A9-9F-E9-9B-BB-E7-94-A2-E5-93-81-E7-B7-9A-E6-80-A7-E5-88-B6-E5-8B-95-E5-99-A8-LA-E7-B3-BB-E5-88-97.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1388/HD-%E6%A9%9F%E9%9B%BB%E7%94%A2%E5%93%81-%E7%B7%9A%E6%80%A7%E5%88%B6%E5%8B%95%E5%99%A8-LA%E7%B3%BB%E5%88%97.pdf",
+      "future_server_path": "/file/download/1388/HD-%E6%A9%9F%E9%9B%BB%E7%94%A2%E5%93%81-%E7%B7%9A%E6%80%A7%E5%88%B6%E5%8B%95%E5%99%A8-LA%E7%B3%BB%E5%88%97.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3151552,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/206"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/8d7aef83dda8-Harmonic-E8-AB-A7-E6-B3-A2-E6-B8-9B-E9-80-9F-E6-A9-9F-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E9-A9-85-E5-8B-95-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/8d7aef83dda8-Harmonic-E8-AB-A7-E6-B3-A2-E6-B8-9B-E9-80-9F-E6-A9-9F-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E9-A9-85-E5-8B-95-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1132/Harmonic-%E8%AB%A7%E6%B3%A2%E6%B8%9B%E9%80%9F%E6%A9%9F-%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94-%E9%A9%85%E5%8B%95%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1132/Harmonic-%E8%AB%A7%E6%B3%A2%E6%B8%9B%E9%80%9F%E6%A9%9F-%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94-%E9%A9%85%E5%8B%95%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 4368623,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/113"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/8fe3c0bfd658-11-FHA-C-E7-B3-BB-E5-88-97-E6-8A-80-E8-A1-93-E8-B3-87-E6-96-99-E8-87-B4-E5-8B-95-E5-99-A8-QR.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/8fe3c0bfd658-11-FHA-C-E7-B3-BB-E5-88-97-E6-8A-80-E8-A1-93-E8-B3-87-E6-96-99-E8-87-B4-E5-8B-95-E5-99-A8-QR.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1342/11-FHA-C%E7%B3%BB%E5%88%97%E6%8A%80%E8%A1%93%E8%B3%87%E6%96%99-%E8%87%B4%E5%8B%95%E5%99%A8-QR.pdf",
+      "future_server_path": "/file/output/1342/11-FHA-C%E7%B3%BB%E5%88%97%E6%8A%80%E8%A1%93%E8%B3%87%E6%96%99-%E8%87%B4%E5%8B%95%E5%99%A8-QR.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3355366,
+      "usage_count": 7,
+      "used_by_pages": [
+        "/products/detail/295"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/907b9e283816-Datasheet_RMGZ_100Series_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/907b9e283816-Datasheet_RMGZ_100Series_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1331/Datasheet_RMGZ_100Series_fms.pdf",
+      "future_server_path": "/file/download/1331/Datasheet_RMGZ_100Series_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 742139,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/133"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/908cdcbfc409-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E7-94-A8-E9-AB-98-E6-80-A7-E8-83-BD-E6-B8-9B-E9-80-9F-E6-A9-9F_HPF-E4-B8-AD-E7-A9-BA-E8-BB-B8-E6-A8-A1-E7-B5-84-E5-9E-8B.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/908cdcbfc409-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E7-94-A8-E9-AB-98-E6-80-A7-E8-83-BD-E6-B8-9B-E9-80-9F-E6-A9-9F_HPF-E4-B8-AD-E7-A9-BA-E8-BB-B8-E6-A8-A1-E7-B5-84-E5-9E-8B.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1391/%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94%E7%94%A8%E9%AB%98%E6%80%A7%E8%83%BD%E6%B8%9B%E9%80%9F%E6%A9%9F_HPF%E4%B8%AD%E7%A9%BA%E8%BB%B8%E6%A8%A1%E7%B5%84%E5%9E%8B.pdf",
+      "future_server_path": "/file/download/1391/%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94%E7%94%A8%E9%AB%98%E6%80%A7%E8%83%BD%E6%B8%9B%E9%80%9F%E6%A9%9F_HPF%E4%B8%AD%E7%A9%BA%E8%BB%B8%E6%A8%A1%E7%B5%84%E5%9E%8B.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 4438648,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/204"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/909582fc4345-RINGFEDER-E9-87-91-E5-B1-AC-E6-B3-A2-E7-B4-8B-E7-AE-A1-E8-81-AF-E8-BB-B8-E5-99-A8-E6-8A-80-E8-A1-93-E8-AB-96-E6-96-87.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/909582fc4345-RINGFEDER-E9-87-91-E5-B1-AC-E6-B3-A2-E7-B4-8B-E7-AE-A1-E8-81-AF-E8-BB-B8-E5-99-A8-E6-8A-80-E8-A1-93-E8-AB-96-E6-96-87.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1188/RINGFEDER%E9%87%91%E5%B1%AC%E6%B3%A2%E7%B4%8B%E7%AE%A1%E8%81%AF%E8%BB%B8%E5%99%A8-%E6%8A%80%E8%A1%93%E8%AB%96%E6%96%87.pdf",
+      "future_server_path": "/file/download/1188/RINGFEDER%E9%87%91%E5%B1%AC%E6%B3%A2%E7%B4%8B%E7%AE%A1%E8%81%AF%E8%BB%B8%E5%99%A8-%E6%8A%80%E8%A1%93%E8%AB%96%E6%96%87.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 188325,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/208"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/92a1e0ee76e4-Kollmorgen-E9-A9-85-E5-8B-95-E5-99-A8-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/92a1e0ee76e4-Kollmorgen-E9-A9-85-E5-8B-95-E5-99-A8-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1111/Kollmorgen-%E9%A9%85%E5%8B%95%E5%99%A8-%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1111/Kollmorgen-%E9%A9%85%E5%8B%95%E5%99%A8-%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3572975,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/92"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/94008b3a1f4b-Harmonic-Drive-SHA-SG-HP-CG-AC-Servo-Actuator-001.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/94008b3a1f4b-Harmonic-Drive-SHA-SG-HP-CG-AC-Servo-Actuator-001.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1263/Harmonic-Drive-SHA-SG-HP-CG-AC-Servo-Actuator-001.pdf",
+      "future_server_path": "/file/download/1263/Harmonic-Drive-SHA-SG-HP-CG-AC-Servo-Actuator-001.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 5649781,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/273"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/967100ac1888-MD17_CAN-NOVA.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/967100ac1888-MD17_CAN-NOVA.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1274/MD17_CAN-NOVA.pdf",
+      "future_server_path": "/file/download/1274/MD17_CAN-NOVA.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1637890,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/83"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/98ce008af989-Datasheet_DMGZSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/98ce008af989-Datasheet_DMGZSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1325/Datasheet_DMGZSeries_fms.pdf",
+      "future_server_path": "/file/download/1325/Datasheet_DMGZSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 629317,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/133"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/99506e65876d-Datenblatt_EMGZ473_474_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/99506e65876d-Datenblatt_EMGZ473_474_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1313/Datenblatt_EMGZ473_474_EN.pdf",
+      "future_server_path": "/file/download/1313/Datenblatt_EMGZ473_474_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 552124,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/134"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/9a179cb80ddc-Datasheet_RMGZ_4Series_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/9a179cb80ddc-Datasheet_RMGZ_4Series_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1280/Datasheet_RMGZ_4Series_fms.pdf",
+      "future_server_path": "/file/download/1280/Datasheet_RMGZ_4Series_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1083529,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/144"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/9a1ba57ae162-Datasheet_PMGZSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/9a1ba57ae162-Datasheet_PMGZSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1295/Datasheet_PMGZSeries_fms.pdf",
+      "future_server_path": "/file/download/1295/Datasheet_PMGZSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1352565,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/141"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/9a9c5321a1e1-Datasheet_CSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/9a9c5321a1e1-Datasheet_CSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1298/Datasheet_CSeries_fms.pdf",
+      "future_server_path": "/file/download/1298/Datasheet_CSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 517380,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/140"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/9ac796517450-PM-B.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/9ac796517450-PM-B.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1156/PM-B.pdf",
+      "future_server_path": "/file/download/1156/PM-B.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 401727,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/165"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/9c6c08a2cf62-NEW-WAY-E6-B0-A3-E6-B5-AE-E6-9D-BF-E7-84-A1-E5-A1-B5-E5-AE-A4-E6-AA-A2-E6-B8-AC-E5-A0-B1-E5-91-8A.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/9c6c08a2cf62-NEW-WAY-E6-B0-A3-E6-B5-AE-E6-9D-BF-E7-84-A1-E5-A1-B5-E5-AE-A4-E6-AA-A2-E6-B8-AC-E5-A0-B1-E5-91-8A.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1200/NEW-WAY-%E6%B0%A3%E6%B5%AE%E6%9D%BF%E7%84%A1%E5%A1%B5%E5%AE%A4%E6%AA%A2%E6%B8%AC%E5%A0%B1%E5%91%8A.pdf",
+      "future_server_path": "/file/download/1200/NEW-WAY-%E6%B0%A3%E6%B5%AE%E6%9D%BF%E7%84%A1%E5%A1%B5%E5%AE%A4%E6%AA%A2%E6%B8%AC%E5%A0%B1%E5%91%8A.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 6050635,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/258"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/9f36839020bc-CSG-CSF-E7-B3-BB-E5-88-97-E6-A8-A1-E7-B5-84-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/9f36839020bc-CSG-CSF-E7-B3-BB-E5-88-97-E6-A8-A1-E7-B5-84-E5-9E-8B-E6-B8-9B-E9-80-9F-E6-A9-9F-E5-9E-8B-E9-8C-84.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1250/CSG-CSF%E7%B3%BB%E5%88%97%E6%A8%A1%E7%B5%84%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "future_server_path": "/file/download/1250/CSG-CSF%E7%B3%BB%E5%88%97%E6%A8%A1%E7%B5%84%E5%9E%8B%E6%B8%9B%E9%80%9F%E6%A9%9F%E5%9E%8B%E9%8C%84.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1356139,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/282"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/9f90990b2b8d-CMCO-E5-8D-87-E9-99-8D-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/9f90990b2b8d-CMCO-E5-8D-87-E9-99-8D-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1165/CMCO-%E5%8D%87%E9%99%8D%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1165/CMCO-%E5%8D%87%E9%99%8D%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 237471,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/173"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/a0f5d2389b00-MD14_CAN-NOVA-1-.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/a0f5d2389b00-MD14_CAN-NOVA-1-.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1273/MD14_CAN-NOVA-(1).pdf",
+      "future_server_path": "/file/download/1273/MD14_CAN-NOVA-(1).pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1132087,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/83"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/a23a1315ab21-Thosmon-Electrak.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/a23a1315ab21-Thosmon-Electrak.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1171/Thosmon-Electrak.pdf",
+      "future_server_path": "/file/download/1171/Thosmon-Electrak.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 223150,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/178"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/a30ae22d1d90-Winkel-E9-87-8D-E8-BC-89-E5-82-B3-E8-BC-B8-E8-BB-8C-E9-81-93-E8-BB-B8-E6-89-BF.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/a30ae22d1d90-Winkel-E9-87-8D-E8-BC-89-E5-82-B3-E8-BC-B8-E8-BB-8C-E9-81-93-E8-BB-B8-E6-89-BF.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1166/Winkel-%E9%87%8D%E8%BC%89%E5%82%B3%E8%BC%B8%E8%BB%8C%E9%81%93-%E8%BB%B8%E6%89%BF.pdf",
+      "future_server_path": "/file/download/1166/Winkel-%E9%87%8D%E8%BC%89%E5%82%B3%E8%BC%B8%E8%BB%8C%E9%81%93-%E8%BB%B8%E6%89%BF.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1428195,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/174"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/a34ba2949815-RINGFEDER-E9-98-BB-E5-B0-BC-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/a34ba2949815-RINGFEDER-E9-98-BB-E5-B0-BC-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1195/RINGFEDER-%E9%98%BB%E5%B0%BC%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "future_server_path": "/file/download/1195/RINGFEDER-%E9%98%BB%E5%B0%BC%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 9919981,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/215"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/a34e6f7bb8cb-XYY-E5-B0-8D-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/a34e6f7bb8cb-XYY-E5-B0-8D-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1152/XYY-%E5%B0%8D%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "future_server_path": "/file/download/1152/XYY-%E5%B0%8D%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 415605,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/162"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/a483d907fb4b-NMG2-Accessories.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/a483d907fb4b-NMG2-Accessories.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1133/NMG2-Accessories.pdf",
+      "future_server_path": "/file/download/1133/NMG2-Accessories.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 212616,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/115"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/a7bbd8786409-i-Autoc-E5-9B-BA-E6-85-8B-E7-B9-BC-E9-9B-BB-E5-99-A8-SSR.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/a7bbd8786409-i-Autoc-E5-9B-BA-E6-85-8B-E7-B9-BC-E9-9B-BB-E5-99-A8-SSR.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1168/i-Autoc-%E5%9B%BA%E6%85%8B%E7%B9%BC%E9%9B%BB%E5%99%A8-SSR.pdf",
+      "future_server_path": "/file/download/1168/i-Autoc-%E5%9B%BA%E6%85%8B%E7%B9%BC%E9%9B%BB%E5%99%A8-SSR.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 789064,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/176"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/a7cbc0a14132-RLD10-E9-9B-B7-E5-B0-84-E5-B9-B2-E6-B6-89-E5-84-80-E7-B0-A1-E9-8C-84.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/a7cbc0a14132-RLD10-E9-9B-B7-E5-B0-84-E5-B9-B2-E6-B6-89-E5-84-80-E7-B0-A1-E9-8C-84.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1268/RLD10%E9%9B%B7%E5%B0%84%E5%B9%B2%E6%B6%89%E5%84%80-%E7%B0%A1%E9%8C%84.pdf",
+      "future_server_path": "/file/download/1268/RLD10%E9%9B%B7%E5%B0%84%E5%B9%B2%E6%B6%89%E5%84%80-%E7%B0%A1%E9%8C%84.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 261547,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/319"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/a82e66337873-Datenblatt_BKS309_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/a82e66337873-Datenblatt_BKS309_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1303/Datenblatt_BKS309_EN.pdf",
+      "future_server_path": "/file/download/1303/Datenblatt_BKS309_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 807108,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/137"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/ab96c54833ca-20-KDU-E7-B3-BB-E5-88-97-E6-8A-80-E8-A1-93-E8-B3-87-E6-96-99-E7-9B-B4-E9-A9-85-E9-A6-AC-E9-81-94-QR.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/ab96c54833ca-20-KDU-E7-B3-BB-E5-88-97-E6-8A-80-E8-A1-93-E8-B3-87-E6-96-99-E7-9B-B4-E9-A9-85-E9-A6-AC-E9-81-94-QR.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1351/20-KDU%E7%B3%BB%E5%88%97%E6%8A%80%E8%A1%93%E8%B3%87%E6%96%99-%E7%9B%B4%E9%A9%85%E9%A6%AC%E9%81%94-QR.pdf",
+      "future_server_path": "/file/output/1351/20-KDU%E7%B3%BB%E5%88%97%E6%8A%80%E8%A1%93%E8%B3%87%E6%96%99-%E7%9B%B4%E9%A9%85%E9%A6%AC%E9%81%94-QR.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3144814,
+      "usage_count": 5,
+      "used_by_pages": [
+        "/products/detail/199"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/abd83fb602d1-Primatics-E9-AB-98-E7-B2-BE-E5-AF-86-E5-8F-8A-E7-84-A1-E5-A1-B5-E7-AD-89-E7-B4-9A-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/abd83fb602d1-Primatics-E9-AB-98-E7-B2-BE-E5-AF-86-E5-8F-8A-E7-84-A1-E5-A1-B5-E7-AD-89-E7-B4-9A-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1151/Primatics-%E9%AB%98%E7%B2%BE%E5%AF%86%E5%8F%8A%E7%84%A1%E5%A1%B5%E7%AD%89%E7%B4%9A-%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "future_server_path": "/file/download/1151/Primatics-%E9%AB%98%E7%B2%BE%E5%AF%86%E5%8F%8A%E7%84%A1%E5%A1%B5%E7%AD%89%E7%B4%9A-%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 199611,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/161"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/abe88255bdd4-LM10-E5-A2-9E-E9-87-8F-E5-BC-8F-E7-A3-81-E6-80-A7-E7-B7-A8-E7-A2-BC-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/abe88255bdd4-LM10-E5-A2-9E-E9-87-8F-E5-BC-8F-E7-A3-81-E6-80-A7-E7-B7-A8-E7-A2-BC-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1259/LM10%E5%A2%9E%E9%87%8F%E5%BC%8F%E7%A3%81%E6%80%A7%E7%B7%A8%E7%A2%BC%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1259/LM10%E5%A2%9E%E9%87%8F%E5%BC%8F%E7%A3%81%E6%80%A7%E7%B7%A8%E7%A2%BC%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1953073,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/299"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/ade00acb3d8b-ALIO-E5-A5-88-E7-B1-B3-E7-B4-9A-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/ade00acb3d8b-ALIO-E5-A5-88-E7-B1-B3-E7-B4-9A-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1145/ALIO-%E5%A5%88%E7%B1%B3%E7%B4%9A%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "future_server_path": "/file/download/1145/ALIO-%E5%A5%88%E7%B1%B3%E7%B4%9A%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 750312,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/155"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/ae63e7da8460-Servomech-E9-9B-BB-E5-8B-95-E7-BC-B8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/ae63e7da8460-Servomech-E9-9B-BB-E5-8B-95-E7-BC-B8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1159/Servomech-%E9%9B%BB%E5%8B%95%E7%BC%B8.pdf",
+      "future_server_path": "/file/download/1159/Servomech-%E9%9B%BB%E5%8B%95%E7%BC%B8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 89923,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/168"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/af5f65472de4-New-way-E7-A9-BA-E6-B0-A3-E8-BB-B8-E6-89-BF.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/af5f65472de4-New-way-E7-A9-BA-E6-B0-A3-E8-BB-B8-E6-89-BF.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1185/New-way-%E7%A9%BA%E6%B0%A3%E8%BB%B8%E6%89%BF.pdf",
+      "future_server_path": "/file/download/1185/New-way-%E7%A9%BA%E6%B0%A3%E8%BB%B8%E6%89%BF.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 5799813,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/192"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/b0a82cd72af1-Datasheet_FMS-segFORCE.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/b0a82cd72af1-Datasheet_FMS-segFORCE.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1383/Datasheet_FMS-segFORCE.pdf",
+      "future_server_path": "/file/download/1383/Datasheet_FMS-segFORCE.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 978022,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/341"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/b1ec6b21e3db-Ringfeder-E5-85-8D-E9-8D-B5-E5-BC-8F-E8-BB-B8-E8-A5-AF-E9-98-B2-E9-9C-87-E5-85-83-E4-BB-B6.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/b1ec6b21e3db-Ringfeder-E5-85-8D-E9-8D-B5-E5-BC-8F-E8-BB-B8-E8-A5-AF-E9-98-B2-E9-9C-87-E5-85-83-E4-BB-B6.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1143/Ringfeder-%E5%85%8D%E9%8D%B5%E5%BC%8F%E8%BB%B8%E8%A5%AF-%E9%98%B2%E9%9C%87%E5%85%83%E4%BB%B6.pdf",
+      "future_server_path": "/file/download/1143/Ringfeder-%E5%85%8D%E9%8D%B5%E5%BC%8F%E8%BB%B8%E8%A5%AF-%E9%98%B2%E9%9C%87%E5%85%83%E4%BB%B6.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3161463,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/153"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/b24037521249-Harmonic-E8-AB-A7-E6-B3-A2-E6-B8-9B-E9-80-9F-E6-A9-9F.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/b24037521249-Harmonic-E8-AB-A7-E6-B3-A2-E6-B8-9B-E9-80-9F-E6-A9-9F.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1101/Harmonic-%E8%AB%A7%E6%B3%A2%E6%B8%9B%E9%80%9F%E6%A9%9F.pdf",
+      "future_server_path": "/file/download/1101/Harmonic-%E8%AB%A7%E6%B3%A2%E6%B8%9B%E9%80%9F%E6%A9%9F.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 4590769,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/81"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/b3890265d432-Accel-E7-B7-9A-E6-80-A7-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E9-9F-B3-E5-9C-88-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/b3890265d432-Accel-E7-B7-9A-E6-80-A7-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E9-9F-B3-E5-9C-88-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1104/Accel-%E7%B7%9A%E6%80%A7%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94-%E9%9F%B3%E5%9C%88%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1104/Accel-%E7%B7%9A%E6%80%A7%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94-%E9%9F%B3%E5%9C%88%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 794333,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/85"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/b438259a0d95-NEW-WAY-E7-A9-BA-E6-B0-A3-E8-A5-AF-E5-A5-97-E5-AE-89-E8-A3-9D-E6-8C-87-E5-8D-97.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/b438259a0d95-NEW-WAY-E7-A9-BA-E6-B0-A3-E8-A5-AF-E5-A5-97-E5-AE-89-E8-A3-9D-E6-8C-87-E5-8D-97.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1201/NEW-WAY-%E7%A9%BA%E6%B0%A3%E8%A5%AF%E5%A5%97%E5%AE%89%E8%A3%9D%E6%8C%87%E5%8D%97.pdf",
+      "future_server_path": "/file/download/1201/NEW-WAY-%E7%A9%BA%E6%B0%A3%E8%A5%AF%E5%A5%97%E5%AE%89%E8%A3%9D%E6%8C%87%E5%8D%97.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1731277,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/260"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/b53c2f80cbbf-Duff-Norton-E7-B7-9A-E6-80-A7-E8-87-B4-E5-8B-95-E5-99-A8-E5-8D-83-E6-96-A4-E9-A0-82-E6-8E-A5-E9-A0-AD.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/b53c2f80cbbf-Duff-Norton-E7-B7-9A-E6-80-A7-E8-87-B4-E5-8B-95-E5-99-A8-E5-8D-83-E6-96-A4-E9-A0-82-E6-8E-A5-E9-A0-AD.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1164/Duff-Norton-%E7%B7%9A%E6%80%A7%E8%87%B4%E5%8B%95%E5%99%A8%E5%8D%83%E6%96%A4%E9%A0%82%E6%8E%A5%E9%A0%AD.pdf",
+      "future_server_path": "/file/download/1164/Duff-Norton-%E7%B7%9A%E6%80%A7%E8%87%B4%E5%8B%95%E5%99%A8%E5%8D%83%E6%96%A4%E9%A0%82%E6%8E%A5%E9%A0%AD.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 450089,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/172"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/b70311a4deca-Bedienungsanleitung_RTMX42_CC_Control_Center_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/b70311a4deca-Bedienungsanleitung_RTMX42_CC_Control_Center_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1393/Bedienungsanleitung_RTMX42_CC_Control_Center_EN.pdf",
+      "future_server_path": "/file/download/1393/Bedienungsanleitung_RTMX42_CC_Control_Center_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3443972,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/350"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/b7204effcd65-Kollmorgen-E9-98-B2-E7-88-86-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/b7204effcd65-Kollmorgen-E9-98-B2-E7-88-86-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1180/Kollmorgen-%E9%98%B2%E7%88%86%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1180/Kollmorgen-%E9%98%B2%E7%88%86%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 134533,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/187"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/ba21fe91b298-Datasheet_LMGZSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/ba21fe91b298-Datasheet_LMGZSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1288/Datasheet_LMGZSeries_fms.pdf",
+      "future_server_path": "/file/download/1288/Datasheet_LMGZSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 511979,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/145"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/ba7a51ced27e-RINFEDER-E9-BD-92-E8-BC-AA-E8-81-AF-E8-BB-B8-E5-99-A8-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/ba7a51ced27e-RINFEDER-E9-BD-92-E8-BC-AA-E8-81-AF-E8-BB-B8-E5-99-A8-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1191/RINFEDER%E9%BD%92%E8%BC%AA%E8%81%AF%E8%BB%B8%E5%99%A8%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "future_server_path": "/file/download/1191/RINFEDER%E9%BD%92%E8%BC%AA%E8%81%AF%E8%BB%B8%E5%99%A8%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 8303650,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/210"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/babbedf0eccd-Del.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/babbedf0eccd-Del.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1153/Del.pdf",
+      "future_server_path": "/file/download/1153/Del.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1679551,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/163"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/be7873ff67b5-Kollmorgen-E9-A9-85-E5-8B-95-E5-99-A8-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/be7873ff67b5-Kollmorgen-E9-A9-85-E5-8B-95-E5-99-A8-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1109/Kollmorgen-%E9%A9%85%E5%8B%95%E5%99%A8-%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1109/Kollmorgen-%E9%A9%85%E5%8B%95%E5%99%A8-%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3572975,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/90"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/bffe9b09e7b0-AKD-PDMM-User-Guide-EN-REV-K-.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/bffe9b09e7b0-AKD-PDMM-User-Guide-EN-REV-K-.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1270/AKD-PDMM-User-Guide-EN-(REV-K).pdf",
+      "future_server_path": "/file/download/1270/AKD-PDMM-User-Guide-EN-(REV-K).pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 14215920,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/77"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/c15d793ee09d-Datenblatt_EMGZ321_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/c15d793ee09d-Datenblatt_EMGZ321_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1311/Datenblatt_EMGZ321_EN.pdf",
+      "future_server_path": "/file/download/1311/Datenblatt_EMGZ321_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 486605,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/134"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/c166450f074d-Datasheet_CRSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/c166450f074d-Datasheet_CRSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1323/Datasheet_CRSeries_fms.pdf",
+      "future_server_path": "/file/download/1323/Datasheet_CRSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1325597,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/133"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/c21ed54cc9e9-SMAC-E4-BC-BA-E6-9C-8D-E9-9B-BB-E5-8B-95-E7-BC-B8-E9-9F-B3-E5-9C-88-E9-A6-AC-E9-81-94-E9-A9-85-E5-8B-95-.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/c21ed54cc9e9-SMAC-E4-BC-BA-E6-9C-8D-E9-9B-BB-E5-8B-95-E7-BC-B8-E9-9F-B3-E5-9C-88-E9-A6-AC-E9-81-94-E9-A9-85-E5-8B-95-.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1158/SMAC-%E4%BC%BA%E6%9C%8D%E9%9B%BB%E5%8B%95%E7%BC%B8(%E9%9F%B3%E5%9C%88%E9%A6%AC%E9%81%94%E9%A9%85%E5%8B%95).pdf",
+      "future_server_path": "/file/download/1158/SMAC-%E4%BC%BA%E6%9C%8D%E9%9B%BB%E5%8B%95%E7%BC%B8(%E9%9F%B3%E5%9C%88%E9%A6%AC%E9%81%94%E9%A9%85%E5%8B%95).pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3460502,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/167"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/c54bd170eebb-Kollmorgen-E9-A9-85-E5-8B-95-E5-99-A8-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/c54bd170eebb-Kollmorgen-E9-A9-85-E5-8B-95-E5-99-A8-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1112/Kollmorgen-%E9%A9%85%E5%8B%95%E5%99%A8-%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1112/Kollmorgen-%E9%A9%85%E5%8B%95%E5%99%A8-%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3572975,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/93"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/c6415b350b0e-LM13-E5-A2-9E-E9-87-8F-E5-BC-8F-E7-A3-81-E6-80-A7-E7-B7-A8-E7-A2-BC-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/c6415b350b0e-LM13-E5-A2-9E-E9-87-8F-E5-BC-8F-E7-A3-81-E6-80-A7-E7-B7-A8-E7-A2-BC-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1260/LM13%E5%A2%9E%E9%87%8F%E5%BC%8F%E7%A3%81%E6%80%A7%E7%B7%A8%E7%A2%BC%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1260/LM13%E5%A2%9E%E9%87%8F%E5%BC%8F%E7%A3%81%E6%80%A7%E7%B7%A8%E7%A2%BC%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1350568,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/299"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/c72502c20093-Datasheet_PMGZSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/c72502c20093-Datasheet_PMGZSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1329/Datasheet_PMGZSeries_fms.pdf",
+      "future_server_path": "/file/download/1329/Datasheet_PMGZSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1352565,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/133"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/ca088de941c5-RINGFEDER-E9-98-BB-E5-B0-BC-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/ca088de941c5-RINGFEDER-E9-98-BB-E5-B0-BC-E7-94-A2-E5-93-81-E8-AA-AA-E6-98-8E-E6-9B-B8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1196/RINGFEDER-%E9%98%BB%E5%B0%BC%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "future_server_path": "/file/download/1196/RINGFEDER-%E9%98%BB%E5%B0%BC%E7%94%A2%E5%93%81%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 9919981,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/216"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/ca1714225a9b-MD23_CAN-NOVA.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/ca1714225a9b-MD23_CAN-NOVA.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1275/MD23_CAN-NOVA.pdf",
+      "future_server_path": "/file/download/1275/MD23_CAN-NOVA.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1980759,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/83"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/cc09f7cf1202-09-E7-B5-84-E4-BB-B6-E5-9E-8B-E7-BB-BC-E5-90-88-E5-9E-8B-E9-8C-84-1805-E7-89-88-QR.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/cc09f7cf1202-09-E7-B5-84-E4-BB-B6-E5-9E-8B-E7-BB-BC-E5-90-88-E5-9E-8B-E9-8C-84-1805-E7-89-88-QR.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1340/09-%E7%B5%84%E4%BB%B6%E5%9E%8B%E7%BB%BC%E5%90%88%E5%9E%8B%E9%8C%84-1805%E7%89%88-QR.pdf",
+      "future_server_path": "/file/output/1340/09-%E7%B5%84%E4%BB%B6%E5%9E%8B%E7%BB%BC%E5%90%88%E5%9E%8B%E9%8C%84-1805%E7%89%88-QR.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 17628554,
+      "usage_count": 4,
+      "used_by_pages": [
+        "/products/detail/280"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/cc98603c491b-ALIO-E5-A5-88-E7-B1-B3-E7-B4-9A-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/cc98603c491b-ALIO-E5-A5-88-E7-B1-B3-E7-B4-9A-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1148/ALIO-%E5%A5%88%E7%B1%B3%E7%B4%9A%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "future_server_path": "/file/download/1148/ALIO-%E5%A5%88%E7%B1%B3%E7%B4%9A%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 750312,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/158"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/d03315b368bc-ALIO-E5-A5-88-E7-B1-B3-E7-B4-9A-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/d03315b368bc-ALIO-E5-A5-88-E7-B1-B3-E7-B4-9A-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1147/ALIO-%E5%A5%88%E7%B1%B3%E7%B4%9A%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "future_server_path": "/file/download/1147/ALIO-%E5%A5%88%E7%B1%B3%E7%B4%9A%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 750312,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/157"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/d063dda7a03a-HD-E6-A9-9F-E9-9B-BB-E7-94-A2-E5-93-81-E7-9B-B4-E9-A9-85-E9-A6-AC-E9-81-94-KDU-E7-B3-BB-E5-88-97.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/d063dda7a03a-HD-E6-A9-9F-E9-9B-BB-E7-94-A2-E5-93-81-E7-9B-B4-E9-A9-85-E9-A6-AC-E9-81-94-KDU-E7-B3-BB-E5-88-97.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1389/HD-%E6%A9%9F%E9%9B%BB%E7%94%A2%E5%93%81-%E7%9B%B4%E9%A9%85%E9%A6%AC%E9%81%94-KDU%E7%B3%BB%E5%88%97.pdf",
+      "future_server_path": "/file/download/1389/HD-%E6%A9%9F%E9%9B%BB%E7%94%A2%E5%93%81-%E7%9B%B4%E9%A9%85%E9%A6%AC%E9%81%94-KDU%E7%B3%BB%E5%88%97.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3052761,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/199"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/d413b6289c8d-E5-85-89-E5-AD-B8-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/d413b6289c8d-E5-85-89-E5-AD-B8-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1150/%E5%85%89%E5%AD%B8%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "future_server_path": "/file/download/1150/%E5%85%89%E5%AD%B8%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 120836,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/160"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/d6b056d1b30d-M-9693-9798-02-C_Installation_guide_ATOM_rotary_ZH-TW-1-.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/d6b056d1b30d-M-9693-9798-02-C_Installation_guide_ATOM_rotary_ZH-TW-1-.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1454/M-9693-9798-02-C_Installation_guide_ATOM_rotary_ZH-TW-(1).pdf",
+      "future_server_path": "/file/output/1454/M-9693-9798-02-C_Installation_guide_ATOM_rotary_ZH-TW-(1).pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 6075057,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/116"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/d8ade0d17d70-Datasheet_CSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/d8ade0d17d70-Datasheet_CSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1289/Datasheet_CSeries_fms.pdf",
+      "future_server_path": "/file/download/1289/Datasheet_CSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 517380,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/145"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/da6692eea3a3-Datenblatt_EMGZ306_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/da6692eea3a3-Datenblatt_EMGZ306_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1307/Datenblatt_EMGZ306_EN.pdf",
+      "future_server_path": "/file/download/1307/Datenblatt_EMGZ306_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 149904,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/134"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/db46f7cfbf4a-Minet-E4-B8-89-E8-BB-B8-E9-A1-AF-E7-A4-BA-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/db46f7cfbf4a-Minet-E4-B8-89-E8-BB-B8-E9-A1-AF-E7-A4-BA-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1128/Minet%E4%B8%89%E8%BB%B8%E9%A1%AF%E7%A4%BA%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1128/Minet%E4%B8%89%E8%BB%B8%E9%A1%AF%E7%A4%BA%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 818855,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/109"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/dd32bde12cb4-Kollmorgen-E9-98-B2-E6-B0-B4-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/dd32bde12cb4-Kollmorgen-E9-98-B2-E6-B0-B4-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1115/Kollmorgen-%E9%98%B2%E6%B0%B4%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1115/Kollmorgen-%E9%98%B2%E6%B0%B4%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 299059,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/96"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/dd9775365b21-Bedienungsanleitung_RTMX42_CC_Control_Center_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/dd9775365b21-Bedienungsanleitung_RTMX42_CC_Control_Center_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1392/Bedienungsanleitung_RTMX42_CC_Control_Center_EN.pdf",
+      "future_server_path": "/file/download/1392/Bedienungsanleitung_RTMX42_CC_Control_Center_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3443972,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/350"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/deae6df600b7-Datenblatt_EMGZ307_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/deae6df600b7-Datenblatt_EMGZ307_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1308/Datenblatt_EMGZ307_EN.pdf",
+      "future_server_path": "/file/download/1308/Datenblatt_EMGZ307_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 611264,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/134"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/e1243ba06ae4-RLD10-E5-B7-AE-E5-88-86-E5-B9-B2-E6-B6-89-E5-84-80_-Data-sheet.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/e1243ba06ae4-RLD10-E5-B7-AE-E5-88-86-E5-B9-B2-E6-B6-89-E5-84-80_-Data-sheet.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1265/RLD10-%E5%B7%AE%E5%88%86%E5%B9%B2%E6%B6%89%E5%84%80_-Data-sheet.pdf",
+      "future_server_path": "/file/download/1265/RLD10-%E5%B7%AE%E5%88%86%E5%B9%B2%E6%B6%89%E5%84%80_-Data-sheet.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 264249,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/319"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/e1886b2e9a90-Datasheet_RTM_MP_signal_transmission_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/e1886b2e9a90-Datasheet_RTM_MP_signal_transmission_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1286/Datasheet_RTM_MP_signal_transmission_fms.pdf",
+      "future_server_path": "/file/download/1286/Datasheet_RTM_MP_signal_transmission_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 937500,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/130"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/e3f96cce5022-Datasheet_RMGZ9Series_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/e3f96cce5022-Datasheet_RMGZ9Series_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1292/Datasheet_RMGZ9Series_fms.pdf",
+      "future_server_path": "/file/download/1292/Datasheet_RMGZ9Series_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 826109,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/145"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/e47ea5ece29d-Datenblatt_CMGZ309_EIP_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/e47ea5ece29d-Datenblatt_CMGZ309_EIP_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1306/Datenblatt_CMGZ309_EIP_EN.pdf",
+      "future_server_path": "/file/download/1306/Datenblatt_CMGZ309_EIP_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 687100,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/135"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/e62b303b6c1a-Datasheet_FSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/e62b303b6c1a-Datasheet_FSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1327/Datasheet_FSeries_fms.pdf",
+      "future_server_path": "/file/download/1327/Datasheet_FSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 887525,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/133"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/e77136c96809-Datasheet_ASeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/e77136c96809-Datasheet_ASeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1322/Datasheet_ASeries_fms.pdf",
+      "future_server_path": "/file/download/1322/Datasheet_ASeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1541762,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/133"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/e77d44064940-Kollmorgen-E8-80-90-E4-BD-8E-E6-BA-AB-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/e77d44064940-Kollmorgen-E8-80-90-E4-BD-8E-E6-BA-AB-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1116/Kollmorgen-%E8%80%90%E4%BD%8E%E6%BA%AB%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1116/Kollmorgen-%E8%80%90%E4%BD%8E%E6%BA%AB%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 171226,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/97"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/e918ba5cf509-Datasheet_CSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/e918ba5cf509-Datasheet_CSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1324/Datasheet_CSeries_fms.pdf",
+      "future_server_path": "/file/download/1324/Datasheet_CSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 517380,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/133"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/e9ee0dbc9035-JVL-E6-95-B4-E5-90-88-E5-9E-8B-E4-BC-BA-E6-9C-8D-E6-AD-A5-E9-80-B2-E9-A6-AC-E9-81-94.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/e9ee0dbc9035-JVL-E6-95-B4-E5-90-88-E5-9E-8B-E4-BC-BA-E6-9C-8D-E6-AD-A5-E9-80-B2-E9-A6-AC-E9-81-94.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1121/JVL%E6%95%B4%E5%90%88%E5%9E%8B%E4%BC%BA%E6%9C%8D-%E6%AD%A5%E9%80%B2%E9%A6%AC%E9%81%94.pdf",
+      "future_server_path": "/file/download/1121/JVL%E6%95%B4%E5%90%88%E5%9E%8B%E4%BC%BA%E6%9C%8D-%E6%AD%A5%E9%80%B2%E9%A6%AC%E9%81%94.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1844775,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/102"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/eac78f4b6bad-Datenblatt_EMGZ309_4S_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/eac78f4b6bad-Datenblatt_EMGZ309_4S_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1309/Datenblatt_EMGZ309_4S_EN.pdf",
+      "future_server_path": "/file/download/1309/Datenblatt_EMGZ309_4S_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 721396,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/134"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/ec79eb49773c-Datasheet_CRSeries_fms.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/ec79eb49773c-Datasheet_CRSeries_fms.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1290/Datasheet_CRSeries_fms.pdf",
+      "future_server_path": "/file/download/1290/Datasheet_CRSeries_fms.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1325597,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/145"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/ecbb9a66d653-Thomson-E4-B8-8D-E9-8A-B9-E9-8B-BC-E9-A3-9F-E5-93-81-E7-B4-9A-E7-B7-9A-E6-80-A7-E8-87-B4-E5-8B-95-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/ecbb9a66d653-Thomson-E4-B8-8D-E9-8A-B9-E9-8B-BC-E9-A3-9F-E5-93-81-E7-B4-9A-E7-B7-9A-E6-80-A7-E8-87-B4-E5-8B-95-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1172/Thomson%E4%B8%8D%E9%8A%B9%E9%8B%BC%E9%A3%9F%E5%93%81%E7%B4%9A%E7%B7%9A%E6%80%A7%E8%87%B4%E5%8B%95%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1172/Thomson%E4%B8%8D%E9%8A%B9%E9%8B%BC%E9%A3%9F%E5%93%81%E7%B4%9A%E7%B7%9A%E6%80%A7%E8%87%B4%E5%8B%95%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 133934,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/179"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/ed4e62145a59-Karl-Klein-E9-BC-93-E9-A2-A8-E6-A9-9F.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/ed4e62145a59-Karl-Klein-E9-BC-93-E9-A2-A8-E6-A9-9F.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1120/Karl-Klein-%E9%BC%93%E9%A2%A8%E6%A9%9F.pdf",
+      "future_server_path": "/file/download/1120/Karl-Klein-%E9%BC%93%E9%A2%A8%E6%A9%9F.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1883245,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/101"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/ee2caf9456bd-Harmonic-E8-AB-A7-E6-B3-A2-E6-B8-9B-E9-80-9F-E6-A9-9F-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E9-A9-85-E5-8B-95-E5-99-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/ee2caf9456bd-Harmonic-E8-AB-A7-E6-B3-A2-E6-B8-9B-E9-80-9F-E6-A9-9F-E4-BC-BA-E6-9C-8D-E9-A6-AC-E9-81-94-E9-A9-85-E5-8B-95-E5-99-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1108/Harmonic-%E8%AB%A7%E6%B3%A2%E6%B8%9B%E9%80%9F%E6%A9%9F-%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94-%E9%A9%85%E5%8B%95%E5%99%A8.pdf",
+      "future_server_path": "/file/download/1108/Harmonic-%E8%AB%A7%E6%B3%A2%E6%B8%9B%E9%80%9F%E6%A9%9F-%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94-%E9%A9%85%E5%8B%95%E5%99%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 4368623,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/89"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/eecc80ced169-ALIO-E5-A5-88-E7-B1-B3-E7-B4-9A-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/eecc80ced169-ALIO-E5-A5-88-E7-B1-B3-E7-B4-9A-E7-B2-BE-E5-AF-86-E5-AE-9A-E4-BD-8D-E5-B9-B3-E5-8F-B0.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1157/ALIO-%E5%A5%88%E7%B1%B3%E7%B4%9A%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "future_server_path": "/file/download/1157/ALIO-%E5%A5%88%E7%B1%B3%E7%B4%9A%E7%B2%BE%E5%AF%86%E5%AE%9A%E4%BD%8D%E5%B9%B3%E5%8F%B0.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 750312,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/166"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/eef64c008a5d-FMS-E5-BC-B5-E5-8A-9B-E6-8E-A7-E5-88-B6-E5-85-83-E4-BB-B6.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/eef64c008a5d-FMS-E5-BC-B5-E5-8A-9B-E6-8E-A7-E5-88-B6-E5-85-83-E4-BB-B6.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1137/FMS%E5%BC%B5%E5%8A%9B%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6.pdf",
+      "future_server_path": "/file/download/1137/FMS%E5%BC%B5%E5%8A%9B%E6%8E%A7%E5%88%B6%E5%85%83%E4%BB%B6.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 7872332,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/146"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/f23bd643f821-E5-90-84-E5-BC-8F-E8-BB-B8-E6-89-BF.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/f23bd643f821-E5-90-84-E5-BC-8F-E8-BB-B8-E6-89-BF.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1167/%E5%90%84%E5%BC%8F%E8%BB%B8%E6%89%BF.pdf",
+      "future_server_path": "/file/download/1167/%E5%90%84%E5%BC%8F%E8%BB%B8%E6%89%BF.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 256281,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/175"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/f2dfd163d40d-01-E7-B2-BE-E5-AF-86-E6-8E-A7-E5-88-B6-E7-94-A8-E6-B8-9B-E9-80-9F-E6-A9-9F-E7-B6-9C-E5-90-88-E5-9E-8B-E9-8C-84-QR.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/f2dfd163d40d-01-E7-B2-BE-E5-AF-86-E6-8E-A7-E5-88-B6-E7-94-A8-E6-B8-9B-E9-80-9F-E6-A9-9F-E7-B6-9C-E5-90-88-E5-9E-8B-E9-8C-84-QR.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1332/01-%E7%B2%BE%E5%AF%86%E6%8E%A7%E5%88%B6%E7%94%A8%E6%B8%9B%E9%80%9F%E6%A9%9F%E7%B6%9C%E5%90%88%E5%9E%8B%E9%8C%84-QR.pdf",
+      "future_server_path": "/file/output/1332/01-%E7%B2%BE%E5%AF%86%E6%8E%A7%E5%88%B6%E7%94%A8%E6%B8%9B%E9%80%9F%E6%A9%9F%E7%B6%9C%E5%90%88%E5%9E%8B%E9%8C%84-QR.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 6290550,
+      "usage_count": 40,
+      "used_by_pages": [
+        "/products/detail/272",
+        "/products/detail/279",
+        "/products/detail/282",
+        "/products/detail/283",
+        "/products/detail/284",
+        "/products/detail/287",
+        "/products/detail/288",
+        "/products/detail/292"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/f373f7c4cae6-Datenblatt_IMGZ_EN.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/f373f7c4cae6-Datenblatt_IMGZ_EN.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1284/Datenblatt_IMGZ_EN.pdf",
+      "future_server_path": "/file/download/1284/Datenblatt_IMGZ_EN.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 1033624,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/144"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/f54e8aab6744-dunkermotoren-E7-AE-A1-E5-9E-8B-E7-B7-9A-E6-80-A7-E9-A6-AC-E9-81-94-E7-B3-BB-E5-88-97.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/f54e8aab6744-dunkermotoren-E7-AE-A1-E5-9E-8B-E7-B7-9A-E6-80-A7-E9-A6-AC-E9-81-94-E7-B3-BB-E5-88-97.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1125/dunkermotoren-%E7%AE%A1%E5%9E%8B%E7%B7%9A%E6%80%A7%E9%A6%AC%E9%81%94%E7%B3%BB%E5%88%97.pdf",
+      "future_server_path": "/file/download/1125/dunkermotoren-%E7%AE%A1%E5%9E%8B%E7%B7%9A%E6%80%A7%E9%A6%AC%E9%81%94%E7%B3%BB%E5%88%97.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 483221,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/106"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/f5afef1b659b-E6-89-81-E5-B9-B3-E4-B8-AD-E7-A9-BAAC-E4-BC-BA-E6-9C-8D-E9-9B-BB-E5-8B-95-E6-A9-9F-HMA-E7-B3-BB-E5-88-97-E6-8A-80-E8-A1-93-E8-B3-87-E6-96-99.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/f5afef1b659b-E6-89-81-E5-B9-B3-E4-B8-AD-E7-A9-BAAC-E4-BC-BA-E6-9C-8D-E9-9B-BB-E5-8B-95-E6-A9-9F-HMA-E7-B3-BB-E5-88-97-E6-8A-80-E8-A1-93-E8-B3-87-E6-96-99.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1390/%E6%89%81%E5%B9%B3%E4%B8%AD%E7%A9%BAAC%E4%BC%BA%E6%9C%8D%E9%9B%BB%E5%8B%95%E6%A9%9F-HMA%E7%B3%BB%E5%88%97-%E6%8A%80%E8%A1%93%E8%B3%87%E6%96%99.pdf",
+      "future_server_path": "/file/download/1390/%E6%89%81%E5%B9%B3%E4%B8%AD%E7%A9%BAAC%E4%BC%BA%E6%9C%8D%E9%9B%BB%E5%8B%95%E6%A9%9F-HMA%E7%B3%BB%E5%88%97-%E6%8A%80%E8%A1%93%E8%B3%87%E6%96%99.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3343311,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/200"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/f666a06136ed-12-FHA-C-mini-E7-B3-BB-E5-88-97-E6-8A-80-E8-A1-93-E8-B3-87-E6-96-99-rotary_fha_01_c-QR.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/f666a06136ed-12-FHA-C-mini-E7-B3-BB-E5-88-97-E6-8A-80-E8-A1-93-E8-B3-87-E6-96-99-rotary_fha_01_c-QR.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/output/1343/12-FHA-C-mini%E7%B3%BB%E5%88%97%E6%8A%80%E8%A1%93%E8%B3%87%E6%96%99-rotary_fha_01_c-QR.pdf",
+      "future_server_path": "/file/output/1343/12-FHA-C-mini%E7%B3%BB%E5%88%97%E6%8A%80%E8%A1%93%E8%B3%87%E6%96%99-rotary_fha_01_c-QR.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 3103272,
+      "usage_count": 6,
+      "used_by_pages": [
+        "/products/detail/318"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/f6c8fae2e688-NEW-WAY-E6-B0-A3-E6-B5-AE-E6-9D-BF-E7-84-A1-E5-A1-B5-E5-AE-A4-E6-AA-A2-E6-B8-AC-E5-A0-B1-E5-91-8A.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/f6c8fae2e688-NEW-WAY-E6-B0-A3-E6-B5-AE-E6-9D-BF-E7-84-A1-E5-A1-B5-E5-AE-A4-E6-AA-A2-E6-B8-AC-E5-A0-B1-E5-91-8A.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1197/NEW-WAY-%E6%B0%A3%E6%B5%AE%E6%9D%BF%E7%84%A1%E5%A1%B5%E5%AE%A4%E6%AA%A2%E6%B8%AC%E5%A0%B1%E5%91%8A.pdf",
+      "future_server_path": "/file/download/1197/NEW-WAY-%E6%B0%A3%E6%B5%AE%E6%9D%BF%E7%84%A1%E5%A1%B5%E5%AE%A4%E6%AA%A2%E6%B8%AC%E5%A0%B1%E5%91%8A.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 6050635,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/256"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/f90bf71ca990-M-TEK-E9-9B-BB-E8-B7-AF-E6-97-8B-E8-BD-89-E9-80-A3-E6-8E-A5-E5-99-A8-E9-BB-83-E9-87-91-E6-8E-A5-E9-BB-9E-E7-92-B0-E5-9E-8B-E9-9B-86-E9-9B-BB-E5-99-A8-.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/f90bf71ca990-M-TEK-E9-9B-BB-E8-B7-AF-E6-97-8B-E8-BD-89-E9-80-A3-E6-8E-A5-E5-99-A8-E9-BB-83-E9-87-91-E6-8E-A5-E9-BB-9E-E7-92-B0-E5-9E-8B-E9-9B-86-E9-9B-BB-E5-99-A8-.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1131/M-TEK-%E9%9B%BB%E8%B7%AF%E6%97%8B%E8%BD%89%E9%80%A3%E6%8E%A5%E5%99%A8-(%E9%BB%83%E9%87%91%E6%8E%A5%E9%BB%9E-%E7%92%B0%E5%9E%8B%E9%9B%86%E9%9B%BB%E5%99%A8).pdf",
+      "future_server_path": "/file/download/1131/M-TEK-%E9%9B%BB%E8%B7%AF%E6%97%8B%E8%BD%89%E9%80%A3%E6%8E%A5%E5%99%A8-(%E9%BB%83%E9%87%91%E6%8E%A5%E9%BB%9E-%E7%92%B0%E5%9E%8B%E9%9B%86%E9%9B%BB%E5%99%A8).pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 111319,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/112"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/fac53dc827f9-NEW-WAY-E6-B0-A3-E6-B5-AE-E4-B8-BB-E8-BB-B8-E8-A6-8F-E6-A0-BC-E8-A1-A8.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/fac53dc827f9-NEW-WAY-E6-B0-A3-E6-B5-AE-E4-B8-BB-E8-BB-B8-E8-A6-8F-E6-A0-BC-E8-A1-A8.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1203/NEW-WAY-%E6%B0%A3%E6%B5%AE%E4%B8%BB%E8%BB%B8%E8%A6%8F%E6%A0%BC%E8%A1%A8.pdf",
+      "future_server_path": "/file/download/1203/NEW-WAY-%E6%B0%A3%E6%B5%AE%E4%B8%BB%E8%BB%B8%E8%A6%8F%E6%A0%BC%E8%A1%A8.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 128731,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/261"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/fba7383dca15-E9-A2-A8-E5-8A-9B-E7-99-BC-E9-9B-BB-E6-A9-9F.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/fba7383dca15-E9-A2-A8-E5-8A-9B-E7-99-BC-E9-9B-BB-E6-A9-9F.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1127/%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E6%A9%9F.pdf",
+      "future_server_path": "/file/download/1127/%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E6%A9%9F.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 509264,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/108"
+      ]
+    },
+    {
+      "local_rel": "documents-cache/fd5b3c2045a4-FD-E7-B3-BB-E5-88-97-E5-B7-AE-E5-8B-95-E9-BD-92-E8-BC-AA-E8-A6-8F-E6-A0-BC-E8-A1-A8-001.pdf",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/documents-cache/fd5b3c2045a4-FD-E7-B3-BB-E5-88-97-E5-B7-AE-E5-8B-95-E9-BD-92-E8-BC-AA-E8-A6-8F-E6-A0-BC-E8-A1-A8-001.pdf",
+      "source_url": "https://www.taiwan-servo.com.tw/file/download/1262/FD%E7%B3%BB%E5%88%97-%E5%B7%AE%E5%8B%95%E9%BD%92%E8%BC%AA%E8%A6%8F%E6%A0%BC%E8%A1%A8-001.pdf",
+      "future_server_path": "/file/download/1262/FD%E7%B3%BB%E5%88%97-%E5%B7%AE%E5%8B%95%E9%BD%92%E8%BC%AA%E8%A6%8F%E6%A0%BC%E8%A1%A8-001.pdf",
+      "deploy_mode": "backend-managed-download-route",
+      "safe_to_overwrite": false,
+      "category": "document",
+      "bytes": 4535994,
+      "usage_count": 1,
+      "used_by_pages": [
+        "/products/detail/272"
+      ]
+    }
+  ]
+}

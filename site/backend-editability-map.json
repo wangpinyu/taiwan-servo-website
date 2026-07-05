@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-07-05T16:30:26.470Z",
+  "source": "local governance docs and backend operation notes; no backend login in this run",
+  "regions": [
+    {
+      "page_type": "product-detail",
+      "editable_high_freedom": [
+        {
+          "region": "產品規格 / 主內容 CKEditor",
+          "backend_field": "tw_specifications",
+          "notes": "主要 HTML/CSS/table/details/spec 模組編輯面；適合產品規格詳情、應用、下載入口等。"
+        },
+        {
+          "region": "產品介紹 CKEditor",
+          "backend_field": "tw_description",
+          "notes": "可放基本介紹；不應承載完整規格比較表，避免與主內容混用。"
+        }
+      ],
+      "structured_not_free_layout": [
+        {
+          "region": "產品名稱",
+          "backend_field": "tw_name",
+          "notes": "影響標題與列表名稱。"
+        },
+        {
+          "region": "產品分類",
+          "backend_field": "cid",
+          "notes": "影響側欄分類、列表與 breadcrumb。"
+        },
+        {
+          "region": "產品系列",
+          "backend_field": "tw_series",
+          "notes": "可作系列標籤，但不是自由 HTML。"
+        },
+        {
+          "region": "代表圖",
+          "backend_field": "photo",
+          "notes": "600x600 結構化圖片欄位；需要命名、裁切、壓縮與上傳驗證。"
+        },
+        {
+          "region": "圖片",
+          "backend_field": "photos",
+          "notes": "600x600 產品詳情 gallery 欄位；非 CKEditor 自由區。"
+        },
+        {
+          "region": "SEO 欄位",
+          "backend_field": "seo[...]",
+          "notes": "meta title/keywords/description，需事實來源支持。"
+        }
+      ],
+      "locked_or_template": [
+        {
+          "region": "側邊標籤「介紹」",
+          "notes": "前台/模板固定文字，不應規劃為可改標題。"
+        },
+        {
+          "region": "全站導覽、產品分類側欄、footer、浮動按鈕",
+          "notes": "模板/全站資料驅動，單頁 CKEditor 無法自由改。"
+        },
+        {
+          "region": "產品圖片區的前台位置與 gallery 結構",
+          "notes": "由 photo/photos 與模板控制，不能用主內容區直接替代。"
+        }
+      ]
+    },
+    {
+      "page_type": "product-category",
+      "locked_or_template": [
+        {
+          "region": "產品列表卡片與分類側欄",
+          "notes": "主要由分類與產品資料驅動；本機可預覽，但單一 CKEditor 片段不能改列表模板。"
+        }
+      ],
+      "structured_not_free_layout": [
+        {
+          "region": "分類名稱/排序/SEO",
+          "backend_field": "ProductCategories",
+          "notes": "可由後台分類模組管理，仍不是自由排版 HTML。"
+        }
+      ]
+    },
+    {
+      "page_type": "home",
+      "structured_not_free_layout": [
+        {
+          "region": "首頁內容模組",
+          "notes": "需另行檢查首頁後台模組；本輪只鏡像前端呈現。"
+        }
+      ]
+    },
+    {
+      "page_type": "service",
+      "structured_not_free_layout": [
+        {
+          "region": "服務項目內容",
+          "notes": "可能由服務項目後台模組管理；本輪納入前端鏡像，但不做後台判定或保存。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+<style type="text/css">
+	.svg_path1{fill:url(#SVGID_1_);}
+	.svg_path2{fill:url(#SVGID_2_);}
+	.svg_path3{fill:url(#SVGID_3_);}
+</style>
+<radialGradient id="SVGID_1_" cx="6.4976" cy="31.4844" r="29.9351" gradientTransform="matrix(1 0 0 0.9909 0 0.0688)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0.2702" style="stop-color:#FFD879"/>
+	<stop  offset="0.3324" style="stop-color:#FCCB76"/>
+	<stop  offset="0.4465" style="stop-color:#F5AA6C"/>
+	<stop  offset="0.5986" style="stop-color:#E9755E"/>
+	<stop  offset="0.6548" style="stop-color:#E45F58"/>
+	<stop  offset="0.8771" style="stop-color:#D22A9C"/>
+	<stop  offset="1" style="stop-color:#934FC4"/>
+</radialGradient>
+<path class="svg_path1" d="M20.261,1.358H9.715c-4.676,0-8.466,3.756-8.466,8.391v10.449c0,4.633,3.79,8.388,8.466,8.388h10.545
+	c4.676,0,8.466-3.755,8.466-8.388V9.749C28.727,5.115,24.937,1.358,20.261,1.358z M26.089,19.195c0,3.745-3.063,6.779-6.84,6.779
+	h-8.522c-3.779,0-6.841-3.034-6.841-6.779V10.75c0-3.743,3.063-6.779,6.841-6.779h8.522c3.777,0,6.84,3.036,6.84,6.779V19.195z"/>
+<radialGradient id="SVGID_2_" cx="6.4976" cy="31.4858" r="29.936" gradientTransform="matrix(1 0 0 0.9909 0 0.0688)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0.2702" style="stop-color:#FFD879"/>
+	<stop  offset="0.3324" style="stop-color:#FCCB76"/>
+	<stop  offset="0.4465" style="stop-color:#F5AA6C"/>
+	<stop  offset="0.5986" style="stop-color:#E9755E"/>
+	<stop  offset="0.6548" style="stop-color:#E45F58"/>
+	<stop  offset="0.8771" style="stop-color:#D22A9C"/>
+	<stop  offset="1" style="stop-color:#934FC4"/>
+</radialGradient>
+<path class="svg_path2" d="M15.356,7.849c-3.998,0-7.238,3.21-7.238,7.172c0,3.959,3.24,7.172,7.238,7.172
+	c3.997,0,7.237-3.212,7.237-7.172C22.594,11.059,19.354,7.849,15.356,7.849z M15.356,19.335c-2.407,0-4.355-1.933-4.355-4.314
+	c0-2.385,1.949-4.315,4.355-4.315c2.404,0,4.354,1.931,4.354,4.315C19.71,17.402,17.761,19.335,15.356,19.335z"/>
+<radialGradient id="SVGID_3_" cx="6.498" cy="31.4844" r="29.9348" gradientTransform="matrix(1 0 0 0.9909 0 0.0688)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0.2702" style="stop-color:#FFD879"/>
+	<stop  offset="0.3324" style="stop-color:#FCCB76"/>
+	<stop  offset="0.4465" style="stop-color:#F5AA6C"/>
+	<stop  offset="0.5986" style="stop-color:#E9755E"/>
+	<stop  offset="0.6548" style="stop-color:#E45F58"/>
+	<stop  offset="0.8771" style="stop-color:#D22A9C"/>
+	<stop  offset="1" style="stop-color:#934FC4"/>
+</radialGradient>
+<ellipse class="svg_path3" cx="22.093" cy="7.736" rx="1.84" ry="1.824"/>
+</svg>

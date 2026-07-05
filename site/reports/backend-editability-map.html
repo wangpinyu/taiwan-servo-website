@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>後台限制對照表</title>
+<style>
+body{font-family:Arial,"Microsoft JhengHei",sans-serif;margin:0;color:#102033;background:#f6f8f7}
+a{color:#087d3d} header{background:#0b8e43;color:white;padding:22px 28px} main{padding:24px;max-width:1280px;margin:auto}
+.grid{display:grid;grid-template-columns:320px 1fr;gap:20px}.panel,.card{background:white;border:1px solid #d9e5de;border-radius:8px;padding:18px;margin-bottom:16px}
+input,select{width:100%;box-sizing:border-box;padding:10px;border:1px solid #cddbd3;border-radius:6px;margin-bottom:10px}
+table{width:100%;border-collapse:collapse;background:white} th{background:#eaf4ee;text-align:left} th,td{padding:10px;border-bottom:1px solid #dde7e1;vertical-align:top}
+.status-ok{color:#087d3d;font-weight:700}.status-warn{color:#9b6a00;font-weight:700}.status-bad{color:#b3261e;font-weight:700}
+.tree ul{list-style:none;padding-left:18px}.tree li{margin:7px 0}.small{font-size:13px;color:#5b6b75}.pill{display:inline-block;padding:2px 8px;border-radius:999px;background:#eaf4ee;margin-left:6px}
+@media(max-width:900px){.grid{grid-template-columns:1fr}main{padding:12px}table{font-size:13px}}
+</style>
+</head>
+<body><header><h1>後台限制對照表</h1></header><main><p><a href="../index.html">回主控面板</a></p><section class="card"><h2>product-detail</h2><h3>高自由度可編輯</h3><table><thead><tr><th>區塊</th><th>後台欄位</th><th>說明</th></tr></thead><tbody><tr><td>產品規格 / 主內容 CKEditor</td><td>tw_specifications</td><td>主要 HTML/CSS/table/details/spec 模組編輯面；適合產品規格詳情、應用、下載入口等。</td></tr><tr><td>產品介紹 CKEditor</td><td>tw_description</td><td>可放基本介紹；不應承載完整規格比較表，避免與主內容混用。</td></tr></tbody></table><h3>結構化可編輯但非自由排版</h3><table><thead><tr><th>區塊</th><th>後台欄位</th><th>說明</th></tr></thead><tbody><tr><td>產品名稱</td><td>tw_name</td><td>影響標題與列表名稱。</td></tr><tr><td>產品分類</td><td>cid</td><td>影響側欄分類、列表與 breadcrumb。</td></tr><tr><td>產品系列</td><td>tw_series</td><td>可作系列標籤，但不是自由 HTML。</td></tr><tr><td>代表圖</td><td>photo</td><td>600x600 結構化圖片欄位；需要命名、裁切、壓縮與上傳驗證。</td></tr><tr><td>圖片</td><td>photos</td><td>600x600 產品詳情 gallery 欄位；非 CKEditor 自由區。</td></tr><tr><td>SEO 欄位</td><td>seo[...]</td><td>meta title/keywords/description，需事實來源支持。</td></tr></tbody></table><h3>模板鎖死 / 單頁不可自由編輯</h3><table><thead><tr><th>區塊</th><th>後台欄位</th><th>說明</th></tr></thead><tbody><tr><td>側邊標籤「介紹」</td><td></td><td>前台/模板固定文字，不應規劃為可改標題。</td></tr><tr><td>全站導覽、產品分類側欄、footer、浮動按鈕</td><td></td><td>模板/全站資料驅動，單頁 CKEditor 無法自由改。</td></tr><tr><td>產品圖片區的前台位置與 gallery 結構</td><td></td><td>由 photo/photos 與模板控制，不能用主內容區直接替代。</td></tr></tbody></table></section><section class="card"><h2>product-category</h2><h3>結構化可編輯但非自由排版</h3><table><thead><tr><th>區塊</th><th>後台欄位</th><th>說明</th></tr></thead><tbody><tr><td>分類名稱/排序/SEO</td><td>ProductCategories</td><td>可由後台分類模組管理，仍不是自由排版 HTML。</td></tr></tbody></table><h3>模板鎖死 / 單頁不可自由編輯</h3><table><thead><tr><th>區塊</th><th>後台欄位</th><th>說明</th></tr></thead><tbody><tr><td>產品列表卡片與分類側欄</td><td></td><td>主要由分類與產品資料驅動；本機可預覽，但單一 CKEditor 片段不能改列表模板。</td></tr></tbody></table></section><section class="card"><h2>home</h2><h3>結構化可編輯但非自由排版</h3><table><thead><tr><th>區塊</th><th>後台欄位</th><th>說明</th></tr></thead><tbody><tr><td>首頁內容模組</td><td></td><td>需另行檢查首頁後台模組；本輪只鏡像前端呈現。</td></tr></tbody></table></section><section class="card"><h2>service</h2><h3>結構化可編輯但非自由排版</h3><table><thead><tr><th>區塊</th><th>後台欄位</th><th>說明</th></tr></thead><tbody><tr><td>服務項目內容</td><td></td><td>可能由服務項目後台模組管理；本輪納入前端鏡像，但不做後台判定或保存。</td></tr></tbody></table></section></main></body></html>

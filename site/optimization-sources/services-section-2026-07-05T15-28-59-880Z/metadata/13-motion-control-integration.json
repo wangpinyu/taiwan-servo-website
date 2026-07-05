@@ -1,0 +1,29 @@
+{
+  "id": 13,
+  "label": "motion-control-integration",
+  "source": "frontend-fallback-login-redirect",
+  "editUrl": "https://new.da-vinci.com.tw/taiwan_servo/newadmin/Applications/edit/13?module_id=10007",
+  "editStatus": 200,
+  "backendBlocked": "login_redirect",
+  "frontend_url": "https://new.da-vinci.com.tw/taiwan_servo/services/detail/13",
+  "frontendStatus": 200,
+  "tw_name": "精密運動控制系統整合",
+  "sequence": "",
+  "publish": "",
+  "seo_title": "精密運動控制系統整合｜多軸龍門閉迴路定位服務｜星泰國際",
+  "seo_keywords": "",
+  "seo_description": "星泰協助多軸、龍門雙驅、閉迴路定位與 EtherCAT、CANopen、Pulse、Analog 介面整合條件整理。",
+  "seo_scripts": "<meta name=\"robots\" content=\"noindex,nofollow\" />\n<meta name=\"robots\" content=\"index, follow, all\" />",
+  "frontend_title": "精密運動控制系統整合｜多軸龍門閉迴路定位服務｜星泰國際",
+  "frontend_h1": "精密運動控制系統整合",
+  "checks": {
+    "contentLength": 3731,
+    "h1Count": 1,
+    "hasCodexWrapper": true,
+    "hasWhy": true,
+    "faqCount": 5,
+    "hasLocalPath": false,
+    "hasTxtHref": false,
+    "hasPending": false
+  }
+}

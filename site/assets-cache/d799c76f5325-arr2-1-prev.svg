@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+<style type="text/css">
+	.icon{
+		fill:none;
+		stroke:#009a3b;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke-width:2;
+		}
+</style>
+<polyline class="icon" points="30,45.146 15,25.146 29.792,5.354 "/>
+</svg>

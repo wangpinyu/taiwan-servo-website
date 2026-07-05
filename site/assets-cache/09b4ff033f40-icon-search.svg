@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+<style type="text/css">
+	.icon{
+		fill:none;
+		stroke:#009a3b;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke-width:3;
+		}
+</style>
+<circle class="icon" cx="13.919" cy="13.795" r="11.295"/>
+<line class="icon" x1="21.779" y1="21.903" x2="27.375" y2="27.5"/>
+</svg>

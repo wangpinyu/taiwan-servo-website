@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+<style type="text/css">
+	.icon{
+		fill:none;
+		stroke:#009a3b;
+		stroke-width:3;
+		}
+</style>
+<line class="icon" x1="3" y1="2.769" x2="27" y2="26.769"/>
+<line class="icon" x1="27" y1="2.769" x2="3" y2="26.769"/>
+</svg>
