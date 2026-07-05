@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-05T22:57:26.872Z",
+  "generatedAt": "2026-07-05T23:07:34.906Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
   "summary": {
     "totalIssues": 18,
     "totalPages": 248,
-    "totalBlockingPages": 164,
+    "totalBlockingPages": 161,
     "totalSourcePages": 6
   },
   "entries": [
@@ -13,11 +13,11 @@
       "category": "電動缸",
       "branch": "phase-1-smac-spec-standard",
       "pages": 14,
-      "blockingPages": 13,
+      "blockingPages": 11,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-fix-required": 12,
-        "agent-approved-clean": 1,
+        "agent-fix-required": 10,
+        "agent-approved-clean": 3,
         "agent-structure-review": 1
       },
       "title": "[電動缸] 產品頁優化追蹤",
@@ -59,11 +59,11 @@
       "category": "各類馬達",
       "branch": "phase-2-motors-spec-review",
       "pages": 24,
-      "blockingPages": 14,
+      "blockingPages": 13,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 10,
-        "agent-fix-required": 13,
+        "agent-approved-clean": 11,
+        "agent-fix-required": 12,
         "agent-structure-review": 1
       },
       "title": "[各類馬達] 產品頁優化追蹤",
