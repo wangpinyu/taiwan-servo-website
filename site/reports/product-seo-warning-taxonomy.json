@@ -1,0 +1,3911 @@
+{
+  "summary": {
+    "generated_at": "2026-07-05T23:18:46.117Z",
+    "total_warning_entries": 386,
+    "affected_pages": 151,
+    "warning_type_counts": {
+      "table-unit-header": 219,
+      "table-model-header": 144,
+      "spec-table-missing": 23
+    },
+    "category_warning_counts": {
+      "Renishaw 回授元件產品": 98,
+      "FMS 張力系統": 86,
+      "各類馬達": 27,
+      "Harmonic Drive 減速機": 27,
+      "空氣軸承 / 滾珠•滾柱軸承": 23,
+      "固態繼電器": 20,
+      "電動缸": 17,
+      "聯軸器": 17,
+      "自動化系統": 16,
+      "定位平台": 15,
+      "ACS 控制器 / 驅動器": 12,
+      "陶瓷吸盤": 8,
+      "特殊環境": 7,
+      "山洋電氣 SANYO DENKI": 6,
+      "驅動器": 3,
+      "鼓風機": 2,
+      "SEJINIGB 滾輪齒排": 2
+    },
+    "branch_warning_counts": {
+      "phase-3-renishaw-feedback": 98,
+      "phase-4-fms-tension": 86,
+      "phase-2-motors-spec-review": 27,
+      "phase-3-harmonic-drive": 27,
+      "phase-3-bearings-air-mechanical": 23,
+      "phase-4-solid-state-relays": 20,
+      "phase-1-smac-spec-standard": 17,
+      "phase-4-couplings": 17,
+      "phase-5-automation-systems": 16,
+      "phase-2-drivers-spec-review": 15,
+      "phase-3-positioning-stage": 15,
+      "phase-5-ceramic-chucks": 8,
+      "phase-4-special-environments": 7,
+      "phase-4-sanyo-denki": 6,
+      "phase-5-blowers": 2,
+      "phase-5-sejinigb": 2
+    }
+  },
+  "entries": [
+    {
+      "product_id": "76",
+      "title": "雷射加工應用軟體：DMC",
+      "category": "ACS 控制器 / 驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/76.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "80",
+      "title": "Novanta IMS Mdrive 微步進驅動器",
+      "category": "驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/80.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "81",
+      "title": "Harmonic Servo Drivers（伺服驅動器）",
+      "category": "驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/81.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "88",
+      "title": "Harmonic AC Servo Motors（交流伺服馬達）",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/88.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "89",
+      "title": "Harmonic Direct Drive Motor （直驅電動機）",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/89.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "89",
+      "title": "Harmonic Direct Drive Motor （直驅電動機）",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/89.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "90",
+      "title": "Kollmorgen 兩相步進馬達",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/90.html",
+      "warning": "table_7_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "92",
+      "title": "Kollmorgen KBM 無刷轉子、定子",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/92.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "92",
+      "title": "Kollmorgen KBM 無刷轉子、定子",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/92.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "92",
+      "title": "Kollmorgen KBM 無刷轉子、定子",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/92.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "92",
+      "title": "Kollmorgen KBM 無刷轉子、定子",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/92.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "93",
+      "title": "Kollmorgen TBM低壓無框馬達",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/93.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "93",
+      "title": "Kollmorgen TBM低壓無框馬達",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/93.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "94",
+      "title": "Kollmorgen 線性伺服馬達",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/94.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "95",
+      "title": "Kollmorgen CDDR 直驅伺服控制系統",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/95.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "95",
+      "title": "Kollmorgen CDDR 直驅伺服控制系統",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/95.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "96",
+      "title": "Kollmorgen 防水馬達",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/96.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "96",
+      "title": "Kollmorgen 防水馬達",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/96.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "96",
+      "title": "Kollmorgen 防水馬達",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/96.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "96",
+      "title": "Kollmorgen 防水馬達",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/96.html",
+      "warning": "table_5_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "97",
+      "title": "Kollmorgen AKM低溫伺服電機",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/97.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "97",
+      "title": "Kollmorgen AKM低溫伺服電機",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/97.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "97",
+      "title": "Kollmorgen AKM低溫伺服電機",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/97.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "97",
+      "title": "Kollmorgen AKM低溫伺服電機",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/97.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "97",
+      "title": "Kollmorgen AKM低溫伺服電機",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/97.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "98",
+      "title": "Kollmorgen 防爆步進馬達",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/98.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "98",
+      "title": "Kollmorgen 防爆步進馬達",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/98.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "100",
+      "title": "Thomson 電動缸",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/100.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "101",
+      "title": "Karl Klein鼓風機",
+      "category": "鼓風機",
+      "branch": "phase-5-blowers",
+      "preview_rel": "preview/products/detail/101.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "102",
+      "title": "JVL整合型伺服馬達及步進馬達的特色",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/102.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "116",
+      "title": "Renishaw ATOM 微型光學編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/116.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "116",
+      "title": "Renishaw ATOM 微型光學編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/116.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "116",
+      "title": "Renishaw ATOM 微型光學編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/116.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "116",
+      "title": "Renishaw ATOM 微型光學編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/116.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "116",
+      "title": "Renishaw ATOM 微型光學編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/116.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "116",
+      "title": "Renishaw ATOM 微型光學編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/116.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "116",
+      "title": "Renishaw ATOM 微型光學編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/116.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "116",
+      "title": "Renishaw ATOM 微型光學編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/116.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "116",
+      "title": "Renishaw ATOM 微型光學編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/116.html",
+      "warning": "table_5_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "116",
+      "title": "Renishaw ATOM 微型光學編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/116.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "117",
+      "title": "Renishaw RESOLUTE™ 絕對式光學尺系列",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/117.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "117",
+      "title": "Renishaw RESOLUTE™ 絕對式光學尺系列",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/117.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "117",
+      "title": "Renishaw RESOLUTE™ 絕對式光學尺系列",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/117.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "117",
+      "title": "Renishaw RESOLUTE™ 絕對式光學尺系列",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/117.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "117",
+      "title": "Renishaw RESOLUTE™ 絕對式光學尺系列",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/117.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "117",
+      "title": "Renishaw RESOLUTE™ 絕對式光學尺系列",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/117.html",
+      "warning": "table_5_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "117",
+      "title": "Renishaw RESOLUTE™ 絕對式光學尺系列",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/117.html",
+      "warning": "table_6_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "117",
+      "title": "Renishaw RESOLUTE™ 絕對式光學尺系列",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/117.html",
+      "warning": "table_6_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "118",
+      "title": "RENISHAW (雷尼紹) RLS 磁性編碼器磁性尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/118.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "118",
+      "title": "RENISHAW (雷尼紹) RLS 磁性編碼器磁性尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/118.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "118",
+      "title": "RENISHAW (雷尼紹) RLS 磁性編碼器磁性尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/118.html",
+      "warning": "table_5_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "118",
+      "title": "RENISHAW (雷尼紹) RLS 磁性編碼器磁性尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/118.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "119",
+      "title": "RENISHAW (雷尼紹) QUANTiC 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/119.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "119",
+      "title": "RENISHAW (雷尼紹) QUANTiC 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/119.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "119",
+      "title": "RENISHAW (雷尼紹) QUANTiC 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/119.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "119",
+      "title": "RENISHAW (雷尼紹) QUANTiC 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/119.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "119",
+      "title": "RENISHAW (雷尼紹) QUANTiC 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/119.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "119",
+      "title": "RENISHAW (雷尼紹) QUANTiC 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/119.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "119",
+      "title": "RENISHAW (雷尼紹) QUANTiC 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/119.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "119",
+      "title": "RENISHAW (雷尼紹) QUANTiC 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/119.html",
+      "warning": "table_5_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "119",
+      "title": "RENISHAW (雷尼紹) QUANTiC 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/119.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "119",
+      "title": "RENISHAW (雷尼紹) QUANTiC 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/119.html",
+      "warning": "table_6_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "119",
+      "title": "RENISHAW (雷尼紹) QUANTiC 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/119.html",
+      "warning": "table_6_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "120",
+      "title": "TONiC™ 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/120.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "120",
+      "title": "TONiC™ 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/120.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "120",
+      "title": "TONiC™ 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/120.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "120",
+      "title": "TONiC™ 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/120.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "120",
+      "title": "TONiC™ 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/120.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "120",
+      "title": "TONiC™ 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/120.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "120",
+      "title": "TONiC™ 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/120.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "120",
+      "title": "TONiC™ 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/120.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "120",
+      "title": "TONiC™ 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/120.html",
+      "warning": "table_5_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "120",
+      "title": "TONiC™ 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/120.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "120",
+      "title": "TONiC™ 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/120.html",
+      "warning": "table_6_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "120",
+      "title": "TONiC™ 增量式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/120.html",
+      "warning": "table_6_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "121",
+      "title": "RENISHAW (雷尼紹) EVOLUTE™ 絕對式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/121.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "121",
+      "title": "RENISHAW (雷尼紹) EVOLUTE™ 絕對式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/121.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "121",
+      "title": "RENISHAW (雷尼紹) EVOLUTE™ 絕對式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/121.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "121",
+      "title": "RENISHAW (雷尼紹) EVOLUTE™ 絕對式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/121.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "121",
+      "title": "RENISHAW (雷尼紹) EVOLUTE™ 絕對式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/121.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "121",
+      "title": "RENISHAW (雷尼紹) EVOLUTE™ 絕對式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/121.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "121",
+      "title": "RENISHAW (雷尼紹) EVOLUTE™ 絕對式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/121.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "121",
+      "title": "RENISHAW (雷尼紹) EVOLUTE™ 絕對式光學尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/121.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "122",
+      "title": "RENISHAW (雷尼紹) VIONiC 增量式光學尺系統",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/122.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "122",
+      "title": "RENISHAW (雷尼紹) VIONiC 增量式光學尺系統",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/122.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "122",
+      "title": "RENISHAW (雷尼紹) VIONiC 增量式光學尺系統",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/122.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "122",
+      "title": "RENISHAW (雷尼紹) VIONiC 增量式光學尺系統",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/122.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "122",
+      "title": "RENISHAW (雷尼紹) VIONiC 增量式光學尺系統",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/122.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "122",
+      "title": "RENISHAW (雷尼紹) VIONiC 增量式光學尺系統",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/122.html",
+      "warning": "table_5_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "122",
+      "title": "RENISHAW (雷尼紹) VIONiC 增量式光學尺系統",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/122.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "123",
+      "title": "RENISHAW (雷尼紹) ATOM DX 增量式編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/123.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "123",
+      "title": "RENISHAW (雷尼紹) ATOM DX 增量式編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/123.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "123",
+      "title": "RENISHAW (雷尼紹) ATOM DX 增量式編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/123.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "123",
+      "title": "RENISHAW (雷尼紹) ATOM DX 增量式編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/123.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "123",
+      "title": "RENISHAW (雷尼紹) ATOM DX 增量式編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/123.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "123",
+      "title": "RENISHAW (雷尼紹) ATOM DX 增量式編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/123.html",
+      "warning": "table_5_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "123",
+      "title": "RENISHAW (雷尼紹) ATOM DX 增量式編碼器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/123.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "124",
+      "title": "RENISHAW (雷尼紹) 增量式光學尺( Linear Encoder)",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/124.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "124",
+      "title": "RENISHAW (雷尼紹) 增量式光學尺( Linear Encoder)",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/124.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "124",
+      "title": "RENISHAW (雷尼紹) 增量式光學尺( Linear Encoder)",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/124.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "126",
+      "title": "RENISHAW (雷尼紹) 光學尺診斷工具及介面 ADT & E201",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/126.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "126",
+      "title": "RENISHAW (雷尼紹) 光學尺診斷工具及介面 ADT & E201",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/126.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "126",
+      "title": "RENISHAW (雷尼紹) 光學尺診斷工具及介面 ADT & E201",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/126.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "126",
+      "title": "RENISHAW (雷尼紹) 光學尺診斷工具及介面 ADT & E201",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/126.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "129",
+      "title": "多孔性陶瓷真空吸盤（Porous Ceramic Chuck Table）",
+      "category": "陶瓷吸盤",
+      "branch": "phase-5-ceramic-chucks",
+      "preview_rel": "preview/products/detail/129.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "129",
+      "title": "多孔性陶瓷真空吸盤（Porous Ceramic Chuck Table）",
+      "category": "陶瓷吸盤",
+      "branch": "phase-5-ceramic-chucks",
+      "preview_rel": "preview/products/detail/129.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "129",
+      "title": "多孔性陶瓷真空吸盤（Porous Ceramic Chuck Table）",
+      "category": "陶瓷吸盤",
+      "branch": "phase-5-ceramic-chucks",
+      "preview_rel": "preview/products/detail/129.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "129",
+      "title": "多孔性陶瓷真空吸盤（Porous Ceramic Chuck Table）",
+      "category": "陶瓷吸盤",
+      "branch": "phase-5-ceramic-chucks",
+      "preview_rel": "preview/products/detail/129.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "129",
+      "title": "多孔性陶瓷真空吸盤（Porous Ceramic Chuck Table）",
+      "category": "陶瓷吸盤",
+      "branch": "phase-5-ceramic-chucks",
+      "preview_rel": "preview/products/detail/129.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "129",
+      "title": "多孔性陶瓷真空吸盤（Porous Ceramic Chuck Table）",
+      "category": "陶瓷吸盤",
+      "branch": "phase-5-ceramic-chucks",
+      "preview_rel": "preview/products/detail/129.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "129",
+      "title": "多孔性陶瓷真空吸盤（Porous Ceramic Chuck Table）",
+      "category": "陶瓷吸盤",
+      "branch": "phase-5-ceramic-chucks",
+      "preview_rel": "preview/products/detail/129.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "129",
+      "title": "多孔性陶瓷真空吸盤（Porous Ceramic Chuck Table）",
+      "category": "陶瓷吸盤",
+      "branch": "phase-5-ceramic-chucks",
+      "preview_rel": "preview/products/detail/129.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "130",
+      "title": "FMS 無線傳輸數位張力量測放大器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/130.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "130",
+      "title": "FMS 無線傳輸數位張力量測放大器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/130.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "131",
+      "title": "FMS 張力控制元件總覽",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/131.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "131",
+      "title": "FMS 張力控制元件總覽",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/131.html",
+      "warning": "table_5_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "131",
+      "title": "FMS 張力控制元件總覽",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/131.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "132",
+      "title": "FMS 張力控制系統(無線及有線通訊模式)",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/132.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "132",
+      "title": "FMS 張力控制系統(無線及有線通訊模式)",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/132.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "132",
+      "title": "FMS 張力控制系統(無線及有線通訊模式)",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/132.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "132",
+      "title": "FMS 張力控制系統(無線及有線通訊模式)",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/132.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "132",
+      "title": "FMS 張力控制系統(無線及有線通訊模式)",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/132.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "132",
+      "title": "FMS 張力控制系統(無線及有線通訊模式)",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/132.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "132",
+      "title": "FMS 張力控制系統(無線及有線通訊模式)",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/132.html",
+      "warning": "table_5_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "132",
+      "title": "FMS 張力控制系統(無線及有線通訊模式)",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/132.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "133",
+      "title": "FMS 張力感測器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/133.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "134",
+      "title": "FMS 張力放大器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/134.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "134",
+      "title": "FMS 張力放大器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/134.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "134",
+      "title": "FMS 張力放大器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/134.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "134",
+      "title": "FMS 張力放大器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/134.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "134",
+      "title": "FMS 張力放大器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/134.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "135",
+      "title": "FMS 張力控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/135.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "135",
+      "title": "FMS 張力控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/135.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "135",
+      "title": "FMS 張力控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/135.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "135",
+      "title": "FMS 張力控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/135.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "135",
+      "title": "FMS 張力控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/135.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "135",
+      "title": "FMS 張力控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/135.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "135",
+      "title": "FMS 張力控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/135.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "135",
+      "title": "FMS 張力控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/135.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "136",
+      "title": "FMS 糾邊感測器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/136.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "136",
+      "title": "FMS 糾邊感測器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/136.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "137",
+      "title": "糾邊控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/137.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "137",
+      "title": "糾邊控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/137.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "137",
+      "title": "糾邊控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/137.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "137",
+      "title": "糾邊控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/137.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "137",
+      "title": "糾邊控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/137.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "137",
+      "title": "糾邊控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/137.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "137",
+      "title": "糾邊控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/137.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "137",
+      "title": "糾邊控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/137.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "138",
+      "title": "FMS拉壓式",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/138.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "138",
+      "title": "FMS拉壓式",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/138.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "139",
+      "title": "FMS糾邊器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/139.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "139",
+      "title": "FMS糾邊器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/139.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "139",
+      "title": "FMS糾邊器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/139.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "139",
+      "title": "FMS糾邊器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/139.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "139",
+      "title": "FMS糾邊器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/139.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "139",
+      "title": "FMS糾邊器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/139.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "140",
+      "title": "FMS活動軸-C203 系列",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/140.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "140",
+      "title": "FMS活動軸-C203 系列",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/140.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "141",
+      "title": "FMS 座式張力傳感器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/141.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "141",
+      "title": "FMS 座式張力傳感器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/141.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "143",
+      "title": "FMS軸徑式",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/143.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "143",
+      "title": "FMS軸徑式",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/143.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "144",
+      "title": "FMS 輥式張力傳感器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/144.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "144",
+      "title": "FMS 輥式張力傳感器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/144.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "145",
+      "title": "FMS 真空環境之應用",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/145.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "145",
+      "title": "FMS 真空環境之應用",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/145.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "146",
+      "title": "FMS 成功案例",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/146.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "146",
+      "title": "FMS 成功案例",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/146.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "146",
+      "title": "FMS 成功案例",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/146.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "146",
+      "title": "FMS 成功案例",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/146.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "146",
+      "title": "FMS 成功案例",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/146.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "146",
+      "title": "FMS 成功案例",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/146.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "146",
+      "title": "FMS 成功案例",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/146.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "146",
+      "title": "FMS 成功案例",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/146.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "146",
+      "title": "FMS 成功案例",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/146.html",
+      "warning": "table_5_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "146",
+      "title": "FMS 成功案例",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/146.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "149",
+      "title": "Thomson 減速機",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/149.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "150",
+      "title": "HarmonicDrive® 諧波減速機",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/150.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "150",
+      "title": "HarmonicDrive® 諧波減速機",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/150.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "150",
+      "title": "HarmonicDrive® 諧波減速機",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/150.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "150",
+      "title": "HarmonicDrive® 諧波減速機",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/150.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "150",
+      "title": "HarmonicDrive® 諧波減速機",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/150.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "150",
+      "title": "HarmonicDrive® 諧波減速機",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/150.html",
+      "warning": "table_6_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "152",
+      "title": "SEJINIGB 模組化齒圈轉台",
+      "category": "SEJINIGB 滾輪齒排",
+      "branch": "phase-5-sejinigb",
+      "preview_rel": "preview/products/detail/152.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "152",
+      "title": "SEJINIGB 模組化齒圈轉台",
+      "category": "SEJINIGB 滾輪齒排",
+      "branch": "phase-5-sejinigb",
+      "preview_rel": "preview/products/detail/152.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "153",
+      "title": "RINGFEDER 免鍵式軸襯",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/153.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "153",
+      "title": "RINGFEDER 免鍵式軸襯",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/153.html",
+      "warning": "table_5_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "153",
+      "title": "RINGFEDER 免鍵式軸襯",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/153.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "154",
+      "title": "Huco 精密聯軸器",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/154.html",
+      "warning": "table_6_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "155",
+      "title": "ALIO奈米級精密定位平台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/155.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "158",
+      "title": "Theta旋轉平台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/158.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "159",
+      "title": "ALIO Hybrid Hexapod史都華平台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/159.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "160",
+      "title": "精密電動微調平台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/160.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "160",
+      "title": "精密電動微調平台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/160.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "160",
+      "title": "精密電動微調平台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/160.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "160",
+      "title": "精密電動微調平台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/160.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "160",
+      "title": "精密電動微調平台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/160.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "161",
+      "title": "Primatics 高精密及無塵等級定位平台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/161.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "164",
+      "title": "Thomson滑台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/164.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "165",
+      "title": "PM B.V. 精密線性軸承定位平台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/165.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "165",
+      "title": "PM B.V. 精密線性軸承定位平台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/165.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "165",
+      "title": "PM B.V. 精密線性軸承定位平台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/165.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "165",
+      "title": "PM B.V. 精密線性軸承定位平台",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/165.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "166",
+      "title": "ALIO Hybrid Hexapod",
+      "category": "定位平台",
+      "branch": "phase-3-positioning-stage",
+      "preview_rel": "preview/products/detail/166.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "170",
+      "title": "Thomson升降柱(Lifting Columns)",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/170.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "171",
+      "title": "Thomson不銹鋼食品級線性致動器",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/171.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "174",
+      "title": "Winkel 重載傳輸軌道、軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/174.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "174",
+      "title": "Winkel 重載傳輸軌道、軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/174.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_6_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_7_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_8_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_9_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_10_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_11_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_12_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_13_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_14_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_15_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_16_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_17_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "175",
+      "title": "各式軸承",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/175.html",
+      "warning": "table_18_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "176",
+      "title": "i-Autoc 固態繼電器 SSR 總覽",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/176.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "176",
+      "title": "i-Autoc 固態繼電器 SSR 總覽",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/176.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "176",
+      "title": "i-Autoc 固態繼電器 SSR 總覽",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/176.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "176",
+      "title": "i-Autoc 固態繼電器 SSR 總覽",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/176.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "176",
+      "title": "i-Autoc 固態繼電器 SSR 總覽",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/176.html",
+      "warning": "table_5_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "176",
+      "title": "i-Autoc 固態繼電器 SSR 總覽",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/176.html",
+      "warning": "table_6_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "177",
+      "title": "次系統設備（客製）",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/177.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "177",
+      "title": "次系統設備（客製）",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/177.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "177",
+      "title": "次系統設備（客製）",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/177.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "177",
+      "title": "次系統設備（客製）",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/177.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "177",
+      "title": "次系統設備（客製）",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/177.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "177",
+      "title": "次系統設備（客製）",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/177.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "177",
+      "title": "次系統設備（客製）",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/177.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "177",
+      "title": "次系統設備（客製）",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/177.html",
+      "warning": "table_4_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "178",
+      "title": "THOMSON Electrak® HD 線性致動器",
+      "category": "特殊環境",
+      "branch": "phase-4-special-environments",
+      "preview_rel": "preview/products/detail/178.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "179",
+      "title": "Thomson不銹鋼食品級線性致動器",
+      "category": "特殊環境",
+      "branch": "phase-4-special-environments",
+      "preview_rel": "preview/products/detail/179.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "181",
+      "title": "Winkel 重載傳輸軌道、軸承",
+      "category": "特殊環境",
+      "branch": "phase-4-special-environments",
+      "preview_rel": "preview/products/detail/181.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "181",
+      "title": "Winkel 重載傳輸軌道、軸承",
+      "category": "特殊環境",
+      "branch": "phase-4-special-environments",
+      "preview_rel": "preview/products/detail/181.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "184",
+      "title": "Karl Klein鼓風機",
+      "category": "特殊環境",
+      "branch": "phase-4-special-environments",
+      "preview_rel": "preview/products/detail/184.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "188",
+      "title": "Kollmorgen AKM低溫伺服電機",
+      "category": "特殊環境",
+      "branch": "phase-4-special-environments",
+      "preview_rel": "preview/products/detail/188.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "188",
+      "title": "Kollmorgen AKM低溫伺服電機",
+      "category": "特殊環境",
+      "branch": "phase-4-special-environments",
+      "preview_rel": "preview/products/detail/188.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "191",
+      "title": "Thomson 直線軸承和導軌",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/191.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "191",
+      "title": "Thomson 直線軸承和導軌",
+      "category": "空氣軸承 / 滾珠•滾柱軸承",
+      "branch": "phase-3-bearings-air-mechanical",
+      "preview_rel": "preview/products/detail/191.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "193",
+      "title": "山洋電氣 San Ace 冷卻系統",
+      "category": "山洋電氣 SANYO DENKI",
+      "branch": "phase-4-sanyo-denki",
+      "preview_rel": "preview/products/detail/193.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "194",
+      "title": "山洋電氣 SANUPS電源系統",
+      "category": "山洋電氣 SANYO DENKI",
+      "branch": "phase-4-sanyo-denki",
+      "preview_rel": "preview/products/detail/194.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "195",
+      "title": "山洋電氣 SANMOTION伺服系統",
+      "category": "山洋電氣 SANYO DENKI",
+      "branch": "phase-4-sanyo-denki",
+      "preview_rel": "preview/products/detail/195.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "196",
+      "title": "線性直線致動器 LBC系列",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/196.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "196",
+      "title": "線性直線致動器 LBC系列",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/196.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "199",
+      "title": "KDU",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/199.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "199",
+      "title": "KDU",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/199.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "199",
+      "title": "KDU",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/199.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "200",
+      "title": "HMA",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/200.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "200",
+      "title": "HMA",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/200.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "200",
+      "title": "HMA",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/200.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "203",
+      "title": "CSG-GH/CSF-GH 系列",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/203.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "206",
+      "title": "LA 系列 DC線性伺服致動器",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/206.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "206",
+      "title": "LA 系列 DC線性伺服致動器",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/206.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "206",
+      "title": "LA 系列 DC線性伺服致動器",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/206.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "207",
+      "title": "RINGFEDER 聯軸器 防震元件總覽",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/207.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "208",
+      "title": "RINGFEDER 波紋管聯軸器",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/208.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "209",
+      "title": "RINFEDER 鋼片式聯軸器TND系列",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/209.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "210",
+      "title": "RINFEDER齒輪聯軸器TNZ系列",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/210.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "211",
+      "title": "RINFEDER筒形聯軸器TNK系列",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/211.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "212",
+      "title": "RINFEDER法蘭聯軸器TNF系列",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/212.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "213",
+      "title": "RINFEDER撓性聯軸器TNR系列",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/213.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "214",
+      "title": "RINFEDER安全聯軸器TNT系列",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/214.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "215",
+      "title": "RINGFEDER 摩擦彈簧",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/215.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "216",
+      "title": "RINGFEDER工業緩衝器",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/216.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "218",
+      "title": "奈米精度對位定位平台",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/218.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "218",
+      "title": "奈米精度對位定位平台",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/218.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "219",
+      "title": "雙軸堆疊型X-Y STAGE",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/219.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "219",
+      "title": "雙軸堆疊型X-Y STAGE",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/219.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "226",
+      "title": "單軸線馬模組",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/226.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "226",
+      "title": "單軸線馬模組",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/226.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "234",
+      "title": "全氣浮龍門平台",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/234.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "234",
+      "title": "全氣浮龍門平台",
+      "category": "自動化系統",
+      "branch": "phase-5-automation-systems",
+      "preview_rel": "preview/products/detail/234.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "242",
+      "title": "測試-ACS EtherCAT控制主機(控制器)",
+      "category": "ACS 控制器 / 驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/242.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "243",
+      "title": "ACS EtherCAT控制主機(控制器)O",
+      "category": "ACS 控制器 / 驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/243.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "244",
+      "title": "ACS EtherCAT控制主機+內建驅動器O",
+      "category": "ACS 控制器 / 驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/244.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "245",
+      "title": "ACS經濟型控制器+內建驅動器O",
+      "category": "ACS 控制器 / 驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/245.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "246",
+      "title": "ACS Ethercat 驅動器(只能搭配ACS主機)O",
+      "category": "ACS 控制器 / 驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/246.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "247",
+      "title": "ACS EtherCAT驅動器(可搭配其它品牌主機)O",
+      "category": "ACS 控制器 / 驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/247.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "248",
+      "title": "ACS接收+-10V命令nanoPWM驅動器O",
+      "category": "ACS 控制器 / 驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/248.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "249",
+      "title": "ACS EtherCAT介面模組O",
+      "category": "ACS 控制器 / 驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/249.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "251",
+      "title": "ACS EtherCAT雷射控制模組O",
+      "category": "ACS 控制器 / 驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/251.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "252",
+      "title": "ACS配件O",
+      "category": "ACS 控制器 / 驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/252.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "270",
+      "title": "山洋電氣 SANYO DENKI 馬達相關",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/270.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "275",
+      "title": "RKF",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/275.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "288",
+      "title": "SHF-SHG模組型O",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/288.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "291",
+      "title": "SHD模組型O",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/291.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "292",
+      "title": "FR",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/292.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "293",
+      "title": "FB",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/293.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "295",
+      "title": "FHA-C",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/295.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "296",
+      "title": "RSF Supermini",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/296.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "297",
+      "title": "RSF-B mini",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/297.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "298",
+      "title": "RSF",
+      "category": "Harmonic Drive 減速機",
+      "branch": "phase-3-harmonic-drive",
+      "preview_rel": "preview/products/detail/298.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "299",
+      "title": "線性標準增量式磁性尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/299.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "300",
+      "title": "旋轉標準增量式磁性尺",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/300.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "315",
+      "title": "軸向環",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/315.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "316",
+      "title": "徑向環",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/316.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "319",
+      "title": "RLD檢測頭(干涉儀)",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/319.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "322",
+      "title": "RCU10 即時方波補償器",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/322.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "323",
+      "title": "鏡面與光學鏡組",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/323.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "323",
+      "title": "鏡面與光學鏡組",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/323.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "324",
+      "title": "HS20雷射頭",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/324.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "325",
+      "title": "光學計量配件",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/325.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "325",
+      "title": "光學計量配件",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/325.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "325",
+      "title": "光學計量配件",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/325.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "325",
+      "title": "光學計量配件",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/325.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "325",
+      "title": "光學計量配件",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/325.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "325",
+      "title": "光學計量配件",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/325.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "326",
+      "title": "長距雷射編碼器安裝硬體",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/326.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "326",
+      "title": "長距雷射編碼器安裝硬體",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/326.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "326",
+      "title": "長距雷射編碼器安裝硬體",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/326.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "326",
+      "title": "長距雷射編碼器安裝硬體",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/326.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "326",
+      "title": "長距雷射編碼器安裝硬體",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/326.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "326",
+      "title": "長距雷射編碼器安裝硬體",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/326.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "332",
+      "title": "RINGFEDER 彈性體顎式聯軸器 GWE TNM TNS TNB",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/332.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "335",
+      "title": "Ringfeder RLP & RLB 彈性插銷聯軸器",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/335.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "336",
+      "title": "Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)",
+      "category": "聯軸器",
+      "branch": "phase-4-couplings",
+      "preview_rel": "preview/products/detail/336.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "338",
+      "title": "力傳感器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/338.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "339",
+      "title": "張力量測放大器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/339.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "340",
+      "title": "網狀張力控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/340.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "341",
+      "title": "分段式張力輪",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/341.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "341",
+      "title": "分段式張力輪",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/341.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "342",
+      "title": "ATEX 防爆環境",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/342.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "342",
+      "title": "ATEX 防爆環境",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/342.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "343",
+      "title": "客製化產品和解決方案",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/343.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "343",
+      "title": "客製化產品和解決方案",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/343.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "347",
+      "title": "捲材控制器",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/347.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "349",
+      "title": "線纜煞車控制器 RTM X42.BC",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/349.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "349",
+      "title": "線纜煞車控制器 RTM X42.BC",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/349.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "349",
+      "title": "線纜煞車控制器 RTM X42.BC",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/349.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "349",
+      "title": "線纜煞車控制器 RTM X42.BC",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/349.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "349",
+      "title": "線纜煞車控制器 RTM X42.BC",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/349.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "350",
+      "title": "線纜張力控制中心 RTM X42.CC",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/350.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "350",
+      "title": "線纜張力控制中心 RTM X42.CC",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/350.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "350",
+      "title": "線纜張力控制中心 RTM X42.CC",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/350.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "350",
+      "title": "線纜張力控制中心 RTM X42.CC",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/350.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "350",
+      "title": "線纜張力控制中心 RTM X42.CC",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/350.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "350",
+      "title": "線纜張力控制中心 RTM X42.CC",
+      "category": "FMS 張力系統",
+      "branch": "phase-4-fms-tension",
+      "preview_rel": "preview/products/detail/350.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "352",
+      "title": "軟體開發與模擬套件",
+      "category": "ACS 控制器 / 驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/352.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "357",
+      "title": "Integrated Drive",
+      "category": "驅動器",
+      "branch": "phase-2-drivers-spec-review",
+      "preview_rel": "preview/products/detail/357.html",
+      "warning": "spec_table_missing",
+      "warning_type": "spec-table-missing",
+      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
+    },
+    {
+      "product_id": "363",
+      "title": "光學尺帶規格總表",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/363.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "363",
+      "title": "光學尺帶規格總表",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/363.html",
+      "warning": "table_2_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "363",
+      "title": "光學尺帶規格總表",
+      "category": "Renishaw 回授元件產品",
+      "branch": "phase-3-renishaw-feedback",
+      "preview_rel": "preview/products/detail/363.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "367",
+      "title": "正反轉模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/367.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "367",
+      "title": "正反轉模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/367.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "367",
+      "title": "正反轉模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/367.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "367",
+      "title": "正反轉模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/367.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "368",
+      "title": "調壓模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/368.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "368",
+      "title": "調壓模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/368.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "368",
+      "title": "調壓模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/368.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "368",
+      "title": "調壓模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/368.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "369",
+      "title": "智能模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/369.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "369",
+      "title": "智能模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/369.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "369",
+      "title": "智能模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/369.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "369",
+      "title": "智能模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/369.html",
+      "warning": "table_3_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "369",
+      "title": "智能模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/369.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "370",
+      "title": "DRA系列工業模組",
+      "category": "固態繼電器",
+      "branch": "phase-4-solid-state-relays",
+      "preview_rel": "preview/products/detail/370.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "373",
+      "title": "SMAC圓形音圈致動器",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/373.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "374",
+      "title": "SMAC線性加旋轉致動器",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/374.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "375",
+      "title": "SMAC線性滑塊致動器",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/375.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "376",
+      "title": "Thomson智慧型重載電動推桿",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/376.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "376",
+      "title": "Thomson智慧型重載電動推桿",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/376.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "377",
+      "title": "Thomson通用工業電動推桿",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/377.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "377",
+      "title": "Thomson通用工業電動推桿",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/377.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "377",
+      "title": "Thomson通用工業電動推桿",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/377.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "377",
+      "title": "Thomson通用工業電動推桿",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/377.html",
+      "warning": "table_4_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "377",
+      "title": "Thomson通用工業電動推桿",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/377.html",
+      "warning": "table_5_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "378",
+      "title": "Thomson精密與特殊應用電動推桿",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/378.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "378",
+      "title": "Thomson精密與特殊應用電動推桿",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/378.html",
+      "warning": "table_2_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "378",
+      "title": "Thomson精密與特殊應用電動推桿",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/378.html",
+      "warning": "table_3_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "379",
+      "title": "Thomson軌道式電動推桿",
+      "category": "電動缸",
+      "branch": "phase-1-smac-spec-standard",
+      "preview_rel": "preview/products/detail/379.html",
+      "warning": "table_1_model_header_not_detected",
+      "warning_type": "table-model-header",
+      "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
+    },
+    {
+      "product_id": "388",
+      "title": "Novanta IMS MDrive 線性執行器",
+      "category": "各類馬達",
+      "branch": "phase-2-motors-spec-review",
+      "preview_rel": "preview/products/detail/388.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "390",
+      "title": "移動式防爆徑向鼓風機",
+      "category": "鼓風機",
+      "branch": "phase-5-blowers",
+      "preview_rel": "preview/products/detail/390.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "403",
+      "title": "DC冷卻風扇",
+      "category": "山洋電氣 SANYO DENKI",
+      "branch": "phase-4-sanyo-denki",
+      "preview_rel": "preview/products/detail/403.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "404",
+      "title": "ACDC風扇",
+      "category": "山洋電氣 SANYO DENKI",
+      "branch": "phase-4-sanyo-denki",
+      "preview_rel": "preview/products/detail/404.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    },
+    {
+      "product_id": "405",
+      "title": "AC冷卻風扇",
+      "category": "山洋電氣 SANYO DENKI",
+      "branch": "phase-4-sanyo-denki",
+      "preview_rel": "preview/products/detail/405.html",
+      "warning": "table_1_unit_header_not_detected",
+      "warning_type": "table-unit-header",
+      "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
+    }
+  ]
+}
