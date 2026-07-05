@@ -1,6 +1,6 @@
-# 其他回授元件 optimization tracking
+# 其他回授元件 產品頁優化追蹤
 
-Branch: `phase-4-other-feedback`
+Branch: `phase-5-other-feedback`
 Priority: 18
 Pages: 8
 Blocking pages: 0
@@ -24,9 +24,9 @@ Blocking pages: 0
 
 ## Acceptance criteria
 
-- npm run validate passes.
-- Target pages are agent-approved-clean, or source-needed is justified.
-- Product spec details sit under Product Series.
+- `npm run validate` passes.
+- Target pages are `agent-approved-clean`, or `source-needed` is justified.
+- `產品規格詳情` sits under `產品系列`.
 - Tables, accordions, CTAs, downloads, and SEO checks match project rules.
-- No public-facing internal notes, local paths, placeholder links, or .txt hrefs.
+- No public-facing internal notes, local paths, placeholder links, or `.txt` hrefs.
 

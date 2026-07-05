@@ -36,8 +36,8 @@ const phases = new Map([
   ['驅動器', 'phase-2-drivers-spec-review'],
   ['各類馬達', 'phase-2-motors-spec-review'],
   ['ACS 控制器 / 驅動器', 'phase-2-drivers-spec-review'],
-  ['Renishaw 回授元件產品', 'phase-3-renishaw-feedback'],
   ['Harmonic Drive 減速機', 'phase-3-harmonic-drive'],
+  ['Renishaw 回授元件產品', 'phase-3-renishaw-feedback'],
   ['定位平台', 'phase-3-positioning-stage'],
   ['空氣軸承 / 滾珠•滾柱軸承', 'phase-3-bearings-air-mechanical'],
   ['聯軸器', 'phase-4-couplings'],
@@ -45,11 +45,11 @@ const phases = new Map([
   ['固態繼電器', 'phase-4-solid-state-relays'],
   ['山洋電氣 SANYO DENKI', 'phase-4-sanyo-denki'],
   ['特殊環境', 'phase-4-special-environments'],
-  ['其他回授元件', 'phase-4-other-feedback'],
   ['陶瓷吸盤', 'phase-5-ceramic-chucks'],
-  ['SEJINIGB 滾輪齒排', 'phase-5-sejinigb-roller-pinion'],
+  ['SEJINIGB 滾輪齒排', 'phase-5-sejinigb'],
   ['鼓風機', 'phase-5-blowers'],
   ['自動化系統', 'phase-5-automation-systems'],
+  ['其他回授元件', 'phase-5-other-feedback'],
 ]);
 
 function categoryOf(page) {
@@ -145,9 +145,10 @@ for (const entry of await readdir(issueDir, { withFileTypes: true })) {
     await rm(path.join(issueDir, entry.name));
   }
 }
+
 for (const group of categories) {
   const lines = [
-    `# ${group.category} optimization tracking`,
+    `# ${group.category} 產品頁優化追蹤`,
     '',
     `Branch: \`${group.branch}\``,
     `Priority: ${group.priority}`,
@@ -166,11 +167,11 @@ for (const group of categories) {
     '',
     '## Acceptance criteria',
     '',
-    '- npm run validate passes.',
-    '- Target pages are agent-approved-clean, or source-needed is justified.',
-    '- Product spec details sit under Product Series.',
+    '- `npm run validate` passes.',
+    '- Target pages are `agent-approved-clean`, or `source-needed` is justified.',
+    '- `產品規格詳情` sits under `產品系列`.',
     '- Tables, accordions, CTAs, downloads, and SEO checks match project rules.',
-    '- No public-facing internal notes, local paths, placeholder links, or .txt hrefs.',
+    '- No public-facing internal notes, local paths, placeholder links, or `.txt` hrefs.',
     '',
   ];
   await writeFile(path.join(issueDir, issueFileName(group)), `${lines.join('\n')}\n`, 'utf8');
