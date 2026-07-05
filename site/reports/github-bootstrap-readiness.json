@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T22:29:32.289Z",
+  "generatedAt": "2026-07-05T22:34:00.408Z",
   "status": "ready-needs-token",
   "repository": "wangpinyu/taiwan-servo-website",
   "tokenPresent": false,
@@ -11,51 +11,51 @@
     },
     {
       "branch": "phase-1-smac-spec-standard",
-      "remoteSha": "406f361"
+      "remoteSha": "13d003c"
     },
     {
       "branch": "phase-2-drivers-spec-review",
-      "remoteSha": "e384aaf"
+      "remoteSha": "3c44df7"
     },
     {
       "branch": "phase-2-motors-spec-review",
-      "remoteSha": "c94b7e2"
+      "remoteSha": "724f736"
     },
     {
       "branch": "phase-3-harmonic-drive",
-      "remoteSha": "2c85e31"
+      "remoteSha": "46ca204"
     },
     {
       "branch": "phase-3-renishaw-feedback",
-      "remoteSha": "620a51f"
+      "remoteSha": "755267f"
     },
     {
       "branch": "phase-3-positioning-stage",
-      "remoteSha": "9f9709a"
+      "remoteSha": "b0d9ea8"
     },
     {
       "branch": "phase-3-bearings-air-mechanical",
-      "remoteSha": "4d64af1"
+      "remoteSha": "eb559cb"
     },
     {
       "branch": "phase-4-couplings",
-      "remoteSha": "db1d037"
+      "remoteSha": "f194795"
     },
     {
       "branch": "phase-4-fms-tension",
-      "remoteSha": "e198367"
+      "remoteSha": "c6e58fe"
     },
     {
       "branch": "phase-4-solid-state-relays",
-      "remoteSha": "9024680"
+      "remoteSha": "64c6094"
     },
     {
       "branch": "phase-4-sanyo-denki",
-      "remoteSha": "fd0c416"
+      "remoteSha": "cb1c110"
     },
     {
       "branch": "phase-4-special-environments",
-      "remoteSha": "0b14bba"
+      "remoteSha": "42da8b5"
     },
     {
       "branch": "phase-5-ceramic-chucks",
