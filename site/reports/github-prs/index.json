@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T20:26:45.318Z",
+  "generatedAt": "2026-07-05T20:30:03.775Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
   "existingPullRequestRefs": 0,
   "note": "Create PRs from lower priority to higher priority only after phase-1 is accepted, or use the listed base branch for stacked review.",
@@ -67,7 +67,7 @@
     {
       "priority": 5,
       "branch": "phase-3-renishaw-feedback",
-      "category": "Renishaw 回授元件產品",
+      "category": "Renishaw 回授元件",
       "base": "phase-1-smac-spec-standard",
       "remoteExists": true,
       "prSummaryExists": true,
@@ -97,7 +97,7 @@
     {
       "priority": 7,
       "branch": "phase-3-bearings-air-mechanical",
-      "category": "空氣軸承 / 滾珠・滾柱軸承",
+      "category": "空氣軸承 / 滾珠滾柱軸承",
       "base": "phase-1-smac-spec-standard",
       "remoteExists": true,
       "prSummaryExists": true,
@@ -202,7 +202,7 @@
     {
       "priority": 14,
       "branch": "phase-5-sejinigb",
-      "category": "SEJINIGB 滾輪齒排",
+      "category": "SEJINIGB 齒排與轉台",
       "base": "phase-1-smac-spec-standard",
       "remoteExists": true,
       "prSummaryExists": true,
