@@ -75,6 +75,14 @@ npm run workflow:backlog
 npm run workflow:pr-index
 ```
 
+產生 GitHub bootstrap readiness：
+
+```powershell
+npm run workflow:github-readiness
+```
+
+閱讀 `site/reports/github-bootstrap-readiness.html` 判斷目前是 `ready`、`ready-needs-token` 或 `blocked`。
+
 ## GitHub 自動化
 
 先執行 dry-run，不需要 token：
