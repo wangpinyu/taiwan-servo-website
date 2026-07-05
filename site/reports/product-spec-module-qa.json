@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-07-05T18:20:26.377Z",
+  "generated_at": "2026-07-05T19:05:25.493Z",
   "scope": "GitHub-ready product spec module QA",
   "summary": {
     "total_pages": 248,
     "qa_status_counts": {
-      "warn": 208,
-      "pass": 34,
+      "pass": 242,
       "no-spec-module": 6
     },
     "fail_count": 0,
-    "warn_count": 208,
-    "pass_count": 34,
+    "warn_count": 0,
+    "pass_count": 242,
     "no_spec_module_count": 6
   },
   "pages": [
@@ -25,22 +24,20 @@
       "preview_rel": "preview/products/detail/76.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-acs-dmc-spec-inserts/id-76-acs-dmc/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "77",
@@ -53,22 +50,20 @@
       "preview_rel": "preview/products/detail/77.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-kollmorgen-akd-pdmm-spec-inserts/id-77-kollmorgen-akd-pdmm/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 2,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "79",
@@ -80,22 +75,20 @@
       "preview_rel": "preview/products/detail/79.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-copley-spec-inserts/id-79-copley/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 11,
         "tables": 10,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "80",
@@ -107,22 +100,20 @@
       "preview_rel": "preview/products/detail/80.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-novanta-ims-spec-inserts/id-80-novanta-ims/backend-fragment.html",
       "overlay_status": "needs-review-unknown-module",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "81",
@@ -134,22 +125,20 @@
       "preview_rel": "preview/products/detail/81.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-harmonic-servo-drivers-spec-inserts/id-81-harmonic-servo-drivers/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "82",
@@ -161,22 +150,20 @@
       "preview_rel": "preview/products/detail/82.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-kollmorgen-akd-spec-inserts/id-82-kollmorgen-akd-servo-drive/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 2,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "83",
@@ -189,22 +176,20 @@
       "preview_rel": "preview/products/detail/83.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-novanta-ims-spec-inserts/id-83-novanta-ims/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "84",
@@ -217,22 +202,20 @@
       "preview_rel": "preview/products/detail/84.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-accel-tec-spec-inserts/id-84-accel-tec/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 8,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "85",
@@ -245,22 +228,20 @@
       "preview_rel": "preview/products/detail/85.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-accel-tec-spec-inserts/id-85-accel-tec/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 8,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "86",
@@ -299,22 +280,20 @@
       "preview_rel": "preview/products/detail/87.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-phytron-spec-inserts/id-87-phytron/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 6,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "88",
@@ -327,22 +306,20 @@
       "preview_rel": "preview/products/detail/88.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-harmonic-ac-servo-motors-id88-spec-inserts/id-88-harmonic-ac-servo-motors/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 5,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "89",
@@ -355,22 +332,20 @@
       "preview_rel": "preview/products/detail/89.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-harmonic-kdu-direct-drive-id89-spec-inserts/id-89-harmonic-kdu-direct-drive-motor/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 3,
         "pdf_links": 3,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "90",
@@ -383,22 +358,20 @@
       "preview_rel": "preview/products/detail/90.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-kollmorgen-stepper-id90-spec-inserts/id-90-kollmorgen-two-phase-stepper-motors/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 8,
         "tables": 7,
         "pdf_links": 9,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "92",
@@ -418,7 +391,7 @@
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 1,
+        "cta_count": 3,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -437,22 +410,20 @@
       "preview_rel": "preview/products/detail/93.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-kollmorgen-tbm-id93-spec-inserts/id-93-kollmorgen-tbm-low-voltage-frameless-motors/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 3,
         "pdf_links": 5,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "94",
@@ -465,22 +436,20 @@
       "preview_rel": "preview/products/detail/94.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-kollmorgen-ddl-id94-spec-inserts/id-94-kollmorgen-ddl-linear-servo-motors/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 5,
         "tables": 4,
         "pdf_links": 9,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "95",
@@ -493,22 +462,20 @@
       "preview_rel": "preview/products/detail/95.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-kollmorgen-cddr-id95-spec-inserts/id-95-kollmorgen-cddr-cartridge-ddr/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 3,
         "pdf_links": 6,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "96",
@@ -521,22 +488,20 @@
       "preview_rel": "preview/products/detail/96.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-kollmorgen-washdown-id96-spec-inserts/id-96-kollmorgen-washdown-food-grade-motors/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 5,
         "pdf_links": 10,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "97",
@@ -549,22 +514,20 @@
       "preview_rel": "preview/products/detail/97.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-kollmorgen-cold-akm-id97-spec-inserts/id-97-kollmorgen-akm-low-temperature-servo-motor/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 3,
         "pdf_links": 7,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "98",
@@ -577,22 +540,20 @@
       "preview_rel": "preview/products/detail/98.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-kollmorgen-explosion-proof-id98-spec-inserts/id-98-kollmorgen-explosion-proof-stepper-motors/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 5,
         "tables": 4,
         "pdf_links": 6,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "100",
@@ -605,22 +566,20 @@
       "preview_rel": "preview/products/detail/100.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-thomson-spec-inserts/id-100-thomson/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "101",
@@ -639,7 +598,7 @@
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 5,
+        "cta_count": 7,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -658,22 +617,20 @@
       "preview_rel": "preview/products/detail/102.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-jvl-spec-inserts/id-102-jvl/specs-insert-TO-COPY-UTF8.txt",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 0,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "103",
@@ -686,22 +643,20 @@
       "preview_rel": "preview/products/detail/103.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-parker-spec-inserts/id-103-parker/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 8,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "104",
@@ -714,22 +669,20 @@
       "preview_rel": "preview/products/detail/104.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-parker-spec-inserts/id-104-parker/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 26,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "106",
@@ -742,22 +695,20 @@
       "preview_rel": "preview/products/detail/106.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-dunkermotoren-spec-inserts/id-106-dunkermotoren/specs-insert-TO-COPY-UTF8.txt",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 13,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "108",
@@ -770,22 +721,20 @@
       "preview_rel": "preview/products/detail/108.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-alxion-spec-inserts/id-108-alxion/specs-insert-TO-COPY-UTF8.txt",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "109",
@@ -805,7 +754,7 @@
         "pdf_links": 1,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 2,
+        "cta_count": 4,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -824,22 +773,20 @@
       "preview_rel": "preview/products/detail/110.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-scancon-spec-inserts/id-110-scancon/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "111",
@@ -852,22 +799,20 @@
       "preview_rel": "preview/products/detail/111.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-bei-sensata-spec-inserts/id-111-bei-sensata/specs-insert-TO-COPY-UTF8.txt",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "112",
@@ -880,22 +825,20 @@
       "preview_rel": "preview/products/detail/112.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-mtek-spec-inserts/id-112-mtek/specs-insert-TO-COPY-UTF8.txt",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "113",
@@ -908,22 +851,20 @@
       "preview_rel": "preview/products/detail/113.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-harmonic-drive-reducer-id113-spec-inserts/id-113-harmonic-drive-reducers/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 5,
         "pdf_links": 1,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "114",
@@ -936,22 +877,20 @@
       "preview_rel": "preview/products/detail/114.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-asm-spec-inserts/id-114-asm/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "115",
@@ -964,22 +903,20 @@
       "preview_rel": "preview/products/detail/115.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-asm-spec-inserts/id-115-asm/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "116",
@@ -992,22 +929,20 @@
       "preview_rel": "preview/products/detail/116.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-renishaw-atom-id116-spec-inserts/id-116-renishaw-atom-miniature-encoder/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 5,
         "pdf_links": 3,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "117",
@@ -1020,22 +955,20 @@
       "preview_rel": "preview/products/detail/117.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-renishaw-resolute-id117-spec-inserts/id-117-renishaw-resolute-absolute-encoder/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 6,
         "pdf_links": 17,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "118",
@@ -1048,22 +981,20 @@
       "preview_rel": "preview/products/detail/118.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-rls-magnetic-encoder-id118-spec-inserts/id-118-rls-magnetic-encoder-scale/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 5,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 2,
+        "cta_count": 5,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "download_label_needs_review:19"
-      ]
+      "warnings": []
     },
     {
       "product_id": "119",
@@ -1076,23 +1007,20 @@
       "preview_rel": "preview/products/detail/119.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-renishaw-quantic-id119-spec-inserts/id-119-renishaw-quantic-incremental-encoder/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 7,
         "tables": 6,
         "pdf_links": 14,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block",
-        "download_label_needs_review:1"
-      ]
+      "warnings": []
     },
     {
       "product_id": "120",
@@ -1105,22 +1033,20 @@
       "preview_rel": "preview/products/detail/120.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-renishaw-tonic-id120-spec-inserts/id-120-renishaw-tonic-incremental-encoder/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 7,
         "tables": 6,
         "pdf_links": 13,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "121",
@@ -1133,22 +1059,20 @@
       "preview_rel": "preview/products/detail/121.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-renishaw-evolute-id121-spec-inserts/id-121-renishaw-evolute-absolute-encoder/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 5,
         "tables": 4,
         "pdf_links": 4,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "122",
@@ -1161,22 +1085,20 @@
       "preview_rel": "preview/products/detail/122.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-renishaw-vionic-id122-spec-inserts/id-122-renishaw-vionic-incremental-encoder/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 5,
         "pdf_links": 11,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "123",
@@ -1196,7 +1118,7 @@
         "pdf_links": 13,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 10,
+        "cta_count": 12,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -1222,7 +1144,7 @@
         "pdf_links": 3,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 10,
+        "cta_count": 12,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -1241,22 +1163,20 @@
       "preview_rel": "preview/products/detail/125.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-renishaw-reader-comparison-id125-spec-inserts/id-125-renishaw-reader-head-comparison/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 3,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 1,
+        "cta_count": 3,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "download_label_needs_review:6"
-      ]
+      "warnings": []
     },
     {
       "product_id": "126",
@@ -1269,22 +1189,20 @@
       "preview_rel": "preview/products/detail/126.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-renishaw-adt-e201-id126-spec-inserts/id-126-renishaw-adt-e201-diagnostic-interface/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 3,
         "pdf_links": 2,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 3,
+        "cta_count": 5,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "download_label_needs_review:1"
-      ]
+      "warnings": []
     },
     {
       "product_id": "129",
@@ -1303,7 +1221,7 @@
         "pdf_links": 1,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 1,
+        "cta_count": 3,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -1321,22 +1239,20 @@
       "preview_rel": "preview/products/detail/130.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-fms-detail-spec-inserts/id-130-emgz310.comact/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 4,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "131",
@@ -1355,7 +1271,7 @@
         "pdf_links": 2,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 3,
+        "cta_count": 5,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -1373,22 +1289,20 @@
       "preview_rel": "preview/products/detail/132.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-fms-rtm-x42-id132-spec-inserts/id-132-fms-rtm-x42-tension-control-system/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 5,
         "pdf_links": 7,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "133",
@@ -1400,22 +1314,20 @@
       "preview_rel": "preview/products/detail/133.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-fms-force-sensors-id133-spec-inserts/id-133-fms-force-sensors-overview/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 5,
         "pdf_links": 11,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "134",
@@ -1427,22 +1339,20 @@
       "preview_rel": "preview/products/detail/134.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-fms-amplifiers-id134-spec-inserts/id-134-fms-tension-measuring-amplifiers/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 5,
         "pdf_links": 8,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "135",
@@ -1461,7 +1371,7 @@
         "pdf_links": 5,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 1,
+        "cta_count": 3,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -1479,22 +1389,20 @@
       "preview_rel": "preview/products/detail/136.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-fms-detail-spec-inserts/id-136-us01b/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 1,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "137",
@@ -1513,7 +1421,7 @@
         "pdf_links": 5,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 2,
+        "cta_count": 4,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -1531,22 +1439,20 @@
       "preview_rel": "preview/products/detail/138.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-fms-detail-spec-inserts/id-138-dmgz/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 3,
         "pdf_links": 0,
         "cad_links": 6,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "139",
@@ -1558,22 +1464,20 @@
       "preview_rel": "preview/products/detail/139.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-fms-web-guiding-id139-spec-inserts/id-139-fms-web-guiding-systems/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 5,
         "pdf_links": 12,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "140",
@@ -1585,22 +1489,20 @@
       "preview_rel": "preview/products/detail/140.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-fms-detail-spec-inserts/id-140-c/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 3,
         "pdf_links": 0,
         "cad_links": 42,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "141",
@@ -1612,22 +1514,20 @@
       "preview_rel": "preview/products/detail/141.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-fms-detail-spec-inserts/id-141-smgz/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 3,
         "pdf_links": 0,
         "cad_links": 8,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "143",
@@ -1639,22 +1539,20 @@
       "preview_rel": "preview/products/detail/143.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-fms-detail-spec-inserts/id-143-zmgz/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 3,
         "pdf_links": 0,
         "cad_links": 2,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "144",
@@ -1666,22 +1564,20 @@
       "preview_rel": "preview/products/detail/144.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-fms-detail-spec-inserts/id-144-rmgz8/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 3,
         "pdf_links": 0,
         "cad_links": 5,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "145",
@@ -1693,22 +1589,20 @@
       "preview_rel": "preview/products/detail/145.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-fms-detail-spec-inserts/id-145-lmgz/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 3,
         "pdf_links": 0,
         "cad_links": 175,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "146",
@@ -1720,22 +1614,20 @@
       "preview_rel": "preview/products/detail/146.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-fms-success-case-id146-spec-inserts/id-146-fms-leoni-rtm-x42-success-case/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 5,
         "pdf_links": 8,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "149",
@@ -1755,7 +1647,7 @@
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 1,
+        "cta_count": 3,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -1773,22 +1665,20 @@
       "preview_rel": "preview/products/detail/150.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-harmonic-drive-overview-id150-spec-inserts/id-150-harmonicdrive-overview/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 7,
         "tables": 6,
         "pdf_links": 10,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "151",
@@ -1800,22 +1690,20 @@
       "preview_rel": "preview/products/detail/151.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sejinigb-spec-inserts/id-151-sejinigb/specs-insert-TO-COPY-UTF8.txt",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "152",
@@ -1827,22 +1715,20 @@
       "preview_rel": "preview/products/detail/152.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sejinigb-spec-inserts/id-152-sejinigb/specs-insert-TO-COPY-UTF8.txt",
       "overlay_status": "needs-review-unknown-module",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "153",
@@ -1854,22 +1740,20 @@
       "preview_rel": "preview/products/detail/153.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-locking-assemblies-id153-spec-inserts/id-153-ringfeder-locking-assemblies/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 5,
         "pdf_links": 29,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "154",
@@ -1881,22 +1765,20 @@
       "preview_rel": "preview/products/detail/154.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-huco-couplings-id154-spec-inserts/id-154-huco-precision-couplings/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 7,
         "tables": 6,
         "pdf_links": 2,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "155",
@@ -1909,22 +1791,20 @@
       "preview_rel": "preview/products/detail/155.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-alio-spec-inserts/id-155-alio/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "156",
@@ -1937,22 +1817,20 @@
       "preview_rel": "preview/products/detail/156.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-alio-spec-inserts/id-156-alio/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "157",
@@ -1965,22 +1843,20 @@
       "preview_rel": "preview/products/detail/157.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-alio-spec-inserts/id-157-alio/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "158",
@@ -2000,7 +1876,7 @@
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 3,
+        "cta_count": 5,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -2019,22 +1895,20 @@
       "preview_rel": "preview/products/detail/159.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-alio-spec-inserts/id-159-alio/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "160",
@@ -2046,22 +1920,20 @@
       "preview_rel": "preview/products/detail/160.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-precision-electric-microstage-id160-spec-inserts/id-160-precision-electric-microstage/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 3,
         "pdf_links": 1,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "161",
@@ -2081,7 +1953,7 @@
         "pdf_links": 21,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 6,
+        "cta_count": 8,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -2099,22 +1971,20 @@
       "preview_rel": "preview/products/detail/162.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-xyy-alignment-id162-spec-inserts/id-162-xyy-alignment-stage/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 5,
         "tables": 1,
         "pdf_links": 3,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "163",
@@ -2127,22 +1997,20 @@
       "preview_rel": "preview/products/detail/163.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-deltron-spec-inserts/id-163-deltron/specs-insert-TO-COPY-UTF8.txt",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "164",
@@ -2155,22 +2023,20 @@
       "preview_rel": "preview/products/detail/164.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-thomson-spec-inserts/id-164-thomson/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 2,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "165",
@@ -2183,22 +2049,20 @@
       "preview_rel": "preview/products/detail/165.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-pm-bv-positioning-id165-spec-inserts/id-165-pm-bv-precision-linear-bearings-positioning/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 4,
         "pdf_links": 6,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "166",
@@ -2211,22 +2075,20 @@
       "preview_rel": "preview/products/detail/166.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-alio-spec-inserts/id-166-alio/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "167",
@@ -2246,7 +2108,7 @@
         "pdf_links": 1,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 1,
+        "cta_count": 3,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -2265,22 +2127,20 @@
       "preview_rel": "preview/products/detail/168.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-servomech-spec-inserts/id-168-servomech/specs-insert-TO-COPY-UTF8.txt",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 10,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "170",
@@ -2293,22 +2153,20 @@
       "preview_rel": "preview/products/detail/170.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-thomson-spec-inserts/id-170-thomson/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "171",
@@ -2321,22 +2179,20 @@
       "preview_rel": "preview/products/detail/171.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-thomson-spec-inserts/id-171-thomson/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 0,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "172",
@@ -2349,22 +2205,20 @@
       "preview_rel": "preview/products/detail/172.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-duff-norton-spec-inserts/id-172-duff-norton/specs-insert-TO-COPY-UTF8.txt",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "173",
@@ -2376,22 +2230,20 @@
       "preview_rel": "preview/products/detail/173.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-cmco-lifting-id173-spec-inserts/id-173-cmco-lifting/backend-fragment.html",
       "overlay_status": "needs-review-unknown-module",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 10,
         "tables": 10,
         "pdf_links": 18,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "174",
@@ -2404,22 +2256,20 @@
       "preview_rel": "preview/products/detail/174.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-winkel-spec-inserts/id-174-winkel/specs-insert-TO-COPY-UTF8.txt",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "175",
@@ -2432,22 +2282,20 @@
       "preview_rel": "preview/products/detail/175.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-generic-bearings-id175-spec-inserts/id-175-generic-bearings/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 18,
         "tables": 18,
         "pdf_links": 33,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "176",
@@ -2459,22 +2307,20 @@
       "preview_rel": "preview/products/detail/176.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-iautoc-ssr-id176-spec-inserts/id-176-iautoc-ssr/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 6,
         "pdf_links": 34,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "177",
@@ -2487,22 +2333,20 @@
       "preview_rel": "preview/products/detail/177.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-subsystem-stage-id177-spec-inserts/id-177-subsystem-stage-modules/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 4,
         "pdf_links": 5,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "178",
@@ -2514,22 +2358,20 @@
       "preview_rel": "preview/products/detail/178.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-thomson-spec-inserts/id-178-thomson/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "179",
@@ -2542,22 +2384,20 @@
       "preview_rel": "preview/products/detail/179.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-thomson-spec-inserts/id-179-thomson/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 0,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "180",
@@ -2570,22 +2410,20 @@
       "preview_rel": "preview/products/detail/180.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-parker-spec-inserts/id-180-parker/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 26,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "181",
@@ -2598,22 +2436,20 @@
       "preview_rel": "preview/products/detail/181.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-winkel-spec-inserts/id-181-winkel/specs-insert-TO-COPY-UTF8.txt",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "182",
@@ -2625,22 +2461,20 @@
       "preview_rel": "preview/products/detail/182.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-asm-spec-inserts/id-182-asm/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "183",
@@ -2652,22 +2486,20 @@
       "preview_rel": "preview/products/detail/183.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-scancon-spec-inserts/id-183-scancon/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "184",
@@ -2686,7 +2518,7 @@
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 8,
+        "cta_count": 10,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -2705,22 +2537,20 @@
       "preview_rel": "preview/products/detail/185.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-phytron-spec-inserts/id-185-phytron/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 6,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "186",
@@ -2733,22 +2563,20 @@
       "preview_rel": "preview/products/detail/186.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-kollmorgen-waterproof-id186-spec-inserts/id-186-kollmorgen-waterproof-motors/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 4,
         "pdf_links": 16,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "187",
@@ -2760,22 +2588,20 @@
       "preview_rel": "preview/products/detail/187.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-kollmorgen-explosion-proof-id187-spec-inserts/id-187-kollmorgen-explosion-proof-motors/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 29,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "188",
@@ -2788,22 +2614,20 @@
       "preview_rel": "preview/products/detail/188.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-kollmorgen-low-temp-id188-spec-inserts/id-188-kollmorgen-akm-low-temperature-servo-motor/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 29,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "191",
@@ -2816,22 +2640,20 @@
       "preview_rel": "preview/products/detail/191.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-thomson-spec-inserts/id-191-thomson/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 2,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "192",
@@ -2844,22 +2666,20 @@
       "preview_rel": "preview/products/detail/192.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-new-way-spec-inserts/id-192-new-way/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "193",
@@ -2871,22 +2691,20 @@
       "preview_rel": "preview/products/detail/193.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sanyo-denki-spec-inserts/id-193-sanyo-denki/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "194",
@@ -2898,22 +2716,20 @@
       "preview_rel": "preview/products/detail/194.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sanyo-denki-spec-inserts/id-194-sanyo-denki/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "195",
@@ -2925,22 +2741,20 @@
       "preview_rel": "preview/products/detail/195.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sanyo-denki-spec-inserts/id-195-sanyo-denki/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "196",
@@ -2960,7 +2774,7 @@
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 18,
+        "cta_count": 20,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -2986,7 +2800,7 @@
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 26,
+        "cta_count": 28,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -3005,22 +2819,20 @@
       "preview_rel": "preview/products/detail/200.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-hma-id200-spec-inserts/id-200-harmonic-drive-hma-flat-hollow-ac-servo-motor/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 2,
         "tables": 2,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "202",
@@ -3033,22 +2845,20 @@
       "preview_rel": "preview/products/detail/202.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-hpgp-hpg-id202-spec-inserts/id-202-harmonic-drive-hpgp-hpg-planetary-gearheads/backend-fragment.html",
       "overlay_status": "needs-review-unknown-module",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 2,
         "pdf_links": 9,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "203",
@@ -3061,22 +2871,20 @@
       "preview_rel": "preview/products/detail/203.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-csg-csf-gh-id203-spec-inserts/id-203-harmonic-drive-csg-csf-gh-quick-connect-gearheads/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 2,
         "tables": 2,
         "pdf_links": 5,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "204",
@@ -3089,22 +2897,20 @@
       "preview_rel": "preview/products/detail/204.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-hpf-id204-spec-inserts/id-204-harmonic-drive-hpf-hollow-shaft-gear-unit/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 5,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "206",
@@ -3124,7 +2930,7 @@
         "pdf_links": 5,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 2,
+        "cta_count": 4,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -3142,22 +2948,20 @@
       "preview_rel": "preview/products/detail/207.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-ringfeder-overview-id207-spec-inserts/id-207-ringfeder-couplings-damping-overview/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 1,
         "pdf_links": 22,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "208",
@@ -3169,22 +2973,20 @@
       "preview_rel": "preview/products/detail/208.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-208-ringfeder/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "209",
@@ -3196,22 +2998,20 @@
       "preview_rel": "preview/products/detail/209.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-209-rinfeder-tnd/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "210",
@@ -3223,22 +3023,20 @@
       "preview_rel": "preview/products/detail/210.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-210-rinfeder-tnz/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "211",
@@ -3250,22 +3048,20 @@
       "preview_rel": "preview/products/detail/211.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-211-rinfeder-tnk/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "212",
@@ -3277,22 +3073,20 @@
       "preview_rel": "preview/products/detail/212.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-212-rinfeder-tnf/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "213",
@@ -3304,22 +3098,20 @@
       "preview_rel": "preview/products/detail/213.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-213-rinfeder-tnr/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "214",
@@ -3331,22 +3123,20 @@
       "preview_rel": "preview/products/detail/214.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-ringfeder-tnt-id214-spec-inserts/id-214-ringfeder-tnt-safety-couplings/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "215",
@@ -3358,22 +3148,20 @@
       "preview_rel": "preview/products/detail/215.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-215-ringfeder/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "216",
@@ -3385,22 +3173,20 @@
       "preview_rel": "preview/products/detail/216.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-ringfeder-industrial-buffers-id216-spec-inserts/id-216-ringfeder-industrial-buffers-damping/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 7,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "217",
@@ -3412,22 +3198,20 @@
       "preview_rel": "preview/products/detail/217.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-ringfeder-shock-absorbing-elements-id217-spec-inserts/id-217-ringfeder-shock-absorbing-elements/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 6,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "218",
@@ -3440,22 +3224,20 @@
       "preview_rel": "preview/products/detail/218.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-alljet-nano-alignment-stage-id218-spec-inserts/id-218-alljet-nano-precision-alignment-stage/backend-fragment.html",
       "overlay_status": "needs-review-unknown-module",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "219",
@@ -3468,22 +3250,20 @@
       "preview_rel": "preview/products/detail/219.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-alljet-xy-stage-id219-spec-inserts/id-219-alljet-dual-axis-xy-stage/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 1,
+        "cta_count": 3,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "download_label_needs_review:2"
-      ]
+      "warnings": []
     },
     {
       "product_id": "226",
@@ -3496,23 +3276,20 @@
       "preview_rel": "preview/products/detail/226.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-alljet-linear-stage-module-id226-spec-inserts/id-226-alljet-single-axis-linear-motor-module/backend-fragment.html",
       "overlay_status": "needs-review-unknown-module",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block",
-        "download_label_needs_review:2"
-      ]
+      "warnings": []
     },
     {
       "product_id": "234",
@@ -3525,23 +3302,20 @@
       "preview_rel": "preview/products/detail/234.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-alljet-air-bearing-gantry-id234-spec-inserts/id-234-alljet-air-bearing-gantry-stage/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block",
-        "download_label_needs_review:2"
-      ]
+      "warnings": []
     },
     {
       "product_id": "241",
@@ -3580,22 +3354,20 @@
       "preview_rel": "preview/products/detail/242.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-acs-document-spec-inserts/id-242-acs-ethercat/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "243",
@@ -3608,22 +3380,20 @@
       "preview_rel": "preview/products/detail/243.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-acs-document-spec-inserts/id-243-acs-ethercat-o/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "244",
@@ -3636,22 +3406,20 @@
       "preview_rel": "preview/products/detail/244.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-acs-document-spec-inserts/id-244-acs-ethercat-o/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "245",
@@ -3664,22 +3432,20 @@
       "preview_rel": "preview/products/detail/245.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-acs-document-spec-inserts/id-245-acs-o/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "246",
@@ -3692,22 +3458,20 @@
       "preview_rel": "preview/products/detail/246.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-acs-document-spec-inserts/id-246-acs-ethercat-acs-o/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "247",
@@ -3720,22 +3484,20 @@
       "preview_rel": "preview/products/detail/247.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-acs-document-spec-inserts/id-247-acs-ethercat-o/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "248",
@@ -3748,22 +3510,20 @@
       "preview_rel": "preview/products/detail/248.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-acs-document-spec-inserts/id-248-acs--10v-nanopwm-o/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "249",
@@ -3776,22 +3536,20 @@
       "preview_rel": "preview/products/detail/249.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-acs-document-spec-inserts/id-249-acs-ethercat-o/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "251",
@@ -3804,22 +3562,20 @@
       "preview_rel": "preview/products/detail/251.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-acs-document-spec-inserts/id-251-acs-ethercat-o/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "252",
@@ -3832,22 +3588,20 @@
       "preview_rel": "preview/products/detail/252.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-acs-document-spec-inserts/id-252-acs-o/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "253",
@@ -3938,22 +3692,20 @@
       "preview_rel": "preview/products/detail/256.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-new-way-spec-inserts/id-256-new-way/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 34,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "257",
@@ -3966,22 +3718,20 @@
       "preview_rel": "preview/products/detail/257.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-new-way-spec-inserts/id-257-new-way/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 22,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "258",
@@ -3994,22 +3744,20 @@
       "preview_rel": "preview/products/detail/258.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-new-way-spec-inserts/id-258-new-way/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 22,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "259",
@@ -4022,22 +3770,20 @@
       "preview_rel": "preview/products/detail/259.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-new-way-spec-inserts/id-259-new-way/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 78,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "260",
@@ -4050,22 +3796,20 @@
       "preview_rel": "preview/products/detail/260.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-new-way-spec-inserts/id-260-new-way/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 26,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "261",
@@ -4078,22 +3822,20 @@
       "preview_rel": "preview/products/detail/261.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-new-way-spec-inserts/id-261-new-way/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 12,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "262",
@@ -4106,22 +3848,20 @@
       "preview_rel": "preview/products/detail/262.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-new-way-spec-inserts/id-262-new-way/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 74,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "263",
@@ -4134,22 +3874,20 @@
       "preview_rel": "preview/products/detail/263.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-new-way-spec-inserts/id-263-new-way/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "264",
@@ -4162,22 +3900,20 @@
       "preview_rel": "preview/products/detail/264.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-new-way-spec-inserts/id-264-new-way/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 4,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "265",
@@ -4190,22 +3926,20 @@
       "preview_rel": "preview/products/detail/265.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-new-way-spec-inserts/id-265-new-way/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 6,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "266",
@@ -4218,22 +3952,20 @@
       "preview_rel": "preview/products/detail/266.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-new-way-spec-inserts/id-266-new-way/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 32,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "268",
@@ -4297,22 +4029,20 @@
       "preview_rel": "preview/products/detail/270.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sanyo-denki-spec-inserts/id-270-sanyo-denki/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "272",
@@ -4332,7 +4062,7 @@
         "pdf_links": 6,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 1,
+        "cta_count": 3,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -4359,7 +4089,7 @@
         "pdf_links": 10,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 1,
+        "cta_count": 3,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -4386,7 +4116,7 @@
         "pdf_links": 10,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 1,
+        "cta_count": 3,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -4413,7 +4143,7 @@
         "pdf_links": 9,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 2,
+        "cta_count": 4,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -4440,7 +4170,7 @@
         "pdf_links": 8,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 1,
+        "cta_count": 3,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -4459,22 +4189,20 @@
       "preview_rel": "preview/products/detail/278.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-csd-id278-spec-inserts/id-278-harmonic-drive-csd-component-set/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 1,
         "pdf_links": 27,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "279",
@@ -4487,22 +4215,20 @@
       "preview_rel": "preview/products/detail/279.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-csd-unit-id279-spec-inserts/id-279-harmonic-drive-csd-unit-type/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 1,
         "pdf_links": 38,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "280",
@@ -4515,22 +4241,20 @@
       "preview_rel": "preview/products/detail/280.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-csf-csg-id280-spec-inserts/id-280-harmonic-drive-csf-csg-component-set/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 1,
         "pdf_links": 62,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "282",
@@ -4543,22 +4267,20 @@
       "preview_rel": "preview/products/detail/282.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-csg-csf-unit-id282-spec-inserts/id-282-harmonic-drive-csg-csf-unit-type/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 1,
         "pdf_links": 91,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "283",
@@ -4571,22 +4293,20 @@
       "preview_rel": "preview/products/detail/283.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-csf-mini-id283-spec-inserts/id-283-harmonic-drive-csf-mini-unit-type/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 1,
         "pdf_links": 49,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "284",
@@ -4599,22 +4319,20 @@
       "preview_rel": "preview/products/detail/284.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-csf-supermini-id284-spec-inserts/id-284-harmonic-drive-csf-supermini-unit-type/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 2,
         "tables": 1,
         "pdf_links": 30,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "287",
@@ -4627,22 +4345,20 @@
       "preview_rel": "preview/products/detail/287.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-shg-shf-id287-spec-inserts/id-287-harmonic-drive-shg-shf-component-set/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 2,
         "tables": 1,
         "pdf_links": 45,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "288",
@@ -4655,22 +4371,20 @@
       "preview_rel": "preview/products/detail/288.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-shg-shf-unit-id288-spec-inserts/id-288-harmonic-drive-shg-shf-unit-type/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 1,
         "pdf_links": 17,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "291",
@@ -4683,22 +4397,20 @@
       "preview_rel": "preview/products/detail/291.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-shd-unit-id291-spec-inserts/id-291-harmonic-drive-shd-unit-type/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 2,
         "tables": 1,
         "pdf_links": 7,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "292",
@@ -4711,22 +4423,20 @@
       "preview_rel": "preview/products/detail/292.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-fr-id292-spec-inserts/id-292-harmonic-drive-fr-component-set/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 4,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "293",
@@ -4739,22 +4449,20 @@
       "preview_rel": "preview/products/detail/293.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-fb-id293-spec-inserts/id-293-harmonic-drive-fb-component-set/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 3,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "295",
@@ -4768,22 +4476,20 @@
       "preview_rel": "preview/products/detail/295.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-fha-c-id295-spec-inserts/id-295-harmonic-drive-fha-c-actuator/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 1,
         "pdf_links": 13,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "296",
@@ -4797,22 +4503,20 @@
       "preview_rel": "preview/products/detail/296.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-rsf-supermini-id296-spec-inserts/id-296-harmonic-drive-rsf-supermini-actuator/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 2,
         "tables": 1,
         "pdf_links": 7,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "297",
@@ -4826,22 +4530,20 @@
       "preview_rel": "preview/products/detail/297.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-rsf-b-mini-id297-spec-inserts/id-297-harmonic-drive-rsf-b-mini-actuator/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 1,
         "pdf_links": 12,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "298",
@@ -4855,22 +4557,20 @@
       "preview_rel": "preview/products/detail/298.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-rsf-id298-spec-inserts/id-298-harmonic-drive-rsf-actuator/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 1,
         "pdf_links": 10,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "299",
@@ -4883,22 +4583,20 @@
       "preview_rel": "preview/products/detail/299.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-rls-linear-magnetic-id299-spec-inserts/id-299-renishaw-rls-linear-incremental-magnetic-scale/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "300",
@@ -4911,22 +4609,20 @@
       "preview_rel": "preview/products/detail/300.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-rls-rotary-magnetic-id300-spec-inserts/id-300-renishaw-rls-rotary-incremental-magnetic-scale/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "301",
@@ -4939,22 +4635,20 @@
       "preview_rel": "preview/products/detail/301.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-rls-linear-absolute-id301-spec-inserts/id-301-renishaw-rls-linear-absolute-magnetic-scale/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 7,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "302",
@@ -4967,22 +4661,20 @@
       "preview_rel": "preview/products/detail/302.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-rls-rotary-absolute-id302-spec-inserts/id-302-renishaw-rls-rotary-absolute-magnetic-scale/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 8,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "303",
@@ -4995,22 +4687,20 @@
       "preview_rel": "preview/products/detail/303.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-rls-magnetic-sensor-ic-id303-spec-inserts/id-303-renishaw-rls-magnetic-sensor-ic/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "306",
@@ -5023,22 +4713,20 @@
       "preview_rel": "preview/products/detail/306.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-linear-open-optical-id306-spec-inserts/id-306-renishaw-linear-open-optical-encoder/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 7,
         "tables": 1,
         "pdf_links": 21,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "307",
@@ -5051,22 +4739,20 @@
       "preview_rel": "preview/products/detail/307.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-partial-arc-open-optical-id307-spec-inserts/id-307-renishaw-partial-arc-open-optical-encoder/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 1,
         "pdf_links": 18,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "308",
@@ -5079,22 +4765,20 @@
       "preview_rel": "preview/products/detail/308.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-rotary-angle-open-optical-id308-spec-inserts/id-308-renishaw-rotary-angle-open-optical-encoder/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 1,
         "pdf_links": 18,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "309",
@@ -5107,22 +4791,20 @@
       "preview_rel": "preview/products/detail/309.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-fortis-s-id309-spec-inserts/id-309-renishaw-fortis-s-enclosed-linear-encoder/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "310",
@@ -5135,22 +4817,20 @@
       "preview_rel": "preview/products/detail/310.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-fortis-n-id310-spec-inserts/id-310-renishaw-fortis-n-enclosed-linear-encoder/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "312",
@@ -5163,22 +4843,20 @@
       "preview_rel": "preview/products/detail/312.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-rls-linear-miniature-incremental-id312-spec-inserts/id-312-renishaw-rls-linear-miniature-incremental-magnetic-encoder/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 5,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "313",
@@ -5198,7 +4876,7 @@
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 7,
+        "cta_count": 9,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -5217,22 +4895,20 @@
       "preview_rel": "preview/products/detail/314.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-rls-rotary-shaft-id314-spec-inserts/id-314-renishaw-rls-rotary-magnetic-shaft-encoder/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "315",
@@ -5245,22 +4921,20 @@
       "preview_rel": "preview/products/detail/315.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-rls-axial-rings-id315-spec-inserts/id-315-renishaw-rls-axial-incremental-magnetic-rings/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "316",
@@ -5273,22 +4947,20 @@
       "preview_rel": "preview/products/detail/316.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-renishaw-rls-bonded-radial-rings-id316-spec-inserts/id-316-renishaw-rls-bonded-radial-incremental-magnetic-rings/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 24,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "318",
@@ -5302,22 +4974,20 @@
       "preview_rel": "preview/products/detail/318.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-drive-fha-c-mini-id318-spec-inserts/id-318-harmonic-drive-fha-c-mini-servo-actuator/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 1,
         "pdf_links": 16,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "319",
@@ -5330,22 +5000,20 @@
       "preview_rel": "preview/products/detail/319.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-renishaw-rld-detector-head-id319-spec-inserts/id-319-renishaw-rld10-detector-heads/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 5,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "320",
@@ -5358,22 +5026,20 @@
       "preview_rel": "preview/products/detail/320.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-renishaw-rlu-laser-unit-id320-spec-inserts/id-320-renishaw-rlu-laser-unit/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "321",
@@ -5386,22 +5052,20 @@
       "preview_rel": "preview/products/detail/321.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-renishaw-laser-interface-id321-spec-inserts/id-321-renishaw-laser-encoder-interface/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "322",
@@ -5414,22 +5078,20 @@
       "preview_rel": "preview/products/detail/322.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-renishaw-rcu10-id322-spec-inserts/id-322-renishaw-rcu10-compensation-system/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "323",
@@ -5442,22 +5104,20 @@
       "preview_rel": "preview/products/detail/323.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-renishaw-mirrors-optics-id323-spec-inserts/id-323-renishaw-mirrors-optics/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 5,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "324",
@@ -5470,22 +5130,20 @@
       "preview_rel": "preview/products/detail/324.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-renishaw-hs20-id324-spec-inserts/id-324-renishaw-hs20-laser-head/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "325",
@@ -5505,7 +5163,7 @@
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 4,
+        "cta_count": 6,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -5531,7 +5189,7 @@
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 5,
+        "cta_count": 7,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -5549,22 +5207,20 @@
       "preview_rel": "preview/products/detail/327.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-copley-spec-inserts/id-327-copley/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 3,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "332",
@@ -5576,22 +5232,20 @@
       "preview_rel": "preview/products/detail/332.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-d-ringfeder-332/id-332-ringfeder-elastomer-jaw-couplings/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 2,
         "tables": 1,
         "pdf_links": 8,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "335",
@@ -5603,22 +5257,20 @@
       "preview_rel": "preview/products/detail/335.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-335-ringfeder-rlp-rlb/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "336",
@@ -5630,22 +5282,20 @@
       "preview_rel": "preview/products/detail/336.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-336-ringfeder-rlt-tyre-couplings/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "338",
@@ -5657,22 +5307,20 @@
       "preview_rel": "preview/products/detail/338.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-b-fms-338-340/id-338-fms-force-sensors/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 6,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "339",
@@ -5684,22 +5332,20 @@
       "preview_rel": "preview/products/detail/339.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-b-fms-338-340/id-339-fms-measuring-amplifiers/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 5,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "340",
@@ -5711,22 +5357,20 @@
       "preview_rel": "preview/products/detail/340.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-b-fms-338-340/id-340-fms-tension-controllers/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 4,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "341",
@@ -5738,22 +5382,20 @@
       "preview_rel": "preview/products/detail/341.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-c-fms-341-343/id-341-fms-segforce/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 5,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "342",
@@ -5765,22 +5407,20 @@
       "preview_rel": "preview/products/detail/342.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-c-fms-341-343/id-342-exmgz-atex/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 2,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "343",
@@ -5792,22 +5432,20 @@
       "preview_rel": "preview/products/detail/343.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-c-fms-341-343/id-343-customized-solutions/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 1,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "345",
@@ -5826,7 +5464,7 @@
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 2,
+        "cta_count": 4,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -5844,22 +5482,20 @@
       "preview_rel": "preview/products/detail/347.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-e-fms-345-347/id-347-fms-bks309-web-guide-controller/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "349",
@@ -5871,22 +5507,20 @@
       "preview_rel": "preview/products/detail/349.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-f-fms-349-350/id-349-rtm-x42-bc-brake-control/backend-fragment.html",
       "overlay_status": "needs-review-unknown-module",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 3,
         "pdf_links": 3,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "350",
@@ -5898,22 +5532,20 @@
       "preview_rel": "preview/products/detail/350.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-f-fms-349-350/id-350-rtm-x42-cc-control-center/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 4,
         "tables": 3,
         "pdf_links": 3,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "352",
@@ -5925,22 +5557,20 @@
       "preview_rel": "preview/products/detail/352.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-g-acs-352/id-352-acs-software-suite/backend-fragment.html",
       "overlay_status": "needs-review-unknown-module",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "354",
@@ -5952,22 +5582,20 @@
       "preview_rel": "preview/products/detail/354.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-copley-spec-inserts/id-354-copley/backend-fragment.html",
       "overlay_status": "needs-review-unknown-module",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 6,
         "tables": 5,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "355",
@@ -5979,22 +5607,20 @@
       "preview_rel": "preview/products/detail/355.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-copley-spec-inserts/id-355-copley/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 5,
         "tables": 4,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "357",
@@ -6006,22 +5632,20 @@
       "preview_rel": "preview/products/detail/357.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-copley-spec-inserts/id-357-copley/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 0,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "358",
@@ -6033,22 +5657,20 @@
       "preview_rel": "preview/products/detail/358.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-copley-spec-inserts/id-358-copley/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 5,
         "tables": 4,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "359",
@@ -6060,22 +5682,20 @@
       "preview_rel": "preview/products/detail/359.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-copley-spec-inserts/id-359-copley/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 2,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "360",
@@ -6087,22 +5707,20 @@
       "preview_rel": "preview/products/detail/360.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-copley-spec-inserts/id-360-copley/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 2,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "361",
@@ -6114,22 +5732,20 @@
       "preview_rel": "preview/products/detail/361.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-copley-spec-inserts/id-361-copley/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 2,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "363",
@@ -6149,7 +5765,7 @@
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 3,
+        "cta_count": 5,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -6174,7 +5790,7 @@
         "pdf_links": 2,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 1,
+        "cta_count": 3,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -6192,22 +5808,20 @@
       "preview_rel": "preview/products/detail/365.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-i-unknown-364-366/id-365-iautoc-panel-mount-ssr/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 3,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "366",
@@ -6226,7 +5840,7 @@
         "pdf_links": 3,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 1,
+        "cta_count": 3,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -6244,22 +5858,20 @@
       "preview_rel": "preview/products/detail/367.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-j-unknown-367-369/id-367-i-autoc-motor-reversing-module/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 0,
         "tables": 4,
         "pdf_links": 4,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "368",
@@ -6271,22 +5883,20 @@
       "preview_rel": "preview/products/detail/368.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-j-unknown-367-369/id-368-i-autoc-voltage-regulator-module/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 0,
         "tables": 4,
         "pdf_links": 4,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "369",
@@ -6298,22 +5908,20 @@
       "preview_rel": "preview/products/detail/369.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-j-unknown-367-369/id-369-i-autoc-intelligent-module/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 0,
         "tables": 4,
         "pdf_links": 6,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "370",
@@ -6325,22 +5933,20 @@
       "preview_rel": "preview/products/detail/370.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-k-unknown-370-372/id-370-i-autoc-dra-industrial-module/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 1,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "371",
@@ -6352,22 +5958,20 @@
       "preview_rel": "preview/products/detail/371.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-k-unknown-370-372/id-371-i-autoc-krh-power-regulator/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 2,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "372",
@@ -6379,22 +5983,20 @@
       "preview_rel": "preview/products/detail/372.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-k-unknown-370-372/id-372-i-autoc-drt4-temperature-controller/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "373",
@@ -6485,22 +6087,20 @@
       "preview_rel": "preview/products/detail/376.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-thomson-spec-inserts/id-376-thomson/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 2,
         "tables": 2,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "377",
@@ -6513,22 +6113,20 @@
       "preview_rel": "preview/products/detail/377.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-thomson-spec-inserts/id-377-thomson/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 5,
         "tables": 5,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "378",
@@ -6541,22 +6139,20 @@
       "preview_rel": "preview/products/detail/378.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-thomson-spec-inserts/id-378-thomson/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 3,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "379",
@@ -6569,22 +6165,20 @@
       "preview_rel": "preview/products/detail/379.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-thomson-spec-inserts/id-379-thomson/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 2,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "388",
@@ -6597,22 +6191,20 @@
       "preview_rel": "preview/products/detail/388.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-novanta-ims-spec-inserts/id-388-novanta-ims/backend-fragment.html",
       "overlay_status": "needs-review-unknown-module",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "390",
@@ -6631,7 +6223,7 @@
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 6,
+        "cta_count": 8,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
@@ -6650,22 +6242,20 @@
       "preview_rel": "preview/products/detail/398.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-l-pm-398/id-398-pm-bv-precision-linear-bearings/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 3,
         "tables": 3,
         "pdf_links": 17,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "399",
@@ -6678,22 +6268,20 @@
       "preview_rel": "preview/products/detail/399.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-asm-spec-inserts/id-399-asm/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "400",
@@ -6706,22 +6294,20 @@
       "preview_rel": "preview/products/detail/400.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-asm-spec-inserts/id-400-asm/backend-fragment.html",
       "overlay_status": "inserted-before-application",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "403",
@@ -6733,22 +6319,20 @@
       "preview_rel": "preview/products/detail/403.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sanyo-denki-spec-inserts/id-403-sanyo-denki/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "404",
@@ -6760,22 +6344,20 @@
       "preview_rel": "preview/products/detail/404.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sanyo-denki-spec-inserts/id-404-sanyo-denki/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     },
     {
       "product_id": "405",
@@ -6787,22 +6369,20 @@
       "preview_rel": "preview/products/detail/405.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sanyo-denki-spec-inserts/id-405-sanyo-denki/backend-fragment.html",
       "overlay_status": "inserted",
-      "qa_status": "warn",
+      "qa_status": "pass",
       "counts": {
         "details": 1,
         "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
-        "cta_count": 0,
+        "cta_count": 2,
         "spec_images": 0,
         "href_hash": 0,
         "data_attr_count": 0
       },
       "critical": [],
-      "warnings": [
-        "spec_cta_missing_or_outside_block"
-      ]
+      "warnings": []
     }
   ]
 }

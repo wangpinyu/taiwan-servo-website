@@ -3,19 +3,18 @@
 Branch: `phase-5-sejinigb-roller-pinion`
 Priority: 15
 Pages: 2
-Blocking pages: 2
+Blocking pages: 0
 
 ## Status counts
 
-- agent-fix-required: 1
-- agent-structure-review: 1
+- agent-approved-clean: 2
 
 ## Target pages
 
 | ID | Title | Status | Preview |
 | --- | --- | --- | --- |
-| 151 | SEJINIGB 精密線性齒排、滾輪 | agent-fix-required | preview/products/detail/151.html |
-| 152 | SEJINIGB 模組化齒圈轉台 | agent-structure-review | preview/products/detail/152.html |
+| 151 | SEJINIGB 精密線性齒排、滾輪 | agent-approved-clean | preview/products/detail/151.html |
+| 152 | SEJINIGB 模組化齒圈轉台 | agent-approved-clean | preview/products/detail/152.html |
 
 ## Acceptance criteria
 
