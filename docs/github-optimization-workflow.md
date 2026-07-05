@@ -57,6 +57,7 @@ npm run validate
 
 ```powershell
 npm run qa:site
+npm run qa:docs
 npm run qa:mirror
 npm run qa:spec
 npm run qa:agent
