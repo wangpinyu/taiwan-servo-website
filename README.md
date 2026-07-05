@@ -89,6 +89,12 @@ Open PR creation pages in a browser that is already logged in to GitHub:
 powershell -ExecutionPolicy Bypass -File .\tools\open-github-pr-pages.ps1
 ```
 
+Prepare one PR page and copy its Markdown body to the clipboard:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\prepare-github-pr.ps1 -Branch phase-1-smac-spec-standard
+```
+
 By default this opens only the phase-1 PR page. To open a specific branch:
 
 ```powershell
