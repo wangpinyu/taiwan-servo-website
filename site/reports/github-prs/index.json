@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T19:56:22.862Z",
+  "generatedAt": "2026-07-05T20:05:07.841Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
   "note": "Create PRs from lower priority to higher priority only after phase-1 is accepted, or use the listed base branch for stacked review.",
   "entries": [
@@ -26,7 +26,12 @@
       "remoteExists": true,
       "prSummaryExists": true,
       "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-2-drivers-spec-review",
-      "smoke": null
+      "smoke": {
+        "category": "??? / ACS ???",
+        "pages": 30,
+        "checks": 60,
+        "failures": 0
+      }
     },
     {
       "priority": 3,
@@ -36,7 +41,12 @@
       "remoteExists": true,
       "prSummaryExists": true,
       "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-2-motors-spec-review",
-      "smoke": null
+      "smoke": {
+        "category": "????",
+        "pages": 24,
+        "checks": 48,
+        "failures": 0
+      }
     },
     {
       "priority": 4,

@@ -1,6 +1,6 @@
 # GitHub PR 控制台
 
-更新時間：2026-07-05T19:56:22.862Z
+更新時間：2026-07-05T20:05:07.841Z
 
 此檔案是本機工作流索引。實際 PR 仍需在 GitHub 網頁建立；每個分支已推送到 remote。
 
@@ -15,8 +15,8 @@
 | # | Category | Branch | Base | Pages | Checks | Failures | PR |
 | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | 1 | 電動缸 | `phase-1-smac-spec-standard` | `main` | 14 | 28 | 0 | [Create PR](https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-1-smac-spec-standard) |
-| 2 | 驅動器 / ACS 控制器 | `phase-2-drivers-spec-review` | `phase-1-smac-spec-standard` |  |  |  | [Create PR](https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-2-drivers-spec-review) |
-| 3 | 各類馬達 | `phase-2-motors-spec-review` | `phase-1-smac-spec-standard` |  |  |  | [Create PR](https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-2-motors-spec-review) |
+| 2 | 驅動器 / ACS 控制器 | `phase-2-drivers-spec-review` | `phase-1-smac-spec-standard` | 30 | 60 | 0 | [Create PR](https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-2-drivers-spec-review) |
+| 3 | 各類馬達 | `phase-2-motors-spec-review` | `phase-1-smac-spec-standard` | 24 | 48 | 0 | [Create PR](https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-2-motors-spec-review) |
 | 4 | Harmonic Drive 減速機 | `phase-3-harmonic-drive` | `phase-1-smac-spec-standard` | 29 | 58 | 0 | [Create PR](https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-3-harmonic-drive) |
 | 5 | Renishaw 回授元件產品 | `phase-3-renishaw-feedback` | `phase-1-smac-spec-standard` | 35 | 70 | 0 | [Create PR](https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-3-renishaw-feedback) |
 | 6 | 定位平台 | `phase-3-positioning-stage` | `phase-1-smac-spec-standard` | 12 | 24 | 0 | [Create PR](https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-3-positioning-stage) |
