@@ -1,83 +1,112 @@
 # Private GitHub Repo Setup
 
-本資料夾已整理成可推送到 GitHub private repo 的工作副本。
+最後更新：2026-07-06
 
-本機 repo 位置：
+本文件記錄星泰網站本機優化工作區的 GitHub private repo 準備方式。
+
+本機 repo：
 
 ```text
 F:\Taiwan_Servo_website_management_Codex_File\github-ready\taiwan-servo-site-optimization
 ```
 
-## 目前已完成
-
-- 已建立 Git repo：branch `main`
-- 已啟用 Git LFS
-- 已設定 `.gitattributes`，PDF、ZIP、CAD、圖片等大型資產走 LFS
-- 已建立 GitHub Actions：`.github/workflows/preview-qa.yml`
-- 已建立本機預覽工具：`npm run serve`
-- 已建立 QA 工具：`npm run validate`
-- 已建立網站架構與規格模組文件
-
-## 建立 GitHub Private Repo
-
-1. 到 GitHub 建立新 repository。
-2. Repository name 建議：
+遠端 repo：
 
 ```text
-taiwan-servo-site-optimization
+https://github.com/wangpinyu/taiwan-servo-website.git
 ```
 
-3. Visibility 選 `Private`。
-4. 不要勾選自動建立 README、.gitignore、license，因為本機已經準備好。
+## 目前已完成
 
-## 推送到 GitHub
+- 已建立 Git repo。
+- 已推送 `main`。
+- 已推送 17 個 phase 分支。
+- 已設定 Git LFS 規則，PDF、ZIP、CAD、圖片等大型檔案由 `.gitattributes` 管理。
+- 已建立 GitHub Actions：`.github/workflows/preview-qa.yml`。
+- 已建立本機 preview 與 QA 指令：
+  - `npm run serve`
+  - `npm run validate`
+- 已建立 GitHub bootstrap 工具：
+  - labels
+  - tracking issues
+  - pull requests
+  - smoke dry-run
+  - readiness report
 
-在 PowerShell 進入本機 repo：
+## Repo 原則
+
+- Repo 必須保持 private。
+- 不存放後台帳密、cookie、token、`.env` 或私密設定。
+- 本階段只處理本機 preview 與 GitHub 工作流，不登入後台、不儲存、不上傳、不覆蓋正式伺服器。
+- 大型文件與圖片若納入 repo，需走 Git LFS 或先壓縮整理。
+
+## 基本命令
 
 ```powershell
 cd 'F:\Taiwan_Servo_website_management_Codex_File\github-ready\taiwan-servo-site-optimization'
-```
-
-設定遠端：
-
-```powershell
-git remote add origin https://github.com/<your-account>/taiwan-servo-site-optimization.git
-```
-
-第一次提交：
-
-```powershell
-git add .
-git commit -m "Initial private site optimization workspace"
-git push -u origin main
-```
-
-如果 GitHub 要求登入，使用 GitHub Desktop、Git Credential Manager 或 GitHub CLI 登入即可。不要把 token、cookie、密碼寫入 repo。
-
-## 每次優化後的標準流程
-
-```powershell
 npm run validate
 git status --short
-git add .
-git commit -m "Describe the optimization"
-git push
 ```
 
-## GitHub Actions
+## GitHub API Bootstrap
 
-每次 push 或 PR 會執行：
+先 dry-run：
 
 ```powershell
-npm run validate
+npm run github:bootstrap:dry-run
 ```
 
-並上傳 `site/reports/*.html`、`site/reports/*.json` 作為 artifact，方便審查。
+少量 smoke：
 
-## 注意事項
+```powershell
+npm run github:bootstrap:smoke:dry-run
+```
 
-- `site/documents-cache` 內的 PDF/CAD/ZIP 會透過 Git LFS 管理。
-- private repo 仍不代表原廠文件授權已解決；這裡只作為內部優化工作副本。
-- 不要加入後台登入資訊、cookie、token、`.env`。
-- 上架前仍要依 `deploy-manifest` 與後台限制對照表確認哪些檔案/內容可覆蓋。
+有 GitHub fine-grained token 後：
 
+```powershell
+$env:GITHUB_TOKEN = "<token>"
+npm run github:bootstrap:smoke
+Remove-Item Env:\GITHUB_TOKEN
+```
+
+smoke 成功後可全量建立 labels、issues、PRs：
+
+```powershell
+$env:GITHUB_TOKEN = "<token>"
+npm run github:bootstrap
+Remove-Item Env:\GITHUB_TOKEN
+```
+
+Token 不得寫入檔案或 commit。
+
+## GitHub Token 權限
+
+Fine-grained token 建議只給此 private repo，權限至少包含：
+
+- Metadata: read
+- Issues: read/write
+- Pull requests: read/write
+- Contents: read
+
+Labels 由 Issues API 管理，因此通常跟 Issues 權限一起運作。
+
+## 驗證報告
+
+- `site/reports/github-bootstrap-readiness.html`
+- `site/reports/github-ready-validation.html`
+- `site/reports/local-mirror-readiness-current.html`
+- `site/reports/product-spec-module-qa.html`
+- `site/reports/product-spec-agent-review.html`
+- `site/reports/source-needed-audit.html`
+- `site/reports/optimization-backlog.html`
+
+## 後續部署邊界
+
+本 repo 是前台優化與 preview 工作區。正式上架前需另開部署階段，處理：
+
+- 後台 CKEditor 可控欄位映射。
+- 代表圖 / 圖片欄位是否可改。
+- 伺服器檔案覆蓋策略。
+- 大檔、下載連結、原廠外部連結策略。
+- 正式網回歸驗證。
