@@ -1,6 +1,6 @@
 # GitHub Issue Index
 
-Generated at: 2026-07-05T22:55:15.130Z
+Generated at: 2026-07-05T23:05:20.864Z
 
 每個 issue 對應一個產品分類或品牌，用來追蹤產品規格詳情、SEO、UIUX、下載連結與 QA 狀態。
 
@@ -15,9 +15,9 @@ powershell -ExecutionPolicy Bypass -File .\tools\prepare-github-issue.ps1 -Branc
 
 | # | Category | Branch | Pages | Blocking | Source needed | Labels | Draft | Create |
 | --- | --- | --- | ---: | ---: | ---: | --- | --- | --- |
-| 1 | 電動缸 | `phase-1-smac-spec-standard` | 14 | 13 | 0 | `spec-module` `seo` `uiux` `download-links` | [draft](./01-phase-1-smac-spec-standard.md) | [new issue](https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E9%9B%BB%E5%8B%95%E7%BC%B8%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links) |
+| 1 | 電動缸 | `phase-1-smac-spec-standard` | 14 | 11 | 0 | `spec-module` `seo` `uiux` `download-links` | [draft](./01-phase-1-smac-spec-standard.md) | [new issue](https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E9%9B%BB%E5%8B%95%E7%BC%B8%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links) |
 | 2 | 驅動器 | `phase-2-drivers-spec-review` | 12 | 4 | 0 | `spec-module` `seo` `uiux` `download-links` | [draft](./02-phase-2-drivers-spec-review.md) | [new issue](https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E9%A9%85%E5%8B%95%E5%99%A8%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links) |
-| 3 | 各類馬達 | `phase-2-motors-spec-review` | 24 | 14 | 0 | `spec-module` `seo` `uiux` `download-links` | [draft](./03-phase-2-motors-spec-review.md) | [new issue](https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E5%90%84%E9%A1%9E%E9%A6%AC%E9%81%94%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links) |
+| 3 | 各類馬達 | `phase-2-motors-spec-review` | 24 | 13 | 0 | `spec-module` `seo` `uiux` `download-links` | [draft](./03-phase-2-motors-spec-review.md) | [new issue](https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E5%90%84%E9%A1%9E%E9%A6%AC%E9%81%94%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links) |
 | 4 | ACS 控制器 / 驅動器 | `phase-2-drivers-spec-review` | 18 | 18 | 6 | `spec-module` `seo` `uiux` `download-links` `source-needed` | [draft](./04-phase-2-drivers-spec-review.md) | [new issue](https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5BACS%20%E6%8E%A7%E5%88%B6%E5%99%A8%20%2F%20%E9%A9%85%E5%8B%95%E5%99%A8%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links%2Csource-needed) |
 | 5 | Harmonic Drive 減速機 | `phase-3-harmonic-drive` | 29 | 17 | 0 | `spec-module` `seo` `uiux` `download-links` | [draft](./05-phase-3-harmonic-drive.md) | [new issue](https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5BHarmonic%20Drive%20%E6%B8%9B%E9%80%9F%E6%A9%9F%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links) |
 | 6 | Renishaw 回授元件產品 | `phase-3-renishaw-feedback` | 35 | 21 | 0 | `spec-module` `seo` `uiux` `download-links` | [draft](./06-phase-3-renishaw-feedback.md) | [new issue](https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5BRenishaw%20%E5%9B%9E%E6%8E%88%E5%85%83%E4%BB%B6%E7%94%A2%E5%93%81%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links) |
