@@ -32,6 +32,7 @@
   - no broken images after scrolling through the page.
   - no whole-page horizontal overflow.
 - Result: 48 checks, 0 failures.
+- Evidence JSON: `site/reports/github-prs/phase-2-motors-spec-review-smoke.json`.
 
 ## AI / Human Review
 - AI review status: `agent-approved-clean=24`.
