@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T22:56:48.805Z",
+  "generatedAt": "2026-07-05T23:06:56.527Z",
   "status": "ready-needs-token",
   "repository": "wangpinyu/taiwan-servo-website",
   "tokenPresent": false,
@@ -11,71 +11,71 @@
     },
     {
       "branch": "phase-1-smac-spec-standard",
-      "remoteSha": "4bcd8f8"
+      "remoteSha": "6d0c366"
     },
     {
       "branch": "phase-2-drivers-spec-review",
-      "remoteSha": "3287915"
+      "remoteSha": "45563d6"
     },
     {
       "branch": "phase-2-motors-spec-review",
-      "remoteSha": "477ccd1"
+      "remoteSha": "328e473"
     },
     {
       "branch": "phase-3-harmonic-drive",
-      "remoteSha": "23824a8"
+      "remoteSha": "b5e4fc9"
     },
     {
       "branch": "phase-3-renishaw-feedback",
-      "remoteSha": "a1a13c9"
+      "remoteSha": "9a6187a"
     },
     {
       "branch": "phase-3-positioning-stage",
-      "remoteSha": "34ac229"
+      "remoteSha": "0110c38"
     },
     {
       "branch": "phase-3-bearings-air-mechanical",
-      "remoteSha": "93fc17f"
+      "remoteSha": "0cc5da0"
     },
     {
       "branch": "phase-4-couplings",
-      "remoteSha": "2bb1ce9"
+      "remoteSha": "5132e71"
     },
     {
       "branch": "phase-4-fms-tension",
-      "remoteSha": "fb0b010"
+      "remoteSha": "9bd23c3"
     },
     {
       "branch": "phase-4-solid-state-relays",
-      "remoteSha": "8352e5f"
+      "remoteSha": "620211d"
     },
     {
       "branch": "phase-4-sanyo-denki",
-      "remoteSha": "8b22942"
+      "remoteSha": "3b10b44"
     },
     {
       "branch": "phase-4-special-environments",
-      "remoteSha": "9e4a73a"
+      "remoteSha": "508d238"
     },
     {
       "branch": "phase-5-ceramic-chucks",
-      "remoteSha": "2d92ccf"
+      "remoteSha": "8e83a15"
     },
     {
       "branch": "phase-5-sejinigb",
-      "remoteSha": "4d8f753"
+      "remoteSha": "317edd9"
     },
     {
       "branch": "phase-5-blowers",
-      "remoteSha": "33ed138"
+      "remoteSha": "0395a51"
     },
     {
       "branch": "phase-5-automation-systems",
-      "remoteSha": "1378c94"
+      "remoteSha": "b5fb415"
     },
     {
       "branch": "phase-5-other-feedback",
-      "remoteSha": "05803af"
+      "remoteSha": "d19f15b"
     }
   ],
   "summary": {
@@ -125,7 +125,7 @@
       "id": "agent-review",
       "label": "AI agent review baseline",
       "status": "warn",
-      "detail": "{\"agent-fix-required\":145,\"agent-approved-clean\":84,\"agent-structure-review\":13,\"agent-source-needed\":6}"
+      "detail": "{\"agent-fix-required\":142,\"agent-approved-clean\":87,\"agent-structure-review\":13,\"agent-source-needed\":6}"
     },
     {
       "id": "source-needed-audit",
