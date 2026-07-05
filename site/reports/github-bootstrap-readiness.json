@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T22:29:32.289Z",
+  "generatedAt": "2026-07-05T22:31:10.580Z",
   "status": "ready-needs-token",
   "repository": "wangpinyu/taiwan-servo-website",
   "tokenPresent": false,
@@ -11,15 +11,15 @@
     },
     {
       "branch": "phase-1-smac-spec-standard",
-      "remoteSha": "406f361"
+      "remoteSha": "13d003c"
     },
     {
       "branch": "phase-2-drivers-spec-review",
-      "remoteSha": "e384aaf"
+      "remoteSha": "3c44df7"
     },
     {
       "branch": "phase-2-motors-spec-review",
-      "remoteSha": "c94b7e2"
+      "remoteSha": "724f736"
     },
     {
       "branch": "phase-3-harmonic-drive",
