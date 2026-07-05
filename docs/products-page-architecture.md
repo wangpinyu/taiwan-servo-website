@@ -1,19 +1,20 @@
-# 產品頁共用架構與規格模組標準
+# 產品頁架構標準
 
-更新日期：2026-07-06
+最後更新：2026-07-06
 
-本文件定義星泰產品頁本機 preview 的共用架構。目標是保留正式網既有 UIUX 作為基底，逐步把產品頁提升為可選型、可比較、可下載、可詢問的技術型 B2B 產品頁。
+本文件定義星泰產品頁在本機 preview 與 GitHub 工作流中的標準結構。目標是保留正式網既有 UIUX 與後台限制，同時讓產品頁具備「可選型、可比較、可下載、可詢問」的 B2B 技術型資訊架構。
 
-## 編輯邊界
+## 後台限制分層
 
-- 高自由度可編輯：產品頁 CKEditor 主內容區，後台欄位通常是 `tw_specifications`。
-- 結構化可編輯但非自由排版：產品標題、分類、SEO、代表圖、圖片欄位。
-- 模板鎖死：側邊 `介紹` 標籤、全站導覽、側欄分類框架、footer、浮動按鈕、部分產品頁固定版型。
-- 本機 preview 階段不登入後台、不保存、不上傳、不改測試網。
+- 高自由度可編輯：產品頁 CKEditor 主內容區，主要是 `tw_specifications`。
+- 結構化可編輯但非自由排版：產品名稱、分類、SEO 欄位、代表圖、圖片欄位。
+- 模板鎖死或全站共用：側邊「介紹」標籤、全站導覽、產品分類側欄框架、footer、浮動按鈕、部分商品固定版型。
 
-## 標準模組順序
+本機 preview 可以模擬前台視覺與內容，但後續上架時只把可控內容放回可編輯欄位，不假設能修改模板鎖死區域。
 
-產品頁主內容區以正式網既有版面為準，只統一模組名稱與新增規格模組位置：
+## 主內容模組順序
+
+產品頁主內容區的標準順序如下：
 
 1. 主內容區
 2. 產品系列
@@ -21,42 +22,54 @@
 4. 應用領域
 5. 技術資料下載
 
-若頁面沒有明確 `產品系列`，但有 `應用領域`，則 `產品規格詳情` 插在 `應用領域` 前。若沒有既有規格模組候選，不自行編寫規格，只列入缺口。
+若原頁沒有明確「產品系列」模組，但有應用或下載區，`產品規格詳情` 可插在 `應用領域` 前。若沒有可靠規格來源，不自動新增規格表，只標記為 `source-needed` 或 `no-spec-module`。
 
 ## 模組命名規則
 
-- 產品卡片、系列、型號導覽類統一為 `產品系列`。
-- 規格表、型號矩陣、系列比較表統一為 `產品規格詳情`。
-- Applications、Industry Applications、推薦應用、主要應用統一為 `應用領域`。
-- Downloads、相關下載、原廠文件下載統一為 `技術資料下載`。
-- `核心技術能力`、`產品特色`、`快速選型` 等合理內容模組保留，不強制改名。
-- 無法判定的標題列入 `product-standardization-report` 與 AI agent 審核報告，不自動改寫；AI agent 先判定歸類，只有來源衝突或後台限制無法處理時才升級為人工例外。
+- 產品卡片、系列卡片、型號導覽、產品型號規格卡片：統一命名為 `產品系列`。
+- 規格比較表、型號矩陣、accordion 規格模組：統一命名為 `產品規格詳情`。
+- Applications、Industry Applications、推薦應用領域等：統一命名為 `應用領域`。
+- Downloads、資料下載、相關下載、技術文件等：統一命名為 `技術資料下載`。
+- `核心技術能力`、`選型指南`、`控制器選項` 等合理產品內容模組可保留，不強制歸入四類；無法判定時列入人工審查。
 
-## 產品規格詳情模組要求
+## 產品規格詳情規則
 
-- 必須使用真正的 `<table>`，不得用 div 偽表格。
-- 表頭需保留原廠語意；有單位的欄位應在表頭呈現，例如 `Peak Force (N)`、`Stroke (mm)`。
-- 手機版表格必須允許橫向捲動，並保留視覺提示。
-- 型號或 Part Number 欄建議做 sticky first column；表頭建議 sticky。
-- PDF、CAD、Manual、Catalog、Drawing、Software 應分清楚，不混在同一個模糊按鈕。
-- 下載按鈕需有可辨識文字或 `aria-label`。
-- 不得出現 `href="#"`、`.txt` 下載、本機磁碟路徑、`file:///`、`data-local-file`、`data-upload-url`、`data-source-url` 或內部工作註解。
-- 產品圖片與系列介紹應歸入 `產品系列`；`產品規格詳情` 不放產品圖片。
-- 若沒有型號級下載，顯示 `請洽星泰` 或等價狀態，不留空。
-- CTA 目標是銜接詢問流程；目前若不能自動帶入系列/型號，需在 QA 報告中保留 `spec_cta_missing_or_outside_block` 警告，並交由 AI agent 優先修正。
+- 必須位於 `產品系列` 下方，不得放在產品系列前。
+- 使用真正的 `<table>`，不得用 div 偽表格。
+- 表頭保留原廠欄位與單位，例如 `Peak Force (N)`、`Stroke (mm)`。
+- 型號或 Part Number 欄建議 sticky first column；表頭建議 sticky。
+- 手機版允許橫向捲動，但需有視覺提示。
+- Accordion 使用 `<button>`、`aria-expanded`、`aria-controls`，並提供清楚的「展開 / 收合」文字或符號。
+- PDF、CAD、Manual、Catalog、Drawing、Software 必須分類清楚。
+- 不得出現 `href="#"`、`.txt` href、`file:///`、本機磁碟路徑、`data-local-file`、`pending`、`placeholder`、`待人工上架`、開發者註解。
+- 原廠未公開或資料不足時，使用 `—`、`原廠未公開`、`請洽星泰` 或標記 `source-needed`，不得編造規格。
+
+## CTA 與詢問流程
+
+- 規格模組中至少要有可用的詢問入口。
+- CTA 可以先沿用正式網既有詢問流程。
+- 若目前無法自動帶入系列或型號，前台不可顯示 TODO；TODO 只留在程式碼或報告中。
+
+## SEO 與可爬取性
+
+- 每頁維持單一 H1。
+- 主內容模組使用合理 H2/H3。
+- 保留既有 title、meta description、canonical、breadcrumb 與導覽邏輯。
+- 重要產品資訊用可爬取 HTML，不放在純圖片或不可讀 JS 中。
+- 有可見 FAQ 才能加入 FAQ schema；不得新增假價格、假庫存、假評分、假評論。
 
 ## SMAC 樣板規則
 
-SMAC 電動缸以目前本機 preview 的 373、374、375 系列規格模組作為基準：
+SMAC 電動缸是第一個標準樣板：
 
-- 產品系列卡片負責放原廠系列介紹、產品圖片、定位用途與 2-3 個關鍵特點。
-- 產品規格詳情只放 accordion、規格摘要、型號表、PDF/CAD 入口與必要 CTA。
-- 規格表欄位依原廠產品表設計，不用跨系列硬統一到錯誤欄位。
-- 不把給開發人員看的註解放到前台，例如來源整理說明、待上架、待人工確認流程說明。
+- `產品系列` 負責系列辨識與選型導覽，每張卡片包含圖片、系列名稱、定位/用途、2-3 個關鍵規格或特點。
+- `產品規格詳情` 負責技術比對與文件查核，保留 accordion、摘要規格、原廠表格、PDF/CAD 入口與 CTA。
+- 產品規格詳情不得重複產品系列圖片，也不得放開發人員說明文字。
 
-## 本機產出與驗收入口
+## 主要驗收入口
 
-- 本機主控面板：`.codex_tmp/site-mirror-current/index.html`
-- 產品標準化報告：`.codex_tmp/site-mirror-current/reports/product-standardization-report.html`
-- 產品規格詳情 QA：`.codex_tmp/site-mirror-current/reports/product-spec-module-qa.html`
-- AI agent 審核決策：`.codex_tmp/site-mirror-current/reports/product-spec-agent-review.html`
+- 本機入口：`site/index.html`
+- 產品規格 QA：`site/reports/product-spec-module-qa.html`
+- AI agent review：`site/reports/product-spec-agent-review.html`
+- Source-needed audit：`site/reports/source-needed-audit.html`
+- GitHub readiness：`site/reports/github-bootstrap-readiness.html`
