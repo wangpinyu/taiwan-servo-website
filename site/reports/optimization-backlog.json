@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generated_at": "2026-07-05T21:27:45.201Z",
+    "generated_at": "2026-07-05T21:39:35.824Z",
     "total_categories": 18,
     "total_pages": 248,
     "total_blocking_pages": 6,
@@ -2628,7 +2628,7 @@
     {
       "category": "SEJINIGB 滾輪齒排",
       "priority": 15,
-      "branch": "phase-5-sejinigb-roller-pinion",
+      "branch": "phase-5-sejinigb",
       "total": 2,
       "status_counts": {
         "agent-approved-clean": 2
@@ -2757,7 +2757,7 @@
     {
       "category": "其他回授元件",
       "priority": 18,
-      "branch": "phase-4-other-feedback",
+      "branch": "phase-5-other-feedback",
       "total": 8,
       "status_counts": {
         "agent-approved-clean": 8
