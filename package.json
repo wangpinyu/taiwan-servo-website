@@ -17,6 +17,8 @@
     "qa:source-needed": "node tools/generate-source-needed-audit.mjs",
     "fix:spec-common": "node tools/apply-common-spec-module-fixes.mjs",
     "fix:spec-common:dry-run": "node tools/apply-common-spec-module-fixes.mjs --dry-run",
+    "fix:body-title-tags": "node tools/fix-body-title-tags.mjs",
+    "fix:body-title-tags:dry-run": "node tools/fix-body-title-tags.mjs --dry-run",
     "fix:h1-hierarchy": "node tools/fix-product-page-h1-hierarchy.mjs",
     "fix:h1-hierarchy:dry-run": "node tools/fix-product-page-h1-hierarchy.mjs --dry-run",
     "workflow:backlog": "node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs",

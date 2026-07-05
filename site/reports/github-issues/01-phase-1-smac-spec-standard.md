@@ -3,12 +3,12 @@
 Branch: `phase-1-smac-spec-standard`
 Priority: 1
 Pages: 14
-Blocking pages: 13
+Blocking pages: 11
 
 ## Status counts
 
-- agent-fix-required: 12
-- agent-approved-clean: 1
+- agent-fix-required: 10
+- agent-approved-clean: 3
 - agent-structure-review: 1
 
 ## Target pages
@@ -16,8 +16,8 @@ Blocking pages: 13
 | ID | Title | Status | Preview |
 | --- | --- | --- | --- |
 | 100 | Thomson 電動缸 | agent-fix-required | preview/products/detail/100.html |
-| 167 | SMAC 線性致動器 | agent-fix-required | preview/products/detail/167.html |
-| 168 | Servomech 電動缸 | agent-fix-required | preview/products/detail/168.html |
+| 167 | SMAC 線性致動器 | agent-approved-clean | preview/products/detail/167.html |
+| 168 | Servomech 電動缸 | agent-approved-clean | preview/products/detail/168.html |
 | 170 | Thomson升降柱(Lifting Columns) | agent-fix-required | preview/products/detail/170.html |
 | 171 | Thomson不銹鋼食品級線性致動器 | agent-fix-required | preview/products/detail/171.html |
 | 172 | Duff-Norton 線性致動器千斤頂接頭 | agent-approved-clean | preview/products/detail/172.html |

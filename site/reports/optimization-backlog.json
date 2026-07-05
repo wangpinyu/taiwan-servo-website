@@ -1,12 +1,12 @@
 {
   "summary": {
-    "generated_at": "2026-07-05T22:56:30.100Z",
+    "generated_at": "2026-07-05T23:06:37.345Z",
     "total_categories": 18,
     "total_pages": 248,
-    "total_blocking_pages": 164,
+    "total_blocking_pages": 161,
     "status_counts": {
-      "agent-fix-required": 145,
-      "agent-approved-clean": 84,
+      "agent-fix-required": 142,
+      "agent-approved-clean": 87,
       "agent-structure-review": 13,
       "agent-source-needed": 6
     }
@@ -18,8 +18,8 @@
       "branch": "phase-1-smac-spec-standard",
       "total": 14,
       "status_counts": {
-        "agent-fix-required": 12,
-        "agent-approved-clean": 1,
+        "agent-fix-required": 10,
+        "agent-approved-clean": 3,
         "agent-structure-review": 1
       },
       "pages": [
@@ -39,7 +39,7 @@
           "preview_rel": "preview/products/detail/167.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-fix-required",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -49,7 +49,7 @@
           "preview_rel": "preview/products/detail/168.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-fix-required",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -169,26 +169,6 @@
           "product_id": "100",
           "title": "Thomson 電動缸",
           "preview_rel": "preview/products/detail/100.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-fix-required",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "167",
-          "title": "SMAC 線性致動器",
-          "preview_rel": "preview/products/detail/167.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-fix-required",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "168",
-          "title": "Servomech 電動缸",
-          "preview_rel": "preview/products/detail/168.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
           "agent_status": "agent-fix-required",
@@ -480,8 +460,8 @@
       "branch": "phase-2-motors-spec-review",
       "total": 24,
       "status_counts": {
-        "agent-approved-clean": 10,
-        "agent-fix-required": 13,
+        "agent-approved-clean": 11,
+        "agent-fix-required": 12,
         "agent-structure-review": 1
       },
       "pages": [
@@ -521,7 +501,7 @@
           "preview_rel": "preview/products/detail/85.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-fix-required",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -727,16 +707,6 @@
         }
       ],
       "blocking_pages": [
-        {
-          "product_id": "85",
-          "title": "Accel 音圈馬達",
-          "preview_rel": "preview/products/detail/85.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-fix-required",
-          "warnings": [],
-          "critical": []
-        },
         {
           "product_id": "88",
           "title": "Harmonic AC Servo Motors（交流伺服馬達）",
