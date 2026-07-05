@@ -1,0 +1,24 @@
+name: Source needed
+description: Track pages where official source or download mapping is insufficient.
+title: "[Source needed] "
+labels: ["source-needed"]
+body:
+  - type: input
+    id: product
+    attributes:
+      label: Product ID / page
+    validations:
+      required: true
+  - type: textarea
+    id: missing
+    attributes:
+      label: Missing or conflicting source
+      description: Explain which specification, file, download, or official page could not be verified.
+    validations:
+      required: true
+  - type: textarea
+    id: attempted
+    attributes:
+      label: Evidence checked
+      description: List local preview, candidate module, official source pages, or files already inspected.
+

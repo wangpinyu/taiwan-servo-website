@@ -1,0 +1,22 @@
+- name: spec-module
+  color: "0E8A16"
+  description: Product specification module structure, content, tables, or accordion work.
+- name: seo
+  color: "1D76DB"
+  description: SEO, schema, metadata, headings, canonical, or internal-link work.
+- name: uiux
+  color: "5319E7"
+  description: Layout, responsive, accessibility, visual hierarchy, or readability work.
+- name: download-links
+  color: "FBCA04"
+  description: PDF, CAD, manual, catalog, drawing, software, or external-source link mapping.
+- name: source-needed
+  color: "D93F0B"
+  description: Official source, manufacturer page, or data mapping still needs confirmation.
+- name: backend-ready
+  color: "006B75"
+  description: Local preview is accepted and can be prepared for backend/server deployment.
+- name: blocked-server-large-file
+  color: "BFDADC"
+  description: Known large-file or server upload limitation; use external source or defer upload.
+

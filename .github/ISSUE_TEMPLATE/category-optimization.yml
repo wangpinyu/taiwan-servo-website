@@ -1,0 +1,36 @@
+name: Product category optimization
+description: Track one product category or brand through spec-module, SEO, UIUX, and download-link QA.
+title: "[Category] "
+labels: ["spec-module", "seo", "uiux", "download-links"]
+body:
+  - type: input
+    id: category
+    attributes:
+      label: Category / brand
+      description: Use the category path from product-spec-agent-review.
+    validations:
+      required: true
+  - type: textarea
+    id: pages
+    attributes:
+      label: Target pages
+      description: Paste product IDs, titles, and preview paths from optimization-backlog.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      value: |
+        - All target pages are agent-approved-clean, or source-needed is justified.
+        - npm run validate passes.
+        - Product spec details are under Product Series.
+        - Tables, accordions, CTAs, downloads, and SEO checks match the project rules.
+    validations:
+      required: true
+  - type: textarea
+    id: exceptions
+    attributes:
+      label: Source or backend exceptions
+      description: List official-source conflicts, missing downloads, backend limitations, or large-file issues.
+

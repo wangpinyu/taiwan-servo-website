@@ -32,4 +32,4 @@ jobs:
           path: |
             site/reports/*.html
             site/reports/*.json
-
+            site/reports/github-issues/*.md

@@ -63,8 +63,18 @@ Large images and documents are tracked through Git LFS via `.gitattributes`.
    - `site/reports/product-spec-module-qa.html`
    - `site/reports/product-spec-agent-review.html`
    - `site/reports/github-ready-validation.html`
+   - `site/reports/optimization-backlog.html`
 4. Use AI agent review status to decide next step.
 5. Only after local preview is accepted, prepare backend or server deployment.
+
+## GitHub Optimization Workflow
+
+- Use one branch and one pull request per product category or brand.
+- Keep `main` passing `npm run validate`.
+- Use `.github/PULL_REQUEST_TEMPLATE.md` for every PR.
+- Use `.github/labels.yml` as the label source of truth.
+- Use `npm run workflow:backlog` to regenerate category-level issue drafts from AI review results.
+- See `docs/github-optimization-workflow.md` for the complete operating rules.
 
 ## Current Review Policy
 
@@ -76,4 +86,3 @@ Human review is reserved for exceptions:
 - Source data conflicts.
 - Backend/template limitation cannot be resolved locally.
 - Business decision is required, such as omitting a product category.
-
