@@ -114,7 +114,35 @@ powershell -ExecutionPolicy Bypass -File .\tools\open-github-pr-pages.ps1 -All
 - Use `.github/PULL_REQUEST_TEMPLATE.md` for every PR.
 - Use `.github/labels.yml` as the label source of truth.
 - Use `npm run workflow:backlog` to regenerate category-level issue drafts from AI review results.
+- Use `npm run workflow:issue-index` to regenerate the issue control table after backlog changes.
 - See `docs/github-optimization-workflow.md` for the complete operating rules.
+
+## Issue Control
+
+Regenerate category tracking issue drafts and the issue control table:
+
+```powershell
+npm run workflow:backlog
+```
+
+Review the generated issue table:
+
+```text
+site/reports/github-issues/index.md
+site/reports/github-issues/index.html
+```
+
+Prepare one GitHub issue page and copy its Markdown draft to the clipboard:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\prepare-github-issue.ps1 -Branch phase-1-smac-spec-standard
+```
+
+You can also select by priority:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\prepare-github-issue.ps1 -Priority 1
+```
 
 ## Current Review Policy
 
