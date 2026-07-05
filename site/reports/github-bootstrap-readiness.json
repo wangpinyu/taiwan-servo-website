@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T21:52:05.963Z",
+  "generatedAt": "2026-07-05T21:55:24.467Z",
   "status": "ready-needs-token",
   "repository": "wangpinyu/taiwan-servo-website",
   "tokenPresent": false,
@@ -11,31 +11,31 @@
     },
     {
       "branch": "phase-1-smac-spec-standard",
-      "remoteSha": "1fcb5d7"
+      "remoteSha": "4ccc256"
     },
     {
       "branch": "phase-2-drivers-spec-review",
-      "remoteSha": "abb7d17"
+      "remoteSha": "f4ca0f0"
     },
     {
       "branch": "phase-2-motors-spec-review",
-      "remoteSha": "e9a4809"
+      "remoteSha": "13f9c85"
     },
     {
       "branch": "phase-3-harmonic-drive",
-      "remoteSha": "6afe6b3"
+      "remoteSha": "e0da166"
     },
     {
       "branch": "phase-3-renishaw-feedback",
-      "remoteSha": "13d46a1"
+      "remoteSha": "25ed30e"
     },
     {
       "branch": "phase-3-positioning-stage",
-      "remoteSha": "1285c3e"
+      "remoteSha": "a154001"
     },
     {
       "branch": "phase-3-bearings-air-mechanical",
-      "remoteSha": "6936189"
+      "remoteSha": "d0809bd"
     },
     {
       "branch": "phase-4-couplings",
