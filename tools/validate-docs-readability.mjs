@@ -14,7 +14,23 @@ const docs = [
   'docs/spec-module-review-log.md',
 ];
 
-const mojibakePatterns = [/嚗/, /閬/, /蝯/, /銝/, /摰/, /撱/, /鞈/, /璅/, /�/];
+const suspiciousMojibakeTokens = [
+  '嚗',
+  '銝',
+  '閬',
+  '蝯',
+  '鞈',
+  '瘥',
+  '撱',
+  '摰',
+  '憿',
+  '頛',
+  '餃',
+  '璅',
+  '蝣',
+  '?Ｗ',
+  '?',
+];
 
 function htmlEscape(value) {
   return String(value)
@@ -32,17 +48,35 @@ function readUtf8(relPath) {
   }
 }
 
+function countOccurrences(text, token) {
+  return text.split(token).length - 1;
+}
+
+function findMojibakeHits(text) {
+  const hits = [];
+  if (text.includes('\uFFFD')) {
+    hits.push({ token: 'replacement-character', count: countOccurrences(text, '\uFFFD') });
+  }
+  for (const token of suspiciousMojibakeTokens) {
+    const count = countOccurrences(text, token);
+    if (count > 0) hits.push({ token, count });
+  }
+  return hits;
+}
+
 const checks = docs.map((relPath) => {
   const text = readUtf8(relPath);
   if (typeof text !== 'string') {
     return { file: relPath, status: 'error', error: text.error };
   }
+
   const title = text.split(/\r?\n/).find((line) => line.trim()) || '';
-  const mojibakeHits = mojibakePatterns.filter((pattern) => pattern.test(text)).map((pattern) => pattern.source);
+  const mojibakeHits = findMojibakeHits(text);
   const errors = [];
+
   if (!title.startsWith('# ')) errors.push('missing_top_level_title');
-  if (text.includes('\uFFFD')) errors.push('replacement_character');
-  if (mojibakeHits.length) errors.push('mojibake_pattern');
+  if (mojibakeHits.length) errors.push('mojibake_suspected');
+
   return {
     file: relPath,
     status: errors.length ? 'error' : 'pass',
@@ -64,19 +98,19 @@ const report = {
   checks,
 };
 
-fs.writeFileSync(path.join(reportDir, 'docs-readability-validation.json'), JSON.stringify(report, null, 2), 'utf8');
+fs.writeFileSync(path.join(reportDir, 'docs-readability-validation.json'), `${JSON.stringify(report, null, 2)}\n`, 'utf8');
 
 const rows = checks.map((check) => `<tr>
   <td>${htmlEscape(check.status)}</td>
   <td>${htmlEscape(check.file)}</td>
   <td>${htmlEscape(check.title || '')}</td>
   <td>${htmlEscape((check.errors || []).join(', '))}</td>
-  <td>${htmlEscape((check.mojibakeHits || []).join(', '))}</td>
+  <td>${htmlEscape((check.mojibakeHits || []).map((hit) => `${hit.token}:${hit.count}`).join(', '))}</td>
 </tr>`).join('');
 
 fs.writeFileSync(
   path.join(reportDir, 'docs-readability-validation.html'),
-  `<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><title>Docs Readability Validation</title><style>body{font-family:Arial,'Microsoft JhengHei',sans-serif;margin:24px}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #ddd;padding:8px;text-align:left;vertical-align:top}th{background:#eef7f0}</style></head><body><h1>Docs Readability Validation</h1><pre>${htmlEscape(JSON.stringify(report.summary, null, 2))}</pre><table><thead><tr><th>Status</th><th>File</th><th>Title</th><th>Errors</th><th>Mojibake hits</th></tr></thead><tbody>${rows}</tbody></table></body></html>`,
+  `<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><title>Docs Readability Validation</title><style>body{font-family:Arial,'Microsoft JhengHei',sans-serif;margin:24px}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #ddd;padding:8px;text-align:left;vertical-align:top}th{background:#eef7f0}</style></head><body><h1>Docs Readability Validation</h1><p>Checks core workflow documents for top-level titles and common UTF-8 mojibake artifacts.</p><pre>${htmlEscape(JSON.stringify(report.summary, null, 2))}</pre><table><thead><tr><th>Status</th><th>File</th><th>Title</th><th>Errors</th><th>Mojibake hits</th></tr></thead><tbody>${rows}</tbody></table></body></html>`,
   'utf8',
 );
 
