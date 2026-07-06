@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T09:29:01.453Z",
+  "generatedAt": "2026-07-06T09:34:49.984Z",
   "status": "ok",
   "summary": {
-    "docs": 16,
+    "docs": 18,
     "errors": 0
   },
   "checks": [
@@ -66,6 +66,24 @@
       "status": "pass",
       "title": "GitHub Bootstrap Readiness",
       "chars": 5283,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/github-issues/index.html",
+      "type": "report",
+      "status": "pass",
+      "title": "GitHub Issue Index",
+      "chars": 12574,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/github-prs/index.html",
+      "type": "report",
+      "status": "pass",
+      "title": "GitHub PR Index",
+      "chars": 7757,
       "errors": [],
       "mojibakeHits": []
     },

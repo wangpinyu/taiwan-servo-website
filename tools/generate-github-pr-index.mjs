@@ -65,6 +65,14 @@ function readableSourceCategory(value) {
   return text;
 }
 
+function htmlEscape(value) {
+  return String(value ?? '')
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;');
+}
+
 fs.mkdirSync(outDir, { recursive: true });
 
 const generatedAt = new Date().toISOString();
@@ -141,6 +149,65 @@ const md = [
 
 fs.writeFileSync(path.join(outDir, 'index.json'), `${JSON.stringify(json, null, 2)}\n`, 'utf8');
 fs.writeFileSync(path.join(outDir, 'index.md'), `${md.join('\n')}\n`, 'utf8');
+
+const rows = entries.map((entry) => {
+  const pages = entry.smoke?.pages ?? '';
+  const checks = entry.smoke?.checks ?? '';
+  const failures = entry.smoke?.failures ?? '';
+  const prLink = entry.remoteExists
+    ? `<a href="${htmlEscape(entry.prUrl)}">Create PR</a>`
+    : 'remote branch missing';
+  const draftLink = entry.prSummaryExists
+    ? `<a href="./${htmlEscape(entry.branch)}.md">draft</a>`
+    : 'missing';
+  return `<tr>
+    <td>${htmlEscape(entry.priority)}</td>
+    <td>${htmlEscape(entry.category)}</td>
+    <td><code>${htmlEscape(entry.branch)}</code></td>
+    <td><code>${htmlEscape(entry.base)}</code></td>
+    <td>${htmlEscape(pages)}</td>
+    <td>${htmlEscape(checks)}</td>
+    <td>${htmlEscape(failures)}</td>
+    <td>${draftLink}</td>
+    <td>${prLink}</td>
+  </tr>`;
+}).join('\n');
+
+const html = `<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub PR Index</title>
+  <style>
+    body{font-family:Arial,"Microsoft JhengHei",sans-serif;margin:24px;color:#10251b;background:#f8faf8}
+    table{border-collapse:collapse;width:100%;background:#fff}
+    th,td{border:1px solid #d8e2dc;padding:10px;text-align:left;vertical-align:top}
+    th{background:#e9f4ed}
+    code{white-space:nowrap}
+    .summary{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}
+    .card{background:#fff;border:1px solid #d8e2dc;border-radius:8px;padding:12px 16px}
+  </style>
+</head>
+<body>
+  <h1>GitHub PR Index</h1>
+  <p>Generated at ${htmlEscape(generatedAt)}. Create PRs from lower priority to higher priority only after phase 1 is accepted, or use the listed base branch for stacked review.</p>
+  <div class="summary">
+    <div class="card">Draft PRs: ${htmlEscape(entries.length)}</div>
+    <div class="card">Remote branches: ${htmlEscape(entries.filter((entry) => entry.remoteExists).length)}</div>
+    <div class="card">Existing remote PR refs: ${htmlEscape(existingPullRefs.length)}</div>
+  </div>
+  <table>
+    <thead>
+      <tr><th>#</th><th>Category</th><th>Branch</th><th>Base</th><th>Pages</th><th>Checks</th><th>Failures</th><th>Draft</th><th>Create</th></tr>
+    </thead>
+    <tbody>${rows}</tbody>
+  </table>
+</body>
+</html>
+`;
+
+fs.writeFileSync(path.join(outDir, 'index.html'), html, 'utf8');
 
 console.log(JSON.stringify({
   generatedAt,
