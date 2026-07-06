@@ -1,42 +1,39 @@
-# Private GitHub Repo Setup
+# GitHub 私有 Repo 準備狀態
 
 更新日期：2026-07-06
 
-本文件記錄目前 GitHub-ready repo 的狀態與後續啟用 GitHub API bootstrap 的方式。
+本文件記錄目前星泰網站本機優化專案在 GitHub 私有 repo 上的準備狀態。目標是讓後續 UIUX、SEO、產品規格詳情、下載連結與部署前檢查都能透過分支、驗證報告與 PR 流程追蹤。
 
-## 本機 repo
+## 本機 Repo
 
 ```text
 F:\Taiwan_Servo_website_management_Codex_File\github-ready\taiwan-servo-site-optimization
 ```
 
-## 遠端 repo
+## GitHub Remote
 
 ```text
 https://github.com/wangpinyu/taiwan-servo-website.git
 ```
 
-repo 應保持 private。不要把後台密碼、cookie、token、`.env` 或任何登入狀態放進 repo。
+repo 已設定為 private。不要把 cookie、token、`.env`、密碼、憑證或任何私密設定提交到 repo。
 
-## 目前已完成
+## 已完成項目
 
 - Git repo 已初始化。
-- `main` 已推送。
-- 17 個 phase branches 已推送。
-- Git LFS 已由 `.gitattributes` 規範大型 PDF、ZIP、CAD、圖片。
+- `main` 已推送到 GitHub。
+- phase / source-audit 分支已建立並推送。
+- Git LFS 已設定，涵蓋 PDF、ZIP、CAD、圖片等大型檔案類型。
 - GitHub Actions 已建立：`.github/workflows/preview-qa.yml`。
-- Issue templates、PR template、labels 設定已建立。
-- 本機 preview 與 QA 指令已建立：
+- Issue template、PR template 與 labels 設定檔已建立。
+- 本機 preview 與 QA 指令已可執行：
   - `npm run serve`
   - `npm run validate`
+  - `npm run validate:strict`
   - `npm run qa:visual-sample`
-- GitHub bootstrap 腳本已建立：
-  - labels
-  - tracking issues
-  - pull requests
-  - readiness report
+- GitHub bootstrap 腳本已可產生 labels、tracking issues、PR drafts 與 readiness report。
 
-## 基本檢查
+## 常用驗證指令
 
 ```powershell
 cd 'F:\Taiwan_Servo_website_management_Codex_File\github-ready\taiwan-servo-site-optimization'
@@ -44,18 +41,16 @@ npm run validate:strict
 git status --short
 ```
 
-## GitHub Token 權限
+## GitHub Token 需求
 
-若要由腳本建立 labels、issues 與 PR，需要 fine-grained GitHub token，範圍限於此 private repo。
-
-建議權限：
+若要由本機腳本直接建立 GitHub labels、issues 與 pull requests，需要 fine-grained GitHub token，權限至少包含：
 
 - Metadata: read
 - Contents: read
 - Issues: read/write
 - Pull requests: read/write
 
-token 只允許放在目前 PowerShell session：
+token 只應暫存在目前 PowerShell session，不要寫入檔案或 commit：
 
 ```powershell
 $env:GITHUB_TOKEN = "<token>"
@@ -63,18 +58,18 @@ npm run github:bootstrap:smoke
 Remove-Item Env:\GITHUB_TOKEN
 ```
 
-不得把 token 寫入檔案、commit、issue、PR 或聊天紀錄。
+如果沒有 token，本機仍可產生 issue / PR 草案與 readiness 報告，但無法透過 GitHub API 建立遠端 labels、issues 或 PR。
 
-## Bootstrap 流程
+## Bootstrap 指令
 
-先 dry-run：
+Dry run：
 
 ```powershell
 npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
 ```
 
-有 token 後先跑 smoke：
+有 token 時先跑 smoke：
 
 ```powershell
 $env:GITHUB_TOKEN = "<token>"
@@ -82,7 +77,7 @@ npm run github:bootstrap:smoke
 Remove-Item Env:\GITHUB_TOKEN
 ```
 
-smoke 成功後再建立全部 labels、issues、PR：
+smoke 通過後再執行完整 bootstrap：
 
 ```powershell
 $env:GITHUB_TOKEN = "<token>"
@@ -90,7 +85,7 @@ npm run github:bootstrap
 Remove-Item Env:\GITHUB_TOKEN
 ```
 
-## 重要報告
+## 主要報告
 
 - `site/reports/github-bootstrap-readiness.html`
 - `site/reports/deployment-readiness-audit.html`
@@ -103,9 +98,11 @@ Remove-Item Env:\GITHUB_TOKEN
 - `site/reports/visual-sample-qa.html`
 - `site/reports/source-needed-audit.html`
 - `site/reports/optimization-backlog.html`
-- `site/reports/github-issues/index.md`
-- `site/reports/github-prs/index.md`
+- `site/reports/github-issues/index.html`
+- `site/reports/github-prs/index.html`
 
-## 目前限制
+## 目前狀態
 
-目前 readiness 狀態為 `ready-needs-token` 時，代表本機 repo、分支、draft 與報告已準備好，但目前 shell 沒有 `GITHUB_TOKEN` / `GH_TOKEN`，因此尚未真正建立 GitHub labels、issues、PR。
+目前 GitHub readiness 狀態為 `ready-needs-token`。這代表本機 repo、preview、驗證、草案與報告都已準備好；剩下的外部動作是提供一次性 GitHub token，讓腳本建立或更新遠端 labels、issues 與 PR。
+
+部署與後台儲存不在本階段執行。進入部署階段前，需要另外確認伺服器覆蓋策略、後台限制、備份與人工批准。

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T09:44:53.746Z",
+  "generatedAt": "2026-07-06T09:49:42.841Z",
   "status": "ok",
   "summary": {
     "docs": 19,
@@ -37,8 +37,8 @@
       "file": "docs/github-private-repo-setup.md",
       "type": "doc",
       "status": "pass",
-      "title": "# Private GitHub Repo Setup",
-      "chars": 2465,
+      "title": "# GitHub 私有 Repo 準備狀態",
+      "chars": 2633,
       "errors": [],
       "mojibakeHits": []
     },

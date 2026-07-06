@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T09:45:37.297Z",
+  "generatedAt": "2026-07-06T09:50:28.585Z",
   "objective": "Audit current evidence against the GPT optimization work plan.",
   "scope": {
     "productPages": 248,
@@ -101,7 +101,7 @@
           "no_spec_module_count": 6
         },
         "warning_taxonomy": {
-          "generated_at": "2026-07-06T09:45:07.199Z",
+          "generated_at": "2026-07-06T09:49:53.737Z",
           "total_warning_entries": 0,
           "affected_pages": 0,
           "warning_type_counts": {},
@@ -169,7 +169,7 @@
       ],
       "missing": [],
       "metrics": {
-        "generated_at": "2026-07-06T09:45:07.497Z",
+        "generated_at": "2026-07-06T09:49:53.966Z",
         "total_categories": 18,
         "total_pages": 248,
         "total_blocking_pages": 0,
