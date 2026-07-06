@@ -3,12 +3,11 @@
 Branch: `phase-3-harmonic-drive`
 Priority: 5
 Pages: 29
-Blocking pages: 3
+Blocking pages: 0
 
 ## Status counts
 
-- agent-approved-clean: 26
-- agent-structure-review: 3
+- agent-approved-clean: 29
 
 ## Target pages
 
@@ -16,14 +15,14 @@ Blocking pages: 3
 | --- | --- | --- | --- |
 | 150 | HarmonicDrive® 諧波減速機 | agent-approved-clean | preview/products/detail/150.html |
 | 196 | 線性直線致動器 LBC系列 | agent-approved-clean | preview/products/detail/196.html |
-| 199 | KDU | agent-structure-review | preview/products/detail/199.html |
+| 199 | KDU | agent-approved-clean | preview/products/detail/199.html |
 | 200 | HMA | agent-approved-clean | preview/products/detail/200.html |
-| 202 | HPGP/HPG系列 行星減速機 | agent-structure-review | preview/products/detail/202.html |
+| 202 | HPGP/HPG系列 行星減速機 | agent-approved-clean | preview/products/detail/202.html |
 | 203 | CSG-GH/CSF-GH 系列 | agent-approved-clean | preview/products/detail/203.html |
 | 204 | HPF | agent-approved-clean | preview/products/detail/204.html |
 | 206 | LA 系列 DC線性伺服致動器 | agent-approved-clean | preview/products/detail/206.html |
 | 272 | FD系列差動齒輪O | agent-approved-clean | preview/products/detail/272.html |
-| 273 | SHA | agent-structure-review | preview/products/detail/273.html |
+| 273 | SHA | agent-approved-clean | preview/products/detail/273.html |
 | 275 | RKF | agent-approved-clean | preview/products/detail/275.html |
 | 276 | RH | agent-approved-clean | preview/products/detail/276.html |
 | 277 | FLA | agent-approved-clean | preview/products/detail/277.html |
