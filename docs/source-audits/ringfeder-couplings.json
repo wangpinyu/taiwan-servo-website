@@ -1,0 +1,120 @@
+{
+  "updated_at": "2026-07-06",
+  "scope": {
+    "brand": "RINGFEDER",
+    "product_ids": ["208", "209", "210", "211", "212", "213", "215", "335", "336"],
+    "backend_operations_out_of_scope": true,
+    "purpose": "Official-source evidence for pages currently marked agent-source-needed."
+  },
+  "policy": {
+    "no_invented_specifications": true,
+    "official_sources_only": true,
+    "large_file_strategy": "Prefer official manufacturer pages or official document URLs and mark external-source when server upload/download is unreliable."
+  },
+  "pages": [
+    {
+      "product_id": "208",
+      "local_title": "RINGFEDER 波紋管聯軸器",
+      "official_match": "Metal Bellows Couplings GWB / GWB AKN",
+      "status": "source-found",
+      "sources": [
+        {"type": "official-product-page", "url": "https://www.ringfeder.com/products/metal-bellows-couplings/gwb-akn/"},
+        {"type": "official-product-paper", "url": "https://www.ringfeder.com/globalassets/downloads/product-paper/product-paper-tech-paper-ringfeder-metal-bellows-couplings-gwb-en.pdf"},
+        {"type": "official-tech-paper", "url": "https://www.ringfeder.com/globalassets/downloads/tech-paper/couplings/metal-bellows-couplings-gwb/tech-paper-ringfeder-metal-bellows-couplings-gwb-akn-en.pdf"}
+      ],
+      "module_readiness": "ready-for-source-backed-table"
+    },
+    {
+      "product_id": "209",
+      "local_title": "RINFEDER 鋼片式聯軸器TND系列",
+      "official_match": "Steel Disc Couplings TND",
+      "status": "source-found",
+      "sources": [
+        {"type": "official-product-page", "url": "https://www.ringfeder.com/products/steel-disc-couplings/"},
+        {"type": "official-product-paper", "url": "https://www.ringfeder.com/globalassets/downloads/product-paper/product-paper-tech-paper-ringfeder-steel-disc-couplings-tnd-en.pdf"}
+      ],
+      "module_readiness": "ready-for-source-backed-table",
+      "notes": ["Current local title contains RINFEDER typo; source-backed spelling is RINGFEDER."]
+    },
+    {
+      "product_id": "210",
+      "local_title": "RINFEDER齒輪聯軸器TNZ系列",
+      "official_match": "Gear Couplings TNZ",
+      "status": "source-found",
+      "sources": [
+        {"type": "official-product-page", "url": "https://www.ringfeder.com/products/gear-couplings/tnz-zcaz-zcbz/"},
+        {"type": "official-product-paper", "url": "https://www.ringfeder.com/globalassets/downloads/product-paper/product-paper-tech-paper-ringfeder-gear-couplings-tnz-en.pdf"}
+      ],
+      "module_readiness": "ready-for-source-backed-table"
+    },
+    {
+      "product_id": "211",
+      "local_title": "RINFEDER筒形聯軸器TNK系列",
+      "official_match": "Barrel Couplings TNK",
+      "status": "source-found",
+      "sources": [
+        {"type": "official-product-page", "url": "https://www.ringfeder.com/products/barrel-couplings/"},
+        {"type": "official-product-paper", "url": "https://www.ringfeder.com/globalassets/downloads/product-paper/product-paper-tech-paper-ringfeder-barrel-couplings-tnk-en.pdf"},
+        {"type": "official-tech-paper", "url": "https://www.ringfeder.com/globalassets/downloads/tech-paper/couplings/barrel-couplings-tnk/tech-paper-ringfeder-barrel-couplings-tnk-tkvo-en.pdf"}
+      ],
+      "module_readiness": "ready-for-source-backed-table"
+    },
+    {
+      "product_id": "212",
+      "local_title": "RINFEDER法蘭聯軸器TNF系列",
+      "official_match": "Flange Couplings TNF",
+      "status": "source-found",
+      "sources": [
+        {"type": "official-product-page", "url": "https://www.ringfeder.com/products/flange-couplings/"}
+      ],
+      "module_readiness": "source-found-download-url-needed",
+      "notes": ["Official page exposes TNF 5571 summary fields and a Product Paper TNF download entry; exact PDF URL still needs resolution."]
+    },
+    {
+      "product_id": "213",
+      "local_title": "RINFEDER撓性聯軸器TNR系列",
+      "official_match": "Torsional Highflex Couplings TNR",
+      "status": "source-found",
+      "sources": [
+        {"type": "official-product-page", "url": "https://www.ringfeder.com/products/torsional-highflex-couplings/tnr-2424.1/"},
+        {"type": "official-product-paper", "url": "https://www.ringfeder.com/globalassets/downloads/product-paper/product-paper-tech-paper-ringfeder-torsional-highflex-couplings-tnr-en.pdf"}
+      ],
+      "module_readiness": "ready-for-source-backed-table"
+    },
+    {
+      "product_id": "215",
+      "local_title": "RINGFEDER 摩擦彈簧",
+      "official_match": "Friction Springs",
+      "status": "source-found-category-mismatch",
+      "sources": [
+        {"type": "official-product-page", "url": "https://www.ringfeder.com/products/friction-springs/"},
+        {"type": "official-product-paper", "url": "https://www.ringfeder.com/globalassets/downloads/product-paper/product-paper-tech-paper-ringfeder-damping-technology-en.pdf"}
+      ],
+      "module_readiness": "needs-category-decision",
+      "notes": ["Official source classifies friction springs under damping components, not couplings."]
+    },
+    {
+      "product_id": "335",
+      "local_title": "Ringfeder RLP & RLB 彈性插銷聯軸器",
+      "official_match": "Pin & Bush Couplings RLP / RLB",
+      "status": "partial-source-found",
+      "sources": [
+        {"type": "official-product-page", "url": "https://www.ringfeder.com/products/pin-and-bush-couplings/rlp/"},
+        {"type": "official-instruction-manual", "url": "https://www.ringfeder.com/globalassets/downloads/instructions/pin--bush-couplings-rlp--rlb/installation-and-operations-manual-ringfeder-pin-and-bush-couplings-rlb-en.pdf"}
+      ],
+      "module_readiness": "partial-source-more-official-table-needed"
+    },
+    {
+      "product_id": "336",
+      "local_title": "Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)",
+      "official_match": "Tyre Couplings RLT / RLU",
+      "status": "partial-source-found",
+      "sources": [
+        {"type": "official-family-page", "url": "https://www.ringfeder.com/products/tyre-couplings/"},
+        {"type": "official-product-page", "url": "https://www.ringfeder.com/products/tyre-couplings/rlt/"},
+        {"type": "official-product-page", "url": "https://www.ringfeder.com/products/tyre-couplings/rlu/"}
+      ],
+      "module_readiness": "partial-source-more-download-url-needed"
+    }
+  ]
+}

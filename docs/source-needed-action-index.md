@@ -59,3 +59,17 @@ These should not be forced into the standard `產品規格詳情` module without
 3. For each page, produce a small evidence package: source URLs, matched product family, available fields, missing fields, download links, and whether the page can receive `產品規格詳情`.
 4. Update the local preview and rerun `npm run validate`.
 5. Only move pages to `agent-approved-clean` when the visible module, downloads, CTA, mobile table behavior, and source traceability are verified.
+
+## Source Audit Progress
+
+### RINGFEDER Couplings
+
+- Branch: `source-audit-ringfeder-couplings`
+- Evidence package: `docs/source-audits/ringfeder-couplings.md`
+- Machine-readable evidence: `docs/source-audits/ringfeder-couplings.json`
+- Covered pages: `208`, `209`, `210`, `211`, `212`, `213`, `215`, `335`, `336`
+- Current result:
+  - `source-found`: 208, 209, 210, 211, 212, 213
+  - `source-found-category-mismatch`: 215
+  - `partial-source-found`: 335, 336
+- Important: this source audit is evidence only. These pages should remain `agent-source-needed` until their visible `產品規格詳情` modules are revised and validated from the official fields/downloads.

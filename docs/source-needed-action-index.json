@@ -148,5 +148,19 @@
       "disposition": "training-content-no-spec",
       "handling": "Training/video content should use a training resource schema, not product specifications."
     }
+  ],
+  "source_audit_progress": [
+    {
+      "branch": "source-audit-ringfeder-couplings",
+      "audit_md": "docs/source-audits/ringfeder-couplings.md",
+      "audit_json": "docs/source-audits/ringfeder-couplings.json",
+      "covered_product_ids": ["208", "209", "210", "211", "212", "213", "215", "335", "336"],
+      "status_summary": {
+        "source_found": ["208", "209", "210", "211", "212", "213"],
+        "source_found_category_mismatch": ["215"],
+        "partial_source_found": ["335", "336"]
+      },
+      "note": "Evidence package only. Pages remain source-needed until visible modules are revised and validated from official fields/downloads."
+    }
   ]
 }

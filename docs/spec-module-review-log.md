@@ -119,3 +119,15 @@ npm run github:bootstrap:smoke:dry-run
 - AI source audit queue: 14 pages requiring official manufacturer evidence before any product specification table can be created or revised.
 - Non-standard exceptions: 6 ACS test/software/informational/training pages that should not be forced into the hardware `產品規格詳情` schema without a separate content decision.
 - The index is intentionally local-preview/GitHub workflow only; it does not authorize backend save, CKFinder upload, or test-site publication.
+
+## RINGFEDER source audit progress
+
+- Branch: `source-audit-ringfeder-couplings`
+- Evidence package: `docs/source-audits/ringfeder-couplings.md`
+- Machine-readable evidence: `docs/source-audits/ringfeder-couplings.json`
+- Covered pages: 208, 209, 210, 211, 212, 213, 215, 335, 336.
+- Current source status:
+  - `source-found`: 208, 209, 210, 211, 212, 213
+  - `source-found-category-mismatch`: 215
+  - `partial-source-found`: 335, 336
+- Review rule: these pages stay `agent-source-needed` until their visible `產品規格詳情` modules are revised from official fields/downloads and pass validation.

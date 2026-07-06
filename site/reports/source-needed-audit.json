@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T06:00:32.970Z",
+  "generated_at": "2026-07-06T06:18:42.595Z",
   "scope": "Source-needed and no-spec-module audit for product pages",
   "policy": {
     "noSpecWithoutSource": true,
