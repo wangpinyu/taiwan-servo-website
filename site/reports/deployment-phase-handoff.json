@@ -1,0 +1,97 @@
+{
+  "generatedAt": "2026-07-06T10:04:40.259Z",
+  "status": "ready-for-deployment-approval",
+  "deploymentAllowedNow": false,
+  "reason": "Local preview and deploy classification are ready, but backend/server mutation still requires explicit deployment-phase approval.",
+  "evidence": {
+    "deploymentReadiness": "site/reports/deployment-readiness-audit.html",
+    "deploymentClassification": "site/reports/deployment-review-classification.html",
+    "completionAudit": "site/reports/gpt-optimization-completion-audit.html",
+    "runbook": "docs/deployment-phase-runbook.md"
+  },
+  "summary": {
+    "pagesTotal": 358,
+    "deployFiles": 1677,
+    "safeOverwriteCandidates": 1415,
+    "unresolvedNeedsReview": 0,
+    "bucketCounts": {
+      "same-path-overwrite": 1415,
+      "css-relative-asset": 69,
+      "site-static-asset-review": 3,
+      "local-placeholder-exclude": 6,
+      "backend-managed-download-route": 184
+    },
+    "localOptimizationReady": true,
+    "fullObjectiveComplete": false
+  },
+  "phases": [
+    {
+      "id": "approval-and-backup",
+      "title": "Approval and backup",
+      "required": [
+        "Get explicit human approval for deployment scope.",
+        "Back up backend-managed content and target server files.",
+        "Record rollback location and owner."
+      ]
+    },
+    {
+      "id": "same-path-overwrite",
+      "title": "Same-path overwrite candidates",
+      "count": 1415,
+      "required": [
+        "Review package manifest before upload.",
+        "Upload only after backup.",
+        "Smoke test affected pages after upload."
+      ]
+    },
+    {
+      "id": "backend-managed-download-route",
+      "title": "Backend-managed downloads",
+      "count": 184,
+      "required": [
+        "Use backend/file-manager workflow.",
+        "Do not blindly overwrite /file/download or /file/output routes.",
+        "Verify every changed download link from frontend."
+      ]
+    },
+    {
+      "id": "css-relative-asset",
+      "title": "CSS relative assets",
+      "count": 69,
+      "required": [
+        "Keep assets with CSS bundle or remap paths during deployment.",
+        "Verify icons, social buttons, search icons, and fonts."
+      ]
+    },
+    {
+      "id": "site-static-asset-review",
+      "title": "Site static assets",
+      "count": 3,
+      "required": [
+        "Review favicon/logo/static asset changes separately.",
+        "Confirm cache-busting behavior if replacing existing files."
+      ]
+    },
+    {
+      "id": "local-placeholder-exclude",
+      "title": "Excluded local placeholders",
+      "count": 6,
+      "required": [
+        "Do not upload placeholder files.",
+        "Resolve source mapping if the visible page needs the asset."
+      ]
+    }
+  ],
+  "smokeTests": [
+    "Open homepage, one product category, one product detail, and one service page on desktop.",
+    "Repeat on mobile viewport.",
+    "Check no broken images and no horizontal overflow.",
+    "Click representative PDF/CAD/download links.",
+    "Check canonical, H1, breadcrumb, and visible CTA remain intact."
+  ],
+  "rollback": [
+    "If smoke test fails, stop broad deployment.",
+    "Restore backed-up server files and backend content.",
+    "Re-run the same smoke test set after rollback."
+  ]
+}

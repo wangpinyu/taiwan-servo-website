@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T09:59:18.932Z",
+  "generatedAt": "2026-07-06T10:04:40.332Z",
   "objective": "Audit current evidence against the GPT optimization work plan.",
   "scope": {
     "productPages": 248,
     "currentStage": "local-preview-and-github-workflow",
     "validationScripts": {
-      "strict": "node tools/validate-docs-readability.mjs && node tools/validate-static-site.mjs --strict && node tools/validate-local-mirror-readiness.mjs && node tools/validate-customer-facing-notes.mjs && node tools/resolve-product-standardization-review.mjs && node tools/validate-product-spec-modules.mjs --strict && node tools/validate-spec-download-affordances.mjs --strict && node tools/validate-product-page-structure-seo.mjs --strict && node tools/generate-product-seo-warning-taxonomy.mjs && node tools/generate-product-spec-agent-review.mjs && node tools/generate-source-needed-audit.mjs && node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs && node tools/generate-github-pr-index.mjs && node tools/generate-github-bootstrap-readiness.mjs && node tools/generate-deployment-review-classification.mjs && node tools/generate-deployment-readiness-audit.mjs && node tools/generate-gpt-optimization-completion-audit.mjs",
+      "strict": "node tools/validate-docs-readability.mjs && node tools/validate-static-site.mjs --strict && node tools/validate-local-mirror-readiness.mjs && node tools/validate-customer-facing-notes.mjs && node tools/resolve-product-standardization-review.mjs && node tools/validate-product-spec-modules.mjs --strict && node tools/validate-spec-download-affordances.mjs --strict && node tools/validate-product-page-structure-seo.mjs --strict && node tools/generate-product-seo-warning-taxonomy.mjs && node tools/generate-product-spec-agent-review.mjs && node tools/generate-source-needed-audit.mjs && node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs && node tools/generate-github-pr-index.mjs && node tools/generate-github-bootstrap-readiness.mjs && node tools/generate-deployment-review-classification.mjs && node tools/generate-deployment-readiness-audit.mjs && node tools/generate-deployment-phase-handoff.mjs && node tools/generate-gpt-optimization-completion-audit.mjs",
       "visualSample": "node tools/run-visual-sample-qa.mjs"
     }
   },
@@ -37,7 +37,7 @@
       "missing": [],
       "metrics": {
         "html_files": 359,
-        "local_refs": 66051,
+        "local_refs": 66052,
         "missing_local_refs": 0,
         "formal_same_origin_refs": 0
       }
@@ -101,7 +101,7 @@
           "no_spec_module_count": 6
         },
         "warning_taxonomy": {
-          "generated_at": "2026-07-06T09:58:48.101Z",
+          "generated_at": "2026-07-06T10:04:04.556Z",
           "total_warning_entries": 0,
           "affected_pages": 0,
           "warning_type_counts": {},
@@ -169,7 +169,7 @@
       ],
       "missing": [],
       "metrics": {
-        "generated_at": "2026-07-06T09:58:48.294Z",
+        "generated_at": "2026-07-06T10:04:04.752Z",
         "total_categories": 18,
         "total_pages": 248,
         "total_blocking_pages": 0,
@@ -204,7 +204,7 @@
       ],
       "missing": [],
       "metrics": {
-        "docs": 20,
+        "docs": 22,
         "errors": 0
       }
     },
@@ -301,6 +301,8 @@
       "evidence": [
         "site/reports/deployment-readiness-audit.json",
         "site/reports/deployment-review-classification.json",
+        "site/reports/deployment-phase-handoff.json",
+        "docs/deployment-phase-runbook.md",
         "docs/spec-module-review-log.md",
         "docs/github-optimization-workflow.md"
       ],

@@ -235,6 +235,8 @@ const checks = [
     evidence: [
       'site/reports/deployment-readiness-audit.json',
       'site/reports/deployment-review-classification.json',
+      'site/reports/deployment-phase-handoff.json',
+      'docs/deployment-phase-runbook.md',
       'docs/spec-module-review-log.md',
       'docs/github-optimization-workflow.md',
     ],

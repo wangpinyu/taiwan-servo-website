@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T09:58:35.473Z",
+  "generatedAt": "2026-07-06T10:03:53.248Z",
   "status": "ok",
   "summary": {
-    "docs": 20,
+    "docs": 22,
     "errors": 0
   },
   "checks": [
@@ -39,6 +39,15 @@
       "status": "pass",
       "title": "# GitHub 私有 Repo 準備狀態",
       "chars": 2633,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "docs/deployment-phase-runbook.md",
+      "type": "doc",
+      "status": "pass",
+      "title": "# Deployment Phase Runbook",
+      "chars": 1785,
       "errors": [],
       "mojibakeHits": []
     },
@@ -111,6 +120,15 @@
       "status": "pass",
       "title": "Deployment Review Classification",
       "chars": 43118,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/deployment-phase-handoff.html",
+      "type": "report",
+      "status": "pass",
+      "title": "Deployment Phase Handoff",
+      "chars": 4258,
       "errors": [],
       "mojibakeHits": []
     },

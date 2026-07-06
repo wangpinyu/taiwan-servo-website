@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deployment Phase Handoff</title>
+  <style>
+    body{font-family:Arial,"Microsoft JhengHei",sans-serif;margin:24px;color:#10251b;background:#f8faf8}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:18px 0}
+    .card{background:#fff;border:1px solid #dce7df;border-radius:8px;padding:14px}
+    .num{font-size:28px;font-weight:700}
+    table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #dce7df;margin:16px 0}
+    th,td{padding:8px 10px;border-bottom:1px solid #e6eee8;text-align:left;vertical-align:top}
+    th{background:#eaf4ee}
+    code{background:#edf4ef;padding:2px 4px;border-radius:4px}
+  </style>
+</head>
+<body>
+  <h1>Deployment Phase Handoff</h1>
+  <p>Status: <strong>ready-for-deployment-approval</strong>. Deployment allowed now: <strong>false</strong>.</p>
+  <p>Local preview and deploy classification are ready, but backend/server mutation still requires explicit deployment-phase approval.</p>
+  <div class="grid">
+    <div class="card"><div>Pages</div><div class="num">358</div></div>
+    <div class="card"><div>Deploy files</div><div class="num">1677</div></div>
+    <div class="card"><div>Safe overwrite candidates</div><div class="num">1415</div></div>
+    <div class="card"><div>Unresolved review</div><div class="num">0</div></div>
+  </div>
+  <h2>Evidence</h2>
+  <ul>
+    <li>deploymentReadiness: <a href="../deployment-readiness-audit.html">site/reports/deployment-readiness-audit.html</a></li><li>deploymentClassification: <a href="../deployment-review-classification.html">site/reports/deployment-review-classification.html</a></li><li>completionAudit: <a href="../gpt-optimization-completion-audit.html">site/reports/gpt-optimization-completion-audit.html</a></li><li>runbook: <a href="../docs/deployment-phase-runbook.md">docs/deployment-phase-runbook.md</a></li>
+  </ul>
+  <h2>Deployment Phases</h2>
+  <table><thead><tr><th>ID</th><th>Phase</th><th>Count</th><th>Required actions</th></tr></thead><tbody><tr>
+  <td>approval-and-backup</td>
+  <td>Approval and backup</td>
+  <td></td>
+  <td><ul><li>Get explicit human approval for deployment scope.</li><li>Back up backend-managed content and target server files.</li><li>Record rollback location and owner.</li></ul></td>
+</tr><tr>
+  <td>same-path-overwrite</td>
+  <td>Same-path overwrite candidates</td>
+  <td>1415</td>
+  <td><ul><li>Review package manifest before upload.</li><li>Upload only after backup.</li><li>Smoke test affected pages after upload.</li></ul></td>
+</tr><tr>
+  <td>backend-managed-download-route</td>
+  <td>Backend-managed downloads</td>
+  <td>184</td>
+  <td><ul><li>Use backend/file-manager workflow.</li><li>Do not blindly overwrite /file/download or /file/output routes.</li><li>Verify every changed download link from frontend.</li></ul></td>
+</tr><tr>
+  <td>css-relative-asset</td>
+  <td>CSS relative assets</td>
+  <td>69</td>
+  <td><ul><li>Keep assets with CSS bundle or remap paths during deployment.</li><li>Verify icons, social buttons, search icons, and fonts.</li></ul></td>
+</tr><tr>
+  <td>site-static-asset-review</td>
+  <td>Site static assets</td>
+  <td>3</td>
+  <td><ul><li>Review favicon/logo/static asset changes separately.</li><li>Confirm cache-busting behavior if replacing existing files.</li></ul></td>
+</tr><tr>
+  <td>local-placeholder-exclude</td>
+  <td>Excluded local placeholders</td>
+  <td>6</td>
+  <td><ul><li>Do not upload placeholder files.</li><li>Resolve source mapping if the visible page needs the asset.</li></ul></td>
+</tr></tbody></table>
+  <h2>Smoke Tests</h2>
+  <ul><li>Open homepage, one product category, one product detail, and one service page on desktop.</li><li>Repeat on mobile viewport.</li><li>Check no broken images and no horizontal overflow.</li><li>Click representative PDF/CAD/download links.</li><li>Check canonical, H1, breadcrumb, and visible CTA remain intact.</li></ul>
+  <h2>Rollback</h2>
+  <ul><li>If smoke test fails, stop broad deployment.</li><li>Restore backed-up server files and backend content.</li><li>Re-run the same smoke test set after rollback.</li></ul>
+</body>
+</html>
