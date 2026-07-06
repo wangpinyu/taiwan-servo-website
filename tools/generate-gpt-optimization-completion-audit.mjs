@@ -42,6 +42,7 @@ const sourceAudit = readJson('site/reports/source-needed-audit.json');
 const backlog = readJson('site/reports/optimization-backlog.json');
 const githubReadiness = readJson('site/reports/github-bootstrap-readiness.json');
 const githubApiHandoff = readJson('site/reports/github-api-bootstrap-handoff.json');
+const githubRemoteVerification = readJson('site/reports/github-remote-state-verification.json');
 const deploymentReadiness = readJson('site/reports/deployment-readiness-audit.json');
 const visual = readJson('site/reports/visual-sample-qa.json');
 const workflow = readText('.github/workflows/preview-qa.yml');
@@ -203,6 +204,7 @@ const checks = [
         '.github/workflows/preview-qa.yml',
         '.github/PULL_REQUEST_TEMPLATE.md',
         'site/reports/github-bootstrap-readiness.json',
+        'site/reports/github-remote-state-verification.json',
       ],
       ['GitHub workflow files or readiness checks are incomplete.'],
     ),
@@ -210,6 +212,7 @@ const checks = [
       readiness: githubReadiness.status,
       tokenPresent: githubReadiness.tokenPresent,
       pullRequestRefs: githubReadiness.pullRequestRefs,
+      remoteVerificationStatus: githubRemoteVerification.status,
       checks: githubReadiness.checks,
     },
   },
@@ -220,6 +223,7 @@ const checks = [
     evidence: [
       'site/reports/github-bootstrap-readiness.json',
       'site/reports/github-api-bootstrap-handoff.json',
+      'site/reports/github-remote-state-verification.json',
       'docs/github-api-bootstrap-runbook.md',
     ],
     missing:
@@ -229,6 +233,8 @@ const checks = [
     metrics: {
       readiness: githubReadiness.status,
       handoffStatus: githubApiHandoff.status,
+      remoteVerificationStatus: githubRemoteVerification.status,
+      remoteVerification: githubRemoteVerification.gitRemote || {},
       tokenPresent: githubReadiness.tokenPresent,
       pullRequestRefs: githubReadiness.pullRequestRefs,
       nextActions: githubReadiness.nextActions || [],

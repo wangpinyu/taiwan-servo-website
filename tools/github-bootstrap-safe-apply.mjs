@@ -25,6 +25,7 @@ function run(label, command, args) {
 
 function refreshReports() {
   run('refresh GitHub readiness', nodeBin, ['tools/generate-github-bootstrap-readiness.mjs']);
+  run('verify GitHub remote state', nodeBin, ['tools/verify-github-remote-state.mjs']);
   run('refresh GitHub API handoff', nodeBin, ['tools/generate-github-api-bootstrap-handoff.mjs']);
   run('refresh completion audit', nodeBin, ['tools/generate-gpt-optimization-completion-audit.mjs']);
 }

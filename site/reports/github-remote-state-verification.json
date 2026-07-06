@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-06T10:29:39.485Z",
+  "status": "ready-needs-token",
+  "repository": "wangpinyu/taiwan-servo-website",
+  "gitRemote": {
+    "expectedBranches": 18,
+    "presentBranches": 18,
+    "missingBranches": [],
+    "pullRequestRefs": 0
+  },
+  "api": {
+    "tokenPresent": false,
+    "labels": {
+      "status": "not-run-no-token",
+      "expected": 7,
+      "present": null,
+      "missing": []
+    },
+    "issues": {
+      "status": "not-run-no-token",
+      "expected": 18,
+      "present": null,
+      "missing": []
+    },
+    "pullRequests": {
+      "status": "not-run-no-token",
+      "expected": 17,
+      "present": null,
+      "missing": []
+    }
+  },
+  "nextActions": [
+    "Set GITHUB_TOKEN or GH_TOKEN, then run npm run github:bootstrap:safe."
+  ]
+}

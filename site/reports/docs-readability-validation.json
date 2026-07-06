@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T10:20:45.422Z",
+  "generatedAt": "2026-07-06T10:29:04.187Z",
   "status": "ok",
   "summary": {
-    "docs": 24,
+    "docs": 25,
     "errors": 0
   },
   "checks": [
@@ -97,11 +97,20 @@
       "mojibakeHits": []
     },
     {
+      "file": "site/reports/github-remote-state-verification.html",
+      "type": "report",
+      "status": "pass",
+      "title": "GitHub Remote State Verification",
+      "chars": 2698,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
       "file": "site/reports/github-api-bootstrap-handoff.html",
       "type": "report",
       "status": "pass",
       "title": "GitHub API Bootstrap Handoff",
-      "chars": 3197,
+      "chars": 3295,
       "errors": [],
       "mojibakeHits": []
     },
@@ -155,7 +164,7 @@
       "type": "report",
       "status": "pass",
       "title": "GPT Optimization Completion Audit",
-      "chars": 5882,
+      "chars": 5851,
       "errors": [],
       "mojibakeHits": []
     },

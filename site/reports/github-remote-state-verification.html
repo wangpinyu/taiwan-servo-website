@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub Remote State Verification</title>
+  <style>
+    body{font-family:Arial,"Microsoft JhengHei",sans-serif;margin:24px;color:#10251b;background:#f8faf8}
+    table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #dce7df;margin:16px 0}
+    th,td{padding:8px 10px;border-bottom:1px solid #e6eee8;text-align:left;vertical-align:top}
+    th{background:#eaf4ee}
+    code{background:#edf4ef;padding:2px 4px;border-radius:4px}
+  </style>
+</head>
+<body>
+  <h1>GitHub Remote State Verification</h1>
+  <p>Status: <strong>ready-needs-token</strong></p>
+  <p>Repository: <code>wangpinyu/taiwan-servo-website</code></p>
+  <p>Token present: <strong>false</strong>. Pull request refs: <strong>0</strong>.</p>
+  <h2>Branch Checks</h2>
+  <table><thead><tr><th>Branch</th><th>Status</th></tr></thead><tbody><tr><td><code>main</code></td><td>pass</td></tr><tr><td><code>phase-1-smac-spec-standard</code></td><td>pass</td></tr><tr><td><code>phase-2-drivers-spec-review</code></td><td>pass</td></tr><tr><td><code>phase-2-motors-spec-review</code></td><td>pass</td></tr><tr><td><code>phase-3-harmonic-drive</code></td><td>pass</td></tr><tr><td><code>phase-3-renishaw-feedback</code></td><td>pass</td></tr><tr><td><code>phase-3-positioning-stage</code></td><td>pass</td></tr><tr><td><code>phase-3-bearings-air-mechanical</code></td><td>pass</td></tr><tr><td><code>phase-4-couplings</code></td><td>pass</td></tr><tr><td><code>phase-4-fms-tension</code></td><td>pass</td></tr><tr><td><code>phase-4-solid-state-relays</code></td><td>pass</td></tr><tr><td><code>phase-4-sanyo-denki</code></td><td>pass</td></tr><tr><td><code>phase-4-special-environments</code></td><td>pass</td></tr><tr><td><code>phase-5-ceramic-chucks</code></td><td>pass</td></tr><tr><td><code>phase-5-sejinigb</code></td><td>pass</td></tr><tr><td><code>phase-5-blowers</code></td><td>pass</td></tr><tr><td><code>phase-5-automation-systems</code></td><td>pass</td></tr><tr><td><code>phase-5-other-feedback</code></td><td>pass</td></tr></tbody></table>
+  <h2>API Checks</h2>
+  <table><thead><tr><th>Item</th><th>Status</th><th>Expected</th><th>Present</th><th>Missing sample</th></tr></thead><tbody><tr><td>labels</td><td>not-run-no-token</td><td>7</td><td></td><td></td></tr><tr><td>issues</td><td>not-run-no-token</td><td>18</td><td></td><td></td></tr><tr><td>pullRequests</td><td>not-run-no-token</td><td>17</td><td></td><td></td></tr></tbody></table>
+  <h2>Next Actions</h2>
+  <ol><li>Set GITHUB_TOKEN or GH_TOKEN, then run npm run github:bootstrap:safe.</li></ol>
+</body>
+</html>

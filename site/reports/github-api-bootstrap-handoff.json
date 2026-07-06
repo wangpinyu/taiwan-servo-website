@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T10:21:22.785Z",
+  "generatedAt": "2026-07-06T10:29:42.185Z",
   "status": "ready-needs-token",
   "repository": "wangpinyu/taiwan-servo-website",
   "tokenPresent": false,
@@ -13,6 +13,7 @@
   },
   "evidence": {
     "readiness": "site/reports/github-bootstrap-readiness.html",
+    "remoteVerification": "site/reports/github-remote-state-verification.html",
     "issueDrafts": "site/reports/github-issues/index.html",
     "pullRequestDrafts": "site/reports/github-prs/index.html",
     "runbook": "docs/github-api-bootstrap-runbook.md"
@@ -52,5 +53,12 @@
     "Create a fine-grained GitHub token with the listed permissions.",
     "Set it only in the current PowerShell session.",
     "Run npm run github:bootstrap:safe."
-  ]
+  ],
+  "remoteVerification": {
+    "status": "ready-needs-token",
+    "pullRequestRefs": 0,
+    "apiLabels": "not-run-no-token",
+    "apiIssues": "not-run-no-token",
+    "apiPullRequests": "not-run-no-token"
+  }
 }

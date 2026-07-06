@@ -19,6 +19,7 @@ function htmlEscape(value) {
 }
 
 const readiness = readJson('site/reports/github-bootstrap-readiness.json', {});
+const remoteVerification = readJson('site/reports/github-remote-state-verification.json', {});
 const issueIndex = readJson('site/reports/github-issues/index.json', { entries: [], summary: {} });
 const prIndex = readJson('site/reports/github-prs/index.json', { entries: [] });
 const tokenPresent = Boolean(process.env.GITHUB_TOKEN || process.env.GH_TOKEN);
@@ -40,6 +41,7 @@ const handoff = {
   },
   evidence: {
     readiness: 'site/reports/github-bootstrap-readiness.html',
+    remoteVerification: 'site/reports/github-remote-state-verification.html',
     issueDrafts: 'site/reports/github-issues/index.html',
     pullRequestDrafts: 'site/reports/github-prs/index.html',
     runbook: 'docs/github-api-bootstrap-runbook.md',
@@ -84,6 +86,13 @@ const handoff = {
     : tokenPresent
       ? ['Run npm run github:bootstrap:safe.', 'Clear the token from the shell after bootstrap.']
       : ['Create a fine-grained GitHub token with the listed permissions.', 'Set it only in the current PowerShell session.', 'Run npm run github:bootstrap:safe.'],
+};
+handoff.remoteVerification = {
+  status: remoteVerification.status || 'not-generated',
+  pullRequestRefs: remoteVerification.gitRemote?.pullRequestRefs ?? readiness.pullRequestRefs ?? 0,
+  apiLabels: remoteVerification.api?.labels?.status || 'unknown',
+  apiIssues: remoteVerification.api?.issues?.status || 'unknown',
+  apiPullRequests: remoteVerification.api?.pullRequests?.status || 'unknown',
 };
 
 fs.mkdirSync(reportDir, { recursive: true });
@@ -132,6 +141,7 @@ fs.writeFileSync(
   <h2>Evidence</h2>
   <ul>
     <li><a href="github-bootstrap-readiness.html">GitHub bootstrap readiness</a></li>
+    <li><a href="github-remote-state-verification.html">GitHub remote state verification</a></li>
     <li><a href="github-issues/index.html">Issue drafts</a></li>
     <li><a href="github-prs/index.html">PR drafts</a></li>
     <li><code>${htmlEscape(handoff.evidence.runbook)}</code></li>

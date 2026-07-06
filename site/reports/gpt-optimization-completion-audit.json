@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T10:21:23.093Z",
+  "generatedAt": "2026-07-06T10:29:42.471Z",
   "objective": "Audit current evidence against the GPT optimization work plan.",
   "scope": {
     "productPages": 248,
     "currentStage": "local-preview-and-github-workflow",
     "validationScripts": {
-      "strict": "node tools/validate-docs-readability.mjs && node tools/validate-static-site.mjs --strict && node tools/validate-local-mirror-readiness.mjs && node tools/validate-customer-facing-notes.mjs && node tools/resolve-product-standardization-review.mjs && node tools/validate-product-spec-modules.mjs --strict && node tools/validate-spec-download-affordances.mjs --strict && node tools/validate-product-page-structure-seo.mjs --strict && node tools/generate-product-seo-warning-taxonomy.mjs && node tools/generate-product-spec-agent-review.mjs && node tools/generate-source-needed-audit.mjs && node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs && node tools/generate-github-pr-index.mjs && node tools/generate-github-bootstrap-readiness.mjs && node tools/generate-github-api-bootstrap-handoff.mjs && node tools/generate-deployment-review-classification.mjs && node tools/generate-deployment-readiness-audit.mjs && node tools/generate-deployment-phase-handoff.mjs && node tools/generate-gpt-optimization-completion-audit.mjs",
+      "strict": "node tools/validate-docs-readability.mjs && node tools/validate-static-site.mjs --strict && node tools/validate-local-mirror-readiness.mjs && node tools/validate-customer-facing-notes.mjs && node tools/resolve-product-standardization-review.mjs && node tools/validate-product-spec-modules.mjs --strict && node tools/validate-spec-download-affordances.mjs --strict && node tools/validate-product-page-structure-seo.mjs --strict && node tools/generate-product-seo-warning-taxonomy.mjs && node tools/generate-product-spec-agent-review.mjs && node tools/generate-source-needed-audit.mjs && node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs && node tools/generate-github-pr-index.mjs && node tools/generate-github-bootstrap-readiness.mjs && node tools/verify-github-remote-state.mjs && node tools/generate-github-api-bootstrap-handoff.mjs && node tools/generate-deployment-review-classification.mjs && node tools/generate-deployment-readiness-audit.mjs && node tools/generate-deployment-phase-handoff.mjs && node tools/generate-gpt-optimization-completion-audit.mjs",
       "visualSample": "node tools/run-visual-sample-qa.mjs"
     }
   },
@@ -37,7 +37,7 @@
       "missing": [],
       "metrics": {
         "html_files": 359,
-        "local_refs": 66053,
+        "local_refs": 66054,
         "missing_local_refs": 0,
         "formal_same_origin_refs": 0
       }
@@ -101,7 +101,7 @@
           "no_spec_module_count": 6
         },
         "warning_taxonomy": {
-          "generated_at": "2026-07-06T10:20:55.367Z",
+          "generated_at": "2026-07-06T10:29:13.428Z",
           "total_warning_entries": 0,
           "affected_pages": 0,
           "warning_type_counts": {},
@@ -169,7 +169,7 @@
       ],
       "missing": [],
       "metrics": {
-        "generated_at": "2026-07-06T10:20:55.640Z",
+        "generated_at": "2026-07-06T10:29:13.627Z",
         "total_categories": 18,
         "total_pages": 248,
         "total_blocking_pages": 0,
@@ -204,7 +204,7 @@
       ],
       "missing": [],
       "metrics": {
-        "docs": 24,
+        "docs": 25,
         "errors": 0
       }
     },
@@ -215,13 +215,15 @@
       "evidence": [
         ".github/workflows/preview-qa.yml",
         ".github/PULL_REQUEST_TEMPLATE.md",
-        "site/reports/github-bootstrap-readiness.json"
+        "site/reports/github-bootstrap-readiness.json",
+        "site/reports/github-remote-state-verification.json"
       ],
       "missing": [],
       "metrics": {
         "readiness": "ready-needs-token",
         "tokenPresent": false,
         "pullRequestRefs": 0,
+        "remoteVerificationStatus": "ready-needs-token",
         "checks": [
           {
             "id": "labels-defined",
@@ -281,6 +283,7 @@
       "evidence": [
         "site/reports/github-bootstrap-readiness.json",
         "site/reports/github-api-bootstrap-handoff.json",
+        "site/reports/github-remote-state-verification.json",
         "docs/github-api-bootstrap-runbook.md"
       ],
       "missing": [
@@ -289,6 +292,13 @@
       "metrics": {
         "readiness": "ready-needs-token",
         "handoffStatus": "ready-needs-token",
+        "remoteVerificationStatus": "ready-needs-token",
+        "remoteVerification": {
+          "expectedBranches": 18,
+          "presentBranches": 18,
+          "missingBranches": [],
+          "pullRequestRefs": 0
+        },
         "tokenPresent": false,
         "pullRequestRefs": 0,
         "nextActions": [
