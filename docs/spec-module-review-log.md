@@ -110,3 +110,18 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Air and mechanical bearings visible quality pass
+
+- Branch: `phase-3-bearings-air-mechanical`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed bearing pages:
+  - `detail/149`, `detail/174`, `detail/175`, `detail/191`, `detail/192`, `detail/256`, `detail/257`, `detail/258`, `detail/259`, `detail/260`, `detail/261`, `detail/262`, `detail/263`, `detail/264`, `detail/265`, `detail/266`, `detail/398`
+- Fixes:
+  - Filled empty Thomson document status labels on `detail/191` with `請洽星泰`.
+  - Filled empty Thomson document notes on `detail/149` and `detail/191` with a customer-facing confirmation message.
+- Result:
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 17 bearing pages.
+  - `detail/149` remains `agent-source-needed`; no unsupported spec table was added.
+- Validation:
+  - Edge/CDP visual smoke on `149`, `191`, `192`, `256`, `266`, and `398` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, no customer-facing internal text.
