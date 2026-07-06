@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T01:28:04.027Z",
+  "generatedAt": "2026-07-06T02:06:53.372Z",
   "status": "ok",
   "summary": {
     "docs": 6,
@@ -17,8 +17,8 @@
     {
       "file": "docs/github-optimization-workflow.md",
       "status": "pass",
-      "title": "# GitHub 驅動的產品頁優化工作流",
-      "chars": 3978,
+      "title": "# GitHub 驅動的產品頁優化流程",
+      "chars": 4266,
       "errors": [],
       "mojibakeHits": []
     },
@@ -26,7 +26,7 @@
       "file": "docs/github-private-repo-setup.md",
       "status": "pass",
       "title": "# Private GitHub Repo Setup",
-      "chars": 2098,
+      "chars": 2283,
       "errors": [],
       "mojibakeHits": []
     },
@@ -34,15 +34,15 @@
       "file": "docs/product-spec-data-schema.md",
       "status": "pass",
       "title": "# 產品規格詳情資料 Schema",
-      "chars": 3622,
+      "chars": 3595,
       "errors": [],
       "mojibakeHits": []
     },
     {
       "file": "docs/products-page-architecture.md",
       "status": "pass",
-      "title": "# 產品頁架構標準",
-      "chars": 2087,
+      "title": "# 產品頁架構規範",
+      "chars": 1519,
       "errors": [],
       "mojibakeHits": []
     },
@@ -50,7 +50,7 @@
       "file": "docs/spec-module-review-log.md",
       "status": "pass",
       "title": "# 產品規格詳情審核紀錄",
-      "chars": 3274,
+      "chars": 3515,
       "errors": [],
       "mojibakeHits": []
     }
