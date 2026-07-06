@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T10:51:15.751Z",
+  "generatedAt": "2026-07-06T10:54:26.854Z",
   "objective": "Audit current evidence against the GPT optimization work plan.",
   "scope": {
     "productPages": 248,
@@ -101,7 +101,7 @@
           "no_spec_module_count": 6
         },
         "warning_taxonomy": {
-          "generated_at": "2026-07-06T10:50:47.237Z",
+          "generated_at": "2026-07-06T10:53:58.168Z",
           "total_warning_entries": 0,
           "affected_pages": 0,
           "warning_type_counts": {},
@@ -169,7 +169,7 @@
       ],
       "missing": [],
       "metrics": {
-        "generated_at": "2026-07-06T10:50:47.458Z",
+        "generated_at": "2026-07-06T10:53:58.369Z",
         "total_categories": 18,
         "total_pages": 248,
         "total_blocking_pages": 0,
@@ -332,7 +332,7 @@
       "metrics": {
         "backendMutationPerformed": false,
         "currentStage": "local-preview-and-github-workflow",
-        "deploymentReadinessStatus": "blocked",
+        "deploymentReadinessStatus": "deployment-approval-required",
         "deploymentReadinessSummary": {
           "pages_total": 358,
           "local_resources": 2085,
@@ -387,7 +387,7 @@
           "status_counts": {
             "pass": 7,
             "review": 2,
-            "block": 1
+            "approval-required": 1
           }
         },
         "deploymentPackageIntegrityStatus": "review",

@@ -124,7 +124,7 @@ const gates = [
   ),
   gate(
     'server-mutation-approval',
-    'block',
+    'approval-required',
     'No backend login, no server upload, no production overwrite, and no deletion have been approved in this local-preview phase.',
     'Open a separate deployment phase with explicit target scope, backup plan, smoke test, and rollback plan.',
   ),
@@ -137,7 +137,13 @@ const statusCounts = gates.reduce((acc, item) => {
 
 const report = {
   generatedAt: new Date().toISOString(),
-  status: statusCounts.block ? 'blocked' : statusCounts.review ? 'review-required' : 'ready',
+  status: statusCounts.block
+    ? 'blocked'
+    : statusCounts['approval-required']
+      ? 'deployment-approval-required'
+      : statusCounts.review
+        ? 'review-required'
+        : 'ready',
   scope: {
     currentStage: 'local-preview-and-github-workflow',
     deploymentStageAllowed: false,
@@ -173,6 +179,7 @@ fs.writeFileSync(path.join(reportDir, 'deployment-readiness-audit.json'), `${JSO
 const statusClass = {
   pass: 'ok',
   review: 'warn',
+  'approval-required': 'approval',
   block: 'bad',
 };
 
@@ -204,6 +211,7 @@ fs.writeFileSync(
     th{background:#eaf4ee}
     tr.ok{background:#fff}
     tr.warn{background:#fffbea}
+    tr.approval{background:#eef5ff}
     tr.bad{background:#fff0f0}
     code{background:#edf4ef;padding:2px 4px;border-radius:4px}
   </style>
@@ -218,6 +226,7 @@ fs.writeFileSync(
     <div class="card"><div>Needs review</div><div class="num">${report.summary.deploy_needs_review}</div></div>
     <div class="card"><div>Unresolved review</div><div class="num">${report.summary.deploy_unresolved_needs_review}</div></div>
     <div class="card"><div>Blocking gates</div><div class="num">${statusCounts.block || 0}</div></div>
+    <div class="card"><div>Approval gates</div><div class="num">${statusCounts['approval-required'] || 0}</div></div>
   </div>
   <h2>Gates</h2>
   <table><thead><tr><th>Status</th><th>Gate</th><th>Evidence</th><th>Next action</th></tr></thead><tbody>${rows}</tbody></table>

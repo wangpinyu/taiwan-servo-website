@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-06T10:51:15.608Z",
-  "status": "blocked",
+  "generatedAt": "2026-07-06T10:54:26.713Z",
+  "status": "deployment-approval-required",
   "scope": {
     "currentStage": "local-preview-and-github-workflow",
     "deploymentStageAllowed": false,
@@ -60,7 +60,7 @@
     "status_counts": {
       "pass": 7,
       "review": 2,
-      "block": 1
+      "approval-required": 1
     }
   },
   "gates": [
@@ -120,7 +120,7 @@
     },
     {
       "id": "server-mutation-approval",
-      "status": "block",
+      "status": "approval-required",
       "evidence": "No backend login, no server upload, no production overwrite, and no deletion have been approved in this local-preview phase.",
       "nextAction": "Open a separate deployment phase with explicit target scope, backup plan, smoke test, and rollback plan."
     }

@@ -15,20 +15,22 @@
     th{background:#eaf4ee}
     tr.ok{background:#fff}
     tr.warn{background:#fffbea}
+    tr.approval{background:#eef5ff}
     tr.bad{background:#fff0f0}
     code{background:#edf4ef;padding:2px 4px;border-radius:4px}
   </style>
 </head>
 <body>
   <h1>Deployment Readiness Audit</h1>
-  <p>Status: <strong>blocked</strong>. Generated at <code>2026-07-06T10:51:15.608Z</code>.</p>
+  <p>Status: <strong>deployment-approval-required</strong>. Generated at <code>2026-07-06T10:54:26.713Z</code>.</p>
   <p>This audit does not authorize backend saves, server uploads, deletion, or production overwrite. It separates local-preview readiness from deployment-stage approval.</p>
   <div class="summary">
     <div class="card"><div>Deploy files</div><div class="num">1677</div></div>
     <div class="card"><div>Safe overwrite candidates</div><div class="num">1415</div></div>
     <div class="card"><div>Needs review</div><div class="num">262</div></div>
     <div class="card"><div>Unresolved review</div><div class="num">0</div></div>
-    <div class="card"><div>Blocking gates</div><div class="num">1</div></div>
+    <div class="card"><div>Blocking gates</div><div class="num">0</div></div>
+    <div class="card"><div>Approval gates</div><div class="num">1</div></div>
   </div>
   <h2>Gates</h2>
   <table><thead><tr><th>Status</th><th>Gate</th><th>Evidence</th><th>Next action</th></tr></thead><tbody><tr class="ok">
@@ -85,8 +87,8 @@
   <td>{&quot;deploy_mode&quot;:&quot;backend-managed-download-route&quot;,&quot;file_count&quot;:184,&quot;bytes&quot;:432027058,&quot;manifest_rel&quot;:&quot;deploy-packages/backend-managed-download-route/manifest.json&quot;}</td>
   <td>Backend-managed download routes must be handled through backend/file-manager workflow, not blind file overwrite.</td>
 </tr>
-<tr class="bad">
-  <td>block</td>
+<tr class="approval">
+  <td>approval-required</td>
   <td>server-mutation-approval</td>
   <td>No backend login, no server upload, no production overwrite, and no deletion have been approved in this local-preview phase.</td>
   <td>Open a separate deployment phase with explicit target scope, backup plan, smoke test, and rollback plan.</td>
