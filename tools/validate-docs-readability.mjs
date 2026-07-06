@@ -8,6 +8,7 @@ fs.mkdirSync(reportDir, { recursive: true });
 const docs = [
   { relPath: 'README.md', type: 'doc' },
   { relPath: 'docs/github-optimization-workflow.md', type: 'doc' },
+  { relPath: 'docs/github-ci-coverage.md', type: 'doc' },
   { relPath: 'docs/github-private-repo-setup.md', type: 'doc' },
   { relPath: 'docs/product-spec-data-schema.md', type: 'doc' },
   { relPath: 'docs/products-page-architecture.md', type: 'doc' },

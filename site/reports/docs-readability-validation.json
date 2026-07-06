@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T09:34:49.984Z",
+  "generatedAt": "2026-07-06T09:44:53.746Z",
   "status": "ok",
   "summary": {
-    "docs": 18,
+    "docs": 19,
     "errors": 0
   },
   "checks": [
@@ -21,6 +21,15 @@
       "status": "pass",
       "title": "# GitHub 驅動的產品頁優化流程",
       "chars": 4505,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "docs/github-ci-coverage.md",
+      "type": "doc",
+      "status": "pass",
+      "title": "# GitHub CI Coverage",
+      "chars": 1888,
       "errors": [],
       "mojibakeHits": []
     },

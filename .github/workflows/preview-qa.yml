@@ -2,9 +2,15 @@ name: Preview QA
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - 'phase-*'
+      - 'source-audit-*'
   pull_request:
-    branches: [main]
+    branches:
+      - main
+      - 'phase-*'
+      - 'source-audit-*'
   workflow_dispatch:
 
 jobs:
@@ -30,6 +36,6 @@ jobs:
         with:
           name: taiwan-servo-preview-reports
           path: |
-            site/reports/*.html
-            site/reports/*.json
-            site/reports/github-issues/*.md
+            site/reports/**/*.html
+            site/reports/**/*.json
+            site/reports/**/*.md

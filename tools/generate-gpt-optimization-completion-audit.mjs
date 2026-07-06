@@ -189,6 +189,11 @@ const checks = [
     requirement: 'GitHub PR workflow is wired for strict validation, PR template evidence, and local readiness reports.',
     ...passIf(
       workflow.includes('npm run validate:strict') &&
+        workflow.includes("'phase-*'") &&
+        workflow.includes("'source-audit-*'") &&
+        workflow.includes('site/reports/**/*.html') &&
+        workflow.includes('site/reports/**/*.json') &&
+        workflow.includes('site/reports/**/*.md') &&
         prTemplate.includes('npm run qa:visual-sample') &&
         githubReadiness.checks?.every((check) =>
           check.status === 'pass' || ['github-token', 'remote-prs'].includes(check.id),
