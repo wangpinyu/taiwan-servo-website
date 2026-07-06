@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T06:18:41.392Z",
+  "generated_at": "2026-07-06T06:56:09.519Z",
   "scope": "GitHub-ready product spec module QA",
   "summary": {
     "total_pages": 248,
@@ -2976,8 +2976,8 @@
       "qa_status": "pass",
       "counts": {
         "details": 1,
-        "tables": 0,
-        "pdf_links": 0,
+        "tables": 1,
+        "pdf_links": 3,
         "cad_links": 0,
         "zip_links": 0,
         "cta_count": 1,
@@ -3001,8 +3001,8 @@
       "qa_status": "pass",
       "counts": {
         "details": 1,
-        "tables": 0,
-        "pdf_links": 0,
+        "tables": 1,
+        "pdf_links": 1,
         "cad_links": 0,
         "zip_links": 0,
         "cta_count": 1,
@@ -3026,8 +3026,8 @@
       "qa_status": "pass",
       "counts": {
         "details": 1,
-        "tables": 0,
-        "pdf_links": 0,
+        "tables": 1,
+        "pdf_links": 1,
         "cad_links": 0,
         "zip_links": 0,
         "cta_count": 1,
@@ -3051,8 +3051,8 @@
       "qa_status": "pass",
       "counts": {
         "details": 1,
-        "tables": 0,
-        "pdf_links": 0,
+        "tables": 1,
+        "pdf_links": 2,
         "cad_links": 0,
         "zip_links": 0,
         "cta_count": 1,
@@ -3076,8 +3076,8 @@
       "qa_status": "pass",
       "counts": {
         "details": 1,
-        "tables": 0,
-        "pdf_links": 0,
+        "tables": 1,
+        "pdf_links": 3,
         "cad_links": 0,
         "zip_links": 0,
         "cta_count": 1,
@@ -3101,8 +3101,8 @@
       "qa_status": "pass",
       "counts": {
         "details": 1,
-        "tables": 0,
-        "pdf_links": 0,
+        "tables": 1,
+        "pdf_links": 1,
         "cad_links": 0,
         "zip_links": 0,
         "cta_count": 1,
@@ -5260,8 +5260,8 @@
       "qa_status": "pass",
       "counts": {
         "details": 1,
-        "tables": 0,
-        "pdf_links": 0,
+        "tables": 1,
+        "pdf_links": 1,
         "cad_links": 0,
         "zip_links": 0,
         "cta_count": 1,
@@ -5285,7 +5285,7 @@
       "qa_status": "pass",
       "counts": {
         "details": 1,
-        "tables": 0,
+        "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,

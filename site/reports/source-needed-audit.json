@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T06:18:42.595Z",
+  "generated_at": "2026-07-06T06:56:10.666Z",
   "scope": "Source-needed and no-spec-module audit for product pages",
   "policy": {
     "noSpecWithoutSource": true,
@@ -7,9 +7,9 @@
     "reviewOwner": "AI agent, with human escalation only for business/source decisions"
   },
   "summary": {
-    "total_pages": 20,
+    "total_pages": 12,
     "disposition_counts": {
-      "official-source-needed": 14,
+      "official-source-needed": 6,
       "exclude-test-page": 1,
       "software-source-needed": 3,
       "informational-source-needed": 1,
@@ -109,150 +109,6 @@
         "hasDownloads": false,
         "tables": 1,
         "pdfLinks": 0,
-        "unknownHeadings": []
-      },
-      "disposition": "official-source-needed",
-      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
-      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
-    },
-    {
-      "product_id": "208",
-      "title": "RINGFEDER 波紋管聯軸器",
-      "category_path": [
-        "聯軸器",
-        "RINGFEDER 波紋管聯軸器"
-      ],
-      "preview_rel": "preview/products/detail/208.html",
-      "agent_status": "agent-source-needed",
-      "qa_status": "pass",
-      "overlay_status": "inserted",
-      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-208-ringfeder/backend-fragment.html",
-      "validation": {
-        "hasSeries": true,
-        "hasApplications": true,
-        "hasDownloads": true,
-        "tables": 9,
-        "pdfLinks": 3,
-        "unknownHeadings": []
-      },
-      "disposition": "official-source-needed",
-      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
-      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
-    },
-    {
-      "product_id": "209",
-      "title": "RINFEDER 鋼片式聯軸器TND系列",
-      "category_path": [
-        "聯軸器",
-        "RINFEDER 鋼片式聯軸器TND系列"
-      ],
-      "preview_rel": "preview/products/detail/209.html",
-      "agent_status": "agent-source-needed",
-      "qa_status": "pass",
-      "overlay_status": "inserted",
-      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-209-rinfeder-tnd/backend-fragment.html",
-      "validation": {
-        "hasSeries": true,
-        "hasApplications": true,
-        "hasDownloads": true,
-        "tables": 9,
-        "pdfLinks": 1,
-        "unknownHeadings": []
-      },
-      "disposition": "official-source-needed",
-      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
-      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
-    },
-    {
-      "product_id": "210",
-      "title": "RINFEDER齒輪聯軸器TNZ系列",
-      "category_path": [
-        "聯軸器",
-        "RINFEDER齒輪聯軸器TNZ系列"
-      ],
-      "preview_rel": "preview/products/detail/210.html",
-      "agent_status": "agent-source-needed",
-      "qa_status": "pass",
-      "overlay_status": "inserted",
-      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-210-rinfeder-tnz/backend-fragment.html",
-      "validation": {
-        "hasSeries": true,
-        "hasApplications": true,
-        "hasDownloads": true,
-        "tables": 9,
-        "pdfLinks": 1,
-        "unknownHeadings": []
-      },
-      "disposition": "official-source-needed",
-      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
-      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
-    },
-    {
-      "product_id": "211",
-      "title": "RINFEDER筒形聯軸器TNK系列",
-      "category_path": [
-        "聯軸器",
-        "RINFEDER筒形聯軸器TNK系列"
-      ],
-      "preview_rel": "preview/products/detail/211.html",
-      "agent_status": "agent-source-needed",
-      "qa_status": "pass",
-      "overlay_status": "inserted",
-      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-211-rinfeder-tnk/backend-fragment.html",
-      "validation": {
-        "hasSeries": true,
-        "hasApplications": true,
-        "hasDownloads": true,
-        "tables": 2,
-        "pdfLinks": 1,
-        "unknownHeadings": []
-      },
-      "disposition": "official-source-needed",
-      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
-      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
-    },
-    {
-      "product_id": "212",
-      "title": "RINFEDER法蘭聯軸器TNF系列",
-      "category_path": [
-        "聯軸器",
-        "RINFEDER法蘭聯軸器TNF系列"
-      ],
-      "preview_rel": "preview/products/detail/212.html",
-      "agent_status": "agent-source-needed",
-      "qa_status": "pass",
-      "overlay_status": "inserted",
-      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-212-rinfeder-tnf/backend-fragment.html",
-      "validation": {
-        "hasSeries": true,
-        "hasApplications": true,
-        "hasDownloads": true,
-        "tables": 2,
-        "pdfLinks": 1,
-        "unknownHeadings": []
-      },
-      "disposition": "official-source-needed",
-      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
-      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
-    },
-    {
-      "product_id": "213",
-      "title": "RINFEDER撓性聯軸器TNR系列",
-      "category_path": [
-        "聯軸器",
-        "RINFEDER撓性聯軸器TNR系列"
-      ],
-      "preview_rel": "preview/products/detail/213.html",
-      "agent_status": "agent-source-needed",
-      "qa_status": "pass",
-      "overlay_status": "inserted",
-      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-213-rinfeder-tnr/backend-fragment.html",
-      "validation": {
-        "hasSeries": true,
-        "hasApplications": true,
-        "hasDownloads": true,
-        "tables": 8,
-        "pdfLinks": 1,
         "unknownHeadings": []
       },
       "disposition": "official-source-needed",
@@ -450,54 +306,6 @@
         "hasApplications": false,
         "hasDownloads": false,
         "tables": 1,
-        "pdfLinks": 0,
-        "unknownHeadings": []
-      },
-      "disposition": "official-source-needed",
-      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
-      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
-    },
-    {
-      "product_id": "335",
-      "title": "Ringfeder RLP & RLB 彈性插銷聯軸器",
-      "category_path": [
-        "聯軸器",
-        "Ringfeder RLP & RLB 彈性插銷聯軸器"
-      ],
-      "preview_rel": "preview/products/detail/335.html",
-      "agent_status": "agent-source-needed",
-      "qa_status": "pass",
-      "overlay_status": "inserted",
-      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-335-ringfeder-rlp-rlb/backend-fragment.html",
-      "validation": {
-        "hasSeries": true,
-        "hasApplications": true,
-        "hasDownloads": true,
-        "tables": 3,
-        "pdfLinks": 0,
-        "unknownHeadings": []
-      },
-      "disposition": "official-source-needed",
-      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
-      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
-    },
-    {
-      "product_id": "336",
-      "title": "Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)",
-      "category_path": [
-        "聯軸器",
-        "Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)"
-      ],
-      "preview_rel": "preview/products/detail/336.html",
-      "agent_status": "agent-source-needed",
-      "qa_status": "pass",
-      "overlay_status": "inserted",
-      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-336-ringfeder-rlt-tyre-couplings/backend-fragment.html",
-      "validation": {
-        "hasSeries": true,
-        "hasApplications": true,
-        "hasDownloads": true,
-        "tables": 3,
         "pdfLinks": 0,
         "unknownHeadings": []
       },

@@ -7,8 +7,8 @@
 ## 目前總覽
 
 - 產品頁：248
-- `agent-approved-clean`：228
-- `agent-source-needed`：20
+- `agent-approved-clean`：236
+- `agent-source-needed`：12
 - `agent-fix-required`：0
 - `agent-structure-review`：0
 - critical fail：0
@@ -47,9 +47,9 @@
 
 ## Source-needed 摘要
 
-目前 20 頁仍需來源或內容判斷：
+目前 12 頁仍需來源或內容判斷：
 
-- `official-source-needed`：14
+- `official-source-needed`：6
 - `software-source-needed`：3
 - `informational-source-needed`：1
 - `training-content-no-spec`：1
@@ -78,7 +78,7 @@
 - no-spec-module：6
 - fail：0
 
-14 個 warning 目前集中在 `spec-table-missing`，多屬於沒有足夠規格來源或不適合建立型號表的頁面，需與 source-needed audit 一起看。
+6 個 warning 目前集中在 `spec-table-missing`，多屬於沒有足夠規格來源或不適合建立型號表的頁面，需與 source-needed audit 一起看。
 
 ## 已建立工具
 
@@ -115,8 +115,8 @@ npm run github:bootstrap:smoke:dry-run
 
 - Action index: `docs/source-needed-action-index.md`
 - Machine-readable index: `docs/source-needed-action-index.json`
-- Current unresolved scope: 20 pages.
-- AI source audit queue: 14 pages requiring official manufacturer evidence before any product specification table can be created or revised.
+- Current unresolved scope: 12 pages.
+- AI source audit queue: 6 pages requiring official manufacturer evidence before any product specification table can be created or revised.
 - Non-standard exceptions: 6 ACS test/software/informational/training pages that should not be forced into the hardware `產品規格詳情` schema without a separate content decision.
 - The index is intentionally local-preview/GitHub workflow only; it does not authorize backend save, CKFinder upload, or test-site publication.
 
@@ -127,7 +127,12 @@ npm run github:bootstrap:smoke:dry-run
 - Machine-readable evidence: `docs/source-audits/ringfeder-couplings.json`
 - Covered pages: 208, 209, 210, 211, 212, 213, 215, 335, 336.
 - Current source status:
-  - `source-found`: 208, 209, 210, 211, 212, 213
-  - `source-found-category-mismatch`: 215
-  - `partial-source-found`: 335, 336
-- Review rule: these pages stay `agent-source-needed` until their visible `產品規格詳情` modules are revised from official fields/downloads and pass validation.
+  - `agent-approved-clean`: 208, 209, 210, 211, 212, 213, 335, 336
+  - `agent-source-needed`: 215
+- Review rule: 215 stays unresolved until the friction-spring category/content decision is made. The other RINGFEDER pages now have source-backed visible `產品規格詳情` modules and pass validation.
+
+## Common CTA cleanup progress
+
+- Added a standard inquiry CTA to existing `產品規格詳情` modules that were missing an inquiry path.
+- Removed visible backend/developer wording such as `data-upload-url` replacement instructions from affected preview pages.
+- Validation evidence: `site/reports/product-spec-module-qa.json` now reports 242 pass / 6 no-spec-module, with 0 fail and 0 warn.

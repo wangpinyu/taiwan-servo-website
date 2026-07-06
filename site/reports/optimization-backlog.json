@@ -1,12 +1,12 @@
 {
   "summary": {
-    "generated_at": "2026-07-06T06:18:42.682Z",
+    "generated_at": "2026-07-06T06:56:10.731Z",
     "total_categories": 18,
     "total_pages": 248,
-    "total_blocking_pages": 20,
+    "total_blocking_pages": 12,
     "status_counts": {
-      "agent-approved-clean": 228,
-      "agent-source-needed": 20
+      "agent-approved-clean": 236,
+      "agent-source-needed": 12
     }
   },
   "categories": [
@@ -1919,8 +1919,8 @@
       "branch": "phase-4-couplings",
       "total": 16,
       "status_counts": {
-        "agent-approved-clean": 7,
-        "agent-source-needed": 9
+        "agent-approved-clean": 15,
+        "agent-source-needed": 1
       },
       "pages": [
         {
@@ -1959,7 +1959,7 @@
           "preview_rel": "preview/products/detail/208.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-source-needed",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -1969,7 +1969,7 @@
           "preview_rel": "preview/products/detail/209.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-source-needed",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -1979,7 +1979,7 @@
           "preview_rel": "preview/products/detail/210.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-source-needed",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -1989,7 +1989,7 @@
           "preview_rel": "preview/products/detail/211.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-source-needed",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -1999,7 +1999,7 @@
           "preview_rel": "preview/products/detail/212.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-source-needed",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -2009,7 +2009,7 @@
           "preview_rel": "preview/products/detail/213.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-source-needed",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -2069,7 +2069,7 @@
           "preview_rel": "preview/products/detail/335.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-source-needed",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -2079,96 +2079,16 @@
           "preview_rel": "preview/products/detail/336.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-source-needed",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         }
       ],
       "blocking_pages": [
         {
-          "product_id": "208",
-          "title": "RINGFEDER 波紋管聯軸器",
-          "preview_rel": "preview/products/detail/208.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "209",
-          "title": "RINFEDER 鋼片式聯軸器TND系列",
-          "preview_rel": "preview/products/detail/209.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "210",
-          "title": "RINFEDER齒輪聯軸器TNZ系列",
-          "preview_rel": "preview/products/detail/210.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "211",
-          "title": "RINFEDER筒形聯軸器TNK系列",
-          "preview_rel": "preview/products/detail/211.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "212",
-          "title": "RINFEDER法蘭聯軸器TNF系列",
-          "preview_rel": "preview/products/detail/212.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "213",
-          "title": "RINFEDER撓性聯軸器TNR系列",
-          "preview_rel": "preview/products/detail/213.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
           "product_id": "215",
           "title": "RINGFEDER 摩擦彈簧",
           "preview_rel": "preview/products/detail/215.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "335",
-          "title": "Ringfeder RLP & RLB 彈性插銷聯軸器",
-          "preview_rel": "preview/products/detail/335.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "336",
-          "title": "Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)",
-          "preview_rel": "preview/products/detail/336.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
           "agent_status": "agent-source-needed",
@@ -2178,89 +2098,9 @@
       ],
       "source_pages": [
         {
-          "product_id": "208",
-          "title": "RINGFEDER 波紋管聯軸器",
-          "preview_rel": "preview/products/detail/208.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "209",
-          "title": "RINFEDER 鋼片式聯軸器TND系列",
-          "preview_rel": "preview/products/detail/209.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "210",
-          "title": "RINFEDER齒輪聯軸器TNZ系列",
-          "preview_rel": "preview/products/detail/210.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "211",
-          "title": "RINFEDER筒形聯軸器TNK系列",
-          "preview_rel": "preview/products/detail/211.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "212",
-          "title": "RINFEDER法蘭聯軸器TNF系列",
-          "preview_rel": "preview/products/detail/212.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "213",
-          "title": "RINFEDER撓性聯軸器TNR系列",
-          "preview_rel": "preview/products/detail/213.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
           "product_id": "215",
           "title": "RINGFEDER 摩擦彈簧",
           "preview_rel": "preview/products/detail/215.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "335",
-          "title": "Ringfeder RLP & RLB 彈性插銷聯軸器",
-          "preview_rel": "preview/products/detail/335.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "336",
-          "title": "Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)",
-          "preview_rel": "preview/products/detail/336.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
           "agent_status": "agent-source-needed",

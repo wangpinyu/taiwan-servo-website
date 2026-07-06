@@ -65,10 +65,13 @@
       "official_match": "Flange Couplings TNF",
       "status": "source-found",
       "sources": [
-        {"type": "official-product-page", "url": "https://www.ringfeder.com/products/flange-couplings/"}
+        {"type": "official-product-page", "url": "https://www.ringfeder.com/products/flange-couplings/"},
+        {"type": "official-product-paper", "url": "https://www.ringfeder.com/globalassets/downloads/product-paper/product-paper-tech-paper-ringfeder-flange-couplings-tnf-en.pdf"},
+        {"type": "official-tech-paper", "url": "https://www.ringfeder.com/globalassets/downloads/tech-paper/couplings/flange-couplings-tnf/tech-paper-ringfeder-flange-couplings-tnf-5571-en.pdf"},
+        {"type": "official-instruction-manual", "url": "https://www.ringfeder.com/globalassets/downloads/instructions/flange-couplings-tnf/installation-and-operations-manual-ringfeder-flange-couplings-tnf-5571-en.pdf"}
       ],
-      "module_readiness": "source-found-download-url-needed",
-      "notes": ["Official page exposes TNF 5571 summary fields and a Product Paper TNF download entry; exact PDF URL still needs resolution."]
+      "module_readiness": "ready-for-source-backed-table",
+      "notes": ["Visible module uses official TNF 5571 summary fields and verified PDF URLs."]
     },
     {
       "product_id": "213",
@@ -97,24 +100,26 @@
       "product_id": "335",
       "local_title": "Ringfeder RLP & RLB 彈性插銷聯軸器",
       "official_match": "Pin & Bush Couplings RLP / RLB",
-      "status": "partial-source-found",
+      "status": "source-found-partial-table-approved",
       "sources": [
         {"type": "official-product-page", "url": "https://www.ringfeder.com/products/pin-and-bush-couplings/rlp/"},
         {"type": "official-instruction-manual", "url": "https://www.ringfeder.com/globalassets/downloads/instructions/pin--bush-couplings-rlp--rlb/installation-and-operations-manual-ringfeder-pin-and-bush-couplings-rlb-en.pdf"}
       ],
-      "module_readiness": "partial-source-more-official-table-needed"
+      "module_readiness": "ready-with-unresolved-fields-marked-contact",
+      "notes": ["Visible module uses official RLP summary fields and marks unresolved RLB values as 請洽星泰 rather than inventing data."]
     },
     {
       "product_id": "336",
       "local_title": "Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)",
       "official_match": "Tyre Couplings RLT / RLU",
-      "status": "partial-source-found",
+      "status": "source-found-summary-approved",
       "sources": [
         {"type": "official-family-page", "url": "https://www.ringfeder.com/products/tyre-couplings/"},
         {"type": "official-product-page", "url": "https://www.ringfeder.com/products/tyre-couplings/rlt/"},
         {"type": "official-product-page", "url": "https://www.ringfeder.com/products/tyre-couplings/rlu/"}
       ],
-      "module_readiness": "partial-source-more-download-url-needed"
+      "module_readiness": "ready-for-source-backed-summary-table",
+      "notes": ["Visible module uses official RLT/RLU summary fields and links to official product pages."]
     }
   ]
 }

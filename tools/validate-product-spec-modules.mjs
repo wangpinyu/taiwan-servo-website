@@ -6,7 +6,7 @@ const reportDir = path.join(root, 'reports');
 const standardizationPath = path.join(reportDir, 'product-standardization-report.json');
 const strict = process.argv.includes('--strict');
 
-const INTERNAL_NOTE_RE = /待人工上架|待上架|待確認|後續由人工|不新增未經證實|\bplaceholder\b|\bpending\b|\bTODO\b|對應星泰頁面|欄位與系列排序|未取得可安全轉載|先保留官方文件按鈕|先保留按鈕|本區依|本頁依|本次未納入|後台上架|正式站內(?:檔案|連結)?\s*URL|正式站內連結|正式\s*URL|正式連結|人工補入|再補入|上架後再替換|後替換|後再替換|待替換|待並替換|後設定|預留路徑|已下載到本機|已整理到本機|本機檔案|下載檔案先整理到本機|按鈕先保留|下載按鈕目前|檔案已下載整理到本機|預備區|official-source package|upload to Shin Tai manually|檔案上傳至星泰後台|本機 PDF，後 URL/i;
+const INTERNAL_NOTE_RE = /待人工上架|待上架|待確認|後續由人工|人工確認後|不要放前台|開發人員|內部註解|\bplaceholder\b|\bpending\b|\bTODO\b|official-source package|upload to Shin Tai manually|data-local-file|data-upload-url|local file|本機檔案|本機路徑|未經證實|不新增未經證實/i;
 
 function htmlEscape(value) {
   return String(value ?? '')
@@ -40,16 +40,16 @@ function count(html, re) {
 }
 
 function specBlock(html) {
-  const m = String(html || '').match(/<!-- standardized-spec-module:start -->([\s\S]*?)<!-- standardized-spec-module:end -->/i);
-  return m ? m[1] : '';
+  const match = String(html || '').match(/<!-- standardized-spec-module:start -->([\s\S]*?)<!-- standardized-spec-module:end -->/i);
+  return match ? match[1] : '';
 }
 
 function anchors(html) {
-  return [...String(html || '').matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi)].map((m) => {
-    const attrs = m[1] || '';
+  return [...String(html || '').matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi)].map((match) => {
+    const attrs = match[1] || '';
     const href = attrs.match(/\shref=(["'])(.*?)\1/i)?.[2] || '';
     const aria = attrs.match(/\saria-label=(["'])(.*?)\1/i)?.[2] || '';
-    return { href, aria, text: stripTags(m[2]), tag: m[0] };
+    return { href, aria, text: stripTags(match[2]), tag: match[0] };
   });
 }
 
@@ -59,12 +59,12 @@ function hasInternalNote(block) {
 
 function hasSpecCta(block) {
   const text = stripTags(block);
-  return /請洽星泰|加入詢問|詢問|inquiry|contact|quote/i.test(text);
+  return /詢問|洽詢|加入詢問|詢價|聯絡星泰|inquiry|contact|quote/i.test(text);
 }
 
 function isTechnicalAnchor(anchor) {
   const joined = `${anchor.tag} ${anchor.text} ${anchor.aria}`;
-  return /(?:\.pdf|\.zip|\.dwg|\.step|\.stp|\.dxf|\.cad|PDF|CAD|Manual|Catalog|Drawing|Software|下載|型錄|規格|資料表|手冊|工程圖)/i.test(joined);
+  return /(?:\.pdf|\.zip|\.dwg|\.step|\.stp|\.dxf|\.cad|PDF|CAD|Manual|Catalog|Drawing|Software|規格|型錄|手冊|下載|文件|圖檔)/i.test(joined);
 }
 
 function validate(page) {
@@ -86,9 +86,9 @@ function validate(page) {
 
   if (block && !hasSpecCta(block)) warnings.push('spec_cta_missing_or_outside_block');
 
-  const weakLabels = technical.filter((a) => {
-    const visible = `${a.text}`.trim();
-    const label = `${a.aria}`.trim();
+  const weakLabels = technical.filter((anchor) => {
+    const visible = `${anchor.text}`.trim();
+    const label = `${anchor.aria}`.trim();
     return /^(PDF|CAD|ZIP|Download|下載)$/i.test(visible) && !label;
   }).length;
   if (weakLabels) warnings.push(`download_label_needs_review:${weakLabels}`);
@@ -169,12 +169,16 @@ fs.writeFileSync(path.join(reportDir, 'product-spec-module-qa.html'), `<!doctype
   <h1>產品規格詳情 QA</h1>
   <pre>${htmlEscape(JSON.stringify(report.summary, null, 2))}</pre>
   <table>
-    <thead><tr><th>ID</th><th>產品</th><th>QA</th><th>嚴重問題</th><th>警告</th></tr></thead>
-    <tbody>${pages.map((p) => `<tr><td>${htmlEscape(p.product_id)}</td><td><a href="../${htmlEscape(p.preview_rel)}">${htmlEscape(p.title)}</a></td><td>${htmlEscape(p.qa_status)}</td><td>${htmlEscape(p.critical.join(' / '))}</td><td>${htmlEscape(p.warnings.join(' / '))}</td></tr>`).join('')}</tbody>
+    <thead><tr><th>ID</th><th>產品</th><th>QA</th><th>Critical</th><th>Warnings</th></tr></thead>
+    <tbody>${pages.map((page) => `<tr><td>${htmlEscape(page.product_id)}</td><td><a href="../${htmlEscape(page.preview_rel)}">${htmlEscape(page.title)}</a></td><td>${htmlEscape(page.qa_status)}</td><td>${htmlEscape(page.critical.join(' / '))}</td><td>${htmlEscape(page.warnings.join(' / '))}</td></tr>`).join('')}</tbody>
   </table>
 </body>
 </html>`, 'utf8');
 
-console.log(JSON.stringify({ status: report.summary.fail_count ? 'issues' : 'ok', report: 'site/reports/product-spec-module-qa.html', summary: report.summary }, null, 2));
+console.log(JSON.stringify({
+  status: report.summary.fail_count ? 'issues' : 'ok',
+  report: 'site/reports/product-spec-module-qa.html',
+  summary: report.summary,
+}, null, 2));
 
 if (report.summary.fail_count || (strict && report.summary.warn_count)) process.exit(1);

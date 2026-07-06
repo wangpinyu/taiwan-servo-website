@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T06:18:42.780Z",
+  "generatedAt": "2026-07-06T06:56:10.805Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
   "summary": {
     "totalIssues": 18,
     "totalPages": 248,
-    "totalBlockingPages": 20,
-    "totalSourcePages": 20
+    "totalBlockingPages": 12,
+    "totalSourcePages": 12
   },
   "entries": [
     {
@@ -187,11 +187,11 @@
       "category": "聯軸器",
       "branch": "phase-4-couplings",
       "pages": 16,
-      "blockingPages": 9,
-      "sourcePages": 9,
+      "blockingPages": 1,
+      "sourcePages": 1,
       "statusCounts": {
-        "agent-approved-clean": 7,
-        "agent-source-needed": 9
+        "agent-approved-clean": 15,
+        "agent-source-needed": 1
       },
       "title": "[聯軸器] 產品頁優化追蹤",
       "labels": [

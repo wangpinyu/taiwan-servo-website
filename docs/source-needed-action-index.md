@@ -14,9 +14,11 @@ This file turns the current `source-needed` audit into executable follow-up work
 
 ## Summary
 
-- Total source-needed pages: 20
-- Official source audit queue: 14
+- Total source-needed pages: 12
+- Official source audit queue: 6
 - Non-standard product/spec exceptions: 6
+- RINGFEDER pages resolved in this branch: 208, 209, 210, 211, 212, 213, 335, 336.
+- RINGFEDER page still unresolved: 215, because official source classifies it as friction springs / damping technology rather than a coupling family.
 
 ## Official Source Audit Queue
 
@@ -25,19 +27,11 @@ These pages can be handled by AI agent source research. The agent must find offi
 | ID | Page | Category | Required source work | Suggested branch |
 | --- | --- | --- | --- | --- |
 | 102 | JVL整合型伺服馬達及步進馬達的特色 | 各類馬達 / 步進馬達 | Find official JVL product/family pages or PDFs and decide whether the page is a feature overview or a comparable product series page. | `source-audit-jvl-motors` |
-| 149 | Thomson 減速機 | 空氣軸承 / 滾珠・滾柱軸承 / Thomson | Find official Thomson/Nook equivalent source for reducer specifications, or keep as source-needed if the Taiwan Servo page is only a category bridge. | `source-audit-thomson-reducers` |
+| 149 | Thomson 減速機 | 空氣軸承 / 滾珠•滾柱軸承 / Thomson | Find official Thomson/Nook equivalent source for reducer specifications, or keep as source-needed if the Taiwan Servo page is only a category bridge. | `source-audit-thomson-reducers` |
 | 194 | 山洋電氣 SANUPS電源系統 | 山洋電氣 SANYO DENKI | Find official SANUPS series/product pages and public datasheets. Build only source-backed fields. | `source-audit-sanyo-denki` |
 | 195 | 山洋電氣 SANMOTION伺服系統 | 山洋電氣 SANYO DENKI | Find official SANMOTION series/product pages and public datasheets. Separate amplifier, motor, and controller downloads. | `source-audit-sanyo-denki` |
-| 208 | RINGFEDER 波紋管聯軸器 | 聯軸器 | Find official RINGFEDER bellows coupling pages/catalogs and map public series names before adding tables. | `source-audit-ringfeder-couplings` |
-| 209 | RINFEDER 鋼片式聯軸器TND系列 | 聯軸器 | Verify official spelling and TND series source. Correct visible brand typo only when source-backed and approved for content edits. | `source-audit-ringfeder-couplings` |
-| 210 | RINFEDER齒輪聯軸器TNZ系列 | 聯軸器 | Verify official TNZ gear coupling source and field names. | `source-audit-ringfeder-couplings` |
-| 211 | RINFEDER筒形聯軸器TNK系列 | 聯軸器 | Verify official TNK barrel coupling source and field names. | `source-audit-ringfeder-couplings` |
-| 212 | RINFEDER法蘭聯軸器TNF系列 | 聯軸器 | Verify official TNF flange coupling source and field names. | `source-audit-ringfeder-couplings` |
-| 213 | RINFEDER撓性聯軸器TNR系列 | 聯軸器 | Verify official TNR flexible coupling source and field names. | `source-audit-ringfeder-couplings` |
-| 215 | RINGFEDER 摩擦彈簧 | 聯軸器 | Find official friction spring source. If the product family is not a coupling, note category mismatch separately. | `source-audit-ringfeder-couplings` |
-| 270 | 山洋電氣 SANYO DENKI 馬達相關 | 各類馬達 / 山洋電氣 | Find official SANYO DENKI motor family pages and decide whether this is a category overview rather than a spec table page. | `source-audit-sanyo-denki` |
-| 335 | Ringfeder RLP & RLB 彈性插銷聯軸器 | 聯軸器 | Find official RLP/RLB source tables and downloads. | `source-audit-ringfeder-couplings` |
-| 336 | Ringfeder RLT 輪胎聯軸器 (Tyre Couplings) | 聯軸器 | Find official RLT tyre coupling source tables and downloads. | `source-audit-ringfeder-couplings` |
+| 215 | RINGFEDER 摩擦彈簧 | 聯軸器 | Decide whether to keep this page under couplings or move/reframe it as damping technology. Official source: https://www.ringfeder.com/products/friction-springs/ | `source-audit-ringfeder-couplings` |
+| 270 | 山洋電氣 SANYO DENKI 馬達相關 | 各類馬達 / 山洋電氣 Sanyo denki | Find official SANYO DENKI motor family pages and decide whether this is a category overview rather than a spec table page. | `source-audit-sanyo-denki` |
 
 ## Non-standard Exceptions
 
@@ -52,14 +46,6 @@ These should not be forced into the standard `產品規格詳情` module without
 | 268 | ACS 特點說明 | `informational-source-needed` | Treat as an ACS feature/information page. Build structured content only after the page role is approved. |
 | 269 | ACS 教育訓練影片 | `training-content-no-spec` | Training/video content should use a training resource schema, not product specifications. |
 
-## Next Agent Steps
-
-1. Start with `source-audit-ringfeder-couplings`, because it covers 9 of the 14 official-source pages.
-2. Use only official RINGFEDER, Thomson, JVL, and SANYO DENKI sources.
-3. For each page, produce a small evidence package: source URLs, matched product family, available fields, missing fields, download links, and whether the page can receive `產品規格詳情`.
-4. Update the local preview and rerun `npm run validate`.
-5. Only move pages to `agent-approved-clean` when the visible module, downloads, CTA, mobile table behavior, and source traceability are verified.
-
 ## Source Audit Progress
 
 ### RINGFEDER Couplings
@@ -69,7 +55,14 @@ These should not be forced into the standard `產品規格詳情` module without
 - Machine-readable evidence: `docs/source-audits/ringfeder-couplings.json`
 - Covered pages: `208`, `209`, `210`, `211`, `212`, `213`, `215`, `335`, `336`
 - Current result:
-  - `source-found`: 208, 209, 210, 211, 212, 213
-  - `source-found-category-mismatch`: 215
-  - `partial-source-found`: 335, 336
-- Important: this source audit is evidence only. These pages should remain `agent-source-needed` until their visible `產品規格詳情` modules are revised and validated from the official fields/downloads.
+  - `agent-approved-clean`: 208, 209, 210, 211, 212, 213, 335, 336
+  - `agent-source-needed`: 215
+- Validation evidence: `npm run validate` passes; `site/reports/product-spec-agent-review.json` reports 236 `agent-approved-clean` pages and 12 `agent-source-needed` pages.
+
+## Next Agent Steps
+
+1. Resolve page 215 category/content decision before changing the visible module.
+2. Continue with `source-audit-sanyo-denki`, because it covers 194, 195, and 270.
+3. Continue with `source-audit-jvl-motors` for 102.
+4. Continue with `source-audit-thomson-reducers` for 149.
+5. Keep 241, 253, 254, 255, 268, and 269 as non-standard exceptions until a separate schema is approved.
