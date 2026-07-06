@@ -110,3 +110,16 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 SEJINIGB visible quality pass
+
+- Branch: `phase-5-sejinigb`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed SEJINIGB pages:
+  - `detail/151`, `detail/152`
+- Result:
+  - Renamed the non-visible CSS helper class on `151` from `product-img-placeholder` to `product-img-frame` to avoid internal workflow terminology in source.
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 2 pages.
+- Validation:
+  - Edge/CDP visual smoke on `151` and `152` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, and no customer-facing internal text.
+  - The remaining `placeholder` string in both pages is only the formal-site search input placeholder `輸入關鍵字`, not a product/spec-module issue.
