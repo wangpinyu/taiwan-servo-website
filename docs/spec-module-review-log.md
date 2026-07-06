@@ -110,3 +110,18 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Positioning stage visible quality pass
+
+- Branch: `phase-3-positioning-stage`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed positioning-stage pages:
+  - `detail/155`, `detail/156`, `detail/157`, `detail/158`, `detail/159`, `detail/160`, `detail/161`, `detail/162`, `detail/163`, `detail/164`, `detail/165`, `detail/166`
+- Fixes:
+  - Filled empty Thomson document status labels on `detail/164` with `請洽星泰`.
+  - Filled the empty Thomson document note on `detail/164` with a customer-facing confirmation message.
+- Result:
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 12 positioning-stage pages.
+  - All 12 pages remain `agent-approved-clean`; no source-needed pages in this category.
+- Validation:
+  - Edge/CDP visual smoke on `155`, `159`, `162`, `164`, `165`, and `166` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, no customer-facing internal text.
