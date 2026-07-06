@@ -1,57 +1,62 @@
-# GitHub 驅動的產品頁優化工作流
+# GitHub 驅動的產品頁優化流程
 
 更新日期：2026-07-06
 
-本 repo 用來把星泰網站的本機 preview、產品規格詳情、UIUX、SEO、下載連結與 QA 流程放進可追蹤的 GitHub 工作流。正式後台與正式站部署不屬於本階段。
+本文件定義星泰網站本機 preview 與 GitHub PR 工作流。目標是讓 AI agent 可以在本機完成產品頁 UIUX、SEO、產品規格詳情、下載連結與 QA 收斂，再透過分支與 PR 進行可追蹤審查。
 
-## 分支與 PR 節奏
+## 工作原則
 
-- `main`：永遠保持可驗證狀態。
-- `phase-1-smac-spec-standard`：SMAC / 電動缸標準樣板。
-- `phase-2-drivers-spec-review`：驅動器與 ACS 控制器 / 驅動器。
-- `phase-2-motors-spec-review`：各類馬達。
-- `phase-3-harmonic-drive`：Harmonic Drive 減速機。
-- `phase-3-renishaw-feedback`：Renishaw 回授元件。
-- `phase-3-positioning-stage`：定位平台。
-- `phase-3-bearings-air-mechanical`：空氣軸承 / 滾珠與滾柱軸承。
-- `phase-4-couplings`：聯軸器。
-- `phase-4-fms-tension`：FMS 張力系統。
-- `phase-4-solid-state-relays`：固態繼電器。
-- `phase-4-sanyo-denki`：山洋電氣 SANYO DENKI。
-- `phase-4-special-environments`：特殊環境。
-- `phase-5-ceramic-chucks`：陶瓷吸盤。
-- `phase-5-sejinigb`：SEJINIGB。
-- `phase-5-blowers`：鼓風機。
-- `phase-5-automation-systems`：自動化系統。
-- `phase-5-other-feedback`：其他回授元件。
+- `main` 永遠維持可驗證狀態。
+- 每個品牌或產品類別使用一個 phase branch 與一個 PR。
+- 每個 PR 必須附上修改範圍、QA 報告、AI review 狀態與剩餘待確認項。
+- AI agent 可自行處理 `agent-fix-required` 與一般結構問題。
+- 只有官方來源不足、來源衝突、後台限制或商業判斷才升級人工確認。
+- 本階段只處理本機 preview 與 GitHub 工作流，不登入後台、不儲存、不上傳、不覆蓋正式伺服器。
 
-每個 PR 必須附上：
+## Phase 分支
 
-- 修改頁數。
-- QA 報告連結。
-- AI review 狀態前後差異。
-- `source-needed` 或人工例外項目。
-- `npm run validate` 結果。
+| Phase | Branch | 範圍 |
+| --- | --- | --- |
+| 1 | `phase-1-smac-spec-standard` | SMAC / 電動缸標準樣板 |
+| 2 | `phase-2-drivers-spec-review` | 驅動器、ACS 控制器 / 驅動器 |
+| 2 | `phase-2-motors-spec-review` | 各類馬達 |
+| 3 | `phase-3-harmonic-drive` | Harmonic Drive 減速機 |
+| 3 | `phase-3-renishaw-feedback` | Renishaw 回授元件 |
+| 3 | `phase-3-positioning-stage` | 定位平台 |
+| 3 | `phase-3-bearings-air-mechanical` | 空氣軸承、滾珠 / 滾柱軸承 |
+| 4 | `phase-4-couplings` | 聯軸器 |
+| 4 | `phase-4-fms-tension` | FMS 張力系統 |
+| 4 | `phase-4-solid-state-relays` | 固態繼電器 |
+| 4 | `phase-4-sanyo-denki` | 山洋電氣 SANYO DENKI |
+| 4 | `phase-4-special-environments` | 特殊環境 |
+| 5 | `phase-5-ceramic-chucks` | 陶瓷吸盤 |
+| 5 | `phase-5-sejinigb` | SEJINIGB |
+| 5 | `phase-5-blowers` | 鼓風機 |
+| 5 | `phase-5-automation-systems` | 自動化系統 |
+| 5 | `phase-5-other-feedback` | 其他回授元件 |
 
 ## Labels
 
 `.github/labels.yml` 是 label source of truth：
 
 - `spec-module`：產品規格詳情、accordion、table、CTA。
-- `seo`：title、meta、canonical、breadcrumb、schema、heading。
-- `uiux`：版面、響應式、可讀性、互動與可及性。
-- `download-links`：PDF、CAD、Manual、Catalog、Drawing、Software。
-- `source-needed`：官方來源或資料對應待確認。
-- `backend-ready`：本機 preview 已接受，可進入後台或伺服器部署準備。
+- `seo`：title、meta、canonical、breadcrumb、heading、schema。
+- `uiux`：版型、響應式、可讀性、accessibility、視覺階層。
+- `download-links`：PDF、CAD、Manual、Catalog、Drawing、Software、external-source。
+- `source-needed`：官方來源或資料對應仍需確認。
+- `backend-ready`：本機 preview 可準備進入後台或伺服器部署階段。
 - `blocked-server-large-file`：已知大檔或伺服器上傳限制，不阻塞本機優化。
 
-## 常用驗證指令
+## 本機驗證指令
+
+每次修改後先執行：
 
 ```powershell
 npm run validate
+git diff --check
 ```
 
-單項 QA：
+可分項執行：
 
 ```powershell
 npm run qa:site
@@ -64,7 +69,7 @@ npm run qa:agent
 npm run qa:source-needed
 ```
 
-工作流報告：
+GitHub 工作流報告：
 
 ```powershell
 npm run workflow:backlog
@@ -73,39 +78,39 @@ npm run workflow:pr-index
 npm run workflow:github-readiness
 ```
 
-## 自動修正常用指令
+## 自動修正指令
 
-若 `qa:product-seo` 回報多個 H1：
-
-```powershell
-npm run fix:h1-hierarchy:dry-run
-npm run fix:h1-hierarchy
-```
-
-若 `qa:product-seo` 回報 body 內有 `<title>`：
-
-```powershell
-npm run fix:body-title-tags:dry-run
-npm run fix:body-title-tags
-```
-
-若 `qa:spec` 回報共通安全問題：
+常見規格模組問題：
 
 ```powershell
 npm run fix:spec-common:dry-run
 npm run fix:spec-common
 ```
 
+產品內容中誤放 `<title>`：
+
+```powershell
+npm run fix:body-title-tags:dry-run
+npm run fix:body-title-tags
+```
+
+多 H1 階層問題：
+
+```powershell
+npm run fix:h1-hierarchy:dry-run
+npm run fix:h1-hierarchy
+```
+
 ## GitHub Bootstrap
 
-沒有 token 時只跑 dry-run：
+無 token 時只做 dry-run：
 
 ```powershell
 npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
 ```
 
-有 fine-grained GitHub token 後，先 smoke：
+有 fine-grained GitHub token 時才 apply：
 
 ```powershell
 $env:GITHUB_TOKEN = "<token>"
@@ -113,7 +118,7 @@ npm run github:bootstrap:smoke
 Remove-Item Env:\GITHUB_TOKEN
 ```
 
-smoke 通過後再完整建立 labels、tracking issues 與 PR：
+smoke 成功後建立全部 labels、tracking issues 與 PR：
 
 ```powershell
 $env:GITHUB_TOKEN = "<token>"
@@ -121,11 +126,11 @@ npm run github:bootstrap
 Remove-Item Env:\GITHUB_TOKEN
 ```
 
-Token 只放在目前 PowerShell session，不寫入檔案。
+token 只能放在 PowerShell session，不得寫入檔案、commit 或聊天紀錄。
 
 ## Agent Review 狀態流轉
 
-主要資料來源：`site/reports/product-spec-agent-review.json`。
+`site/reports/product-spec-agent-review.json` 是主要任務分派來源。
 
 ```text
 agent-fix-required
@@ -136,46 +141,49 @@ agent-source-needed
   -> 補官方來源後再回到 fix-required 或 approved-clean
 ```
 
-AI agent 可自行處理 `agent-fix-required`。只有官方來源衝突、資料缺失、後台限制或業務決策才升級人工。
+目前基準：
+
+- 產品頁：248
+- `agent-approved-clean`：228
+- `agent-source-needed`：20
+- `agent-fix-required`：0
+- `agent-structure-review`：0
 
 ## 產品規格詳情規則
 
 - `產品規格詳情` 必須位於 `產品系列` 下方。
-- 使用真正 `<table>`，表頭保留原廠欄位與單位。
-- Accordion 使用 `<button>` 搭配 `aria-expanded` / `aria-controls`，或使用原生 `<details>/<summary>`。
+- 規格表使用真正 `<table>`。
+- 表頭保留原廠欄位與單位。
+- Accordion 使用 `<button>` 搭配 `aria-expanded` / `aria-controls`，或語意清楚的 `<details>/<summary>`。
 - PDF / CAD / Manual / Catalog / Drawing / Software 必須分類清楚。
-- 無下載時顯示 `請洽星泰`，不要使用空連結。
-- 不得出現 `href="#"`、`.txt` href、`file:///`、本機磁碟路徑、`pending`、`placeholder`、`data-local-file` 或內部註解。
+- 無下載時顯示 `請洽星泰`，不得留下空連結。
+- 不得出現 `href="#"`、`.txt`、`file:///`、本機磁碟路徑、`pending`、`placeholder`、`data-local-file` 或內部工作註解。
+- 規格不足時不補假資料，使用 `—`、`原廠未公開`、`請洽星泰` 或標記 `source-needed`。
 
 ## SEO / UIUX 規則
 
-- 保留 canonical、title、meta description、breadcrumb 與既有導覽。
-- 每頁只保留一個 H1。
-- 主內容使用合理 H2/H3。
-- 重要內容使用可爬取 HTML。
-- CTA 必須可見且可點擊。
-- 不新增假價格、庫存、評分或評論。
-- 有可見 FAQ 才能加 FAQ schema。
+- 保留 canonical、title、meta description、breadcrumb 與既有內部連結。
+- 每頁維持單一 H1。
+- 主內容模組使用合理 H2/H3。
+- 重要內容使用可爬取 HTML，不放在純圖片或不可讀 JS 中。
+- CTA 使用真實 `<a>` 或現有詢問入口。
+- 不新增假價格、假庫存、假評分或假評論。
+- 只有頁面上存在可見 FAQ 時才加入 FAQ schema。
 
 ## 大檔與下載策略
 
 - `large-file-risk` 是已知伺服器問題，不阻塞本機優化。
-- 若檔案無法穩定上傳或下載過大，優先連至原廠官方下載頁或官方文件 URL，並在報告中標示 `external-source`。
-- Git LFS 用於必要的大型文件與圖片；PR 不直接塞未壓縮新圖。
+- 檔案無法穩定上傳或太大時，優先連至原廠官方下載頁或官方文件 URL，並標記 `external-source`。
+- Git LFS 用於大型 PDF、ZIP、CAD、圖片；PR 不直接塞未壓縮新圖。
 
-## PR 驗收條件
+## PR 驗收門檻
 
-每個 PR 合併前需確認：
+每個 PR 至少需要：
 
 - `npm run validate` pass。
 - GitHub Actions `Preview QA` pass。
-- 目標頁轉為 `agent-approved-clean`，或來源缺口明確標記為 `source-needed`。
-- `產品規格詳情` 位置與命名正確。
-- 無本機路徑、`.txt`、`href="#"`、placeholder 或內部工作註解。
-- `product-page-structure-seo-qa.html` 無 critical fail；warning 必須在 PR 內說明處理策略。
-- SEO 基礎結構未倒退。
-
-## 目前限制
-
-- 若 shell 沒有 `GITHUB_TOKEN` / `GH_TOKEN`，只能產生 GitHub dry-run 與 Markdown 草稿，不能自動建立 issue / PR。
-- 本階段只處理本機 preview 與 GitHub 工作流；正式後台儲存、測試網上架、正式站覆蓋另開部署階段。
+- 目標頁轉為 `agent-approved-clean`，或明確列為 `source-needed`。
+- `產品規格詳情` 位置正確。
+- 無本機路徑、`.txt`、`href="#"`、placeholder 或內部註解外露。
+- `product-page-structure-seo-qa.html` 無 critical fail。
+- SEO 基礎未倒退。
