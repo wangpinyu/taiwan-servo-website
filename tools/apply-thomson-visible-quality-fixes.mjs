@@ -3,7 +3,7 @@ import path from "node:path";
 
 const root = process.cwd();
 const detailDir = path.join(root, "site", "preview", "products", "detail");
-const ids = ["170", "171", "376", "377", "378", "379"];
+const ids = ["164", "170", "171", "191", "376", "377", "378", "379"];
 
 function stripTags(value) {
   return value
@@ -60,6 +60,12 @@ function fixMisnamedSeriesHeading(html) {
   );
 }
 
+function fixEmptyDocumentStatus(html) {
+  return html
+    .replace(/<div class="st-thom-empty"><\/div>/g, '<div class="st-thom-empty">文件需依實際型號與語言版本確認，請由星泰協助提供。</div>')
+    .replace(/<span><\/span>/g, "<span>請洽星泰</span>");
+}
+
 const results = [];
 for (const id of ids) {
   const file = path.join(detailDir, `${id}.html`);
@@ -67,6 +73,7 @@ for (const id of ids) {
   const title = getTitle(before);
   let html = before;
   html = fixMisnamedSeriesHeading(html);
+  html = fixEmptyDocumentStatus(html);
   const placeholderResult = replacePlaceholderImages(html, title);
   html = placeholderResult.html;
   if (html !== before) {

@@ -149,3 +149,21 @@ npm run github:bootstrap:smoke:dry-run
 - Remaining Thomson work:
   - Manually review `detail/100` preview before applying the same visual system broadly.
   - Review non-actuator Thomson pages (`149`, `164`, `191`) separately because their page intent differs from 電動缸/推桿 pages.
+
+## 2026-07-06 Thomson non-actuator page pass
+
+- Branch: `phase-uiux-thomson-actuators`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed Thomson non-actuator pages:
+  - `detail/149` Thomson 減速機
+  - `detail/164` Thomson滑台
+  - `detail/191` Thomson 直線軸承和導軌
+- Fixes:
+  - `detail/164` and `detail/191`: replaced empty document status badges with `請洽星泰`.
+  - Replaced empty `.st-thom-empty` boxes with customer-facing text: `文件需依實際型號與語言版本確認，請由星泰協助提供。`
+  - Left `detail/149` layout unchanged because no placeholder image or empty document-state issue was found.
+- Validation:
+  - `npm run qa:spec`: pass, 242 pass / 6 no-spec-module / 0 fail / 0 warn.
+  - `npm run qa:product-seo`: pass, 242 pass / 6 no-spec-module / 0 fail / 0 warn.
+  - `npm run validate`: pass, 0 errors.
+  - Edge/Playwright visual smoke on `149`, `164`, `191` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, no empty document badges.
