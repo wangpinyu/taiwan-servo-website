@@ -110,3 +110,17 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Special environments visible quality pass
+
+- Branch: `phase-4-special-environments`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed special-environment pages:
+  - `detail/178`, `detail/179`, `detail/180`, `detail/181`, `detail/182`, `detail/183`, `detail/184`, `detail/185`, `detail/186`, `detail/187`, `detail/188`
+- Result:
+  - Normalized clear module headings: product/series guide sections to `產品系列`, and clear application sections to `應用領域`.
+  - Filled empty Thomson document status spans in `178` and `179` with the customer-facing status `請洽星泰`.
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 11 pages.
+  - Ambiguous technical sections such as `技術規格摘要`, `一般規格一覽`, and legacy product-specific headings were preserved rather than forced into a standard label.
+- Validation:
+  - Edge/CDP visual smoke on `178`, `179`, `180`, `184`, `185`, and `188` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, no empty Thomson document status, and no customer-facing internal text. Where `產品系列` exists, `產品規格詳情` appears after it.
