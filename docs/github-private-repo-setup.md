@@ -1,46 +1,41 @@
 # Private GitHub Repo Setup
 
-最後更新：2026-07-06
+更新日期：2026-07-06
 
-本文件記錄星泰網站本機優化工作區的 GitHub private repo 準備方式。
+本文件記錄目前 GitHub-ready repo 的狀態與後續啟用 GitHub API bootstrap 的方式。
 
-本機 repo：
+## 本機 repo
 
 ```text
 F:\Taiwan_Servo_website_management_Codex_File\github-ready\taiwan-servo-site-optimization
 ```
 
-遠端 repo：
+## 遠端 repo
 
 ```text
 https://github.com/wangpinyu/taiwan-servo-website.git
 ```
 
+repo 應保持 private。不要把後台密碼、cookie、token、`.env` 或任何登入狀態放進 repo。
+
 ## 目前已完成
 
-- 已建立 Git repo。
-- 已推送 `main`。
-- 已推送 17 個 phase 分支。
-- 已設定 Git LFS 規則，PDF、ZIP、CAD、圖片等大型檔案由 `.gitattributes` 管理。
-- 已建立 GitHub Actions：`.github/workflows/preview-qa.yml`。
-- 已建立本機 preview 與 QA 指令：
+- Git repo 已初始化。
+- `main` 已推送。
+- 17 個 phase branches 已推送。
+- Git LFS 已由 `.gitattributes` 規範大型 PDF、ZIP、CAD、圖片。
+- GitHub Actions 已建立：`.github/workflows/preview-qa.yml`。
+- Issue templates、PR template、labels 設定已建立。
+- 本機 preview 與 QA 指令已建立：
   - `npm run serve`
   - `npm run validate`
-- 已建立 GitHub bootstrap 工具：
+- GitHub bootstrap 腳本已建立：
   - labels
   - tracking issues
   - pull requests
-  - smoke dry-run
   - readiness report
 
-## Repo 原則
-
-- Repo 必須保持 private。
-- 不存放後台帳密、cookie、token、`.env` 或私密設定。
-- 本階段只處理本機 preview 與 GitHub 工作流，不登入後台、不儲存、不上傳、不覆蓋正式伺服器。
-- 大型文件與圖片若納入 repo，需走 Git LFS 或先壓縮整理。
-
-## 基本命令
+## 基本檢查
 
 ```powershell
 cd 'F:\Taiwan_Servo_website_management_Codex_File\github-ready\taiwan-servo-site-optimization'
@@ -48,21 +43,18 @@ npm run validate
 git status --short
 ```
 
-## GitHub API Bootstrap
+## GitHub Token 權限
 
-先 dry-run：
+若要由腳本建立 labels、issues 與 PR，需要 fine-grained GitHub token，範圍限於此 private repo。
 
-```powershell
-npm run github:bootstrap:dry-run
-```
+建議權限：
 
-少量 smoke：
+- Metadata: read
+- Contents: read
+- Issues: read/write
+- Pull requests: read/write
 
-```powershell
-npm run github:bootstrap:smoke:dry-run
-```
-
-有 GitHub fine-grained token 後：
+token 只允許放在目前 PowerShell session：
 
 ```powershell
 $env:GITHUB_TOKEN = "<token>"
@@ -70,7 +62,26 @@ npm run github:bootstrap:smoke
 Remove-Item Env:\GITHUB_TOKEN
 ```
 
-smoke 成功後可全量建立 labels、issues、PRs：
+不得把 token 寫入檔案、commit、issue、PR 或聊天紀錄。
+
+## Bootstrap 流程
+
+先 dry-run：
+
+```powershell
+npm run github:bootstrap:dry-run
+npm run github:bootstrap:smoke:dry-run
+```
+
+有 token 後先跑 smoke：
+
+```powershell
+$env:GITHUB_TOKEN = "<token>"
+npm run github:bootstrap:smoke
+Remove-Item Env:\GITHUB_TOKEN
+```
+
+smoke 成功後再建立全部 labels、issues、PR：
 
 ```powershell
 $env:GITHUB_TOKEN = "<token>"
@@ -78,35 +89,19 @@ npm run github:bootstrap
 Remove-Item Env:\GITHUB_TOKEN
 ```
 
-Token 不得寫入檔案或 commit。
-
-## GitHub Token 權限
-
-Fine-grained token 建議只給此 private repo，權限至少包含：
-
-- Metadata: read
-- Issues: read/write
-- Pull requests: read/write
-- Contents: read
-
-Labels 由 Issues API 管理，因此通常跟 Issues 權限一起運作。
-
-## 驗證報告
+## 重要報告
 
 - `site/reports/github-bootstrap-readiness.html`
 - `site/reports/github-ready-validation.html`
 - `site/reports/local-mirror-readiness-current.html`
 - `site/reports/product-spec-module-qa.html`
+- `site/reports/product-page-structure-seo-qa.html`
 - `site/reports/product-spec-agent-review.html`
 - `site/reports/source-needed-audit.html`
 - `site/reports/optimization-backlog.html`
+- `site/reports/github-issues/index.md`
+- `site/reports/github-prs/index.md`
 
-## 後續部署邊界
+## 目前限制
 
-本 repo 是前台優化與 preview 工作區。正式上架前需另開部署階段，處理：
-
-- 後台 CKEditor 可控欄位映射。
-- 代表圖 / 圖片欄位是否可改。
-- 伺服器檔案覆蓋策略。
-- 大檔、下載連結、原廠外部連結策略。
-- 正式網回歸驗證。
+目前 readiness 狀態為 `ready-needs-token` 時，代表本機 repo、分支、draft 與報告已準備好，但目前 shell 沒有 `GITHUB_TOKEN` / `GH_TOKEN`，因此尚未真正建立 GitHub labels、issues、PR。
