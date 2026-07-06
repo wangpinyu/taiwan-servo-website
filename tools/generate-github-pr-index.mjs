@@ -59,6 +59,12 @@ function readPrSummaryExists(branch) {
   return fs.existsSync(localPath) || readFromBranch(branch, relPath) !== null;
 }
 
+function readableSourceCategory(value) {
+  const text = String(value || '').trim();
+  if (!text || /\?{2,}|\uFFFD/.test(text)) return null;
+  return text;
+}
+
 fs.mkdirSync(outDir, { recursive: true });
 
 const generatedAt = new Date().toISOString();
@@ -70,6 +76,7 @@ const existingPullRefs = git(['ls-remote', 'origin', 'refs/pull/*/head'])
 const entries = plan.map((item) => {
   const remoteExists = remoteBranchExists(item.branch);
   const smoke = remoteExists ? readSmoke(item.branch) : null;
+  const sourceCategory = readableSourceCategory(smoke?.category);
   return {
     ...item,
     remoteExists,
@@ -77,7 +84,8 @@ const entries = plan.map((item) => {
     prUrl: `${repo}/pull/new/${item.branch}`,
     smoke: smoke
       ? {
-          category: smoke.category,
+          category: item.category,
+          ...(sourceCategory && sourceCategory !== item.category ? { sourceCategory } : {}),
           pages: smoke.pages,
           checks: smoke.checks,
           failures: Array.isArray(smoke.failures) ? smoke.failures.length : null,
