@@ -110,3 +110,15 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Renishaw feedback visible quality pass
+
+- Branch: `phase-3-renishaw-feedback`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed Renishaw pages:
+  - `detail/116`, `detail/117`, `detail/118`, `detail/119`, `detail/120`, `detail/121`, `detail/122`, `detail/123`, `detail/124`, `detail/125`, `detail/126`, `detail/299`, `detail/300`, `detail/301`, `detail/302`, `detail/303`, `detail/306`, `detail/307`, `detail/308`, `detail/309`, `detail/310`, `detail/312`, `detail/313`, `detail/314`, `detail/315`, `detail/316`, `detail/319`, `detail/320`, `detail/321`, `detail/322`, `detail/323`, `detail/324`, `detail/325`, `detail/326`, `detail/363`
+- Result:
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 35 Renishaw pages.
+  - All 35 pages remain `agent-approved-clean`; no source-needed pages in this category.
+- Validation:
+  - Edge/CDP visual smoke on `116`, `117`, `118`, `299`, `309`, `325`, and `363` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, no customer-facing internal text.
