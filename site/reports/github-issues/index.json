@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-06T01:12:32.308Z",
+  "generatedAt": "2026-07-06T01:28:14.199Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
   "summary": {
     "totalIssues": 18,
     "totalPages": 248,
-    "totalBlockingPages": 33,
+    "totalBlockingPages": 20,
     "totalSourcePages": 20
   },
   "entries": [
@@ -13,11 +13,10 @@
       "category": "電動缸",
       "branch": "phase-1-smac-spec-standard",
       "pages": 14,
-      "blockingPages": 1,
+      "blockingPages": 0,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 13,
-        "agent-structure-review": 1
+        "agent-approved-clean": 14
       },
       "title": "[電動缸] 產品頁優化追蹤",
       "labels": [
@@ -35,11 +34,10 @@
       "category": "驅動器",
       "branch": "phase-2-drivers-spec-review",
       "pages": 12,
-      "blockingPages": 2,
+      "blockingPages": 0,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 10,
-        "agent-structure-review": 2
+        "agent-approved-clean": 12
       },
       "title": "[驅動器] 產品頁優化追蹤",
       "labels": [
@@ -57,12 +55,11 @@
       "category": "各類馬達",
       "branch": "phase-2-motors-spec-review",
       "pages": 24,
-      "blockingPages": 3,
+      "blockingPages": 2,
       "sourcePages": 2,
       "statusCounts": {
-        "agent-approved-clean": 21,
-        "agent-source-needed": 2,
-        "agent-structure-review": 1
+        "agent-approved-clean": 22,
+        "agent-source-needed": 2
       },
       "title": "[各類馬達] 產品頁優化追蹤",
       "labels": [
@@ -81,12 +78,11 @@
       "category": "ACS 控制器 / 驅動器",
       "branch": "phase-2-drivers-spec-review",
       "pages": 18,
-      "blockingPages": 7,
+      "blockingPages": 6,
       "sourcePages": 6,
       "statusCounts": {
-        "agent-approved-clean": 11,
-        "agent-source-needed": 6,
-        "agent-structure-review": 1
+        "agent-approved-clean": 12,
+        "agent-source-needed": 6
       },
       "title": "[ACS 控制器 / 驅動器] 產品頁優化追蹤",
       "labels": [
@@ -105,11 +101,10 @@
       "category": "Harmonic Drive 減速機",
       "branch": "phase-3-harmonic-drive",
       "pages": 29,
-      "blockingPages": 3,
+      "blockingPages": 0,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 26,
-        "agent-structure-review": 3
+        "agent-approved-clean": 29
       },
       "title": "[Harmonic Drive 減速機] 產品頁優化追蹤",
       "labels": [
@@ -215,11 +210,10 @@
       "category": "FMS 張力系統",
       "branch": "phase-4-fms-tension",
       "pages": 26,
-      "blockingPages": 1,
+      "blockingPages": 0,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 25,
-        "agent-structure-review": 1
+        "agent-approved-clean": 26
       },
       "title": "[FMS 張力系統] 產品頁優化追蹤",
       "labels": [
@@ -323,11 +317,10 @@
       "category": "SEJINIGB 滾輪齒排",
       "branch": "phase-5-sejinigb",
       "pages": 2,
-      "blockingPages": 1,
+      "blockingPages": 0,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 1,
-        "agent-structure-review": 1
+        "agent-approved-clean": 2
       },
       "title": "[SEJINIGB 滾輪齒排] 產品頁優化追蹤",
       "labels": [
@@ -345,11 +338,10 @@
       "category": "鼓風機",
       "branch": "phase-5-blowers",
       "pages": 2,
-      "blockingPages": 1,
+      "blockingPages": 0,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-structure-review": 1,
-        "agent-approved-clean": 1
+        "agent-approved-clean": 2
       },
       "title": "[鼓風機] 產品頁優化追蹤",
       "labels": [
@@ -367,11 +359,10 @@
       "category": "自動化系統",
       "branch": "phase-5-automation-systems",
       "pages": 5,
-      "blockingPages": 2,
+      "blockingPages": 0,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 3,
-        "agent-structure-review": 2
+        "agent-approved-clean": 5
       },
       "title": "[自動化系統] 產品頁優化追蹤",
       "labels": [

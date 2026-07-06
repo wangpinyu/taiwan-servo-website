@@ -79,7 +79,7 @@ function headerText(headers) {
 
 function hasModelOrIdentifierHeader(headers) {
   const joined = headerText(headers);
-  return /part\s*number|model|型號|產品型號|系列|frame|frames|product\s*code|規格|名稱|name|工具型號|光學尺|介面|協定|項目|需求|功能|應用|產業|工具|選型|確認|分類|類型|版本|文件|檔案|特性|效益|元件|配置|用途|產品|結構|角色|負載電壓|負載電流|控制電壓|控制訊號|通道|隔離方式|資料|細分編碼|bearing\s*style|max\.\s*load|ordering\s*item|item|code|protocol|interface|specifications|document|file/i.test(joined);
+  return /part\s*number|model|型號|產品型號|系列|frame|frames|product\s*code|規格|名稱|name|工具型號|光學尺|介面|協定|項目|需求|功能|應用|產業|工具|選型|確認|分類|類型|版本|文件|檔案|特性|效益|元件|配置|用途|產品|結構|角色|適用機台|系統需求|控制邏輯|負載電壓|負載電流|控制電壓|控制訊號|通道|隔離方式|資料|細分編碼|bearing\s*style|max\.\s*load|ordering\s*item|item|code|protocol|interface|specifications|document|file/i.test(joined);
 }
 
 function hasMeasurementOrUnitHeader(headers) {
@@ -168,7 +168,9 @@ function validate(page) {
         warnings.push(`table_${index + 1}_headers_missing`);
         continue;
       }
-      if (!hasModelOrIdentifierHeader(headers)) warnings.push(`table_${index + 1}_model_header_not_detected`);
+      if (!hasModelOrIdentifierHeader(headers) && !hasMeasurementOrUnitHeader(headers) && !hasDownloadOrQualitativeHeader(headers)) {
+        warnings.push(`table_${index + 1}_model_header_not_detected`);
+      }
       if (looksLikeQuantitativeTable(table, headers) && !hasMeasurementOrUnitHeader(headers)) {
         warnings.push(`table_${index + 1}_unit_header_not_detected`);
       }
