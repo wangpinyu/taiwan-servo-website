@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T03:32:32.319Z",
+  "generated_at": "2026-07-06T03:55:27.813Z",
   "scope": "GitHub-ready AI agent review decisions",
   "policy": {
     "default_reviewer": "AI agent",
@@ -769,7 +769,7 @@
       "counts": {
         "details": 1,
         "tables": 1,
-        "pdf_links": 0,
+        "pdf_links": 1,
         "cad_links": 0,
         "zip_links": 0,
         "external_document_links": 0,

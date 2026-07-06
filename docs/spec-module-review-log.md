@@ -127,3 +127,25 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Thomson UIUX visible quality pass
+
+- Branch: `phase-uiux-thomson-actuators`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Updated `detail/100` (`Thomson 電動缸`) as the first Thomson visible UIUX sample page:
+  - Replaced the previous mixed/placeholder layout with a clean green-and-white Thomson product page structure.
+  - Preserved one H1 and the existing page shell/navigation.
+  - Added clear sections: `主內容區`, `產品系列`, `產品規格詳情`, `應用領域`, `技術資料下載`.
+  - Kept `產品規格詳情` as a real table inside the standardized spec-module markers.
+  - Used local real product/document assets instead of placeholder images.
+- Updated Thomson placeholder-image cleanup pages:
+  - `detail/170`, `detail/171`, `detail/376`, `detail/377`, `detail/378`, `detail/379`
+  - Replaced 18 total `placehold.co` application-card images with existing local Thomson product images from the same page.
+  - Fixed `detail/171` card-section heading from `產品規格詳情` to `產品系列` so the real spec module is the only `產品規格詳情` section.
+- Validation:
+  - `npm run qa:spec`: pass, 242 pass / 6 no-spec-module / 0 fail / 0 warn.
+  - `npm run qa:product-seo`: pass, 242 pass / 6 no-spec-module / 0 fail / 0 warn.
+  - `npm run validate`: pass, 0 errors.
+- Remaining Thomson work:
+  - Manually review `detail/100` preview before applying the same visual system broadly.
+  - Review non-actuator Thomson pages (`149`, `164`, `191`) separately because their page intent differs from 電動缸/推桿 pages.
