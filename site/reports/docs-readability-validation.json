@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T10:03:53.248Z",
+  "generatedAt": "2026-07-06T10:12:52.763Z",
   "status": "ok",
   "summary": {
-    "docs": 22,
+    "docs": 24,
     "errors": 0
   },
   "checks": [
@@ -43,11 +43,20 @@
       "mojibakeHits": []
     },
     {
+      "file": "docs/github-api-bootstrap-runbook.md",
+      "type": "doc",
+      "status": "pass",
+      "title": "# GitHub API Bootstrap Runbook",
+      "chars": 1921,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
       "file": "docs/deployment-phase-runbook.md",
       "type": "doc",
       "status": "pass",
       "title": "# Deployment Phase Runbook",
-      "chars": 1785,
+      "chars": 1746,
       "errors": [],
       "mojibakeHits": []
     },
@@ -84,6 +93,15 @@
       "status": "pass",
       "title": "GitHub Bootstrap Readiness",
       "chars": 5283,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/github-api-bootstrap-handoff.html",
+      "type": "report",
+      "status": "pass",
+      "title": "GitHub API Bootstrap Handoff",
+      "chars": 2981,
       "errors": [],
       "mojibakeHits": []
     },
@@ -137,7 +155,7 @@
       "type": "report",
       "status": "pass",
       "title": "GPT Optimization Completion Audit",
-      "chars": 5686,
+      "chars": 5762,
       "errors": [],
       "mojibakeHits": []
     },

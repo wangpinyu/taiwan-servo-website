@@ -41,6 +41,7 @@ const agentReview = readJson('site/reports/product-spec-agent-review.json');
 const sourceAudit = readJson('site/reports/source-needed-audit.json');
 const backlog = readJson('site/reports/optimization-backlog.json');
 const githubReadiness = readJson('site/reports/github-bootstrap-readiness.json');
+const githubApiHandoff = readJson('site/reports/github-api-bootstrap-handoff.json');
 const deploymentReadiness = readJson('site/reports/deployment-readiness-audit.json');
 const visual = readJson('site/reports/visual-sample-qa.json');
 const workflow = readText('.github/workflows/preview-qa.yml');
@@ -216,16 +217,22 @@ const checks = [
     id: 'github-api-bootstrap',
     requirement: 'GitHub labels, issues, and PR refs are created through the GitHub API when a token is available.',
     status: githubReadiness.status === 'ready' ? 'complete' : 'external-action-required',
-    evidence: ['site/reports/github-bootstrap-readiness.json'],
+    evidence: [
+      'site/reports/github-bootstrap-readiness.json',
+      'site/reports/github-api-bootstrap-handoff.json',
+      'docs/github-api-bootstrap-runbook.md',
+    ],
     missing:
       githubReadiness.status === 'ready'
         ? []
-        : ['Set GITHUB_TOKEN or GH_TOKEN in the PowerShell session, then run npm run github:bootstrap.'],
+        : ['Set GITHUB_TOKEN or GH_TOKEN in the PowerShell session, run npm run github:bootstrap:smoke, then run npm run github:bootstrap.'],
     metrics: {
       readiness: githubReadiness.status,
+      handoffStatus: githubApiHandoff.status,
       tokenPresent: githubReadiness.tokenPresent,
       pullRequestRefs: githubReadiness.pullRequestRefs,
       nextActions: githubReadiness.nextActions || [],
+      expectedCounts: githubApiHandoff.expectedCounts || {},
     },
   },
   {

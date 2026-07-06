@@ -1,84 +1,93 @@
 # Deployment Phase Runbook
 
-本文件定義從本機 preview / GitHub PR 階段進入實際部署階段時必須遵守的流程。它不授權任何後台儲存、伺服器上傳、刪除或正式覆蓋；所有 mutation 必須另行取得明確批准。
+這份文件只描述未來部署階段的做法。它不是目前本機 preview / GitHub PR 階段的上架授權。
 
-## 進入條件
+目前原則：
 
-部署階段只能在以下條件都成立後開始：
+- 本機與 GitHub 驗證完成，不等於可以覆蓋正式伺服器。
+- 後台保存、測試網上架、正式伺服器覆蓋，都必須另開 deployment phase 並取得明確核准。
+- 部署前必須有備份、smoke test 與 rollback 方案。
 
-- 目標分支已通過 `npm run validate:strict`。
-- 對應 PR 已完成 AI review 或人工確認。
-- `site/reports/deployment-review-classification.html` 的 `unresolvedNeedsReview` 為 0。
-- 已確認部署範圍是全站、單一類別、單一品牌，或指定頁面集合。
-- 已建立後台內容與伺服器檔案備份策略。
-- 已定義 smoke test 與 rollback 方法。
+## 進入部署前的必要條件
 
-## 部署資源分流
+部署階段啟動前，至少需要確認：
 
-部署前必須依 `site/reports/deployment-review-classification.html` 分流：
+- `npm run validate:strict` 通過。
+- 相關 PR 已完成審查並合併，或明確指定要部署的分支。
+- `site/reports/deployment-review-classification.html` 中 `unresolvedNeedsReview` 為 0。
+- 已確認部署範圍：整站、單一分類、單一產品頁或單一資源類型。
+- 已建立正式伺服器與後台內容備份。
+- 已指定 rollback 方式與驗收人。
 
-- `same-path-overwrite`：可在備份與批准後進行同路徑覆蓋的 `/uploads/...` 圖片或資源。
-- `backend-managed-download-route`：由 `/file/download/...` 或 `/file/output/...` 提供的下載檔，必須走後台或檔案管理流程，不可直接盲目覆蓋。
-- `css-relative-asset`：CSS 相依圖示、字型或小資源，需跟 CSS bundle 一起處理或在部署時重寫路徑。
-- `site-static-asset-review`：favicon、logo 或站台靜態資源，必須獨立審查。
-- `local-placeholder-exclude`：本機缺檔或 0-byte placeholder，不得部署到伺服器。
+## 部署檔案分類
 
-## 建議部署順序
+部署前以 `site/reports/deployment-review-classification.html` 為準：
 
-1. 建立備份：
-   - 後台可編輯內容備份。
-   - 伺服器 `/uploads/...` 目標檔案備份。
-   - 目前正式站 HTML / CSS / JS / 圖片可回復包。
-2. 小範圍 smoke test：
-   - 選 1 個低風險產品頁與 1 個服務頁。
-   - 只部署必要資源。
-   - 驗證桌機與手機版。
-3. 分流部署：
-   - 先處理 same-path overwrite 圖片與靜態資源。
-   - 再處理後台管理下載檔。
-   - 最後處理 CSS bundle 相依資源。
-4. 驗證：
-   - 首頁、產品分類、產品詳情、服務頁皆可開啟。
-   - 重要 CTA、詢問入口、下載連結可用。
-   - 無破圖、無 `.txt` href、無 `file:///`、無本機路徑。
-   - canonical、breadcrumb、H1、meta 不被破壞。
-5. Rollback：
-   - 任一 smoke test 失敗且無法快速修正時，立即回復備份。
-   - 回復後重新驗證至少首頁、產品分類、受影響詳情頁。
+- `same-path-overwrite`：可作為同路徑覆蓋候選，但仍需備份與 smoke test。
+- `backend-managed-download-route`：屬於後台或下載路由管理，不可直接用檔案覆蓋取代。
+- `css-relative-asset`：CSS 內引用的相對資源，必須與 CSS bundle 一起保留路徑關係。
+- `site-static-asset-review`：favicon、logo 或全站靜態資源，需要單獨審查快取與替換風險。
+- `local-placeholder-exclude`：本機 placeholder，不得上傳。
 
-## 禁止事項
+## 建議部署流程
 
-- 未備份直接覆蓋伺服器檔案。
-- 將 `local-placeholder-exclude` 檔案部署到伺服器。
-- 對 `/file/download/...` 或 `/file/output/...` 做盲目同路徑覆蓋。
-- 未驗證正式 URL 就宣稱部署完成。
-- 把本機 preview 通過誤認為正式站已完成。
+1. 備份
+   - 備份目標伺服器檔案。
+   - 匯出或備份會受影響的後台內容。
+   - 記錄備份路徑與恢復方法。
 
-## 部署後回報格式
+2. 小範圍 smoke test
+   - 先選 1 個產品分類、1 個產品頁、1 個服務頁。
+   - 部署後確認頁面可開、圖片可顯示、CTA 可點擊。
+
+3. 分批部署
+   - 優先處理 `same-path-overwrite`。
+   - 後台下載路由與大檔案連結另走後台或檔案管理流程。
+   - CSS 相對資源需與 CSS 一起部署，避免圖示或字型失效。
+
+4. 驗收
+   - Desktop 與 mobile 各抽樣檢查。
+   - 檢查沒有破圖、沒有水平溢出。
+   - 檢查 PDF/CAD/下載連結。
+   - 檢查 canonical、breadcrumb、H1、meta 與 CTA。
+
+5. Rollback
+   - 若 smoke test 失敗，停止擴大部署。
+   - 還原備份。
+   - 重新執行同一組 smoke test。
+
+## 不可做的事
+
+- 不可上傳 `local-placeholder-exclude`。
+- 不可把 `/file/download/...` 或 `/file/output/...` 視為普通靜態檔案覆蓋。
+- 不可在未備份狀態下覆蓋正式伺服器。
+- 不可把本機 preview 的成功視為正式後台保存成功。
+
+## 部署回報格式
 
 ```md
 ## 部署摘要
 - 範圍：
-- 部署時間：
-- 操作人：
+- 分支 / commit：
+- 備份位置：
 
-## 部署內容
+## 部署分類
 - same-path-overwrite：
 - backend-managed-download-route：
 - css-relative-asset：
 - site-static-asset-review：
 - excluded placeholders：
 
-## 驗證
+## 驗收
 - Desktop：
 - Mobile：
 - 下載連結：
 - SEO 結構：
 
-## Rollback 狀態
-- 備份位置：
-- 是否需要回復：
+## Rollback
+- 備份是否可用：
+- 是否執行還原：
 
-## 待處理
+## 遺留問題
 - ...
 ```

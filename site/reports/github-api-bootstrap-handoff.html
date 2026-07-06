@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub API Bootstrap Handoff</title>
+  <style>
+    body{font-family:Arial,"Microsoft JhengHei",sans-serif;margin:24px;color:#10251b;background:#f8faf8}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:18px 0}
+    .card{background:#fff;border:1px solid #dce7df;border-radius:8px;padding:14px}
+    .card strong{display:block;font-size:28px;margin-top:6px}
+    code{background:#edf4ef;padding:2px 5px;border-radius:4px}
+    .warn{background:#fff8e6;border:1px solid #ead99c;border-radius:8px;padding:12px}
+    a{color:#087d3d}
+  </style>
+</head>
+<body>
+  <h1>GitHub API Bootstrap Handoff</h1>
+  <p>Status: <strong>ready-needs-token</strong></p>
+  <p>Repository: <code>wangpinyu/taiwan-servo-website</code></p>
+  <p>Token present in this shell: <strong>false</strong>. Token value stored in repo: <strong>false</strong>.</p>
+  <div class="warn"><strong>Current blocker:</strong> No GitHub API token is available in this shell, so labels/issues/PRs cannot be created yet.</div>
+  <div class="grid">
+    <div class="card"><div>labels</div><strong>7</strong></div>
+    <div class="card"><div>issueDrafts</div><strong>18</strong></div>
+    <div class="card"><div>pullRequestDrafts</div><strong>17</strong></div>
+    <div class="card"><div>remoteBranchesPresent</div><strong>18</strong></div></div>
+  <h2>Required Token Permissions</h2>
+  <ul><li>Metadata: Read</li><li>Contents: Read</li><li>Issues: Read and write</li><li>Pull requests: Read and write</li></ul>
+  <h2>Command Sequence</h2>
+  <ol><li><code>npm run github:bootstrap:dry-run</code></li><li><code>npm run github:bootstrap:smoke:dry-run</code></li><li><code>$env:GITHUB_TOKEN = &quot;&lt;paste-token-here&gt;&quot;</code></li><li><code>npm run github:bootstrap:smoke</code></li><li><code>npm run github:bootstrap</code></li><li><code>Remove-Item Env:\GITHUB_TOKEN</code></li><li><code>npm run workflow:github-readiness</code></li><li><code>npm run workflow:github-api-handoff</code></li><li><code>npm run validate:strict</code></li></ol>
+  <h2>Smoke Gate</h2>
+  <p><code>npm run github:bootstrap:smoke</code></p>
+  <ul><li>Labels are created or updated.</li><li>One tracking issue is created or detected as existing.</li><li>One pull request is created or detected as existing.</li></ul>
+  <h2>Evidence</h2>
+  <ul>
+    <li><a href="github-bootstrap-readiness.html">GitHub bootstrap readiness</a></li>
+    <li><a href="github-issues/index.html">Issue drafts</a></li>
+    <li><a href="github-prs/index.html">PR drafts</a></li>
+    <li><code>docs/github-api-bootstrap-runbook.md</code></li>
+  </ul>
+  <h2>Next Actions</h2>
+  <ul><li>Create a fine-grained GitHub token with the listed permissions.</li><li>Set it only in the current PowerShell session.</li><li>Run the smoke bootstrap before full bootstrap.</li></ul>
+</body>
+</html>

@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-07-06T10:13:32.509Z",
+  "status": "ready-needs-token",
+  "repository": "wangpinyu/taiwan-servo-website",
+  "tokenPresent": false,
+  "tokenValueStored": false,
+  "remotePullRequestRefs": 0,
+  "expectedCounts": {
+    "labels": 7,
+    "issueDrafts": 18,
+    "pullRequestDrafts": 17,
+    "remoteBranchesPresent": 18
+  },
+  "evidence": {
+    "readiness": "site/reports/github-bootstrap-readiness.html",
+    "issueDrafts": "site/reports/github-issues/index.html",
+    "pullRequestDrafts": "site/reports/github-prs/index.html",
+    "runbook": "docs/github-api-bootstrap-runbook.md"
+  },
+  "requiredTokenPermissions": [
+    "Metadata: Read",
+    "Contents: Read",
+    "Issues: Read and write",
+    "Pull requests: Read and write"
+  ],
+  "commandSequence": [
+    "npm run github:bootstrap:dry-run",
+    "npm run github:bootstrap:smoke:dry-run",
+    "$env:GITHUB_TOKEN = \"<paste-token-here>\"",
+    "npm run github:bootstrap:smoke",
+    "npm run github:bootstrap",
+    "Remove-Item Env:\\GITHUB_TOKEN",
+    "npm run workflow:github-readiness",
+    "npm run workflow:github-api-handoff",
+    "npm run validate:strict"
+  ],
+  "smokeGate": {
+    "command": "npm run github:bootstrap:smoke",
+    "expected": [
+      "Labels are created or updated.",
+      "One tracking issue is created or detected as existing.",
+      "One pull request is created or detected as existing."
+    ]
+  },
+  "currentBlocker": "No GitHub API token is available in this shell, so labels/issues/PRs cannot be created yet.",
+  "nextActions": [
+    "Create a fine-grained GitHub token with the listed permissions.",
+    "Set it only in the current PowerShell session.",
+    "Run the smoke bootstrap before full bootstrap."
+  ]
+}

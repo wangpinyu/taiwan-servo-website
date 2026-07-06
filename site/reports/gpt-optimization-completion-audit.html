@@ -22,7 +22,7 @@
 </head>
 <body>
   <h1>GPT Optimization Completion Audit</h1>
-  <p>Generated at <code>2026-07-06T10:04:40.332Z</code>. This report maps GPT optimization requirements to current local evidence.</p>
+  <p>Generated at <code>2026-07-06T10:13:32.902Z</code>. This report maps GPT optimization requirements to current local evidence.</p>
   <div class="cards">
     <div class="card"><div>Requirements</div><div class="num">13</div></div>
     <div class="card"><div>Complete</div><div class="num">11</div></div>
@@ -119,8 +119,10 @@ site/reports/github-bootstrap-readiness.json</td>
   <td>external-action-required</td>
   <td>github-api-bootstrap</td>
   <td>GitHub labels, issues, and PR refs are created through the GitHub API when a token is available.</td>
-  <td>site/reports/github-bootstrap-readiness.json</td>
-  <td>Set GITHUB_TOKEN or GH_TOKEN in the PowerShell session, then run npm run github:bootstrap.</td>
+  <td>site/reports/github-bootstrap-readiness.json
+site/reports/github-api-bootstrap-handoff.json
+docs/github-api-bootstrap-runbook.md</td>
+  <td>Set GITHUB_TOKEN or GH_TOKEN in the PowerShell session, run npm run github:bootstrap:smoke, then run npm run github:bootstrap.</td>
 </tr>
 <tr class="neutral">
   <td>not-in-current-stage</td>
