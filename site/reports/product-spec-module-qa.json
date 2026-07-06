@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T01:10:21.292Z",
+  "generated_at": "2026-07-06T01:26:02.560Z",
   "scope": "GitHub-ready product spec module QA",
   "summary": {
     "total_pages": 248,
@@ -99,7 +99,7 @@
       ],
       "preview_rel": "preview/products/detail/80.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-novanta-ims-spec-inserts/id-80-novanta-ims/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 1,
@@ -590,7 +590,7 @@
       ],
       "preview_rel": "preview/products/detail/101.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-karl-klein-spec-inserts/id-101-karl-klein/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 1,
@@ -1714,7 +1714,7 @@
       ],
       "preview_rel": "preview/products/detail/152.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sejinigb-spec-inserts/id-152-sejinigb/specs-insert-TO-COPY-UTF8.txt",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 1,
@@ -2229,7 +2229,7 @@
       ],
       "preview_rel": "preview/products/detail/173.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-cmco-lifting-id173-spec-inserts/id-173-cmco-lifting/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted",
       "qa_status": "pass",
       "counts": {
         "details": 10,
@@ -2792,7 +2792,7 @@
       ],
       "preview_rel": "preview/products/detail/199.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-kdu-id199-spec-inserts/id-199-harmonic-drive-kdu-direct-drive-motor/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 2,
@@ -2844,7 +2844,7 @@
       ],
       "preview_rel": "preview/products/detail/202.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-hpgp-hpg-id202-spec-inserts/id-202-harmonic-drive-hpgp-hpg-planetary-gearheads/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 4,
@@ -3223,7 +3223,7 @@
       ],
       "preview_rel": "preview/products/detail/218.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-alljet-nano-alignment-stage-id218-spec-inserts/id-218-alljet-nano-precision-alignment-stage/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 1,
@@ -3275,7 +3275,7 @@
       ],
       "preview_rel": "preview/products/detail/226.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-alljet-linear-stage-module-id226-spec-inserts/id-226-alljet-single-axis-linear-motor-module/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted",
       "qa_status": "pass",
       "counts": {
         "details": 1,
@@ -4081,7 +4081,7 @@
       ],
       "preview_rel": "preview/products/detail/273.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-sha-id273-spec-inserts/id-273-harmonic-drive-sha-ac-servo-actuator/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted",
       "qa_status": "pass",
       "counts": {
         "details": 3,
@@ -5506,7 +5506,7 @@
       ],
       "preview_rel": "preview/products/detail/349.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-f-fms-349-350/id-349-rtm-x42-bc-brake-control/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 4,
@@ -5556,7 +5556,7 @@
       ],
       "preview_rel": "preview/products/detail/352.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-g-acs-352/id-352-acs-software-suite/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted",
       "qa_status": "pass",
       "counts": {
         "details": 1,
@@ -5581,7 +5581,7 @@
       ],
       "preview_rel": "preview/products/detail/354.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-copley-spec-inserts/id-354-copley/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 6,
@@ -6190,7 +6190,7 @@
       ],
       "preview_rel": "preview/products/detail/388.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-novanta-ims-spec-inserts/id-388-novanta-ims/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 1,
