@@ -21,7 +21,7 @@
 </head>
 <body>
   <h1>Deployment Readiness Audit</h1>
-  <p>Status: <strong>blocked</strong>. Generated at <code>2026-07-06T10:35:25.097Z</code>.</p>
+  <p>Status: <strong>blocked</strong>. Generated at <code>2026-07-06T10:45:14.831Z</code>.</p>
   <p>This audit does not authorize backend saves, server uploads, deletion, or production overwrite. It separates local-preview readiness from deployment-stage approval.</p>
   <div class="summary">
     <div class="card"><div>Deploy files</div><div class="num">1677</div></div>
@@ -66,6 +66,12 @@
   <td>deploy-needs-review</td>
   <td>unresolved_needs_review=0, buckets={&quot;same-path-overwrite&quot;:1415,&quot;css-relative-asset&quot;:69,&quot;site-static-asset-review&quot;:3,&quot;local-placeholder-exclude&quot;:6,&quot;backend-managed-download-route&quot;:184}</td>
   <td>Review unresolved deployment files and decide whether they are backend-managed, CSS bundle assets, static assets, or excluded from deployment.</td>
+</tr>
+<tr class="warn">
+  <td>review</td>
+  <td>deployment-package-integrity</td>
+  <td>files=1677, missing=5, byte_mismatch=0, duplicate_target_conflicts=0, policy_issues=0</td>
+  <td>Verify deployment package manifests, local file existence, byte counts, and target path conflicts before deployment.</td>
 </tr>
 <tr class="ok">
   <td>pass</td>

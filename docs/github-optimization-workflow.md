@@ -79,6 +79,7 @@ npm run workflow:pr-index
 npm run workflow:github-readiness
 npm run workflow:github-remote-verify
 npm run workflow:github-api-handoff
+npm run workflow:deployment-package-integrity
 npm run workflow:deployment-readiness
 npm run workflow:completion-audit
 ```

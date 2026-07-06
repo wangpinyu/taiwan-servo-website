@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-07-06T10:45:14.750Z",
+  "status": "review",
+  "packageRoot": "site/deploy-packages",
+  "summary": {
+    "manifests": 4,
+    "files_checked": 1677,
+    "bytes_expected": 608396384,
+    "missing_files": 5,
+    "byte_mismatches": 0,
+    "duplicate_target_conflicts": 0,
+    "policy_issues": 0,
+    "error_count": 0,
+    "review_count": 5
+  },
+  "manifests": [
+    {
+      "manifest": "site/deploy-packages/backend-managed-download-route/manifest.json",
+      "deploy_mode": "backend-managed-download-route",
+      "file_count": 184,
+      "bytes": 432027058,
+      "checked_files": 184,
+      "missing_files": 0,
+      "byte_mismatches": 0,
+      "policy_issues": 0
+    },
+    {
+      "manifest": "site/deploy-packages/needs-review/manifest.json",
+      "deploy_mode": "needs-review",
+      "file_count": 75,
+      "bytes": 224680,
+      "checked_files": 75,
+      "missing_files": 5,
+      "byte_mismatches": 0,
+      "policy_issues": 0
+    },
+    {
+      "manifest": "site/deploy-packages/same-path-overwrite/manifest.json",
+      "deploy_mode": "same-path-overwrite",
+      "file_count": 1415,
+      "bytes": 176128724,
+      "checked_files": 1415,
+      "missing_files": 0,
+      "byte_mismatches": 0,
+      "policy_issues": 0
+    },
+    {
+      "manifest": "site/deploy-packages/site-static-asset-review/manifest.json",
+      "deploy_mode": "site-static-asset-review",
+      "file_count": 3,
+      "bytes": 15922,
+      "checked_files": 3,
+      "missing_files": 0,
+      "byte_mismatches": 0,
+      "policy_issues": 0
+    }
+  ],
+  "issues": [
+    {
+      "level": "review",
+      "type": "missing-local-file",
+      "manifest": "site/deploy-packages/needs-review/manifest.json",
+      "local_rel": "preview/products/detail/images/ringfeder-elastomer-jaw-couplings-overview.jpg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/preview/products/detail/images/ringfeder-elastomer-jaw-couplings-overview.jpg"
+    },
+    {
+      "level": "review",
+      "type": "missing-local-file",
+      "manifest": "site/deploy-packages/needs-review/manifest.json",
+      "local_rel": "uploads/editor/images/ACS%20Images/ACS-MMI%20application-Studio.jpg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/editor/images/ACS%20Images/ACS-MMI%20application-Studio.jpg"
+    },
+    {
+      "level": "review",
+      "type": "missing-local-file",
+      "manifest": "site/deploy-packages/needs-review/manifest.json",
+      "local_rel": "uploads/images/a3f28c784f673f5fcdb6c3e188e4f76a.jpg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/images/a3f28c784f673f5fcdb6c3e188e4f76a.jpg"
+    },
+    {
+      "level": "review",
+      "type": "missing-local-file",
+      "manifest": "site/deploy-packages/needs-review/manifest.json",
+      "local_rel": "uploads/images/ba95541509bb5ad949bc93c4d7b65b24.jpg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/images/ba95541509bb5ad949bc93c4d7b65b24.jpg"
+    },
+    {
+      "level": "review",
+      "type": "missing-local-file",
+      "manifest": "site/deploy-packages/needs-review/manifest.json",
+      "local_rel": "uploads/images/c39611a103711ad63a507a5cffe82865.jpg",
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/images/c39611a103711ad63a507a5cffe82865.jpg"
+    }
+  ]
+}

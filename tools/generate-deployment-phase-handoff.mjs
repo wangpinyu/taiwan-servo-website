@@ -26,17 +26,21 @@ function byBucket(files) {
 
 const readiness = readJson('site/reports/deployment-readiness-audit.json');
 const classification = readJson('site/reports/deployment-review-classification.json');
+const packageIntegrity = readJson('site/reports/deployment-package-integrity.json');
 const completion = readJson('site/reports/gpt-optimization-completion-audit.json');
 const grouped = byBucket(classification.files || []);
 
 const handoff = {
   generatedAt: new Date().toISOString(),
-  status: 'ready-for-deployment-approval',
+  status: packageIntegrity.status === 'pass' ? 'ready-for-deployment-approval' : 'ready-for-deployment-approval-with-package-review',
   deploymentAllowedNow: false,
-  reason: 'Local preview and deploy classification are ready, but backend/server mutation still requires explicit deployment-phase approval.',
+  reason: packageIntegrity.status === 'pass'
+    ? 'Local preview and deploy classification are ready, but backend/server mutation still requires explicit deployment-phase approval.'
+    : 'Local preview is ready, but deployment package integrity has review items that must be resolved or explicitly excluded during the deployment phase.',
   evidence: {
     deploymentReadiness: 'site/reports/deployment-readiness-audit.html',
     deploymentClassification: 'site/reports/deployment-review-classification.html',
+    deploymentPackageIntegrity: 'site/reports/deployment-package-integrity.html',
     completionAudit: 'site/reports/gpt-optimization-completion-audit.html',
     runbook: 'docs/deployment-phase-runbook.md',
   },
@@ -46,6 +50,9 @@ const handoff = {
     safeOverwriteCandidates: readiness.summary.deploy_safe_to_overwrite,
     unresolvedNeedsReview: classification.summary.unresolvedNeedsReview,
     bucketCounts: classification.summary.bucketCounts,
+    packageIntegrityStatus: packageIntegrity.status,
+    packageIntegrityReviewCount: packageIntegrity.summary.review_count,
+    packageIntegrityErrorCount: packageIntegrity.summary.error_count,
     localOptimizationReady: completion.summary.localOptimizationReady,
     fullObjectiveComplete: completion.summary.fullObjectiveComplete,
   },
@@ -57,6 +64,16 @@ const handoff = {
         'Get explicit human approval for deployment scope.',
         'Back up backend-managed content and target server files.',
         'Record rollback location and owner.',
+      ],
+    },
+    {
+      id: 'deployment-package-integrity',
+      title: 'Deployment package integrity review',
+      count: packageIntegrity.summary.review_count + packageIntegrity.summary.error_count,
+      required: [
+        'Review missing local files, byte mismatches, and duplicate target conflicts before upload.',
+        'Do not deploy files listed as review items unless their source and target path are confirmed.',
+        'Re-run npm run workflow:deployment-package-integrity after corrections or exclusions.',
       ],
     },
     {

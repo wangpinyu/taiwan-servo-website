@@ -17,8 +17,8 @@
 </head>
 <body>
   <h1>Deployment Phase Handoff</h1>
-  <p>Status: <strong>ready-for-deployment-approval</strong>. Deployment allowed now: <strong>false</strong>.</p>
-  <p>Local preview and deploy classification are ready, but backend/server mutation still requires explicit deployment-phase approval.</p>
+  <p>Status: <strong>ready-for-deployment-approval-with-package-review</strong>. Deployment allowed now: <strong>false</strong>.</p>
+  <p>Local preview is ready, but deployment package integrity has review items that must be resolved or explicitly excluded during the deployment phase.</p>
   <div class="grid">
     <div class="card"><div>Pages</div><div class="num">358</div></div>
     <div class="card"><div>Deploy files</div><div class="num">1677</div></div>
@@ -27,7 +27,7 @@
   </div>
   <h2>Evidence</h2>
   <ul>
-    <li>deploymentReadiness: <a href="../deployment-readiness-audit.html">site/reports/deployment-readiness-audit.html</a></li><li>deploymentClassification: <a href="../deployment-review-classification.html">site/reports/deployment-review-classification.html</a></li><li>completionAudit: <a href="../gpt-optimization-completion-audit.html">site/reports/gpt-optimization-completion-audit.html</a></li><li>runbook: <a href="../docs/deployment-phase-runbook.md">docs/deployment-phase-runbook.md</a></li>
+    <li>deploymentReadiness: <a href="../deployment-readiness-audit.html">site/reports/deployment-readiness-audit.html</a></li><li>deploymentClassification: <a href="../deployment-review-classification.html">site/reports/deployment-review-classification.html</a></li><li>deploymentPackageIntegrity: <a href="../deployment-package-integrity.html">site/reports/deployment-package-integrity.html</a></li><li>completionAudit: <a href="../gpt-optimization-completion-audit.html">site/reports/gpt-optimization-completion-audit.html</a></li><li>runbook: <a href="../docs/deployment-phase-runbook.md">docs/deployment-phase-runbook.md</a></li>
   </ul>
   <h2>Deployment Phases</h2>
   <table><thead><tr><th>ID</th><th>Phase</th><th>Count</th><th>Required actions</th></tr></thead><tbody><tr>
@@ -35,6 +35,11 @@
   <td>Approval and backup</td>
   <td></td>
   <td><ul><li>Get explicit human approval for deployment scope.</li><li>Back up backend-managed content and target server files.</li><li>Record rollback location and owner.</li></ul></td>
+</tr><tr>
+  <td>deployment-package-integrity</td>
+  <td>Deployment package integrity review</td>
+  <td>5</td>
+  <td><ul><li>Review missing local files, byte mismatches, and duplicate target conflicts before upload.</li><li>Do not deploy files listed as review items unless their source and target path are confirmed.</li><li>Re-run npm run workflow:deployment-package-integrity after corrections or exclusions.</li></ul></td>
 </tr><tr>
   <td>same-path-overwrite</td>
   <td>Same-path overwrite candidates</td>

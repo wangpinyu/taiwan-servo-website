@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T10:35:25.097Z",
+  "generatedAt": "2026-07-06T10:45:14.831Z",
   "status": "blocked",
   "scope": {
     "currentStage": "local-preview-and-github-workflow",
@@ -19,6 +19,17 @@
       "site-static-asset-review": 3,
       "local-placeholder-exclude": 6,
       "backend-managed-download-route": 184
+    },
+    "deployment_package_integrity": {
+      "manifests": 4,
+      "files_checked": 1677,
+      "bytes_expected": 608396384,
+      "missing_files": 5,
+      "byte_mismatches": 0,
+      "duplicate_target_conflicts": 0,
+      "policy_issues": 0,
+      "error_count": 0,
+      "review_count": 5
     },
     "package_outputs": [
       {
@@ -48,7 +59,7 @@
     ],
     "status_counts": {
       "pass": 7,
-      "review": 1,
+      "review": 2,
       "block": 1
     }
   },
@@ -88,6 +99,12 @@
       "status": "pass",
       "evidence": "unresolved_needs_review=0, buckets={\"same-path-overwrite\":1415,\"css-relative-asset\":69,\"site-static-asset-review\":3,\"local-placeholder-exclude\":6,\"backend-managed-download-route\":184}",
       "nextAction": "Review unresolved deployment files and decide whether they are backend-managed, CSS bundle assets, static assets, or excluded from deployment."
+    },
+    {
+      "id": "deployment-package-integrity",
+      "status": "review",
+      "evidence": "files=1677, missing=5, byte_mismatch=0, duplicate_target_conflicts=0, policy_issues=0",
+      "nextAction": "Verify deployment package manifests, local file existence, byte counts, and target path conflicts before deployment."
     },
     {
       "id": "same-path-overwrite-package",

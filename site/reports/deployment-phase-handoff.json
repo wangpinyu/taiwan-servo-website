@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-07-06T10:35:25.167Z",
-  "status": "ready-for-deployment-approval",
+  "generatedAt": "2026-07-06T10:45:14.896Z",
+  "status": "ready-for-deployment-approval-with-package-review",
   "deploymentAllowedNow": false,
-  "reason": "Local preview and deploy classification are ready, but backend/server mutation still requires explicit deployment-phase approval.",
+  "reason": "Local preview is ready, but deployment package integrity has review items that must be resolved or explicitly excluded during the deployment phase.",
   "evidence": {
     "deploymentReadiness": "site/reports/deployment-readiness-audit.html",
     "deploymentClassification": "site/reports/deployment-review-classification.html",
+    "deploymentPackageIntegrity": "site/reports/deployment-package-integrity.html",
     "completionAudit": "site/reports/gpt-optimization-completion-audit.html",
     "runbook": "docs/deployment-phase-runbook.md"
   },
@@ -21,6 +22,9 @@
       "local-placeholder-exclude": 6,
       "backend-managed-download-route": 184
     },
+    "packageIntegrityStatus": "review",
+    "packageIntegrityReviewCount": 5,
+    "packageIntegrityErrorCount": 0,
     "localOptimizationReady": true,
     "fullObjectiveComplete": false
   },
@@ -32,6 +36,16 @@
         "Get explicit human approval for deployment scope.",
         "Back up backend-managed content and target server files.",
         "Record rollback location and owner."
+      ]
+    },
+    {
+      "id": "deployment-package-integrity",
+      "title": "Deployment package integrity review",
+      "count": 5,
+      "required": [
+        "Review missing local files, byte mismatches, and duplicate target conflicts before upload.",
+        "Do not deploy files listed as review items unless their source and target path are confirmed.",
+        "Re-run npm run workflow:deployment-package-integrity after corrections or exclusions."
       ]
     },
     {

@@ -15,6 +15,7 @@
 - `npm run validate:strict` 通過。
 - 相關 PR 已完成審查並合併，或明確指定要部署的分支。
 - `site/reports/deployment-review-classification.html` 中 `unresolvedNeedsReview` 為 0。
+- `site/reports/deployment-package-integrity.html` 顯示 deployment package manifest 檔案存在、bytes 相符、無目標路徑衝突。
 - 已確認部署範圍：整站、單一分類、單一產品頁或單一資源類型。
 - 已建立正式伺服器與後台內容備份。
 - 已指定 rollback 方式與驗收人。
@@ -28,6 +29,8 @@
 - `css-relative-asset`：CSS 內引用的相對資源，必須與 CSS bundle 一起保留路徑關係。
 - `site-static-asset-review`：favicon、logo 或全站靜態資源，需要單獨審查快取與替換風險。
 - `local-placeholder-exclude`：本機 placeholder，不得上傳。
+
+部署 package 本機檔案完整性以 `site/reports/deployment-package-integrity.html` 為準。若出現 missing local file、byte mismatch 或 duplicate target conflict，必須先修正或排除，不得進入正式覆蓋。
 
 ## 建議部署流程
 

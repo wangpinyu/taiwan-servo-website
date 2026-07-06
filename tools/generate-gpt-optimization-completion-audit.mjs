@@ -44,6 +44,7 @@ const githubReadiness = readJson('site/reports/github-bootstrap-readiness.json')
 const githubApiHandoff = readJson('site/reports/github-api-bootstrap-handoff.json');
 const githubRemoteVerification = readJson('site/reports/github-remote-state-verification.json');
 const deploymentReadiness = readJson('site/reports/deployment-readiness-audit.json');
+const deploymentPackageIntegrity = readJson('site/reports/deployment-package-integrity.json');
 const visual = readJson('site/reports/visual-sample-qa.json');
 const workflow = readText('.github/workflows/preview-qa.yml');
 const prTemplate = readText('.github/PULL_REQUEST_TEMPLATE.md');
@@ -248,6 +249,7 @@ const checks = [
     evidence: [
       'site/reports/deployment-readiness-audit.json',
       'site/reports/deployment-review-classification.json',
+      'site/reports/deployment-package-integrity.json',
       'site/reports/deployment-phase-handoff.json',
       'docs/deployment-phase-runbook.md',
       'docs/spec-module-review-log.md',
@@ -259,6 +261,8 @@ const checks = [
       currentStage: 'local-preview-and-github-workflow',
       deploymentReadinessStatus: deploymentReadiness.status,
       deploymentReadinessSummary: deploymentReadiness.summary,
+      deploymentPackageIntegrityStatus: deploymentPackageIntegrity.status,
+      deploymentPackageIntegritySummary: deploymentPackageIntegrity.summary,
     },
   },
 ];

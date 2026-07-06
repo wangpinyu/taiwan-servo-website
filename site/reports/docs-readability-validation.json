@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T10:34:44.173Z",
+  "generatedAt": "2026-07-06T10:44:35.931Z",
   "status": "ok",
   "summary": {
-    "docs": 25,
+    "docs": 26,
     "errors": 0
   },
   "checks": [
@@ -20,7 +20,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# GitHub 驅動的產品頁優化流程",
-      "chars": 4731,
+      "chars": 4777,
       "errors": [],
       "mojibakeHits": []
     },
@@ -56,7 +56,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# Deployment Phase Runbook",
-      "chars": 1746,
+      "chars": 2008,
       "errors": [],
       "mojibakeHits": []
     },
@@ -137,7 +137,7 @@
       "type": "report",
       "status": "pass",
       "title": "Deployment Readiness Audit",
-      "chars": 5074,
+      "chars": 5381,
       "errors": [],
       "mojibakeHits": []
     },
@@ -151,11 +151,20 @@
       "mojibakeHits": []
     },
     {
+      "file": "site/reports/deployment-package-integrity.html",
+      "type": "report",
+      "status": "pass",
+      "title": "Deployment Package Integrity",
+      "chars": 3768,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
       "file": "site/reports/deployment-phase-handoff.html",
       "type": "report",
       "status": "pass",
       "title": "Deployment Phase Handoff",
-      "chars": 4258,
+      "chars": 4392,
       "errors": [],
       "mojibakeHits": []
     },
@@ -164,7 +173,7 @@
       "type": "report",
       "status": "pass",
       "title": "GPT Optimization Completion Audit",
-      "chars": 5953,
+      "chars": 6000,
       "errors": [],
       "mojibakeHits": []
     },

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deployment Package Integrity</title>
+  <style>
+    body{font-family:Arial,"Microsoft JhengHei",sans-serif;margin:24px;color:#10251b;background:#f8faf8}
+    table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #dce7df;margin:16px 0}
+    th,td{padding:8px 10px;border-bottom:1px solid #e6eee8;text-align:left;vertical-align:top}
+    th{background:#eaf4ee}
+    code{background:#edf4ef;padding:2px 4px;border-radius:4px}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:20px 0}
+    .card{background:#fff;border:1px solid #dce7df;border-radius:8px;padding:14px}
+    .num{font-size:28px;font-weight:700}
+  </style>
+</head>
+<body>
+  <h1>Deployment Package Integrity</h1>
+  <p>Status: <strong>review</strong>. Generated at <code>2026-07-06T10:45:14.750Z</code>.</p>
+  <p>This report validates local deployment package manifests only. It does not upload files or authorize deployment.</p>
+  <div class="cards">
+    <div class="card"><div>Manifests</div><div class="num">4</div></div>
+    <div class="card"><div>Files checked</div><div class="num">1677</div></div>
+    <div class="card"><div>Missing files</div><div class="num">5</div></div>
+    <div class="card"><div>Byte mismatches</div><div class="num">0</div></div>
+    <div class="card"><div>Target conflicts</div><div class="num">0</div></div>
+  </div>
+  <h2>Manifests</h2>
+  <table><thead><tr><th>Manifest</th><th>Mode</th><th>Files</th><th>Missing</th><th>Byte mismatch</th><th>Policy review</th></tr></thead><tbody><tr>
+  <td><code>site/deploy-packages/backend-managed-download-route/manifest.json</code></td>
+  <td>backend-managed-download-route</td>
+  <td>184</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+</tr><tr>
+  <td><code>site/deploy-packages/needs-review/manifest.json</code></td>
+  <td>needs-review</td>
+  <td>75</td>
+  <td>5</td>
+  <td>0</td>
+  <td>0</td>
+</tr><tr>
+  <td><code>site/deploy-packages/same-path-overwrite/manifest.json</code></td>
+  <td>same-path-overwrite</td>
+  <td>1415</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+</tr><tr>
+  <td><code>site/deploy-packages/site-static-asset-review/manifest.json</code></td>
+  <td>site-static-asset-review</td>
+  <td>3</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+</tr></tbody></table>
+  <h2>Issues</h2>
+  <table><thead><tr><th>Level</th><th>Type</th><th>Manifest</th><th>Path</th><th>Detail</th></tr></thead><tbody><tr>
+  <td>review</td>
+  <td>missing-local-file</td>
+  <td><code>site/deploy-packages/needs-review/manifest.json</code></td>
+  <td><code>preview/products/detail/images/ringfeder-elastomer-jaw-couplings-overview.jpg</code></td>
+  <td>&quot;&quot;</td>
+</tr><tr>
+  <td>review</td>
+  <td>missing-local-file</td>
+  <td><code>site/deploy-packages/needs-review/manifest.json</code></td>
+  <td><code>uploads/editor/images/ACS%20Images/ACS-MMI%20application-Studio.jpg</code></td>
+  <td>&quot;&quot;</td>
+</tr><tr>
+  <td>review</td>
+  <td>missing-local-file</td>
+  <td><code>site/deploy-packages/needs-review/manifest.json</code></td>
+  <td><code>uploads/images/a3f28c784f673f5fcdb6c3e188e4f76a.jpg</code></td>
+  <td>&quot;&quot;</td>
+</tr><tr>
+  <td>review</td>
+  <td>missing-local-file</td>
+  <td><code>site/deploy-packages/needs-review/manifest.json</code></td>
+  <td><code>uploads/images/ba95541509bb5ad949bc93c4d7b65b24.jpg</code></td>
+  <td>&quot;&quot;</td>
+</tr><tr>
+  <td>review</td>
+  <td>missing-local-file</td>
+  <td><code>site/deploy-packages/needs-review/manifest.json</code></td>
+  <td><code>uploads/images/c39611a103711ad63a507a5cffe82865.jpg</code></td>
+  <td>&quot;&quot;</td>
+</tr></tbody></table>
+</body>
+</html>

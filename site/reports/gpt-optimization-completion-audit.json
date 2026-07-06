@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T10:35:25.269Z",
+  "generatedAt": "2026-07-06T10:45:14.984Z",
   "objective": "Audit current evidence against the GPT optimization work plan.",
   "scope": {
     "productPages": 248,
     "currentStage": "local-preview-and-github-workflow",
     "validationScripts": {
-      "strict": "node tools/validate-docs-readability.mjs && node tools/validate-static-site.mjs --strict && node tools/validate-local-mirror-readiness.mjs && node tools/validate-customer-facing-notes.mjs && node tools/resolve-product-standardization-review.mjs && node tools/validate-product-spec-modules.mjs --strict && node tools/validate-spec-download-affordances.mjs --strict && node tools/validate-product-page-structure-seo.mjs --strict && node tools/generate-product-seo-warning-taxonomy.mjs && node tools/generate-product-spec-agent-review.mjs && node tools/generate-source-needed-audit.mjs && node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs && node tools/generate-github-pr-index.mjs && node tools/generate-github-bootstrap-readiness.mjs && node tools/verify-github-remote-state.mjs && node tools/generate-github-api-bootstrap-handoff.mjs && node tools/generate-deployment-review-classification.mjs && node tools/generate-deployment-readiness-audit.mjs && node tools/generate-deployment-phase-handoff.mjs && node tools/generate-gpt-optimization-completion-audit.mjs",
+      "strict": "node tools/validate-docs-readability.mjs && node tools/validate-static-site.mjs --strict && node tools/validate-local-mirror-readiness.mjs && node tools/validate-customer-facing-notes.mjs && node tools/resolve-product-standardization-review.mjs && node tools/validate-product-spec-modules.mjs --strict && node tools/validate-spec-download-affordances.mjs --strict && node tools/validate-product-page-structure-seo.mjs --strict && node tools/generate-product-seo-warning-taxonomy.mjs && node tools/generate-product-spec-agent-review.mjs && node tools/generate-source-needed-audit.mjs && node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs && node tools/generate-github-pr-index.mjs && node tools/generate-github-bootstrap-readiness.mjs && node tools/verify-github-remote-state.mjs && node tools/generate-github-api-bootstrap-handoff.mjs && node tools/generate-deployment-review-classification.mjs && node tools/validate-deployment-package-integrity.mjs && node tools/generate-deployment-readiness-audit.mjs && node tools/generate-deployment-phase-handoff.mjs && node tools/generate-gpt-optimization-completion-audit.mjs",
       "visualSample": "node tools/run-visual-sample-qa.mjs"
     }
   },
@@ -37,7 +37,7 @@
       "missing": [],
       "metrics": {
         "html_files": 359,
-        "local_refs": 66054,
+        "local_refs": 66055,
         "missing_local_refs": 0,
         "formal_same_origin_refs": 0
       }
@@ -101,7 +101,7 @@
           "no_spec_module_count": 6
         },
         "warning_taxonomy": {
-          "generated_at": "2026-07-06T10:34:54.577Z",
+          "generated_at": "2026-07-06T10:44:45.929Z",
           "total_warning_entries": 0,
           "affected_pages": 0,
           "warning_type_counts": {},
@@ -169,7 +169,7 @@
       ],
       "missing": [],
       "metrics": {
-        "generated_at": "2026-07-06T10:34:54.827Z",
+        "generated_at": "2026-07-06T10:44:46.161Z",
         "total_categories": 18,
         "total_pages": 248,
         "total_blocking_pages": 0,
@@ -204,7 +204,7 @@
       ],
       "missing": [],
       "metrics": {
-        "docs": 25,
+        "docs": 26,
         "errors": 0
       }
     },
@@ -320,6 +320,7 @@
       "evidence": [
         "site/reports/deployment-readiness-audit.json",
         "site/reports/deployment-review-classification.json",
+        "site/reports/deployment-package-integrity.json",
         "site/reports/deployment-phase-handoff.json",
         "docs/deployment-phase-runbook.md",
         "docs/spec-module-review-log.md",
@@ -345,6 +346,17 @@
             "site-static-asset-review": 3,
             "local-placeholder-exclude": 6,
             "backend-managed-download-route": 184
+          },
+          "deployment_package_integrity": {
+            "manifests": 4,
+            "files_checked": 1677,
+            "bytes_expected": 608396384,
+            "missing_files": 5,
+            "byte_mismatches": 0,
+            "duplicate_target_conflicts": 0,
+            "policy_issues": 0,
+            "error_count": 0,
+            "review_count": 5
           },
           "package_outputs": [
             {
@@ -374,9 +386,21 @@
           ],
           "status_counts": {
             "pass": 7,
-            "review": 1,
+            "review": 2,
             "block": 1
           }
+        },
+        "deploymentPackageIntegrityStatus": "review",
+        "deploymentPackageIntegritySummary": {
+          "manifests": 4,
+          "files_checked": 1677,
+          "bytes_expected": 608396384,
+          "missing_files": 5,
+          "byte_mismatches": 0,
+          "duplicate_target_conflicts": 0,
+          "policy_issues": 0,
+          "error_count": 0,
+          "review_count": 5
         }
       }
     }

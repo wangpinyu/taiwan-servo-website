@@ -36,6 +36,7 @@ const pageSeo = readJson('site/reports/product-page-structure-seo-qa.json');
 const visual = readJson('site/reports/visual-sample-qa.json');
 const deployManifest = optionalJson('site/reports/deploy-manifest.json');
 const deploymentClassification = optionalJson('site/reports/deployment-review-classification.json');
+const deploymentPackageIntegrity = optionalJson('site/reports/deployment-package-integrity.json');
 const siteReadiness = optionalJson('site/reports/site-readiness-report.json');
 
 const deploySummary = deployManifest?.summary || {};
@@ -98,6 +99,18 @@ const gates = [
     'Review unresolved deployment files and decide whether they are backend-managed, CSS bundle assets, static assets, or excluded from deployment.',
   ),
   gate(
+    'deployment-package-integrity',
+    deploymentPackageIntegrity?.status === 'pass'
+      ? 'pass'
+      : deploymentPackageIntegrity?.status === 'review'
+        ? 'review'
+        : 'block',
+    deploymentPackageIntegrity
+      ? `files=${deploymentPackageIntegrity.summary.files_checked}, missing=${deploymentPackageIntegrity.summary.missing_files}, byte_mismatch=${deploymentPackageIntegrity.summary.byte_mismatches}, duplicate_target_conflicts=${deploymentPackageIntegrity.summary.duplicate_target_conflicts}, policy_issues=${deploymentPackageIntegrity.summary.policy_issues}`
+      : 'deployment package integrity report missing',
+    'Verify deployment package manifests, local file existence, byte counts, and target path conflicts before deployment.',
+  ),
+  gate(
     'same-path-overwrite-package',
     packageOutputs.some((entry) => entry.deploy_mode === 'same-path-overwrite' && entry.file_count > 0) ? 'pass' : 'review',
     JSON.stringify(packageOutputs.find((entry) => entry.deploy_mode === 'same-path-overwrite') || {}),
@@ -138,6 +151,7 @@ const report = {
     deploy_needs_review: deploySummary.deploy_needs_review || 0,
     deploy_unresolved_needs_review: unresolvedDeployReview,
     deploy_review_buckets: deployClassificationSummary.bucketCounts || {},
+    deployment_package_integrity: deploymentPackageIntegrity?.summary || null,
     package_outputs: packageOutputs,
     status_counts: statusCounts,
   },
