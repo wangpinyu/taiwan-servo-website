@@ -110,3 +110,15 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 FMS tension visible quality pass
+
+- Branch: `phase-4-fms-tension`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed FMS pages:
+  - `detail/130`, `detail/131`, `detail/132`, `detail/133`, `detail/134`, `detail/135`, `detail/136`, `detail/137`, `detail/138`, `detail/139`, `detail/140`, `detail/141`, `detail/143`, `detail/144`, `detail/145`, `detail/146`, `detail/338`, `detail/339`, `detail/340`, `detail/341`, `detail/342`, `detail/343`, `detail/345`, `detail/347`, `detail/349`, `detail/350`
+- Result:
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 26 FMS pages.
+  - All 26 pages remain `agent-approved-clean`; no source-needed pages in this category.
+- Validation:
+  - Edge/CDP visual smoke on `131`, `133`, `135`, `338`, `342`, `345`, and `350` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, no customer-facing internal text.
