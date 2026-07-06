@@ -110,3 +110,15 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Blowers visible quality pass
+
+- Branch: `phase-5-blowers`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed blower pages:
+  - `detail/101`, `detail/390`
+- Result:
+  - Renamed `101` series overview heading to `產品系列`, while preserving the existing formal-site UIUX and page content.
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 2 pages.
+- Validation:
+  - Edge/CDP visual smoke on `101` and `390` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, and no customer-facing internal text.
