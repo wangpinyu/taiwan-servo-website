@@ -1,0 +1,57 @@
+{
+  "updated_at": "2026-07-06",
+  "branch": "source-audit-sanyo-denki",
+  "scope_product_ids": ["194", "195", "270"],
+  "policy": {
+    "no_invented_specifications": true,
+    "backend_operations_out_of_scope": true,
+    "large_file_strategy": "Link to official SANYO DENKI product, catalog, manual, or download pages when files are login-gated or large."
+  },
+  "pages": [
+    {
+      "product_id": "194",
+      "local_title": "山洋電氣 SANUPS電源系統",
+      "official_match": "SANUPS Power Systems",
+      "status": "source-found-summary-approved",
+      "evidence_urls": [
+        "https://products.sanyodenki.com/en/sanups/",
+        "https://products.sanyodenki.com/info/download/en/sanups/",
+        "https://publish.sanyodenki.com/library/site/en/book-lists/"
+      ],
+      "visible_module_summary": "Official SANUPS classifications: Power Conditioner, UPS Hybrid, UPS Double Conversion Online, Power Management Products, and Inverter."
+    },
+    {
+      "product_id": "195",
+      "local_title": "山洋電氣 SANMOTION伺服系統",
+      "official_match": "SANMOTION Servo Systems",
+      "status": "source-found-summary-approved",
+      "evidence_urls": [
+        "https://products.sanyodenki.com/en/sanmotion/",
+        "https://sanyodenki.com/america/products/sanmotion/catalogs.html",
+        "https://products.sanyodenki.com/info/download/en/sanmotion/manuals/"
+      ],
+      "visible_module_summary": "Official SANMOTION classifications: AC Servo, DC Servo, Stepping Systems, Motion Controller, and related software/manual/catalog entries."
+    },
+    {
+      "product_id": "270",
+      "local_title": "山洋電氣 SANYO DENKI 馬達相關",
+      "official_match": "SANMOTION motor-related catalogs",
+      "status": "source-found-catalog-index-approved",
+      "evidence_urls": [
+        "https://publish.sanyodenki.com/library/site/en/book-lists/",
+        "https://products.sanyodenki.com/en/sanmotion/"
+      ],
+      "visible_module_summary": "Source-backed catalog index rows for SANMOTION G, SANMOTION R, SANMOTION G 48 VDC, SANMOTION F5, and SANMOTION C S300."
+    }
+  ],
+  "validation": {
+    "agent_approved_clean": 239,
+    "agent_source_needed": 9,
+    "agent_fix_required": 0,
+    "sanyo_pages": {
+      "194": "agent-approved-clean",
+      "195": "agent-approved-clean",
+      "270": "agent-approved-clean"
+    }
+  }
+}

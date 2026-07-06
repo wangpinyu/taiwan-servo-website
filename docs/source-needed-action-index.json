@@ -7,11 +7,12 @@
     "large_file_strategy": "Use official manufacturer download pages or official document URLs and mark external-source when upload/download is not reliable."
   },
   "summary": {
-    "total_source_needed_pages": 12,
-    "official_source_audit_queue": 6,
+    "total_source_needed_pages": 9,
+    "official_source_audit_queue": 3,
     "non_standard_exceptions": 6,
     "ringfeder_resolved_pages": ["208", "209", "210", "211", "212", "213", "335", "336"],
-    "ringfeder_unresolved_pages": ["215"]
+    "ringfeder_unresolved_pages": ["215"],
+    "sanyo_resolved_pages": ["194", "195", "270"]
   },
   "official_source_audit_queue": [
     {
@@ -29,32 +30,11 @@
       "suggested_branch": "source-audit-thomson-reducers"
     },
     {
-      "product_id": "194",
-      "title": "山洋電氣 SANUPS電源系統",
-      "category": "山洋電氣 SANYO DENKI",
-      "required_source_work": "Find official SANUPS series/product pages and public datasheets. Build only source-backed fields.",
-      "suggested_branch": "source-audit-sanyo-denki"
-    },
-    {
-      "product_id": "195",
-      "title": "山洋電氣 SANMOTION伺服系統",
-      "category": "山洋電氣 SANYO DENKI",
-      "required_source_work": "Find official SANMOTION series/product pages and public datasheets. Separate amplifier, motor, and controller downloads.",
-      "suggested_branch": "source-audit-sanyo-denki"
-    },
-    {
       "product_id": "215",
       "title": "RINGFEDER 摩擦彈簧",
       "category": "聯軸器",
-      "required_source_work": "Decide whether to keep this page under couplings or move/reframe it as damping technology. Official source classifies it as friction springs.",
+      "required_source_work": "Decide whether to keep this page under couplings or reframe it as damping technology. Official source classifies it as friction springs.",
       "suggested_branch": "source-audit-ringfeder-couplings"
-    },
-    {
-      "product_id": "270",
-      "title": "山洋電氣 SANYO DENKI 馬達相關",
-      "category": "各類馬達 / 山洋電氣 Sanyo denki",
-      "required_source_work": "Find official SANYO DENKI motor family pages and decide whether this is a category overview rather than a spec table page.",
-      "suggested_branch": "source-audit-sanyo-denki"
     }
   ],
   "non_standard_exceptions": [
@@ -104,12 +84,16 @@
       "status_summary": {
         "agent_approved_clean": ["208", "209", "210", "211", "212", "213", "335", "336"],
         "agent_source_needed": ["215"]
-      },
-      "validation": {
-        "command": "npm run validate",
-        "status": "pass",
-        "agent_approved_clean": 236,
-        "agent_source_needed": 12
+      }
+    },
+    {
+      "branch": "source-audit-sanyo-denki",
+      "audit_md": "docs/source-audits/sanyo-denki.md",
+      "audit_json": "docs/source-audits/sanyo-denki.json",
+      "covered_product_ids": ["194", "195", "270"],
+      "status_summary": {
+        "agent_approved_clean": ["194", "195", "270"],
+        "agent_source_needed": []
       }
     }
   ]

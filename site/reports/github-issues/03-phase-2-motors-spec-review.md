@@ -3,12 +3,12 @@
 Branch: `phase-2-motors-spec-review`
 Priority: 3
 Pages: 24
-Blocking pages: 2
+Blocking pages: 1
 
 ## Status counts
 
-- agent-approved-clean: 22
-- agent-source-needed: 2
+- agent-approved-clean: 23
+- agent-source-needed: 1
 
 ## Target pages
 
@@ -36,7 +36,7 @@ Blocking pages: 2
 | 106 | dunkermotoren 管型線性伺服馬達（Tubular Linear Servo Motor） | agent-approved-clean | preview/products/detail/106.html |
 | 108 | ALXION 風力發電機 | agent-approved-clean | preview/products/detail/108.html |
 | 113 | HarmonicDrive® 諧波減速機 | agent-approved-clean | preview/products/detail/113.html |
-| 270 | 山洋電氣 SANYO DENKI 馬達相關 | agent-source-needed | preview/products/detail/270.html |
+| 270 | 山洋電氣 SANYO DENKI 馬達相關 | agent-approved-clean | preview/products/detail/270.html |
 | 388 | Novanta IMS MDrive 線性執行器 | agent-approved-clean | preview/products/detail/388.html |
 
 ## Acceptance criteria

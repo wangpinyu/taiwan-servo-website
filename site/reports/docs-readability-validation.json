@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T06:55:57.025Z",
+  "generatedAt": "2026-07-06T07:12:16.863Z",
   "status": "ok",
   "summary": {
     "docs": 13,
@@ -55,8 +55,8 @@
       "file": "docs/spec-module-review-log.md",
       "type": "doc",
       "status": "pass",
-      "title": "# 產品規格詳情審核紀錄",
-      "chars": 5139,
+      "title": "# 產品規格詳情模組審核紀錄",
+      "chars": 4853,
       "errors": [],
       "mojibakeHits": []
     },
@@ -83,7 +83,7 @@
       "type": "report",
       "status": "pass",
       "title": "產品頁 SEO 與結構 QA",
-      "chars": 39926,
+      "chars": 39872,
       "errors": [],
       "mojibakeHits": []
     },
@@ -92,7 +92,7 @@
       "type": "report",
       "status": "pass",
       "title": "AI Agent 產品頁審核",
-      "chars": 53583,
+      "chars": 53537,
       "errors": [],
       "mojibakeHits": []
     },

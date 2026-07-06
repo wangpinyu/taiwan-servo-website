@@ -1,101 +1,94 @@
-# 產品規格詳情審核紀錄
+# 產品規格詳情模組審核紀錄
 
-更新日期：2026-07-06
+Updated: 2026-07-06
 
-本文件是 GitHub-ready preview 的階段性審核紀錄。詳細機器可讀資料以 `site/reports/product-spec-agent-review.json`、`site/reports/product-spec-module-qa.json`、`site/reports/product-page-structure-seo-qa.json`、`site/reports/product-seo-warning-taxonomy.json` 與 `site/reports/source-needed-audit.json` 為準。
+This log tracks local-preview and GitHub workflow status for the Taiwan Servo product specification modules. It does not authorize backend save, CKFinder upload, test-site publication, or production deployment.
 
-## 目前總覽
+## Current Summary
 
-- 產品頁：248
-- `agent-approved-clean`：236
-- `agent-source-needed`：12
-- `agent-fix-required`：0
-- `agent-structure-review`：0
-- critical fail：0
+- Product pages: 248
+- `agent-approved-clean`: 239
+- `agent-source-needed`: 9
+- `agent-fix-required`: 0
+- `agent-structure-review`: 0
+- Critical failures: 0
 
-## Agent Review 狀態
+Authoritative reports:
 
-| 狀態 | 意義 | 下一步 |
-| --- | --- | --- |
-| `agent-approved-clean` | 本機 preview 已通過 AI agent 結構、規格、SEO 與下載連結檢查。 | 可納入 PR 審查，等待部署階段。 |
-| `agent-fix-required` | AI 可以修正的結構、CTA、表格或連結問題。 | 由 phase branch 持續修正並重跑 `npm run validate`。 |
-| `agent-structure-review` | 模組位置或標題歸類需要再次確認。 | AI 先整理，無法判定才升級人工。 |
-| `agent-source-audit-needed` | 來源可疑或資料對應需要來源審核。 | 檢查官方來源後再決定。 |
-| `agent-source-needed` | 缺官方來源或規格資料，不應自行補寫。 | 由來源補齊工作處理，或保留為例外。 |
-
-## Phase 優先順序
-
-| Priority | Category | Branch | Focus |
-| --- | --- | --- | --- |
-| 1 | SMAC / 電動缸 | `phase-1-smac-spec-standard` | 標準樣板與可複用規格模組 |
-| 2 | 驅動器 / ACS | `phase-2-drivers-spec-review` | 驅動器、控制器、文件分類 |
-| 3 | 各類馬達 | `phase-2-motors-spec-review` | 馬達規格表與下載連結 |
-| 4 | Harmonic Drive 減速機 | `phase-3-harmonic-drive` | 系列、減速比、扭矩、CAD |
-| 5 | Renishaw 回授元件 | `phase-3-renishaw-feedback` | 解析度、介面、安裝文件 |
-| 6 | 定位平台 | `phase-3-positioning-stage` | 行程、負載、精度 |
-| 7 | 空氣軸承 / 滾珠・滾柱軸承 | `phase-3-bearings-air-mechanical` | 軸承規格與 CAD |
-| 8 | 聯軸器 | `phase-4-couplings` | 型號、扭矩、下載文件 |
-| 9 | FMS 張力系統 | `phase-4-fms-tension` | FMS 產品系列與文件 |
-| 10 | 固態繼電器 | `phase-4-solid-state-relays` | i-Autoc 文件與系列對應 |
-| 11 | 山洋電氣 SANYO DENKI | `phase-4-sanyo-denki` | San Ace / SANMOTION / SANUPS |
-| 12 | 特殊環境 | `phase-4-special-environments` | 特殊應用與來源確認 |
-| 13 | 陶瓷吸盤 | `phase-5-ceramic-chucks` | 來源補齊與規格表 |
-| 14 | SEJINIGB | `phase-5-sejinigb` | 來源補齊與規格表 |
-| 15 | 鼓風機 | `phase-5-blowers` | 來源補齊與規格表 |
-| 16 | 自動化系統 | `phase-5-automation-systems` | 系統型內容架構 |
-| 17 | 其他回授元件 | `phase-5-other-feedback` | 其他回授產品 |
-
-## Source-needed 摘要
-
-目前 12 頁仍需來源或內容判斷：
-
-- `official-source-needed`：6
-- `software-source-needed`：3
-- `informational-source-needed`：1
-- `training-content-no-spec`：1
-- `exclude-test-page`：1
-
-詳細清單請看：
-
-- `site/reports/source-needed-audit.html`
+- `site/reports/product-spec-agent-review.json`
+- `site/reports/product-spec-module-qa.json`
+- `site/reports/product-page-structure-seo-qa.json`
+- `site/reports/product-seo-warning-taxonomy.json`
 - `site/reports/source-needed-audit.json`
 
-## 目前 QA 狀態
+## Review Status Definitions
 
-`product-spec-module-qa`：
+| Status | Meaning | Next step |
+| --- | --- | --- |
+| `agent-approved-clean` | The local preview page passed product-spec QA and product page SEO/structure QA without critical or warning items. | Eligible for branch / PR review and later backend deployment planning. |
+| `agent-fix-required` | The AI agent can fix the page locally, such as CTA, accordion accessibility, table structure, or visible internal-note cleanup. | Fix in the relevant phase branch and rerun `npm run validate`. |
+| `agent-source-needed` | The page lacks verified source material, lacks a usable spec module, or is a non-standard page that should not be forced into the hardware spec schema. | Perform official source audit or keep as exception until a schema/content decision is approved. |
 
-- total：248
-- pass：242
-- no-spec-module：6
-- fail：0
-- warn：0
+## Source-needed Action Index
 
-`product-page-structure-seo-qa`：
+- Action index: `docs/source-needed-action-index.md`
+- Machine-readable index: `docs/source-needed-action-index.json`
+- Current unresolved scope: 9 pages.
+- AI source audit queue: 3 pages requiring official manufacturer evidence before any product specification table can be created or revised.
+- Non-standard exceptions: 6 ACS test/software/informational/training pages that should not be forced into the hardware `產品規格詳情` schema without a separate content decision.
 
-- total：248
-- pass：228
-- warn：14
-- no-spec-module：6
-- fail：0
+## Completed Source Audit Progress
 
-6 個 warning 目前集中在 `spec-table-missing`，多屬於沒有足夠規格來源或不適合建立型號表的頁面，需與 source-needed audit 一起看。
+### RINGFEDER Couplings
 
-## 已建立工具
+- Branch: `source-audit-ringfeder-couplings`
+- Evidence package: `docs/source-audits/ringfeder-couplings.md`
+- Machine-readable evidence: `docs/source-audits/ringfeder-couplings.json`
+- Covered pages: 208, 209, 210, 211, 212, 213, 215, 335, 336
+- Current source status:
+  - `agent-approved-clean`: 208, 209, 210, 211, 212, 213, 335, 336
+  - `agent-source-needed`: 215
+- Review rule: 215 stays unresolved until the friction-spring category/content decision is made. The other RINGFEDER pages now have source-backed visible `產品規格詳情` modules and pass validation.
 
-- `tools/apply-common-spec-module-fixes.mjs`
-- `tools/resolve-product-standardization-review.mjs`
-- `tools/validate-product-spec-modules.mjs`
-- `tools/validate-product-page-structure-seo.mjs`
-- `tools/generate-product-seo-warning-taxonomy.mjs`
-- `tools/generate-product-spec-agent-review.mjs`
-- `tools/generate-source-needed-audit.mjs`
-- `tools/generate-optimization-backlog.mjs`
-- `tools/generate-github-issue-index.mjs`
-- `tools/generate-github-pr-index.mjs`
-- `tools/generate-github-bootstrap-readiness.mjs`
-- `tools/github-bootstrap.mjs`
+### SANYO DENKI
 
-## 驗證指令
+- Branch: `source-audit-sanyo-denki`
+- Evidence package: `docs/source-audits/sanyo-denki.md`
+- Machine-readable evidence: `docs/source-audits/sanyo-denki.json`
+- Covered pages: 194, 195, 270
+- Current source status:
+  - `agent-approved-clean`: 194, 195, 270
+  - `agent-source-needed`: none in SANYO DENKI
+- Review rule: keep official source-page links for login-gated or large manufacturer files. Do not duplicate large files into local modules unless a later deployment phase explicitly requires it.
+
+## Remaining Source-needed Pages
+
+### Official Source Audit Queue
+
+| ID | Page | Category | Suggested branch |
+| --- | --- | --- | --- |
+| 102 | JVL整合型伺服馬達及步進馬達的特色 | 各類馬達 / 步進馬達 | `source-audit-jvl-motors` |
+| 149 | Thomson 減速機 | 空氣軸承 / 滾珠•滾柱軸承 / Thomson | `source-audit-thomson-reducers` |
+| 215 | RINGFEDER 摩擦彈簧 | 聯軸器 | `source-audit-ringfeder-couplings` |
+
+### Non-standard Exceptions
+
+| ID | Page | Handling |
+| --- | --- | --- |
+| 241 | 測試-ACS硬體分類 | Test/admin remnant; do not create public spec module unless confirmed as real. |
+| 253 | 軟體-1 | Needs software-page schema, not hardware spec schema. |
+| 254 | 軟體-2 | Needs software-page schema, not hardware spec schema. |
+| 255 | 軟體-3 | Needs software-page schema, not hardware spec schema. |
+| 268 | ACS 特點說明 | Needs informational/feature-page schema decision. |
+| 269 | ACS 教育訓練影片 | Needs training-resource schema, not product specifications. |
+
+## Common Cleanup Progress
+
+- Existing `產品規格詳情` modules now include a standard inquiry CTA when a CTA was missing.
+- Visible backend/developer wording was cleaned from affected preview modules.
+- `data-local-file`, `data-upload-url`, `.txt` hrefs, local disk paths, and visible `pending/placeholder` wording are blocked by QA.
+
+## Validation Commands
 
 ```powershell
 npm run validate
@@ -104,35 +97,8 @@ npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
 ```
 
-## GitHub 狀態
+Latest expected local validation after the SANYO DENKI audit:
 
-- phase branches 已推送到 origin。
-- issue drafts 與 PR drafts 已產出。
-- `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
-- 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
-
-## Source-needed action index
-
-- Action index: `docs/source-needed-action-index.md`
-- Machine-readable index: `docs/source-needed-action-index.json`
-- Current unresolved scope: 12 pages.
-- AI source audit queue: 6 pages requiring official manufacturer evidence before any product specification table can be created or revised.
-- Non-standard exceptions: 6 ACS test/software/informational/training pages that should not be forced into the hardware `產品規格詳情` schema without a separate content decision.
-- The index is intentionally local-preview/GitHub workflow only; it does not authorize backend save, CKFinder upload, or test-site publication.
-
-## RINGFEDER source audit progress
-
-- Branch: `source-audit-ringfeder-couplings`
-- Evidence package: `docs/source-audits/ringfeder-couplings.md`
-- Machine-readable evidence: `docs/source-audits/ringfeder-couplings.json`
-- Covered pages: 208, 209, 210, 211, 212, 213, 215, 335, 336.
-- Current source status:
-  - `agent-approved-clean`: 208, 209, 210, 211, 212, 213, 335, 336
-  - `agent-source-needed`: 215
-- Review rule: 215 stays unresolved until the friction-spring category/content decision is made. The other RINGFEDER pages now have source-backed visible `產品規格詳情` modules and pass validation.
-
-## Common CTA cleanup progress
-
-- Added a standard inquiry CTA to existing `產品規格詳情` modules that were missing an inquiry path.
-- Removed visible backend/developer wording such as `data-upload-url` replacement instructions from affected preview pages.
-- Validation evidence: `site/reports/product-spec-module-qa.json` now reports 242 pass / 6 no-spec-module, with 0 fail and 0 warn.
+- `product-spec-module-qa`: 242 pass / 6 no-spec-module / 0 fail / 0 warn
+- `product-page-structure-seo-qa`: 239 pass / 3 warn / 6 no-spec-module / 0 fail
+- `product-spec-agent-review`: 239 `agent-approved-clean` / 9 `agent-source-needed` / 0 `agent-fix-required`

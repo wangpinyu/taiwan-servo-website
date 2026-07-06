@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T06:56:09.519Z",
+  "generated_at": "2026-07-06T07:12:31.488Z",
   "scope": "GitHub-ready product spec module QA",
   "summary": {
     "total_pages": 248,
@@ -2719,7 +2719,7 @@
       "qa_status": "pass",
       "counts": {
         "details": 1,
-        "tables": 0,
+        "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
@@ -2744,7 +2744,7 @@
       "qa_status": "pass",
       "counts": {
         "details": 1,
-        "tables": 0,
+        "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,
@@ -4032,7 +4032,7 @@
       "qa_status": "pass",
       "counts": {
         "details": 1,
-        "tables": 0,
+        "tables": 1,
         "pdf_links": 0,
         "cad_links": 0,
         "zip_links": 0,

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T06:56:10.805Z",
+  "generatedAt": "2026-07-06T07:12:33.201Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
   "summary": {
     "totalIssues": 18,
     "totalPages": 248,
-    "totalBlockingPages": 12,
-    "totalSourcePages": 12
+    "totalBlockingPages": 9,
+    "totalSourcePages": 9
   },
   "entries": [
     {
@@ -55,11 +55,11 @@
       "category": "各類馬達",
       "branch": "phase-2-motors-spec-review",
       "pages": 24,
-      "blockingPages": 2,
-      "sourcePages": 2,
+      "blockingPages": 1,
+      "sourcePages": 1,
       "statusCounts": {
-        "agent-approved-clean": 22,
-        "agent-source-needed": 2
+        "agent-approved-clean": 23,
+        "agent-source-needed": 1
       },
       "title": "[各類馬達] 產品頁優化追蹤",
       "labels": [
@@ -252,23 +252,21 @@
       "category": "山洋電氣 SANYO DENKI",
       "branch": "phase-4-sanyo-denki",
       "pages": 6,
-      "blockingPages": 2,
-      "sourcePages": 2,
+      "blockingPages": 0,
+      "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 4,
-        "agent-source-needed": 2
+        "agent-approved-clean": 6
       },
       "title": "[山洋電氣 SANYO DENKI] 產品頁優化追蹤",
       "labels": [
         "spec-module",
         "seo",
         "uiux",
-        "download-links",
-        "source-needed"
+        "download-links"
       ],
       "issueDraft": "site/reports/github-issues/12-phase-4-sanyo-denki.md",
       "issueDraftExists": true,
-      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E5%B1%B1%E6%B4%8B%E9%9B%BB%E6%B0%A3%20SANYO%20DENKI%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links%2Csource-needed"
+      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E5%B1%B1%E6%B4%8B%E9%9B%BB%E6%B0%A3%20SANYO%20DENKI%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links"
     },
     {
       "priority": 13,
