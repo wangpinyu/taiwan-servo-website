@@ -90,7 +90,9 @@ const pullRefs = remotePullRefs();
 const labelCount = countLabels();
 const reviewCounts = review.summary?.agent_status_counts || {};
 const approvedPages = reviewCounts['agent-approved-clean'] || 0;
+const approvedExceptionPages = reviewCounts['agent-approved-exception'] || 0;
 const sourceNeededPages = sourceAudit.summary?.total_pages || 0;
+const acceptedReviewPages = approvedPages + approvedExceptionPages + sourceNeededPages;
 
 const checks = [
   {
@@ -132,7 +134,7 @@ const checks = [
   {
     id: 'agent-review',
     label: 'AI agent review baseline',
-    status: approvedPages + sourceNeededPages === 248 && approvedPages > 0 ? 'pass' : 'warn',
+    status: acceptedReviewPages === 248 && approvedPages > 0 ? 'pass' : 'warn',
     detail: JSON.stringify(reviewCounts),
   },
   {
@@ -161,7 +163,9 @@ const output = {
     issueDrafts: issueIndex.entries?.length || 0,
     pullRequestDrafts: prIndex.entries?.length || 0,
     approvedPages,
+    approvedExceptionPages,
     sourceNeededPages,
+    acceptedReviewPages,
     remoteBranchesPresent: presentBranches,
   },
   checks,

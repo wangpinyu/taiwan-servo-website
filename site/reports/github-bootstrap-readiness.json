@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T08:05:30.861Z",
+  "generatedAt": "2026-07-06T08:09:39.526Z",
   "status": "ready-needs-token",
   "repository": "wangpinyu/taiwan-servo-website",
   "tokenPresent": false,
@@ -83,7 +83,9 @@
     "issueDrafts": 18,
     "pullRequestDrafts": 17,
     "approvedPages": 242,
+    "approvedExceptionPages": 6,
     "sourceNeededPages": 0,
+    "acceptedReviewPages": 248,
     "remoteBranchesPresent": 18
   },
   "checks": [
@@ -126,7 +128,7 @@
     {
       "id": "agent-review",
       "label": "AI agent review baseline",
-      "status": "warn",
+      "status": "pass",
       "detail": "{\"agent-approved-clean\":242,\"agent-approved-exception\":6}"
     },
     {
