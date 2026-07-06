@@ -3,18 +3,17 @@
 Branch: `phase-5-blowers`
 Priority: 16
 Pages: 2
-Blocking pages: 1
+Blocking pages: 0
 
 ## Status counts
 
-- agent-structure-review: 1
-- agent-approved-clean: 1
+- agent-approved-clean: 2
 
 ## Target pages
 
 | ID | Title | Status | Preview |
 | --- | --- | --- | --- |
-| 101 | Karl Klein鼓風機 | agent-structure-review | preview/products/detail/101.html |
+| 101 | Karl Klein鼓風機 | agent-approved-clean | preview/products/detail/101.html |
 | 390 | 移動式防爆徑向鼓風機 | agent-approved-clean | preview/products/detail/390.html |
 
 ## Acceptance criteria
