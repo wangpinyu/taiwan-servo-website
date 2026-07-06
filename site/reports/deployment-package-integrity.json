@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T10:45:14.750Z",
+  "generatedAt": "2026-07-06T10:51:15.526Z",
   "status": "review",
   "packageRoot": "site/deploy-packages",
   "summary": {
@@ -61,35 +61,65 @@
       "type": "missing-local-file",
       "manifest": "site/deploy-packages/needs-review/manifest.json",
       "local_rel": "preview/products/detail/images/ringfeder-elastomer-jaw-couplings-overview.jpg",
-      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/preview/products/detail/images/ringfeder-elastomer-jaw-couplings-overview.jpg"
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/preview/products/detail/images/ringfeder-elastomer-jaw-couplings-overview.jpg",
+      "deploy_mode": "needs-review",
+      "bucket": "local-placeholder-exclude",
+      "used_by_pages": [
+        "/products/detail/332"
+      ],
+      "recommended_action": "Exclude from deployment; resolve at the page source or original asset mapping before server overwrite."
     },
     {
       "level": "review",
       "type": "missing-local-file",
       "manifest": "site/deploy-packages/needs-review/manifest.json",
       "local_rel": "uploads/editor/images/ACS%20Images/ACS-MMI%20application-Studio.jpg",
-      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/editor/images/ACS%20Images/ACS-MMI%20application-Studio.jpg"
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/editor/images/ACS%20Images/ACS-MMI%20application-Studio.jpg",
+      "deploy_mode": "needs-review",
+      "bucket": "local-placeholder-exclude",
+      "used_by_pages": [
+        "/products/detail/352"
+      ],
+      "recommended_action": "Exclude from deployment; resolve at the page source or original asset mapping before server overwrite."
     },
     {
       "level": "review",
       "type": "missing-local-file",
       "manifest": "site/deploy-packages/needs-review/manifest.json",
       "local_rel": "uploads/images/a3f28c784f673f5fcdb6c3e188e4f76a.jpg",
-      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/images/a3f28c784f673f5fcdb6c3e188e4f76a.jpg"
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/images/a3f28c784f673f5fcdb6c3e188e4f76a.jpg",
+      "deploy_mode": "needs-review",
+      "bucket": "local-placeholder-exclude",
+      "used_by_pages": [
+        "/products/detail/342"
+      ],
+      "recommended_action": "Exclude from deployment; resolve at the page source or original asset mapping before server overwrite."
     },
     {
       "level": "review",
       "type": "missing-local-file",
       "manifest": "site/deploy-packages/needs-review/manifest.json",
       "local_rel": "uploads/images/ba95541509bb5ad949bc93c4d7b65b24.jpg",
-      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/images/ba95541509bb5ad949bc93c4d7b65b24.jpg"
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/images/ba95541509bb5ad949bc93c4d7b65b24.jpg",
+      "deploy_mode": "needs-review",
+      "bucket": "local-placeholder-exclude",
+      "used_by_pages": [
+        "/products/detail/343"
+      ],
+      "recommended_action": "Exclude from deployment; resolve at the page source or original asset mapping before server overwrite."
     },
     {
       "level": "review",
       "type": "missing-local-file",
       "manifest": "site/deploy-packages/needs-review/manifest.json",
       "local_rel": "uploads/images/c39611a103711ad63a507a5cffe82865.jpg",
-      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/images/c39611a103711ad63a507a5cffe82865.jpg"
+      "local_path": "F:/Taiwan_Servo_website_management_Codex_File/.codex_tmp/site-mirror-current/uploads/images/c39611a103711ad63a507a5cffe82865.jpg",
+      "deploy_mode": "needs-review",
+      "bucket": "local-placeholder-exclude",
+      "used_by_pages": [
+        "/products/detail/341"
+      ],
+      "recommended_action": "Exclude from deployment; resolve at the page source or original asset mapping before server overwrite."
     }
   ]
 }

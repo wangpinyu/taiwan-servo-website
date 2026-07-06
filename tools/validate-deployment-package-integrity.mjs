@@ -25,9 +25,25 @@ function fileSize(filePath) {
   }
 }
 
+function optionalJson(filePath) {
+  try {
+    if (!fs.existsSync(filePath)) return null;
+    return readJson(filePath);
+  } catch {
+    return null;
+  }
+}
+
 function expectedSafeToOverwrite(mode) {
   if (mode === 'same-path-overwrite') return true;
   return false;
+}
+
+function defaultMissingFileAction(mode) {
+  if (['same-path-overwrite', 'site-static-asset-review', 'backend-managed-download-route'].includes(mode)) {
+    return 'Restore the local file before deployment or remove it from the deployable manifest.';
+  }
+  return 'Review before deployment; do not upload automatically until the source mapping is verified.';
 }
 
 const manifestPaths = fs.existsSync(packageRoot)
@@ -35,6 +51,11 @@ const manifestPaths = fs.existsSync(packageRoot)
     .map((dir) => path.join(packageRoot, dir, 'manifest.json'))
     .filter((filePath) => fs.existsSync(filePath))
   : [];
+
+const reviewClassification = optionalJson(path.join(reportDir, 'deployment-review-classification.json'));
+const reviewClassificationByLocalRel = new Map(
+  (reviewClassification?.files || []).map((file) => [file.local_rel, file]),
+);
 
 const allFiles = [];
 const manifests = [];
@@ -63,12 +84,17 @@ for (const manifestPath of manifestPaths) {
     if (!exists) {
       missingFiles += 1;
       const isDeployableMode = ['same-path-overwrite', 'site-static-asset-review', 'backend-managed-download-route'].includes(file.deploy_mode || mode);
+      const classified = reviewClassificationByLocalRel.get(file.local_rel);
       issues.push({
         level: isDeployableMode ? 'error' : 'review',
         type: 'missing-local-file',
         manifest: relManifest,
         local_rel: file.local_rel,
         local_path: localPath,
+        deploy_mode: file.deploy_mode || mode,
+        bucket: classified?.bucket || '',
+        used_by_pages: Array.isArray(file.used_by_pages) ? file.used_by_pages : [],
+        recommended_action: classified?.action || defaultMissingFileAction(file.deploy_mode || mode),
       });
     }
 
@@ -205,7 +231,9 @@ const issueRows = issues.slice(0, 200).map((issue) => `<tr>
   <td>${htmlEscape(issue.type)}</td>
   <td><code>${htmlEscape(issue.manifest || '')}</code></td>
   <td><code>${htmlEscape(issue.local_rel || issue.future_server_path || '')}</code></td>
-  <td>${htmlEscape((issue.messages || []).join('; ') || JSON.stringify(issue.entries || ''))}</td>
+  <td>${htmlEscape(issue.bucket || '')}</td>
+  <td>${htmlEscape((issue.used_by_pages || []).slice(0, 6).join(', '))}</td>
+  <td>${htmlEscape(issue.recommended_action || (issue.messages || []).join('; ') || JSON.stringify(issue.entries || ''))}</td>
 </tr>`).join('');
 
 fs.writeFileSync(
@@ -241,7 +269,7 @@ fs.writeFileSync(
   <h2>Manifests</h2>
   <table><thead><tr><th>Manifest</th><th>Mode</th><th>Files</th><th>Missing</th><th>Byte mismatch</th><th>Policy review</th></tr></thead><tbody>${manifestRows}</tbody></table>
   <h2>Issues</h2>
-  <table><thead><tr><th>Level</th><th>Type</th><th>Manifest</th><th>Path</th><th>Detail</th></tr></thead><tbody>${issueRows || '<tr><td colspan="5">No issues.</td></tr>'}</tbody></table>
+  <table><thead><tr><th>Level</th><th>Type</th><th>Manifest</th><th>Path</th><th>Bucket</th><th>Used by</th><th>Recommended action</th></tr></thead><tbody>${issueRows || '<tr><td colspan="7">No issues.</td></tr>'}</tbody></table>
 </body>
 </html>`,
   'utf8',

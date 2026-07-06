@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T10:44:35.931Z",
+  "generatedAt": "2026-07-06T10:50:37.891Z",
   "status": "ok",
   "summary": {
     "docs": 26,
@@ -155,7 +155,7 @@
       "type": "report",
       "status": "pass",
       "title": "Deployment Package Integrity",
-      "chars": 3768,
+      "chars": 4606,
       "errors": [],
       "mojibakeHits": []
     },
@@ -164,7 +164,7 @@
       "type": "report",
       "status": "pass",
       "title": "Deployment Phase Handoff",
-      "chars": 4392,
+      "chars": 4856,
       "errors": [],
       "mojibakeHits": []
     },
