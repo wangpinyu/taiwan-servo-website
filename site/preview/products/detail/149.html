@@ -807,57 +807,81 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- standardized-spec-module:start -->
 <div class="st-standardized-spec-module" data-standard-module="產品規格詳情">
-<style>
-.st-thom-specs{--st-green:#009b4e;--st-ink:#0f2033;--st-muted:#657282;--st-line:#dfe8e3;--st-soft:#f6fbf8;font-family:Arial,'Noto Sans TC','Microsoft JhengHei',sans-serif;color:var(--st-ink);line-height:1.65;margin:28px 0}
+<style type="text/css">
+.st-thom-specs{--st-green:#009640;--st-blue:#0b6ea8;--st-dark:#0b1c2e;--st-muted:#5d6b77;--st-line:#dfe8e3;--st-soft:#f7fbf8;margin:48px 0 58px;font-family:Arial,'Noto Sans TC','Microsoft JhengHei',sans-serif;color:var(--st-dark);line-height:1.65}
 .st-thom-specs *{box-sizing:border-box}
-.st-thom-head{border-left:5px solid var(--st-green);padding-left:14px;margin:0 0 18px}
-.st-thom-head h2{font-size:28px;line-height:1.25;margin:0 0 8px;font-weight:800;color:var(--st-ink)}
-.st-thom-head p{margin:0;color:var(--st-muted);font-size:15px}
-.st-thom-note{border:1px solid var(--st-line);background:var(--st-soft);border-radius:8px;padding:12px 14px;margin:0 0 14px;color:#435263;font-size:14px}
-.st-thom-detail{border:1px solid var(--st-line);border-radius:8px;background:#fff;margin:0 0 12px;overflow:hidden}
-.st-thom-detail summary{cursor:pointer;display:flex;align-items:center;gap:18px;min-height:72px;padding:16px 20px;list-style:none}
+.st-thom-title{font-size:22px;color:var(--st-dark);margin:0 0 18px;border-left:5px solid var(--st-green);padding-left:15px;font-weight:800;line-height:1.35;letter-spacing:0}
+.st-thom-lead{margin:0 0 18px;padding:14px 16px;border:1px solid var(--st-line);border-radius:8px;background:linear-gradient(135deg,#fff 0%,var(--st-soft) 100%);font-size:14px;color:#4d5b66}
+.st-thom-detail{border:1px solid var(--st-line);border-radius:9px;background:#fff;overflow:hidden;margin:14px 0;box-shadow:0 4px 14px rgba(11,28,46,.04)}
+.st-thom-detail summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:140px 1fr auto;gap:18px;align-items:center;padding:18px 20px;min-height:76px}
 .st-thom-detail summary::-webkit-details-marker{display:none}
-.st-thom-code{font-size:26px;font-weight:900;color:var(--st-green);min-width:150px}
-.st-thom-summary{display:flex;flex-direction:column;gap:2px;flex:1}
-.st-thom-summary strong{font-size:18px}
-.st-thom-summary em{font-size:14px;color:var(--st-muted);font-style:normal}
-.st-thom-plus{margin-left:auto;width:34px;height:34px;border-radius:50%;border:1px solid var(--st-line);display:inline-flex;align-items:center;justify-content:center;color:var(--st-green);font-weight:900;font-size:22px}
-.st-thom-detail[open] .st-thom-plus{background:var(--st-green);color:#fff}
-.st-thom-panel{border-top:1px solid var(--st-line);padding:18px 20px 22px}
-.st-thom-source{font-size:13px;color:var(--st-muted);margin:0 0 12px}
-.st-thom-table-wrap{overflow-x:auto;margin:10px 0 16px;border:1px solid var(--st-line);border-radius:8px}
-.st-thom-table{border-collapse:collapse;width:100%;min-width:760px;background:#fff}
-.st-thom-table th{background:#0876a8;color:#fff;font-weight:800;text-align:center;padding:9px 10px;border:1px solid #0a6e9b;white-space:normal}
-.st-thom-table td{padding:9px 10px;border:1px solid #e6ece8;text-align:center;vertical-align:top}
-.st-thom-table tbody th{background:#f4faf7;color:var(--st-ink);text-align:left;border-color:#e6ece8;min-width:180px}
-.st-thom-files{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:12px}
-.st-thom-file{border:1px solid var(--st-line);border-radius:8px;padding:10px 12px;background:#fff;display:flex;align-items:center;justify-content:space-between;gap:10px}
-.st-thom-file strong{font-size:13px;line-height:1.35}
-.st-thom-file span{white-space:nowrap;background:#e8f5ee;color:#087a44;border-radius:999px;padding:4px 9px;font-size:12px;font-weight:800}
-.st-thom-empty{border:1px dashed #b8c8c0;border-radius:8px;padding:12px;color:#607080;background:#fbfdfc}
-@media(max-width:640px){
-  .st-thom-specs{margin:22px 0}
-  .st-thom-head h2{font-size:23px}
-  .st-thom-detail summary{align-items:flex-start;gap:10px;padding:14px}
-  .st-thom-code{font-size:23px;min-width:72px}
-  .st-thom-summary strong{font-size:16px}
-  .st-thom-plus{width:30px;height:30px;font-size:18px;flex:0 0 auto}
-  .st-thom-panel{padding:14px}
-  .st-thom-table{min-width:0}
-  .st-thom-table thead{display:none}
-  .st-thom-table,.st-thom-table tbody,.st-thom-table tr,.st-thom-table th,.st-thom-table td{display:block;width:100%}
-  .st-thom-table tr{border-bottom:1px solid var(--st-line);padding:8px 0}
-  .st-thom-table tbody th{border:0;background:#f4faf7;border-radius:6px;margin:0 0 6px;text-align:left}
-  .st-thom-table td{border:0;text-align:left;padding:6px 8px 6px 44%;position:relative;min-height:30px}
-  .st-thom-table td:before{content:attr(data-label);position:absolute;left:8px;top:6px;width:38%;font-weight:800;color:#536272}
-  .st-thom-files{grid-template-columns:1fr}
-}
+.st-thom-code{font-size:23px;font-weight:900;color:var(--st-green);line-height:1}
+.st-thom-summary strong{display:block;font-size:17px;line-height:1.35;color:var(--st-dark);font-weight:800}
+.st-thom-summary em{display:block;margin-top:5px;font-style:normal;font-size:13px;line-height:1.55;color:var(--st-muted)}
+.st-thom-toggle{display:inline-flex;align-items:center;justify-content:center;min-width:92px;min-height:34px;border-radius:999px;border:1px solid var(--st-line);color:var(--st-green);background:#fff;font-size:13px;font-weight:800;line-height:1}
+.st-thom-toggle:before{content:"+";margin-right:5px;font-size:18px;line-height:1}
+.st-thom-detail[open] .st-thom-toggle{background:var(--st-green);color:#fff;border-color:var(--st-green)}
+.st-thom-detail[open] .st-thom-toggle:before{content:"-"}
+.st-thom-panel{border-top:1px solid var(--st-line);padding:18px 20px 22px;background:#fff}
+.st-thom-source{margin:0 0 12px;color:var(--st-muted);font-size:13px;line-height:1.65}
+.st-thom-source a{color:var(--st-blue);font-weight:800;text-decoration:underline}
+.st-thom-links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.st-thom-link{display:inline-flex;align-items:center;justify-content:center;min-height:32px;border-radius:5px;padding:7px 11px;font-size:12px;font-weight:800;line-height:1.25;text-align:center;background:#eef6ff;color:#0b6ea8;border:1px solid #b9daf2;text-decoration:none}
+.st-thom-scroll-note{display:none;margin:0 0 8px;font-size:12px;color:var(--st-muted)}
+.st-thom-table-wrap{width:100%;overflow-x:auto;border:1px solid var(--st-line);border-radius:8px;background:#fff;-webkit-overflow-scrolling:touch;margin-top:12px}
+.st-thom-table{min-width:880px;width:100%;border-collapse:collapse;font-size:13px;line-height:1.45}
+.st-thom-table th{position:sticky;top:0;background:var(--st-blue);color:#fff;text-align:left;padding:10px;border-right:1px solid rgba(255,255,255,.24);font-weight:800;white-space:nowrap;z-index:2}
+.st-thom-table td{padding:10px;border-top:1px solid #e8eef0;color:#102033;vertical-align:top}
+.st-thom-table th:first-child,.st-thom-table td:first-child{position:sticky;left:0;z-index:3}
+.st-thom-table th:first-child{background:var(--st-blue)}
+.st-thom-table td:first-child{font-weight:800;color:#091827;background:#fff;min-width:150px}
+.st-thom-table tbody tr:nth-child(even) td{background:#fbfcfc}
+.st-thom-table tbody tr:nth-child(even) td:first-child{background:#fbfcfc}
+.st-spec-cta{margin-top:18px;padding:16px 18px;border:1px solid #dbe8e2;border-radius:8px;background:#f7fbf8;color:#102033}
+.st-spec-cta p{margin:8px 0 12px}
+.st-spec-cta a{display:inline-block;padding:9px 16px;border-radius:6px;background:#079b4b;color:#fff;text-decoration:none;font-weight:700}
+@media (max-width:760px){.st-thom-specs{margin:34px 0 42px}.st-thom-title{font-size:20px}.st-thom-lead{font-size:13px}.st-thom-detail summary{grid-template-columns:100px 1fr auto;gap:10px;padding:15px 14px}.st-thom-code{font-size:19px}.st-thom-summary strong{font-size:15px}.st-thom-summary em{font-size:12px}.st-thom-toggle{min-width:82px;min-height:32px;font-size:12px}.st-thom-panel{padding:14px}.st-thom-scroll-note{display:block}.st-thom-table{min-width:760px}.st-thom-link{white-space:normal}}
 </style>
-<section class="st-thom-specs" id="st-thom-specs"><div class="st-thom-head"><h2>產品規格詳情</h2></div><details class="st-thom-detail"><summary><span class="st-thom-code">AquaTRUE</span><span class="st-thom-summary"><strong>AquaTRUE 行星減速機</strong><em>星泰頁面既有 AquaTRUE 官方連結目前回 403；需請洽星泰 Micron/Thomson 最新公開文件。</em></span><span class="st-thom-plus">展開 / 收合</span></summary><div class="st-thom-panel"><div class="st-thom-empty"></div><p class="st-public-note" style="margin:0 0 12px;color:#536272;">原廠公開下載檔案；若已</p></div></details>
-<div class="st-spec-cta" style="margin-top:18px;padding:16px 18px;border:1px solid #dbe8e2;border-radius:8px;background:#f7fbf8;color:#102033;">
-  <strong>需要協助確認 Thomson 減速機 規格？</strong>
-  <p style="margin:8px 0 12px;">請提供預計應用、安裝條件、關鍵尺寸、負載與控制需求，星泰可協助比對適合的系列、型號與技術文件。</p>
-  <a href="../../skipped/96da16962be2-inquiry.html" style="display:inline-block;padding:9px 16px;border-radius:6px;background:#079b4b;color:#fff;text-decoration:none;font-weight:700;" aria-label="聯絡星泰確認 Thomson 減速機 規格">請洽星泰確認規格</a>
+<section class="st-thom-specs" aria-labelledby="st-thom-title-149">
+<h3 class="st-thom-title" id="st-thom-title-149">產品規格詳情</h3>
+<p class="st-thom-lead">AquaTRUE 為 Thomson / Micron True Planetary 系列中的不鏽鋼防水行星減速機，適用於食品、飲料、醫療、製藥與需高壓沖洗的環境。以下保留原廠公開的核心規格欄位與官方文件入口。</p>
+<details class="st-thom-detail" open>
+<summary><span class="st-thom-code">AquaTRUE</span><span class="st-thom-summary"><strong>AquaTRUE True Planetary Gearheads</strong><em>圓形 300 系列不鏽鋼外殼、IP66 / IP67 / IP69K 防護，面向嚴苛衛生與沖洗場域。</em></span><span class="st-thom-toggle">展開 / 收合</span></summary>
+<div class="st-thom-panel">
+<div class="st-thom-links"><a class="st-thom-link" href="https://www.thomsonlinear.com/downloads/gearheads/AquaTRUE_True_Planetary_Gearheads_bren.pdf" target="_blank" rel="noopener" aria-label="開啟 AquaTRUE 官方 PDF 規格表">AquaTRUE PDF</a><a class="st-thom-link" href="https://www.bostongear.com/products/micron-true-planetary-gearheads/in-line-planetary-gearheads/aquatrue" target="_blank" rel="noopener" aria-label="開啟 AquaTRUE 官方產品頁">AquaTRUE Product Page</a></div>
+<p class="st-thom-source">資料來源：<a href="https://www.thomsonlinear.com/downloads/gearheads/AquaTRUE_True_Planetary_Gearheads_bren.pdf" target="_blank" rel="noopener">Thomson Linear AquaTRUE True Planetary Gearheads PDF</a>、<a href="https://www.bostongear.com/products/micron-true-planetary-gearheads/in-line-planetary-gearheads/aquatrue" target="_blank" rel="noopener">Boston Gear / Micron AquaTRUE product page</a>。</p>
+<p class="st-thom-scroll-note">表格可左右滑動查看完整欄位。</p>
+<div class="st-thom-table-wrap" role="region" aria-label="AquaTRUE official specification table">
+<table class="st-thom-table">
+<thead><tr><th scope="col">Part Number</th><th scope="col">Stages</th><th scope="col">Backlash (arc-min)</th><th scope="col">Efficiency (%)</th><th scope="col">Weight (kg / lbs)</th><th scope="col">Ratio Availability</th><th scope="col">官方資料</th></tr></thead>
+<tbody>
+<tr><td data-label="Part Number">AQT060</td><td data-label="Stages">1</td><td data-label="Backlash (arc-min)">13</td><td data-label="Efficiency (%)">93%</td><td data-label="Weight (kg / lbs)">2.4 / 5.4</td><td data-label="Ratio Availability">3:1, 4:1, 5:1, 7:1, 10:1</td><td data-label="官方資料">AquaTRUE PDF</td></tr>
+<tr><td data-label="Part Number">AQT080</td><td data-label="Stages">1</td><td data-label="Backlash (arc-min)">13</td><td data-label="Efficiency (%)">93%</td><td data-label="Weight (kg / lbs)">5.7 / 12.7</td><td data-label="Ratio Availability">3:1, 4:1, 5:1, 7:1, 8:1, 10:1</td><td data-label="官方資料">AquaTRUE PDF</td></tr>
+<tr><td data-label="Part Number">AQT120</td><td data-label="Stages">1</td><td data-label="Backlash (arc-min)">13</td><td data-label="Efficiency (%)">93%</td><td data-label="Weight (kg / lbs)">12.0 / 26.5</td><td data-label="Ratio Availability">3:1, 4:1, 5:1, 7:1, 10:1</td><td data-label="官方資料">AquaTRUE PDF</td></tr>
+<tr><td data-label="Part Number">AQT160</td><td data-label="Stages">1</td><td data-label="Backlash (arc-min)">13</td><td data-label="Efficiency (%)">93%</td><td data-label="Weight (kg / lbs)">24.8 / 53.8</td><td data-label="Ratio Availability">3:1, 4:1, 5:1, 7:1, 10:1</td><td data-label="官方資料">AquaTRUE PDF</td></tr>
+</tbody>
+</table>
+</div>
+<div class="st-thom-table-wrap" role="region" aria-label="AquaTRUE official feature table">
+<table class="st-thom-table">
+<thead><tr><th scope="col">項目</th><th scope="col">原廠公開規格</th><th scope="col">資料來源</th></tr></thead>
+<tbody>
+<tr><td data-label="項目">Frame Sizes (mm)</td><td data-label="原廠公開規格">60 / 80 / 120 / 160</td><td data-label="資料來源">Thomson AquaTRUE PDF</td></tr>
+<tr><td data-label="項目">Precision</td><td data-label="原廠公開規格">13 arc-min max</td><td data-label="資料來源">Thomson AquaTRUE PDF</td></tr>
+<tr><td data-label="項目">Torque Capacity</td><td data-label="原廠公開規格">up to 876 Nm</td><td data-label="資料來源">Thomson AquaTRUE PDF / Boston Gear product page</td></tr>
+<tr><td data-label="項目">Ratio Range</td><td data-label="原廠公開規格">3:1 through 100:1</td><td data-label="資料來源">Boston Gear product page</td></tr>
+<tr><td data-label="項目">Protection</td><td data-label="原廠公開規格">IP66 / IP67 / IP69K on input and output</td><td data-label="資料來源">Thomson AquaTRUE PDF / Boston Gear product page</td></tr>
+<tr><td data-label="項目">Housing / Certification</td><td data-label="原廠公開規格">300 Series stainless steel; NSF/ANSI 169 certification</td><td data-label="資料來源">Thomson AquaTRUE PDF / Boston Gear product page</td></tr>
+<tr><td data-label="項目">Typical Applications</td><td data-label="原廠公開規格">Food handling, food packaging, beverage dispensing, medical hygienic equipment, pharmaceutical and washdown environments</td><td data-label="資料來源">Thomson AquaTRUE PDF</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</details>
+<div class="st-spec-cta">
+  <strong>需要協助確認 AquaTRUE 減速機規格？</strong>
+  <p>請提供預計應用、安裝方向、清洗環境、減速比、輸入轉速與扭矩需求，星泰可協助比對適合的 AQT 尺寸與技術文件。</p>
+  <a href="../../skipped/96da16962be2-inquiry.html" aria-label="聯絡星泰確認 Thomson AquaTRUE 減速機規格">請洽星泰確認規格</a>
 </div>
 
 <div class="st-common-spec-cta" style="margin-top:18px;padding:16px 18px;border:1px solid #dbe8e2;border-radius:8px;background:#f7fbf8;color:#102033;">

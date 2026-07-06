@@ -7,28 +7,22 @@
     "large_file_strategy": "Use official manufacturer download pages or official document URLs and mark external-source when upload/download is not reliable."
   },
   "summary": {
-    "total_source_needed_pages": 8,
-    "official_source_audit_queue": 2,
+    "total_source_needed_pages": 7,
+    "official_source_audit_queue": 1,
     "non_standard_exceptions": 6,
     "ringfeder_resolved_pages": ["208", "209", "210", "211", "212", "213", "335", "336"],
     "ringfeder_unresolved_pages": ["215"],
     "sanyo_resolved_pages": ["194", "195", "270"],
-    "jvl_resolved_pages": ["102"]
+    "jvl_resolved_pages": ["102"],
+    "thomson_resolved_pages": ["149"]
   },
   "official_source_audit_queue": [
     {
-      "product_id": "149",
-      "title": "Thomson 減速機",
-      "category": "空氣軸承 / 滾珠•滾柱軸承 / Thomson",
-      "required_source_work": "Find official Thomson/Nook equivalent source for reducer specifications, or keep as source-needed if the Taiwan Servo page is only a category bridge.",
-      "suggested_branch": "source-audit-thomson-reducers"
-    },
-    {
       "product_id": "215",
       "title": "RINGFEDER 摩擦彈簧",
-      "category": "聯軸器",
+      "category": "聯軸器 / RINGFEDER 摩擦彈簧",
       "required_source_work": "Decide whether to keep this page under couplings or reframe it as damping technology. Official source classifies it as friction springs.",
-      "suggested_branch": "source-audit-ringfeder-couplings"
+      "suggested_branch": "source-audit-ringfeder-friction-springs"
     }
   ],
   "non_standard_exceptions": [
@@ -97,6 +91,16 @@
       "covered_product_ids": ["102"],
       "status_summary": {
         "agent_approved_clean": ["102"],
+        "agent_source_needed": []
+      }
+    },
+    {
+      "branch": "source-audit-thomson-reducers",
+      "audit_md": "docs/source-audits/thomson-reducers.md",
+      "audit_json": "docs/source-audits/thomson-reducers.json",
+      "covered_product_ids": ["149"],
+      "status_summary": {
+        "agent_approved_clean": ["149"],
         "agent_source_needed": []
       }
     }

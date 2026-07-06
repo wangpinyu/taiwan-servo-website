@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T07:19:06.005Z",
+  "generated_at": "2026-07-06T07:35:50.443Z",
   "scope": "GitHub-ready AI agent review decisions",
   "policy": {
     "default_reviewer": "AI agent",
@@ -18,8 +18,8 @@
   "summary": {
     "total_pages": 248,
     "agent_status_counts": {
-      "agent-approved-clean": 240,
-      "agent-source-needed": 8
+      "agent-approved-clean": 241,
+      "agent-source-needed": 7
     }
   },
   "pages": [
@@ -2157,8 +2157,8 @@
       "qa_status": "pass",
       "counts": {
         "details": 1,
-        "tables": 0,
-        "pdf_links": 0,
+        "tables": 2,
+        "pdf_links": 2,
         "cad_links": 0,
         "zip_links": 0,
         "cta_count": 1,
@@ -2168,15 +2168,13 @@
       },
       "critical": [],
       "warnings": [],
-      "page_seo_qa_status": "warn",
-      "page_seo_warnings": [
-        "spec_table_missing"
-      ],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-source-needed",
-        "decision": "缺少可整理成規格表的來源",
-        "reason": "目前規格模組沒有可查核規格表，也沒有可整理成文件索引表的 PDF/CAD/ZIP 連結；不得補寫未經來源支持的規格。"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {

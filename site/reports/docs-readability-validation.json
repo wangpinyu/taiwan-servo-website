@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T07:18:51.455Z",
+  "generatedAt": "2026-07-06T07:35:37.251Z",
   "status": "ok",
   "summary": {
     "docs": 13,
@@ -56,7 +56,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# 產品規格詳情模組審核紀錄",
-      "chars": 5186,
+      "chars": 5574,
       "errors": [],
       "mojibakeHits": []
     },
@@ -74,7 +74,7 @@
       "type": "report",
       "status": "pass",
       "title": "Optimization Backlog",
-      "chars": 5909,
+      "chars": 5884,
       "errors": [],
       "mojibakeHits": []
     },
@@ -83,7 +83,7 @@
       "type": "report",
       "status": "pass",
       "title": "產品頁 SEO 與結構 QA",
-      "chars": 39854,
+      "chars": 39836,
       "errors": [],
       "mojibakeHits": []
     },
@@ -92,7 +92,7 @@
       "type": "report",
       "status": "pass",
       "title": "AI Agent 產品頁審核",
-      "chars": 53522,
+      "chars": 53507,
       "errors": [],
       "mojibakeHits": []
     },
@@ -110,7 +110,7 @@
       "type": "report",
       "status": "pass",
       "title": "Source-needed Audit",
-      "chars": 3953,
+      "chars": 3657,
       "errors": [],
       "mojibakeHits": []
     },
@@ -119,7 +119,7 @@
       "type": "report",
       "status": "pass",
       "title": "# Source-needed Audit",
-      "chars": 2052,
+      "chars": 1864,
       "errors": [],
       "mojibakeHits": []
     }

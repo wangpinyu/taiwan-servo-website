@@ -7,8 +7,8 @@ This log tracks local-preview and GitHub workflow status for the Taiwan Servo pr
 ## Current Summary
 
 - Product pages: 248
-- `agent-approved-clean`: 240
-- `agent-source-needed`: 8
+- `agent-approved-clean`: 241
+- `agent-source-needed`: 7
 - `agent-fix-required`: 0
 - `agent-structure-review`: 0
 - Critical failures: 0
@@ -33,8 +33,8 @@ Authoritative reports:
 
 - Action index: `docs/source-needed-action-index.md`
 - Machine-readable index: `docs/source-needed-action-index.json`
-- Current unresolved scope: 8 pages.
-- AI source audit queue: 2 pages requiring official manufacturer evidence before any product specification table can be created or revised.
+- Current unresolved scope: 7 pages.
+- AI source audit queue: 1 page requiring official manufacturer evidence before any product specification table can be created or revised.
 - Non-standard exceptions: 6 ACS test/software/informational/training pages that should not be forced into the hardware `產品規格詳情` schema without a separate content decision.
 
 ## Completed Source Audit Progress
@@ -72,14 +72,24 @@ Authoritative reports:
   - `agent-source-needed`: none in JVL
 - Review rule: keep MAC, MIS / ServoStep, and SMC controller data separated and preserve the original JVL units.
 
+### Thomson Reducers
+
+- Branch: `source-audit-thomson-reducers`
+- Evidence package: `docs/source-audits/thomson-reducers.md`
+- Machine-readable evidence: `docs/source-audits/thomson-reducers.json`
+- Covered pages: 149
+- Current source status:
+  - `agent-approved-clean`: 149
+  - `agent-source-needed`: none in Thomson
+- Review rule: AquaTRUE values stay source-backed to Thomson / Boston Gear official sources. Keep unsupported model-level values out of the table.
+
 ## Remaining Source-needed Pages
 
 ### Official Source Audit Queue
 
 | ID | Page | Category | Suggested branch |
 | --- | --- | --- | --- |
-| 149 | Thomson 減速機 | 空氣軸承 / 滾珠•滾柱軸承 / Thomson | `source-audit-thomson-reducers` |
-| 215 | RINGFEDER 摩擦彈簧 | 聯軸器 | `source-audit-ringfeder-couplings` |
+| 215 | RINGFEDER 摩擦彈簧 | 聯軸器 / RINGFEDER 摩擦彈簧 | `source-audit-ringfeder-friction-springs` |
 
 ### Non-standard Exceptions
 
@@ -94,9 +104,9 @@ Authoritative reports:
 
 ## Common Cleanup Progress
 
-- Existing `產品規格詳情` modules now include a standard inquiry CTA when a CTA was missing.
+- Existing `產品規格詳情` modules include a standard inquiry CTA when a CTA was missing.
 - Visible backend/developer wording was cleaned from affected preview modules.
-- `data-local-file`, `data-upload-url`, `.txt` hrefs, local disk paths, and visible `pending/placeholder` wording are blocked by QA.
+- `data-local-file`, `.txt` hrefs, local disk paths, and visible `pending/placeholder` wording are blocked by QA.
 
 ## Validation Commands
 
@@ -107,8 +117,8 @@ npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
 ```
 
-Latest expected local validation after the SANYO DENKI audit:
+Latest expected local validation after the Thomson reducers audit:
 
 - `product-spec-module-qa`: 242 pass / 6 no-spec-module / 0 fail / 0 warn
-- `product-page-structure-seo-qa`: 240 pass / 2 warn / 6 no-spec-module / 0 fail
-- `product-spec-agent-review`: 240 `agent-approved-clean` / 8 `agent-source-needed` / 0 `agent-fix-required`
+- `product-page-structure-seo-qa`: 241 pass / 1 warn / 6 no-spec-module / 0 fail
+- `product-spec-agent-review`: 241 `agent-approved-clean` / 7 `agent-source-needed` / 0 `agent-fix-required`

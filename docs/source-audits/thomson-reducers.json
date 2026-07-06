@@ -1,0 +1,31 @@
+{
+  "updated_at": "2026-07-06",
+  "branch": "source-audit-thomson-reducers",
+  "scope_product_ids": ["149"],
+  "policy": {
+    "no_invented_specifications": true,
+    "backend_operations_out_of_scope": true,
+    "large_file_strategy": "Link to official Thomson / Boston Gear source pages rather than duplicating large manufacturer files in this local-preview phase."
+  },
+  "pages": [
+    {
+      "product_id": "149",
+      "local_title": "Thomson 減速機",
+      "official_match": "Thomson / Micron AquaTRUE True Planetary Gearheads",
+      "status": "source-found-table-approved",
+      "evidence_urls": [
+        "https://www.thomsonlinear.com/downloads/gearheads/AquaTRUE_True_Planetary_Gearheads_bren.pdf",
+        "https://www.bostongear.com/products/micron-true-planetary-gearheads/in-line-planetary-gearheads/aquatrue"
+      ],
+      "visible_module_summary": "AquaTRUE frame-size table, official feature table, source links, scrollable table UX, and inquiry CTA."
+    }
+  ],
+  "validation": {
+    "agent_approved_clean": 241,
+    "agent_source_needed": 7,
+    "agent_fix_required": 0,
+    "thomson_pages": {
+      "149": "agent-approved-clean"
+    }
+  }
+}

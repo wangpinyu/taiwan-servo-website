@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T07:19:06.304Z",
+  "generatedAt": "2026-07-06T07:35:50.914Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
   "summary": {
     "totalIssues": 18,
     "totalPages": 248,
-    "totalBlockingPages": 8,
-    "totalSourcePages": 8
+    "totalBlockingPages": 7,
+    "totalSourcePages": 7
   },
   "entries": [
     {
@@ -162,23 +162,21 @@
       "category": "空氣軸承 / 滾珠•滾柱軸承",
       "branch": "phase-3-bearings-air-mechanical",
       "pages": 17,
-      "blockingPages": 1,
-      "sourcePages": 1,
+      "blockingPages": 0,
+      "sourcePages": 0,
       "statusCounts": {
-        "agent-source-needed": 1,
-        "agent-approved-clean": 16
+        "agent-approved-clean": 17
       },
       "title": "[空氣軸承 / 滾珠•滾柱軸承] 產品頁優化追蹤",
       "labels": [
         "spec-module",
         "seo",
         "uiux",
-        "download-links",
-        "source-needed"
+        "download-links"
       ],
       "issueDraft": "site/reports/github-issues/08-phase-3-bearings-air-mechanical.md",
       "issueDraftExists": true,
-      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E7%A9%BA%E6%B0%A3%E8%BB%B8%E6%89%BF%20%2F%20%E6%BB%BE%E7%8F%A0%E2%80%A2%E6%BB%BE%E6%9F%B1%E8%BB%B8%E6%89%BF%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links%2Csource-needed"
+      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E7%A9%BA%E6%B0%A3%E8%BB%B8%E6%89%BF%20%2F%20%E6%BB%BE%E7%8F%A0%E2%80%A2%E6%BB%BE%E6%9F%B1%E8%BB%B8%E6%89%BF%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links"
     },
     {
       "priority": 9,
