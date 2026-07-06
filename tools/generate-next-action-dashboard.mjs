@@ -40,41 +40,41 @@ const remotePrRefs = Number(githubRemote.gitRemote?.pullRequestRefs || 0);
 const actions = [
   {
     priority: 1,
-    title: '選擇 GitHub 建立方式',
-    status: hasGithubExternalAction ? '需要外部動作' : '已完成',
+    title: 'Choose GitHub bootstrap path',
+    status: hasGithubExternalAction ? 'external action required' : 'complete',
     recommended:
-      '若可提供 token，使用安全腳本建立 labels、issues、PR；若暫不提供 token，改用手動交接頁逐項建立。',
+      'Use the safe API script if a token is available. Otherwise use the manual handoff page to create labels, tracking issues, and phase 1 PR.',
     links: [
-      { label: 'GitHub API 交接', href: 'github-api-bootstrap-handoff.html' },
-      { label: 'GitHub 手動交接', href: 'github-manual-bootstrap-handoff.html' },
-      { label: 'GitHub 遠端狀態', href: 'github-remote-state-verification.html' },
+      { label: 'GitHub API handoff', href: 'github-api-bootstrap-handoff.html' },
+      { label: 'GitHub manual handoff', href: 'github-manual-bootstrap-handoff.html' },
+      { label: 'GitHub remote state', href: 'github-remote-state-verification.html' },
     ],
     command: 'npm run github:bootstrap:safe',
     manualFallback:
-      '開啟 site/reports/github-manual-bootstrap-handoff.html，依序建立 labels、tracking issues 與 phase 1 PR。',
+      'Open site/reports/github-manual-bootstrap-handoff.html and create labels, tracking issues, and the phase 1 PR in order.',
   },
   {
     priority: 2,
-    title: 'Phase 1 PR 審查',
-    status: remotePrRefs > 0 ? '可審查' : '等待 PR 建立',
+    title: 'Review phase 1 PR',
+    status: remotePrRefs > 0 ? 'ready for review' : 'waiting for PR creation',
     recommended:
-      '先審查 phase-1-smac-spec-standard，再依優先序處理後續類別分支；每個 PR 合併前保持 validate 通過。',
+      'Review phase-1-smac-spec-standard first, then continue category branches by priority. Keep validation passing before merge.',
     links: [
-      { label: 'PR 草案總覽', href: 'github-prs/index.html' },
-      { label: 'Issue 草案總覽', href: 'github-issues/index.html' },
+      { label: 'PR draft index', href: 'github-prs/index.html' },
+      { label: 'Issue draft index', href: 'github-issues/index.html' },
     ],
     command: 'npm run validate:external-handoff',
   },
   {
     priority: 3,
-    title: '部署階段批准',
-    status: deployment.deploymentAllowedNow ? '可部署' : '尚未批准',
+    title: 'Approve deployment phase',
+    status: deployment.deploymentAllowedNow ? 'deployment allowed' : 'approval required',
     recommended:
-      '部署、後台保存與伺服器覆蓋仍屬下一階段；等本機與 PR 審查完成後，再由使用者明確批准。',
+      'Backend save, server overwrite, and deployment remain out of the current local/GitHub stage until explicit approval.',
     links: [
-      { label: '部署交接', href: 'deployment-phase-handoff.html' },
-      { label: '部署準備度', href: 'deployment-readiness-audit.html' },
-      { label: '部署檔案完整性', href: 'deployment-package-integrity.html' },
+      { label: 'Deployment handoff', href: 'deployment-phase-handoff.html' },
+      { label: 'Deployment readiness', href: 'deployment-readiness-audit.html' },
+      { label: 'Deployment package integrity', href: 'deployment-package-integrity.html' },
     ],
     command: 'npm run workflow:deployment-handoff',
   },
@@ -114,14 +114,14 @@ fs.mkdirSync(reportDir, { recursive: true });
 fs.writeFileSync(outJson, `${JSON.stringify(dashboard, null, 2)}\n`, 'utf8');
 
 const cards = [
-  ['本機優化', dashboard.localOptimizationReady ? 'ready' : 'not ready'],
-  ['完整目標', dashboard.fullObjectiveComplete ? 'complete' : 'in progress'],
+  ['Local optimization', dashboard.localOptimizationReady ? 'ready' : 'not ready'],
+  ['Full objective', dashboard.fullObjectiveComplete ? 'complete' : 'in progress'],
   ['GitHub labels', dashboard.github.labels],
   ['GitHub issues', dashboard.github.issues],
   ['GitHub PRs', dashboard.github.prs],
-  ['遠端 PR refs', dashboard.github.remotePullRequestRefs],
-  ['部署狀態', dashboard.deployment.status],
-  ['部署完整性 review', dashboard.deployment.packageIntegrityReviewCount],
+  ['Remote PR refs', dashboard.github.remotePullRequestRefs],
+  ['Deployment status', dashboard.deployment.status],
+  ['Deployment review count', dashboard.deployment.packageIntegrityReviewCount],
 ]
   .map(
     ([label, value]) =>
@@ -143,11 +143,11 @@ const rows = actions
   .join('\n');
 
 const html = `<!doctype html>
-<html lang="zh-Hant">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>下一步操作面板</title>
+  <title>Next Action Dashboard</title>
   <style>
     body{font-family:Arial,"Microsoft JhengHei",sans-serif;margin:24px;color:#10251b;background:#f8faf8}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:18px 0}
@@ -162,12 +162,12 @@ const html = `<!doctype html>
   </style>
 </head>
 <body>
-  <h1>下一步操作面板</h1>
-  <p>Generated at ${htmlEscape(dashboard.generatedAt)}. 這個頁面集中目前仍需要外部動作或下一階段批准的工作，避免在多份報告之間反覆查找。</p>
+  <h1>Next Action Dashboard</h1>
+  <p>Generated at ${htmlEscape(dashboard.generatedAt)}. This page is the single operational entry for remaining external actions and deployment gates.</p>
   <div class="grid">${cards}</div>
-  <h2>下一步</h2>
+  <h2>Next actions</h2>
   <table>
-    <thead><tr><th>#</th><th>任務</th><th>狀態</th><th>建議</th><th>指令</th><th>連結</th></tr></thead>
+    <thead><tr><th>#</th><th>Task</th><th>Status</th><th>Recommendation</th><th>Command</th><th>Links</th></tr></thead>
     <tbody>${rows}</tbody>
   </table>
 </body>
@@ -176,14 +176,14 @@ const html = `<!doctype html>
 fs.writeFileSync(outHtml, html, 'utf8');
 
 const md = [
-  '# 下一步操作面板',
+  '# Next Action Dashboard',
   '',
   `Generated at: ${dashboard.generatedAt}`,
   '',
   `Local optimization ready: ${dashboard.localOptimizationReady}`,
   `Full objective complete: ${dashboard.fullObjectiveComplete}`,
   '',
-  '| # | 任務 | 狀態 | 建議 | 指令 |',
+  '| # | Task | Status | Recommendation | Command |',
   '| --- | --- | --- | --- | --- |',
   ...actions.map(
     (action) =>
@@ -194,10 +194,10 @@ const md = [
   '',
   '## Key links',
   '',
-  '- GitHub 手動交接：site/reports/github-manual-bootstrap-handoff.html',
-  '- GitHub API 交接：site/reports/github-api-bootstrap-handoff.html',
-  '- 部署交接：site/reports/deployment-phase-handoff.html',
-  '- 完成度稽核：site/reports/gpt-optimization-completion-audit.html',
+  '- GitHub manual handoff: site/reports/github-manual-bootstrap-handoff.html',
+  '- GitHub API handoff: site/reports/github-api-bootstrap-handoff.html',
+  '- Deployment handoff: site/reports/deployment-phase-handoff.html',
+  '- Completion audit: site/reports/gpt-optimization-completion-audit.html',
   '',
 ];
 

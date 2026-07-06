@@ -1,214 +1,243 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><title>Docs and Reports Readability Validation</title><style>body{font-family:Arial,'Microsoft JhengHei',sans-serif;margin:24px}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #ddd;padding:8px;text-align:left;vertical-align:top}th{background:#eef7f0}</style></head><body><h1>Docs and Reports Readability Validation</h1><p>Checks core workflow documents and PR-facing reports for titles and common UTF-8 mojibake artifacts.</p><pre>{
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Docs and Reports Readability Validation</title><style>body{font-family:Arial,'Microsoft JhengHei',sans-serif;margin:24px}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #ddd;padding:8px;text-align:left;vertical-align:top}th{background:#eef7f0}</style></head><body><h1>Docs and Reports Readability Validation</h1><p>Checks core workflow documents and PR-facing reports for titles and common UTF-8 mojibake artifacts.</p><pre>{
   &quot;docs&quot;: 30,
   &quot;errors&quot;: 0
 }</pre><table><thead><tr><th>Status</th><th>Type</th><th>File</th><th>Title</th><th>Errors</th><th>Mojibake hits</th></tr></thead><tbody><tr>
-  <td>pass</td>
-  <td>doc</td>
-  <td>README.md</td>
-  <td># Taiwan Servo Site Optimization</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>doc</td>
-  <td>docs/github-optimization-workflow.md</td>
-  <td># GitHub 驅動的產品頁優化流程</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>doc</td>
-  <td>docs/github-ci-coverage.md</td>
-  <td># GitHub CI Coverage</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>doc</td>
-  <td>docs/github-private-repo-setup.md</td>
-  <td># GitHub 私有 Repo 準備狀態</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>doc</td>
-  <td>docs/github-api-bootstrap-runbook.md</td>
-  <td># GitHub API Bootstrap Runbook</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>doc</td>
-  <td>docs/deployment-phase-runbook.md</td>
-  <td># Deployment Phase Runbook</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>doc</td>
-  <td>docs/non-hardware-product-page-schema.md</td>
-  <td># 非硬體產品頁內容 Schema</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>doc</td>
-  <td>docs/product-spec-data-schema.md</td>
-  <td># 產品規格詳情資料 Schema</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>doc</td>
-  <td>docs/products-page-architecture.md</td>
-  <td># 產品頁架構規範</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>doc</td>
-  <td>docs/source-needed-action-index.md</td>
-  <td># Source-needed Action Index</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>doc</td>
-  <td>docs/spec-module-review-log.md</td>
-  <td># 產品規格詳情模組審核紀錄</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/github-bootstrap-readiness.html</td>
-  <td>GitHub Bootstrap Readiness</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/github-remote-state-verification.html</td>
-  <td>GitHub Remote State Verification</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/github-api-bootstrap-handoff.html</td>
-  <td>GitHub API Bootstrap Handoff</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/github-manual-bootstrap-handoff.html</td>
-  <td>GitHub Manual Bootstrap Handoff</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/github-issues/index.html</td>
-  <td>GitHub Issue Index</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/github-prs/index.html</td>
-  <td>GitHub PR Index</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/deployment-readiness-audit.html</td>
-  <td>Deployment Readiness Audit</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/deployment-review-classification.html</td>
-  <td>Deployment Review Classification</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/deployment-package-integrity.html</td>
-  <td>Deployment Package Integrity</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/deployment-phase-handoff.html</td>
-  <td>Deployment Phase Handoff</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/gpt-optimization-completion-audit.html</td>
-  <td>GPT Optimization Completion Audit</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/next-action-dashboard.html</td>
-  <td>下一步操作面板</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/optimization-backlog.html</td>
-  <td>Optimization Backlog</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/product-page-structure-seo-qa.html</td>
-  <td>產品頁 SEO 與結構 QA</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/product-spec-agent-review.html</td>
-  <td>AI Agent Product Spec Review</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/product-spec-module-qa.html</td>
-  <td>產品規格詳情 QA</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/visual-sample-qa.html</td>
-  <td>Visual Sample QA</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/source-needed-audit.html</td>
-  <td>Source-needed Audit</td>
-  <td></td>
-  <td></td>
-</tr><tr>
-  <td>pass</td>
-  <td>report</td>
-  <td>site/reports/source-needed-audit.md</td>
-  <td># Source-needed Audit</td>
-  <td></td>
-  <td></td>
-</tr></tbody></table></body></html>
+    <td>pass</td>
+    <td>doc</td>
+    <td>README.md</td>
+    <td># Taiwan Servo Site Optimization</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>doc</td>
+    <td>docs/github-optimization-workflow.md</td>
+    <td># GitHub 驅動的產品頁優化流程</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>doc</td>
+    <td>docs/github-ci-coverage.md</td>
+    <td># GitHub CI Coverage</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>doc</td>
+    <td>docs/github-private-repo-setup.md</td>
+    <td># GitHub 私有 Repo 準備狀態</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>doc</td>
+    <td>docs/github-api-bootstrap-runbook.md</td>
+    <td># GitHub API Bootstrap Runbook</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>doc</td>
+    <td>docs/deployment-phase-runbook.md</td>
+    <td># Deployment Phase Runbook</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>doc</td>
+    <td>docs/non-hardware-product-page-schema.md</td>
+    <td># 非硬體產品頁內容 Schema</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>doc</td>
+    <td>docs/product-spec-data-schema.md</td>
+    <td># 產品規格詳情資料 Schema</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>doc</td>
+    <td>docs/products-page-architecture.md</td>
+    <td># 產品頁架構規範</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>doc</td>
+    <td>docs/source-needed-action-index.md</td>
+    <td># Source-needed Action Index</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>doc</td>
+    <td>docs/spec-module-review-log.md</td>
+    <td># 產品規格詳情模組審核紀錄</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/github-bootstrap-readiness.html</td>
+    <td>GitHub Bootstrap Readiness</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/github-remote-state-verification.html</td>
+    <td>GitHub Remote State Verification</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/github-api-bootstrap-handoff.html</td>
+    <td>GitHub API Bootstrap Handoff</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/github-manual-bootstrap-handoff.html</td>
+    <td>GitHub Manual Bootstrap Handoff</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/github-issues/index.html</td>
+    <td>GitHub Issue Index</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/github-prs/index.html</td>
+    <td>GitHub PR Index</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/deployment-readiness-audit.html</td>
+    <td>Deployment Readiness Audit</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/deployment-review-classification.html</td>
+    <td>Deployment Review Classification</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/deployment-package-integrity.html</td>
+    <td>Deployment Package Integrity</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/deployment-phase-handoff.html</td>
+    <td>Deployment Phase Handoff</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/gpt-optimization-completion-audit.html</td>
+    <td>GPT Optimization Completion Audit</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/next-action-dashboard.html</td>
+    <td>Next Action Dashboard</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/optimization-backlog.html</td>
+    <td>Optimization Backlog</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/product-page-structure-seo-qa.html</td>
+    <td>產品頁 SEO 與結構 QA</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/product-spec-agent-review.html</td>
+    <td>AI Agent Product Spec Review</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/product-spec-module-qa.html</td>
+    <td>產品規格詳情 QA</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/visual-sample-qa.html</td>
+    <td>Visual Sample QA</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/source-needed-audit.html</td>
+    <td>Source-needed Audit</td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+    <td>pass</td>
+    <td>report</td>
+    <td>site/reports/source-needed-audit.md</td>
+    <td># Source-needed Audit</td>
+    <td></td>
+    <td></td>
+  </tr></tbody></table></body></html>

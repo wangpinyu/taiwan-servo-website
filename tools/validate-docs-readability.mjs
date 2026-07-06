@@ -38,18 +38,11 @@ const docs = [
   { relPath: 'site/reports/source-needed-audit.md', type: 'report' },
 ];
 
-const suspiciousMojibakeTokens = [
+const suspiciousLiteralTokens = [
   '\uFFFD',
-  '�',
-  '?湔',
-  '?祆',
-  '?桀',
-  '?箸',
-  '?',
-  '�',
 ];
 
-const suspiciousMojibakeRegex = /[嚗蝡銝甈雿憭撌蝬瘚鞈摰隞頠皜祆瑼璅]/u;
+const privateUseRegex = /[\uE000-\uF8FF]/gu;
 
 function htmlEscape(value) {
   return String(value)
@@ -73,12 +66,17 @@ function countOccurrences(text, token) {
 
 function findMojibakeHits(text) {
   const hits = [];
-  for (const token of suspiciousMojibakeTokens) {
+  for (const token of suspiciousLiteralTokens) {
     const count = countOccurrences(text, token);
     if (count > 0) hits.push({ token, count });
   }
-  const regexHits = text.match(suspiciousMojibakeRegex) || [];
-  if (regexHits.length) hits.push({ token: 'common-mojibake-cjk', count: regexHits.length });
+
+  const privateUseHits = text.match(privateUseRegex) || [];
+  if (privateUseHits.length) {
+    const unique = [...new Set(privateUseHits)].slice(0, 10).join('');
+    hits.push({ token: `private-use-area:${unique}`, count: privateUseHits.length });
+  }
+
   return hits;
 }
 
@@ -119,30 +117,47 @@ const checks = docs.map(({ relPath, type }) => {
 const errors = checks.filter((check) => check.status === 'error');
 const report = {
   generatedAt: new Date().toISOString(),
-  status: errors.length ? 'issues' : 'ok',
+  status: errors.length ? 'fail' : 'ok',
   summary: {
-    docs: checks.length,
+    docs: docs.length,
     errors: errors.length,
   },
   checks,
 };
 
-fs.writeFileSync(path.join(reportDir, 'docs-readability-validation.json'), `${JSON.stringify(report, null, 2)}\n`, 'utf8');
-
-const rows = checks.map((check) => `<tr>
-  <td>${htmlEscape(check.status)}</td>
-  <td>${htmlEscape(check.type || '')}</td>
-  <td>${htmlEscape(check.file)}</td>
-  <td>${htmlEscape(check.title || '')}</td>
-  <td>${htmlEscape((check.errors || []).join(', '))}</td>
-  <td>${htmlEscape((check.mojibakeHits || []).map((hit) => `${hit.token}:${hit.count}`).join(', '))}</td>
-</tr>`).join('');
+const rows = checks
+  .map((check) => `<tr>
+    <td>${htmlEscape(check.status)}</td>
+    <td>${htmlEscape(check.type)}</td>
+    <td>${htmlEscape(check.file)}</td>
+    <td>${htmlEscape(check.title || '')}</td>
+    <td>${htmlEscape((check.errors || []).join(', '))}</td>
+    <td>${htmlEscape((check.mojibakeHits || []).map((hit) => `${hit.token}:${hit.count}`).join(', '))}</td>
+  </tr>`)
+  .join('\n');
 
 fs.writeFileSync(
-  path.join(reportDir, 'docs-readability-validation.html'),
-  `<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><title>Docs and Reports Readability Validation</title><style>body{font-family:Arial,'Microsoft JhengHei',sans-serif;margin:24px}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #ddd;padding:8px;text-align:left;vertical-align:top}th{background:#eef7f0}</style></head><body><h1>Docs and Reports Readability Validation</h1><p>Checks core workflow documents and PR-facing reports for titles and common UTF-8 mojibake artifacts.</p><pre>${htmlEscape(JSON.stringify(report.summary, null, 2))}</pre><table><thead><tr><th>Status</th><th>Type</th><th>File</th><th>Title</th><th>Errors</th><th>Mojibake hits</th></tr></thead><tbody>${rows}</tbody></table></body></html>`,
+  path.join(reportDir, 'docs-readability-validation.json'),
+  `${JSON.stringify(report, null, 2)}\n`,
   'utf8',
 );
 
-console.log(JSON.stringify({ status: report.status, report: 'site/reports/docs-readability-validation.html', summary: report.summary }, null, 2));
+fs.writeFileSync(
+  path.join(reportDir, 'docs-readability-validation.html'),
+  `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Docs and Reports Readability Validation</title><style>body{font-family:Arial,'Microsoft JhengHei',sans-serif;margin:24px}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #ddd;padding:8px;text-align:left;vertical-align:top}th{background:#eef7f0}</style></head><body><h1>Docs and Reports Readability Validation</h1><p>Checks core workflow documents and PR-facing reports for titles and common UTF-8 mojibake artifacts.</p><pre>${htmlEscape(JSON.stringify(report.summary, null, 2))}</pre><table><thead><tr><th>Status</th><th>Type</th><th>File</th><th>Title</th><th>Errors</th><th>Mojibake hits</th></tr></thead><tbody>${rows}</tbody></table></body></html>`,
+  'utf8',
+);
+
+console.log(
+  JSON.stringify(
+    {
+      status: report.status,
+      report: 'site/reports/docs-readability-validation.html',
+      summary: report.summary,
+    },
+    null,
+    2,
+  ),
+);
+
 if (errors.length) process.exit(1);

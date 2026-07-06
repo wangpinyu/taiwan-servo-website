@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T11:35:20.239Z",
+  "generatedAt": "2026-07-06T11:45:30.572Z",
   "status": "ok",
   "summary": {
     "docs": 30,
@@ -208,8 +208,8 @@
       "file": "site/reports/next-action-dashboard.html",
       "type": "report",
       "status": "pass",
-      "title": "下一步操作面板",
-      "chars": 2834,
+      "title": "Next Action Dashboard",
+      "chars": 3369,
       "errors": [],
       "mojibakeHits": []
     },

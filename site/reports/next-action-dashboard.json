@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T11:36:00.119Z",
+  "generatedAt": "2026-07-06T11:46:18.719Z",
   "status": "in-progress",
   "localOptimizationReady": true,
   "fullObjectiveComplete": false,
@@ -43,38 +43,38 @@
   "actions": [
     {
       "priority": 1,
-      "title": "選擇 GitHub 建立方式",
-      "status": "需要外部動作",
-      "recommended": "若可提供 token，使用安全腳本建立 labels、issues、PR；若暫不提供 token，改用手動交接頁逐項建立。",
+      "title": "Choose GitHub bootstrap path",
+      "status": "external action required",
+      "recommended": "Use the safe API script if a token is available. Otherwise use the manual handoff page to create labels, tracking issues, and phase 1 PR.",
       "links": [
         {
-          "label": "GitHub API 交接",
+          "label": "GitHub API handoff",
           "href": "github-api-bootstrap-handoff.html"
         },
         {
-          "label": "GitHub 手動交接",
+          "label": "GitHub manual handoff",
           "href": "github-manual-bootstrap-handoff.html"
         },
         {
-          "label": "GitHub 遠端狀態",
+          "label": "GitHub remote state",
           "href": "github-remote-state-verification.html"
         }
       ],
       "command": "npm run github:bootstrap:safe",
-      "manualFallback": "開啟 site/reports/github-manual-bootstrap-handoff.html，依序建立 labels、tracking issues 與 phase 1 PR。"
+      "manualFallback": "Open site/reports/github-manual-bootstrap-handoff.html and create labels, tracking issues, and the phase 1 PR in order."
     },
     {
       "priority": 2,
-      "title": "Phase 1 PR 審查",
-      "status": "等待 PR 建立",
-      "recommended": "先審查 phase-1-smac-spec-standard，再依優先序處理後續類別分支；每個 PR 合併前保持 validate 通過。",
+      "title": "Review phase 1 PR",
+      "status": "waiting for PR creation",
+      "recommended": "Review phase-1-smac-spec-standard first, then continue category branches by priority. Keep validation passing before merge.",
       "links": [
         {
-          "label": "PR 草案總覽",
+          "label": "PR draft index",
           "href": "github-prs/index.html"
         },
         {
-          "label": "Issue 草案總覽",
+          "label": "Issue draft index",
           "href": "github-issues/index.html"
         }
       ],
@@ -82,20 +82,20 @@
     },
     {
       "priority": 3,
-      "title": "部署階段批准",
-      "status": "尚未批准",
-      "recommended": "部署、後台保存與伺服器覆蓋仍屬下一階段；等本機與 PR 審查完成後，再由使用者明確批准。",
+      "title": "Approve deployment phase",
+      "status": "approval required",
+      "recommended": "Backend save, server overwrite, and deployment remain out of the current local/GitHub stage until explicit approval.",
       "links": [
         {
-          "label": "部署交接",
+          "label": "Deployment handoff",
           "href": "deployment-phase-handoff.html"
         },
         {
-          "label": "部署準備度",
+          "label": "Deployment readiness",
           "href": "deployment-readiness-audit.html"
         },
         {
-          "label": "部署檔案完整性",
+          "label": "Deployment package integrity",
           "href": "deployment-package-integrity.html"
         }
       ],
