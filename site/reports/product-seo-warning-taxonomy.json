@@ -1,15 +1,15 @@
 {
   "summary": {
-    "generated_at": "2026-07-05T23:50:18.667Z",
-    "total_warning_entries": 87,
-    "affected_pages": 58,
+    "generated_at": "2026-07-06T00:47:51.004Z",
+    "total_warning_entries": 82,
+    "affected_pages": 53,
     "warning_type_counts": {
       "table-unit-header": 33,
       "table-model-header": 31,
-      "spec-table-missing": 23
+      "spec-table-missing": 18
     },
     "category_warning_counts": {
-      "驅動器": 25,
+      "驅動器": 24,
       "FMS 張力系統": 13,
       "聯軸器": 9,
       "Renishaw 回授元件產品": 8,
@@ -17,14 +17,14 @@
       "Harmonic Drive 減速機": 7,
       "各類馬達": 4,
       "空氣軸承 / 滾珠•滾柱軸承": 4,
-      "電動缸": 3,
       "山洋電氣 SANYO DENKI": 2,
-      "特殊環境": 2,
-      "ACS 控制器 / 驅動器": 2,
-      "陶瓷吸盤": 1
+      "特殊環境": 1,
+      "陶瓷吸盤": 1,
+      "電動缸": 1,
+      "ACS 控制器 / 驅動器": 1
     },
     "branch_warning_counts": {
-      "phase-2-drivers-spec-review": 27,
+      "phase-2-drivers-spec-review": 25,
       "phase-4-fms-tension": 13,
       "phase-4-couplings": 9,
       "phase-3-renishaw-feedback": 8,
@@ -32,23 +32,13 @@
       "phase-4-solid-state-relays": 7,
       "phase-2-motors-spec-review": 4,
       "phase-3-bearings-air-mechanical": 4,
-      "phase-1-smac-spec-standard": 3,
       "phase-4-sanyo-denki": 2,
-      "phase-4-special-environments": 2,
+      "phase-1-smac-spec-standard": 1,
+      "phase-4-special-environments": 1,
       "phase-5-ceramic-chucks": 1
     }
   },
   "entries": [
-    {
-      "product_id": "76",
-      "title": "雷射加工應用軟體：DMC",
-      "category": "ACS 控制器 / 驅動器",
-      "branch": "phase-2-drivers-spec-review",
-      "preview_rel": "preview/products/detail/76.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
     {
       "product_id": "79",
       "title": "Copley 伺服驅動器及閉迴路步進驅動器",
@@ -230,26 +220,6 @@
       "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
     },
     {
-      "product_id": "170",
-      "title": "Thomson升降柱(Lifting Columns)",
-      "category": "電動缸",
-      "branch": "phase-1-smac-spec-standard",
-      "preview_rel": "preview/products/detail/170.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
-      "product_id": "171",
-      "title": "Thomson不銹鋼食品級線性致動器",
-      "category": "電動缸",
-      "branch": "phase-1-smac-spec-standard",
-      "preview_rel": "preview/products/detail/171.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
       "product_id": "174",
       "title": "Winkel 重載傳輸軌道、軸承",
       "category": "空氣軸承 / 滾珠•滾柱軸承",
@@ -258,16 +228,6 @@
       "warning": "table_1_model_header_not_detected",
       "warning_type": "table-model-header",
       "remediation": "確認第一欄是否為系列或型號；表頭應使用 型號、系列、Part Number 或等價原廠欄位。"
-    },
-    {
-      "product_id": "179",
-      "title": "Thomson不銹鋼食品級線性致動器",
-      "category": "特殊環境",
-      "branch": "phase-4-special-environments",
-      "preview_rel": "preview/products/detail/179.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
     },
     {
       "product_id": "181",
@@ -768,16 +728,6 @@
       "warning": "table_4_unit_header_not_detected",
       "warning_type": "table-unit-header",
       "remediation": "依原廠欄位補上單位，例如 Stroke (mm)、Peak Force (N)、Torque (Nm)；不要推測不存在的單位。"
-    },
-    {
-      "product_id": "357",
-      "title": "Integrated Drive",
-      "category": "驅動器",
-      "branch": "phase-2-drivers-spec-review",
-      "preview_rel": "preview/products/detail/357.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
     },
     {
       "product_id": "358",
