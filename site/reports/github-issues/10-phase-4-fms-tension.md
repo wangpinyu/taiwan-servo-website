@@ -3,12 +3,11 @@
 Branch: `phase-4-fms-tension`
 Priority: 10
 Pages: 26
-Blocking pages: 1
+Blocking pages: 0
 
 ## Status counts
 
-- agent-approved-clean: 25
-- agent-structure-review: 1
+- agent-approved-clean: 26
 
 ## Target pages
 
@@ -38,7 +37,7 @@ Blocking pages: 1
 | 343 | 客製化產品和解決方案 | agent-approved-clean | preview/products/detail/343.html |
 | 345 | 捲材導引控制用線性執行器 | agent-approved-clean | preview/products/detail/345.html |
 | 347 | 捲材控制器 | agent-approved-clean | preview/products/detail/347.html |
-| 349 | 線纜煞車控制器 RTM X42.BC | agent-structure-review | preview/products/detail/349.html |
+| 349 | 線纜煞車控制器 RTM X42.BC | agent-approved-clean | preview/products/detail/349.html |
 | 350 | 線纜張力控制中心 RTM X42.CC | agent-approved-clean | preview/products/detail/350.html |
 
 ## Acceptance criteria
