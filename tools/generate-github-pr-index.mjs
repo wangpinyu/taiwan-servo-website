@@ -23,6 +23,7 @@ const plan = [
   { priority: 15, branch: 'phase-5-blowers', category: '鼓風機', base: 'phase-1-smac-spec-standard' },
   { priority: 16, branch: 'phase-5-automation-systems', category: '自動化系統', base: 'phase-1-smac-spec-standard' },
   { priority: 17, branch: 'phase-5-other-feedback', category: '其他回授元件', base: 'phase-1-smac-spec-standard' },
+  { priority: 18, branch: 'phase-source-needed-document-index', category: 'Source-needed document index cleanup', base: 'phase-1-smac-spec-standard' },
 ];
 
 function git(args) {

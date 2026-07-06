@@ -821,39 +821,56 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- standardized-spec-module:start -->
 <div class="st-standardized-spec-module" data-standard-module="產品規格詳情">
-<style>
-.st-san-specs{--st-green:#009b4e;--st-ink:#102033;--st-muted:#627184;--st-line:#dfe8e3;--st-soft:#f6fbf8;font-family:Arial,'Noto Sans TC','Microsoft JhengHei',sans-serif;color:var(--st-ink);line-height:1.65;margin:28px 0}
-.st-san-specs *{box-sizing:border-box}
-.st-san-head{border-left:5px solid var(--st-green);padding-left:14px;margin:0 0 18px}
-.st-san-head h2{font-size:28px;line-height:1.25;margin:0 0 8px;font-weight:800}
-.st-san-head p{margin:0;color:var(--st-muted);font-size:15px}
-.st-san-note{border:1px solid var(--st-line);background:var(--st-soft);border-radius:8px;padding:12px 14px;margin:0 0 14px;color:#435263;font-size:14px}
-.st-san-detail{border:1px solid var(--st-line);border-radius:8px;background:#fff;margin:0 0 12px;overflow:hidden}
-.st-san-detail summary{cursor:pointer;display:flex;align-items:center;gap:18px;min-height:72px;padding:16px 20px;list-style:none}
-.st-san-detail summary::-webkit-details-marker{display:none}
-.st-san-code{font-size:24px;font-weight:900;color:var(--st-green);min-width:120px}
-.st-san-summary{display:flex;flex-direction:column;gap:2px;flex:1}
-.st-san-summary strong{font-size:18px}
-.st-san-summary em{font-size:14px;color:var(--st-muted);font-style:normal}
-.st-san-plus{margin-left:auto;width:34px;height:34px;border-radius:50%;border:1px solid var(--st-line);display:inline-flex;align-items:center;justify-content:center;color:var(--st-green);font-weight:900;font-size:22px}
-.st-san-detail[open] .st-san-plus{background:var(--st-green);color:#fff}
-.st-san-panel{border-top:1px solid var(--st-line);padding:18px 20px 22px}
-.st-san-table-wrap{overflow-x:auto;margin:10px 0 16px;border:1px solid var(--st-line);border-radius:8px}
-.st-san-table{border-collapse:collapse;width:100%;min-width:720px;background:#fff}
-.st-san-table th{background:#0876a8;color:#fff;font-weight:800;text-align:center;padding:9px 10px;border:1px solid #0a6e9b}
-.st-san-table td{padding:8px 10px;border:1px solid #e6ece8;text-align:center;vertical-align:top}
-.st-san-table tbody th{background:#f4faf7;color:var(--st-ink);text-align:left;border-color:#e6ece8;min-width:180px}
-.st-san-file{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;background:#e8f5ee;color:#087a44;padding:4px 9px;font-size:12px;font-weight:800}
-.st-san-source-link{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;background:#eef4fb;color:#0a5f93;padding:4px 9px;font-size:12px;font-weight:800;text-decoration:none}
-.st-san-empty{border:1px dashed #b8c8c0;border-radius:8px;padding:12px;color:#607080;background:#fbfdfc}
-@media(max-width:640px){.st-san-head h2{font-size:23px}.st-san-detail summary{align-items:flex-start;gap:10px;padding:14px}.st-san-code{font-size:20px;min-width:74px}.st-san-summary strong{font-size:16px}.st-san-plus{width:30px;height:30px;font-size:18px;flex:0 0 auto}.st-san-panel{padding:14px}.st-san-table{min-width:0}.st-san-table thead{display:none}.st-san-table,.st-san-table tbody,.st-san-table tr,.st-san-table th,.st-san-table td{display:block;width:100%}.st-san-table tr{border-bottom:1px solid var(--st-line);padding:8px 0}.st-san-table tbody th{border:0;background:#f4faf7;border-radius:6px;margin:0 0 6px;text-align:left}.st-san-table td{border:0;text-align:left;padding:6px 8px 6px 42%;position:relative;min-height:30px}.st-san-table td:before{content:attr(data-label);position:absolute;left:8px;top:6px;width:36%;font-weight:800;color:#536272}}
+<style type="text/css">
+.st-doc-specs{--st-green:#008f45;--st-deep:#234734;--st-soft:#f6fbf7;--st-line:#d9e8dd;--st-text:#122033;margin:48px 0 60px;font-family:Arial,'Noto Sans TC','Microsoft JhengHei',sans-serif;color:var(--st-text);line-height:1.7}
+.st-doc-specs *{box-sizing:border-box}
+.st-doc-title{margin:0 0 18px;padding-left:14px;border-left:5px solid var(--st-green);font-size:28px;line-height:1.3;color:var(--st-deep);font-weight:800}
+.st-doc-lead{margin:0 0 18px;padding:14px 16px;border:1px solid var(--st-line);border-radius:8px;background:var(--st-soft);font-size:15px;color:#405361}
+.st-doc-detail{border:1px solid var(--st-line);border-radius:10px;background:#fff;overflow:hidden}
+.st-doc-detail summary{display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;list-style:none;padding:16px 18px;border-bottom:1px solid var(--st-line);font-size:20px;font-weight:800;color:var(--st-deep)}
+.st-doc-detail summary::-webkit-details-marker{display:none}
+.st-doc-toggle{display:inline-flex;align-items:center;justify-content:center;min-width:88px;padding:6px 12px;border-radius:999px;background:var(--st-green);color:#fff;font-size:14px;font-weight:700}
+.st-doc-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.st-doc-table{width:100%;min-width:720px;border-collapse:collapse;font-size:15px}
+.st-doc-table th,.st-doc-table td{padding:14px 12px;border-bottom:1px solid var(--st-line);vertical-align:middle;text-align:left}
+.st-doc-table thead th{position:sticky;top:0;background:#eaf5ee;color:var(--st-deep);font-weight:800}
+.st-doc-table tbody th{position:sticky;left:0;background:#fff;color:var(--st-deep);font-weight:800}
+.st-doc-link,.st-quote-link{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:8px 13px;border-radius:7px;text-decoration:none;font-weight:800}
+.st-doc-link{background:#0f7faa;color:#fff}
+.st-quote-link{background:var(--st-green);color:#fff}
+.st-doc-note{margin:14px 18px 18px;color:#445765;font-size:14px}
+@media(max-width:640px){.st-doc-title{font-size:24px}.st-doc-detail summary{align-items:flex-start;flex-direction:column}.st-doc-table{font-size:14px}}
 </style>
-<section class="st-san-specs" id="st-san-specs"><div class="st-san-head"><h2>產品規格詳情</h2><p>以下依 SANYO DENKI 官方分類頁與官方型錄文件整理。官方頁若未公開型號數值表，先提供分類來源與 PDF 按鈕。</p></div><details class="st-san-detail" open><summary><span class="st-san-code">SANYO</span><span class="st-san-summary"><strong>山洋電氣 SANYO DENKI 馬達相關</strong><em>0 個官方分類來源，1 個 PDF 按鈕。</em></span><span class="st-san-plus">展開 / 收合</span></summary><div class="st-san-panel"><div class="st-san-empty">此頁目前缺少可直接對應的原廠分類連結；先以官方型錄 PDF 作為文件來源。</div><p><span class="st-san-file" role="note" data-file-key="san-270-001-sanmotion_r_3e_e.pdf" data-original-url="https://publish.sanyodenki.com/library/books/SANMOTION_R_3E_E/book/data/SANMOTION_R_3E_E.pdf">PDF </span></p></div></details>
-<div class="st-spec-cta" style="margin-top:18px;padding:16px 18px;border:1px solid #dbe8e2;border-radius:8px;background:#f7fbf8;color:#102033;">
-  <strong>需要協助確認 山洋電氣 SANYO DENKI 馬達相關 規格？</strong>
-  <p style="margin:8px 0 12px;">請提供預計應用、安裝條件、關鍵尺寸、負載與控制需求，星泰可協助比對適合的系列、型號與技術文件。</p>
-  <a href="../../skipped/96da16962be2-inquiry.html" style="display:inline-block;padding:9px 16px;border-radius:6px;background:#079b4b;color:#fff;text-decoration:none;font-weight:700;" aria-label="聯絡星泰確認 山洋電氣 SANYO DENKI 馬達相關 規格">請洽星泰確認規格</a>
-</div>
+<section class="st-doc-specs" aria-labelledby="st-doc-title-270">
+  <h2 class="st-doc-title" id="st-doc-title-270">產品規格詳情</h2>
+  <p class="st-doc-lead">此頁提供 SANYO DENKI 官方公開型錄入口，供伺服馬達與驅動相關產品選型與規格確認前查閱。</p>
+  <details class="st-doc-detail" open>
+    <summary>
+      <span>官方文件入口</span>
+      <span class="st-doc-toggle" aria-hidden="true">展開 / 收合</span>
+    </summary>
+    <div class="st-doc-table-wrap" role="region" aria-label="山洋電氣 SANYO DENKI 馬達相關 官方文件表格">
+      <table class="st-doc-table">
+        <thead>
+          <tr>
+            <th scope="col">資料項目</th>
+            <th scope="col">文件類型</th>
+            <th scope="col">文件連結</th>
+            <th scope="col">詢問</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <th scope="row">SANYO DENKI 馬達相關產品</th>
+              <td>官方 PDF 型錄</td>
+              <td><a class="st-doc-link" href="https://publish.sanyodenki.com/library/books/SANMOTION_R_3E_E/book/data/SANMOTION_R_3E_E.pdf" target="_blank" rel="noopener" aria-label="開啟 SANMOTION R 3E 型錄">SANMOTION R 3E 型錄</a></td>
+              <td><a class="st-quote-link" href="../../skipped/96da16962be2-inquiry.html" aria-label="詢問 山洋電氣 SANYO DENKI 馬達相關 SANYO DENKI 馬達相關產品 規格">詢問規格 / Quote</a></td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="st-doc-note">若需確認可供應型號、交期或應用條件，請提供使用環境、安裝條件與控制需求，由星泰協助比對。</p>
+  </details>
 </section>
 </div>
 <!-- standardized-spec-module:end -->

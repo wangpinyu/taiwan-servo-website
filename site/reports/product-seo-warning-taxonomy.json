@@ -1,72 +1,11 @@
 {
   "summary": {
-    "generated_at": "2026-07-06T03:01:51.613Z",
-    "total_warning_entries": 5,
-    "affected_pages": 5,
-    "warning_type_counts": {
-      "spec-table-missing": 5
-    },
-    "category_warning_counts": {
-      "山洋電氣 SANYO DENKI": 2,
-      "各類馬達": 2,
-      "空氣軸承 / 滾珠•滾柱軸承": 1
-    },
-    "branch_warning_counts": {
-      "phase-2-motors-spec-review": 2,
-      "phase-4-sanyo-denki": 2,
-      "phase-3-bearings-air-mechanical": 1
-    }
+    "generated_at": "2026-07-06T03:20:21.868Z",
+    "total_warning_entries": 0,
+    "affected_pages": 0,
+    "warning_type_counts": {},
+    "category_warning_counts": {},
+    "branch_warning_counts": {}
   },
-  "entries": [
-    {
-      "product_id": "102",
-      "title": "JVL整合型伺服馬達及步進馬達的特色",
-      "category": "各類馬達",
-      "branch": "phase-2-motors-spec-review",
-      "preview_rel": "preview/products/detail/102.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
-      "product_id": "149",
-      "title": "Thomson 減速機",
-      "category": "空氣軸承 / 滾珠•滾柱軸承",
-      "branch": "phase-3-bearings-air-mechanical",
-      "preview_rel": "preview/products/detail/149.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
-      "product_id": "194",
-      "title": "山洋電氣 SANUPS電源系統",
-      "category": "山洋電氣 SANYO DENKI",
-      "branch": "phase-4-sanyo-denki",
-      "preview_rel": "preview/products/detail/194.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
-      "product_id": "195",
-      "title": "山洋電氣 SANMOTION伺服系統",
-      "category": "山洋電氣 SANYO DENKI",
-      "branch": "phase-4-sanyo-denki",
-      "preview_rel": "preview/products/detail/195.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
-      "product_id": "270",
-      "title": "山洋電氣 SANYO DENKI 馬達相關",
-      "category": "各類馬達",
-      "branch": "phase-2-motors-spec-review",
-      "preview_rel": "preview/products/detail/270.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    }
-  ]
+  "entries": []
 }

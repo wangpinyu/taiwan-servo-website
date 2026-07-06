@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T03:01:51.971Z",
+  "generatedAt": "2026-07-06T03:20:22.484Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
   "existingPullRequestRefs": 0,
   "note": "Create PRs from lower priority to higher priority only after phase-1 is accepted, or use the listed base branch for stacked review.",
@@ -256,6 +256,22 @@
         "category": "其他回授元件",
         "pages": 8,
         "checks": 16,
+        "failures": 0
+      }
+    },
+    {
+      "priority": 18,
+      "branch": "phase-source-needed-document-index",
+      "category": "Source-needed document index cleanup",
+      "base": "phase-1-smac-spec-standard",
+      "remoteExists": true,
+      "prSummaryExists": true,
+      "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-source-needed-document-index",
+      "smoke": {
+        "category": "Source-needed document index cleanup",
+        "sourceCategory": "Source-needed official document index cleanup",
+        "pages": 5,
+        "checks": 25,
         "failures": 0
       }
     }

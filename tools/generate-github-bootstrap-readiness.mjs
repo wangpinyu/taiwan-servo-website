@@ -28,6 +28,7 @@ const expectedBranches = [
   'phase-5-blowers',
   'phase-5-automation-systems',
   'phase-5-other-feedback',
+  'phase-source-needed-document-index',
 ];
 
 function readJson(relativePath, fallback = null) {
@@ -108,7 +109,7 @@ const checks = [
   {
     id: 'pr-drafts',
     label: 'Pull request drafts generated',
-    status: prIndex.entries?.length === 17 ? 'pass' : 'warn',
+    status: prIndex.entries?.length === 18 ? 'pass' : 'warn',
     detail: `${prIndex.entries?.length || 0} PR drafts`,
   },
   {

@@ -1,6 +1,6 @@
 # GitHub PR 控制表
 
-更新時間：2026-07-06T03:01:51.971Z
+更新時間：2026-07-06T03:20:22.484Z
 
 這個表列出目前已準備好的 GitHub 分支、建議 base branch、smoke evidence 與 PR 建立入口。PR 仍需在 GitHub 網站中建立；本檔只負責提供可追蹤的控制面板。
 
@@ -33,6 +33,7 @@
 | 15 | 鼓風機 | `phase-5-blowers` | `phase-1-smac-spec-standard` | 2 | 4 | 0 | [Create PR](https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-5-blowers) |
 | 16 | 自動化系統 | `phase-5-automation-systems` | `phase-1-smac-spec-standard` | 5 | 10 | 0 | [Create PR](https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-5-automation-systems) |
 | 17 | 其他回授元件 | `phase-5-other-feedback` | `phase-1-smac-spec-standard` | 8 | 16 | 0 | [Create PR](https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-5-other-feedback) |
+| 18 | Source-needed document index cleanup | `phase-source-needed-document-index` | `phase-1-smac-spec-standard` | 5 | 25 | 0 | [Create PR](https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-source-needed-document-index) |
 
 ## 驗收條件
 

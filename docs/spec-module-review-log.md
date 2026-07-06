@@ -112,6 +112,15 @@ npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
 ```
 
+## 2026-07-06 Source-needed 文件索引收斂
+
+- 新增 `tools/apply-source-needed-document-index.mjs`，將 5 個仍有官方/既有文件來源的一般產品頁改為「官方文件入口」型 `產品規格詳情`。
+- 已處理頁面：102 JVL、149 Thomson 減速機、194 SANUPS、195 SANMOTION、270 SANYO DENKI 馬達相關。
+- 規格區改用真正 `<table>`、`details`、明確文件連結與 `詢問規格 / Quote` CTA；不新增未經官方來源支持的規格數值。
+- 移除前台不應顯示的內部語氣與 `data-original-url` / `data-file-key` 類資料屬性，PDF 入口改為真正可點連結。
+- `npm run validate` 結果：`product-spec-module-qa` 242 pass / 6 no-spec-module / 0 fail / 0 warn；`product-page-structure-seo-qa` 242 pass / 6 no-spec-module / 0 fail / 0 warn；`agent-approved-clean` 242，`agent-source-needed` 6。
+- 剩餘 6 頁為測試頁、軟體頁、ACS 特點說明與教育訓練影片，依不編造規格原則保留為 `source-needed` 類型，不硬補產品規格表。
+
 ## GitHub 狀態
 
 - phase branches 已推送到 origin。

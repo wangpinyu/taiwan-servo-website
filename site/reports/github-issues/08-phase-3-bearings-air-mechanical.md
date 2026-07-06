@@ -3,18 +3,17 @@
 Branch: `phase-3-bearings-air-mechanical`
 Priority: 8
 Pages: 17
-Blocking pages: 1
+Blocking pages: 0
 
 ## Status counts
 
-- agent-source-needed: 1
-- agent-approved-clean: 16
+- agent-approved-clean: 17
 
 ## Target pages
 
 | ID | Title | Status | Preview |
 | --- | --- | --- | --- |
-| 149 | Thomson 減速機 | agent-source-needed | preview/products/detail/149.html |
+| 149 | Thomson 減速機 | agent-approved-clean | preview/products/detail/149.html |
 | 174 | Winkel 重載傳輸軌道、軸承 | agent-approved-clean | preview/products/detail/174.html |
 | 175 | 各式軸承 | agent-approved-clean | preview/products/detail/175.html |
 | 191 | Thomson 直線軸承和導軌 | agent-approved-clean | preview/products/detail/191.html |

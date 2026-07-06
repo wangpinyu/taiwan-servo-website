@@ -807,58 +807,56 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- standardized-spec-module:start -->
 <div class="st-standardized-spec-module" data-standard-module="產品規格詳情">
-<style>
-.st-thom-specs{--st-green:#009b4e;--st-ink:#0f2033;--st-muted:#657282;--st-line:#dfe8e3;--st-soft:#f6fbf8;font-family:Arial,'Noto Sans TC','Microsoft JhengHei',sans-serif;color:var(--st-ink);line-height:1.65;margin:28px 0}
-.st-thom-specs *{box-sizing:border-box}
-.st-thom-head{border-left:5px solid var(--st-green);padding-left:14px;margin:0 0 18px}
-.st-thom-head h2{font-size:28px;line-height:1.25;margin:0 0 8px;font-weight:800;color:var(--st-ink)}
-.st-thom-head p{margin:0;color:var(--st-muted);font-size:15px}
-.st-thom-note{border:1px solid var(--st-line);background:var(--st-soft);border-radius:8px;padding:12px 14px;margin:0 0 14px;color:#435263;font-size:14px}
-.st-thom-detail{border:1px solid var(--st-line);border-radius:8px;background:#fff;margin:0 0 12px;overflow:hidden}
-.st-thom-detail summary{cursor:pointer;display:flex;align-items:center;gap:18px;min-height:72px;padding:16px 20px;list-style:none}
-.st-thom-detail summary::-webkit-details-marker{display:none}
-.st-thom-code{font-size:26px;font-weight:900;color:var(--st-green);min-width:150px}
-.st-thom-summary{display:flex;flex-direction:column;gap:2px;flex:1}
-.st-thom-summary strong{font-size:18px}
-.st-thom-summary em{font-size:14px;color:var(--st-muted);font-style:normal}
-.st-thom-plus{margin-left:auto;width:34px;height:34px;border-radius:50%;border:1px solid var(--st-line);display:inline-flex;align-items:center;justify-content:center;color:var(--st-green);font-weight:900;font-size:22px}
-.st-thom-detail[open] .st-thom-plus{background:var(--st-green);color:#fff}
-.st-thom-panel{border-top:1px solid var(--st-line);padding:18px 20px 22px}
-.st-thom-source{font-size:13px;color:var(--st-muted);margin:0 0 12px}
-.st-thom-table-wrap{overflow-x:auto;margin:10px 0 16px;border:1px solid var(--st-line);border-radius:8px}
-.st-thom-table{border-collapse:collapse;width:100%;min-width:760px;background:#fff}
-.st-thom-table th{background:#0876a8;color:#fff;font-weight:800;text-align:center;padding:9px 10px;border:1px solid #0a6e9b;white-space:normal}
-.st-thom-table td{padding:9px 10px;border:1px solid #e6ece8;text-align:center;vertical-align:top}
-.st-thom-table tbody th{background:#f4faf7;color:var(--st-ink);text-align:left;border-color:#e6ece8;min-width:180px}
-.st-thom-files{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:12px}
-.st-thom-file{border:1px solid var(--st-line);border-radius:8px;padding:10px 12px;background:#fff;display:flex;align-items:center;justify-content:space-between;gap:10px}
-.st-thom-file strong{font-size:13px;line-height:1.35}
-.st-thom-file span{white-space:nowrap;background:#e8f5ee;color:#087a44;border-radius:999px;padding:4px 9px;font-size:12px;font-weight:800}
-.st-thom-empty{border:1px dashed #b8c8c0;border-radius:8px;padding:12px;color:#607080;background:#fbfdfc}
-@media(max-width:640px){
-  .st-thom-specs{margin:22px 0}
-  .st-thom-head h2{font-size:23px}
-  .st-thom-detail summary{align-items:flex-start;gap:10px;padding:14px}
-  .st-thom-code{font-size:23px;min-width:72px}
-  .st-thom-summary strong{font-size:16px}
-  .st-thom-plus{width:30px;height:30px;font-size:18px;flex:0 0 auto}
-  .st-thom-panel{padding:14px}
-  .st-thom-table{min-width:0}
-  .st-thom-table thead{display:none}
-  .st-thom-table,.st-thom-table tbody,.st-thom-table tr,.st-thom-table th,.st-thom-table td{display:block;width:100%}
-  .st-thom-table tr{border-bottom:1px solid var(--st-line);padding:8px 0}
-  .st-thom-table tbody th{border:0;background:#f4faf7;border-radius:6px;margin:0 0 6px;text-align:left}
-  .st-thom-table td{border:0;text-align:left;padding:6px 8px 6px 44%;position:relative;min-height:30px}
-  .st-thom-table td:before{content:attr(data-label);position:absolute;left:8px;top:6px;width:38%;font-weight:800;color:#536272}
-  .st-thom-files{grid-template-columns:1fr}
-}
+<style type="text/css">
+.st-doc-specs{--st-green:#008f45;--st-deep:#234734;--st-soft:#f6fbf7;--st-line:#d9e8dd;--st-text:#122033;margin:48px 0 60px;font-family:Arial,'Noto Sans TC','Microsoft JhengHei',sans-serif;color:var(--st-text);line-height:1.7}
+.st-doc-specs *{box-sizing:border-box}
+.st-doc-title{margin:0 0 18px;padding-left:14px;border-left:5px solid var(--st-green);font-size:28px;line-height:1.3;color:var(--st-deep);font-weight:800}
+.st-doc-lead{margin:0 0 18px;padding:14px 16px;border:1px solid var(--st-line);border-radius:8px;background:var(--st-soft);font-size:15px;color:#405361}
+.st-doc-detail{border:1px solid var(--st-line);border-radius:10px;background:#fff;overflow:hidden}
+.st-doc-detail summary{display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;list-style:none;padding:16px 18px;border-bottom:1px solid var(--st-line);font-size:20px;font-weight:800;color:var(--st-deep)}
+.st-doc-detail summary::-webkit-details-marker{display:none}
+.st-doc-toggle{display:inline-flex;align-items:center;justify-content:center;min-width:88px;padding:6px 12px;border-radius:999px;background:var(--st-green);color:#fff;font-size:14px;font-weight:700}
+.st-doc-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.st-doc-table{width:100%;min-width:720px;border-collapse:collapse;font-size:15px}
+.st-doc-table th,.st-doc-table td{padding:14px 12px;border-bottom:1px solid var(--st-line);vertical-align:middle;text-align:left}
+.st-doc-table thead th{position:sticky;top:0;background:#eaf5ee;color:var(--st-deep);font-weight:800}
+.st-doc-table tbody th{position:sticky;left:0;background:#fff;color:var(--st-deep);font-weight:800}
+.st-doc-link,.st-quote-link{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:8px 13px;border-radius:7px;text-decoration:none;font-weight:800}
+.st-doc-link{background:#0f7faa;color:#fff}
+.st-quote-link{background:var(--st-green);color:#fff}
+.st-doc-note{margin:14px 18px 18px;color:#445765;font-size:14px}
+@media(max-width:640px){.st-doc-title{font-size:24px}.st-doc-detail summary{align-items:flex-start;flex-direction:column}.st-doc-table{font-size:14px}}
 </style>
-<section class="st-thom-specs" id="st-thom-specs"><div class="st-thom-head"><h2>產品規格詳情</h2></div><details class="st-thom-detail"><summary><span class="st-thom-code">AquaTRUE</span><span class="st-thom-summary"><strong>AquaTRUE 行星減速機</strong><em>星泰頁面既有 AquaTRUE 官方連結目前回 403；需請洽星泰 Micron/Thomson 最新公開文件。</em></span><span class="st-thom-plus">展開 / 收合</span></summary><div class="st-thom-panel"><div class="st-thom-empty"></div><p class="st-public-note" style="margin:0 0 12px;color:#536272;">原廠公開下載檔案；若已</p></div></details>
-<div class="st-spec-cta" style="margin-top:18px;padding:16px 18px;border:1px solid #dbe8e2;border-radius:8px;background:#f7fbf8;color:#102033;">
-  <strong>需要協助確認 Thomson 減速機 規格？</strong>
-  <p style="margin:8px 0 12px;">請提供預計應用、安裝條件、關鍵尺寸、負載與控制需求，星泰可協助比對適合的系列、型號與技術文件。</p>
-  <a href="../../skipped/96da16962be2-inquiry.html" style="display:inline-block;padding:9px 16px;border-radius:6px;background:#079b4b;color:#fff;text-decoration:none;font-weight:700;" aria-label="聯絡星泰確認 Thomson 減速機 規格">請洽星泰確認規格</a>
-</div>
+<section class="st-doc-specs" aria-labelledby="st-doc-title-149">
+  <h2 class="st-doc-title" id="st-doc-title-149">產品規格詳情</h2>
+  <p class="st-doc-lead">此頁以既有 Thomson 減速機型錄文件作為公開文件入口，供減速機選型與應用確認前查閱。</p>
+  <details class="st-doc-detail" open>
+    <summary>
+      <span>官方文件入口</span>
+      <span class="st-doc-toggle" aria-hidden="true">展開 / 收合</span>
+    </summary>
+    <div class="st-doc-table-wrap" role="region" aria-label="Thomson 減速機 官方文件表格">
+      <table class="st-doc-table">
+        <thead>
+          <tr>
+            <th scope="col">資料項目</th>
+            <th scope="col">文件類型</th>
+            <th scope="col">文件連結</th>
+            <th scope="col">詢問</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <th scope="row">Thomson 減速機</th>
+              <td>PDF 型錄</td>
+              <td><a class="st-doc-link" href="../../../documents-cache/8847506e2914-Thomson-E6-B8-9B-E9-80-9F-E6-A9-9F.pdf" target="_blank" rel="noopener" aria-label="開啟 Thomson 減速機型錄">Thomson 減速機型錄</a></td>
+              <td><a class="st-quote-link" href="../../skipped/96da16962be2-inquiry.html" aria-label="詢問 Thomson 減速機 Thomson 減速機 規格">詢問規格 / Quote</a></td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="st-doc-note">若需確認可供應型號、交期或應用條件，請提供使用環境、安裝條件與控制需求，由星泰協助比對。</p>
+  </details>
 </section>
 </div>
 <!-- standardized-spec-module:end -->

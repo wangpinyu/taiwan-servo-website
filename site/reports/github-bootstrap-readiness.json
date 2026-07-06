@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T03:02:15.342Z",
+  "generatedAt": "2026-07-06T03:20:54.818Z",
   "status": "ready-needs-token",
   "repository": "wangpinyu/taiwan-servo-website",
   "tokenPresent": false,
@@ -76,15 +76,19 @@
     {
       "branch": "phase-5-other-feedback",
       "present": true
+    },
+    {
+      "branch": "phase-source-needed-document-index",
+      "present": true
     }
   ],
   "summary": {
     "labels": 7,
     "issueDrafts": 18,
-    "pullRequestDrafts": 17,
-    "approvedPages": 237,
-    "sourceNeededPages": 11,
-    "remoteBranchesPresent": 18
+    "pullRequestDrafts": 18,
+    "approvedPages": 242,
+    "sourceNeededPages": 6,
+    "remoteBranchesPresent": 19
   },
   "checks": [
     {
@@ -103,13 +107,13 @@
       "id": "pr-drafts",
       "label": "Pull request drafts generated",
       "status": "pass",
-      "detail": "17 PR drafts"
+      "detail": "18 PR drafts"
     },
     {
       "id": "remote-branches",
       "label": "Required branches pushed",
       "status": "pass",
-      "detail": "18 branches available on origin"
+      "detail": "19 branches available on origin"
     },
     {
       "id": "github-token",
@@ -127,13 +131,13 @@
       "id": "agent-review",
       "label": "AI agent review baseline",
       "status": "pass",
-      "detail": "{\"agent-approved-clean\":237,\"agent-source-needed\":11}"
+      "detail": "{\"agent-approved-clean\":242,\"agent-source-needed\":6}"
     },
     {
       "id": "source-needed-audit",
       "label": "Source-needed audit generated",
       "status": "pass",
-      "detail": "{\"total_pages\":11,\"disposition_counts\":{\"official-source-needed\":5,\"exclude-test-page\":1,\"software-source-needed\":3,\"informational-source-needed\":1,\"training-content-no-spec\":1}}"
+      "detail": "{\"total_pages\":6,\"disposition_counts\":{\"exclude-test-page\":1,\"software-source-needed\":3,\"informational-source-needed\":1,\"training-content-no-spec\":1}}"
     }
   ],
   "nextActions": [
