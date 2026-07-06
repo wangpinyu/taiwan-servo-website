@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T00:49:50.822Z",
+  "generated_at": "2026-07-06T01:05:27.869Z",
   "scope": "Source-needed and no-spec-module audit for product pages",
   "policy": {
     "noSpecWithoutSource": true,
@@ -7,8 +7,9 @@
     "reviewOwner": "AI agent, with human escalation only for business/source decisions"
   },
   "summary": {
-    "total_pages": 6,
+    "total_pages": 20,
     "disposition_counts": {
+      "official-source-needed": 14,
       "exclude-test-page": 1,
       "software-source-needed": 3,
       "informational-source-needed": 1,
@@ -16,6 +17,272 @@
     }
   },
   "pages": [
+    {
+      "product_id": "102",
+      "title": "JVL整合型伺服馬達及步進馬達的特色",
+      "category_path": [
+        "各類馬達",
+        "步進馬達",
+        "JVL整合型伺服馬達及步進馬達的特色"
+      ],
+      "preview_rel": "preview/products/detail/102.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted-before-application",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-jvl-spec-inserts/id-102-jvl/specs-insert-TO-COPY-UTF8.txt",
+      "validation": {
+        "hasSeries": false,
+        "hasApplications": true,
+        "hasDownloads": false,
+        "tables": 4,
+        "pdfLinks": 1,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
+    },
+    {
+      "product_id": "149",
+      "title": "Thomson 減速機",
+      "category_path": [
+        "空氣軸承 / 滾珠•滾柱軸承",
+        "Thomson",
+        "Thomson 減速機"
+      ],
+      "preview_rel": "preview/products/detail/149.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted-before-application",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-thomson-spec-inserts/id-149-thomson/backend-fragment.html",
+      "validation": {
+        "hasSeries": false,
+        "hasApplications": true,
+        "hasDownloads": false,
+        "tables": 0,
+        "pdfLinks": 1,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
+    },
+    {
+      "product_id": "194",
+      "title": "山洋電氣 SANUPS電源系統",
+      "category_path": [
+        "山洋電氣 SANYO DENKI",
+        "山洋電氣 SANUPS電源系統"
+      ],
+      "preview_rel": "preview/products/detail/194.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sanyo-denki-spec-inserts/id-194-sanyo-denki/backend-fragment.html",
+      "validation": {
+        "hasSeries": false,
+        "hasApplications": false,
+        "hasDownloads": false,
+        "tables": 1,
+        "pdfLinks": 0,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
+    },
+    {
+      "product_id": "195",
+      "title": "山洋電氣 SANMOTION伺服系統",
+      "category_path": [
+        "山洋電氣 SANYO DENKI",
+        "山洋電氣 SANMOTION伺服系統"
+      ],
+      "preview_rel": "preview/products/detail/195.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sanyo-denki-spec-inserts/id-195-sanyo-denki/backend-fragment.html",
+      "validation": {
+        "hasSeries": false,
+        "hasApplications": false,
+        "hasDownloads": false,
+        "tables": 1,
+        "pdfLinks": 0,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
+    },
+    {
+      "product_id": "208",
+      "title": "RINGFEDER 波紋管聯軸器",
+      "category_path": [
+        "聯軸器",
+        "RINGFEDER 波紋管聯軸器"
+      ],
+      "preview_rel": "preview/products/detail/208.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-208-ringfeder/backend-fragment.html",
+      "validation": {
+        "hasSeries": true,
+        "hasApplications": true,
+        "hasDownloads": true,
+        "tables": 9,
+        "pdfLinks": 3,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
+    },
+    {
+      "product_id": "209",
+      "title": "RINFEDER 鋼片式聯軸器TND系列",
+      "category_path": [
+        "聯軸器",
+        "RINFEDER 鋼片式聯軸器TND系列"
+      ],
+      "preview_rel": "preview/products/detail/209.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-209-rinfeder-tnd/backend-fragment.html",
+      "validation": {
+        "hasSeries": true,
+        "hasApplications": true,
+        "hasDownloads": true,
+        "tables": 9,
+        "pdfLinks": 1,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
+    },
+    {
+      "product_id": "210",
+      "title": "RINFEDER齒輪聯軸器TNZ系列",
+      "category_path": [
+        "聯軸器",
+        "RINFEDER齒輪聯軸器TNZ系列"
+      ],
+      "preview_rel": "preview/products/detail/210.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-210-rinfeder-tnz/backend-fragment.html",
+      "validation": {
+        "hasSeries": true,
+        "hasApplications": true,
+        "hasDownloads": true,
+        "tables": 9,
+        "pdfLinks": 1,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
+    },
+    {
+      "product_id": "211",
+      "title": "RINFEDER筒形聯軸器TNK系列",
+      "category_path": [
+        "聯軸器",
+        "RINFEDER筒形聯軸器TNK系列"
+      ],
+      "preview_rel": "preview/products/detail/211.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-211-rinfeder-tnk/backend-fragment.html",
+      "validation": {
+        "hasSeries": true,
+        "hasApplications": true,
+        "hasDownloads": true,
+        "tables": 2,
+        "pdfLinks": 1,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
+    },
+    {
+      "product_id": "212",
+      "title": "RINFEDER法蘭聯軸器TNF系列",
+      "category_path": [
+        "聯軸器",
+        "RINFEDER法蘭聯軸器TNF系列"
+      ],
+      "preview_rel": "preview/products/detail/212.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-212-rinfeder-tnf/backend-fragment.html",
+      "validation": {
+        "hasSeries": true,
+        "hasApplications": true,
+        "hasDownloads": true,
+        "tables": 2,
+        "pdfLinks": 1,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
+    },
+    {
+      "product_id": "213",
+      "title": "RINFEDER撓性聯軸器TNR系列",
+      "category_path": [
+        "聯軸器",
+        "RINFEDER撓性聯軸器TNR系列"
+      ],
+      "preview_rel": "preview/products/detail/213.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-213-rinfeder-tnr/backend-fragment.html",
+      "validation": {
+        "hasSeries": true,
+        "hasApplications": true,
+        "hasDownloads": true,
+        "tables": 8,
+        "pdfLinks": 1,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
+    },
+    {
+      "product_id": "215",
+      "title": "RINGFEDER 摩擦彈簧",
+      "category_path": [
+        "聯軸器",
+        "RINGFEDER 摩擦彈簧"
+      ],
+      "preview_rel": "preview/products/detail/215.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-215-ringfeder/backend-fragment.html",
+      "validation": {
+        "hasSeries": true,
+        "hasApplications": true,
+        "hasDownloads": true,
+        "tables": 2,
+        "pdfLinks": 1,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
+    },
     {
       "product_id": "241",
       "title": "測試-ACS硬體分類",
@@ -164,6 +431,79 @@
       "disposition": "training-content-no-spec",
       "reason": "教育訓練或影片型內容不是產品規格頁；不應新增推測規格表。",
       "nextAction": "若此頁保留於產品分類，應改走內容/影片索引優化，不納入產品規格詳情缺口。"
+    },
+    {
+      "product_id": "270",
+      "title": "山洋電氣 SANYO DENKI 馬達相關",
+      "category_path": [
+        "各類馬達",
+        "山洋電氣 Sanyo denki",
+        "山洋電氣 SANYO DENKI 馬達相關"
+      ],
+      "preview_rel": "preview/products/detail/270.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sanyo-denki-spec-inserts/id-270-sanyo-denki/backend-fragment.html",
+      "validation": {
+        "hasSeries": false,
+        "hasApplications": false,
+        "hasDownloads": false,
+        "tables": 1,
+        "pdfLinks": 0,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
+    },
+    {
+      "product_id": "335",
+      "title": "Ringfeder RLP & RLB 彈性插銷聯軸器",
+      "category_path": [
+        "聯軸器",
+        "Ringfeder RLP & RLB 彈性插銷聯軸器"
+      ],
+      "preview_rel": "preview/products/detail/335.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-335-ringfeder-rlp-rlb/backend-fragment.html",
+      "validation": {
+        "hasSeries": true,
+        "hasApplications": true,
+        "hasDownloads": true,
+        "tables": 3,
+        "pdfLinks": 0,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
+    },
+    {
+      "product_id": "336",
+      "title": "Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)",
+      "category_path": [
+        "聯軸器",
+        "Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)"
+      ],
+      "preview_rel": "preview/products/detail/336.html",
+      "agent_status": "agent-source-needed",
+      "qa_status": "pass",
+      "overlay_status": "inserted",
+      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-336-ringfeder-rlt-tyre-couplings/backend-fragment.html",
+      "validation": {
+        "hasSeries": true,
+        "hasApplications": true,
+        "hasDownloads": true,
+        "tables": 3,
+        "pdfLinks": 0,
+        "unknownHeadings": []
+      },
+      "disposition": "official-source-needed",
+      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
+      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
     }
   ]
 }

@@ -3,12 +3,11 @@
 Branch: `phase-3-renishaw-feedback`
 Priority: 6
 Pages: 35
-Blocking pages: 7
+Blocking pages: 0
 
 ## Status counts
 
-- agent-approved-clean: 28
-- agent-fix-required: 7
+- agent-approved-clean: 35
 
 ## Target pages
 
@@ -17,7 +16,7 @@ Blocking pages: 7
 | 116 | Renishaw ATOM 微型光學編碼器 | agent-approved-clean | preview/products/detail/116.html |
 | 117 | Renishaw RESOLUTE™ 絕對式光學尺系列 | agent-approved-clean | preview/products/detail/117.html |
 | 118 | RENISHAW (雷尼紹) RLS 磁性編碼器磁性尺 | agent-approved-clean | preview/products/detail/118.html |
-| 119 | RENISHAW (雷尼紹) QUANTiC 增量式光學尺 | agent-fix-required | preview/products/detail/119.html |
+| 119 | RENISHAW (雷尼紹) QUANTiC 增量式光學尺 | agent-approved-clean | preview/products/detail/119.html |
 | 120 | TONiC™ 增量式光學尺 | agent-approved-clean | preview/products/detail/120.html |
 | 121 | RENISHAW (雷尼紹) EVOLUTE™ 絕對式光學尺 | agent-approved-clean | preview/products/detail/121.html |
 | 122 | RENISHAW (雷尼紹) VIONiC 增量式光學尺系統 | agent-approved-clean | preview/products/detail/122.html |
@@ -25,8 +24,8 @@ Blocking pages: 7
 | 124 | RENISHAW (雷尼紹) 增量式光學尺( Linear Encoder) | agent-approved-clean | preview/products/detail/124.html |
 | 125 | RENISHAW (雷尼紹) 光學尺讀頭比較表 | agent-approved-clean | preview/products/detail/125.html |
 | 126 | RENISHAW (雷尼紹) 光學尺診斷工具及介面 ADT & E201 | agent-approved-clean | preview/products/detail/126.html |
-| 299 | 線性標準增量式磁性尺 | agent-fix-required | preview/products/detail/299.html |
-| 300 | 旋轉標準增量式磁性尺 | agent-fix-required | preview/products/detail/300.html |
+| 299 | 線性標準增量式磁性尺 | agent-approved-clean | preview/products/detail/299.html |
+| 300 | 旋轉標準增量式磁性尺 | agent-approved-clean | preview/products/detail/300.html |
 | 301 | 線性絕對式磁性尺 | agent-approved-clean | preview/products/detail/301.html |
 | 302 | 旋轉絕對式磁性尺 | agent-approved-clean | preview/products/detail/302.html |
 | 303 | 磁性感應器IC | agent-approved-clean | preview/products/detail/303.html |
@@ -38,16 +37,16 @@ Blocking pages: 7
 | 312 | 線性微型增量式磁性尺 | agent-approved-clean | preview/products/detail/312.html |
 | 313 | 旋轉微型增量式磁性尺 | agent-approved-clean | preview/products/detail/313.html |
 | 314 | 旋轉軸編碼器 | agent-approved-clean | preview/products/detail/314.html |
-| 315 | 軸向環 | agent-fix-required | preview/products/detail/315.html |
+| 315 | 軸向環 | agent-approved-clean | preview/products/detail/315.html |
 | 316 | 徑向環 | agent-approved-clean | preview/products/detail/316.html |
-| 319 | RLD檢測頭(干涉儀) | agent-fix-required | preview/products/detail/319.html |
+| 319 | RLD檢測頭(干涉儀) | agent-approved-clean | preview/products/detail/319.html |
 | 320 | RLU雷射裝置 | agent-approved-clean | preview/products/detail/320.html |
 | 321 | 雷射編碼器介面 | agent-approved-clean | preview/products/detail/321.html |
 | 322 | RCU10 即時方波補償器 | agent-approved-clean | preview/products/detail/322.html |
 | 323 | 鏡面與光學鏡組 | agent-approved-clean | preview/products/detail/323.html |
 | 324 | HS20雷射頭 | agent-approved-clean | preview/products/detail/324.html |
-| 325 | 光學計量配件 | agent-fix-required | preview/products/detail/325.html |
-| 326 | 長距雷射編碼器安裝硬體 | agent-fix-required | preview/products/detail/326.html |
+| 325 | 光學計量配件 | agent-approved-clean | preview/products/detail/325.html |
+| 326 | 長距雷射編碼器安裝硬體 | agent-approved-clean | preview/products/detail/326.html |
 | 363 | 光學尺帶規格總表 | agent-approved-clean | preview/products/detail/363.html |
 
 ## Acceptance criteria
