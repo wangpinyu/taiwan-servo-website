@@ -15,21 +15,20 @@ const docs = [
 ];
 
 const suspiciousMojibakeTokens = [
+  '\uFFFD',
   '嚗',
+  '瘚',
   '銝',
+  '蝡',
   '閬',
-  '蝯',
-  '鞈',
-  '瘥',
-  '撱',
+  '憭',
   '摰',
-  '憿',
-  '頛',
-  '餃',
+  '蝯',
+  '撌',
   '璅',
-  '蝣',
+  '隞',
   '?Ｗ',
-  '?',
+  '?祆',
 ];
 
 function htmlEscape(value) {
@@ -54,9 +53,6 @@ function countOccurrences(text, token) {
 
 function findMojibakeHits(text) {
   const hits = [];
-  if (text.includes('\uFFFD')) {
-    hits.push({ token: 'replacement-character', count: countOccurrences(text, '\uFFFD') });
-  }
   for (const token of suspiciousMojibakeTokens) {
     const count = countOccurrences(text, token);
     if (count > 0) hits.push({ token, count });
