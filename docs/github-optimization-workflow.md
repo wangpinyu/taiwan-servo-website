@@ -77,6 +77,7 @@ npm run workflow:backlog
 npm run workflow:issue-index
 npm run workflow:pr-index
 npm run workflow:github-readiness
+npm run workflow:completion-audit
 ```
 
 ## 自動修正指令

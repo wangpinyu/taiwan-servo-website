@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GPT Optimization Completion Audit</title>
+  <style>
+    body{font-family:Arial,"Microsoft JhengHei",sans-serif;margin:24px;color:#10251b;background:#f8faf8}
+    h1{margin:0 0 8px}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:20px 0}
+    .card{background:#fff;border:1px solid #dce7df;border-radius:8px;padding:14px}
+    .num{font-size:28px;font-weight:700}
+    table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #dce7df}
+    th,td{padding:9px 10px;border-bottom:1px solid #e6eee8;text-align:left;vertical-align:top;white-space:pre-line}
+    th{background:#eaf4ee}
+    tr.ok{background:#fff}
+    tr.warn{background:#fffbea}
+    tr.bad{background:#fff0f0}
+    tr.neutral{background:#f6f7f7}
+    code{background:#edf4ef;padding:2px 4px;border-radius:4px}
+  </style>
+</head>
+<body>
+  <h1>GPT Optimization Completion Audit</h1>
+  <p>Generated at <code>2026-07-06T09:22:49.280Z</code>. This report maps GPT optimization requirements to current local evidence.</p>
+  <div class="cards">
+    <div class="card"><div>Requirements</div><div class="num">13</div></div>
+    <div class="card"><div>Complete</div><div class="num">11</div></div>
+    <div class="card"><div>External action</div><div class="num">1</div></div>
+    <div class="card"><div>Incomplete</div><div class="num">0</div></div>
+  </div>
+  <p>Local optimization ready: <strong>true</strong>. Full objective complete: <strong>false</strong>.</p>
+  <table>
+    <thead><tr><th>Status</th><th>ID</th><th>Requirement</th><th>Evidence</th><th>Missing / Next Action</th></tr></thead>
+    <tbody><tr class="ok">
+  <td>complete</td>
+  <td>local-mirror-ready</td>
+  <td>Local preview and mirror are stable: no missing local refs, no formal-site internal refs, no file paths, and no .txt hrefs.</td>
+  <td>site/reports/github-ready-validation.json
+site/reports/local-mirror-readiness-current.json</td>
+  <td></td>
+</tr>
+<tr class="ok">
+  <td>complete</td>
+  <td>product-spec-modules</td>
+  <td>Product spec detail modules are standardized and validated for all product pages with documented exceptions only.</td>
+  <td>site/reports/product-spec-module-qa.json</td>
+  <td></td>
+</tr>
+<tr class="ok">
+  <td>complete</td>
+  <td>download-affordances</td>
+  <td>PDF, CAD, Manual, Catalog, Drawing, and Software links have clear visible labels and no inert placeholders.</td>
+  <td>site/reports/spec-download-affordance-validation.json</td>
+  <td></td>
+</tr>
+<tr class="ok">
+  <td>complete</td>
+  <td>seo-structure</td>
+  <td>Product pages preserve SEO structure: one H1, clean heading hierarchy, tables, CTA, canonical, meta, and breadcrumbs.</td>
+  <td>site/reports/product-page-structure-seo-qa.json
+site/reports/product-seo-warning-taxonomy.json</td>
+  <td></td>
+</tr>
+<tr class="ok">
+  <td>complete</td>
+  <td>customer-facing-cleanliness</td>
+  <td>Public preview content contains no internal notes, pending text, placeholder text, local file markers, or data-local-file attributes.</td>
+  <td>site/reports/customer-facing-notes-validation.json</td>
+  <td></td>
+</tr>
+<tr class="ok">
+  <td>complete</td>
+  <td>agent-review-status</td>
+  <td>AI agent review has no remaining fix-required or source-needed product pages.</td>
+  <td>site/reports/product-spec-agent-review.json</td>
+  <td></td>
+</tr>
+<tr class="ok">
+  <td>complete</td>
+  <td>source-needed-audit</td>
+  <td>Official-source gaps are resolved as approved exceptions, not hidden as incomplete work.</td>
+  <td>site/reports/source-needed-audit.json
+site/reports/source-needed-audit.md</td>
+  <td></td>
+</tr>
+<tr class="ok">
+  <td>complete</td>
+  <td>optimization-backlog</td>
+  <td>Category-level backlog, issue drafts, branch drafts, and PR drafts are generated with zero blocking pages.</td>
+  <td>site/reports/optimization-backlog.json</td>
+  <td></td>
+</tr>
+<tr class="ok">
+  <td>complete</td>
+  <td>visual-sample-qa</td>
+  <td>Visual sample QA passes desktop and mobile checks without broken images or horizontal overflow.</td>
+  <td>site/reports/visual-sample-qa.json
+site/reports/visual-sample-qa.html</td>
+  <td></td>
+</tr>
+<tr class="ok">
+  <td>complete</td>
+  <td>docs-and-reports-readable</td>
+  <td>Core workflow docs and PR-facing reports are readable and pass the mojibake guard.</td>
+  <td>site/reports/docs-readability-validation.json</td>
+  <td></td>
+</tr>
+<tr class="ok">
+  <td>complete</td>
+  <td>github-workflow</td>
+  <td>GitHub PR workflow is wired for strict validation, PR template evidence, and local readiness reports.</td>
+  <td>.github/workflows/preview-qa.yml
+.github/PULL_REQUEST_TEMPLATE.md
+site/reports/github-bootstrap-readiness.json</td>
+  <td></td>
+</tr>
+<tr class="warn">
+  <td>external-action-required</td>
+  <td>github-api-bootstrap</td>
+  <td>GitHub labels, issues, and PR refs are created through the GitHub API when a token is available.</td>
+  <td>site/reports/github-bootstrap-readiness.json</td>
+  <td>Set GITHUB_TOKEN or GH_TOKEN in the PowerShell session, then run npm run github:bootstrap.</td>
+</tr>
+<tr class="neutral">
+  <td>not-in-current-stage</td>
+  <td>deployment-stage</td>
+  <td>Backend save, test-site publish, and production file overwrite are intentionally deferred to a separate deployment phase.</td>
+  <td>docs/spec-module-review-log.md
+docs/github-optimization-workflow.md</td>
+  <td>Open a separate deployment phase after PR review and human acceptance.</td>
+</tr></tbody>
+  </table>
+</body>
+</html>

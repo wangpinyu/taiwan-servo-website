@@ -23,6 +23,7 @@ Authoritative reports:
 - `site/reports/product-seo-warning-taxonomy.json`
 - `site/reports/visual-sample-qa.json`
 - `site/reports/source-needed-audit.json`
+- `site/reports/gpt-optimization-completion-audit.json`
 
 ## Review Status Definitions
 
@@ -139,3 +140,4 @@ Latest expected local validation after the RINGFEDER friction-springs and except
 - `source-needed-audit`: 0 source-needed pages / 6 approved exceptions
 - `optimization-backlog`: 0 blocking pages
 - `visual-sample-qa`: 18 checks / 18 pass / 0 fail / 0 warn
+- `gpt-optimization-completion-audit`: 11 complete / 1 external-action-required / 1 not-in-current-stage / 0 incomplete

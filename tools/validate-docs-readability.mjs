@@ -13,6 +13,7 @@ const docs = [
   { relPath: 'docs/products-page-architecture.md', type: 'doc' },
   { relPath: 'docs/spec-module-review-log.md', type: 'doc' },
   { relPath: 'site/reports/github-bootstrap-readiness.html', type: 'report' },
+  { relPath: 'site/reports/gpt-optimization-completion-audit.html', type: 'report' },
   { relPath: 'site/reports/optimization-backlog.html', type: 'report' },
   { relPath: 'site/reports/product-page-structure-seo-qa.html', type: 'report' },
   { relPath: 'site/reports/product-spec-agent-review.html', type: 'report' },

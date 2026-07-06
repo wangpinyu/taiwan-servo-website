@@ -1,0 +1,314 @@
+{
+  "generatedAt": "2026-07-06T09:22:49.280Z",
+  "objective": "Audit current evidence against the GPT optimization work plan.",
+  "scope": {
+    "productPages": 248,
+    "currentStage": "local-preview-and-github-workflow",
+    "validationScripts": {
+      "strict": "node tools/validate-docs-readability.mjs && node tools/validate-static-site.mjs --strict && node tools/validate-local-mirror-readiness.mjs && node tools/validate-customer-facing-notes.mjs && node tools/resolve-product-standardization-review.mjs && node tools/validate-product-spec-modules.mjs --strict && node tools/validate-spec-download-affordances.mjs --strict && node tools/validate-product-page-structure-seo.mjs --strict && node tools/generate-product-seo-warning-taxonomy.mjs && node tools/generate-product-spec-agent-review.mjs && node tools/generate-source-needed-audit.mjs && node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs && node tools/generate-github-pr-index.mjs && node tools/generate-github-bootstrap-readiness.mjs && node tools/generate-gpt-optimization-completion-audit.mjs",
+      "visualSample": "node tools/run-visual-sample-qa.mjs"
+    }
+  },
+  "summary": {
+    "totalRequirements": 13,
+    "statusCounts": {
+      "complete": 11,
+      "external-action-required": 1,
+      "not-in-current-stage": 1
+    },
+    "localOptimizationReady": true,
+    "fullObjectiveComplete": false,
+    "remainingExternalActions": [
+      "github-api-bootstrap"
+    ],
+    "outOfStageItems": [
+      "deployment-stage"
+    ]
+  },
+  "checks": [
+    {
+      "id": "local-mirror-ready",
+      "requirement": "Local preview and mirror are stable: no missing local refs, no formal-site internal refs, no file paths, and no .txt hrefs.",
+      "status": "complete",
+      "evidence": [
+        "site/reports/github-ready-validation.json",
+        "site/reports/local-mirror-readiness-current.json"
+      ],
+      "missing": [],
+      "metrics": {
+        "html_files": 359,
+        "local_refs": 66047,
+        "missing_local_refs": 0,
+        "formal_same_origin_refs": 0
+      }
+    },
+    {
+      "id": "product-spec-modules",
+      "requirement": "Product spec detail modules are standardized and validated for all product pages with documented exceptions only.",
+      "status": "complete",
+      "evidence": [
+        "site/reports/product-spec-module-qa.json"
+      ],
+      "missing": [],
+      "metrics": {
+        "total_pages": 248,
+        "qa_status_counts": {
+          "pass": 242,
+          "no-spec-module": 6
+        },
+        "fail_count": 0,
+        "warn_count": 0,
+        "pass_count": 242,
+        "no_spec_module_count": 6
+      }
+    },
+    {
+      "id": "download-affordances",
+      "requirement": "PDF, CAD, Manual, Catalog, Drawing, and Software links have clear visible labels and no inert placeholders.",
+      "status": "complete",
+      "evidence": [
+        "site/reports/spec-download-affordance-validation.json"
+      ],
+      "missing": [],
+      "metrics": {
+        "total_pages": 248,
+        "pages_with_specs": 242,
+        "fail_count": 0,
+        "warn_count": 0,
+        "actionable_doc_links": 3543,
+        "contact_statuses": 2124
+      }
+    },
+    {
+      "id": "seo-structure",
+      "requirement": "Product pages preserve SEO structure: one H1, clean heading hierarchy, tables, CTA, canonical, meta, and breadcrumbs.",
+      "status": "complete",
+      "evidence": [
+        "site/reports/product-page-structure-seo-qa.json",
+        "site/reports/product-seo-warning-taxonomy.json"
+      ],
+      "missing": [],
+      "metrics": {
+        "product_page_structure": {
+          "total_pages": 248,
+          "status_counts": {
+            "pass": 242,
+            "no-spec-module": 6
+          },
+          "fail_count": 0,
+          "warn_count": 0,
+          "pass_count": 242,
+          "no_spec_module_count": 6
+        },
+        "warning_taxonomy": {
+          "generated_at": "2026-07-06T09:22:14.423Z",
+          "total_warning_entries": 0,
+          "affected_pages": 0,
+          "warning_type_counts": {},
+          "category_warning_counts": {},
+          "branch_warning_counts": {}
+        }
+      }
+    },
+    {
+      "id": "customer-facing-cleanliness",
+      "requirement": "Public preview content contains no internal notes, pending text, placeholder text, local file markers, or data-local-file attributes.",
+      "status": "complete",
+      "evidence": [
+        "site/reports/customer-facing-notes-validation.json"
+      ],
+      "missing": [],
+      "metrics": {
+        "files_checked": 358,
+        "issue_count": 0
+      }
+    },
+    {
+      "id": "agent-review-status",
+      "requirement": "AI agent review has no remaining fix-required or source-needed product pages.",
+      "status": "complete",
+      "evidence": [
+        "site/reports/product-spec-agent-review.json"
+      ],
+      "missing": [],
+      "metrics": {
+        "total_pages": 248,
+        "agent_status_counts": {
+          "agent-approved-clean": 242,
+          "agent-approved-exception": 6
+        }
+      }
+    },
+    {
+      "id": "source-needed-audit",
+      "requirement": "Official-source gaps are resolved as approved exceptions, not hidden as incomplete work.",
+      "status": "complete",
+      "evidence": [
+        "site/reports/source-needed-audit.json",
+        "site/reports/source-needed-audit.md"
+      ],
+      "missing": [],
+      "metrics": {
+        "total_pages": 0,
+        "disposition_counts": {},
+        "approved_exception_pages": 6,
+        "approved_exception_counts": {
+          "exclude-test-page": 1,
+          "software-page-schema-needed": 3,
+          "informational-page-schema-needed": 1,
+          "training-resource-schema-needed": 1
+        }
+      }
+    },
+    {
+      "id": "optimization-backlog",
+      "requirement": "Category-level backlog, issue drafts, branch drafts, and PR drafts are generated with zero blocking pages.",
+      "status": "complete",
+      "evidence": [
+        "site/reports/optimization-backlog.json"
+      ],
+      "missing": [],
+      "metrics": {
+        "generated_at": "2026-07-06T09:22:14.872Z",
+        "total_categories": 18,
+        "total_pages": 248,
+        "total_blocking_pages": 0,
+        "status_counts": {
+          "agent-approved-clean": 242,
+          "agent-approved-exception": 6
+        }
+      }
+    },
+    {
+      "id": "visual-sample-qa",
+      "requirement": "Visual sample QA passes desktop and mobile checks without broken images or horizontal overflow.",
+      "status": "complete",
+      "evidence": [
+        "site/reports/visual-sample-qa.json",
+        "site/reports/visual-sample-qa.html"
+      ],
+      "missing": [],
+      "metrics": {
+        "total_checks": 18,
+        "pass": 18,
+        "warn": 0,
+        "fail": 0
+      }
+    },
+    {
+      "id": "docs-and-reports-readable",
+      "requirement": "Core workflow docs and PR-facing reports are readable and pass the mojibake guard.",
+      "status": "complete",
+      "evidence": [
+        "site/reports/docs-readability-validation.json"
+      ],
+      "missing": [],
+      "metrics": {
+        "docs": 15,
+        "errors": 0
+      }
+    },
+    {
+      "id": "github-workflow",
+      "requirement": "GitHub PR workflow is wired for strict validation, PR template evidence, and local readiness reports.",
+      "status": "complete",
+      "evidence": [
+        ".github/workflows/preview-qa.yml",
+        ".github/PULL_REQUEST_TEMPLATE.md",
+        "site/reports/github-bootstrap-readiness.json"
+      ],
+      "missing": [],
+      "metrics": {
+        "readiness": "ready-needs-token",
+        "tokenPresent": false,
+        "pullRequestRefs": 0,
+        "checks": [
+          {
+            "id": "labels-defined",
+            "label": "GitHub labels defined",
+            "status": "pass",
+            "detail": "7 labels in .github/labels.yml"
+          },
+          {
+            "id": "issue-drafts",
+            "label": "Tracking issue drafts generated",
+            "status": "pass",
+            "detail": "18 issue drafts"
+          },
+          {
+            "id": "pr-drafts",
+            "label": "Pull request drafts generated",
+            "status": "pass",
+            "detail": "17 PR drafts"
+          },
+          {
+            "id": "remote-branches",
+            "label": "Required branches pushed",
+            "status": "pass",
+            "detail": "18 branches available on origin"
+          },
+          {
+            "id": "github-token",
+            "label": "GitHub API token available",
+            "status": "needs-action",
+            "detail": "No token in this shell; API apply remains pending"
+          },
+          {
+            "id": "remote-prs",
+            "label": "Remote pull requests exist",
+            "status": "needs-action",
+            "detail": "0 pull request refs detected on origin"
+          },
+          {
+            "id": "agent-review",
+            "label": "AI agent review baseline",
+            "status": "pass",
+            "detail": "{\"agent-approved-clean\":242,\"agent-approved-exception\":6}"
+          },
+          {
+            "id": "source-needed-audit",
+            "label": "Source-needed audit generated",
+            "status": "pass",
+            "detail": "{\"total_pages\":0,\"disposition_counts\":{},\"approved_exception_pages\":6,\"approved_exception_counts\":{\"exclude-test-page\":1,\"software-page-schema-needed\":3,\"informational-page-schema-needed\":1,\"training-resource-schema-needed\":1}}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "github-api-bootstrap",
+      "requirement": "GitHub labels, issues, and PR refs are created through the GitHub API when a token is available.",
+      "status": "external-action-required",
+      "evidence": [
+        "site/reports/github-bootstrap-readiness.json"
+      ],
+      "missing": [
+        "Set GITHUB_TOKEN or GH_TOKEN in the PowerShell session, then run npm run github:bootstrap."
+      ],
+      "metrics": {
+        "readiness": "ready-needs-token",
+        "tokenPresent": false,
+        "pullRequestRefs": 0,
+        "nextActions": [
+          "Set GITHUB_TOKEN or GH_TOKEN in the current PowerShell session.",
+          "Run npm run github:bootstrap:dry-run again, then npm run github:bootstrap."
+        ]
+      }
+    },
+    {
+      "id": "deployment-stage",
+      "requirement": "Backend save, test-site publish, and production file overwrite are intentionally deferred to a separate deployment phase.",
+      "status": "not-in-current-stage",
+      "evidence": [
+        "docs/spec-module-review-log.md",
+        "docs/github-optimization-workflow.md"
+      ],
+      "missing": [
+        "Open a separate deployment phase after PR review and human acceptance."
+      ],
+      "metrics": {
+        "backendMutationPerformed": false,
+        "currentStage": "local-preview-and-github-workflow"
+      }
+    }
+  ]
+}
