@@ -3,21 +3,21 @@
 Branch: `phase-3-bearings-air-mechanical`
 Priority: 8
 Pages: 17
-Blocking pages: 3
+Blocking pages: 1
 
 ## Status counts
 
-- agent-fix-required: 3
-- agent-approved-clean: 14
+- agent-source-needed: 1
+- agent-approved-clean: 16
 
 ## Target pages
 
 | ID | Title | Status | Preview |
 | --- | --- | --- | --- |
-| 149 | Thomson 減速機 | agent-fix-required | preview/products/detail/149.html |
-| 174 | Winkel 重載傳輸軌道、軸承 | agent-fix-required | preview/products/detail/174.html |
+| 149 | Thomson 減速機 | agent-source-needed | preview/products/detail/149.html |
+| 174 | Winkel 重載傳輸軌道、軸承 | agent-approved-clean | preview/products/detail/174.html |
 | 175 | 各式軸承 | agent-approved-clean | preview/products/detail/175.html |
-| 191 | Thomson 直線軸承和導軌 | agent-fix-required | preview/products/detail/191.html |
+| 191 | Thomson 直線軸承和導軌 | agent-approved-clean | preview/products/detail/191.html |
 | 192 | NEW WAY 空氣軸承 | agent-approved-clean | preview/products/detail/192.html |
 | 256 | NEW WAY Air bar 氣浮板 | agent-approved-clean | preview/products/detail/256.html |
 | 257 | NEW WAY 平面矩形空氣軸承 | agent-approved-clean | preview/products/detail/257.html |

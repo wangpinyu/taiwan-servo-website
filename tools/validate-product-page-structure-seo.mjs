@@ -79,17 +79,17 @@ function headerText(headers) {
 
 function hasModelOrIdentifierHeader(headers) {
   const joined = headerText(headers);
-  return /part\s*number|model|型號|產品型號|系列|frame|frames|product\s*code|規格|名稱|name|工具型號|光學尺|介面|協定|項目|需求|功能|應用|產業|工具|選型|確認|分類|類型|版本|protocol|interface|specifications/i.test(joined);
+  return /part\s*number|model|型號|產品型號|系列|frame|frames|product\s*code|規格|名稱|name|工具型號|光學尺|介面|協定|項目|需求|功能|應用|產業|工具|選型|確認|分類|類型|版本|文件|檔案|特性|效益|元件|配置|用途|產品|結構|角色|負載電壓|負載電流|控制電壓|控制訊號|通道|隔離方式|資料|細分編碼|bearing\s*style|max\.\s*load|ordering\s*item|item|code|protocol|interface|specifications|document|file/i.test(joined);
 }
 
 function hasMeasurementOrUnitHeader(headers) {
   const joined = headerText(headers);
-  return /\((?:mm|n|kg|v|vdc|dc|vac|ac|nm|rpm|um|μm|a|w|kw|hp|ohm|mh|lbf|ft\/s|arc\s*sec|oz-in|lb-in|c\/w)\)|\b(?:mm|nm|rpm|vdc|vac|kw|kg|nema|od|id)\b|行程|推力|力量|力|扭矩|轉矩|電壓|電流|功率|速度|轉速|精度|解析度|尺寸|長度|直徑|外徑|內徑|重量|負載|張力|過載|防護等級|溫度|範圍|柵距|刻距|供應長度|極長度|連續|峰值|額定|馬達直徑|保持轉矩|最高|最大|最小|質量|慣量|電阻|電感|熱阻|通道|軸數/i.test(joined);
+  return /\((?:mm|n|kg|v|vdc|dc|vac|ac|nm|rpm|um|μm|a|w|kw|hp|ohm|mh|lbf|ft\/s|arc\s*sec|oz-in|lb-in|c\/w)\)|\b(?:mm|nm|rpm|vdc|vac|kw|kg|nema|od|id)\b|行程|推力|力量|力|扭矩|轉矩|電壓|電流|功率|速度|轉速|精度|解析度|尺寸|長度|直徑|外徑|內徑|重量|負載|張力|過載|防護等級|溫度|範圍|柵距|刻距|供應長度|極長度|連續|峰值|額定|馬達直徑|保持轉矩|最高|最大|最小|質量|慣量|電阻|電感|熱阻|通道|軸數|\bcurrent\b|\bvoltage\b|\bforce\b|\btorque\b|\bstroke\b|\btravel\b|\bsize\b|\bdia\b|\bdiameter\b|\blength\b|\bwidth\b|\bheight\b|\bspeed\b|\bresolution\b|\baccuracy\b|\brepeatability\b|\bload\b|\bratio\b|\bcapa(?:city)?\b/i.test(joined);
 }
 
 function hasDownloadOrQualitativeHeader(headers) {
   const joined = headerText(headers);
-  return /原廠頁|文件|下載|資料來源|來源|備註|說明|用途|適用|重點|定位|確認|選型|功能|應用|情境|角色|材質|結構|特色|版本|相容|支援|控制|網路|通訊|介面|官方資料|官方重點/i.test(joined);
+  return /原廠頁|文件|下載|資料來源|來源|備註|說明|用途|適用|重點|定位|確認|選型|功能|應用|情境|角色|材質|結構|特色|版本|相容|支援|控制|網路|通訊|介面|官方資料|官方重點|項目|特性|效益|元件|配置|產品角色|ordering\s*item|meaning|item|code|source|basis/i.test(joined);
 }
 
 function looksLikeQuantitativeTable(tableHtml, headers) {
