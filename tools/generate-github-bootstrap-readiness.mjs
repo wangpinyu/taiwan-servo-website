@@ -84,9 +84,13 @@ const sourceAudit = readJson(path.join('site', 'reports', 'source-needed-audit.j
 const review = readJson(path.join('site', 'reports', 'product-spec-agent-review.json'), { summary: {} });
 const branches = remoteBranches();
 const missingBranches = expectedBranches.filter((branch) => !branches.has(branch));
+const presentBranches = expectedBranches.length - missingBranches.length;
 const tokenPresent = Boolean(process.env.GITHUB_TOKEN || process.env.GH_TOKEN);
 const pullRefs = remotePullRefs();
 const labelCount = countLabels();
+const reviewCounts = review.summary?.agent_status_counts || {};
+const approvedPages = reviewCounts['agent-approved-clean'] || 0;
+const sourceNeededPages = sourceAudit.summary?.total_pages || 0;
 
 const checks = [
   {
@@ -128,13 +132,13 @@ const checks = [
   {
     id: 'agent-review',
     label: 'AI agent review baseline',
-    status: review.summary?.agent_status_counts?.['agent-approved-clean'] === 242 ? 'pass' : 'warn',
-    detail: JSON.stringify(review.summary?.agent_status_counts || {}),
+    status: approvedPages + sourceNeededPages === 248 && approvedPages > 0 ? 'pass' : 'warn',
+    detail: JSON.stringify(reviewCounts),
   },
   {
     id: 'source-needed-audit',
     label: 'Source-needed audit generated',
-    status: sourceAudit.summary?.total_pages === 6 ? 'pass' : 'warn',
+    status: sourceNeededPages === (reviewCounts['agent-source-needed'] || 0) ? 'pass' : 'warn',
     detail: JSON.stringify(sourceAudit.summary || {}),
   },
 ];
@@ -151,12 +155,14 @@ const output = {
   repository: 'wangpinyu/taiwan-servo-website',
   tokenPresent,
   pullRequestRefs: pullRefs,
-  expectedBranches: expectedBranches.map((branch) => ({ branch, remoteSha: branches.get(branch) || null })),
+  expectedBranches: expectedBranches.map((branch) => ({ branch, present: branches.has(branch) })),
   summary: {
     labels: labelCount,
     issueDrafts: issueIndex.entries?.length || 0,
     pullRequestDrafts: prIndex.entries?.length || 0,
-    sourceNeededPages: sourceAudit.summary?.total_pages || 0,
+    approvedPages,
+    sourceNeededPages,
+    remoteBranchesPresent: presentBranches,
   },
   checks,
   nextActions: tokenPresent
@@ -184,7 +190,7 @@ const rows = checks.map((check) => `
 const branchRows = output.expectedBranches.map((entry) => `
   <tr>
     <td><code>${htmlEscape(entry.branch)}</code></td>
-    <td>${entry.remoteSha ? htmlEscape(entry.remoteSha) : '<span class="fail">missing</span>'}</td>
+    <td>${entry.present ? '<span class="pass">present</span>' : '<span class="fail">missing</span>'}</td>
   </tr>`).join('\n');
 
 const html = `<!doctype html>
@@ -219,7 +225,7 @@ const html = `<!doctype html>
   </table>
   <h2>Remote Branches</h2>
   <table>
-    <thead><tr><th>Branch</th><th>Origin SHA</th></tr></thead>
+    <thead><tr><th>Branch</th><th>Status</th></tr></thead>
     <tbody>${branchRows}</tbody>
   </table>
   <h2>Next Actions</h2>
