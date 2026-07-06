@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T10:19:08.652Z",
+  "generatedAt": "2026-07-06T10:21:23.019Z",
   "status": "ready-for-deployment-approval",
   "deploymentAllowedNow": false,
   "reason": "Local preview and deploy classification are ready, but backend/server mutation still requires explicit deployment-phase approval.",

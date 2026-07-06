@@ -225,7 +225,7 @@ const checks = [
     missing:
       githubReadiness.status === 'ready'
         ? []
-        : ['Set GITHUB_TOKEN or GH_TOKEN in the PowerShell session, run npm run github:bootstrap:smoke, then run npm run github:bootstrap.'],
+        : ['Set GITHUB_TOKEN or GH_TOKEN in the PowerShell session, then run npm run github:bootstrap:safe.'],
     metrics: {
       readiness: githubReadiness.status,
       handoffStatus: githubApiHandoff.status,

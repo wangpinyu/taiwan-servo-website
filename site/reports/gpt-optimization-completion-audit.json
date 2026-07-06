@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T10:19:08.724Z",
+  "generatedAt": "2026-07-06T10:21:23.093Z",
   "objective": "Audit current evidence against the GPT optimization work plan.",
   "scope": {
     "productPages": 248,
@@ -101,7 +101,7 @@
           "no_spec_module_count": 6
         },
         "warning_taxonomy": {
-          "generated_at": "2026-07-06T10:18:41.074Z",
+          "generated_at": "2026-07-06T10:20:55.367Z",
           "total_warning_entries": 0,
           "affected_pages": 0,
           "warning_type_counts": {},
@@ -169,7 +169,7 @@
       ],
       "missing": [],
       "metrics": {
-        "generated_at": "2026-07-06T10:18:41.340Z",
+        "generated_at": "2026-07-06T10:20:55.640Z",
         "total_categories": 18,
         "total_pages": 248,
         "total_blocking_pages": 0,
@@ -284,7 +284,7 @@
         "docs/github-api-bootstrap-runbook.md"
       ],
       "missing": [
-        "Set GITHUB_TOKEN or GH_TOKEN in the PowerShell session, run npm run github:bootstrap:smoke, then run npm run github:bootstrap."
+        "Set GITHUB_TOKEN or GH_TOKEN in the PowerShell session, then run npm run github:bootstrap:safe."
       ],
       "metrics": {
         "readiness": "ready-needs-token",
