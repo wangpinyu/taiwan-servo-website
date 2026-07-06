@@ -110,3 +110,18 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Drivers visible quality pass
+
+- Branch: `phase-2-drivers-spec-review`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed driver pages:
+  - `detail/79`, `detail/80`, `detail/81`, `detail/82`
+  - `detail/327`, `detail/354`, `detail/355`, `detail/357`, `detail/358`, `detail/359`, `detail/360`, `detail/361`
+- Fixes:
+  - Added `tools/audit-category-visible-quality.mjs` for repeatable category-level visible-quality scans.
+  - Added `tools/apply-driver-visible-quality-fixes.mjs`.
+  - Removed internal HTML comments mentioning placeholder application images from `detail/359`, `detail/360`, and `detail/361`.
+- Validation:
+  - Driver static audit: no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text.
+  - Edge visual smoke on `79`, `80`, `359`, `360`, and `361` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, no customer-facing internal text.
