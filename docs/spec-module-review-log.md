@@ -110,3 +110,15 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Automation systems visible quality pass
+
+- Branch: `phase-5-automation-systems`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed automation-system pages:
+  - `detail/177`, `detail/218`, `detail/219`, `detail/226`, `detail/234`
+- Result:
+  - Renamed `218` specification heading from `各方案主要規格` to `產品規格詳情`.
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 5 pages.
+- Validation:
+  - Edge/CDP visual smoke on all 5 pages at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, no customer-facing internal text, and visible `產品規格詳情` headings.
