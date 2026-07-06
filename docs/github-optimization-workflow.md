@@ -47,16 +47,25 @@
 - `backend-ready`：本機 preview 可準備進入後台或伺服器部署階段。
 - `blocked-server-large-file`：已知大檔或伺服器上傳限制，不阻塞本機優化。
 
-## 本機驗證指令
+## 分層驗證節奏
 
-每次修改後先執行：
+後續 UIUX 或產品頁批次調整採用分層驗證，避免每次小改都重跑 GitHub API 與部署交接報告。
 
-```powershell
-npm run validate
-git diff --check
-```
+| 時機 | 指令 | 用途 |
+| --- | --- | --- |
+| 單頁或小範圍 UIUX 修改後 | `npm run qa:site`、`npm run qa:product-seo`、`npm run qa:spec` | 快速確認修改沒有破壞基本 HTML、SEO 與規格模組。 |
+| 一個品牌 / 產品系列批次完成後 | `npm run validate:local-optimization` | 驗證本機 preview、產品規格詳情、下載按鈕、SEO 結構、內部註解清理與 backlog 狀態。 |
+| 準備提交 PR / 交接 GPT 審查前 | `npm run validate:external-handoff` | 重新產生 GitHub issue / PR index、GitHub bootstrap handoff、部署分類與完成度稽核。 |
+| 合併前或重大批次收斂時 | `npm run validate:strict` | 跑完整嚴格鏈，作為 PR / CI / AI review 的最終證據。 |
 
-可分項執行：
+原則：
+
+- 內容與 UIUX 開發時，優先跑 `validate:local-optimization`，不要反覆跑完整部署鏈。
+- 只有在要交付、開 PR、重新產生 GitHub / 部署報告時，才跑 `validate:external-handoff` 或 `validate:strict`。
+- `validate:strict` 仍是合併前標準，但不是每個小改的預設指令。
+- 提交前仍需執行 `git diff --check`。
+
+常用分項檢查：
 
 ```powershell
 npm run qa:site

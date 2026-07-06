@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T10:53:48.911Z",
+  "generatedAt": "2026-07-06T11:01:47.490Z",
   "status": "ok",
   "summary": {
     "docs": 26,
@@ -20,7 +20,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# GitHub 驅動的產品頁優化流程",
-      "chars": 4777,
+      "chars": 5474,
       "errors": [],
       "mojibakeHits": []
     },
@@ -83,7 +83,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# 產品規格詳情模組審核紀錄",
-      "chars": 6732,
+      "chars": 7030,
       "errors": [],
       "mojibakeHits": []
     },

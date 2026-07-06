@@ -125,13 +125,19 @@ None.
 ## Validation Commands
 
 ```powershell
-npm run validate
+npm run validate:local-optimization
+npm run validate:external-handoff
+npm run validate:strict
 npm run fix:spec-common:dry-run
 npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
 npm run workflow:github-remote-verify
 npm run qa:visual-sample
 ```
+
+Use `validate:local-optimization` during product page UIUX and spec-module work.
+Use `validate:external-handoff` when refreshing GitHub / deployment handoff artifacts.
+Use `validate:strict` before PR handoff, major commits, or merge readiness.
 
 Latest expected local validation after the RINGFEDER friction-springs and exception-status audit:
 
@@ -142,6 +148,6 @@ Latest expected local validation after the RINGFEDER friction-springs and except
 - `source-needed-audit`: 0 source-needed pages / 6 approved exceptions
 - `optimization-backlog`: 0 blocking pages
 - `visual-sample-qa`: 18 checks / 18 pass / 0 fail / 0 warn
-- `deployment-readiness-audit`: deployment stage remains blocked until explicit deployment approval; deploy package review items are reported separately
+- `deployment-readiness-audit`: deployment stage requires explicit approval; deploy package review items are reported separately
 - `github-remote-state-verification`: 18 expected remote branches present / 0 pull request refs until GitHub token bootstrap is applied
 - `gpt-optimization-completion-audit`: 11 complete / 1 external-action-required / 1 not-in-current-stage / 0 incomplete
