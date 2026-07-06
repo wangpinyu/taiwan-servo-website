@@ -110,3 +110,12 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## Source-needed action index
+
+- Action index: `docs/source-needed-action-index.md`
+- Machine-readable index: `docs/source-needed-action-index.json`
+- Current unresolved scope: 20 pages.
+- AI source audit queue: 14 pages requiring official manufacturer evidence before any product specification table can be created or revised.
+- Non-standard exceptions: 6 ACS test/software/informational/training pages that should not be forced into the hardware `產品規格詳情` schema without a separate content decision.
+- The index is intentionally local-preview/GitHub workflow only; it does not authorize backend save, CKFinder upload, or test-site publication.

@@ -1,0 +1,152 @@
+{
+  "updated_at": "2026-07-06",
+  "policy": {
+    "no_invented_specifications": true,
+    "backend_operations_out_of_scope": true,
+    "allowed_missing_value_labels": ["—", "原廠未公開", "請洽星泰"],
+    "large_file_strategy": "Use official manufacturer download pages or official document URLs and mark external-source when upload/download is not reliable."
+  },
+  "summary": {
+    "total_source_needed_pages": 20,
+    "official_source_audit_queue": 14,
+    "non_standard_exceptions": 6
+  },
+  "official_source_audit_queue": [
+    {
+      "product_id": "102",
+      "title": "JVL整合型伺服馬達及步進馬達的特色",
+      "category": "各類馬達 / 步進馬達",
+      "required_source_work": "Find official JVL product/family pages or PDFs and decide whether the page is a feature overview or a comparable product series page.",
+      "suggested_branch": "source-audit-jvl-motors"
+    },
+    {
+      "product_id": "149",
+      "title": "Thomson 減速機",
+      "category": "空氣軸承 / 滾珠・滾柱軸承 / Thomson",
+      "required_source_work": "Find official Thomson/Nook equivalent source for reducer specifications, or keep as source-needed if the Taiwan Servo page is only a category bridge.",
+      "suggested_branch": "source-audit-thomson-reducers"
+    },
+    {
+      "product_id": "194",
+      "title": "山洋電氣 SANUPS電源系統",
+      "category": "山洋電氣 SANYO DENKI",
+      "required_source_work": "Find official SANUPS series/product pages and public datasheets. Build only source-backed fields.",
+      "suggested_branch": "source-audit-sanyo-denki"
+    },
+    {
+      "product_id": "195",
+      "title": "山洋電氣 SANMOTION伺服系統",
+      "category": "山洋電氣 SANYO DENKI",
+      "required_source_work": "Find official SANMOTION series/product pages and public datasheets. Separate amplifier, motor, and controller downloads.",
+      "suggested_branch": "source-audit-sanyo-denki"
+    },
+    {
+      "product_id": "208",
+      "title": "RINGFEDER 波紋管聯軸器",
+      "category": "聯軸器",
+      "required_source_work": "Find official RINGFEDER bellows coupling pages/catalogs and map public series names before adding tables.",
+      "suggested_branch": "source-audit-ringfeder-couplings"
+    },
+    {
+      "product_id": "209",
+      "title": "RINFEDER 鋼片式聯軸器TND系列",
+      "category": "聯軸器",
+      "required_source_work": "Verify official spelling and TND series source. Correct visible brand typo only when source-backed and approved for content edits.",
+      "suggested_branch": "source-audit-ringfeder-couplings"
+    },
+    {
+      "product_id": "210",
+      "title": "RINFEDER齒輪聯軸器TNZ系列",
+      "category": "聯軸器",
+      "required_source_work": "Verify official TNZ gear coupling source and field names.",
+      "suggested_branch": "source-audit-ringfeder-couplings"
+    },
+    {
+      "product_id": "211",
+      "title": "RINFEDER筒形聯軸器TNK系列",
+      "category": "聯軸器",
+      "required_source_work": "Verify official TNK barrel coupling source and field names.",
+      "suggested_branch": "source-audit-ringfeder-couplings"
+    },
+    {
+      "product_id": "212",
+      "title": "RINFEDER法蘭聯軸器TNF系列",
+      "category": "聯軸器",
+      "required_source_work": "Verify official TNF flange coupling source and field names.",
+      "suggested_branch": "source-audit-ringfeder-couplings"
+    },
+    {
+      "product_id": "213",
+      "title": "RINFEDER撓性聯軸器TNR系列",
+      "category": "聯軸器",
+      "required_source_work": "Verify official TNR flexible coupling source and field names.",
+      "suggested_branch": "source-audit-ringfeder-couplings"
+    },
+    {
+      "product_id": "215",
+      "title": "RINGFEDER 摩擦彈簧",
+      "category": "聯軸器",
+      "required_source_work": "Find official friction spring source. If the product family is not a coupling, note category mismatch separately.",
+      "suggested_branch": "source-audit-ringfeder-couplings"
+    },
+    {
+      "product_id": "270",
+      "title": "山洋電氣 SANYO DENKI 馬達相關",
+      "category": "各類馬達 / 山洋電氣",
+      "required_source_work": "Find official SANYO DENKI motor family pages and decide whether this is a category overview rather than a spec table page.",
+      "suggested_branch": "source-audit-sanyo-denki"
+    },
+    {
+      "product_id": "335",
+      "title": "Ringfeder RLP & RLB 彈性插銷聯軸器",
+      "category": "聯軸器",
+      "required_source_work": "Find official RLP/RLB source tables and downloads.",
+      "suggested_branch": "source-audit-ringfeder-couplings"
+    },
+    {
+      "product_id": "336",
+      "title": "Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)",
+      "category": "聯軸器",
+      "required_source_work": "Find official RLT tyre coupling source tables and downloads.",
+      "suggested_branch": "source-audit-ringfeder-couplings"
+    }
+  ],
+  "non_standard_exceptions": [
+    {
+      "product_id": "241",
+      "title": "測試-ACS硬體分類",
+      "disposition": "exclude-test-page",
+      "handling": "Treat as a test/admin remnant. Do not create a public-facing spec module unless the page is confirmed as real."
+    },
+    {
+      "product_id": "253",
+      "title": "軟體-1",
+      "disposition": "software-source-needed",
+      "handling": "Requires a software-page schema, not the hardware spec table schema."
+    },
+    {
+      "product_id": "254",
+      "title": "軟體-2",
+      "disposition": "software-source-needed",
+      "handling": "Requires a software-page schema, not the hardware spec table schema."
+    },
+    {
+      "product_id": "255",
+      "title": "軟體-3",
+      "disposition": "software-source-needed",
+      "handling": "Requires a software-page schema, not the hardware spec table schema."
+    },
+    {
+      "product_id": "268",
+      "title": "ACS 特點說明",
+      "disposition": "informational-source-needed",
+      "handling": "Treat as an ACS feature/information page. Build structured content only after the page role is approved."
+    },
+    {
+      "product_id": "269",
+      "title": "ACS 教育訓練影片",
+      "disposition": "training-content-no-spec",
+      "handling": "Training/video content should use a training resource schema, not product specifications."
+    }
+  ]
+}
