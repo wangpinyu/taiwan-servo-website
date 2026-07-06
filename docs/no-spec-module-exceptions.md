@@ -1,6 +1,6 @@
 # No Spec Module Exceptions
 
-Generated at: 2026-07-06T13:35:19.488Z
+Generated at: 2026-07-06T14:03:02.903Z
 
 These 6 pages have `qa_status=no-spec-module`. They are not counted as completed product specification modules. They are exception candidates only because the current evidence suggests they are test, software, informational, or training pages rather than normal hardware product pages.
 

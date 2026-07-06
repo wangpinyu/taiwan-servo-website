@@ -1,12 +1,14 @@
 # Integration Review Summary
 
-Generated at: 2026-07-06T13:35:19.488Z
+Generated at: 2026-07-06T14:03:02.903Z
 
 ## Review Baseline
 
 - Review baseline branch: `phase-integration-product-optimization`
-- Baseline commit: `a272ff81`
+- Baseline audit commit: `a272ff81`
+- Latest branch commit captured for PR review: `9f342045`
 - Remote main reference used only for diff: `origin/main@30a319be`
+- PR review target: `main`
 - Deployment baseline: not `main`.
 - Production deployment: not approved.
 
@@ -16,11 +18,11 @@ Generated at: 2026-07-06T13:35:19.488Z
 
 ## Difference From Main
 
-- Git diff summary: 367 files changed, 29469 insertions(+), 4762 deletions(-)
+- Git diff summary: 373 files changed, 30063 insertions(+), 4762 deletions(-)
 - Changed product preview pages: 242
-- Changed report files: 80
-- Changed documentation files: 7
-- Changed workflow/tool files: 20
+- Changed report files: 81
+- Changed documentation files: 11
+- Changed workflow/tool files: 21
 
 The integration branch adds or updates product preview overlays, product specification module QA, product page SEO/structure QA, source-needed audit outputs, GitHub workflow/readiness reports, GitHub issue/PR preparation artifacts, and reusable validation/fix tooling. This is the branch that represents the current reviewable product-page optimization state.
 

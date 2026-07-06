@@ -117,6 +117,7 @@ const standardization = readJson('site/reports/product-standardization-report.js
 
 const branch = git(['branch', '--show-current']);
 const head = git(['rev-parse', '--short', 'HEAD']);
+const baselineAuditCommit = safeGit(['rev-parse', '--short', 'HEAD~1'], head);
 const main = safeGit(['rev-parse', '--short', 'origin/main'], 'unknown');
 const shortStat = safeGit(['diff', '--shortstat', 'origin/main...HEAD'], 'diff unavailable');
 const changedFiles = safeGit(['diff', '--name-only', 'origin/main...HEAD'], '')
@@ -158,8 +159,10 @@ const integrationSummary = [
   '## Review Baseline',
   '',
   `- Review baseline branch: \`${branch}\``,
-  `- Baseline commit: \`${head}\``,
+  `- Baseline audit commit: \`${baselineAuditCommit}\``,
+  `- Latest branch commit captured for PR review: \`${head}\``,
   `- Remote main reference used only for diff: \`origin/main@${main}\``,
+  '- PR review target: `main`',
   '- Deployment baseline: not `main`.',
   '- Production deployment: not approved.',
   '',
@@ -264,8 +267,9 @@ const deploymentReadiness = [
   '## Baseline',
   '',
   `- Review branch: \`${branch}\``,
-  `- Commit: \`${head}\``,
-  '- Target PR branch: `main`',
+  `- Baseline audit commit: \`${baselineAuditCommit}\``,
+  `- Latest branch commit captured for PR review: \`${head}\``,
+  '- PR review target: `main`',
   '- `main` is not the current optimization completion baseline.',
   '',
   '## Pending Items',
@@ -274,6 +278,7 @@ const deploymentReadiness = [
   `- 6 no-spec-module exception pages require human confirmation before production deployment.`,
   '- PR review is pending.',
   '- Deployment approval is not granted.',
+  '- Deployment remains not approved after the commit reference refresh.',
   '',
   '## QA Evidence',
   '',

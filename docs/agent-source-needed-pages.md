@@ -1,6 +1,6 @@
 # Agent Source Needed Pages
 
-Generated at: 2026-07-06T13:35:19.488Z
+Generated at: 2026-07-06T14:03:02.903Z
 
 These 20 pages are still `agent-source-needed` on the `phase-integration-product-optimization` review baseline. They are not approved as completed product specification work. A page may remain visible temporarily only under the condition listed below, but it must not be represented as source-complete.
 
