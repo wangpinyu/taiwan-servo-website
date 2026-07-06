@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T02:22:26.766Z",
+  "generatedAt": "2026-07-06T05:20:21.396Z",
   "status": "ok",
   "summary": {
     "docs": 13,
@@ -56,7 +56,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# 產品規格詳情審核紀錄",
-      "chars": 3515,
+      "chars": 4561,
       "errors": [],
       "mojibakeHits": []
     },

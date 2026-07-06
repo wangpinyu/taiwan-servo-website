@@ -110,3 +110,16 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Sanyo Denki visible quality pass
+
+- Branch: `phase-4-sanyo-denki`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed Sanyo Denki pages:
+  - `detail/193`, `detail/194`, `detail/195`, `detail/270`, `detail/403`, `detail/404`, `detail/405`
+- Result:
+  - Renamed the fan series guide heading on `403`, `404`, and `405` to `產品系列`, while preserving the existing formal-site UIUX and page content.
+  - `194`, `195`, and `270` remain `agent-source-needed` because they need official source-backed specification tables; no unsupported specs were added.
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 7 pages.
+- Validation:
+  - Edge/CDP visual smoke on `193`, `194`, `195`, `270`, `403`, and `405` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, and no customer-facing internal text. Where `產品系列` exists, `產品規格詳情` appears after it.
