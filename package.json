@@ -22,6 +22,8 @@
     "fix:body-title-tags:dry-run": "node tools/fix-body-title-tags.mjs --dry-run",
     "fix:h1-hierarchy": "node tools/fix-product-page-h1-hierarchy.mjs",
     "fix:h1-hierarchy:dry-run": "node tools/fix-product-page-h1-hierarchy.mjs --dry-run",
+    "fix:ringfeder-document-index": "node tools/apply-ringfeder-document-index.mjs",
+    "fix:ringfeder-document-index:dry-run": "node tools/apply-ringfeder-document-index.mjs --dry-run",
     "workflow:backlog": "node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs",
     "workflow:issue-index": "node tools/generate-github-issue-index.mjs",
     "workflow:pr-index": "node tools/generate-github-pr-index.mjs",

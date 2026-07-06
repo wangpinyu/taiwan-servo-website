@@ -67,6 +67,10 @@ function isTechnicalAnchor(anchor) {
   return /(?:\.pdf|\.zip|\.dwg|\.step|\.stp|\.dxf|\.cad|PDF|CAD|Manual|Catalog|Drawing|Software|下載|型錄|規格|資料表|手冊|工程圖)/i.test(joined);
 }
 
+function isExternalDocumentAnchor(anchor) {
+  return /^https?:\/\//i.test(anchor.href || '') && isTechnicalAnchor(anchor);
+}
+
 function validate(page) {
   const file = path.join(root, page.preview_rel);
   const html = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '';
@@ -117,6 +121,7 @@ function validate(page) {
       pdf_links: count(block, /href=(["'])[^"']*\.pdf(?:[#?][^"']*)?\1/gi),
       cad_links: count(block, /\.(?:dwg|dxf|step|stp|cad)(?:[#?]|["'])/gi),
       zip_links: count(block, /href=(["'])[^"']*\.zip(?:[#?][^"']*)?\1/gi),
+      external_document_links: linkList.filter(isExternalDocumentAnchor).length,
       cta_count: hasSpecCta(block) ? 1 : 0,
       spec_images: count(block, /<img\b/gi),
       href_hash: count(block, /href=(["'])(?:#|javascript:void\(0\)|)\1/gi),

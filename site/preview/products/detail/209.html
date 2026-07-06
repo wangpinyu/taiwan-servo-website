@@ -1394,45 +1394,97 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- standardized-spec-module:start -->
 <div class="st-standardized-spec-module" data-standard-module="產品規格詳情">
 <style type="text/css">
-.st-ring-specs{--st-green:#009640;--st-dark:#0b1c2e;--st-soft:#f4fbf7;--st-line:#dfe9e3;--st-blue:#0b6ea8;margin:50px 0 60px;font-family:Arial,'Noto Sans TC','Microsoft JhengHei',sans-serif;color:var(--st-dark);line-height:1.65}
+.st-ring-specs{--st-green:#008f45;--st-deep:#234734;--st-soft:#f6fbf7;--st-line:#d9e8dd;--st-text:#122033;margin:48px 0 60px;font-family:Arial,'Noto Sans TC','Microsoft JhengHei',sans-serif;color:var(--st-text);line-height:1.7}
 .st-ring-specs *{box-sizing:border-box}
-.st-ring-title{font-size:22px;color:var(--st-dark);margin:0 0 18px;border-left:5px solid var(--st-green);padding-left:15px;font-weight:800;line-height:1.35;letter-spacing:0}
-.st-ring-lead{margin:0 0 18px;padding:14px 16px;border:1px solid var(--st-line);border-radius:8px;background:linear-gradient(135deg,#fff 0%,var(--st-soft) 100%);font-size:14px;line-height:1.7;color:#4b5c6b}
-.st-ring-list{display:grid;gap:12px}
-.st-ring-detail{border:1px solid var(--st-line);border-radius:8px;background:#fff;overflow:hidden;box-shadow:0 4px 14px rgba(11,28,46,.04)}
-.st-ring-detail summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:150px 1fr 38px;gap:18px;align-items:center;padding:18px 20px;min-height:78px}
+.st-ring-title{margin:0 0 18px;padding-left:14px;border-left:5px solid var(--st-green);font-size:28px;line-height:1.3;color:var(--st-deep);font-weight:800}
+.st-ring-lead{margin:0 0 18px;padding:14px 16px;border:1px solid var(--st-line);border-radius:8px;background:var(--st-soft);font-size:15px;color:#405361}
+.st-ring-detail{border:1px solid var(--st-line);border-radius:10px;background:#fff;overflow:hidden}
+.st-ring-detail summary{display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;list-style:none;padding:16px 18px;border-bottom:1px solid var(--st-line);font-size:20px;font-weight:800;color:var(--st-deep)}
 .st-ring-detail summary::-webkit-details-marker{display:none}
-.st-ring-code{font-size:24px;line-height:1.05;font-weight:900;color:var(--st-green);letter-spacing:0}
-.st-ring-summary strong{display:block;font-size:17px;line-height:1.35;color:var(--st-dark);font-weight:800}
-.st-ring-summary em{display:block;margin-top:5px;font-style:normal;font-size:13px;line-height:1.55;color:#526372}
-.st-ring-plus{width:34px;height:34px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--st-line);color:var(--st-green);font-size:24px;font-weight:800;line-height:1}
-.st-ring-detail[open] .st-ring-plus{background:var(--st-green);color:#fff;border-color:var(--st-green);font-size:0}
-.st-ring-detail[open] .st-ring-plus:before{content:"-";font-size:24px;line-height:1}
-.st-ring-panel{border-top:1px solid var(--st-line);padding:18px 20px 22px;background:#fff}
-.st-ring-downloads{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
-.st-ring-source-note{margin:0 0 14px;font-size:13px;line-height:1.65;color:#667685}
-.st-ring-table-wrap{width:100%;overflow-x:auto;border:1px solid var(--st-line);border-radius:8px;background:#fff;-webkit-overflow-scrolling:touch}
-.st-ring-table{width:100%;border-collapse:collapse;font-size:13px;line-height:1.45}
-.st-ring-table th{background:#0b6ea8;color:#fff;text-align:center;padding:10px 8px;border-right:1px solid rgba(255,255,255,.24);font-weight:800;white-space:nowrap}
-.st-ring-table td{padding:10px 8px;text-align:center;border-top:1px solid #e8eef0;color:#102033;vertical-align:middle;white-space:nowrap}
-.st-ring-table td:first-child{text-align:left;font-weight:800;color:#091827}
-.st-ring-table tbody tr:nth-child(even){background:#fbfcfc}
-.st-ring-file{display:inline-flex;align-items:center;justify-content:center;min-width:112px;min-height:28px;border-radius:5px;padding:5px 9px;font-size:12px;font-weight:800;line-height:1;text-align:center;white-space:nowrap;background:#eef6ff;color:#0b6ea8;border:1px solid #b9daf2}
-.st-ring-empty{padding:14px;border:1px solid #e6eee9;border-radius:8px;background:#f7fbf9;color:#596b77;font-size:13px}
-.st-ring-footnote{margin:12px 0 0;font-size:12px;line-height:1.65;color:#72808b}
-@media (max-width:760px){.st-ring-specs{margin:36px 0 44px}.st-ring-title{font-size:20px}.st-ring-lead{font-size:13px}.st-ring-detail summary{grid-template-columns:88px 1fr 32px;gap:10px;padding:15px 14px;min-height:72px}.st-ring-code{font-size:20px}.st-ring-summary strong{font-size:15px}.st-ring-summary em{font-size:12px}.st-ring-panel{padding:14px}.st-ring-table-wrap{border:0;overflow:visible}.st-ring-table{min-width:0!important;border-collapse:separate;border-spacing:0 10px}.st-ring-table thead{display:none}.st-ring-table,.st-ring-table tbody,.st-ring-table tr,.st-ring-table td{display:block;width:100%}.st-ring-table tr{border:1px solid #e0e8e4;border-radius:8px;overflow:hidden;background:#fff}.st-ring-table td{display:grid;grid-template-columns:118px 1fr;gap:8px;text-align:left;border-top:1px solid #edf2ef;padding:9px 11px;white-space:normal}.st-ring-table td:first-child{border-top:0}.st-ring-table td:before{content:attr(data-label);font-weight:800;color:#60727f}.st-ring-file{width:max-content;min-width:100px}}
+.st-ring-toggle{display:inline-flex;align-items:center;justify-content:center;min-width:86px;padding:6px 12px;border-radius:999px;background:var(--st-green);color:#fff;font-size:14px;font-weight:700}
+.st-ring-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.st-ring-table{width:100%;min-width:760px;border-collapse:collapse;font-size:15px}
+.st-ring-table th,.st-ring-table td{padding:14px 12px;border-bottom:1px solid var(--st-line);vertical-align:middle;text-align:left}
+.st-ring-table thead th{position:sticky;top:0;background:#eaf5ee;color:var(--st-deep);font-weight:800}
+.st-ring-table tbody th{position:sticky;left:0;background:#fff;color:var(--st-deep);font-weight:800}
+.st-ring-doc-link,.st-ring-quote-link{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:8px 13px;border-radius:7px;text-decoration:none;font-weight:800}
+.st-ring-doc-link{background:#0f7faa;color:#fff}
+.st-ring-quote-link{background:var(--st-green);color:#fff}
+.st-ring-note{margin:14px 18px 18px;color:#445765;font-size:14px}
+@media(max-width:640px){.st-ring-title{font-size:24px}.st-ring-detail summary{align-items:flex-start;flex-direction:column}.st-ring-table{font-size:14px}}
 </style>
 <section class="st-ring-specs" aria-labelledby="st-ring-title-209">
-<h3 class="st-ring-title" id="st-ring-title-209">產品規格詳情</h3>
-<p class="st-ring-lead">以下依 RINGFEDER 原廠產品頁的 Technical Data &amp; CAD Models 表格整理，補足星泰產品頁中各系列的主要 metric 規格。星泰為代理商頁面，適合以同頁摺疊卡集中呈現多個系列，避免為每個系列另開頁。</p>
-<div class="st-ring-list">
-<details class="st-ring-detail" open><summary><span class="st-ring-code">TND HSH</span><span class="st-ring-summary"><strong>Steel Disc Couplings TND HSH</strong><em>11 筆 metric 技術資料列；2 個英文 PDF 按鈕。</em></span><span class="st-ring-plus">展開 / 收合</span></summary><div class="st-ring-panel"><div class="st-ring-downloads"><span class="st-ring-file" role="note" data-file-key="ring-209-01-tnd-hsh-01-product-paper-tech-paper-ringfeder-steel-disc-couplings-tnd-en.pdf">Product Paper </span><span class="st-ring-file" role="note" data-file-key="ring-209-01-tnd-hsh-02-tech-paper-ringfeder-steel-disc-couplings-tnd-hsh-en.pdf">Tech Paper </span></div>
-
-<div class="st-spec-cta" style="margin-top:18px;padding:16px 18px;border:1px solid #dbe8e2;border-radius:8px;background:#f7fbf8;color:#102033;">
-  <strong>需要協助確認 RINFEDER 鋼片式聯軸器TND系列 規格？</strong>
-  <p style="margin:8px 0 12px;">請提供預計應用、安裝條件、關鍵尺寸、負載與控制需求，星泰可協助比對適合的系列、型號與技術文件。</p>
-  <a href="../../skipped/96da16962be2-inquiry.html" style="display:inline-block;padding:9px 16px;border-radius:6px;background:#079b4b;color:#fff;text-decoration:none;font-weight:700;" aria-label="聯絡星泰確認 RINFEDER 鋼片式聯軸器TND系列 規格">請洽星泰確認規格</a>
-</div>
+  <h3 class="st-ring-title" id="st-ring-title-209">產品規格詳情</h3>
+  <p class="st-ring-lead">本區彙整頁面中各 RINGFEDER 系列的官方技術資料入口，方便快速開啟原廠 PDF、CAD 與選型文件。實際選型請提供安裝尺寸、扭矩、轉速與使用環境，由星泰協助確認。</p>
+  <details class="st-ring-detail" open>
+    <summary>
+      <span>官方文件索引</span>
+      <span class="st-ring-toggle" aria-hidden="true">展開 / 收合</span>
+    </summary>
+    <div class="st-ring-table-wrap" role="region" aria-label="RINFEDER 鋼片式聯軸器TND系列 官方文件索引表">
+      <table class="st-ring-table">
+        <thead>
+          <tr>
+            <th scope="col">系列</th>
+            <th scope="col">文件類型</th>
+            <th scope="col">原廠資料入口</th>
+            <th scope="col">詢問</th>
+          </tr>
+        </thead>
+        <tbody>
+              <tr>
+                <th scope="row">TND HSH</th>
+                <td>PDF / CAD / 技術資料</td>
+                <td><a class="st-ring-doc-link" href="https://www.ringfeder.com/products/steel-disc-couplings/tnd-hsh/#download" target="_blank" rel="noopener" aria-label="開啟 RINGFEDER TND HSH 原廠下載頁">原廠 PDF / CAD 下載</a></td>
+                <td><a class="st-ring-quote-link" href="../../skipped/96da16962be2-inquiry.html" aria-label="詢問 RINFEDER 鋼片式聯軸器TND系列 TND HSH 選型">請洽星泰</a></td>
+              </tr>
+              <tr>
+                <th scope="row">TND HDH</th>
+                <td>PDF / CAD / 技術資料</td>
+                <td><a class="st-ring-doc-link" href="https://www.ringfeder.com/products/steel-disc-couplings/tnd-hdh/#download" target="_blank" rel="noopener" aria-label="開啟 RINGFEDER TND HDH 原廠下載頁">原廠 PDF / CAD 下載</a></td>
+                <td><a class="st-ring-quote-link" href="../../skipped/96da16962be2-inquiry.html" aria-label="詢問 RINFEDER 鋼片式聯軸器TND系列 TND HDH 選型">請洽星泰</a></td>
+              </tr>
+              <tr>
+                <th scope="row">TND HDV</th>
+                <td>PDF / CAD / 技術資料</td>
+                <td><a class="st-ring-doc-link" href="https://www.ringfeder.com/products/steel-disc-couplings/tnd-hdv/#download" target="_blank" rel="noopener" aria-label="開啟 RINGFEDER TND HDV 原廠下載頁">原廠 PDF / CAD 下載</a></td>
+                <td><a class="st-ring-quote-link" href="../../skipped/96da16962be2-inquiry.html" aria-label="詢問 RINFEDER 鋼片式聯軸器TND系列 TND HDV 選型">請洽星泰</a></td>
+              </tr>
+              <tr>
+                <th scope="row">TND VDV</th>
+                <td>PDF / CAD / 技術資料</td>
+                <td><a class="st-ring-doc-link" href="https://www.ringfeder.com/products/steel-disc-couplings/tnd-vdv/#download" target="_blank" rel="noopener" aria-label="開啟 RINGFEDER TND VDV 原廠下載頁">原廠 PDF / CAD 下載</a></td>
+                <td><a class="st-ring-quote-link" href="../../skipped/96da16962be2-inquiry.html" aria-label="詢問 RINFEDER 鋼片式聯軸器TND系列 TND VDV 選型">請洽星泰</a></td>
+              </tr>
+              <tr>
+                <th scope="row">TND OCO</th>
+                <td>PDF / CAD / 技術資料</td>
+                <td><a class="st-ring-doc-link" href="https://www.ringfeder.com/products/steel-disc-couplings/tnd-oco/#download" target="_blank" rel="noopener" aria-label="開啟 RINGFEDER TND OCO 原廠下載頁">原廠 PDF / CAD 下載</a></td>
+                <td><a class="st-ring-quote-link" href="../../skipped/96da16962be2-inquiry.html" aria-label="詢問 RINFEDER 鋼片式聯軸器TND系列 TND OCO 選型">請洽星泰</a></td>
+              </tr>
+              <tr>
+                <th scope="row">TND XSX</th>
+                <td>PDF / CAD / 技術資料</td>
+                <td><a class="st-ring-doc-link" href="https://www.ringfeder.com/products/steel-disc-couplings/tnd-xsx/#download" target="_blank" rel="noopener" aria-label="開啟 RINGFEDER TND XSX 原廠下載頁">原廠 PDF / CAD 下載</a></td>
+                <td><a class="st-ring-quote-link" href="../../skipped/96da16962be2-inquiry.html" aria-label="詢問 RINFEDER 鋼片式聯軸器TND系列 TND XSX 選型">請洽星泰</a></td>
+              </tr>
+              <tr>
+                <th scope="row">TND XDX</th>
+                <td>PDF / CAD / 技術資料</td>
+                <td><a class="st-ring-doc-link" href="https://www.ringfeder.com/products/steel-disc-couplings/tnd-xdx/#download" target="_blank" rel="noopener" aria-label="開啟 RINGFEDER TND XDX 原廠下載頁">原廠 PDF / CAD 下載</a></td>
+                <td><a class="st-ring-quote-link" href="../../skipped/96da16962be2-inquiry.html" aria-label="詢問 RINFEDER 鋼片式聯軸器TND系列 TND XDX 選型">請洽星泰</a></td>
+              </tr>
+              <tr>
+                <th scope="row">TND QCQ</th>
+                <td>PDF / CAD / 技術資料</td>
+                <td><a class="st-ring-doc-link" href="https://www.ringfeder.com/products/steel-disc-couplings/tnd-qcq/#download" target="_blank" rel="noopener" aria-label="開啟 RINGFEDER TND QCQ 原廠下載頁">原廠 PDF / CAD 下載</a></td>
+                <td><a class="st-ring-quote-link" href="../../skipped/96da16962be2-inquiry.html" aria-label="詢問 RINFEDER 鋼片式聯軸器TND系列 TND QCQ 選型">請洽星泰</a></td>
+              </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="st-ring-note">表格入口連至 RINGFEDER 官方產品下載區；若需要台灣供應、替代型號或安裝條件判斷，請直接詢問星泰。</p>
+  </details>
 </section>
 </div>
 <!-- standardized-spec-module:end -->

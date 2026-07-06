@@ -7,8 +7,8 @@
 ## 目前總覽
 
 - 產品頁：248
-- `agent-approved-clean`：228
-- `agent-source-needed`：20
+- `agent-approved-clean`：237
+- `agent-source-needed`：11
 - `agent-fix-required`：0
 - `agent-structure-review`：0
 - critical fail：0
@@ -47,9 +47,9 @@
 
 ## Source-needed 摘要
 
-目前 20 頁仍需來源或內容判斷：
+目前 11 頁仍需來源或內容判斷：
 
-- `official-source-needed`：14
+- `official-source-needed`：5
 - `software-source-needed`：3
 - `informational-source-needed`：1
 - `training-content-no-spec`：1
@@ -78,7 +78,14 @@
 - no-spec-module：6
 - fail：0
 
-14 個 warning 目前集中在 `spec-table-missing`，多屬於沒有足夠規格來源或不適合建立型號表的頁面，需與 source-needed audit 一起看。
+5 個 warning 目前集中在 `spec-table-missing`，多屬於沒有足夠規格來源或不適合建立型號表的頁面，需與 source-needed audit 一起看。
+
+## 2026-07-06 Phase 4 聯軸器更新
+
+- 已將 9 個 RINGFEDER 聯軸器頁面的 `產品規格詳情` 改為官方文件索引型表格：208、209、210、211、212、213、215、335、336。
+- 每頁保留 `產品系列` 既有正式網 UIUX，`產品規格詳情` 放在系列區下方，使用真正 `<table>`、`details`、外部 RINGFEDER 官方 PDF / CAD 下載入口與星泰詢問 CTA。
+- 不補寫原廠未提供的扭矩、尺寸或型號規格；本輪只用頁面既有 RINGFEDER 官方下載連結作為可驗證資料入口。
+- 9 頁已由 `agent-source-needed` 轉為 `agent-approved-clean`。
 
 ## 已建立工具
 
@@ -89,6 +96,7 @@
 - `tools/generate-product-seo-warning-taxonomy.mjs`
 - `tools/generate-product-spec-agent-review.mjs`
 - `tools/generate-source-needed-audit.mjs`
+- `tools/apply-ringfeder-document-index.mjs`
 - `tools/generate-optimization-backlog.mjs`
 - `tools/generate-github-issue-index.mjs`
 - `tools/generate-github-pr-index.mjs`

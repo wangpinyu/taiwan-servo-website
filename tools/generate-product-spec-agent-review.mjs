@@ -65,7 +65,8 @@ function classify({ specPage, seoPage, standardizationPage }) {
   const hasUsableDocumentLink =
     (specPage?.counts?.pdf_links || 0) +
     (specPage?.counts?.cad_links || 0) +
-    (specPage?.counts?.zip_links || 0) > 0;
+    (specPage?.counts?.zip_links || 0) +
+    (specPage?.counts?.external_document_links || 0) > 0;
   if (onlyMissingSpecTable && !hasUsableDocumentLink) {
     return {
       status: 'agent-source-needed',

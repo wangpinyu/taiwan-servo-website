@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T01:26:46.364Z",
+  "generated_at": "2026-07-06T03:01:51.554Z",
   "scope": "Product detail page SEO and structure QA",
   "strict": false,
   "policy": {
@@ -15,13 +15,13 @@
   "summary": {
     "total_pages": 248,
     "status_counts": {
-      "pass": 228,
-      "warn": 14,
+      "pass": 237,
+      "warn": 5,
       "no-spec-module": 6
     },
     "fail_count": 0,
-    "warn_count": 14,
-    "pass_count": 228,
+    "warn_count": 5,
+    "pass_count": 237,
     "no_spec_module_count": 6
   },
   "pages": [
@@ -3696,15 +3696,13 @@
         "summaries": 1,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
-        "download_links": 0,
-        "cta_links": 1
+        "tables": 1,
+        "download_links": 8,
+        "cta_links": 8
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "209",
@@ -3729,15 +3727,13 @@
         "summaries": 1,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
-        "download_links": 0,
-        "cta_links": 1
+        "tables": 1,
+        "download_links": 8,
+        "cta_links": 8
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "210",
@@ -3762,15 +3758,13 @@
         "summaries": 1,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
-        "download_links": 0,
-        "cta_links": 1
+        "tables": 1,
+        "download_links": 8,
+        "cta_links": 8
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "211",
@@ -3795,15 +3789,13 @@
         "summaries": 1,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
-        "download_links": 0,
+        "tables": 1,
+        "download_links": 1,
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "212",
@@ -3828,15 +3820,13 @@
         "summaries": 1,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
-        "download_links": 0,
+        "tables": 1,
+        "download_links": 1,
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "213",
@@ -3861,15 +3851,13 @@
         "summaries": 1,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
-        "download_links": 0,
-        "cta_links": 1
+        "tables": 1,
+        "download_links": 6,
+        "cta_links": 6
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "214",
@@ -3925,15 +3913,13 @@
         "summaries": 1,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
-        "download_links": 0,
+        "tables": 1,
+        "download_links": 1,
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "216",
@@ -6524,15 +6510,13 @@
         "summaries": 1,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
-        "download_links": 0,
-        "cta_links": 1
+        "tables": 1,
+        "download_links": 2,
+        "cta_links": 2
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "336",
@@ -6557,15 +6541,13 @@
         "summaries": 1,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
-        "download_links": 0,
-        "cta_links": 1
+        "tables": 1,
+        "download_links": 2,
+        "cta_links": 2
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "338",

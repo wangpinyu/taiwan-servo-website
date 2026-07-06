@@ -1,19 +1,17 @@
 {
   "summary": {
-    "generated_at": "2026-07-06T01:26:46.417Z",
-    "total_warning_entries": 14,
-    "affected_pages": 14,
+    "generated_at": "2026-07-06T03:01:51.613Z",
+    "total_warning_entries": 5,
+    "affected_pages": 5,
     "warning_type_counts": {
-      "spec-table-missing": 14
+      "spec-table-missing": 5
     },
     "category_warning_counts": {
-      "聯軸器": 9,
       "山洋電氣 SANYO DENKI": 2,
       "各類馬達": 2,
       "空氣軸承 / 滾珠•滾柱軸承": 1
     },
     "branch_warning_counts": {
-      "phase-4-couplings": 9,
       "phase-2-motors-spec-review": 2,
       "phase-4-sanyo-denki": 2,
       "phase-3-bearings-air-mechanical": 1
@@ -61,101 +59,11 @@
       "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
     },
     {
-      "product_id": "208",
-      "title": "RINGFEDER 波紋管聯軸器",
-      "category": "聯軸器",
-      "branch": "phase-4-couplings",
-      "preview_rel": "preview/products/detail/208.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
-      "product_id": "209",
-      "title": "RINFEDER 鋼片式聯軸器TND系列",
-      "category": "聯軸器",
-      "branch": "phase-4-couplings",
-      "preview_rel": "preview/products/detail/209.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
-      "product_id": "210",
-      "title": "RINFEDER齒輪聯軸器TNZ系列",
-      "category": "聯軸器",
-      "branch": "phase-4-couplings",
-      "preview_rel": "preview/products/detail/210.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
-      "product_id": "211",
-      "title": "RINFEDER筒形聯軸器TNK系列",
-      "category": "聯軸器",
-      "branch": "phase-4-couplings",
-      "preview_rel": "preview/products/detail/211.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
-      "product_id": "212",
-      "title": "RINFEDER法蘭聯軸器TNF系列",
-      "category": "聯軸器",
-      "branch": "phase-4-couplings",
-      "preview_rel": "preview/products/detail/212.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
-      "product_id": "213",
-      "title": "RINFEDER撓性聯軸器TNR系列",
-      "category": "聯軸器",
-      "branch": "phase-4-couplings",
-      "preview_rel": "preview/products/detail/213.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
-      "product_id": "215",
-      "title": "RINGFEDER 摩擦彈簧",
-      "category": "聯軸器",
-      "branch": "phase-4-couplings",
-      "preview_rel": "preview/products/detail/215.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
       "product_id": "270",
       "title": "山洋電氣 SANYO DENKI 馬達相關",
       "category": "各類馬達",
       "branch": "phase-2-motors-spec-review",
       "preview_rel": "preview/products/detail/270.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
-      "product_id": "335",
-      "title": "Ringfeder RLP & RLB 彈性插銷聯軸器",
-      "category": "聯軸器",
-      "branch": "phase-4-couplings",
-      "preview_rel": "preview/products/detail/335.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
-    {
-      "product_id": "336",
-      "title": "Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)",
-      "category": "聯軸器",
-      "branch": "phase-4-couplings",
-      "preview_rel": "preview/products/detail/336.html",
       "warning": "spec_table_missing",
       "warning_type": "spec-table-missing",
       "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
