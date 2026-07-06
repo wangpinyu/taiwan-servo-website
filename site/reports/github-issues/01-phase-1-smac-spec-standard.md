@@ -3,13 +3,12 @@
 Branch: `phase-1-smac-spec-standard`
 Priority: 1
 Pages: 14
-Blocking pages: 2
+Blocking pages: 1
 
 ## Status counts
 
-- agent-approved-clean: 12
+- agent-approved-clean: 13
 - agent-structure-review: 1
-- agent-fix-required: 1
 
 ## Target pages
 
@@ -27,7 +26,7 @@ Blocking pages: 2
 | 375 | SMAC線性滑塊致動器 | agent-approved-clean | preview/products/detail/375.html |
 | 376 | Thomson智慧型重載電動推桿 | agent-approved-clean | preview/products/detail/376.html |
 | 377 | Thomson通用工業電動推桿 | agent-approved-clean | preview/products/detail/377.html |
-| 378 | Thomson精密與特殊應用電動推桿 | agent-fix-required | preview/products/detail/378.html |
+| 378 | Thomson精密與特殊應用電動推桿 | agent-approved-clean | preview/products/detail/378.html |
 | 379 | Thomson軌道式電動推桿 | agent-approved-clean | preview/products/detail/379.html |
 
 ## Acceptance criteria

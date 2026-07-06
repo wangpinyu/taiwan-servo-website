@@ -3,17 +3,17 @@
 Branch: `phase-5-ceramic-chucks`
 Priority: 14
 Pages: 1
-Blocking pages: 1
+Blocking pages: 0
 
 ## Status counts
 
-- agent-fix-required: 1
+- agent-approved-clean: 1
 
 ## Target pages
 
 | ID | Title | Status | Preview |
 | --- | --- | --- | --- |
-| 129 | 多孔性陶瓷真空吸盤（Porous Ceramic Chuck Table） | agent-fix-required | preview/products/detail/129.html |
+| 129 | 多孔性陶瓷真空吸盤（Porous Ceramic Chuck Table） | agent-approved-clean | preview/products/detail/129.html |
 
 ## Acceptance criteria
 
