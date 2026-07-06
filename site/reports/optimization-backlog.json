@@ -1,13 +1,13 @@
 {
   "summary": {
-    "generated_at": "2026-07-05T23:47:52.419Z",
+    "generated_at": "2026-07-06T00:45:27.681Z",
     "total_categories": 18,
     "total_pages": 248,
-    "total_blocking_pages": 73,
+    "total_blocking_pages": 68,
     "status_counts": {
-      "agent-approved-clean": 175,
-      "agent-fix-required": 54,
+      "agent-approved-clean": 180,
       "agent-structure-review": 13,
+      "agent-fix-required": 49,
       "agent-source-needed": 6
     }
   },
@@ -18,9 +18,9 @@
       "branch": "phase-1-smac-spec-standard",
       "total": 14,
       "status_counts": {
-        "agent-approved-clean": 10,
-        "agent-fix-required": 3,
-        "agent-structure-review": 1
+        "agent-approved-clean": 12,
+        "agent-structure-review": 1,
+        "agent-fix-required": 1
       },
       "pages": [
         {
@@ -59,7 +59,7 @@
           "preview_rel": "preview/products/detail/170.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-fix-required",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -69,7 +69,7 @@
           "preview_rel": "preview/products/detail/171.html",
           "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-fix-required",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -166,26 +166,6 @@
       ],
       "blocking_pages": [
         {
-          "product_id": "170",
-          "title": "Thomson升降柱(Lifting Columns)",
-          "preview_rel": "preview/products/detail/170.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-fix-required",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "171",
-          "title": "Thomson不銹鋼食品級線性致動器",
-          "preview_rel": "preview/products/detail/171.html",
-          "overlay_status": "inserted-before-application",
-          "qa_status": "pass",
-          "agent_status": "agent-fix-required",
-          "warnings": [],
-          "critical": []
-        },
-        {
           "product_id": "173",
           "title": "CMCO 升降器",
           "preview_rel": "preview/products/detail/173.html",
@@ -214,9 +194,9 @@
       "branch": "phase-2-drivers-spec-review",
       "total": 12,
       "status_counts": {
-        "agent-fix-required": 7,
+        "agent-fix-required": 6,
         "agent-structure-review": 2,
-        "agent-approved-clean": 3
+        "agent-approved-clean": 4
       },
       "pages": [
         {
@@ -295,7 +275,7 @@
           "preview_rel": "preview/products/detail/357.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-fix-required",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -386,16 +366,6 @@
           "title": "Accelnet 驅動器",
           "preview_rel": "preview/products/detail/355.html",
           "overlay_status": "inserted-before-application",
-          "qa_status": "pass",
-          "agent_status": "agent-fix-required",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "357",
-          "title": "Integrated Drive",
-          "preview_rel": "preview/products/detail/357.html",
-          "overlay_status": "inserted",
           "qa_status": "pass",
           "agent_status": "agent-fix-required",
           "warnings": [],
@@ -746,9 +716,8 @@
       "branch": "phase-2-drivers-spec-review",
       "total": 18,
       "status_counts": {
-        "agent-fix-required": 1,
+        "agent-approved-clean": 11,
         "agent-source-needed": 6,
-        "agent-approved-clean": 10,
         "agent-structure-review": 1
       },
       "pages": [
@@ -758,7 +727,7 @@
           "preview_rel": "preview/products/detail/76.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-fix-required",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -934,16 +903,6 @@
         }
       ],
       "blocking_pages": [
-        {
-          "product_id": "76",
-          "title": "雷射加工應用軟體：DMC",
-          "preview_rel": "preview/products/detail/76.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-fix-required",
-          "warnings": [],
-          "critical": []
-        },
         {
           "product_id": "241",
           "title": "測試-ACS硬體分類",
@@ -3114,8 +3073,8 @@
       "branch": "phase-4-special-environments",
       "total": 11,
       "status_counts": {
-        "agent-approved-clean": 9,
-        "agent-fix-required": 2
+        "agent-approved-clean": 10,
+        "agent-fix-required": 1
       },
       "pages": [
         {
@@ -3134,7 +3093,7 @@
           "preview_rel": "preview/products/detail/179.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-fix-required",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -3230,16 +3189,6 @@
         }
       ],
       "blocking_pages": [
-        {
-          "product_id": "179",
-          "title": "Thomson不銹鋼食品級線性致動器",
-          "preview_rel": "preview/products/detail/179.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-fix-required",
-          "warnings": [],
-          "critical": []
-        },
         {
           "product_id": "181",
           "title": "Winkel 重載傳輸軌道、軸承",
