@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-07-06T02:04:41.650Z",
+  "generatedAt": "2026-07-06T02:22:07.951Z",
   "status": "ok",
   "summary": {
-    "docs": 6,
+    "docs": 13,
     "errors": 0
   },
   "checks": [
     {
       "file": "README.md",
+      "type": "doc",
       "status": "pass",
       "title": "# Taiwan Servo Site Optimization",
       "chars": 7021,
@@ -16,6 +17,7 @@
     },
     {
       "file": "docs/github-optimization-workflow.md",
+      "type": "doc",
       "status": "pass",
       "title": "# GitHub 驅動的產品頁優化流程",
       "chars": 4266,
@@ -24,6 +26,7 @@
     },
     {
       "file": "docs/github-private-repo-setup.md",
+      "type": "doc",
       "status": "pass",
       "title": "# Private GitHub Repo Setup",
       "chars": 2283,
@@ -32,6 +35,7 @@
     },
     {
       "file": "docs/product-spec-data-schema.md",
+      "type": "doc",
       "status": "pass",
       "title": "# 產品規格詳情資料 Schema",
       "chars": 3595,
@@ -40,6 +44,7 @@
     },
     {
       "file": "docs/products-page-architecture.md",
+      "type": "doc",
       "status": "pass",
       "title": "# 產品頁架構規範",
       "chars": 1519,
@@ -48,9 +53,73 @@
     },
     {
       "file": "docs/spec-module-review-log.md",
+      "type": "doc",
       "status": "pass",
       "title": "# 產品規格詳情審核紀錄",
       "chars": 3515,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/github-bootstrap-readiness.html",
+      "type": "report",
+      "status": "pass",
+      "title": "GitHub Bootstrap Readiness",
+      "chars": 5221,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/optimization-backlog.html",
+      "type": "report",
+      "status": "pass",
+      "title": "Optimization Backlog",
+      "chars": 5934,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/product-page-structure-seo-qa.html",
+      "type": "report",
+      "status": "pass",
+      "title": "產品頁 SEO 與結構 QA",
+      "chars": 40073,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/product-spec-agent-review.html",
+      "type": "report",
+      "status": "pass",
+      "title": "AI Agent 產品頁審核",
+      "chars": 53703,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/product-spec-module-qa.html",
+      "type": "report",
+      "status": "pass",
+      "title": "產品規格詳情 QA",
+      "chars": 31955,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/source-needed-audit.html",
+      "type": "report",
+      "status": "pass",
+      "title": "Source-needed Audit",
+      "chars": 7231,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/source-needed-audit.md",
+      "type": "report",
+      "status": "pass",
+      "title": "# Source-needed Audit",
+      "chars": 4133,
       "errors": [],
       "mojibakeHits": []
     }
