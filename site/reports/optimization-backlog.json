@@ -1,12 +1,12 @@
 {
   "summary": {
-    "generated_at": "2026-07-06T07:35:50.774Z",
+    "generated_at": "2026-07-06T07:56:34.556Z",
     "total_categories": 18,
     "total_pages": 248,
-    "total_blocking_pages": 7,
+    "total_blocking_pages": 6,
     "status_counts": {
-      "agent-approved-clean": 241,
-      "agent-source-needed": 7
+      "agent-approved-clean": 242,
+      "agent-source-needed": 6
     }
   },
   "categories": [
@@ -1853,8 +1853,7 @@
       "branch": "phase-4-couplings",
       "total": 16,
       "status_counts": {
-        "agent-approved-clean": 15,
-        "agent-source-needed": 1
+        "agent-approved-clean": 16
       },
       "pages": [
         {
@@ -1963,7 +1962,7 @@
           "preview_rel": "preview/products/detail/215.html",
           "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-source-needed",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -2018,30 +2017,8 @@
           "critical": []
         }
       ],
-      "blocking_pages": [
-        {
-          "product_id": "215",
-          "title": "RINGFEDER 摩擦彈簧",
-          "preview_rel": "preview/products/detail/215.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        }
-      ],
-      "source_pages": [
-        {
-          "product_id": "215",
-          "title": "RINGFEDER 摩擦彈簧",
-          "preview_rel": "preview/products/detail/215.html",
-          "overlay_status": "inserted",
-          "qa_status": "pass",
-          "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        }
-      ]
+      "blocking_pages": [],
+      "source_pages": []
     },
     {
       "category": "FMS 張力系統",

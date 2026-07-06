@@ -7,11 +7,12 @@ This log tracks local-preview and GitHub workflow status for the Taiwan Servo pr
 ## Current Summary
 
 - Product pages: 248
-- `agent-approved-clean`: 241
-- `agent-source-needed`: 7
+- `agent-approved-clean`: 242
+- `agent-source-needed`: 6
 - `agent-fix-required`: 0
 - `agent-structure-review`: 0
 - Critical failures: 0
+- Current official-source audit queue: 0
 
 Authoritative reports:
 
@@ -33,8 +34,8 @@ Authoritative reports:
 
 - Action index: `docs/source-needed-action-index.md`
 - Machine-readable index: `docs/source-needed-action-index.json`
-- Current unresolved scope: 7 pages.
-- AI source audit queue: 1 page requiring official manufacturer evidence before any product specification table can be created or revised.
+- Current unresolved scope: 6 pages.
+- AI source audit queue: 0 hardware pages.
 - Non-standard exceptions: 6 ACS test/software/informational/training pages that should not be forced into the hardware `產品規格詳情` schema without a separate content decision.
 
 ## Completed Source Audit Progress
@@ -44,11 +45,21 @@ Authoritative reports:
 - Branch: `source-audit-ringfeder-couplings`
 - Evidence package: `docs/source-audits/ringfeder-couplings.md`
 - Machine-readable evidence: `docs/source-audits/ringfeder-couplings.json`
-- Covered pages: 208, 209, 210, 211, 212, 213, 215, 335, 336
+- Covered pages: 208, 209, 210, 211, 212, 213, 335, 336
 - Current source status:
   - `agent-approved-clean`: 208, 209, 210, 211, 212, 213, 335, 336
-  - `agent-source-needed`: 215
-- Review rule: 215 stays unresolved until the friction-spring category/content decision is made. The other RINGFEDER pages now have source-backed visible `產品規格詳情` modules and pass validation.
+  - `agent-source-needed`: none
+
+### RINGFEDER Friction Springs
+
+- Branch: `source-audit-ringfeder-friction-springs`
+- Evidence package: `docs/source-audits/ringfeder-friction-springs.md`
+- Machine-readable evidence: `docs/source-audits/ringfeder-friction-springs.json`
+- Covered pages: 215
+- Current source status:
+  - `agent-approved-clean`: 215
+  - `agent-source-needed`: none
+- Review rule: keep the page framed as a friction-spring / damping-technology page. Do not force it into a shaft coupling comparison table.
 
 ### SANYO DENKI
 
@@ -87,9 +98,7 @@ Authoritative reports:
 
 ### Official Source Audit Queue
 
-| ID | Page | Category | Suggested branch |
-| --- | --- | --- | --- |
-| 215 | RINGFEDER 摩擦彈簧 | 聯軸器 / RINGFEDER 摩擦彈簧 | `source-audit-ringfeder-friction-springs` |
+None.
 
 ### Non-standard Exceptions
 
@@ -107,6 +116,7 @@ Authoritative reports:
 - Existing `產品規格詳情` modules include a standard inquiry CTA when a CTA was missing.
 - Visible backend/developer wording was cleaned from affected preview modules.
 - `data-local-file`, `.txt` hrefs, local disk paths, and visible `pending/placeholder` wording are blocked by QA.
+- Product specification tables use real `<table>` markup with visible headers, units where source-backed, and mobile horizontal scrolling.
 
 ## Validation Commands
 
@@ -117,8 +127,9 @@ npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
 ```
 
-Latest expected local validation after the Thomson reducers audit:
+Latest expected local validation after the RINGFEDER friction-springs audit:
 
 - `product-spec-module-qa`: 242 pass / 6 no-spec-module / 0 fail / 0 warn
-- `product-page-structure-seo-qa`: 241 pass / 1 warn / 6 no-spec-module / 0 fail
-- `product-spec-agent-review`: 241 `agent-approved-clean` / 7 `agent-source-needed` / 0 `agent-fix-required`
+- `product-page-structure-seo-qa`: 242 pass / 6 no-spec-module / 0 fail / 0 warn
+- `product-seo-warning-taxonomy`: 0 warning entries
+- `product-spec-agent-review`: 242 `agent-approved-clean` / 6 `agent-source-needed` / 0 `agent-fix-required`

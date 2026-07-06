@@ -3,12 +3,11 @@
 Branch: `phase-4-couplings`
 Priority: 9
 Pages: 16
-Blocking pages: 1
+Blocking pages: 0
 
 ## Status counts
 
-- agent-approved-clean: 15
-- agent-source-needed: 1
+- agent-approved-clean: 16
 
 ## Target pages
 
@@ -24,7 +23,7 @@ Blocking pages: 1
 | 212 | RINFEDER法蘭聯軸器TNF系列 | agent-approved-clean | preview/products/detail/212.html |
 | 213 | RINFEDER撓性聯軸器TNR系列 | agent-approved-clean | preview/products/detail/213.html |
 | 214 | RINFEDER安全聯軸器TNT系列 | agent-approved-clean | preview/products/detail/214.html |
-| 215 | RINGFEDER 摩擦彈簧 | agent-source-needed | preview/products/detail/215.html |
+| 215 | RINGFEDER 摩擦彈簧 | agent-approved-clean | preview/products/detail/215.html |
 | 216 | RINGFEDER工業緩衝器 | agent-approved-clean | preview/products/detail/216.html |
 | 217 | RINGFEDER Shock Absorbing Elements減震元件 | agent-approved-clean | preview/products/detail/217.html |
 | 332 | RINGFEDER 彈性體顎式聯軸器 GWE TNM TNS TNB | agent-approved-clean | preview/products/detail/332.html |

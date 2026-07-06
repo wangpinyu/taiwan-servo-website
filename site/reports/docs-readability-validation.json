@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T07:35:37.251Z",
+  "generatedAt": "2026-07-06T07:56:17.536Z",
   "status": "ok",
   "summary": {
     "docs": 13,
@@ -56,7 +56,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# 產品規格詳情模組審核紀錄",
-      "chars": 5574,
+      "chars": 5856,
       "errors": [],
       "mojibakeHits": []
     },
@@ -65,7 +65,7 @@
       "type": "report",
       "status": "pass",
       "title": "GitHub Bootstrap Readiness",
-      "chars": 5218,
+      "chars": 5181,
       "errors": [],
       "mojibakeHits": []
     },
@@ -74,7 +74,7 @@
       "type": "report",
       "status": "pass",
       "title": "Optimization Backlog",
-      "chars": 5884,
+      "chars": 5834,
       "errors": [],
       "mojibakeHits": []
     },
@@ -83,7 +83,7 @@
       "type": "report",
       "status": "pass",
       "title": "產品頁 SEO 與結構 QA",
-      "chars": 39836,
+      "chars": 39793,
       "errors": [],
       "mojibakeHits": []
     },
@@ -92,7 +92,7 @@
       "type": "report",
       "status": "pass",
       "title": "AI Agent 產品頁審核",
-      "chars": 53507,
+      "chars": 53492,
       "errors": [],
       "mojibakeHits": []
     },
@@ -110,7 +110,7 @@
       "type": "report",
       "status": "pass",
       "title": "Source-needed Audit",
-      "chars": 3657,
+      "chars": 3032,
       "errors": [],
       "mojibakeHits": []
     },
@@ -119,7 +119,7 @@
       "type": "report",
       "status": "pass",
       "title": "# Source-needed Audit",
-      "chars": 1864,
+      "chars": 1477,
       "errors": [],
       "mojibakeHits": []
     }

@@ -1,28 +1,11 @@
 {
   "summary": {
-    "generated_at": "2026-07-06T07:35:50.362Z",
-    "total_warning_entries": 1,
-    "affected_pages": 1,
-    "warning_type_counts": {
-      "spec-table-missing": 1
-    },
-    "category_warning_counts": {
-      "聯軸器": 1
-    },
-    "branch_warning_counts": {
-      "phase-4-couplings": 1
-    }
+    "generated_at": "2026-07-06T07:56:34.265Z",
+    "total_warning_entries": 0,
+    "affected_pages": 0,
+    "warning_type_counts": {},
+    "category_warning_counts": {},
+    "branch_warning_counts": {}
   },
-  "entries": [
-    {
-      "product_id": "215",
-      "title": "RINGFEDER 摩擦彈簧",
-      "category": "聯軸器",
-      "branch": "phase-4-couplings",
-      "preview_rel": "preview/products/detail/215.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    }
-  ]
+  "entries": []
 }

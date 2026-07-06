@@ -14,22 +14,18 @@ This file turns the current `agent-source-needed` audit into executable follow-u
 
 ## Summary
 
-- Total source-needed pages: 7
-- Official source audit queue: 1
+- Total source-needed pages: 6
+- Official source audit queue: 0
 - Non-standard product/spec exceptions: 6
-- RINGFEDER resolved in prior source audit: 208, 209, 210, 211, 212, 213, 335, 336.
+- RINGFEDER resolved in source audits: 208, 209, 210, 211, 212, 213, 215, 335, 336.
 - SANYO DENKI resolved in source audit: 194, 195, 270.
 - JVL resolved in source audit: 102.
 - Thomson resolved in source audit: 149.
-- Still unresolved official-source pages: 215.
+- Still unresolved official-source pages: none.
 
 ## Official Source Audit Queue
 
-These pages can be handled by AI agent source research. The agent must find official manufacturer evidence before creating or revising the `產品規格詳情` module.
-
-| ID | Page | Category | Required source work | Suggested branch |
-| --- | --- | --- | --- | --- |
-| 215 | RINGFEDER 摩擦彈簧 | 聯軸器 / RINGFEDER 摩擦彈簧 | Decide whether to keep this page under couplings or reframe it as damping technology. Official source classifies it as friction springs. | `source-audit-ringfeder-friction-springs` |
+No hardware product pages currently require official source audit before a specification table can be created or revised.
 
 ## Non-standard Exceptions
 
@@ -51,10 +47,20 @@ These should not be forced into the standard `產品規格詳情` hardware modul
 - Branch: `source-audit-ringfeder-couplings`
 - Evidence package: `docs/source-audits/ringfeder-couplings.md`
 - Machine-readable evidence: `docs/source-audits/ringfeder-couplings.json`
-- Covered pages: 208, 209, 210, 211, 212, 213, 215, 335, 336
+- Covered pages: 208, 209, 210, 211, 212, 213, 335, 336
 - Current result:
   - `agent-approved-clean`: 208, 209, 210, 211, 212, 213, 335, 336
-  - `agent-source-needed`: 215
+  - `agent-source-needed`: none in this group
+
+### RINGFEDER Friction Springs
+
+- Branch: `source-audit-ringfeder-friction-springs`
+- Evidence package: `docs/source-audits/ringfeder-friction-springs.md`
+- Machine-readable evidence: `docs/source-audits/ringfeder-friction-springs.json`
+- Covered pages: 215
+- Current result:
+  - `agent-approved-clean`: 215
+  - `agent-source-needed`: none in this group
 
 ### SANYO DENKI
 
@@ -88,5 +94,5 @@ These should not be forced into the standard `產品規格詳情` hardware modul
 
 ## Next Agent Steps
 
-1. Resolve page 215 with an official RINGFEDER friction-spring source audit or keep it as a category/content exception if it should not use the coupling table schema.
-2. Keep 241, 253, 254, 255, 268, and 269 as non-standard exceptions until a separate schema is approved.
+1. Keep 241, 253, 254, 255, 268, and 269 as non-standard exceptions until a separate software / informational / training schema is approved.
+2. Continue category-level UIUX and SEO optimization from the 242 `agent-approved-clean` hardware/product pages.

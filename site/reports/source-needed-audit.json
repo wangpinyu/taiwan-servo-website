@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T07:35:50.540Z",
+  "generated_at": "2026-07-06T07:56:34.441Z",
   "scope": "Source-needed and no-spec-module audit for product pages",
   "policy": {
     "noSpecWithoutSource": true,
@@ -7,9 +7,8 @@
     "reviewOwner": "AI agent, with human escalation only for business/source decisions"
   },
   "summary": {
-    "total_pages": 7,
+    "total_pages": 6,
     "disposition_counts": {
-      "official-source-needed": 1,
       "exclude-test-page": 1,
       "software-source-needed": 3,
       "informational-source-needed": 1,
@@ -17,30 +16,6 @@
     }
   },
   "pages": [
-    {
-      "product_id": "215",
-      "title": "RINGFEDER 摩擦彈簧",
-      "category_path": [
-        "聯軸器",
-        "RINGFEDER 摩擦彈簧"
-      ],
-      "preview_rel": "preview/products/detail/215.html",
-      "agent_status": "agent-source-needed",
-      "qa_status": "pass",
-      "overlay_status": "inserted",
-      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-ringfeder-spec-inserts/id-215-ringfeder/backend-fragment.html",
-      "validation": {
-        "hasSeries": true,
-        "hasApplications": true,
-        "hasDownloads": true,
-        "tables": 2,
-        "pdfLinks": 1,
-        "unknownHeadings": []
-      },
-      "disposition": "official-source-needed",
-      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
-      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
-    },
     {
       "product_id": "241",
       "title": "測試-ACS硬體分類",

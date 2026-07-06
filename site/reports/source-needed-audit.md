@@ -1,12 +1,11 @@
 # Source-needed Audit
 
-Generated at: 2026-07-06T07:35:50.540Z
+Generated at: 2026-07-06T07:56:34.441Z
 
 本報告列出沒有既有產品規格詳情模組、且不應由 AI 自行編造規格的頁面。
 
 ## Summary
 
-- official-source-needed: 1
 - exclude-test-page: 1
 - software-source-needed: 3
 - informational-source-needed: 1
@@ -14,7 +13,6 @@ Generated at: 2026-07-06T07:35:50.540Z
 
 | ID | Title | Category | Disposition | Reason | Next action | Preview |
 | --- | --- | --- | --- | --- | --- | --- |
-| 215 | RINGFEDER 摩擦彈簧 | 聯軸器 / RINGFEDER 摩擦彈簧 | official-source-needed | 找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。 | 補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。 | preview/products/detail/215.html |
 | 241 | 測試-ACS硬體分類 | ACS 控制器 / 驅動器 / 測試-ACS分類 / 測試-ACS硬體分類 | exclude-test-page | 頁面名稱或分類顯示為測試用途，不應自行補產品規格。 | 由站方確認是否保留測試頁；若保留，需提供正式產品來源後再建立規格模組。 | preview/products/detail/241.html |
 | 253 | 軟體-1 | ACS 控制器 / 驅動器 / ACS 軟體 / 軟體-1 | software-source-needed | 軟體頁不適合套用硬體型產品規格表；需要官方軟體版本、功能、相容控制器與下載來源。 | 建立軟體型資料 schema，或取得官方 ACS 軟體頁來源後再建模。 | preview/products/detail/253.html |
 | 254 | 軟體-2 | ACS 控制器 / 驅動器 / ACS 軟體 / 軟體-2 | software-source-needed | 軟體頁不適合套用硬體型產品規格表；需要官方軟體版本、功能、相容控制器與下載來源。 | 建立軟體型資料 schema，或取得官方 ACS 軟體頁來源後再建模。 | preview/products/detail/254.html |

@@ -1,0 +1,43 @@
+{
+  "updated_at": "2026-07-06",
+  "branch": "source-audit-ringfeder-friction-springs",
+  "product_ids": ["215"],
+  "pages": [
+    {
+      "product_id": "215",
+      "title": "RINGFEDER 摩擦彈簧",
+      "preview_rel": "site/preview/products/detail/215.html",
+      "source_status": "official-source-backed",
+      "review_status": "agent-approved-clean",
+      "official_sources": [
+        {
+          "type": "manufacturer-product-page",
+          "url": "https://www.ringfeder.com/products/friction-springs/",
+          "used_for": [
+            "product role",
+            "damping characteristics",
+            "formulas",
+            "pretensioning / guiding / lubrication / sealing rules"
+          ]
+        },
+        {
+          "type": "manufacturer-pdf",
+          "url": "https://www.ringfeder.com/globalassets/downloads/product-paper/product-paper-tech-paper-ringfeder-damping-technology-en.pdf",
+          "used_for": [
+            "official type table fields",
+            "model values",
+            "damping technology explanations",
+            "temperature range and installation notes"
+          ]
+        }
+      ],
+      "module_changes": {
+        "true_tables_added": 4,
+        "model_table_rows": 24,
+        "external_source_links": 2,
+        "unsupported_values_invented": false,
+        "backend_mutation": false
+      }
+    }
+  ]
+}
