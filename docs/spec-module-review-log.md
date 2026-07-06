@@ -110,3 +110,15 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Motors visible quality pass
+
+- Branch: `phase-2-motors-spec-review`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed motor pages:
+  - `detail/77`, `detail/83`, `detail/84`, `detail/85`, `detail/86`, `detail/87`, `detail/88`, `detail/89`, `detail/90`, `detail/92`, `detail/93`, `detail/94`, `detail/95`, `detail/96`, `detail/97`, `detail/98`, `detail/102`, `detail/103`, `detail/104`, `detail/106`, `detail/108`, `detail/113`, `detail/270`, `detail/388`
+- Result:
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 24 motor pages.
+  - `detail/102` and `detail/270` remain `agent-source-needed` because current modules lack source-backed spec tables or document index links; no unsupported specs were added.
+- Validation:
+  - Edge visual smoke on `77`, `83`, `90`, `102`, `270`, and `388` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, no customer-facing internal text.

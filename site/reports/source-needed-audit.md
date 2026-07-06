@@ -1,6 +1,6 @@
 # Source-needed Audit
 
-Generated at: 2026-07-06T01:24:58.102Z
+Generated at: 2026-07-06T04:30:34.986Z
 
 本報告列出沒有既有產品規格詳情模組、且不應由 AI 自行編造規格的頁面。
 
