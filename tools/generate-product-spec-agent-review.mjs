@@ -60,11 +60,25 @@ function classify({ specPage, seoPage, standardizationPage }) {
     };
   }
 
+  const allWarnings = [...specWarnings, ...seoWarnings];
+  const onlyMissingSpecTable = allWarnings.length > 0 && allWarnings.every((warning) => warning === 'spec_table_missing');
+  const hasUsableDocumentLink =
+    (specPage?.counts?.pdf_links || 0) +
+    (specPage?.counts?.cad_links || 0) +
+    (specPage?.counts?.zip_links || 0) > 0;
+  if (onlyMissingSpecTable && !hasUsableDocumentLink) {
+    return {
+      status: 'agent-source-needed',
+      decision: '缺少可整理成規格表的來源',
+      reason: '目前規格模組沒有可查核規格表，也沒有可整理成文件索引表的 PDF/CAD/ZIP 連結；不得補寫未經來源支持的規格。',
+    };
+  }
+
   if (specWarnings.length || seoWarnings.length) {
     return {
       status: 'agent-fix-required',
       decision: 'AI 可繼續修正',
-      reason: [...specWarnings, ...seoWarnings].join(' / '),
+      reason: allWarnings.join(' / '),
     };
   }
 
