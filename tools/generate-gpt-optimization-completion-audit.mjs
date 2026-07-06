@@ -41,6 +41,7 @@ const agentReview = readJson('site/reports/product-spec-agent-review.json');
 const sourceAudit = readJson('site/reports/source-needed-audit.json');
 const backlog = readJson('site/reports/optimization-backlog.json');
 const githubReadiness = readJson('site/reports/github-bootstrap-readiness.json');
+const deploymentReadiness = readJson('site/reports/deployment-readiness-audit.json');
 const visual = readJson('site/reports/visual-sample-qa.json');
 const workflow = readText('.github/workflows/preview-qa.yml');
 const prTemplate = readText('.github/PULL_REQUEST_TEMPLATE.md');
@@ -226,11 +227,13 @@ const checks = [
     id: 'deployment-stage',
     requirement: 'Backend save, test-site publish, and production file overwrite are intentionally deferred to a separate deployment phase.',
     status: 'not-in-current-stage',
-    evidence: ['docs/spec-module-review-log.md', 'docs/github-optimization-workflow.md'],
+    evidence: ['site/reports/deployment-readiness-audit.json', 'docs/spec-module-review-log.md', 'docs/github-optimization-workflow.md'],
     missing: ['Open a separate deployment phase after PR review and human acceptance.'],
     metrics: {
       backendMutationPerformed: false,
       currentStage: 'local-preview-and-github-workflow',
+      deploymentReadinessStatus: deploymentReadiness.status,
+      deploymentReadinessSummary: deploymentReadiness.summary,
     },
   },
 ];

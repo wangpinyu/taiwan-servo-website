@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T09:21:59.703Z",
+  "generatedAt": "2026-07-06T09:29:01.453Z",
   "status": "ok",
   "summary": {
-    "docs": 15,
+    "docs": 16,
     "errors": 0
   },
   "checks": [
@@ -20,7 +20,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# GitHub 驅動的產品頁優化流程",
-      "chars": 4467,
+      "chars": 4505,
       "errors": [],
       "mojibakeHits": []
     },
@@ -29,7 +29,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# Private GitHub Repo Setup",
-      "chars": 2416,
+      "chars": 2465,
       "errors": [],
       "mojibakeHits": []
     },
@@ -56,7 +56,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# 產品規格詳情模組審核紀錄",
-      "chars": 6356,
+      "chars": 6558,
       "errors": [],
       "mojibakeHits": []
     },
@@ -70,11 +70,20 @@
       "mojibakeHits": []
     },
     {
+      "file": "site/reports/deployment-readiness-audit.html",
+      "type": "report",
+      "status": "pass",
+      "title": "Deployment Readiness Audit",
+      "chars": 4750,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
       "file": "site/reports/gpt-optimization-completion-audit.html",
       "type": "report",
       "status": "pass",
       "title": "GPT Optimization Completion Audit",
-      "chars": 5590,
+      "chars": 5635,
       "errors": [],
       "mojibakeHits": []
     },

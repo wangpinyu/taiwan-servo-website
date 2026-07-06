@@ -93,6 +93,7 @@ Remove-Item Env:\GITHUB_TOKEN
 ## 重要報告
 
 - `site/reports/github-bootstrap-readiness.html`
+- `site/reports/deployment-readiness-audit.html`
 - `site/reports/github-ready-validation.html`
 - `site/reports/local-mirror-readiness-current.html`
 - `site/reports/product-spec-module-qa.html`

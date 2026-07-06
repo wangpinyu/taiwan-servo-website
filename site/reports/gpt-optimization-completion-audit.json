@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T09:22:49.280Z",
+  "generatedAt": "2026-07-06T09:29:50.069Z",
   "objective": "Audit current evidence against the GPT optimization work plan.",
   "scope": {
     "productPages": 248,
     "currentStage": "local-preview-and-github-workflow",
     "validationScripts": {
-      "strict": "node tools/validate-docs-readability.mjs && node tools/validate-static-site.mjs --strict && node tools/validate-local-mirror-readiness.mjs && node tools/validate-customer-facing-notes.mjs && node tools/resolve-product-standardization-review.mjs && node tools/validate-product-spec-modules.mjs --strict && node tools/validate-spec-download-affordances.mjs --strict && node tools/validate-product-page-structure-seo.mjs --strict && node tools/generate-product-seo-warning-taxonomy.mjs && node tools/generate-product-spec-agent-review.mjs && node tools/generate-source-needed-audit.mjs && node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs && node tools/generate-github-pr-index.mjs && node tools/generate-github-bootstrap-readiness.mjs && node tools/generate-gpt-optimization-completion-audit.mjs",
+      "strict": "node tools/validate-docs-readability.mjs && node tools/validate-static-site.mjs --strict && node tools/validate-local-mirror-readiness.mjs && node tools/validate-customer-facing-notes.mjs && node tools/resolve-product-standardization-review.mjs && node tools/validate-product-spec-modules.mjs --strict && node tools/validate-spec-download-affordances.mjs --strict && node tools/validate-product-page-structure-seo.mjs --strict && node tools/generate-product-seo-warning-taxonomy.mjs && node tools/generate-product-spec-agent-review.mjs && node tools/generate-source-needed-audit.mjs && node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs && node tools/generate-github-pr-index.mjs && node tools/generate-github-bootstrap-readiness.mjs && node tools/generate-deployment-readiness-audit.mjs && node tools/generate-gpt-optimization-completion-audit.mjs",
       "visualSample": "node tools/run-visual-sample-qa.mjs"
     }
   },
@@ -37,7 +37,7 @@
       "missing": [],
       "metrics": {
         "html_files": 359,
-        "local_refs": 66047,
+        "local_refs": 66048,
         "missing_local_refs": 0,
         "formal_same_origin_refs": 0
       }
@@ -101,7 +101,7 @@
           "no_spec_module_count": 6
         },
         "warning_taxonomy": {
-          "generated_at": "2026-07-06T09:22:14.423Z",
+          "generated_at": "2026-07-06T09:29:15.022Z",
           "total_warning_entries": 0,
           "affected_pages": 0,
           "warning_type_counts": {},
@@ -169,7 +169,7 @@
       ],
       "missing": [],
       "metrics": {
-        "generated_at": "2026-07-06T09:22:14.872Z",
+        "generated_at": "2026-07-06T09:29:15.211Z",
         "total_categories": 18,
         "total_pages": 248,
         "total_blocking_pages": 0,
@@ -204,7 +204,7 @@
       ],
       "missing": [],
       "metrics": {
-        "docs": 15,
+        "docs": 16,
         "errors": 0
       }
     },
@@ -299,6 +299,7 @@
       "requirement": "Backend save, test-site publish, and production file overwrite are intentionally deferred to a separate deployment phase.",
       "status": "not-in-current-stage",
       "evidence": [
+        "site/reports/deployment-readiness-audit.json",
         "docs/spec-module-review-log.md",
         "docs/github-optimization-workflow.md"
       ],
@@ -307,7 +308,46 @@
       ],
       "metrics": {
         "backendMutationPerformed": false,
-        "currentStage": "local-preview-and-github-workflow"
+        "currentStage": "local-preview-and-github-workflow",
+        "deploymentReadinessStatus": "blocked",
+        "deploymentReadinessSummary": {
+          "pages_total": 358,
+          "local_resources": 2085,
+          "deploy_files": 1677,
+          "deploy_safe_to_overwrite": 1415,
+          "deploy_needs_review": 262,
+          "package_outputs": [
+            {
+              "deploy_mode": "same-path-overwrite",
+              "file_count": 1415,
+              "bytes": 176128724,
+              "manifest_rel": "deploy-packages/same-path-overwrite/manifest.json"
+            },
+            {
+              "deploy_mode": "backend-managed-download-route",
+              "file_count": 184,
+              "bytes": 432027058,
+              "manifest_rel": "deploy-packages/backend-managed-download-route/manifest.json"
+            },
+            {
+              "deploy_mode": "site-static-asset-review",
+              "file_count": 3,
+              "bytes": 15922,
+              "manifest_rel": "deploy-packages/site-static-asset-review/manifest.json"
+            },
+            {
+              "deploy_mode": "needs-review",
+              "file_count": 75,
+              "bytes": 224680,
+              "manifest_rel": "deploy-packages/needs-review/manifest.json"
+            }
+          ],
+          "status_counts": {
+            "pass": 6,
+            "review": 2,
+            "block": 1
+          }
+        }
       }
     }
   ]
