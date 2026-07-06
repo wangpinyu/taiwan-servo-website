@@ -1,16 +1,30 @@
 # GitHub Manual Bootstrap Handoff
 
-Generated at: 2026-07-06T11:22:24.349Z
+Generated at: 2026-07-06T11:27:16.321Z
 
 這是沒有 GitHub token 時的手動替代流程。你需要登入 GitHub 後逐一開啟連結並確認送出。
 
 ## 手動順序
 
 1. 先確認已登入 GitHub 且 repo 可進入。
-2. 先建立 labels，或直接使用 issue/PR 建立頁面上的現有 labels。
+2. 先依本頁 Labels 表格建立 7 個 labels；如果 repo 已有同名 labels，只需確認顏色與描述。
 3. 依序建立 18 個 tracking issues。
 4. 先建立 phase-1-smac-spec-standard PR；其餘 PR 可等 phase 1 接受後再開，或依 base branch 建立 stacked PR。
 5. 建立後執行 npm run workflow:github-remote-verify 與 npm run validate:external-handoff。
+
+## Labels
+
+GitHub labels 管理頁：https://github.com/wangpinyu/taiwan-servo-website/labels
+
+| Name | Color | Description |
+| --- | --- | --- |
+| `spec-module` | `0E8A16` | Product specification module structure, content, tables, or accordion work. |
+| `seo` | `1D76DB` | SEO, schema, metadata, headings, canonical, or internal-link work. |
+| `uiux` | `5319E7` | Layout, responsive, accessibility, visual hierarchy, or readability work. |
+| `download-links` | `FBCA04` | PDF, CAD, manual, catalog, drawing, software, or external-source link mapping. |
+| `source-needed` | `D93F0B` | Official source, manufacturer page, or data mapping still needs confirmation. |
+| `backend-ready` | `006B75` | Local preview is accepted and can be prepared for backend/server deployment. |
+| `blocked-server-large-file` | `BFDADC` | Known large-file or server upload limitation; use external source or defer upload. |
 
 ## Tracking Issues
 

@@ -21,13 +21,54 @@
   <p>這是沒有 GitHub token 時的手動替代流程。它不會自動建立 GitHub 物件；你需要登入 GitHub 後逐一開啟連結並確認送出。</p>
   <div class="warn">若可以提供 fine-grained token，仍建議使用 <code>npm run github:bootstrap:safe</code>，速度較快且可自動驗證。</div>
   <div class="grid">
+    <div class="card">Labels: <strong>7</strong></div>
     <div class="card">Issues: <strong>18</strong></div>
     <div class="card">PRs: <strong>17</strong></div>
     <div class="card">Token required: <strong>false</strong></div>
     <div class="card">Login required: <strong>true</strong></div>
   </div>
   <h2>手動順序</h2>
-  <ol><li>先確認已登入 GitHub 且 repo 可進入。</li><li>先建立 labels，或直接使用 issue/PR 建立頁面上的現有 labels。</li><li>依序建立 18 個 tracking issues。</li><li>先建立 phase-1-smac-spec-standard PR；其餘 PR 可等 phase 1 接受後再開，或依 base branch 建立 stacked PR。</li><li>建立後執行 npm run workflow:github-remote-verify 與 npm run validate:external-handoff。</li></ol>
+  <ol><li>先確認已登入 GitHub 且 repo 可進入。</li><li>先依本頁 Labels 表格建立 7 個 labels；如果 repo 已有同名 labels，只需確認顏色與描述。</li><li>依序建立 18 個 tracking issues。</li><li>先建立 phase-1-smac-spec-standard PR；其餘 PR 可等 phase 1 接受後再開，或依 base branch 建立 stacked PR。</li><li>建立後執行 npm run workflow:github-remote-verify 與 npm run validate:external-handoff。</li></ol>
+  <h2>Labels</h2>
+  <p>GitHub labels 管理頁：<a href="https://github.com/wangpinyu/taiwan-servo-website/labels">https://github.com/wangpinyu/taiwan-servo-website/labels</a></p>
+  <table>
+    <thead><tr><th>Name</th><th>Color</th><th>Description</th></tr></thead>
+    <tbody><tr>
+  <td><code>spec-module</code></td>
+  <td><code>0E8A16</code></td>
+  <td>Product specification module structure, content, tables, or accordion work.</td>
+</tr>
+<tr>
+  <td><code>seo</code></td>
+  <td><code>1D76DB</code></td>
+  <td>SEO, schema, metadata, headings, canonical, or internal-link work.</td>
+</tr>
+<tr>
+  <td><code>uiux</code></td>
+  <td><code>5319E7</code></td>
+  <td>Layout, responsive, accessibility, visual hierarchy, or readability work.</td>
+</tr>
+<tr>
+  <td><code>download-links</code></td>
+  <td><code>FBCA04</code></td>
+  <td>PDF, CAD, manual, catalog, drawing, software, or external-source link mapping.</td>
+</tr>
+<tr>
+  <td><code>source-needed</code></td>
+  <td><code>D93F0B</code></td>
+  <td>Official source, manufacturer page, or data mapping still needs confirmation.</td>
+</tr>
+<tr>
+  <td><code>backend-ready</code></td>
+  <td><code>006B75</code></td>
+  <td>Local preview is accepted and can be prepared for backend/server deployment.</td>
+</tr>
+<tr>
+  <td><code>blocked-server-large-file</code></td>
+  <td><code>BFDADC</code></td>
+  <td>Known large-file or server upload limitation; use external source or defer upload.</td>
+</tr></tbody>
+  </table>
   <h2>Tracking Issues</h2>
   <table>
     <thead><tr><th>#</th><th>分類</th><th>分支</th><th>頁數</th><th>Labels</th><th>草案</th><th>Body</th><th>建立</th></tr></thead>

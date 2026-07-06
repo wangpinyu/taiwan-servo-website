@@ -33,6 +33,17 @@ function mdEscape(value) {
   return String(value ?? '').replaceAll('|', '\\|');
 }
 
+function readLabels() {
+  const yml = readText(path.join(repoRoot, '.github', 'labels.yml'));
+  const blocks = yml.split(/\n(?=- name: )/g).filter(Boolean);
+  return blocks.map((block) => {
+    const name = block.match(/^- name:\s*(.+)$/m)?.[1]?.trim() || '';
+    const color = block.match(/^\s*color:\s*"?([^"\n]+)"?/m)?.[1]?.trim() || '';
+    const description = block.match(/^\s*description:\s*(.+)$/m)?.[1]?.trim() || '';
+    return { name, color, description };
+  }).filter((label) => label.name);
+}
+
 function githubIssueUrl(entry, body) {
   const title = entry.title || `[${entry.category}] 產品頁優化追蹤`;
   const labels = Array.isArray(entry.labels) ? entry.labels.join(',') : '';
@@ -59,6 +70,7 @@ const issueIndex = readJson('site/reports/github-issues/index.json', { entries: 
 const prIndex = readJson('site/reports/github-prs/index.json', { entries: [] });
 const readiness = readJson('site/reports/github-bootstrap-readiness.json', {});
 const remoteVerification = readJson('site/reports/github-remote-state-verification.json', {});
+const labels = readLabels();
 
 const issues = (issueIndex.entries || []).map((entry) => {
   const draftName = path.basename(entry.issueDraft || '');
@@ -112,6 +124,7 @@ const handoff = {
     pullRequestRefs: readiness.pullRequestRefs || remoteVerification.gitRemote?.pullRequestRefs || 0,
   },
   counts: {
+    labels: labels.length,
     issues: issues.length,
     prs: prs.length,
     issueBodiesIncludedInUrl: issues.filter((item) => item.bodyIncludedInUrl).length,
@@ -119,11 +132,13 @@ const handoff = {
   },
   manualOrder: [
     '先確認已登入 GitHub 且 repo 可進入。',
-    '先建立 labels，或直接使用 issue/PR 建立頁面上的現有 labels。',
+    '先依本頁 Labels 表格建立 7 個 labels；如果 repo 已有同名 labels，只需確認顏色與描述。',
     '依序建立 18 個 tracking issues。',
     '先建立 phase-1-smac-spec-standard PR；其餘 PR 可等 phase 1 接受後再開，或依 base branch 建立 stacked PR。',
     '建立後執行 npm run workflow:github-remote-verify 與 npm run validate:external-handoff。',
   ],
+  labelSettingsUrl: `https://github.com/${repoSlug}/labels`,
+  labels,
   issues,
   prs,
 };
@@ -140,6 +155,12 @@ const issueRows = issues.map((item) => `<tr>
   <td>${item.draftExists ? `<a href="github-issues/${htmlEscape(path.basename(item.draftRel))}">草案</a>` : 'missing'}</td>
   <td>${item.bodyIncludedInUrl ? '已包含' : '需貼上草案'}</td>
   <td><a href="${htmlEscape(item.createUrl)}">建立 issue</a></td>
+</tr>`).join('\n');
+
+const labelRows = labels.map((label) => `<tr>
+  <td><code>${htmlEscape(label.name)}</code></td>
+  <td><code>${htmlEscape(label.color)}</code></td>
+  <td>${htmlEscape(label.description)}</td>
 </tr>`).join('\n');
 
 const prRows = prs.map((item) => `<tr>
@@ -177,6 +198,7 @@ const html = `<!doctype html>
   <p>這是沒有 GitHub token 時的手動替代流程。它不會自動建立 GitHub 物件；你需要登入 GitHub 後逐一開啟連結並確認送出。</p>
   <div class="warn">若可以提供 fine-grained token，仍建議使用 <code>npm run github:bootstrap:safe</code>，速度較快且可自動驗證。</div>
   <div class="grid">
+    <div class="card">Labels: <strong>${htmlEscape(labels.length)}</strong></div>
     <div class="card">Issues: <strong>${htmlEscape(issues.length)}</strong></div>
     <div class="card">PRs: <strong>${htmlEscape(prs.length)}</strong></div>
     <div class="card">Token required: <strong>false</strong></div>
@@ -184,6 +206,12 @@ const html = `<!doctype html>
   </div>
   <h2>手動順序</h2>
   <ol>${handoff.manualOrder.map((item) => `<li>${htmlEscape(item)}</li>`).join('')}</ol>
+  <h2>Labels</h2>
+  <p>GitHub labels 管理頁：<a href="${htmlEscape(handoff.labelSettingsUrl)}">${htmlEscape(handoff.labelSettingsUrl)}</a></p>
+  <table>
+    <thead><tr><th>Name</th><th>Color</th><th>Description</th></tr></thead>
+    <tbody>${labelRows}</tbody>
+  </table>
   <h2>Tracking Issues</h2>
   <table>
     <thead><tr><th>#</th><th>分類</th><th>分支</th><th>頁數</th><th>Labels</th><th>草案</th><th>Body</th><th>建立</th></tr></thead>
@@ -210,6 +238,14 @@ const md = [
   '',
   ...handoff.manualOrder.map((item, index) => `${index + 1}. ${item}`),
   '',
+  '## Labels',
+  '',
+  `GitHub labels 管理頁：${handoff.labelSettingsUrl}`,
+  '',
+  '| Name | Color | Description |',
+  '| --- | --- | --- |',
+  ...labels.map((label) => `| \`${mdEscape(label.name)}\` | \`${mdEscape(label.color)}\` | ${mdEscape(label.description)} |`),
+  '',
   '## Tracking Issues',
   '',
   '| # | 分類 | 分支 | 頁數 | 草案 | 建立 |',
@@ -231,5 +267,6 @@ console.log(JSON.stringify({
   report: 'site/reports/github-manual-bootstrap-handoff.html',
   issues: issues.length,
   prs: prs.length,
+  labels: labels.length,
   tokenRequired: false,
 }, null, 2));

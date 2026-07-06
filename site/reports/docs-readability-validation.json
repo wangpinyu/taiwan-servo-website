@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T11:21:45.740Z",
+  "generatedAt": "2026-07-06T11:26:37.678Z",
   "status": "ok",
   "summary": {
     "docs": 29,
@@ -137,7 +137,7 @@
       "type": "report",
       "status": "pass",
       "title": "GitHub Manual Bootstrap Handoff",
-      "chars": 126482,
+      "chars": 128005,
       "errors": [],
       "mojibakeHits": []
     },

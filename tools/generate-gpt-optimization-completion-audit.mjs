@@ -246,6 +246,7 @@ const checks = [
         status: githubManualHandoff.mode,
         tokenRequired: githubManualHandoff.tokenRequired,
         userLoginRequired: githubManualHandoff.userLoginRequired,
+        labels: githubManualHandoff.counts?.labels,
         issues: githubManualHandoff.counts?.issues,
         prs: githubManualHandoff.counts?.prs,
       },

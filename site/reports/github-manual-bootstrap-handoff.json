@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T11:22:24.349Z",
+  "generatedAt": "2026-07-06T11:27:16.321Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
   "mode": "manual-browser-fallback",
   "tokenRequired": false,
@@ -12,6 +12,7 @@
     "pullRequestRefs": 0
   },
   "counts": {
+    "labels": 7,
     "issues": 18,
     "prs": 17,
     "issueBodiesIncludedInUrl": 17,
@@ -19,10 +20,48 @@
   },
   "manualOrder": [
     "先確認已登入 GitHub 且 repo 可進入。",
-    "先建立 labels，或直接使用 issue/PR 建立頁面上的現有 labels。",
+    "先依本頁 Labels 表格建立 7 個 labels；如果 repo 已有同名 labels，只需確認顏色與描述。",
     "依序建立 18 個 tracking issues。",
     "先建立 phase-1-smac-spec-standard PR；其餘 PR 可等 phase 1 接受後再開，或依 base branch 建立 stacked PR。",
     "建立後執行 npm run workflow:github-remote-verify 與 npm run validate:external-handoff。"
+  ],
+  "labelSettingsUrl": "https://github.com/wangpinyu/taiwan-servo-website/labels",
+  "labels": [
+    {
+      "name": "spec-module",
+      "color": "0E8A16",
+      "description": "Product specification module structure, content, tables, or accordion work."
+    },
+    {
+      "name": "seo",
+      "color": "1D76DB",
+      "description": "SEO, schema, metadata, headings, canonical, or internal-link work."
+    },
+    {
+      "name": "uiux",
+      "color": "5319E7",
+      "description": "Layout, responsive, accessibility, visual hierarchy, or readability work."
+    },
+    {
+      "name": "download-links",
+      "color": "FBCA04",
+      "description": "PDF, CAD, manual, catalog, drawing, software, or external-source link mapping."
+    },
+    {
+      "name": "source-needed",
+      "color": "D93F0B",
+      "description": "Official source, manufacturer page, or data mapping still needs confirmation."
+    },
+    {
+      "name": "backend-ready",
+      "color": "006B75",
+      "description": "Local preview is accepted and can be prepared for backend/server deployment."
+    },
+    {
+      "name": "blocked-server-large-file",
+      "color": "BFDADC",
+      "description": "Known large-file or server upload limitation; use external source or defer upload."
+    }
   ],
   "issues": [
     {
