@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-07-06T08:44:57.888Z",
+  "dry_run": false,
+  "summary": {
+    "files_changed": 1,
+    "spans_linked": 0,
+    "spans_converted_to_contact": 1,
+    "aria_added": 0,
+    "empty_anchor_text_fixed": 0,
+    "internal_attrs_removed": 0
+  },
+  "changed": [
+    {
+      "file": "preview/products/detail/157.html",
+      "spansLinked": 0,
+      "spansConvertedToContact": 1,
+      "ariaAdded": 0,
+      "emptyAnchorTextFixed": 0,
+      "internalAttrsRemoved": 0
+    }
+  ]
+}

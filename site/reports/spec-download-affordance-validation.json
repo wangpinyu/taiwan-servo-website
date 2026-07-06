@@ -1,0 +1,2246 @@
+{
+  "generated_at": "2026-07-06T08:45:38.816Z",
+  "scope": "product detail download affordance validation",
+  "summary": {
+    "total_pages": 248,
+    "pages_with_specs": 242,
+    "fail_count": 0,
+    "warn_count": 0,
+    "actionable_doc_links": 3543,
+    "contact_statuses": 2124
+  },
+  "pages": [
+    {
+      "file": "preview/products/detail/100.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 13,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/101.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 12,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/102.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 1,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/103.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 20,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/104.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 80,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/106.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 16,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/108.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 32,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/109.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 3,
+      "contact_statuses": 3,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/110.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 17,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/111.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 13,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/112.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/113.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 6,
+      "contact_statuses": 5,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/114.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 49,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/115.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 6,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/116.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 5,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/117.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 19,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/118.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 20,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/119.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 17,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/120.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 15,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/121.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 6,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/122.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 13,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/123.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 15,
+      "contact_statuses": 11,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/124.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 5,
+      "contact_statuses": 12,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/125.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 8,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/126.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 5,
+      "contact_statuses": 4,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/129.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 3,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/130.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 24,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/131.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 4,
+      "contact_statuses": 4,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/132.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 9,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/133.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 13,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/134.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/135.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 7,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/136.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 6,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/137.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 6,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/138.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 30,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/139.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 14,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/140.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 176,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/141.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 40,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/143.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 16,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/144.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 30,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/145.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 708,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/146.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/149.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 4,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/150.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 13,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/151.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 12,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/152.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 3,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/153.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 31,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/154.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 4,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/155.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 14,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/156.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 13,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/157.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 14,
+      "contact_statuses": 4,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/158.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 11,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/159.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 14,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/160.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 3,
+      "contact_statuses": 3,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/161.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 23,
+      "contact_statuses": 8,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/162.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 5,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/163.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 22,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/164.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 25,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/165.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 8,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/166.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 14,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/167.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 103,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/168.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 12,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/170.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 19,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/171.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 4,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/172.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 23,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/173.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 20,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/174.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/175.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 35,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/176.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 36,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/177.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 7,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/178.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 13,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/179.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 4,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/180.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 80,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/181.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/182.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 7,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/183.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 17,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/184.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 12,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/185.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 26,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/186.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 18,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/187.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 31,
+      "contact_statuses": 39,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/188.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 31,
+      "contact_statuses": 30,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/191.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 33,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/192.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/193.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 3,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/194.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/195.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/196.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 28,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/199.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 40,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/200.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/202.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 12,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/203.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 8,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/204.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 8,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/206.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 9,
+      "contact_statuses": 3,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/207.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 28,
+      "contact_statuses": 3,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/208.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 4,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/209.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/210.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/211.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 3,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/212.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 4,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/213.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/214.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 12,
+      "contact_statuses": 3,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/215.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 28,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/216.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 9,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/217.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 8,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/218.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 9,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/219.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 9,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/226.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/234.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/241.html",
+      "spec_blocks": 0,
+      "actionable_doc_links": 0,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/242.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 7,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/243.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 9,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/244.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 11,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/245.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 9,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/246.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 39,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/247.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 9,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/248.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 3,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/249.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 13,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/251.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 5,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/252.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 11,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/253.html",
+      "spec_blocks": 0,
+      "actionable_doc_links": 0,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/254.html",
+      "spec_blocks": 0,
+      "actionable_doc_links": 0,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/255.html",
+      "spec_blocks": 0,
+      "actionable_doc_links": 0,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/256.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 54,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/257.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 35,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/258.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 35,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/259.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 121,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/260.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 41,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/261.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 28,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/262.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 113,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/263.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 11,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/264.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 11,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/265.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 11,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/266.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 51,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/268.html",
+      "spec_blocks": 0,
+      "actionable_doc_links": 0,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/269.html",
+      "spec_blocks": 0,
+      "actionable_doc_links": 0,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/270.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 1,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/272.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 9,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/273.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 13,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/275.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 13,
+      "contact_statuses": 5,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/276.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 12,
+      "contact_statuses": 6,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/277.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 11,
+      "contact_statuses": 5,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/278.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 30,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/279.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 41,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/280.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 65,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/282.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 99,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/283.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 51,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/284.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 32,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/287.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 47,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/288.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 37,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/291.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 15,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/292.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 9,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/293.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 8,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/295.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 16,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/296.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/297.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 21,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/298.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 21,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/299.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 19,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/300.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 23,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/301.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 42,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/302.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 28,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/303.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/306.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 23,
+      "contact_statuses": 8,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/307.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 33,
+      "contact_statuses": 8,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/308.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 38,
+      "contact_statuses": 11,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/309.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 3,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/310.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 3,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/312.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 16,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/313.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 45,
+      "contact_statuses": 17,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/314.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 14,
+      "contact_statuses": 5,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/315.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 5,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/316.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 26,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/318.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 18,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/319.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 17,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/320.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 4,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/321.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 11,
+      "contact_statuses": 4,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/322.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 9,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/323.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 17,
+      "contact_statuses": 6,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/324.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 13,
+      "contact_statuses": 6,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/325.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 4,
+      "contact_statuses": 5,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/326.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 5,
+      "contact_statuses": 6,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/327.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/332.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/335.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 5,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/336.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 1,
+      "contact_statuses": 0,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/338.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 8,
+      "contact_statuses": 8,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/339.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 7,
+      "contact_statuses": 7,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/340.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 6,
+      "contact_statuses": 6,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/341.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 7,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/342.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 4,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/343.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 3,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/345.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 3,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/347.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/349.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 5,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/350.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 5,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/352.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/354.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 14,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/355.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 25,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/357.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 5,
+      "contact_statuses": 4,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/358.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 13,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/359.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 6,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/360.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 3,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/361.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 5,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/363.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 16,
+      "contact_statuses": 4,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/364.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 4,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/365.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 5,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/366.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 5,
+      "contact_statuses": 2,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/367.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 6,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/368.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 6,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/369.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 8,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/370.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 3,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/371.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 4,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/372.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 3,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/373.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 13,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/374.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 16,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/375.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/376.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 25,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/377.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 61,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/378.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 37,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/379.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 25,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/388.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 22,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/390.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 15,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/398.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 19,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/399.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 34,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/400.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 17,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/403.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 3,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/404.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 3,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/405.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 3,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/76.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 9,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/77.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 14,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/79.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 69,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/80.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 17,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/81.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 17,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/82.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 23,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/83.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 24,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/84.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 18,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/85.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 18,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/86.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 73,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/87.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 26,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/88.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 13,
+      "contact_statuses": 45,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/89.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 8,
+      "contact_statuses": 5,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/90.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 11,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/92.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 2,
+      "contact_statuses": 18,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/93.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 8,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/94.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 11,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/95.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 9,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/96.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 14,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/97.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 9,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "file": "preview/products/detail/98.html",
+      "spec_blocks": 1,
+      "actionable_doc_links": 10,
+      "contact_statuses": 1,
+      "critical": [],
+      "warnings": [],
+      "status": "pass"
+    }
+  ]
+}

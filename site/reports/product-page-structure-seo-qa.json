@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T08:22:07.543Z",
+  "generated_at": "2026-07-06T08:45:39.463Z",
   "scope": "Product detail page SEO and structure QA",
   "strict": true,
   "policy": {
@@ -112,7 +112,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 10,
-        "download_links": 0,
+        "download_links": 67,
         "cta_links": 2
       },
       "critical": [],
@@ -143,7 +143,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 3,
+        "download_links": 15,
         "cta_links": 2
       },
       "critical": [],
@@ -237,7 +237,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 3,
+        "download_links": 22,
         "cta_links": 2
       },
       "critical": [],
@@ -269,7 +269,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 8,
+        "download_links": 16,
         "cta_links": 2
       },
       "critical": [],
@@ -301,7 +301,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 8,
+        "download_links": 16,
         "cta_links": 2
       },
       "critical": [],
@@ -365,7 +365,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 6,
+        "download_links": 24,
         "cta_links": 2
       },
       "critical": [],
@@ -748,7 +748,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 10,
         "cta_links": 7
       },
       "critical": [],
@@ -812,7 +812,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 8,
+        "download_links": 18,
         "cta_links": 2
       },
       "critical": [],
@@ -844,7 +844,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 26,
+        "download_links": 78,
         "cta_links": 2
       },
       "critical": [],
@@ -908,7 +908,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 30,
         "cta_links": 2
       },
       "critical": [],
@@ -972,7 +972,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 15,
         "cta_links": 2
       },
       "critical": [],
@@ -1004,7 +1004,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 11,
         "cta_links": 2
       },
       "critical": [],
@@ -1100,7 +1100,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 47,
         "cta_links": 2
       },
       "critical": [],
@@ -1132,7 +1132,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 4,
         "cta_links": 2
       },
       "critical": [],
@@ -2105,7 +2105,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 10,
         "cta_links": 2
       },
       "critical": [],
@@ -2136,7 +2136,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 1,
         "cta_links": 2
       },
       "critical": [],
@@ -2230,7 +2230,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 4,
+        "download_links": 12,
         "cta_links": 2
       },
       "critical": [],
@@ -2262,7 +2262,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 5,
+        "download_links": 11,
         "cta_links": 2
       },
       "critical": [],
@@ -2294,7 +2294,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 6,
+        "download_links": 12,
         "cta_links": 2
       },
       "critical": [],
@@ -2326,8 +2326,8 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 5,
-        "cta_links": 1
+        "download_links": 10,
+        "cta_links": 2
       },
       "critical": [],
       "warnings": [],
@@ -2358,7 +2358,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 5,
+        "download_links": 12,
         "cta_links": 2
       },
       "critical": [],
@@ -2484,7 +2484,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 20,
         "cta_links": 2
       },
       "critical": [],
@@ -2580,7 +2580,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 5,
+        "download_links": 12,
         "cta_links": 2
       },
       "critical": [],
@@ -2740,7 +2740,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 21,
         "cta_links": 2
       },
       "critical": [],
@@ -2803,7 +2803,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 8,
         "cta_links": 2
       },
       "critical": [],
@@ -2993,7 +2993,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 26,
+        "download_links": 78,
         "cta_links": 2
       },
       "critical": [],
@@ -3025,7 +3025,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 8,
         "cta_links": 2
       },
       "critical": [],
@@ -3056,7 +3056,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 5,
         "cta_links": 2
       },
       "critical": [],
@@ -3087,7 +3087,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 15,
         "cta_links": 2
       },
       "critical": [],
@@ -3118,7 +3118,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 10,
         "cta_links": 10
       },
       "critical": [],
@@ -3150,7 +3150,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 6,
+        "download_links": 24,
         "cta_links": 2
       },
       "critical": [],
@@ -3340,7 +3340,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 1,
         "cta_links": 2
       },
       "critical": [],
@@ -4575,7 +4575,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 17,
+        "download_links": 51,
         "cta_links": 2
       },
       "critical": [],
@@ -4607,7 +4607,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 11,
+        "download_links": 33,
         "cta_links": 2
       },
       "critical": [],
@@ -4639,7 +4639,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 11,
+        "download_links": 33,
         "cta_links": 2
       },
       "critical": [],
@@ -4671,7 +4671,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 40,
+        "download_links": 119,
         "cta_links": 2
       },
       "critical": [],
@@ -4703,7 +4703,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 13,
+        "download_links": 39,
         "cta_links": 2
       },
       "critical": [],
@@ -4735,7 +4735,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 13,
+        "download_links": 26,
         "cta_links": 2
       },
       "critical": [],
@@ -4767,7 +4767,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 37,
+        "download_links": 111,
         "cta_links": 2
       },
       "critical": [],
@@ -4831,7 +4831,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 7,
+        "download_links": 9,
         "cta_links": 2
       },
       "critical": [],
@@ -4863,7 +4863,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 3,
+        "download_links": 9,
         "cta_links": 2
       },
       "critical": [],
@@ -4895,7 +4895,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 16,
+        "download_links": 49,
         "cta_links": 2
       },
       "critical": [],
@@ -6375,7 +6375,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 3,
-        "download_links": 2,
+        "download_links": 3,
         "cta_links": 2
       },
       "critical": [],
@@ -6438,7 +6438,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 3,
-        "download_links": 0,
+        "download_links": 8,
         "cta_links": 2
       },
       "critical": [],
@@ -6903,7 +6903,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 5,
-        "download_links": 0,
+        "download_links": 12,
         "cta_links": 2
       },
       "critical": [],
@@ -6934,7 +6934,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 4,
-        "download_links": 0,
+        "download_links": 23,
         "cta_links": 2
       },
       "critical": [],
@@ -6965,7 +6965,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 3,
         "cta_links": 2
       },
       "critical": [],
@@ -6996,7 +6996,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 4,
-        "download_links": 1,
+        "download_links": 12,
         "cta_links": 2
       },
       "critical": [],
@@ -7027,7 +7027,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 2,
-        "download_links": 0,
+        "download_links": 4,
         "cta_links": 2
       },
       "critical": [],
@@ -7058,7 +7058,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 1,
         "cta_links": 2
       },
       "critical": [],
@@ -7089,7 +7089,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 2,
-        "download_links": 0,
+        "download_links": 3,
         "cta_links": 2
       },
       "critical": [],
@@ -7121,7 +7121,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 3,
-        "download_links": 0,
+        "download_links": 14,
         "cta_links": 2
       },
       "critical": [],
@@ -7656,7 +7656,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 4,
+        "download_links": 20,
         "cta_links": 2
       },
       "critical": [],
@@ -7687,7 +7687,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 13,
         "cta_links": 8
       },
       "critical": [],
@@ -7751,7 +7751,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 32,
         "cta_links": 2
       },
       "critical": [],
@@ -7783,7 +7783,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 15,
         "cta_links": 2
       },
       "critical": [],
@@ -7814,7 +7814,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 1,
         "cta_links": 2
       },
       "critical": [],
@@ -7845,7 +7845,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 1,
         "cta_links": 2
       },
       "critical": [],
@@ -7876,7 +7876,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 0,
+        "download_links": 1,
         "cta_links": 2
       },
       "critical": [],
