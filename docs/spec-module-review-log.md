@@ -125,3 +125,15 @@ npm run github:bootstrap:smoke:dry-run
 - Validation:
   - Driver static audit: no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text.
   - Edge visual smoke on `79`, `80`, `359`, `360`, and `361` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, no customer-facing internal text.
+
+## 2026-07-06 ACS controller and driver visible quality pass
+
+- Branch: `phase-2-drivers-spec-review`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed ACS pages:
+  - `detail/76`, `detail/241`, `detail/242`, `detail/243`, `detail/244`, `detail/245`, `detail/246`, `detail/247`, `detail/248`, `detail/249`, `detail/251`, `detail/252`, `detail/253`, `detail/254`, `detail/255`, `detail/268`, `detail/269`, `detail/352`
+- Result:
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 18 ACS pages.
+  - `detail/241`, `253`, `254`, `255`, `268`, and `269` remain `agent-source-needed` because they are test, software, informational, or training pages; no unsupported hardware spec tables were added.
+- Validation:
+  - Edge visual smoke on `243`, `244`, `246`, `251`, `253`, `268`, `269`, and `352` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, no customer-facing internal text.
