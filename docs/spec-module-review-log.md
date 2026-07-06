@@ -110,3 +110,17 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Harmonic Drive visible quality pass
+
+- Branch: `phase-3-harmonic-drive`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed Harmonic Drive pages:
+  - `detail/150`, `detail/196`, `detail/199`, `detail/200`, `detail/202`, `detail/203`, `detail/204`, `detail/206`, `detail/272`, `detail/273`, `detail/275`, `detail/276`, `detail/277`, `detail/278`, `detail/279`, `detail/280`, `detail/282`, `detail/283`, `detail/284`, `detail/287`, `detail/288`, `detail/291`, `detail/292`, `detail/293`, `detail/295`, `detail/296`, `detail/297`, `detail/298`, `detail/318`
+- Fixes:
+  - Replaced `placehold.co` illustration images on `detail/283`, `detail/292`, and `detail/295` with existing local product images from the same pages.
+- Result:
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 29 Harmonic Drive pages.
+  - All 29 pages remain `agent-approved-clean`; no source-needed pages in this category.
+- Validation:
+  - Edge/CDP visual smoke on `150`, `200`, `283`, `292`, `295`, and `318` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, no customer-facing internal text.
