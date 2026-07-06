@@ -35,11 +35,14 @@ const specDownloads = readJson('site/reports/spec-download-affordance-validation
 const pageSeo = readJson('site/reports/product-page-structure-seo-qa.json');
 const visual = readJson('site/reports/visual-sample-qa.json');
 const deployManifest = optionalJson('site/reports/deploy-manifest.json');
+const deploymentClassification = optionalJson('site/reports/deployment-review-classification.json');
 const siteReadiness = optionalJson('site/reports/site-readiness-report.json');
 
 const deploySummary = deployManifest?.summary || {};
+const deployClassificationSummary = deploymentClassification?.summary || {};
 const siteReadinessSummary = siteReadiness?.summary || {};
 const packageOutputs = siteReadiness?.deploy_packages?.outputs || [];
+const unresolvedDeployReview = deployClassificationSummary.unresolvedNeedsReview ?? deploySummary.deploy_needs_review ?? 0;
 
 const gates = [
   gate(
@@ -88,9 +91,11 @@ const gates = [
   ),
   gate(
     'deploy-needs-review',
-    (deploySummary.deploy_needs_review || 0) === 0 ? 'pass' : 'review',
-    `deploy_needs_review=${deploySummary.deploy_needs_review || 0}`,
-    'Review needs-review files and decide whether they are backend-managed, static assets, or excluded from deployment.',
+    unresolvedDeployReview === 0 ? 'pass' : 'review',
+    deploymentClassification
+      ? `unresolved_needs_review=${unresolvedDeployReview}, buckets=${JSON.stringify(deployClassificationSummary.bucketCounts || {})}`
+      : `deploy_needs_review=${deploySummary.deploy_needs_review || 0}`,
+    'Review unresolved deployment files and decide whether they are backend-managed, CSS bundle assets, static assets, or excluded from deployment.',
   ),
   gate(
     'same-path-overwrite-package',
@@ -131,6 +136,8 @@ const report = {
     deploy_files: deploySummary.deploy_files || 0,
     deploy_safe_to_overwrite: deploySummary.deploy_safe_to_overwrite || 0,
     deploy_needs_review: deploySummary.deploy_needs_review || 0,
+    deploy_unresolved_needs_review: unresolvedDeployReview,
+    deploy_review_buckets: deployClassificationSummary.bucketCounts || {},
     package_outputs: packageOutputs,
     status_counts: statusCounts,
   },
@@ -139,7 +146,7 @@ const report = {
     'Create and review a PR from the current branch.',
     'Get explicit human approval for deployment target and scope.',
     'Back up backend-controlled content and server files before mutation.',
-    'Resolve or exclude deploy_needs_review files.',
+    'Resolve or exclude unresolved deployment review files.',
     'Handle backend-managed download routes through the backend/file-manager path.',
     'Run a small deployment smoke test before broad overwrite.',
     'Keep rollback package and restore instructions next to the deployment manifest.',
@@ -195,6 +202,7 @@ fs.writeFileSync(
     <div class="card"><div>Deploy files</div><div class="num">${report.summary.deploy_files}</div></div>
     <div class="card"><div>Safe overwrite candidates</div><div class="num">${report.summary.deploy_safe_to_overwrite}</div></div>
     <div class="card"><div>Needs review</div><div class="num">${report.summary.deploy_needs_review}</div></div>
+    <div class="card"><div>Unresolved review</div><div class="num">${report.summary.deploy_unresolved_needs_review}</div></div>
     <div class="card"><div>Blocking gates</div><div class="num">${statusCounts.block || 0}</div></div>
   </div>
   <h2>Gates</h2>

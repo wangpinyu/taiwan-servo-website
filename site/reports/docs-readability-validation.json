@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T09:49:42.841Z",
+  "generatedAt": "2026-07-06T09:58:35.473Z",
   "status": "ok",
   "summary": {
-    "docs": 19,
+    "docs": 20,
     "errors": 0
   },
   "checks": [
@@ -101,7 +101,16 @@
       "type": "report",
       "status": "pass",
       "title": "Deployment Readiness Audit",
-      "chars": 4750,
+      "chars": 5074,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/deployment-review-classification.html",
+      "type": "report",
+      "status": "pass",
+      "title": "Deployment Review Classification",
+      "chars": 43118,
       "errors": [],
       "mojibakeHits": []
     },
@@ -110,7 +119,7 @@
       "type": "report",
       "status": "pass",
       "title": "GPT Optimization Completion Audit",
-      "chars": 5635,
+      "chars": 5686,
       "errors": [],
       "mojibakeHits": []
     },

@@ -232,7 +232,12 @@ const checks = [
     id: 'deployment-stage',
     requirement: 'Backend save, test-site publish, and production file overwrite are intentionally deferred to a separate deployment phase.',
     status: 'not-in-current-stage',
-    evidence: ['site/reports/deployment-readiness-audit.json', 'docs/spec-module-review-log.md', 'docs/github-optimization-workflow.md'],
+    evidence: [
+      'site/reports/deployment-readiness-audit.json',
+      'site/reports/deployment-review-classification.json',
+      'docs/spec-module-review-log.md',
+      'docs/github-optimization-workflow.md',
+    ],
     missing: ['Open a separate deployment phase after PR review and human acceptance.'],
     metrics: {
       backendMutationPerformed: false,

@@ -17,6 +17,7 @@ const docs = [
   { relPath: 'site/reports/github-issues/index.html', type: 'report' },
   { relPath: 'site/reports/github-prs/index.html', type: 'report' },
   { relPath: 'site/reports/deployment-readiness-audit.html', type: 'report' },
+  { relPath: 'site/reports/deployment-review-classification.html', type: 'report' },
   { relPath: 'site/reports/gpt-optimization-completion-audit.html', type: 'report' },
   { relPath: 'site/reports/optimization-backlog.html', type: 'report' },
   { relPath: 'site/reports/product-page-structure-seo-qa.html', type: 'report' },
