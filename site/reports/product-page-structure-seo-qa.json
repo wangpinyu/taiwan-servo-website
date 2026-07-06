@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T23:49:06.038Z",
+  "generated_at": "2026-07-06T00:46:39.463Z",
   "scope": "Product detail page SEO and structure QA",
   "strict": false,
   "policy": {
@@ -15,13 +15,13 @@
   "summary": {
     "total_pages": 248,
     "status_counts": {
-      "warn": 58,
-      "pass": 184,
+      "pass": 189,
+      "warn": 53,
       "no-spec-module": 6
     },
     "fail_count": 0,
-    "warn_count": 58,
-    "pass_count": 184,
+    "warn_count": 53,
+    "pass_count": 189,
     "no_spec_module_count": 6
   },
   "pages": [
@@ -49,15 +49,13 @@
         "summaries": 1,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
+        "tables": 1,
         "download_links": 1,
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "77",
@@ -2706,15 +2704,13 @@
         "summaries": 1,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
+        "tables": 1,
         "download_links": 0,
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "171",
@@ -2740,15 +2736,13 @@
         "summaries": 0,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
+        "tables": 1,
         "download_links": 0,
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "172",
@@ -2997,15 +2991,13 @@
         "summaries": 0,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
+        "tables": 1,
         "download_links": 0,
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "180",
@@ -7088,15 +7080,13 @@
         "summaries": 1,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
+        "tables": 1,
         "download_links": 0,
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "358",

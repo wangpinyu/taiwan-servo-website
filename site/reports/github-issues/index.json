@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-05T23:49:06.363Z",
+  "generatedAt": "2026-07-06T00:46:39.779Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
   "summary": {
     "totalIssues": 18,
     "totalPages": 248,
-    "totalBlockingPages": 73,
+    "totalBlockingPages": 68,
     "totalSourcePages": 6
   },
   "entries": [
@@ -13,12 +13,12 @@
       "category": "電動缸",
       "branch": "phase-1-smac-spec-standard",
       "pages": 14,
-      "blockingPages": 4,
+      "blockingPages": 2,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 10,
-        "agent-fix-required": 3,
-        "agent-structure-review": 1
+        "agent-approved-clean": 12,
+        "agent-structure-review": 1,
+        "agent-fix-required": 1
       },
       "title": "[電動缸] 產品頁優化追蹤",
       "labels": [
@@ -36,12 +36,12 @@
       "category": "驅動器",
       "branch": "phase-2-drivers-spec-review",
       "pages": 12,
-      "blockingPages": 9,
+      "blockingPages": 8,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-fix-required": 7,
+        "agent-fix-required": 6,
         "agent-structure-review": 2,
-        "agent-approved-clean": 3
+        "agent-approved-clean": 4
       },
       "title": "[驅動器] 產品頁優化追蹤",
       "labels": [
@@ -82,12 +82,11 @@
       "category": "ACS 控制器 / 驅動器",
       "branch": "phase-2-drivers-spec-review",
       "pages": 18,
-      "blockingPages": 8,
+      "blockingPages": 7,
       "sourcePages": 6,
       "statusCounts": {
-        "agent-fix-required": 1,
+        "agent-approved-clean": 11,
         "agent-source-needed": 6,
-        "agent-approved-clean": 10,
         "agent-structure-review": 1
       },
       "title": "[ACS 控制器 / 驅動器] 產品頁優化追蹤",
@@ -284,11 +283,11 @@
       "category": "特殊環境",
       "branch": "phase-4-special-environments",
       "pages": 11,
-      "blockingPages": 2,
+      "blockingPages": 1,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 9,
-        "agent-fix-required": 2
+        "agent-approved-clean": 10,
+        "agent-fix-required": 1
       },
       "title": "[特殊環境] 產品頁優化追蹤",
       "labels": [
