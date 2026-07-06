@@ -3,12 +3,11 @@
 Branch: `phase-3-harmonic-drive`
 Priority: 5
 Pages: 29
-Blocking pages: 5
+Blocking pages: 3
 
 ## Status counts
 
-- agent-approved-clean: 24
-- agent-fix-required: 2
+- agent-approved-clean: 26
 - agent-structure-review: 3
 
 ## Target pages
@@ -16,9 +15,9 @@ Blocking pages: 5
 | ID | Title | Status | Preview |
 | --- | --- | --- | --- |
 | 150 | HarmonicDrive® 諧波減速機 | agent-approved-clean | preview/products/detail/150.html |
-| 196 | 線性直線致動器 LBC系列 | agent-fix-required | preview/products/detail/196.html |
+| 196 | 線性直線致動器 LBC系列 | agent-approved-clean | preview/products/detail/196.html |
 | 199 | KDU | agent-structure-review | preview/products/detail/199.html |
-| 200 | HMA | agent-fix-required | preview/products/detail/200.html |
+| 200 | HMA | agent-approved-clean | preview/products/detail/200.html |
 | 202 | HPGP/HPG系列 行星減速機 | agent-structure-review | preview/products/detail/202.html |
 | 203 | CSG-GH/CSF-GH 系列 | agent-approved-clean | preview/products/detail/203.html |
 | 204 | HPF | agent-approved-clean | preview/products/detail/204.html |

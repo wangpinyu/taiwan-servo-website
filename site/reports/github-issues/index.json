@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T00:47:03.954Z",
+  "generatedAt": "2026-07-06T01:02:52.704Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
   "summary": {
     "totalIssues": 18,
     "totalPages": 248,
-    "totalBlockingPages": 68,
-    "totalSourcePages": 6
+    "totalBlockingPages": 33,
+    "totalSourcePages": 20
   },
   "entries": [
     {
@@ -13,12 +13,11 @@
       "category": "電動缸",
       "branch": "phase-1-smac-spec-standard",
       "pages": 14,
-      "blockingPages": 2,
+      "blockingPages": 1,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 12,
-        "agent-structure-review": 1,
-        "agent-fix-required": 1
+        "agent-approved-clean": 13,
+        "agent-structure-review": 1
       },
       "title": "[電動缸] 產品頁優化追蹤",
       "labels": [
@@ -36,12 +35,11 @@
       "category": "驅動器",
       "branch": "phase-2-drivers-spec-review",
       "pages": 12,
-      "blockingPages": 8,
+      "blockingPages": 2,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-fix-required": 6,
-        "agent-structure-review": 2,
-        "agent-approved-clean": 4
+        "agent-approved-clean": 10,
+        "agent-structure-review": 2
       },
       "title": "[驅動器] 產品頁優化追蹤",
       "labels": [
@@ -59,11 +57,11 @@
       "category": "各類馬達",
       "branch": "phase-2-motors-spec-review",
       "pages": 24,
-      "blockingPages": 5,
-      "sourcePages": 0,
+      "blockingPages": 3,
+      "sourcePages": 2,
       "statusCounts": {
-        "agent-approved-clean": 19,
-        "agent-fix-required": 4,
+        "agent-approved-clean": 21,
+        "agent-source-needed": 2,
         "agent-structure-review": 1
       },
       "title": "[各類馬達] 產品頁優化追蹤",
@@ -71,11 +69,12 @@
         "spec-module",
         "seo",
         "uiux",
-        "download-links"
+        "download-links",
+        "source-needed"
       ],
       "issueDraft": "site/reports/github-issues/03-phase-2-motors-spec-review.md",
       "issueDraftExists": true,
-      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E5%90%84%E9%A1%9E%E9%A6%AC%E9%81%94%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links"
+      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E5%90%84%E9%A1%9E%E9%A6%AC%E9%81%94%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links%2Csource-needed"
     },
     {
       "priority": 4,
@@ -106,11 +105,10 @@
       "category": "Harmonic Drive 減速機",
       "branch": "phase-3-harmonic-drive",
       "pages": 29,
-      "blockingPages": 5,
+      "blockingPages": 3,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 24,
-        "agent-fix-required": 2,
+        "agent-approved-clean": 26,
         "agent-structure-review": 3
       },
       "title": "[Harmonic Drive 減速機] 產品頁優化追蹤",
@@ -129,11 +127,10 @@
       "category": "Renishaw 回授元件產品",
       "branch": "phase-3-renishaw-feedback",
       "pages": 35,
-      "blockingPages": 7,
+      "blockingPages": 0,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 28,
-        "agent-fix-required": 7
+        "agent-approved-clean": 35
       },
       "title": "[Renishaw 回授元件產品] 產品頁優化追蹤",
       "labels": [
@@ -172,22 +169,23 @@
       "category": "空氣軸承 / 滾珠•滾柱軸承",
       "branch": "phase-3-bearings-air-mechanical",
       "pages": 17,
-      "blockingPages": 3,
-      "sourcePages": 0,
+      "blockingPages": 1,
+      "sourcePages": 1,
       "statusCounts": {
-        "agent-fix-required": 3,
-        "agent-approved-clean": 14
+        "agent-source-needed": 1,
+        "agent-approved-clean": 16
       },
       "title": "[空氣軸承 / 滾珠•滾柱軸承] 產品頁優化追蹤",
       "labels": [
         "spec-module",
         "seo",
         "uiux",
-        "download-links"
+        "download-links",
+        "source-needed"
       ],
       "issueDraft": "site/reports/github-issues/08-phase-3-bearings-air-mechanical.md",
       "issueDraftExists": true,
-      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E7%A9%BA%E6%B0%A3%E8%BB%B8%E6%89%BF%20%2F%20%E6%BB%BE%E7%8F%A0%E2%80%A2%E6%BB%BE%E6%9F%B1%E8%BB%B8%E6%89%BF%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links"
+      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E7%A9%BA%E6%B0%A3%E8%BB%B8%E6%89%BF%20%2F%20%E6%BB%BE%E7%8F%A0%E2%80%A2%E6%BB%BE%E6%9F%B1%E8%BB%B8%E6%89%BF%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links%2Csource-needed"
     },
     {
       "priority": 9,
@@ -195,32 +193,32 @@
       "branch": "phase-4-couplings",
       "pages": 16,
       "blockingPages": 9,
-      "sourcePages": 0,
+      "sourcePages": 9,
       "statusCounts": {
         "agent-approved-clean": 7,
-        "agent-fix-required": 9
+        "agent-source-needed": 9
       },
       "title": "[聯軸器] 產品頁優化追蹤",
       "labels": [
         "spec-module",
         "seo",
         "uiux",
-        "download-links"
+        "download-links",
+        "source-needed"
       ],
       "issueDraft": "site/reports/github-issues/09-phase-4-couplings.md",
       "issueDraftExists": true,
-      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E8%81%AF%E8%BB%B8%E5%99%A8%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links"
+      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E8%81%AF%E8%BB%B8%E5%99%A8%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links%2Csource-needed"
     },
     {
       "priority": 10,
       "category": "FMS 張力系統",
       "branch": "phase-4-fms-tension",
       "pages": 26,
-      "blockingPages": 11,
+      "blockingPages": 1,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 15,
-        "agent-fix-required": 10,
+        "agent-approved-clean": 25,
         "agent-structure-review": 1
       },
       "title": "[FMS 張力系統] 產品頁優化追蹤",
@@ -239,11 +237,10 @@
       "category": "固態繼電器",
       "branch": "phase-4-solid-state-relays",
       "pages": 10,
-      "blockingPages": 3,
+      "blockingPages": 0,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 7,
-        "agent-fix-required": 3
+        "agent-approved-clean": 10
       },
       "title": "[固態繼電器] 產品頁優化追蹤",
       "labels": [
@@ -262,32 +259,32 @@
       "branch": "phase-4-sanyo-denki",
       "pages": 6,
       "blockingPages": 2,
-      "sourcePages": 0,
+      "sourcePages": 2,
       "statusCounts": {
         "agent-approved-clean": 4,
-        "agent-fix-required": 2
+        "agent-source-needed": 2
       },
       "title": "[山洋電氣 SANYO DENKI] 產品頁優化追蹤",
       "labels": [
         "spec-module",
         "seo",
         "uiux",
-        "download-links"
+        "download-links",
+        "source-needed"
       ],
       "issueDraft": "site/reports/github-issues/12-phase-4-sanyo-denki.md",
       "issueDraftExists": true,
-      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E5%B1%B1%E6%B4%8B%E9%9B%BB%E6%B0%A3%20SANYO%20DENKI%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links"
+      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E5%B1%B1%E6%B4%8B%E9%9B%BB%E6%B0%A3%20SANYO%20DENKI%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links%2Csource-needed"
     },
     {
       "priority": 13,
       "category": "特殊環境",
       "branch": "phase-4-special-environments",
       "pages": 11,
-      "blockingPages": 1,
+      "blockingPages": 0,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 10,
-        "agent-fix-required": 1
+        "agent-approved-clean": 11
       },
       "title": "[特殊環境] 產品頁優化追蹤",
       "labels": [
@@ -305,10 +302,10 @@
       "category": "陶瓷吸盤",
       "branch": "phase-5-ceramic-chucks",
       "pages": 1,
-      "blockingPages": 1,
+      "blockingPages": 0,
       "sourcePages": 0,
       "statusCounts": {
-        "agent-fix-required": 1
+        "agent-approved-clean": 1
       },
       "title": "[陶瓷吸盤] 產品頁優化追蹤",
       "labels": [
