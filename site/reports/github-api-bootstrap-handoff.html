@@ -28,6 +28,8 @@
   <h2>Required Token Permissions</h2>
   <ul><li>Metadata: Read</li><li>Contents: Read</li><li>Issues: Read and write</li><li>Pull requests: Read and write</li></ul>
   <h2>Command Sequence</h2>
+  <ol><li><code>$env:GITHUB_TOKEN = &quot;&lt;paste-token-here&gt;&quot;</code></li><li><code>npm run github:bootstrap:safe</code></li><li><code>Remove-Item Env:\GITHUB_TOKEN</code></li></ol>
+  <h2>Manual Fallback Sequence</h2>
   <ol><li><code>npm run github:bootstrap:dry-run</code></li><li><code>npm run github:bootstrap:smoke:dry-run</code></li><li><code>$env:GITHUB_TOKEN = &quot;&lt;paste-token-here&gt;&quot;</code></li><li><code>npm run github:bootstrap:smoke</code></li><li><code>npm run github:bootstrap</code></li><li><code>Remove-Item Env:\GITHUB_TOKEN</code></li><li><code>npm run workflow:github-readiness</code></li><li><code>npm run workflow:github-api-handoff</code></li><li><code>npm run validate:strict</code></li></ol>
   <h2>Smoke Gate</h2>
   <p><code>npm run github:bootstrap:smoke</code></p>
@@ -40,6 +42,6 @@
     <li><code>docs/github-api-bootstrap-runbook.md</code></li>
   </ul>
   <h2>Next Actions</h2>
-  <ul><li>Create a fine-grained GitHub token with the listed permissions.</li><li>Set it only in the current PowerShell session.</li><li>Run the smoke bootstrap before full bootstrap.</li></ul>
+  <ul><li>Create a fine-grained GitHub token with the listed permissions.</li><li>Set it only in the current PowerShell session.</li><li>Run npm run github:bootstrap:safe.</li></ul>
 </body>
 </html>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T10:12:52.763Z",
+  "generatedAt": "2026-07-06T10:18:31.027Z",
   "status": "ok",
   "summary": {
     "docs": 24,
@@ -47,7 +47,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# GitHub API Bootstrap Runbook",
-      "chars": 1921,
+      "chars": 2427,
       "errors": [],
       "mojibakeHits": []
     },
@@ -101,7 +101,7 @@
       "type": "report",
       "status": "pass",
       "title": "GitHub API Bootstrap Handoff",
-      "chars": 2981,
+      "chars": 3197,
       "errors": [],
       "mojibakeHits": []
     },
@@ -155,7 +155,7 @@
       "type": "report",
       "status": "pass",
       "title": "GPT Optimization Completion Audit",
-      "chars": 5762,
+      "chars": 5882,
       "errors": [],
       "mojibakeHits": []
     },

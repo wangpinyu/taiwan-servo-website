@@ -31,6 +31,16 @@
 
 ## 執行順序
 
+最建議使用安全一鍵流程。它會自動執行 dry-run、smoke、full bootstrap，最後刷新 readiness / handoff / strict validation：
+
+```powershell
+$env:GITHUB_TOKEN = "<paste-token-here>"
+npm run github:bootstrap:safe
+Remove-Item Env:\GITHUB_TOKEN
+```
+
+如果需要分段人工檢查，也可以使用下列手動流程。
+
 先做無 token dry run，確認本機草案可讀：
 
 ```powershell
@@ -76,6 +86,8 @@ npm run workflow:github-api-handoff
 npm run validate:strict
 ```
 
+若使用 `npm run github:bootstrap:safe`，上述 dry-run、smoke、full apply 與 strict validation 會由 runner 串起來執行。
+
 ## 預期結果
 
 完成後 `site/reports/github-bootstrap-readiness.json` 應顯示：
@@ -101,6 +113,18 @@ GitHub repo 應有：
 4. 重新跑 smoke，不要直接重跑完整 bootstrap。
 
 如果 issue 或 PR 已存在，`tools/github-bootstrap.mjs` 會以 title 或 branch 偵測既有項目並跳過，不應重複建立。
+
+如果想先套用 GitHub 物件但暫時不跑完整 strict validation，可使用：
+
+```powershell
+npm run github:bootstrap:safe:no-strict
+```
+
+但正式交接前仍必須再跑：
+
+```powershell
+npm run validate:strict
+```
 
 ## 完成定義
 

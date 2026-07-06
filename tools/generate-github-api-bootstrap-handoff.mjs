@@ -51,6 +51,11 @@ const handoff = {
     'Pull requests: Read and write',
   ],
   commandSequence: [
+    '$env:GITHUB_TOKEN = "<paste-token-here>"',
+    'npm run github:bootstrap:safe',
+    'Remove-Item Env:\\GITHUB_TOKEN',
+  ],
+  manualCommandSequence: [
     'npm run github:bootstrap:dry-run',
     'npm run github:bootstrap:smoke:dry-run',
     '$env:GITHUB_TOKEN = "<paste-token-here>"',
@@ -77,8 +82,8 @@ const handoff = {
   nextActions: remotePrsReady
     ? ['Verify GitHub Actions on created pull requests.', 'Start category-by-category PR review.']
     : tokenPresent
-      ? ['Run npm run github:bootstrap:smoke.', 'If smoke passes, run npm run github:bootstrap.']
-      : ['Create a fine-grained GitHub token with the listed permissions.', 'Set it only in the current PowerShell session.', 'Run the smoke bootstrap before full bootstrap.'],
+      ? ['Run npm run github:bootstrap:safe.', 'Clear the token from the shell after bootstrap.']
+      : ['Create a fine-grained GitHub token with the listed permissions.', 'Set it only in the current PowerShell session.', 'Run npm run github:bootstrap:safe.'],
 };
 
 fs.mkdirSync(reportDir, { recursive: true });
@@ -119,6 +124,8 @@ fs.writeFileSync(
   <ul>${permissionRows}</ul>
   <h2>Command Sequence</h2>
   <ol>${commandRows}</ol>
+  <h2>Manual Fallback Sequence</h2>
+  <ol>${handoff.manualCommandSequence.map((item) => `<li><code>${htmlEscape(item)}</code></li>`).join('')}</ol>
   <h2>Smoke Gate</h2>
   <p><code>${htmlEscape(handoff.smokeGate.command)}</code></p>
   <ul>${handoff.smokeGate.expected.map((item) => `<li>${htmlEscape(item)}</li>`).join('')}</ul>

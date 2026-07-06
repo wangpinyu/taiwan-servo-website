@@ -37,7 +37,9 @@
     "github:bootstrap:dry-run": "node tools/github-bootstrap.mjs --all",
     "github:bootstrap:smoke:dry-run": "node tools/github-bootstrap.mjs --labels --issues --max-issues=1 && node tools/github-bootstrap.mjs --prs --max-prs=1",
     "github:bootstrap:smoke": "node tools/github-bootstrap.mjs --labels --issues --max-issues=1 --apply && node tools/github-bootstrap.mjs --prs --max-prs=1 --apply",
-    "github:bootstrap": "node tools/github-bootstrap.mjs --all --apply"
+    "github:bootstrap": "node tools/github-bootstrap.mjs --all --apply",
+    "github:bootstrap:safe": "node tools/github-bootstrap-safe-apply.mjs",
+    "github:bootstrap:safe:no-strict": "node tools/github-bootstrap-safe-apply.mjs --skip-strict"
   },
   "engines": {
     "node": ">=20"

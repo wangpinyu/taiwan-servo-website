@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T10:13:32.509Z",
+  "generatedAt": "2026-07-06T10:19:08.433Z",
   "status": "ready-needs-token",
   "repository": "wangpinyu/taiwan-servo-website",
   "tokenPresent": false,
@@ -24,6 +24,11 @@
     "Pull requests: Read and write"
   ],
   "commandSequence": [
+    "$env:GITHUB_TOKEN = \"<paste-token-here>\"",
+    "npm run github:bootstrap:safe",
+    "Remove-Item Env:\\GITHUB_TOKEN"
+  ],
+  "manualCommandSequence": [
     "npm run github:bootstrap:dry-run",
     "npm run github:bootstrap:smoke:dry-run",
     "$env:GITHUB_TOKEN = \"<paste-token-here>\"",
@@ -46,6 +51,6 @@
   "nextActions": [
     "Create a fine-grained GitHub token with the listed permissions.",
     "Set it only in the current PowerShell session.",
-    "Run the smoke bootstrap before full bootstrap."
+    "Run npm run github:bootstrap:safe."
   ]
 }
