@@ -7,9 +7,9 @@
     "large_file_strategy": "Use official manufacturer download pages or official document URLs and mark external-source when upload/download is not reliable."
   },
   "summary": {
-    "total_source_needed_pages": 6,
+    "total_source_needed_pages": 0,
     "official_source_audit_queue": 0,
-    "non_standard_exceptions": 6,
+    "ai_approved_non_standard_exceptions": 6,
     "ringfeder_resolved_pages": ["208", "209", "210", "211", "212", "213", "215", "335", "336"],
     "ringfeder_unresolved_pages": [],
     "sanyo_resolved_pages": ["194", "195", "270"],

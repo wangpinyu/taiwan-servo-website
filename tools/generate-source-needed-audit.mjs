@@ -22,46 +22,19 @@ function mdEscape(value) {
 }
 
 function classifyDisposition(page) {
-  const title = String(page.title || '');
-  const categoryPath = Array.isArray(page.category_path) ? page.category_path.join(' / ') : '';
-  const text = `${title} ${categoryPath}`;
-
-  if (/測試/.test(text)) {
+  const review = page.agent_review || {};
+  if (review.disposition) {
     return {
-      disposition: 'exclude-test-page',
-      reason: '頁面名稱或分類顯示為測試用途，不應自行補產品規格。',
-      nextAction: '由站方確認是否保留測試頁；若保留，需提供正式產品來源後再建立規格模組。',
-    };
-  }
-
-  if (/軟體|Software/i.test(text)) {
-    return {
-      disposition: 'software-source-needed',
-      reason: '軟體頁不適合套用硬體型產品規格表；需要官方軟體版本、功能、相容控制器與下載來源。',
-      nextAction: '建立軟體型資料 schema，或取得官方 ACS 軟體頁來源後再建模。',
-    };
-  }
-
-  if (/教育訓練|影片|training|video/i.test(text)) {
-    return {
-      disposition: 'training-content-no-spec',
-      reason: '教育訓練或影片型內容不是產品規格頁；不應新增推測規格表。',
-      nextAction: '若此頁保留於產品分類，應改走內容/影片索引優化，不納入產品規格詳情缺口。',
-    };
-  }
-
-  if (/特點說明|feature/i.test(text)) {
-    return {
-      disposition: 'informational-source-needed',
-      reason: '特點說明頁偏資訊架構或說明頁，缺少可驗證的產品系列/型號規格來源。',
-      nextAction: '保留為說明頁，或提供官方 ACS feature/spec 來源後再建立比較表。',
+      disposition: review.disposition,
+      reason: review.reason || '',
+      nextAction: '此頁已由 AI 標記為非硬體規格例外；若要優化，請建立對應內容 schema。',
     };
   }
 
   return {
     disposition: 'official-source-needed',
-    reason: '找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。',
-    nextAction: '補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。',
+    reason: review.reason || '缺少官方來源或既有可驗證規格模組。',
+    nextAction: '查找官方產品頁、官方 PDF、既有本機來源包，再建立或修正產品規格詳情模組。',
   };
 }
 
@@ -75,7 +48,7 @@ const standardization = JSON.parse(fs.readFileSync(standardizationPath, 'utf8'))
 const standardizationById = new Map((standardization.pages || []).map((page) => [String(page.product_id), page]));
 
 const pages = (agentReview.pages || [])
-  .filter((page) => page.agent_review?.status === 'agent-source-needed' || page.qa_status === 'no-spec-module')
+  .filter((page) => page.agent_review?.status === 'agent-source-needed')
   .map((page) => {
     const std = standardizationById.get(String(page.product_id));
     const disposition = classifyDisposition(page);
@@ -100,24 +73,45 @@ const pages = (agentReview.pages || [])
     };
   });
 
+const exceptionPages = (agentReview.pages || [])
+  .filter((page) => page.agent_review?.status === 'agent-approved-exception')
+  .map((page) => ({
+    product_id: String(page.product_id),
+    title: page.title,
+    category_path: page.category_path || [],
+    preview_rel: page.preview_rel,
+    agent_status: page.agent_review.status,
+    disposition: page.agent_review.disposition,
+    reason: page.agent_review.reason,
+  }));
+
 const dispositionCounts = {};
 for (const page of pages) {
   dispositionCounts[page.disposition] = (dispositionCounts[page.disposition] || 0) + 1;
 }
 
+const exceptionCounts = {};
+for (const page of exceptionPages) {
+  exceptionCounts[page.disposition] = (exceptionCounts[page.disposition] || 0) + 1;
+}
+
 const report = {
   generated_at: new Date().toISOString(),
-  scope: 'Source-needed and no-spec-module audit for product pages',
+  scope: 'Source-needed audit for product pages',
   policy: {
     noSpecWithoutSource: true,
     noInventedSpecifications: true,
     reviewOwner: 'AI agent, with human escalation only for business/source decisions',
+    approvedExceptionsAreNotBlocking: true,
   },
   summary: {
     total_pages: pages.length,
     disposition_counts: dispositionCounts,
+    approved_exception_pages: exceptionPages.length,
+    approved_exception_counts: exceptionCounts,
   },
   pages,
+  approved_exceptions: exceptionPages,
 };
 
 fs.mkdirSync(reportDir, { recursive: true });
@@ -128,20 +122,29 @@ const md = [
   '',
   `Generated at: ${report.generated_at}`,
   '',
-  '本報告列出沒有既有產品規格詳情模組、且不應由 AI 自行編造規格的頁面。',
+  '本報告只列出真正需要官方來源審核的產品頁。AI 已核准的非硬體例外另列於 approved exceptions，不視為阻塞。',
   '',
   '## Summary',
   '',
-  ...Object.entries(dispositionCounts).map(([key, count]) => `- ${key}: ${count}`),
+  `- Source-needed pages: ${report.summary.total_pages}`,
+  `- Approved exception pages: ${report.summary.approved_exception_pages}`,
+  '',
+  '## Source-needed Pages',
   '',
   '| ID | Title | Category | Disposition | Reason | Next action | Preview |',
   '| --- | --- | --- | --- | --- | --- | --- |',
-  ...pages.map((page) => `| ${mdEscape(page.product_id)} | ${mdEscape(page.title)} | ${mdEscape(page.category_path.join(' / '))} | ${mdEscape(page.disposition)} | ${mdEscape(page.reason)} | ${mdEscape(page.nextAction)} | ${mdEscape(page.preview_rel)} |`),
+  ...(pages.length ? pages.map((page) => `| ${mdEscape(page.product_id)} | ${mdEscape(page.title)} | ${mdEscape(page.category_path.join(' / '))} | ${mdEscape(page.disposition)} | ${mdEscape(page.reason)} | ${mdEscape(page.nextAction)} | ${mdEscape(page.preview_rel)} |`) : ['| — | — | — | — | — | — | — |']),
+  '',
+  '## Approved Exceptions',
+  '',
+  '| ID | Title | Category | Disposition | Reason | Preview |',
+  '| --- | --- | --- | --- | --- | --- |',
+  ...exceptionPages.map((page) => `| ${mdEscape(page.product_id)} | ${mdEscape(page.title)} | ${mdEscape(page.category_path.join(' / '))} | ${mdEscape(page.disposition)} | ${mdEscape(page.reason)} | ${mdEscape(page.preview_rel)} |`),
   '',
 ];
 fs.writeFileSync(outMd, `${md.join('\n')}\n`, 'utf8');
 
-const rows = pages.map((page) => `
+const sourceRows = pages.length ? pages.map((page) => `
   <tr>
     <td>${htmlEscape(page.product_id)}</td>
     <td><a href="../${htmlEscape(page.preview_rel)}">${htmlEscape(page.title)}</a></td>
@@ -149,6 +152,15 @@ const rows = pages.map((page) => `
     <td><code>${htmlEscape(page.disposition)}</code></td>
     <td>${htmlEscape(page.reason)}</td>
     <td>${htmlEscape(page.nextAction)}</td>
+  </tr>`).join('\n') : '<tr><td colspan="6">No source-needed product pages.</td></tr>';
+
+const exceptionRows = exceptionPages.map((page) => `
+  <tr>
+    <td>${htmlEscape(page.product_id)}</td>
+    <td><a href="../${htmlEscape(page.preview_rel)}">${htmlEscape(page.title)}</a></td>
+    <td>${htmlEscape(page.category_path.join(' / '))}</td>
+    <td><code>${htmlEscape(page.disposition)}</code></td>
+    <td>${htmlEscape(page.reason)}</td>
   </tr>`).join('\n');
 
 const html = `<!doctype html>
@@ -159,7 +171,7 @@ const html = `<!doctype html>
   <title>Source-needed Audit</title>
   <style>
     body{font-family:Arial,"Noto Sans TC",sans-serif;margin:24px;color:#122033;background:#f8faf8}
-    table{border-collapse:collapse;width:100%;background:#fff}
+    table{border-collapse:collapse;width:100%;background:#fff;margin:16px 0 28px}
     th,td{border:1px solid #d8e2dc;padding:10px;text-align:left;vertical-align:top}
     th{background:#e9f4ed}
     code{white-space:nowrap}
@@ -169,16 +181,24 @@ const html = `<!doctype html>
 </head>
 <body>
   <h1>Source-needed Audit</h1>
-  <p>沒有官方來源或既有規格模組時，不新增推測規格表。本報告是 6 個 no-spec/source-needed 頁面的 AI agent 處置依據。</p>
+  <p>本報告只列出真正需要官方來源審核的產品頁。AI 已核准的非硬體例外不視為阻塞。</p>
   <div class="summary">
-    <div class="card">Pages: ${htmlEscape(report.summary.total_pages)}</div>
-    ${Object.entries(dispositionCounts).map(([key, count]) => `<div class="card">${htmlEscape(key)}: ${htmlEscape(count)}</div>`).join('\n')}
+    <div class="card">Source-needed pages: ${htmlEscape(report.summary.total_pages)}</div>
+    <div class="card">Approved exceptions: ${htmlEscape(report.summary.approved_exception_pages)}</div>
   </div>
+  <h2>Source-needed Pages</h2>
   <table>
     <thead>
       <tr><th>ID</th><th>Title</th><th>Category</th><th>Disposition</th><th>Reason</th><th>Next action</th></tr>
     </thead>
-    <tbody>${rows}</tbody>
+    <tbody>${sourceRows}</tbody>
+  </table>
+  <h2>Approved Exceptions</h2>
+  <table>
+    <thead>
+      <tr><th>ID</th><th>Title</th><th>Category</th><th>Disposition</th><th>Reason</th></tr>
+    </thead>
+    <tbody>${exceptionRows}</tbody>
   </table>
 </body>
 </html>

@@ -14,9 +14,9 @@ This file turns the current `agent-source-needed` audit into executable follow-u
 
 ## Summary
 
-- Total source-needed pages: 6
+- Total source-needed pages: 0
 - Official source audit queue: 0
-- Non-standard product/spec exceptions: 6
+- AI-approved non-standard product/spec exceptions: 6
 - RINGFEDER resolved in source audits: 208, 209, 210, 211, 212, 213, 215, 335, 336.
 - SANYO DENKI resolved in source audit: 194, 195, 270.
 - JVL resolved in source audit: 102.
@@ -29,7 +29,7 @@ No hardware product pages currently require official source audit before a speci
 
 ## Non-standard Exceptions
 
-These should not be forced into the standard `產品規格詳情` hardware module without a separate content decision.
+These have been reviewed by the AI agent and are not blocking the hardware product-spec workflow. They should not be forced into the standard `產品規格詳情` hardware module. If the site owner wants to optimize them later, use a software / informational / training schema instead.
 
 | ID | Page | Disposition | Handling |
 | --- | --- | --- | --- |
@@ -94,5 +94,5 @@ These should not be forced into the standard `產品規格詳情` hardware modul
 
 ## Next Agent Steps
 
-1. Keep 241, 253, 254, 255, 268, and 269 as non-standard exceptions until a separate software / informational / training schema is approved.
-2. Continue category-level UIUX and SEO optimization from the 242 `agent-approved-clean` hardware/product pages.
+1. Continue category-level UIUX and SEO optimization from the 242 `agent-approved-clean` hardware/product pages.
+2. If 241, 253, 254, 255, 268, or 269 need public optimization later, create a separate non-hardware content schema instead of a hardware spec table.

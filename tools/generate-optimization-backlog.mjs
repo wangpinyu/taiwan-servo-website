@@ -123,7 +123,7 @@ for (const page of review.pages || []) {
     critical: page.critical || [],
   };
   group.pages.push(item);
-  if (status !== 'agent-approved-clean') group.blocking_pages.push(item);
+  if (status !== 'agent-approved-clean' && status !== 'agent-approved-exception') group.blocking_pages.push(item);
   if (status.includes('source')) group.source_pages.push(item);
 }
 

@@ -3,19 +3,19 @@
 Branch: `phase-2-drivers-spec-review`
 Priority: 4
 Pages: 18
-Blocking pages: 6
+Blocking pages: 0
 
 ## Status counts
 
 - agent-approved-clean: 12
-- agent-source-needed: 6
+- agent-approved-exception: 6
 
 ## Target pages
 
 | ID | Title | Status | Preview |
 | --- | --- | --- | --- |
 | 76 | 雷射加工應用軟體：DMC | agent-approved-clean | preview/products/detail/76.html |
-| 241 | 測試-ACS硬體分類 | agent-source-needed | preview/products/detail/241.html |
+| 241 | 測試-ACS硬體分類 | agent-approved-exception | preview/products/detail/241.html |
 | 242 | 測試-ACS EtherCAT控制主機(控制器) | agent-approved-clean | preview/products/detail/242.html |
 | 243 | ACS EtherCAT控制主機(控制器)O | agent-approved-clean | preview/products/detail/243.html |
 | 244 | ACS EtherCAT控制主機+內建驅動器O | agent-approved-clean | preview/products/detail/244.html |
@@ -26,11 +26,11 @@ Blocking pages: 6
 | 249 | ACS EtherCAT介面模組O | agent-approved-clean | preview/products/detail/249.html |
 | 251 | ACS EtherCAT雷射控制模組O | agent-approved-clean | preview/products/detail/251.html |
 | 252 | ACS配件O | agent-approved-clean | preview/products/detail/252.html |
-| 253 | 軟體-1 | agent-source-needed | preview/products/detail/253.html |
-| 254 | 軟體-2 | agent-source-needed | preview/products/detail/254.html |
-| 255 | 軟體-3 | agent-source-needed | preview/products/detail/255.html |
-| 268 | ACS 特點說明 | agent-source-needed | preview/products/detail/268.html |
-| 269 | ACS 教育訓練影片 | agent-source-needed | preview/products/detail/269.html |
+| 253 | 軟體-1 | agent-approved-exception | preview/products/detail/253.html |
+| 254 | 軟體-2 | agent-approved-exception | preview/products/detail/254.html |
+| 255 | 軟體-3 | agent-approved-exception | preview/products/detail/255.html |
+| 268 | ACS 特點說明 | agent-approved-exception | preview/products/detail/268.html |
+| 269 | ACS 教育訓練影片 | agent-approved-exception | preview/products/detail/269.html |
 | 352 | 軟體開發與模擬套件 | agent-approved-clean | preview/products/detail/352.html |
 
 ## Acceptance criteria

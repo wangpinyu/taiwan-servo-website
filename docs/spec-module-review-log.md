@@ -8,7 +8,8 @@ This log tracks local-preview and GitHub workflow status for the Taiwan Servo pr
 
 - Product pages: 248
 - `agent-approved-clean`: 242
-- `agent-source-needed`: 6
+- `agent-approved-exception`: 6
+- `agent-source-needed`: 0
 - `agent-fix-required`: 0
 - `agent-structure-review`: 0
 - Critical failures: 0
@@ -34,9 +35,9 @@ Authoritative reports:
 
 - Action index: `docs/source-needed-action-index.md`
 - Machine-readable index: `docs/source-needed-action-index.json`
-- Current unresolved scope: 6 pages.
+- Current unresolved source-needed scope: 0 pages.
 - AI source audit queue: 0 hardware pages.
-- Non-standard exceptions: 6 ACS test/software/informational/training pages that should not be forced into the hardware `產品規格詳情` schema without a separate content decision.
+- AI-approved non-standard exceptions: 6 ACS test/software/informational/training pages that should not be forced into the hardware `產品規格詳情` schema.
 
 ## Completed Source Audit Progress
 
@@ -100,7 +101,7 @@ Authoritative reports:
 
 None.
 
-### Non-standard Exceptions
+### AI-approved Non-standard Exceptions
 
 | ID | Page | Handling |
 | --- | --- | --- |
@@ -127,9 +128,11 @@ npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
 ```
 
-Latest expected local validation after the RINGFEDER friction-springs audit:
+Latest expected local validation after the RINGFEDER friction-springs and exception-status audit:
 
 - `product-spec-module-qa`: 242 pass / 6 no-spec-module / 0 fail / 0 warn
 - `product-page-structure-seo-qa`: 242 pass / 6 no-spec-module / 0 fail / 0 warn
 - `product-seo-warning-taxonomy`: 0 warning entries
-- `product-spec-agent-review`: 242 `agent-approved-clean` / 6 `agent-source-needed` / 0 `agent-fix-required`
+- `product-spec-agent-review`: 242 `agent-approved-clean` / 6 `agent-approved-exception` / 0 `agent-source-needed` / 0 `agent-fix-required`
+- `source-needed-audit`: 0 source-needed pages / 6 approved exceptions
+- `optimization-backlog`: 0 blocking pages
