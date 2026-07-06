@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T02:36:00.982Z",
+  "generatedAt": "2026-07-06T05:36:36.024Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
   "existingPullRequestRefs": 0,
   "note": "Create PRs from lower priority to higher priority only after phase-1 is accepted, or use the listed base branch for stacked review.",
@@ -59,7 +59,6 @@
       "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-3-harmonic-drive",
       "smoke": {
         "category": "Harmonic Drive 減速機",
-        "sourceCategory": "Harmonic Drive",
         "pages": 29,
         "checks": 58,
         "failures": 0
@@ -105,7 +104,6 @@
       "prUrl": "https://github.com/wangpinyu/taiwan-servo-website/pull/new/phase-3-bearings-air-mechanical",
       "smoke": {
         "category": "空氣軸承 / 滾珠滾柱軸承",
-        "sourceCategory": "空氣軸承 / 滾珠•滾柱軸承",
         "pages": 17,
         "checks": 34,
         "failures": 0

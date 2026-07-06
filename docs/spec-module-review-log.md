@@ -110,3 +110,15 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Ceramic chucks visible quality pass
+
+- Branch: `phase-5-ceramic-chucks`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed ceramic chuck page:
+  - `detail/129`
+- Result:
+  - No page-content change was required.
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text.
+- Validation:
+  - Edge/CDP visual smoke on `129` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, and no customer-facing internal text.
