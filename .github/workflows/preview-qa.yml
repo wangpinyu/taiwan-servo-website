@@ -2,7 +2,9 @@ name: Preview QA
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - 'phase-*'
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -24,12 +26,40 @@ jobs:
       - name: Validate local preview
         run: npm run validate
 
+      - name: Write QA summary
+        if: always()
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const read = (file) => JSON.parse(fs.readFileSync(file, 'utf8'));
+          const rows = [
+            ['Local mirror readiness', 'site/reports/local-mirror-readiness-current.json'],
+            ['Product spec QA', 'site/reports/product-spec-module-qa.json'],
+            ['Product page SEO QA', 'site/reports/product-page-structure-seo-qa.json'],
+            ['AI agent review', 'site/reports/product-spec-agent-review.json'],
+            ['Source-needed audit', 'site/reports/source-needed-audit.json'],
+            ['GitHub bootstrap readiness', 'site/reports/github-bootstrap-readiness.json'],
+          ];
+          const lines = ['# Taiwan Servo Preview QA', '', '| Report | Summary |', '| --- | --- |'];
+          for (const [label, file] of rows) {
+            if (!fs.existsSync(file)) {
+              lines.push(`| ${label} | missing: \`${file}\` |`);
+              continue;
+            }
+            const data = read(file);
+            const summary = data.summary || data;
+            const compact = JSON.stringify(summary).replace(/\|/g, '\\|');
+            lines.push(`| ${label} | \`${compact}\` |`);
+          }
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${lines.join('\n')}\n`);
+          NODE
+
       - name: Upload QA reports
         uses: actions/upload-artifact@v4
         if: always()
         with:
           name: taiwan-servo-preview-reports
           path: |
-            site/reports/*.html
-            site/reports/*.json
-            site/reports/github-issues/*.md
+            site/reports/**/*.html
+            site/reports/**/*.json
+            site/reports/**/*.md
