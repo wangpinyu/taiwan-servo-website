@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T11:45:30.572Z",
+  "generatedAt": "2026-07-06T11:52:24.215Z",
   "status": "ok",
   "summary": {
-    "docs": 30,
+    "docs": 31,
     "errors": 0
   },
   "checks": [
@@ -20,7 +20,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# GitHub 驅動的產品頁優化流程",
-      "chars": 5873,
+      "chars": 5908,
       "errors": [],
       "mojibakeHits": []
     },
@@ -210,6 +210,15 @@
       "status": "pass",
       "title": "Next Action Dashboard",
       "chars": 3369,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/ai-review-handoff.html",
+      "type": "report",
+      "status": "pass",
+      "title": "AI Review Handoff",
+      "chars": 4983,
       "errors": [],
       "mojibakeHits": []
     },

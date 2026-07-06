@@ -1,6 +1,6 @@
 # Source-needed Audit
 
-Generated at: 2026-07-06T11:45:43.859Z
+Generated at: 2026-07-06T11:52:37.384Z
 
 This report separates true official-source gaps from AI-approved non-standard pages. Hardware products still require verified manufacturer sources before a specification table is created. Software, training, test, and informational pages should use the non-hardware content schema instead of the hardware product specification table.
 

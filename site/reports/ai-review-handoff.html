@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Review Handoff</title>
+  <style>
+    body{font-family:Arial,"Microsoft JhengHei",sans-serif;margin:24px;color:#10251b;background:#f8faf8}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:18px 0}
+    .card{background:#fff;border:1px solid #dce7df;border-radius:8px;padding:14px}
+    .card span{display:block;color:#52675b;font-size:13px}
+    .card strong{display:block;font-size:22px;margin-top:6px}
+    table{border-collapse:collapse;width:100%;background:#fff;margin-top:18px}
+    th,td{border:1px solid #d8e2dc;padding:10px;text-align:left;vertical-align:top}
+    th{background:#e9f4ed}
+    pre{white-space:pre-wrap;margin:0}
+    a{color:#087d3d}
+  </style>
+</head>
+<body>
+  <h1>AI Review Handoff</h1>
+  <p>Compact evidence package for AI/GPT review of the Taiwan Servo local optimization workflow before GitHub issue/PR creation and deployment approval.</p>
+  <div class="grid"><div class="card"><span>Local optimization ready</span><strong>true</strong></div>
+<div class="card"><span>Full objective complete</span><strong>false</strong></div>
+<div class="card"><span>Product pages</span><strong>248</strong></div>
+<div class="card"><span>Spec pass</span><strong>242</strong></div>
+<div class="card"><span>Approved clean</span><strong>242</strong></div>
+<div class="card"><span>Approved exceptions</span><strong>6</strong></div>
+<div class="card"><span>GitHub issue drafts</span><strong>18</strong></div>
+<div class="card"><span>GitHub PR drafts</span><strong>17</strong></div>
+<div class="card"><span>Remote PR refs</span><strong>0</strong></div>
+<div class="card"><span>Deployment allowed now</span><strong>false</strong></div></div>
+  <h2>Review checklist</h2>
+  <ol><li>Confirm the local optimization evidence is sufficient for AI approval.</li>
+<li>Confirm the 6 no-spec-module pages are acceptable exceptions, not missing hardware product pages.</li>
+<li>Confirm GitHub labels, tracking issues, and phase PRs can be created from the manual handoff or token-backed script.</li>
+<li>Confirm deployment remains out of scope until explicit user approval.</li>
+<li>Confirm no backend save, server overwrite, or production publish has been performed in this stage.</li></ol>
+  <h2>Validation evidence</h2>
+  <table><thead><tr><th>Area</th><th>Evidence</th></tr></thead><tbody><tr>
+  <td>staticSite</td>
+  <td><pre>{
+  &quot;html_files&quot;: 359,
+  &quot;errors&quot;: 0,
+  &quot;warnings&quot;: 0,
+  &quot;formal_same_origin_refs&quot;: 0,
+  &quot;missing_local_refs&quot;: 0,
+  &quot;file_path_refs&quot;: 0,
+  &quot;txt_href_refs&quot;: 0
+}</pre></td>
+</tr>
+<tr>
+  <td>localMirror</td>
+  <td><pre>{
+  &quot;html_files&quot;: 359,
+  &quot;errors&quot;: 0,
+  &quot;warnings&quot;: 0,
+  &quot;local_refs&quot;: 66058,
+  &quot;missing_local_refs&quot;: 0,
+  &quot;same_origin_refs&quot;: 170,
+  &quot;same_origin_missing&quot;: 0,
+  &quot;external_refs&quot;: 8743,
+  &quot;document_refs&quot;: 3001,
+  &quot;image_refs&quot;: 4885,
+  &quot;file_path_refs&quot;: 0,
+  &quot;txt_href_refs&quot;: 0,
+  &quot;skipped_section_refs&quot;: 143
+}</pre></td>
+</tr>
+<tr>
+  <td>specModules</td>
+  <td><pre>{
+  &quot;total_pages&quot;: 248,
+  &quot;qa_status_counts&quot;: {
+    &quot;pass&quot;: 242,
+    &quot;no-spec-module&quot;: 6
+  },
+  &quot;fail_count&quot;: 0,
+  &quot;warn_count&quot;: 0,
+  &quot;pass_count&quot;: 242,
+  &quot;no_spec_module_count&quot;: 6
+}</pre></td>
+</tr>
+<tr>
+  <td>downloadAffordances</td>
+  <td><pre>{
+  &quot;total_pages&quot;: 248,
+  &quot;pages_with_specs&quot;: 242,
+  &quot;fail_count&quot;: 0,
+  &quot;warn_count&quot;: 0,
+  &quot;actionable_doc_links&quot;: 3543,
+  &quot;contact_statuses&quot;: 2124
+}</pre></td>
+</tr>
+<tr>
+  <td>seoStructure</td>
+  <td><pre>{
+  &quot;total_pages&quot;: 248,
+  &quot;status_counts&quot;: {
+    &quot;pass&quot;: 242,
+    &quot;no-spec-module&quot;: 6
+  },
+  &quot;fail_count&quot;: 0,
+  &quot;warn_count&quot;: 0,
+  &quot;pass_count&quot;: 242,
+  &quot;no_spec_module_count&quot;: 6
+}</pre></td>
+</tr>
+<tr>
+  <td>visualSample</td>
+  <td><pre>{
+  &quot;total_checks&quot;: 18,
+  &quot;pass&quot;: 18,
+  &quot;warn&quot;: 0,
+  &quot;fail&quot;: 0
+}</pre></td>
+</tr></tbody></table>
+  <h2>Report links</h2>
+  <ul><li><a href="gpt-optimization-completion-audit.html">Completion audit</a></li>
+<li><a href="next-action-dashboard.html">Next action dashboard</a></li>
+<li><a href="product-spec-module-qa.html">Product spec QA</a></li>
+<li><a href="product-spec-agent-review.html">Agent review</a></li>
+<li><a href="github-ready-validation.html">Static validation</a></li>
+<li><a href="local-mirror-readiness-current.html">Local mirror readiness</a></li>
+<li><a href="github-manual-bootstrap-handoff.html">GitHub manual handoff</a></li>
+<li><a href="deployment-phase-handoff.html">Deployment handoff</a></li></ul>
+</body>
+</html>

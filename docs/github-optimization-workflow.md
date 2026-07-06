@@ -92,6 +92,7 @@ npm run workflow:deployment-package-integrity
 npm run workflow:deployment-readiness
 npm run workflow:completion-audit
 npm run workflow:next-action-dashboard
+npm run workflow:ai-review-handoff
 ```
 
 ## 自動修正指令

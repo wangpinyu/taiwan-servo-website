@@ -29,6 +29,7 @@ const docs = [
   { relPath: 'site/reports/deployment-phase-handoff.html', type: 'report' },
   { relPath: 'site/reports/gpt-optimization-completion-audit.html', type: 'report' },
   { relPath: 'site/reports/next-action-dashboard.html', type: 'report' },
+  { relPath: 'site/reports/ai-review-handoff.html', type: 'report' },
   { relPath: 'site/reports/optimization-backlog.html', type: 'report' },
   { relPath: 'site/reports/product-page-structure-seo-qa.html', type: 'report' },
   { relPath: 'site/reports/product-spec-agent-review.html', type: 'report' },

@@ -1,6 +1,6 @@
 # GitHub Manual Bootstrap Handoff
 
-Generated at: 2026-07-06T11:46:17.530Z
+Generated at: 2026-07-06T11:53:07.216Z
 
 這是沒有 GitHub token 時的手動替代流程。你需要登入 GitHub 後逐一開啟連結並確認送出。
 

@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-07-06T11:53:08.002Z",
+  "purpose": "Compact evidence package for AI/GPT review of the Taiwan Servo local optimization workflow before GitHub issue/PR creation and deployment approval.",
+  "currentState": {
+    "localOptimizationReady": true,
+    "fullObjectiveComplete": false,
+    "remainingExternalActions": [
+      "github-api-bootstrap"
+    ],
+    "outOfStageItems": [
+      "deployment-stage"
+    ]
+  },
+  "productScope": {
+    "productPages": 248,
+    "specModulePass": 242,
+    "noSpecModuleExceptions": 6,
+    "agentApprovedClean": 242,
+    "agentApprovedException": 6
+  },
+  "validationEvidence": {
+    "staticSite": {
+      "html_files": 359,
+      "errors": 0,
+      "warnings": 0,
+      "formal_same_origin_refs": 0,
+      "missing_local_refs": 0,
+      "file_path_refs": 0,
+      "txt_href_refs": 0
+    },
+    "localMirror": {
+      "html_files": 359,
+      "errors": 0,
+      "warnings": 0,
+      "local_refs": 66058,
+      "missing_local_refs": 0,
+      "same_origin_refs": 170,
+      "same_origin_missing": 0,
+      "external_refs": 8743,
+      "document_refs": 3001,
+      "image_refs": 4885,
+      "file_path_refs": 0,
+      "txt_href_refs": 0,
+      "skipped_section_refs": 143
+    },
+    "specModules": {
+      "total_pages": 248,
+      "qa_status_counts": {
+        "pass": 242,
+        "no-spec-module": 6
+      },
+      "fail_count": 0,
+      "warn_count": 0,
+      "pass_count": 242,
+      "no_spec_module_count": 6
+    },
+    "downloadAffordances": {
+      "total_pages": 248,
+      "pages_with_specs": 242,
+      "fail_count": 0,
+      "warn_count": 0,
+      "actionable_doc_links": 3543,
+      "contact_statuses": 2124
+    },
+    "seoStructure": {
+      "total_pages": 248,
+      "status_counts": {
+        "pass": 242,
+        "no-spec-module": 6
+      },
+      "fail_count": 0,
+      "warn_count": 0,
+      "pass_count": 242,
+      "no_spec_module_count": 6
+    },
+    "visualSample": {
+      "total_checks": 18,
+      "pass": 18,
+      "warn": 0,
+      "fail": 0
+    }
+  },
+  "githubEvidence": {
+    "labels": 7,
+    "issueDrafts": 18,
+    "pullRequestDrafts": 17,
+    "tokenRequiredForManual": false,
+    "remoteBranchesPresent": 18,
+    "remotePullRequestRefs": 0
+  },
+  "deploymentEvidence": {
+    "status": "ready-for-deployment-approval-with-package-review",
+    "deploymentAllowedNow": false,
+    "deployFiles": 1677,
+    "safeOverwriteCandidates": 1415,
+    "packageIntegrityStatus": "review",
+    "packageIntegrityReviewCount": 5,
+    "packageIntegrityErrorCount": 0
+  },
+  "reviewChecklist": [
+    "Confirm the local optimization evidence is sufficient for AI approval.",
+    "Confirm the 6 no-spec-module pages are acceptable exceptions, not missing hardware product pages.",
+    "Confirm GitHub labels, tracking issues, and phase PRs can be created from the manual handoff or token-backed script.",
+    "Confirm deployment remains out of scope until explicit user approval.",
+    "Confirm no backend save, server overwrite, or production publish has been performed in this stage."
+  ],
+  "reportLinks": [
+    {
+      "label": "Completion audit",
+      "href": "gpt-optimization-completion-audit.html"
+    },
+    {
+      "label": "Next action dashboard",
+      "href": "next-action-dashboard.html"
+    },
+    {
+      "label": "Product spec QA",
+      "href": "product-spec-module-qa.html"
+    },
+    {
+      "label": "Agent review",
+      "href": "product-spec-agent-review.html"
+    },
+    {
+      "label": "Static validation",
+      "href": "github-ready-validation.html"
+    },
+    {
+      "label": "Local mirror readiness",
+      "href": "local-mirror-readiness-current.html"
+    },
+    {
+      "label": "GitHub manual handoff",
+      "href": "github-manual-bootstrap-handoff.html"
+    },
+    {
+      "label": "Deployment handoff",
+      "href": "deployment-phase-handoff.html"
+    }
+  ]
+}
