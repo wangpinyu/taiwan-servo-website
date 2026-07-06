@@ -118,3 +118,15 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Couplings visible quality pass
+
+- Branch: `phase-4-couplings`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed coupling pages:
+  - `detail/153`, `detail/154`, `detail/207`, `detail/208`, `detail/209`, `detail/210`, `detail/211`, `detail/212`, `detail/213`, `detail/214`, `detail/215`, `detail/216`, `detail/217`, `detail/332`, `detail/335`, `detail/336`
+- Result:
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 16 coupling pages.
+  - All 16 pages remain `agent-approved-clean`; no source-needed pages in this category.
+- Validation:
+  - Edge/CDP visual smoke on `153`, `154`, `207`, `208`, `214`, `216`, and `332` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, no customer-facing internal text.
