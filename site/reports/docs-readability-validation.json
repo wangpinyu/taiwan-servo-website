@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T08:59:32.201Z",
+  "generatedAt": "2026-07-06T09:08:32.884Z",
   "status": "ok",
   "summary": {
-    "docs": 13,
+    "docs": 14,
     "errors": 0
   },
   "checks": [
@@ -20,7 +20,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# GitHub 驅動的產品頁優化流程",
-      "chars": 4266,
+      "chars": 4426,
       "errors": [],
       "mojibakeHits": []
     },
@@ -29,7 +29,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# Private GitHub Repo Setup",
-      "chars": 2283,
+      "chars": 2353,
       "errors": [],
       "mojibakeHits": []
     },
@@ -56,7 +56,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# 產品規格詳情模組審核紀錄",
-      "chars": 6056,
+      "chars": 6180,
       "errors": [],
       "mojibakeHits": []
     },
@@ -102,6 +102,15 @@
       "status": "pass",
       "title": "產品規格詳情 QA",
       "chars": 31965,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "site/reports/visual-sample-qa.html",
+      "type": "report",
+      "status": "pass",
+      "title": "Visual Sample QA",
+      "chars": 6651,
       "errors": [],
       "mojibakeHits": []
     },

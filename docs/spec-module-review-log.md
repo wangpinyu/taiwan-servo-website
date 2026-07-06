@@ -21,6 +21,7 @@ Authoritative reports:
 - `site/reports/product-spec-module-qa.json`
 - `site/reports/product-page-structure-seo-qa.json`
 - `site/reports/product-seo-warning-taxonomy.json`
+- `site/reports/visual-sample-qa.json`
 - `site/reports/source-needed-audit.json`
 
 ## Review Status Definitions
@@ -126,6 +127,7 @@ npm run validate
 npm run fix:spec-common:dry-run
 npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
+npm run qa:visual-sample
 ```
 
 Latest expected local validation after the RINGFEDER friction-springs and exception-status audit:
@@ -136,3 +138,4 @@ Latest expected local validation after the RINGFEDER friction-springs and except
 - `product-spec-agent-review`: 242 `agent-approved-clean` / 6 `agent-approved-exception` / 0 `agent-source-needed` / 0 `agent-fix-required`
 - `source-needed-audit`: 0 source-needed pages / 6 approved exceptions
 - `optimization-backlog`: 0 blocking pages
+- `visual-sample-qa`: 18 checks / 18 pass / 0 fail / 0 warn

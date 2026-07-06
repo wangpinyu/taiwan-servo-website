@@ -1,6 +1,6 @@
 # Source-needed Audit
 
-Generated at: 2026-07-06T08:59:41.593Z
+Generated at: 2026-07-06T09:08:43.782Z
 
 本報告只列出真正需要官方來源審核的產品頁。AI 已核准的非硬體例外另列於 approved exceptions，不視為阻塞。
 

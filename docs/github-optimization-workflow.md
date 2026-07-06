@@ -67,6 +67,7 @@ npm run qa:product-seo
 npm run qa:product-seo-taxonomy
 npm run qa:agent
 npm run qa:source-needed
+npm run qa:visual-sample
 ```
 
 GitHub 工作流報告：
@@ -144,10 +145,11 @@ agent-source-needed
 目前基準：
 
 - 產品頁：248
-- `agent-approved-clean`：228
-- `agent-source-needed`：20
-- `agent-fix-required`：0
-- `agent-structure-review`：0
+- `agent-approved-clean`: 242
+- `agent-approved-exception`: 6
+- `agent-source-needed`: 0
+- `agent-fix-required`: 0
+- `agent-structure-review`: 0
 
 ## 產品規格詳情規則
 
@@ -181,6 +183,7 @@ agent-source-needed
 每個 PR 至少需要：
 
 - `npm run validate` pass。
+- `npm run qa:visual-sample` pass for the current PR sample set when local visual review is needed.
 - GitHub Actions `Preview QA` pass。
 - 目標頁轉為 `agent-approved-clean`，或明確列為 `source-needed`。
 - `產品規格詳情` 位置正確。

@@ -17,6 +17,7 @@ const docs = [
   { relPath: 'site/reports/product-page-structure-seo-qa.html', type: 'report' },
   { relPath: 'site/reports/product-spec-agent-review.html', type: 'report' },
   { relPath: 'site/reports/product-spec-module-qa.html', type: 'report' },
+  { relPath: 'site/reports/visual-sample-qa.html', type: 'report' },
   { relPath: 'site/reports/source-needed-audit.html', type: 'report' },
   { relPath: 'site/reports/source-needed-audit.md', type: 'report' },
 ];

@@ -29,6 +29,7 @@ repo 應保持 private。不要把後台密碼、cookie、token、`.env` 或任�
 - 本機 preview 與 QA 指令已建立：
   - `npm run serve`
   - `npm run validate`
+  - `npm run qa:visual-sample`
 - GitHub bootstrap 腳本已建立：
   - labels
   - tracking issues
@@ -97,6 +98,7 @@ Remove-Item Env:\GITHUB_TOKEN
 - `site/reports/product-spec-module-qa.html`
 - `site/reports/product-page-structure-seo-qa.html`
 - `site/reports/product-spec-agent-review.html`
+- `site/reports/visual-sample-qa.html`
 - `site/reports/source-needed-audit.html`
 - `site/reports/optimization-backlog.html`
 - `site/reports/github-issues/index.md`
