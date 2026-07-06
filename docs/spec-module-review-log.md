@@ -110,3 +110,15 @@ npm run github:bootstrap:smoke:dry-run
 - issue drafts 與 PR drafts 已產出。
 - `github-bootstrap-readiness` 目前會依 shell 是否有 `GITHUB_TOKEN` / `GH_TOKEN` 判定是否可 apply。
 - 若沒有 token，只能產出 dry-run 與 Markdown drafts，不能實際建立 GitHub labels / issues / PRs。
+
+## 2026-07-06 Other feedback visible quality pass
+
+- Branch: `phase-5-other-feedback`
+- Scope: local preview only; no backend save, no upload, no test-site mutation.
+- Reviewed other-feedback pages:
+  - `detail/109`, `detail/110`, `detail/111`, `detail/112`, `detail/114`, `detail/115`, `detail/399`, `detail/400`
+- Result:
+  - No page-content change was required; the first H2 sections are formal-site product positioning headings and were preserved.
+  - Static audit found no placeholder images, empty status blocks, local paths, internal notes, or customer-facing internal workflow text across the 8 pages.
+- Validation:
+  - Edge/CDP visual smoke on `109`, `110`, `111`, `114`, `399`, and `400` at desktop 1366x900 and mobile 390x844: HTTP 200, no horizontal overflow, no broken images, no placeholder images, and no customer-facing internal text.
