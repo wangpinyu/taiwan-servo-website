@@ -281,14 +281,34 @@ function removeInternalNotes(block) {
 
 function fileCards(block) {
   const cards = [];
-  const re = /<div\b([^>]*class=(["'])[^"']*\bst-[a-z0-9-]+-file\b[^"']*\2[^>]*)>([\s\S]*?)<\/div>/gi;
+  const re = /<div\b([^>]*class=(["'])[^"']*\bst-[a-z0-9-]+-(?:file|doc)\b[^"']*\2[^>]*)>([\s\S]*?)<\/div>/gi;
   for (const match of block.matchAll(re)) {
     const attrs = match[1] || '';
     const inner = match[3] || '';
     const key = attrs.match(/\sdata-file-key=(["'])(.*?)\1/i)?.[2] || '';
-    const title = stripTags(inner.match(/<strong\b[^>]*>([\s\S]*?)<\/strong>/i)?.[1] || inner);
+    const title =
+      stripTags(inner.match(/<strong\b[^>]*>([\s\S]*?)<\/strong>/i)?.[1] || '') ||
+      stripTags(inner.match(/<div\b[^>]*class=(["'])[^"']*\bdoc-title\b[^"']*\1[^>]*>([\s\S]*?)<\/div>/i)?.[2] || '') ||
+      stripTags(inner);
     if (!title && !key) continue;
     cards.push({ key, title: title || key });
+  }
+  return cards;
+}
+
+function linkCards(block) {
+  const cards = [];
+  const re = /<a\b([^>]*)href=(["'])(.*?)\2([^>]*)>([\s\S]*?)<\/a>/gi;
+  for (const match of block.matchAll(re)) {
+    const attrs = `${match[1] || ''} ${match[4] || ''}`;
+    const href = match[3] || '';
+    const text = stripTags(match[5] || '');
+    const joined = `${href} ${attrs} ${text}`;
+    if (/skipped\/96da16962be2-inquiry\.html|詢問|inquiry|contact/i.test(joined)) continue;
+    const isDocument = /\.(?:pdf|zip|dwg|dxf|step|stp|cad)(?:$|[?#])/i.test(href) || /\b(?:PDF|CAD|ZIP)\b|型錄|規格書|資料表|手冊|圖面/i.test(text);
+    if (!isDocument) continue;
+    const fileName = decodeURIComponent(href.split(/[/?#]/).filter(Boolean).pop() || '').trim();
+    cards.push({ key: href, title: text || fileName || href });
   }
   return cards;
 }
@@ -333,9 +353,11 @@ function documentIndexTable(cards) {
 function addDocumentIndexWhenNeeded(block) {
   if (/<table\b/i.test(block)) return block;
   const cards = fileCards(block);
+  if (!cards.length) cards.push(...linkCards(block));
   if (!cards.length) return block;
   const table = documentIndexTable(cards);
-  return block.replace(/(<div\b[^>]*class=(["'])[^"']*\bst-[a-z0-9-]+-files\b[^"']*\2[^>]*>)/i, `${table}$1`);
+  const inserted = block.replace(/(<div\b[^>]*class=(["'])[^"']*\bst-[a-z0-9-]+-(?:files|doc-grid)\b[^"']*\2[^>]*>)/i, `${table}$1`);
+  return inserted === block ? `${table}${block}` : inserted;
 }
 
 /* Legacy table header normalizer superseded below.
@@ -345,7 +367,12 @@ function normalizeTableHeaders(block) {
 
 */
 function normalizeTableHeaders(block) {
-  return block.replace(/(<thead>\s*<tr>\s*)<th>\s*<\/th>/gi, '$1<th>操作</th>');
+  return block
+    .replace(/(<thead>\s*<tr>\s*)<th>\s*<\/th>/gi, '$1<th>操作</th>')
+    .replace(/<th>\s*Continuous Current\s*<\/th>/gi, '<th>Continuous Current (A)</th>')
+    .replace(/<th>\s*Peak Current\s*<\/th>/gi, '<th>Peak Current (A)</th>')
+    .replace(/<th>\s*Supply Voltage\s*<\/th>/gi, '<th>Supply Voltage (V)</th>')
+    .replace(/<th>\s*Voltage\s*<\/th>/gi, '<th>Voltage (V)</th>');
 }
 
 function normalizeOutputText(block) {
