@@ -3,12 +3,11 @@
 Branch: `phase-1-smac-spec-standard`
 Priority: 1
 Pages: 14
-Blocking pages: 1
+Blocking pages: 0
 
 ## Status counts
 
-- agent-approved-clean: 13
-- agent-structure-review: 1
+- agent-approved-clean: 14
 
 ## Target pages
 
@@ -20,7 +19,7 @@ Blocking pages: 1
 | 170 | Thomson升降柱(Lifting Columns) | agent-approved-clean | preview/products/detail/170.html |
 | 171 | Thomson不銹鋼食品級線性致動器 | agent-approved-clean | preview/products/detail/171.html |
 | 172 | Duff-Norton 線性致動器千斤頂接頭 | agent-approved-clean | preview/products/detail/172.html |
-| 173 | CMCO 升降器 | agent-structure-review | preview/products/detail/173.html |
+| 173 | CMCO 升降器 | agent-approved-clean | preview/products/detail/173.html |
 | 373 | SMAC圓形音圈致動器 | agent-approved-clean | preview/products/detail/373.html |
 | 374 | SMAC線性加旋轉致動器 | agent-approved-clean | preview/products/detail/374.html |
 | 375 | SMAC線性滑塊致動器 | agent-approved-clean | preview/products/detail/375.html |

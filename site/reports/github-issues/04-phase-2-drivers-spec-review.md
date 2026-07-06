@@ -3,13 +3,12 @@
 Branch: `phase-2-drivers-spec-review`
 Priority: 4
 Pages: 18
-Blocking pages: 7
+Blocking pages: 6
 
 ## Status counts
 
-- agent-approved-clean: 11
+- agent-approved-clean: 12
 - agent-source-needed: 6
-- agent-structure-review: 1
 
 ## Target pages
 
@@ -32,7 +31,7 @@ Blocking pages: 7
 | 255 | 軟體-3 | agent-source-needed | preview/products/detail/255.html |
 | 268 | ACS 特點說明 | agent-source-needed | preview/products/detail/268.html |
 | 269 | ACS 教育訓練影片 | agent-source-needed | preview/products/detail/269.html |
-| 352 | 軟體開發與模擬套件 | agent-structure-review | preview/products/detail/352.html |
+| 352 | 軟體開發與模擬套件 | agent-approved-clean | preview/products/detail/352.html |
 
 ## Acceptance criteria
 
