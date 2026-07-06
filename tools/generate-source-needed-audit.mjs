@@ -27,14 +27,14 @@ function classifyDisposition(page) {
     return {
       disposition: review.disposition,
       reason: review.reason || '',
-      nextAction: '此頁已由 AI 標記為非硬體規格例外；若要優化，請建立對應內容 schema。',
+      nextAction: '依 AI 審核結果處理；若要公開優化，請使用對應的非硬體內容 schema，不要套用硬體產品規格表。',
     };
   }
 
   return {
     disposition: 'official-source-needed',
-    reason: review.reason || '缺少官方來源或既有可驗證規格模組。',
-    nextAction: '查找官方產品頁、官方 PDF、既有本機來源包，再建立或修正產品規格詳情模組。',
+    reason: review.reason || '缺少可驗證的官方來源或既有可信規格資料。',
+    nextAction: '查找官方產品頁、官方 PDF、既有可信本機資料包，再建立或修正產品規格詳情模組。',
   };
 }
 
@@ -103,6 +103,7 @@ const report = {
     noInventedSpecifications: true,
     reviewOwner: 'AI agent, with human escalation only for business/source decisions',
     approvedExceptionsAreNotBlocking: true,
+    nonHardwareSchemaReference: 'docs/non-hardware-product-page-schema.md',
   },
   summary: {
     total_pages: pages.length,
@@ -122,7 +123,9 @@ const md = [
   '',
   `Generated at: ${report.generated_at}`,
   '',
-  '本報告只列出真正需要官方來源審核的產品頁。AI 已核准的非硬體例外另列於 approved exceptions，不視為阻塞。',
+  'This report separates true official-source gaps from AI-approved non-standard pages. Hardware products still require verified manufacturer sources before a specification table is created. Software, training, test, and informational pages should use the non-hardware content schema instead of the hardware product specification table.',
+  '',
+  'Schema reference: `docs/non-hardware-product-page-schema.md`',
   '',
   '## Summary',
   '',
@@ -181,7 +184,7 @@ const html = `<!doctype html>
 </head>
 <body>
   <h1>Source-needed Audit</h1>
-  <p>本報告只列出真正需要官方來源審核的產品頁。AI 已核准的非硬體例外不視為阻塞。</p>
+  <p>This report separates true official-source gaps from AI-approved non-standard pages. Non-hardware pages should use <code>docs/non-hardware-product-page-schema.md</code> instead of the hardware product specification table.</p>
   <div class="summary">
     <div class="card">Source-needed pages: ${htmlEscape(report.summary.total_pages)}</div>
     <div class="card">Approved exceptions: ${htmlEscape(report.summary.approved_exception_pages)}</div>

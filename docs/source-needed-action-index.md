@@ -9,6 +9,7 @@ This file turns the current `agent-source-needed` audit into executable follow-u
 - Do not invent product specifications.
 - Keep unsupported values as `—`, `原廠未公開`, or `請洽星泰`.
 - Keep software, training, test, and informational pages out of the standard hardware product specification table unless a separate content model is approved.
+- Use `docs/non-hardware-product-page-schema.md` for software, informational, training, or test-page exceptions.
 - If official downloads are too large or server upload is unreliable, link to the official manufacturer download page or official document URL and mark `external-source`.
 - Backend upload/save is out of scope for this index. This is for local preview and GitHub workflow preparation only.
 
@@ -29,16 +30,18 @@ No hardware product pages currently require official source audit before a speci
 
 ## Non-standard Exceptions
 
-These have been reviewed by the AI agent and are not blocking the hardware product-spec workflow. They should not be forced into the standard `產品規格詳情` hardware module. If the site owner wants to optimize them later, use a software / informational / training schema instead.
+These have been reviewed by the AI agent and are not blocking the hardware product-spec workflow. They should not be forced into the standard `產品規格詳情` hardware module. If the site owner wants to optimize them later, use the non-hardware content schema instead.
 
 | ID | Page | Disposition | Handling |
 | --- | --- | --- | --- |
 | 241 | 測試-ACS硬體分類 | `exclude-test-page` | Treat as a test/admin remnant. Do not create a public-facing spec module unless the page is confirmed as real. |
-| 253 | 軟體-1 | `software-source-needed` | Requires a software-page schema, not the hardware spec table schema. |
-| 254 | 軟體-2 | `software-source-needed` | Requires a software-page schema, not the hardware spec table schema. |
-| 255 | 軟體-3 | `software-source-needed` | Requires a software-page schema, not the hardware spec table schema. |
-| 268 | ACS 特點說明 | `informational-source-needed` | Treat as an ACS feature/information page. Build structured content only after the page role is approved. |
-| 269 | ACS 教育訓練影片 | `training-content-no-spec` | Training/video content should use a training resource schema, not product specifications. |
+| 253 | 軟體-1 | `software-page-schema-needed` | Requires a software-page schema, not the hardware spec table schema. |
+| 254 | 軟體-2 | `software-page-schema-needed` | Requires a software-page schema, not the hardware spec table schema. |
+| 255 | 軟體-3 | `software-page-schema-needed` | Requires a software-page schema, not the hardware spec table schema. |
+| 268 | ACS 特點說明 | `informational-page-schema-needed` | Treat as an ACS feature/information page. Build structured content only after the page role is approved. |
+| 269 | ACS 教育訓練影片 | `training-resource-schema-needed` | Training/video content should use a training resource schema, not product specifications. |
+
+Schema reference: `docs/non-hardware-product-page-schema.md`
 
 ## Source Audit Progress
 
@@ -95,4 +98,4 @@ These have been reviewed by the AI agent and are not blocking the hardware produ
 ## Next Agent Steps
 
 1. Continue category-level UIUX and SEO optimization from the 242 `agent-approved-clean` hardware/product pages.
-2. If 241, 253, 254, 255, 268, or 269 need public optimization later, create a separate non-hardware content schema instead of a hardware spec table.
+2. If 241, 253, 254, 255, 268, or 269 need public optimization later, use `docs/non-hardware-product-page-schema.md` instead of a hardware spec table.

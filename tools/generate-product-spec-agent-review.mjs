@@ -10,33 +10,33 @@ const standardizationPath = path.join(reportDir, 'product-standardization-report
 const approvedExceptionRules = new Map([
   ['241', {
     disposition: 'exclude-test-page',
-    decision: 'AI 已核准為測試/分類例外',
-    reason: '此頁是測試-ACS硬體分類，非正式硬體產品頁；不應強行插入產品規格詳情模組。',
+    decision: 'AI 判定為測試 / 管理殘留頁',
+    reason: '頁面標題與內容顯示為 ACS 硬體分類測試頁，不是公開硬體產品規格頁；除非業主確認此頁要公開，否則不建立產品規格詳情模組。',
   }],
   ['253', {
     disposition: 'software-page-schema-needed',
-    decision: 'AI 已核准為軟體頁例外',
-    reason: '此頁屬 ACS 軟體內容，且目前沒有可用正式規格來源；不應使用硬體規格表 schema。',
+    decision: 'AI 判定為軟體頁',
+    reason: '頁面屬 ACS 軟體內容，適合使用軟體功能、相容性、下載入口 schema，不適合硬體型號規格表。',
   }],
   ['254', {
     disposition: 'software-page-schema-needed',
-    decision: 'AI 已核准為軟體頁例外',
-    reason: '此頁屬 ACS 軟體內容，且目前沒有可用正式規格來源；不應使用硬體規格表 schema。',
+    decision: 'AI 判定為軟體頁',
+    reason: '頁面屬 ACS 軟體內容，適合使用軟體功能、相容性、下載入口 schema，不適合硬體型號規格表。',
   }],
   ['255', {
     disposition: 'software-page-schema-needed',
-    decision: 'AI 已核准為軟體頁例外',
-    reason: '此頁屬 ACS 軟體內容，且目前沒有可用正式規格來源；不應使用硬體規格表 schema。',
+    decision: 'AI 判定為軟體頁',
+    reason: '頁面屬 ACS 軟體內容，適合使用軟體功能、相容性、下載入口 schema，不適合硬體型號規格表。',
   }],
   ['268', {
     disposition: 'informational-page-schema-needed',
-    decision: 'AI 已核准為資訊頁例外',
-    reason: '此頁是 ACS 特點說明，適合資訊/特色頁 schema；不應強行建立型號規格表。',
+    decision: 'AI 判定為資訊 / 特點說明頁',
+    reason: '頁面屬 ACS 控制器 / 驅動器特點說明，適合使用功能摘要與應用情境 schema，不適合硬體型號規格表。',
   }],
   ['269', {
     disposition: 'training-resource-schema-needed',
-    decision: 'AI 已核准為教育訓練頁例外',
-    reason: '此頁是 ACS 教育訓練影片列表，適合訓練資源 schema；不應使用產品規格詳情硬體表格。',
+    decision: 'AI 判定為教育訓練 / 影片資源頁',
+    reason: '頁面屬 ACS 教育訓練影片內容，適合使用 training resource schema，不適合產品規格詳情模組。',
   }],
 ]);
 
@@ -91,15 +91,15 @@ function classify({ specPage, seoPage, standardizationPage }) {
   if (specPage?.qa_status === 'no-spec-module' || overlayStatus === 'no-spec-module') {
     return {
       status: 'agent-source-needed',
-      decision: '缺少可用規格模組',
-      reason: '目前沒有可插入的既有產品規格詳情模組；不得補寫未經來源支持的規格。',
+      decision: '缺少可用規格來源',
+      reason: '頁面沒有可驗證的產品規格詳情模組，且不在已核准的非標準例外清單內；需要官方來源或既有可信規格資料。',
     };
   }
 
   if (unknown.length || overlayStatus === 'needs-review-unknown-module') {
     return {
       status: 'agent-structure-review',
-      decision: '需要人工確認模組歸類',
+      decision: '需要結構審查',
       reason: unknown.length ? `未知或不確定的模組標題：${unknown.join(' / ')}` : '標準化報告標記為 needs-review-unknown-module。',
     };
   }
@@ -114,15 +114,15 @@ function classify({ specPage, seoPage, standardizationPage }) {
   if (onlyMissingSpecTable && !hasUsableDocumentLink) {
     return {
       status: 'agent-source-needed',
-      decision: '缺少來源支持的規格表',
-      reason: '規格模組缺少真正 table，且沒有可用 PDF/CAD/ZIP 連結；不得補寫未經來源支持的規格。',
+      decision: '缺少可驗證下載或規格表',
+      reason: '規格模組缺少 table，且沒有可用 PDF/CAD/ZIP 入口；需要官方來源或既有可信規格資料。',
     };
   }
 
   if (specWarnings.length || seoWarnings.length) {
     return {
       status: 'agent-fix-required',
-      decision: 'AI 可修正問題',
+      decision: 'AI 可直接修正',
       reason: allWarnings.join(' / '),
     };
   }
@@ -130,7 +130,7 @@ function classify({ specPage, seoPage, standardizationPage }) {
   return {
     status: 'agent-approved-clean',
     decision: 'AI agent 審核通過',
-    reason: '產品規格詳情 QA 與產品頁 SEO/結構 QA 均無 critical 或 warning。',
+    reason: '產品規格詳情 QA 與產品頁 SEO / 結構 QA 均無 critical 或 warning。',
   };
 }
 

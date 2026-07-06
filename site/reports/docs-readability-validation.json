@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T11:01:47.490Z",
+  "generatedAt": "2026-07-06T11:08:47.565Z",
   "status": "ok",
   "summary": {
-    "docs": 26,
+    "docs": 28,
     "errors": 0
   },
   "checks": [
@@ -61,6 +61,15 @@
       "mojibakeHits": []
     },
     {
+      "file": "docs/non-hardware-product-page-schema.md",
+      "type": "doc",
+      "status": "pass",
+      "title": "# 非硬體產品頁內容 Schema",
+      "chars": 1632,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
       "file": "docs/product-spec-data-schema.md",
       "type": "doc",
       "status": "pass",
@@ -75,6 +84,15 @@
       "status": "pass",
       "title": "# 產品頁架構規範",
       "chars": 1519,
+      "errors": [],
+      "mojibakeHits": []
+    },
+    {
+      "file": "docs/source-needed-action-index.md",
+      "type": "doc",
+      "status": "pass",
+      "title": "# Source-needed Action Index",
+      "chars": 4788,
       "errors": [],
       "mojibakeHits": []
     },
@@ -200,7 +218,7 @@
       "type": "report",
       "status": "pass",
       "title": "AI Agent Product Spec Review",
-      "chars": 55279,
+      "chars": 55828,
       "errors": [],
       "mojibakeHits": []
     },
@@ -227,7 +245,7 @@
       "type": "report",
       "status": "pass",
       "title": "Source-needed Audit",
-      "chars": 2936,
+      "chars": 3182,
       "errors": [],
       "mojibakeHits": []
     },
@@ -236,7 +254,7 @@
       "type": "report",
       "status": "pass",
       "title": "# Source-needed Audit",
-      "chars": 1465,
+      "chars": 1861,
       "errors": [],
       "mojibakeHits": []
     }

@@ -12,8 +12,10 @@ const docs = [
   { relPath: 'docs/github-private-repo-setup.md', type: 'doc' },
   { relPath: 'docs/github-api-bootstrap-runbook.md', type: 'doc' },
   { relPath: 'docs/deployment-phase-runbook.md', type: 'doc' },
+  { relPath: 'docs/non-hardware-product-page-schema.md', type: 'doc' },
   { relPath: 'docs/product-spec-data-schema.md', type: 'doc' },
   { relPath: 'docs/products-page-architecture.md', type: 'doc' },
+  { relPath: 'docs/source-needed-action-index.md', type: 'doc' },
   { relPath: 'docs/spec-module-review-log.md', type: 'doc' },
   { relPath: 'site/reports/github-bootstrap-readiness.html', type: 'report' },
   { relPath: 'site/reports/github-remote-state-verification.html', type: 'report' },
@@ -36,20 +38,16 @@ const docs = [
 
 const suspiciousMojibakeTokens = [
   '\uFFFD',
+  '�',
   '?湔',
   '?祆',
   '?桀',
   '?箸',
   '?',
-  '嚗',
-  '蝡',
-  '銝',
-  '甈',
-  '雿',
-  '憭',
-  '撌',
   '�',
 ];
+
+const suspiciousMojibakeRegex = /[嚗蝡銝甈雿憭撌蝬瘚鞈摰隞頠皜祆瑼璅]/u;
 
 function htmlEscape(value) {
   return String(value)
@@ -77,6 +75,8 @@ function findMojibakeHits(text) {
     const count = countOccurrences(text, token);
     if (count > 0) hits.push({ token, count });
   }
+  const regexHits = text.match(suspiciousMojibakeRegex) || [];
+  if (regexHits.length) hits.push({ token: 'common-mojibake-cjk', count: regexHits.length });
   return hits;
 }
 
