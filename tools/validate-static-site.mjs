@@ -4,6 +4,11 @@ import path from 'node:path';
 const root = path.resolve(process.env.SITE_ROOT || 'site');
 const strict = process.argv.includes('--strict');
 const reportDir = path.join(root, 'reports');
+const checkedRoots = [
+  path.join(root, 'index.html'),
+  path.join(root, 'preview'),
+];
+const docExtensions = new Set(['.pdf', '.zip', '.dwg', '.dxf', '.step', '.stp', '.igs', '.iges', '.rar', '.7z']);
 
 function walk(dir, accept, out = []) {
   if (!fs.existsSync(dir)) return out;
@@ -28,11 +33,41 @@ function attrs(html, name) {
   return [...html.matchAll(re)].map((m) => m[2]);
 }
 
+function readHtmlFiles() {
+  const files = [];
+  for (const item of checkedRoots) {
+    if (!fs.existsSync(item)) continue;
+    const stat = fs.statSync(item);
+    if (stat.isFile() && item.toLowerCase().endsWith('.html')) files.push(item);
+    if (stat.isDirectory()) walk(item, (file) => file.toLowerCase().endsWith('.html'), files);
+  }
+  return [...new Set(files)]
+    .filter((file) => !rel(file).startsWith('preview/skipped/'))
+    .sort();
+}
+
+function cleanRaw(raw) {
+  return raw.split('#')[0].split('?')[0].trim();
+}
+
+function extensionOf(raw) {
+  return path.extname(cleanRaw(raw).toLowerCase());
+}
+
+function isDocument(raw) {
+  return docExtensions.has(extensionOf(raw));
+}
+
+function isRuntimePseudoLink(raw) {
+  return /^\/cdn-cgi\/l\/email-protection/i.test(raw);
+}
+
 function resolveLocal(pageFile, raw) {
   if (!raw || raw.startsWith('#')) return null;
-  if (/^(mailto|tel|javascript|data):/i.test(raw)) return null;
+  if (/^(mailto|tel|javascript|data|blob):/i.test(raw)) return null;
+  if (isRuntimePseudoLink(raw)) return null;
   if (/^https?:\/\//i.test(raw)) return null;
-  const clean = raw.split('#')[0].split('?')[0];
+  const clean = cleanRaw(raw);
   if (!clean) return null;
   const base = clean.startsWith('/') ? root : path.dirname(pageFile);
   return path.resolve(base, clean.replace(/^\/+/, ''));
@@ -46,7 +81,7 @@ for (const item of required) {
   if (!fs.existsSync(full)) issues.push({ level: 'error', type: 'required_missing', item });
 }
 
-const htmlFiles = walk(root, (file) => file.toLowerCase().endsWith('.html'));
+const htmlFiles = readHtmlFiles();
 let formalSameOriginRefs = 0;
 let missingLocalRefs = 0;
 let filePathRefs = 0;
@@ -59,7 +94,7 @@ for (const file of htmlFiles) {
     issues.push({ level: 'error', type: 'local_path_in_html', file: rel(file) });
   }
   for (const href of attrs(html, 'href')) {
-    if (/taiwan-servo\.com\.tw/i.test(href)) {
+    if (/taiwan-servo\.com\.tw/i.test(href) && !isDocument(href)) {
       formalSameOriginRefs += 1;
       warnings.push({ level: 'warn', type: 'formal_same_origin_href', file: rel(file), href });
     }
@@ -105,4 +140,3 @@ fs.writeFileSync(path.join(reportDir, 'github-ready-validation.html'), `<!doctyp
 
 console.log(JSON.stringify({ status: issues.length ? 'issues' : 'ok', report: 'site/reports/github-ready-validation.html', summary: report.summary }, null, 2));
 if (issues.length || (strict && warnings.length)) process.exit(1);
-

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-06T08:09:13.644Z",
+  "generated_at": "2026-07-06T08:22:07.543Z",
   "scope": "Product detail page SEO and structure QA",
-  "strict": false,
+  "strict": true,
   "policy": {
     "fails_validate_on": [
       "missing html",
@@ -5088,7 +5088,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 12,
+        "download_links": 11,
         "cta_links": 2
       },
       "critical": [],
@@ -5121,7 +5121,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 11,
+        "download_links": 10,
         "cta_links": 2
       },
       "critical": [],
@@ -5154,7 +5154,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 10,
+        "download_links": 9,
         "cta_links": 2
       },
       "critical": [],
@@ -7400,7 +7400,7 @@
         "buttons": 0,
         "aria_buttons": 0,
         "tables": 1,
-        "download_links": 1,
+        "download_links": 0,
         "cta_links": 2
       },
       "critical": [],

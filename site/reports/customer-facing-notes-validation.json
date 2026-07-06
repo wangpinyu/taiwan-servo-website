@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-07-06T08:22:06.149Z",
+  "checked_scope": "site/preview/**/*.html",
+  "blocked_terms": [
+    "後台",
+    "供後",
+    "先保留",
+    "待人工",
+    "後續由人工",
+    "佔位",
+    "後 URL",
+    "href 由 #",
+    "上架提醒",
+    "CKEditor",
+    "Codex"
+  ],
+  "summary": {
+    "files_checked": 358,
+    "issue_count": 0
+  },
+  "issues": []
+}
