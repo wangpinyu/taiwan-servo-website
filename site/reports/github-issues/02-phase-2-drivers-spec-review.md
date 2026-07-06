@@ -3,13 +3,13 @@
 Branch: `phase-2-drivers-spec-review`
 Priority: 2
 Pages: 12
-Blocking pages: 9
+Blocking pages: 8
 
 ## Status counts
 
-- agent-fix-required: 7
+- agent-fix-required: 6
 - agent-structure-review: 2
-- agent-approved-clean: 3
+- agent-approved-clean: 4
 
 ## Target pages
 
@@ -22,7 +22,7 @@ Blocking pages: 9
 | 327 | Copley Nano 系列 — 定義極致微型化的高功率密度伺服控制 | agent-fix-required | preview/products/detail/327.html |
 | 354 | Xenus 驅動器 | agent-structure-review | preview/products/detail/354.html |
 | 355 | Accelnet 驅動器 | agent-fix-required | preview/products/detail/355.html |
-| 357 | Integrated Drive | agent-fix-required | preview/products/detail/357.html |
+| 357 | Integrated Drive | agent-approved-clean | preview/products/detail/357.html |
 | 358 | stepnet 驅動器 | agent-fix-required | preview/products/detail/358.html |
 | 359 | M-Series Multiaxis | agent-approved-clean | preview/products/detail/359.html |
 | 360 | Junus Panel | agent-fix-required | preview/products/detail/360.html |
