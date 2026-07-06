@@ -40,7 +40,7 @@ repo 應保持 private。不要把後台密碼、cookie、token、`.env` 或任�
 
 ```powershell
 cd 'F:\Taiwan_Servo_website_management_Codex_File\github-ready\taiwan-servo-site-optimization'
-npm run validate
+npm run validate:strict
 git status --short
 ```
 

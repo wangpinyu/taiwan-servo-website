@@ -182,7 +182,7 @@ agent-source-needed
 
 每個 PR 至少需要：
 
-- `npm run validate` pass。
+- `npm run validate:strict` pass。
 - `npm run qa:visual-sample` pass for the current PR sample set when local visual review is needed.
 - GitHub Actions `Preview QA` pass。
 - 目標頁轉為 `agent-approved-clean`，或明確列為 `source-needed`。

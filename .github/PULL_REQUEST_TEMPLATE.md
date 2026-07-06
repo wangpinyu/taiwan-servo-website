@@ -5,6 +5,7 @@
 
 ## Required Checks
 - [ ] `npm run validate` passed locally.
+- [ ] `npm run qa:visual-sample` passed locally for the current sample set, when visual review is needed.
 - [ ] Local mirror readiness has `errors=0` and `warnings=0`.
 - [ ] GitHub Actions `Preview QA` passed.
 - [ ] Target pages moved to `agent-approved-clean` or are explicitly marked `source-needed`.
@@ -31,3 +32,4 @@
 - Agent review:
 - Static validation:
 - Local mirror readiness:
+- Visual sample QA:
