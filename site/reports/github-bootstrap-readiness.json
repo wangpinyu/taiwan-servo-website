@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T07:12:58.823Z",
+  "generatedAt": "2026-07-06T07:19:30.927Z",
   "status": "ready-needs-token",
   "repository": "wangpinyu/taiwan-servo-website",
   "tokenPresent": false,
@@ -82,8 +82,8 @@
     "labels": 7,
     "issueDrafts": 18,
     "pullRequestDrafts": 17,
-    "approvedPages": 239,
-    "sourceNeededPages": 9,
+    "approvedPages": 240,
+    "sourceNeededPages": 8,
     "remoteBranchesPresent": 18
   },
   "checks": [
@@ -127,13 +127,13 @@
       "id": "agent-review",
       "label": "AI agent review baseline",
       "status": "pass",
-      "detail": "{\"agent-approved-clean\":239,\"agent-source-needed\":9}"
+      "detail": "{\"agent-approved-clean\":240,\"agent-source-needed\":8}"
     },
     {
       "id": "source-needed-audit",
       "label": "Source-needed audit generated",
       "status": "pass",
-      "detail": "{\"total_pages\":9,\"disposition_counts\":{\"official-source-needed\":3,\"exclude-test-page\":1,\"software-source-needed\":3,\"informational-source-needed\":1,\"training-content-no-spec\":1}}"
+      "detail": "{\"total_pages\":8,\"disposition_counts\":{\"official-source-needed\":2,\"exclude-test-page\":1,\"software-source-needed\":3,\"informational-source-needed\":1,\"training-content-no-spec\":1}}"
     }
   ],
   "nextActions": [

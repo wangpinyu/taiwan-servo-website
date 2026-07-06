@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T07:12:33.018Z",
+  "generated_at": "2026-07-06T07:19:06.081Z",
   "scope": "Source-needed and no-spec-module audit for product pages",
   "policy": {
     "noSpecWithoutSource": true,
@@ -7,9 +7,9 @@
     "reviewOwner": "AI agent, with human escalation only for business/source decisions"
   },
   "summary": {
-    "total_pages": 9,
+    "total_pages": 8,
     "disposition_counts": {
-      "official-source-needed": 3,
+      "official-source-needed": 2,
       "exclude-test-page": 1,
       "software-source-needed": 3,
       "informational-source-needed": 1,
@@ -17,31 +17,6 @@
     }
   },
   "pages": [
-    {
-      "product_id": "102",
-      "title": "JVL整合型伺服馬達及步進馬達的特色",
-      "category_path": [
-        "各類馬達",
-        "步進馬達",
-        "JVL整合型伺服馬達及步進馬達的特色"
-      ],
-      "preview_rel": "preview/products/detail/102.html",
-      "agent_status": "agent-source-needed",
-      "qa_status": "pass",
-      "overlay_status": "inserted-before-application",
-      "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-jvl-spec-inserts/id-102-jvl/specs-insert-TO-COPY-UTF8.txt",
-      "validation": {
-        "hasSeries": false,
-        "hasApplications": true,
-        "hasDownloads": false,
-        "tables": 4,
-        "pdfLinks": 1,
-        "unknownHeadings": []
-      },
-      "disposition": "official-source-needed",
-      "reason": "找不到既有規格模組或足夠官方來源，依規則不得自行編造規格。",
-      "nextAction": "補官方來源、下載檔、型號資料或確認此頁不需要產品規格詳情。"
-    },
     {
       "product_id": "149",
       "title": "Thomson 減速機",

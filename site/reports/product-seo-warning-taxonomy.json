@@ -1,33 +1,21 @@
 {
   "summary": {
-    "generated_at": "2026-07-06T07:12:32.720Z",
-    "total_warning_entries": 3,
-    "affected_pages": 3,
+    "generated_at": "2026-07-06T07:19:05.874Z",
+    "total_warning_entries": 2,
+    "affected_pages": 2,
     "warning_type_counts": {
-      "spec-table-missing": 3
+      "spec-table-missing": 2
     },
     "category_warning_counts": {
-      "各類馬達": 1,
       "空氣軸承 / 滾珠•滾柱軸承": 1,
       "聯軸器": 1
     },
     "branch_warning_counts": {
-      "phase-2-motors-spec-review": 1,
       "phase-3-bearings-air-mechanical": 1,
       "phase-4-couplings": 1
     }
   },
   "entries": [
-    {
-      "product_id": "102",
-      "title": "JVL整合型伺服馬達及步進馬達的特色",
-      "category": "各類馬達",
-      "branch": "phase-2-motors-spec-review",
-      "preview_rel": "preview/products/detail/102.html",
-      "warning": "spec_table_missing",
-      "warning_type": "spec-table-missing",
-      "remediation": "確認是否為文件型規格模組；若有官方表格來源，補上真正 table；若無來源，標記 source-needed 或保留文件下載型呈現。"
-    },
     {
       "product_id": "149",
       "title": "Thomson 減速機",

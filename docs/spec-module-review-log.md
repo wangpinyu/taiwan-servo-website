@@ -7,8 +7,8 @@ This log tracks local-preview and GitHub workflow status for the Taiwan Servo pr
 ## Current Summary
 
 - Product pages: 248
-- `agent-approved-clean`: 239
-- `agent-source-needed`: 9
+- `agent-approved-clean`: 240
+- `agent-source-needed`: 8
 - `agent-fix-required`: 0
 - `agent-structure-review`: 0
 - Critical failures: 0
@@ -33,8 +33,8 @@ Authoritative reports:
 
 - Action index: `docs/source-needed-action-index.md`
 - Machine-readable index: `docs/source-needed-action-index.json`
-- Current unresolved scope: 9 pages.
-- AI source audit queue: 3 pages requiring official manufacturer evidence before any product specification table can be created or revised.
+- Current unresolved scope: 8 pages.
+- AI source audit queue: 2 pages requiring official manufacturer evidence before any product specification table can be created or revised.
 - Non-standard exceptions: 6 ACS test/software/informational/training pages that should not be forced into the hardware `產品規格詳情` schema without a separate content decision.
 
 ## Completed Source Audit Progress
@@ -61,13 +61,23 @@ Authoritative reports:
   - `agent-source-needed`: none in SANYO DENKI
 - Review rule: keep official source-page links for login-gated or large manufacturer files. Do not duplicate large files into local modules unless a later deployment phase explicitly requires it.
 
+### JVL Motors
+
+- Branch: `source-audit-jvl-motors`
+- Evidence package: `docs/source-audits/jvl-motors.md`
+- Machine-readable evidence: `docs/source-audits/jvl-motors.json`
+- Covered pages: 102
+- Current source status:
+  - `agent-approved-clean`: 102
+  - `agent-source-needed`: none in JVL
+- Review rule: keep MAC, MIS / ServoStep, and SMC controller data separated and preserve the original JVL units.
+
 ## Remaining Source-needed Pages
 
 ### Official Source Audit Queue
 
 | ID | Page | Category | Suggested branch |
 | --- | --- | --- | --- |
-| 102 | JVL整合型伺服馬達及步進馬達的特色 | 各類馬達 / 步進馬達 | `source-audit-jvl-motors` |
 | 149 | Thomson 減速機 | 空氣軸承 / 滾珠•滾柱軸承 / Thomson | `source-audit-thomson-reducers` |
 | 215 | RINGFEDER 摩擦彈簧 | 聯軸器 | `source-audit-ringfeder-couplings` |
 
@@ -100,5 +110,5 @@ npm run github:bootstrap:smoke:dry-run
 Latest expected local validation after the SANYO DENKI audit:
 
 - `product-spec-module-qa`: 242 pass / 6 no-spec-module / 0 fail / 0 warn
-- `product-page-structure-seo-qa`: 239 pass / 3 warn / 6 no-spec-module / 0 fail
-- `product-spec-agent-review`: 239 `agent-approved-clean` / 9 `agent-source-needed` / 0 `agent-fix-required`
+- `product-page-structure-seo-qa`: 240 pass / 2 warn / 6 no-spec-module / 0 fail
+- `product-spec-agent-review`: 240 `agent-approved-clean` / 8 `agent-source-needed` / 0 `agent-fix-required`

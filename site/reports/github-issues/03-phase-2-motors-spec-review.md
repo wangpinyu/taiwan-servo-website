@@ -3,12 +3,11 @@
 Branch: `phase-2-motors-spec-review`
 Priority: 3
 Pages: 24
-Blocking pages: 1
+Blocking pages: 0
 
 ## Status counts
 
-- agent-approved-clean: 23
-- agent-source-needed: 1
+- agent-approved-clean: 24
 
 ## Target pages
 
@@ -30,7 +29,7 @@ Blocking pages: 1
 | 96 | Kollmorgen 防水馬達 | agent-approved-clean | preview/products/detail/96.html |
 | 97 | Kollmorgen AKM低溫伺服電機 | agent-approved-clean | preview/products/detail/97.html |
 | 98 | Kollmorgen 防爆步進馬達 | agent-approved-clean | preview/products/detail/98.html |
-| 102 | JVL整合型伺服馬達及步進馬達的特色 | agent-source-needed | preview/products/detail/102.html |
+| 102 | JVL整合型伺服馬達及步進馬達的特色 | agent-approved-clean | preview/products/detail/102.html |
 | 103 | Parker 鐵芯式線性馬達 | agent-approved-clean | preview/products/detail/103.html |
 | 104 | Parker 防爆馬達 | agent-approved-clean | preview/products/detail/104.html |
 | 106 | dunkermotoren 管型線性伺服馬達（Tubular Linear Servo Motor） | agent-approved-clean | preview/products/detail/106.html |

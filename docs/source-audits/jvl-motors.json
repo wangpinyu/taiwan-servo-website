@@ -1,0 +1,31 @@
+{
+  "updated_at": "2026-07-06",
+  "branch": "source-audit-jvl-motors",
+  "scope_product_ids": ["102"],
+  "policy": {
+    "no_invented_specifications": true,
+    "backend_operations_out_of_scope": true,
+    "large_file_strategy": "Link to official JVL product pages rather than duplicating large brochures or manuals."
+  },
+  "pages": [
+    {
+      "product_id": "102",
+      "local_title": "JVL整合型伺服馬達及步進馬達的特色",
+      "official_match": "JVL MAC integrated servo motors and ServoStep integrated stepper motors",
+      "status": "source-found-table-approved",
+      "evidence_urls": [
+        "https://www.jvl.dk/202/integrated-servomotors",
+        "https://www.jvl.dk/758/mis-motor-integrated-stepper-motors"
+      ],
+      "visible_module_summary": "MAC servo motors, MIS / ServoStep integrated stepper motors, and SMC stepper motor controllers are separated into source-backed tables."
+    }
+  ],
+  "validation": {
+    "agent_approved_clean": 240,
+    "agent_source_needed": 8,
+    "agent_fix_required": 0,
+    "jvl_pages": {
+      "102": "agent-approved-clean"
+    }
+  }
+}

@@ -7,21 +7,15 @@
     "large_file_strategy": "Use official manufacturer download pages or official document URLs and mark external-source when upload/download is not reliable."
   },
   "summary": {
-    "total_source_needed_pages": 9,
-    "official_source_audit_queue": 3,
+    "total_source_needed_pages": 8,
+    "official_source_audit_queue": 2,
     "non_standard_exceptions": 6,
     "ringfeder_resolved_pages": ["208", "209", "210", "211", "212", "213", "335", "336"],
     "ringfeder_unresolved_pages": ["215"],
-    "sanyo_resolved_pages": ["194", "195", "270"]
+    "sanyo_resolved_pages": ["194", "195", "270"],
+    "jvl_resolved_pages": ["102"]
   },
   "official_source_audit_queue": [
-    {
-      "product_id": "102",
-      "title": "JVL整合型伺服馬達及步進馬達的特色",
-      "category": "各類馬達 / 步進馬達",
-      "required_source_work": "Find official JVL product/family pages or PDFs and decide whether the page is a feature overview or a comparable product series page.",
-      "suggested_branch": "source-audit-jvl-motors"
-    },
     {
       "product_id": "149",
       "title": "Thomson 減速機",
@@ -93,6 +87,16 @@
       "covered_product_ids": ["194", "195", "270"],
       "status_summary": {
         "agent_approved_clean": ["194", "195", "270"],
+        "agent_source_needed": []
+      }
+    },
+    {
+      "branch": "source-audit-jvl-motors",
+      "audit_md": "docs/source-audits/jvl-motors.md",
+      "audit_json": "docs/source-audits/jvl-motors.json",
+      "covered_product_ids": ["102"],
+      "status_summary": {
+        "agent_approved_clean": ["102"],
         "agent_source_needed": []
       }
     }

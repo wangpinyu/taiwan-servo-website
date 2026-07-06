@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T07:12:33.201Z",
+  "generatedAt": "2026-07-06T07:19:06.304Z",
   "repository": "https://github.com/wangpinyu/taiwan-servo-website",
   "summary": {
     "totalIssues": 18,
     "totalPages": 248,
-    "totalBlockingPages": 9,
-    "totalSourcePages": 9
+    "totalBlockingPages": 8,
+    "totalSourcePages": 8
   },
   "entries": [
     {
@@ -55,23 +55,21 @@
       "category": "各類馬達",
       "branch": "phase-2-motors-spec-review",
       "pages": 24,
-      "blockingPages": 1,
-      "sourcePages": 1,
+      "blockingPages": 0,
+      "sourcePages": 0,
       "statusCounts": {
-        "agent-approved-clean": 23,
-        "agent-source-needed": 1
+        "agent-approved-clean": 24
       },
       "title": "[各類馬達] 產品頁優化追蹤",
       "labels": [
         "spec-module",
         "seo",
         "uiux",
-        "download-links",
-        "source-needed"
+        "download-links"
       ],
       "issueDraft": "site/reports/github-issues/03-phase-2-motors-spec-review.md",
       "issueDraftExists": true,
-      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E5%90%84%E9%A1%9E%E9%A6%AC%E9%81%94%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links%2Csource-needed"
+      "issueNewUrl": "https://github.com/wangpinyu/taiwan-servo-website/issues/new?template=category-optimization.yml&title=%5B%E5%90%84%E9%A1%9E%E9%A6%AC%E9%81%94%5D%20%E7%94%A2%E5%93%81%E9%A0%81%E5%84%AA%E5%8C%96%E8%BF%BD%E8%B9%A4&labels=spec-module%2Cseo%2Cuiux%2Cdownload-links"
     },
     {
       "priority": 4,

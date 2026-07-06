@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T07:12:32.617Z",
+  "generated_at": "2026-07-06T07:19:05.779Z",
   "scope": "Product detail page SEO and structure QA",
   "strict": false,
   "policy": {
@@ -15,13 +15,13 @@
   "summary": {
     "total_pages": 248,
     "status_counts": {
-      "pass": 239,
-      "warn": 3,
+      "pass": 240,
+      "warn": 2,
       "no-spec-module": 6
     },
     "fail_count": 0,
-    "warn_count": 3,
-    "pass_count": 239,
+    "warn_count": 2,
+    "pass_count": 240,
     "no_spec_module_count": 6
   },
   "pages": [
@@ -776,19 +776,17 @@
       },
       "spec_checks": {
         "has_spec_block": true,
-        "details": 0,
-        "summaries": 0,
+        "details": 3,
+        "summaries": 3,
         "buttons": 0,
         "aria_buttons": 0,
-        "tables": 0,
-        "download_links": 0,
-        "cta_links": 2
+        "tables": 3,
+        "download_links": 2,
+        "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "spec_table_missing"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "103",
