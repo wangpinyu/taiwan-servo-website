@@ -31,7 +31,7 @@
   - approved pages include `.st-spec-cta`.
   - no broken images after scrolling through the page.
   - no whole-page horizontal overflow.
-  - `??????` heading exists.
+  - `產品規格詳情` heading exists.
 - Result: 58 checks, 0 failures.
 - Evidence JSON: `site/reports/github-prs/phase-3-harmonic-drive-smoke.json`.
 
