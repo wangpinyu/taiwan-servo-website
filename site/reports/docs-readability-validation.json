@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T10:29:04.187Z",
+  "generatedAt": "2026-07-06T10:34:44.173Z",
   "status": "ok",
   "summary": {
     "docs": 25,
@@ -20,7 +20,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# GitHub 驅動的產品頁優化流程",
-      "chars": 4505,
+      "chars": 4731,
       "errors": [],
       "mojibakeHits": []
     },
@@ -38,7 +38,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# GitHub 私有 Repo 準備狀態",
-      "chars": 2633,
+      "chars": 2923,
       "errors": [],
       "mojibakeHits": []
     },
@@ -47,7 +47,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# GitHub API Bootstrap Runbook",
-      "chars": 2427,
+      "chars": 2767,
       "errors": [],
       "mojibakeHits": []
     },
@@ -83,7 +83,7 @@
       "type": "doc",
       "status": "pass",
       "title": "# 產品規格詳情模組審核紀錄",
-      "chars": 6558,
+      "chars": 6732,
       "errors": [],
       "mojibakeHits": []
     },
@@ -164,7 +164,7 @@
       "type": "report",
       "status": "pass",
       "title": "GPT Optimization Completion Audit",
-      "chars": 5851,
+      "chars": 5953,
       "errors": [],
       "mojibakeHits": []
     },

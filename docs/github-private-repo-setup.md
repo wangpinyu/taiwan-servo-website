@@ -31,7 +31,7 @@ repo 已設定為 private。不要把 cookie、token、`.env`、密碼、憑證�
   - `npm run validate`
   - `npm run validate:strict`
   - `npm run qa:visual-sample`
-- GitHub bootstrap 腳本已可產生 labels、tracking issues、PR drafts 與 readiness report。
+- GitHub bootstrap 腳本已可產生 labels、tracking issues、PR drafts、readiness report 與遠端狀態驗證報告。
 
 ## 常用驗證指令
 
@@ -50,11 +50,11 @@ git status --short
 - Issues: read/write
 - Pull requests: read/write
 
-token 只應暫存在目前 PowerShell session，不要寫入檔案或 commit：
+token 只應暫存在目前 PowerShell session，不要寫入檔案或 commit。建議只執行安全 runner，它會先做 dry-run、再做 smoke、最後套用完整 bootstrap 並刷新報告：
 
 ```powershell
 $env:GITHUB_TOKEN = "<token>"
-npm run github:bootstrap:smoke
+npm run github:bootstrap:safe
 Remove-Item Env:\GITHUB_TOKEN
 ```
 
@@ -62,25 +62,27 @@ Remove-Item Env:\GITHUB_TOKEN
 
 ## Bootstrap 指令
 
-Dry run：
+無 token 時可先確認草案與遠端分支狀態，不會建立 GitHub 物件：
 
 ```powershell
 npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
+npm run workflow:github-remote-verify
 ```
 
-有 token 時先跑 smoke：
+有 token 時使用安全 runner：
+
+```powershell
+$env:GITHUB_TOKEN = "<token>"
+npm run github:bootstrap:safe
+Remove-Item Env:\GITHUB_TOKEN
+```
+
+只有在排查 GitHub API 權限或單一 smoke 問題時，才改用分段指令：
 
 ```powershell
 $env:GITHUB_TOKEN = "<token>"
 npm run github:bootstrap:smoke
-Remove-Item Env:\GITHUB_TOKEN
-```
-
-smoke 通過後再執行完整 bootstrap：
-
-```powershell
-$env:GITHUB_TOKEN = "<token>"
 npm run github:bootstrap
 Remove-Item Env:\GITHUB_TOKEN
 ```
@@ -88,6 +90,8 @@ Remove-Item Env:\GITHUB_TOKEN
 ## 主要報告
 
 - `site/reports/github-bootstrap-readiness.html`
+- `site/reports/github-remote-state-verification.html`
+- `site/reports/github-api-bootstrap-handoff.html`
 - `site/reports/deployment-readiness-audit.html`
 - `site/reports/github-ready-validation.html`
 - `site/reports/local-mirror-readiness-current.html`

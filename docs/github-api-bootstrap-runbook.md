@@ -39,13 +39,14 @@ npm run github:bootstrap:safe
 Remove-Item Env:\GITHUB_TOKEN
 ```
 
-如果需要分段人工檢查，也可以使用下列手動流程。
+如果需要分段人工檢查，也可以使用下列診斷流程。日常流程仍以 `npm run github:bootstrap:safe` 為準。
 
 先做無 token dry run，確認本機草案可讀：
 
 ```powershell
 npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
+npm run workflow:github-remote-verify
 ```
 
 設定 token：
@@ -78,10 +79,11 @@ npm run github:bootstrap
 Remove-Item Env:\GITHUB_TOKEN
 ```
 
-重新產生 readiness 與完整驗證：
+重新產生 readiness、遠端狀態與完整驗證：
 
 ```powershell
 npm run workflow:github-readiness
+npm run workflow:github-remote-verify
 npm run workflow:github-api-handoff
 npm run validate:strict
 ```
@@ -96,6 +98,14 @@ npm run validate:strict
 - `tokenPresent`: 視執行當下 session 而定
 - `pullRequestRefs`: 大於 0
 - `remote-prs`: `pass`
+
+`site/reports/github-remote-state-verification.json` 應顯示：
+
+- `status`: `remote-ready`
+- `gitRemote.missingBranches`: 空陣列
+- `api.labels.status`: `pass`
+- `api.issues.status`: `pass`
+- `api.pullRequests.status`: `pass`
 
 GitHub repo 應有：
 

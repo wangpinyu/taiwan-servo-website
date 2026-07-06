@@ -129,6 +129,7 @@ npm run validate
 npm run fix:spec-common:dry-run
 npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
+npm run workflow:github-remote-verify
 npm run qa:visual-sample
 ```
 
@@ -142,4 +143,5 @@ Latest expected local validation after the RINGFEDER friction-springs and except
 - `optimization-backlog`: 0 blocking pages
 - `visual-sample-qa`: 18 checks / 18 pass / 0 fail / 0 warn
 - `deployment-readiness-audit`: deployment stage remains blocked until explicit deployment approval; deploy package review items are reported separately
+- `github-remote-state-verification`: 18 expected remote branches present / 0 pull request refs until GitHub token bootstrap is applied
 - `gpt-optimization-completion-audit`: 11 complete / 1 external-action-required / 1 not-in-current-stage / 0 incomplete

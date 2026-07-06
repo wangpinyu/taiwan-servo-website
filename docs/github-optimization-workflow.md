@@ -77,6 +77,8 @@ npm run workflow:backlog
 npm run workflow:issue-index
 npm run workflow:pr-index
 npm run workflow:github-readiness
+npm run workflow:github-remote-verify
+npm run workflow:github-api-handoff
 npm run workflow:deployment-readiness
 npm run workflow:completion-audit
 ```
@@ -106,25 +108,27 @@ npm run fix:h1-hierarchy
 
 ## GitHub Bootstrap
 
-無 token 時只做 dry-run：
+無 token 時只做 dry-run 與遠端狀態檢查：
 
 ```powershell
 npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
+npm run workflow:github-remote-verify
 ```
 
-有 fine-grained GitHub token 時才 apply：
+有 fine-grained GitHub token 時，預設只用安全 runner。它會依序執行 dry-run、smoke issue、smoke PR、完整 bootstrap、報告刷新與 strict validation：
+
+```powershell
+$env:GITHUB_TOKEN = "<token>"
+npm run github:bootstrap:safe
+Remove-Item Env:\GITHUB_TOKEN
+```
+
+分段指令只保留給 API 權限或單一 smoke 問題排查，不作為日常流程：
 
 ```powershell
 $env:GITHUB_TOKEN = "<token>"
 npm run github:bootstrap:smoke
-Remove-Item Env:\GITHUB_TOKEN
-```
-
-smoke 成功後建立全部 labels、tracking issues 與 PR：
-
-```powershell
-$env:GITHUB_TOKEN = "<token>"
 npm run github:bootstrap
 Remove-Item Env:\GITHUB_TOKEN
 ```
