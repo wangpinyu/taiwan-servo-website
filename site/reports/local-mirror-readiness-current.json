@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T11:26:44.928Z",
+  "generated_at": "2026-07-06T11:35:27.556Z",
   "root": "F:/Taiwan_Servo_website_management_Codex_File/github-ready/taiwan-servo-site-optimization/site",
   "checked_scope": [
     "site/index.html",
@@ -9,7 +9,7 @@
     "html_files": 359,
     "errors": 0,
     "warnings": 0,
-    "local_refs": 66056,
+    "local_refs": 66057,
     "missing_local_refs": 0,
     "same_origin_refs": 170,
     "same_origin_missing": 0,

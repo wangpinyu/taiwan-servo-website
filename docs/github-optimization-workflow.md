@@ -91,6 +91,7 @@ npm run workflow:github-api-handoff
 npm run workflow:deployment-package-integrity
 npm run workflow:deployment-readiness
 npm run workflow:completion-audit
+npm run workflow:next-action-dashboard
 ```
 
 ## 自動修正指令

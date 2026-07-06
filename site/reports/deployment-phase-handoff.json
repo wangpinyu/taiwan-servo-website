@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T11:27:16.657Z",
+  "generatedAt": "2026-07-06T11:35:59.943Z",
   "status": "ready-for-deployment-approval-with-package-review",
   "deploymentAllowedNow": false,
   "reason": "Local preview is ready, but deployment package integrity has review items that must be resolved or explicitly excluded during the deployment phase.",

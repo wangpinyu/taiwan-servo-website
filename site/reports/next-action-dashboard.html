@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>下一步操作面板</title>
+  <style>
+    body{font-family:Arial,"Microsoft JhengHei",sans-serif;margin:24px;color:#10251b;background:#f8faf8}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:18px 0}
+    .card{background:#fff;border:1px solid #dce7df;border-radius:8px;padding:14px}
+    .card span{display:block;color:#52675b;font-size:13px}
+    .card strong{display:block;font-size:22px;margin-top:6px}
+    table{border-collapse:collapse;width:100%;background:#fff;margin-top:18px}
+    th,td{border:1px solid #d8e2dc;padding:10px;text-align:left;vertical-align:top}
+    th{background:#e9f4ed}
+    code{background:#edf4ef;padding:2px 5px;border-radius:4px}
+    a{color:#087d3d}
+  </style>
+</head>
+<body>
+  <h1>下一步操作面板</h1>
+  <p>Generated at 2026-07-06T11:36:00.119Z. 這個頁面集中目前仍需要外部動作或下一階段批准的工作，避免在多份報告之間反覆查找。</p>
+  <div class="grid"><div class="card"><span>本機優化</span><strong>ready</strong></div>
+<div class="card"><span>完整目標</span><strong>in progress</strong></div>
+<div class="card"><span>GitHub labels</span><strong>7</strong></div>
+<div class="card"><span>GitHub issues</span><strong>18</strong></div>
+<div class="card"><span>GitHub PRs</span><strong>17</strong></div>
+<div class="card"><span>遠端 PR refs</span><strong>0</strong></div>
+<div class="card"><span>部署狀態</span><strong>ready-for-deployment-approval-with-package-review</strong></div>
+<div class="card"><span>部署完整性 review</span><strong>5</strong></div></div>
+  <h2>下一步</h2>
+  <table>
+    <thead><tr><th>#</th><th>任務</th><th>狀態</th><th>建議</th><th>指令</th><th>連結</th></tr></thead>
+    <tbody><tr>
+  <td>1</td>
+  <td>選擇 GitHub 建立方式</td>
+  <td>需要外部動作</td>
+  <td>若可提供 token，使用安全腳本建立 labels、issues、PR；若暫不提供 token，改用手動交接頁逐項建立。</td>
+  <td><code>npm run github:bootstrap:safe</code></td>
+  <td><a href="github-api-bootstrap-handoff.html">GitHub API 交接</a><br><a href="github-manual-bootstrap-handoff.html">GitHub 手動交接</a><br><a href="github-remote-state-verification.html">GitHub 遠端狀態</a></td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>Phase 1 PR 審查</td>
+  <td>等待 PR 建立</td>
+  <td>先審查 phase-1-smac-spec-standard，再依優先序處理後續類別分支；每個 PR 合併前保持 validate 通過。</td>
+  <td><code>npm run validate:external-handoff</code></td>
+  <td><a href="github-prs/index.html">PR 草案總覽</a><br><a href="github-issues/index.html">Issue 草案總覽</a></td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>部署階段批准</td>
+  <td>尚未批准</td>
+  <td>部署、後台保存與伺服器覆蓋仍屬下一階段；等本機與 PR 審查完成後，再由使用者明確批准。</td>
+  <td><code>npm run workflow:deployment-handoff</code></td>
+  <td><a href="deployment-phase-handoff.html">部署交接</a><br><a href="deployment-readiness-audit.html">部署準備度</a><br><a href="deployment-package-integrity.html">部署檔案完整性</a></td>
+</tr></tbody>
+  </table>
+</body>
+</html>
