@@ -118,13 +118,27 @@ npm run fix:h1-hierarchy
 
 ## GitHub Bootstrap
 
-無 token 時只做 dry-run 與遠端狀態檢查：
+無 token 時先做 dry-run 與遠端狀態檢查：
 
 ```powershell
 npm run github:bootstrap:dry-run
 npm run github:bootstrap:smoke:dry-run
 npm run workflow:github-remote-verify
 ```
+
+若 token 暫時無法提供，但使用者已登入 GitHub，可以產生手動建立頁：
+
+```powershell
+npm run workflow:github-manual-handoff
+```
+
+輸出：
+
+- `site/reports/github-manual-bootstrap-handoff.html`
+- `site/reports/github-manual-bootstrap-handoff.md`
+- `site/reports/github-manual-bootstrap-handoff.json`
+
+手動頁會列出 18 個 tracking issue 與 17 個 PR 的建立連結、草案位置與建議順序。它不會自動建立 GitHub 物件；使用者仍需在 GitHub 頁面確認送出。
 
 有 fine-grained GitHub token 時，預設只用安全 runner。它會依序執行 dry-run、smoke issue、smoke PR、完整 bootstrap、報告刷新與 strict validation：
 

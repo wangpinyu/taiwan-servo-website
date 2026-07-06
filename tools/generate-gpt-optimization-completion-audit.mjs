@@ -42,6 +42,7 @@ const sourceAudit = readJson('site/reports/source-needed-audit.json');
 const backlog = readJson('site/reports/optimization-backlog.json');
 const githubReadiness = readJson('site/reports/github-bootstrap-readiness.json');
 const githubApiHandoff = readJson('site/reports/github-api-bootstrap-handoff.json');
+const githubManualHandoff = readJson('site/reports/github-manual-bootstrap-handoff.json');
 const githubRemoteVerification = readJson('site/reports/github-remote-state-verification.json');
 const deploymentReadiness = readJson('site/reports/deployment-readiness-audit.json');
 const deploymentPackageIntegrity = readJson('site/reports/deployment-package-integrity.json');
@@ -224,6 +225,7 @@ const checks = [
     evidence: [
       'site/reports/github-bootstrap-readiness.json',
       'site/reports/github-api-bootstrap-handoff.json',
+      'site/reports/github-manual-bootstrap-handoff.json',
       'site/reports/github-remote-state-verification.json',
       'docs/github-api-bootstrap-runbook.md',
     ],
@@ -240,6 +242,13 @@ const checks = [
       pullRequestRefs: githubReadiness.pullRequestRefs,
       nextActions: githubReadiness.nextActions || [],
       expectedCounts: githubApiHandoff.expectedCounts || {},
+      manualFallback: {
+        status: githubManualHandoff.mode,
+        tokenRequired: githubManualHandoff.tokenRequired,
+        userLoginRequired: githubManualHandoff.userLoginRequired,
+        issues: githubManualHandoff.counts?.issues,
+        prs: githubManualHandoff.counts?.prs,
+      },
     },
   },
   {

@@ -20,6 +20,7 @@ const docs = [
   { relPath: 'site/reports/github-bootstrap-readiness.html', type: 'report' },
   { relPath: 'site/reports/github-remote-state-verification.html', type: 'report' },
   { relPath: 'site/reports/github-api-bootstrap-handoff.html', type: 'report' },
+  { relPath: 'site/reports/github-manual-bootstrap-handoff.html', type: 'report' },
   { relPath: 'site/reports/github-issues/index.html', type: 'report' },
   { relPath: 'site/reports/github-prs/index.html', type: 'report' },
   { relPath: 'site/reports/deployment-readiness-audit.html', type: 'report' },

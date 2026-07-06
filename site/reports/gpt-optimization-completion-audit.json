@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T11:09:26.209Z",
+  "generatedAt": "2026-07-06T11:22:24.788Z",
   "objective": "Audit current evidence against the GPT optimization work plan.",
   "scope": {
     "productPages": 248,
     "currentStage": "local-preview-and-github-workflow",
     "validationScripts": {
-      "strict": "node tools/validate-docs-readability.mjs && node tools/validate-static-site.mjs --strict && node tools/validate-local-mirror-readiness.mjs && node tools/validate-customer-facing-notes.mjs && node tools/resolve-product-standardization-review.mjs && node tools/validate-product-spec-modules.mjs --strict && node tools/validate-spec-download-affordances.mjs --strict && node tools/validate-product-page-structure-seo.mjs --strict && node tools/generate-product-seo-warning-taxonomy.mjs && node tools/generate-product-spec-agent-review.mjs && node tools/generate-source-needed-audit.mjs && node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs && node tools/generate-github-pr-index.mjs && node tools/generate-github-bootstrap-readiness.mjs && node tools/verify-github-remote-state.mjs && node tools/generate-github-api-bootstrap-handoff.mjs && node tools/generate-deployment-review-classification.mjs && node tools/validate-deployment-package-integrity.mjs && node tools/generate-deployment-readiness-audit.mjs && node tools/generate-deployment-phase-handoff.mjs && node tools/generate-gpt-optimization-completion-audit.mjs",
+      "strict": "node tools/validate-docs-readability.mjs && node tools/validate-static-site.mjs --strict && node tools/validate-local-mirror-readiness.mjs && node tools/validate-customer-facing-notes.mjs && node tools/resolve-product-standardization-review.mjs && node tools/validate-product-spec-modules.mjs --strict && node tools/validate-spec-download-affordances.mjs --strict && node tools/validate-product-page-structure-seo.mjs --strict && node tools/generate-product-seo-warning-taxonomy.mjs && node tools/generate-product-spec-agent-review.mjs && node tools/generate-source-needed-audit.mjs && node tools/generate-optimization-backlog.mjs && node tools/generate-github-issue-index.mjs && node tools/generate-github-pr-index.mjs && node tools/generate-github-bootstrap-readiness.mjs && node tools/verify-github-remote-state.mjs && node tools/generate-github-api-bootstrap-handoff.mjs && node tools/generate-github-manual-bootstrap-handoff.mjs && node tools/generate-deployment-review-classification.mjs && node tools/validate-deployment-package-integrity.mjs && node tools/generate-deployment-readiness-audit.mjs && node tools/generate-deployment-phase-handoff.mjs && node tools/generate-gpt-optimization-completion-audit.mjs",
       "visualSample": "node tools/run-visual-sample-qa.mjs"
     }
   },
@@ -37,7 +37,7 @@
       "missing": [],
       "metrics": {
         "html_files": 359,
-        "local_refs": 66055,
+        "local_refs": 66056,
         "missing_local_refs": 0,
         "formal_same_origin_refs": 0
       }
@@ -101,7 +101,7 @@
           "no_spec_module_count": 6
         },
         "warning_taxonomy": {
-          "generated_at": "2026-07-06T11:08:56.695Z",
+          "generated_at": "2026-07-06T11:21:55.067Z",
           "total_warning_entries": 0,
           "affected_pages": 0,
           "warning_type_counts": {},
@@ -169,7 +169,7 @@
       ],
       "missing": [],
       "metrics": {
-        "generated_at": "2026-07-06T11:08:56.897Z",
+        "generated_at": "2026-07-06T11:21:55.266Z",
         "total_categories": 18,
         "total_pages": 248,
         "total_blocking_pages": 0,
@@ -204,7 +204,7 @@
       ],
       "missing": [],
       "metrics": {
-        "docs": 28,
+        "docs": 29,
         "errors": 0
       }
     },
@@ -283,6 +283,7 @@
       "evidence": [
         "site/reports/github-bootstrap-readiness.json",
         "site/reports/github-api-bootstrap-handoff.json",
+        "site/reports/github-manual-bootstrap-handoff.json",
         "site/reports/github-remote-state-verification.json",
         "docs/github-api-bootstrap-runbook.md"
       ],
@@ -310,6 +311,13 @@
           "issueDrafts": 18,
           "pullRequestDrafts": 17,
           "remoteBranchesPresent": 18
+        },
+        "manualFallback": {
+          "status": "manual-browser-fallback",
+          "tokenRequired": false,
+          "userLoginRequired": true,
+          "issues": 18,
+          "prs": 17
         }
       }
     },

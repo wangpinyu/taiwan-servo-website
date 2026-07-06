@@ -18,6 +18,30 @@
 
 尚未完成的是：GitHub API 需要 token 才能建立 labels、issues 與 PR。
 
+## 無 token 手動替代流程
+
+如果暫時不想建立 token，或 token 權限還沒準備好，可以先使用手動交接頁：
+
+```powershell
+npm run workflow:github-manual-handoff
+```
+
+輸出位置：
+
+- `site/reports/github-manual-bootstrap-handoff.html`
+- `site/reports/github-manual-bootstrap-handoff.md`
+- `site/reports/github-manual-bootstrap-handoff.json`
+
+這個流程不會自動建立任何 GitHub 物件，也不會寫入後台或伺服器。它會列出 18 個 tracking issue 與 17 個 PR 的建立連結、草案檔案與建議順序。使用者需要先登入 GitHub，再逐一開啟連結並確認送出。
+
+手動流程適合：
+
+- 沒有 `GITHUB_TOKEN` / `GH_TOKEN`。
+- 只想先建立 phase 1 PR 或少量 tracking issues。
+- 需要人工檢查 GitHub 表單內容後再送出。
+
+如果要一次建立所有 labels、issues 與 PR，仍建議使用下一節的 token 自動流程。
+
 ## Token 權限
 
 建議使用 fine-grained personal access token，權限只給這個 repo：
