@@ -3,20 +3,19 @@
 Branch: `phase-2-drivers-spec-review`
 Priority: 4
 Pages: 18
-Blocking pages: 8
+Blocking pages: 7
 
 ## Status counts
 
-- agent-fix-required: 1
+- agent-approved-clean: 11
 - agent-source-needed: 6
-- agent-approved-clean: 10
 - agent-structure-review: 1
 
 ## Target pages
 
 | ID | Title | Status | Preview |
 | --- | --- | --- | --- |
-| 76 | 雷射加工應用軟體：DMC | agent-fix-required | preview/products/detail/76.html |
+| 76 | 雷射加工應用軟體：DMC | agent-approved-clean | preview/products/detail/76.html |
 | 241 | 測試-ACS硬體分類 | agent-source-needed | preview/products/detail/241.html |
 | 242 | 測試-ACS EtherCAT控制主機(控制器) | agent-approved-clean | preview/products/detail/242.html |
 | 243 | ACS EtherCAT控制主機(控制器)O | agent-approved-clean | preview/products/detail/243.html |
