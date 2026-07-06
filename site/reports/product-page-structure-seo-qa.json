@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T01:10:00.385Z",
+  "generated_at": "2026-07-06T01:25:41.192Z",
   "scope": "Product detail page SEO and structure QA",
   "strict": false,
   "policy": {
@@ -15,13 +15,13 @@
   "summary": {
     "total_pages": 248,
     "status_counts": {
-      "pass": 227,
-      "warn": 15,
+      "pass": 228,
+      "warn": 14,
       "no-spec-module": 6
     },
     "fail_count": 0,
-    "warn_count": 15,
-    "pass_count": 227,
+    "warn_count": 14,
+    "pass_count": 228,
     "no_spec_module_count": 6
   },
   "pages": [
@@ -128,7 +128,7 @@
         "Novanta IMS Mdrive 微步進驅動器"
       ],
       "preview_rel": "preview/products/detail/80.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "page_checks": {
         "h1_count": 1,
         "title_present": true,
@@ -733,7 +733,7 @@
         "Karl Klein鼓風機"
       ],
       "preview_rel": "preview/products/detail/101.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "page_checks": {
         "h1_count": 1,
         "title_present": true,
@@ -2125,7 +2125,7 @@
         "SEJINIGB 模組化齒圈轉台"
       ],
       "preview_rel": "preview/products/detail/152.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "page_checks": {
         "h1_count": 1,
         "title_present": true,
@@ -2760,7 +2760,7 @@
         "CMCO 升降器"
       ],
       "preview_rel": "preview/products/detail/173.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted",
       "page_checks": {
         "h1_count": 1,
         "title_present": true,
@@ -3459,7 +3459,7 @@
         "KDU"
       ],
       "preview_rel": "preview/products/detail/199.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "page_checks": {
         "h1_count": 1,
         "title_present": true,
@@ -3523,7 +3523,7 @@
         "HPGP/HPG系列 行星減速機"
       ],
       "preview_rel": "preview/products/detail/202.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "page_checks": {
         "h1_count": 1,
         "title_present": true,
@@ -4006,7 +4006,7 @@
         "奈米精度對位定位平台"
       ],
       "preview_rel": "preview/products/detail/218.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "page_checks": {
         "h1_count": 1,
         "title_present": true,
@@ -4070,7 +4070,7 @@
         "單軸線馬模組"
       ],
       "preview_rel": "preview/products/detail/226.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted",
       "page_checks": {
         "h1_count": 1,
         "title_present": true,
@@ -5064,7 +5064,7 @@
         "SHA"
       ],
       "preview_rel": "preview/products/detail/273.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted",
       "page_checks": {
         "h1_count": 1,
         "title_present": true,
@@ -6823,7 +6823,7 @@
         "線纜煞車控制器 RTM X42.BC"
       ],
       "preview_rel": "preview/products/detail/349.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "page_checks": {
         "h1_count": 1,
         "title_present": true,
@@ -6843,10 +6843,8 @@
         "cta_links": 1
       },
       "critical": [],
-      "warnings": [
-        "table_3_model_header_not_detected"
-      ],
-      "qa_status": "warn"
+      "warnings": [],
+      "qa_status": "pass"
     },
     {
       "product_id": "350",
@@ -6887,7 +6885,7 @@
         "軟體開發與模擬套件"
       ],
       "preview_rel": "preview/products/detail/352.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted",
       "page_checks": {
         "h1_count": 1,
         "title_present": true,
@@ -6918,7 +6916,7 @@
         "Xenus 驅動器"
       ],
       "preview_rel": "preview/products/detail/354.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "page_checks": {
         "h1_count": 1,
         "title_present": true,
@@ -7671,7 +7669,7 @@
         "Novanta IMS MDrive 線性執行器"
       ],
       "preview_rel": "preview/products/detail/388.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "page_checks": {
         "h1_count": 1,
         "title_present": true,

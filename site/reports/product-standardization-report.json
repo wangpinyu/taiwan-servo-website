@@ -12,757 +12,448 @@
     "spec_candidates_found": 242,
     "no_spec_module": 6,
     "status_counts": {
-      "inserted": 191,
-      "needs-review-unknown-module": 13,
-      "inserted-before-application": 38,
+      "inserted": 195,
+      "inserted-before-application": 47,
       "no-spec-module": 6
     },
     "category_status_counts": {
-      "ACS 控制器 / 驅動器 › ACS EtherCAT雷射控制模組 › 雷射加工應用軟體：DMC": {
+      "ACS 控制器 / 驅動器 / ACS EtherCAT雷射控制模組": {
+        "inserted": 2
+      },
+      "各類馬達 / KOLLMORGEN": {
         "inserted": 1
       },
-      "各類馬達 › KOLLMORGEN › KOLLMORGEN AKD PDMM伺服控制器": {
+      "驅動器 / Copley 伺服驅動器及閉迴路步進驅動器": {
         "inserted": 1
       },
-      "驅動器 › Copley 伺服驅動器及閉迴路步進驅動器": {
-        "inserted": 1
-      },
-      "驅動器 › Novanta IMS Mdrive 微步進驅動器": {
-        "needs-review-unknown-module": 1
-      },
-      "驅動器 › Harmonic Servo Drivers（伺服驅動器）": {
-        "inserted": 1
-      },
-      "驅動器 › AKD 伺服驅動器系統": {
-        "inserted": 1
-      },
-      "各類馬達 › 步進馬達 › Novanta IMS Mdrive Plus 智慧型步進馬達": {
-        "inserted": 1
-      },
-      "各類馬達 › 線性馬達/電動缸 › Accel 線性伺服馬達-U型無鐵心Series": {
-        "inserted": 1
-      },
-      "各類馬達 › 線性馬達/電動缸 › Accel 音圈馬達": {
-        "inserted": 1
-      },
-      "各類馬達 › 線性馬達/電動缸 › SMAC 高速伺服圓形電動缸": {
+      "驅動器 / Novanta IMS Mdrive 微步進驅動器": {
         "inserted-before-application": 1
       },
-      "各類馬達 › 步進馬達 › Phytron二相步進馬達(真空環境用)": {
+      "驅動器 / Harmonic Servo Drivers（伺服驅動器）": {
         "inserted": 1
       },
-      "各類馬達 › Harmonic 馬達 › Harmonic AC Servo Motors（交流伺服馬達）": {
+      "驅動器 / AKD 伺服驅動器系統": {
         "inserted": 1
       },
-      "各類馬達 › Harmonic 馬達 › Harmonic Direct Drive Motor （直驅電動機）": {
-        "inserted": 1
+      "各類馬達 / 步進馬達": {
+        "inserted": 3,
+        "inserted-before-application": 3
       },
-      "各類馬達 › 步進馬達 › Kollmorgen 兩相步進馬達": {
-        "inserted": 1
+      "各類馬達 / 線性馬達/電動缸": {
+        "inserted": 4,
+        "inserted-before-application": 2
       },
-      "各類馬達 › 伺服馬達 › Kollmorgen KBM 無刷轉子、定子": {
-        "inserted": 1
+      "各類馬達 / Harmonic 馬達": {
+        "inserted": 3
       },
-      "各類馬達 › 伺服馬達 › Kollmorgen TBM低壓無框馬達": {
-        "inserted": 1
-      },
-      "各類馬達 › 線性馬達/電動缸 › Kollmorgen 線性伺服馬達": {
-        "inserted": 1
-      },
-      "各類馬達 › 伺服馬達 › Kollmorgen CDDR 直驅伺服控制系統": {
-        "inserted": 1
-      },
-      "各類馬達 › 伺服馬達 › Kollmorgen 防水馬達": {
-        "inserted": 1
-      },
-      "各類馬達 › 伺服馬達 › Kollmorgen AKM低溫伺服電機": {
+      "各類馬達 / 伺服馬達": {
+        "inserted": 5,
         "inserted-before-application": 1
       },
-      "各類馬達 › 步進馬達 › Kollmorgen 防爆步進馬達": {
+      "電動缸 / Thomson": {
+        "inserted": 6,
         "inserted-before-application": 1
       },
-      "電動缸 › Thomson › Thomson 電動缸": {
-        "inserted": 1
-      },
-      "鼓風機 › Karl Klein鼓風機": {
-        "needs-review-unknown-module": 1
-      },
-      "各類馬達 › 步進馬達 › JVL整合型伺服馬達及步進馬達的特色": {
+      "鼓風機 / Karl Klein鼓風機": {
         "inserted-before-application": 1
       },
-      "各類馬達 › 線性馬達/電動缸 › Parker 鐵芯式線性馬達": {
+      "各類馬達 / 風力發電": {
+        "inserted": 1
+      },
+      "其他回授元件 / Minet 三軸顯示器": {
+        "inserted": 1
+      },
+      "其他回授元件 / Scancon": {
         "inserted-before-application": 1
       },
-      "各類馬達 › 伺服馬達 › Parker 防爆馬達": {
+      "其他回授元件 / BEI": {
         "inserted": 1
       },
-      "各類馬達 › 線性馬達/電動缸 › dunkermotoren 管型線性伺服馬達（Tubular Linear Servo Motor）": {
+      "其他回授元件 / M-TEK 電路旋轉連接器": {
         "inserted": 1
       },
-      "各類馬達 › 風力發電 › ALXION 風力發電機": {
-        "inserted": 1
+      "其他回授元件 / ASM": {
+        "inserted-before-application": 4
       },
-      "其他回授元件 › Minet 三軸顯示器 › 三軸顯示器 (簡單型 /軸數 : 三軸)": {
-        "inserted": 1
+      "Renishaw 回授元件產品 / 開放式光學尺": {
+        "inserted-before-application": 3,
+        "inserted": 11
       },
-      "其他回授元件 › Scancon › Scancon Encoder 編碼器": {
+      "Renishaw 回授元件產品 / 磁性編碼器": {
+        "inserted": 11
+      },
+      "陶瓷吸盤 / 多孔性陶瓷真空吸盤（Porous Ceramic Chuck Table）": {
         "inserted-before-application": 1
       },
-      "其他回授元件 › BEI › BEI 編碼器": {
+      "FMS 張力系統 / FMS 無線傳輸數位張力量測放大器": {
         "inserted": 1
       },
-      "其他回授元件 › M-TEK 電路旋轉連接器 › M-TEK 電路旋轉連接器 (黃金接點)": {
+      "FMS 張力系統 / FMS 張力控制元件總覽": {
         "inserted": 1
       },
-      "各類馬達 › Harmonic 馬達 › HarmonicDrive® 諧波減速機": {
+      "FMS 張力系統 / FMS 張力控制系統(無線及有線通訊模式)": {
         "inserted": 1
       },
-      "其他回授元件 › ASM › ASM 拉線式感測器(磁性尺)": {
+      "FMS 張力系統 / FMS 張力感測器": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / FMS 張力放大器": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / FMS 張力控制器": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / FMS 糾邊感測器": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / 糾邊控制器": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / FMS拉壓式": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / FMS糾邊器": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / FMS活動軸-C203 系列": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / FMS 座式張力傳感器": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / FMS軸徑式": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / FMS 輥式張力傳感器": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / FMS 真空環境之應用": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / FMS 成功案例": {
+        "inserted": 1
+      },
+      "空氣軸承 / 滾珠•滾柱軸承 / Thomson": {
+        "inserted-before-application": 1,
+        "inserted": 1
+      },
+      "Harmonic Drive 減速機 / HarmonicDrive® 諧波減速機": {
+        "inserted": 1
+      },
+      "SEJINIGB 滾輪齒排 / SEJINIGB 精密線性齒排、滾輪": {
+        "inserted": 1
+      },
+      "SEJINIGB 滾輪齒排 / SEJINIGB 模組化齒圈轉台": {
         "inserted-before-application": 1
       },
-      "其他回授元件 › ASM › ASM 停機時間量測系統": {
+      "聯軸器 / RINGFEDER 免鍵式軸襯": {
+        "inserted": 1
+      },
+      "聯軸器 / Huco 精密聯軸器": {
+        "inserted": 1
+      },
+      "定位平台 / ALIO": {
+        "inserted": 6
+      },
+      "定位平台 / 精密電動微調平台": {
+        "inserted": 1
+      },
+      "定位平台 / Primatics": {
+        "inserted": 1
+      },
+      "定位平台 / XYY 對位平台": {
         "inserted-before-application": 1
       },
-      "Renishaw 回授元件產品 › 開放式光學尺 › Renishaw ATOM 微型光學編碼器": {
+      "定位平台 / Del.tron": {
+        "inserted": 1
+      },
+      "定位平台 / Thomson": {
+        "inserted": 1
+      },
+      "定位平台 / PM": {
+        "inserted": 1
+      },
+      "電動缸 / SMAC": {
+        "inserted": 4
+      },
+      "電動缸 / Servomech": {
+        "inserted": 1
+      },
+      "電動缸 / Duff-Norton": {
+        "inserted": 1
+      },
+      "電動缸 / CMCO 升降器": {
+        "inserted": 1
+      },
+      "空氣軸承 / 滾珠•滾柱軸承 / Winkel": {
+        "inserted": 1
+      },
+      "空氣軸承 / 滾珠•滾柱軸承 / 各式軸承": {
+        "inserted": 1
+      },
+      "固態繼電器 / i-Autoc 固態繼電器 SSR 總覽": {
+        "inserted": 1
+      },
+      "自動化系統 / 各式滑台/高精度平台": {
+        "inserted": 2,
+        "inserted-before-application": 3
+      },
+      "特殊環境 / THOMSON Electrak® HD 線性致動器": {
+        "inserted": 1
+      },
+      "特殊環境 / 不鏽鋼食品級": {
+        "inserted": 1
+      },
+      "特殊環境 / 防爆": {
+        "inserted": 1
+      },
+      "特殊環境 / 重載": {
+        "inserted": 1
+      },
+      "特殊環境 / ASM 拉線式磁性尺Encoder": {
         "inserted-before-application": 1
       },
-      "Renishaw 回授元件產品 › 開放式光學尺 › Renishaw RESOLUTE™ 絕對式光學尺系列": {
+      "特殊環境 / Scancon Encoder 編碼器": {
         "inserted": 1
       },
-      "Renishaw 回授元件產品 › 磁性編碼器 › RENISHAW (雷尼紹) RLS 磁性編碼器磁性尺": {
+      "特殊環境 / Karl Klein鼓風機": {
         "inserted": 1
       },
-      "Renishaw 回授元件產品 › 開放式光學尺 › RENISHAW (雷尼紹) QUANTiC 增量式光學尺": {
+      "特殊環境 / 真空": {
         "inserted": 1
       },
-      "Renishaw 回授元件產品 › 開放式光學尺 › TONiC™ 增量式光學尺": {
+      "特殊環境 / 防水": {
         "inserted": 1
       },
-      "Renishaw 回授元件產品 › 開放式光學尺 › RENISHAW (雷尼紹) EVOLUTE™ 絕對式光學尺": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 開放式光學尺 › RENISHAW (雷尼紹) VIONiC 增量式光學尺系統": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 開放式光學尺 › RENISHAW (雷尼紹) ATOM DX 增量式編碼器": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 開放式光學尺 › RENISHAW (雷尼紹) 增量式光學尺( Linear Encoder)": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 開放式光學尺 › RENISHAW (雷尼紹) 光學尺讀頭比較表": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 開放式光學尺 › RENISHAW (雷尼紹) 光學尺診斷工具及介面 ADT & E201": {
-        "inserted": 1
-      },
-      "陶瓷吸盤 › 多孔性陶瓷真空吸盤（Porous Ceramic Chuck Table）": {
+      "特殊環境 / Kollmorgen 防爆馬達": {
         "inserted-before-application": 1
       },
-      "FMS 張力系統 › FMS 無線傳輸數位張力量測放大器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS 張力控制元件總覽": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS 張力控制系統(無線及有線通訊模式)": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS 張力感測器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS 張力放大器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS 張力控制器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS 糾邊感測器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › 糾邊控制器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS拉壓式": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS糾邊器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS活動軸-C203 系列": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS 座式張力傳感器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS軸徑式": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS 輥式張力傳感器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS 真空環境之應用": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › FMS 成功案例": {
-        "inserted": 1
-      },
-      "空氣軸承 / 滾珠•滾柱軸承 › Thomson › Thomson 減速機": {
+      "特殊環境 / 低溫": {
         "inserted-before-application": 1
       },
-      "Harmonic Drive 減速機 › HarmonicDrive® 諧波減速機": {
+      "空氣軸承 / 滾珠•滾柱軸承 / New Way": {
+        "inserted": 12
+      },
+      "山洋電氣 SANYO DENKI / 山洋電氣 San Ace 冷卻系統": {
         "inserted": 1
       },
-      "SEJINIGB 滾輪齒排 › SEJINIGB 精密線性齒排、滾輪": {
+      "山洋電氣 SANYO DENKI / 山洋電氣 SANUPS電源系統": {
         "inserted": 1
       },
-      "SEJINIGB 滾輪齒排 › SEJINIGB 模組化齒圈轉台": {
-        "needs-review-unknown-module": 1
-      },
-      "聯軸器 › RINGFEDER 免鍵式軸襯": {
+      "山洋電氣 SANYO DENKI / 山洋電氣 SANMOTION伺服系統": {
         "inserted": 1
       },
-      "聯軸器 › Huco 精密聯軸器": {
+      "Harmonic Drive 減速機 / 線性執行元件": {
+        "inserted": 2
+      },
+      "Harmonic Drive 減速機 / 機電產品": {
+        "inserted-before-application": 1,
         "inserted": 1
       },
-      "定位平台 › ALIO › ALIO奈米級精密定位平台": {
-        "inserted": 1
+      "Harmonic Drive 減速機 / 行星減速機與齒輪箱": {
+        "inserted-before-application": 1,
+        "inserted": 2
       },
-      "定位平台 › ALIO › ALIO 奈米 Z軸定位平台": {
-        "inserted": 1
-      },
-      "定位平台 › ALIO › ALIO XY雙軸定位平台": {
-        "inserted": 1
-      },
-      "定位平台 › ALIO › Theta旋轉平台": {
-        "inserted": 1
-      },
-      "定位平台 › ALIO › ALIO Hybrid Hexapod史都華平台": {
-        "inserted": 1
-      },
-      "定位平台 › 精密電動微調平台": {
-        "inserted": 1
-      },
-      "定位平台 › Primatics › Primatics 高精密及無塵等級定位平台": {
-        "inserted": 1
-      },
-      "定位平台 › XYY 對位平台": {
+      "聯軸器 / RINGFEDER 聯軸器 防震元件總覽": {
         "inserted-before-application": 1
       },
-      "定位平台 › Del.tron › Del-Tron 精密定位元件": {
+      "聯軸器 / RINGFEDER 波紋管聯軸器": {
         "inserted": 1
       },
-      "定位平台 › Thomson › Thomson滑台": {
+      "聯軸器 / RINFEDER 鋼片式聯軸器TND系列": {
         "inserted": 1
       },
-      "定位平台 › PM › PM B.V. 精密線性軸承定位平台": {
+      "聯軸器 / RINFEDER齒輪聯軸器TNZ系列": {
         "inserted": 1
       },
-      "定位平台 › ALIO › ALIO Hybrid Hexapod": {
+      "聯軸器 / RINFEDER筒形聯軸器TNK系列": {
         "inserted": 1
       },
-      "電動缸 › SMAC › SMAC 線性致動器": {
+      "聯軸器 / RINFEDER法蘭聯軸器TNF系列": {
         "inserted": 1
       },
-      "電動缸 › Servomech › Servomech 電動缸": {
+      "聯軸器 / RINFEDER撓性聯軸器TNR系列": {
         "inserted": 1
       },
-      "電動缸 › Thomson › Thomson升降柱(Lifting Columns)": {
+      "聯軸器 / RINFEDER安全聯軸器TNT系列": {
         "inserted": 1
       },
-      "電動缸 › Thomson › Thomson不銹鋼食品級線性致動器": {
+      "聯軸器 / RINGFEDER 摩擦彈簧": {
+        "inserted": 1
+      },
+      "聯軸器 / RINGFEDER工業緩衝器": {
+        "inserted": 1
+      },
+      "聯軸器 / RINGFEDER Shock Absorbing Elements減震元件": {
+        "inserted": 1
+      },
+      "ACS 控制器 / 驅動器 / 測試-ACS分類": {
+        "no-spec-module": 1,
+        "inserted": 1
+      },
+      "ACS 控制器 / 驅動器 / ACS EtherCAT控制主機(控制器)": {
+        "inserted": 1
+      },
+      "ACS 控制器 / 驅動器 / ACS EtherCAT控制主機+內建驅動器": {
+        "inserted": 1
+      },
+      "ACS 控制器 / 驅動器 / ACS 經濟型控制器+內建驅動器": {
+        "inserted": 1
+      },
+      "ACS 控制器 / 驅動器 / ACS EtherCAT驅動器(只能搭配ACS主機)": {
         "inserted-before-application": 1
       },
-      "電動缸 › Duff-Norton › Duff-Norton 線性致動器千斤頂接頭": {
+      "ACS 控制器 / 驅動器 / ACS EtherCAT驅動器(可搭配其它品牌主機)": {
         "inserted": 1
       },
-      "電動缸 › CMCO 升降器": {
-        "needs-review-unknown-module": 1
-      },
-      "空氣軸承 / 滾珠•滾柱軸承 › Winkel › Winkel 重載傳輸軌道、軸承": {
+      "ACS 控制器 / 驅動器 / ACS 接收+-10V命令nanoPWM驅動器": {
         "inserted": 1
       },
-      "空氣軸承 / 滾珠•滾柱軸承 › 各式軸承 › 各式軸承": {
+      "ACS 控制器 / 驅動器 / ACS EtherCAT介面模組": {
         "inserted": 1
       },
-      "固態繼電器 › i-Autoc 固態繼電器 SSR 總覽": {
+      "ACS 控制器 / 驅動器 / ACS 配件": {
         "inserted": 1
       },
-      "自動化系統 › 各式滑台/高精度平台 › 次系統設備（客製）": {
-        "inserted": 1
+      "ACS 控制器 / 驅動器 / ACS 軟體": {
+        "no-spec-module": 3
       },
-      "特殊環境 › THOMSON Electrak® HD 線性致動器": {
-        "inserted": 1
-      },
-      "特殊環境 › 不鏽鋼食品級 › Thomson不銹鋼食品級線性致動器": {
-        "inserted": 1
-      },
-      "特殊環境 › 防爆 › Parker 防爆馬達": {
-        "inserted": 1
-      },
-      "特殊環境 › 重載 › Winkel 重載傳輸軌道、軸承": {
-        "inserted": 1
-      },
-      "特殊環境 › ASM 拉線式磁性尺Encoder": {
-        "inserted-before-application": 1
-      },
-      "特殊環境 › Scancon Encoder 編碼器": {
-        "inserted": 1
-      },
-      "特殊環境 › Karl Klein鼓風機": {
-        "inserted": 1
-      },
-      "特殊環境 › 真空 › Phytron 二相步進馬達(真空環境用)": {
-        "inserted": 1
-      },
-      "特殊環境 › 防水 › Kollmorgen 防水馬達": {
-        "inserted": 1
-      },
-      "特殊環境 › Kollmorgen 防爆馬達": {
-        "inserted-before-application": 1
-      },
-      "特殊環境 › 低溫 › Kollmorgen AKM低溫伺服電機": {
-        "inserted-before-application": 1
-      },
-      "空氣軸承 / 滾珠•滾柱軸承 › Thomson › Thomson 直線軸承和導軌": {
-        "inserted": 1
-      },
-      "空氣軸承 / 滾珠•滾柱軸承 › New Way › NEW WAY 空氣軸承": {
-        "inserted": 1
-      },
-      "山洋電氣 SANYO DENKI › 山洋電氣 San Ace 冷卻系統": {
-        "inserted": 1
-      },
-      "山洋電氣 SANYO DENKI › 山洋電氣 SANUPS電源系統": {
-        "inserted": 1
-      },
-      "山洋電氣 SANYO DENKI › 山洋電氣 SANMOTION伺服系統": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 線性執行元件 › 線性直線致動器 LBC系列": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 機電產品 › KDU": {
-        "needs-review-unknown-module": 1
-      },
-      "Harmonic Drive 減速機 › 機電產品 › HMA": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 行星減速機與齒輪箱 › HPGP/HPG系列 行星減速機": {
-        "needs-review-unknown-module": 1
-      },
-      "Harmonic Drive 減速機 › 行星減速機與齒輪箱 › CSG-GH/CSF-GH 系列": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 行星減速機與齒輪箱 › HPF": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 線性執行元件 › LA 系列 DC線性伺服致動器": {
-        "inserted": 1
-      },
-      "聯軸器 › RINGFEDER 聯軸器 防震元件總覽": {
-        "inserted-before-application": 1
-      },
-      "聯軸器 › RINGFEDER 波紋管聯軸器": {
-        "inserted": 1
-      },
-      "聯軸器 › RINFEDER 鋼片式聯軸器TND系列": {
-        "inserted": 1
-      },
-      "聯軸器 › RINFEDER齒輪聯軸器TNZ系列": {
-        "inserted": 1
-      },
-      "聯軸器 › RINFEDER筒形聯軸器TNK系列": {
-        "inserted": 1
-      },
-      "聯軸器 › RINFEDER法蘭聯軸器TNF系列": {
-        "inserted": 1
-      },
-      "聯軸器 › RINFEDER撓性聯軸器TNR系列": {
-        "inserted": 1
-      },
-      "聯軸器 › RINFEDER安全聯軸器TNT系列": {
-        "inserted": 1
-      },
-      "聯軸器 › RINGFEDER 摩擦彈簧": {
-        "inserted": 1
-      },
-      "聯軸器 › RINGFEDER工業緩衝器": {
-        "inserted": 1
-      },
-      "聯軸器 › RINGFEDER Shock Absorbing Elements減震元件": {
-        "inserted": 1
-      },
-      "自動化系統 › 各式滑台/高精度平台 › 奈米精度對位定位平台": {
-        "needs-review-unknown-module": 1
-      },
-      "自動化系統 › 各式滑台/高精度平台 › 雙軸堆疊型X-Y STAGE": {
-        "inserted-before-application": 1
-      },
-      "自動化系統 › 各式滑台/高精度平台 › 單軸線馬模組": {
-        "needs-review-unknown-module": 1
-      },
-      "自動化系統 › 各式滑台/高精度平台 › 全氣浮龍門平台": {
-        "inserted-before-application": 1
-      },
-      "ACS 控制器 / 驅動器 › 測試-ACS分類 › 測試-ACS硬體分類": {
+      "ACS 控制器 / 驅動器 / ACS 特點說明": {
         "no-spec-module": 1
       },
-      "ACS 控制器 / 驅動器 › 測試-ACS分類 › 測試-ACS EtherCAT控制主機(控制器)": {
-        "inserted": 1
-      },
-      "ACS 控制器 / 驅動器 › ACS EtherCAT控制主機(控制器) › ACS EtherCAT控制主機(控制器)O": {
-        "inserted": 1
-      },
-      "ACS 控制器 / 驅動器 › ACS EtherCAT控制主機+內建驅動器 › ACS EtherCAT控制主機+內建驅動器O": {
-        "inserted": 1
-      },
-      "ACS 控制器 / 驅動器 › ACS 經濟型控制器+內建驅動器 › ACS經濟型控制器+內建驅動器O": {
-        "inserted": 1
-      },
-      "ACS 控制器 / 驅動器 › ACS EtherCAT驅動器(只能搭配ACS主機) › ACS Ethercat 驅動器(只能搭配ACS主機)O": {
-        "inserted-before-application": 1
-      },
-      "ACS 控制器 / 驅動器 › ACS EtherCAT驅動器(可搭配其它品牌主機) › ACS EtherCAT驅動器(可搭配其它品牌主機)O": {
-        "inserted": 1
-      },
-      "ACS 控制器 / 驅動器 › ACS 接收+-10V命令nanoPWM驅動器 › ACS接收+-10V命令nanoPWM驅動器O": {
-        "inserted": 1
-      },
-      "ACS 控制器 / 驅動器 › ACS EtherCAT介面模組 › ACS EtherCAT介面模組O": {
-        "inserted": 1
-      },
-      "ACS 控制器 / 驅動器 › ACS EtherCAT雷射控制模組 › ACS EtherCAT雷射控制模組O": {
-        "inserted": 1
-      },
-      "ACS 控制器 / 驅動器 › ACS 配件 › ACS配件O": {
-        "inserted": 1
-      },
-      "ACS 控制器 / 驅動器 › ACS 軟體 › 軟體-1": {
+      "ACS 控制器 / 驅動器 / ACS 教育訓練影片": {
         "no-spec-module": 1
       },
-      "ACS 控制器 / 驅動器 › ACS 軟體 › 軟體-2": {
-        "no-spec-module": 1
-      },
-      "ACS 控制器 / 驅動器 › ACS 軟體 › 軟體-3": {
-        "no-spec-module": 1
-      },
-      "空氣軸承 / 滾珠•滾柱軸承 › New Way › NEW WAY Air bar 氣浮板": {
+      "各類馬達 / 山洋電氣 Sanyo denki": {
         "inserted": 1
       },
-      "空氣軸承 / 滾珠•滾柱軸承 › New Way › NEW WAY 平面矩形空氣軸承": {
-        "inserted": 1
+      "Harmonic Drive 減速機 / 模組型減速機": {
+        "inserted": 7
       },
-      "空氣軸承 / 滾珠•滾柱軸承 › New Way › NEW WAY 扁平圓形平板空氣軸承": {
-        "inserted": 1
+      "Harmonic Drive 減速機 / 旋轉制動元件": {
+        "inserted": 9
       },
-      "空氣軸承 / 滾珠•滾柱軸承 › New Way › NEW WAY 徑向(圓弧)空氣軸承": {
-        "inserted": 1
+      "Harmonic Drive 減速機 / 元件型減速機": {
+        "inserted": 5
       },
-      "空氣軸承 / 滾珠•滾柱軸承 › New Way › NEW WAY 氣浮襯套": {
-        "inserted": 1
+      "Renishaw 回授元件產品 / 封閉式光學尺": {
+        "inserted": 2
       },
-      "空氣軸承 / 滾珠•滾柱軸承 › New Way › NEW WAY 氣浮主軸": {
-        "inserted": 1
+      "Renishaw 回授元件產品 / 雷射編碼器": {
+        "inserted": 8
       },
-      "空氣軸承 / 滾珠•滾柱軸承 › New Way › NEW WAY 黏貼式氣浮軸承": {
-        "inserted": 1
-      },
-      "空氣軸承 / 滾珠•滾柱軸承 › New Way › NEW WAY 球面氣浮軸承": {
-        "inserted": 1
-      },
-      "空氣軸承 / 滾珠•滾柱軸承 › New Way › NEW WAY 推力軸承": {
-        "inserted": 1
-      },
-      "空氣軸承 / 滾珠•滾柱軸承 › New Way › NEW WAY 真空預壓氣浮軸承": {
-        "inserted": 1
-      },
-      "空氣軸承 / 滾珠•滾柱軸承 › New Way › NEW WAY 線性氣浮導軌": {
-        "inserted": 1
-      },
-      "ACS 控制器 / 驅動器 › ACS 特點說明": {
-        "no-spec-module": 1
-      },
-      "ACS 控制器 / 驅動器 › ACS 教育訓練影片 › ACS 教育訓練影片": {
-        "no-spec-module": 1
-      },
-      "各類馬達 › 山洋電氣 Sanyo denki › 山洋電氣 SANYO DENKI 馬達相關": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 模組型減速機 › FD系列差動齒輪O": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 旋轉制動元件 › AC伺服制動器 › SHA": {
-        "needs-review-unknown-module": 1
-      },
-      "Harmonic Drive 減速機 › 旋轉制動元件 › AC伺服制動器 › RKF": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 旋轉制動元件 › DC伺服制動器 › RH": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 旋轉制動元件 › DC伺服制動器 › FLA": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 元件型減速機 › CSD": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 模組型減速機 › CSD 模組型O": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 元件型減速機 › CSF/CSG": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 模組型減速機 › CSG-CSF 模組型O": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 模組型減速機 › CSF mini 模組型O": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 模組型減速機 › CSF supermini 模組型O": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 元件型減速機 › SHF-SHG": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 模組型減速機 › SHF-SHG模組型O": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 模組型減速機 › SHD模組型O": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 元件型減速機 › FR": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 元件型減速機 › FB": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 旋轉制動元件 › AC伺服制動器 › FHA-C": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 旋轉制動元件 › AC伺服制動器 › RSF Supermini": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 旋轉制動元件 › AC伺服制動器 › RSF-B mini": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 旋轉制動元件 › AC伺服制動器 › RSF": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 磁性編碼器 › 線性標準增量式磁性尺": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 磁性編碼器 › 旋轉標準增量式磁性尺": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 磁性編碼器 › 線性絕對式磁性尺": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 磁性編碼器 › 旋轉絕對式磁性尺": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 磁性編碼器 › 磁性感應器IC": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 開放式光學尺 › 線性開放式光學尺": {
+      "驅動器 / Copley Nano 系列 — 定義極致微型化的高功率密度伺服控制": {
         "inserted-before-application": 1
       },
-      "Renishaw 回授元件產品 › 開放式光學尺 › 部分弧線開放式光學尺": {
+      "聯軸器 / RINGFEDER 彈性體顎式聯軸器 GWE TNM TNS TNB": {
         "inserted": 1
       },
-      "Renishaw 回授元件產品 › 開放式光學尺 › 旋轉(角度)開放式光學尺": {
+      "聯軸器 / Ringfeder RLP & RLB 彈性插銷聯軸器": {
+        "inserted": 1
+      },
+      "聯軸器 / Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / 力傳感器": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / 張力量測放大器": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / 網狀張力控制器": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / 分段式張力輪": {
         "inserted-before-application": 1
       },
-      "Renishaw 回授元件產品 › 封閉式光學尺 › FORTiS-S™ 標準尺寸的封閉式線性光學尺": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 封閉式光學尺 › FORTiS-N™ 精細尺寸的封閉式線性光學尺": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 磁性編碼器 › 線性微型增量式磁性尺": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 磁性編碼器 › 旋轉微型增量式磁性尺": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 磁性編碼器 › 旋轉軸編碼器": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 磁性編碼器 › 軸向環": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 磁性編碼器 › 徑向環": {
-        "inserted": 1
-      },
-      "Harmonic Drive 減速機 › 旋轉制動元件 › AC伺服制動器 › FHA-C Mini": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 雷射編碼器 › RLD檢測頭(干涉儀)": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 雷射編碼器 › RLU雷射裝置": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 雷射編碼器 › 雷射編碼器介面": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 雷射編碼器 › RCU10 即時方波補償器": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 雷射編碼器 › 鏡面與光學鏡組": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 雷射編碼器 › HS20雷射頭": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 雷射編碼器 › 光學計量配件": {
-        "inserted": 1
-      },
-      "Renishaw 回授元件產品 › 雷射編碼器 › 長距雷射編碼器安裝硬體": {
-        "inserted": 1
-      },
-      "驅動器 › Copley Nano 系列 — 定義極致微型化的高功率密度伺服控制": {
+      "FMS 張力系統 / ATEX 防爆環境": {
         "inserted-before-application": 1
       },
-      "聯軸器 › RINGFEDER 彈性體顎式聯軸器 GWE TNM TNS TNB": {
-        "inserted": 1
-      },
-      "聯軸器 › Ringfeder RLP & RLB 彈性插銷聯軸器": {
-        "inserted": 1
-      },
-      "聯軸器 › Ringfeder RLT 輪胎聯軸器 (Tyre Couplings)": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › 力傳感器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › 張力量測放大器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › 網狀張力控制器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › 分段式張力輪": {
+      "FMS 張力系統 / 客製化產品和解決方案": {
         "inserted-before-application": 1
       },
-      "FMS 張力系統 › ATEX 防爆環境": {
+      "FMS 張力系統 / 捲材導引控制用線性執行器": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / 捲材控制器": {
+        "inserted": 1
+      },
+      "FMS 張力系統 / 線纜煞車控制器 RTM X42.BC": {
         "inserted-before-application": 1
       },
-      "FMS 張力系統 › 客製化產品和解決方案": {
+      "FMS 張力系統 / 線纜張力控制中心 RTM X42.CC": {
+        "inserted": 1
+      },
+      "ACS 控制器 / 驅動器 / 軟體開發與模擬套件": {
+        "inserted": 1
+      },
+      "驅動器 / Xenus 驅動器": {
         "inserted-before-application": 1
       },
-      "FMS 張力系統 › 捲材導引控制用線性執行器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › 捲材控制器": {
-        "inserted": 1
-      },
-      "FMS 張力系統 › 線纜煞車控制器 RTM X42.BC": {
-        "needs-review-unknown-module": 1
-      },
-      "FMS 張力系統 › 線纜張力控制中心 RTM X42.CC": {
-        "inserted": 1
-      },
-      "ACS 控制器 / 驅動器 › 軟體開發與模擬套件": {
-        "needs-review-unknown-module": 1
-      },
-      "驅動器 › Xenus 驅動器": {
-        "needs-review-unknown-module": 1
-      },
-      "驅動器 › Accelnet 驅動器": {
+      "驅動器 / Accelnet 驅動器": {
         "inserted-before-application": 1
       },
-      "驅動器 › Integrated Drive": {
+      "驅動器 / Integrated Drive": {
         "inserted": 1
       },
-      "驅動器 › stepnet 驅動器": {
+      "驅動器 / stepnet 驅動器": {
         "inserted-before-application": 1
       },
-      "驅動器 › M-Series Multiaxis": {
+      "驅動器 / M-Series Multiaxis": {
         "inserted-before-application": 1
       },
-      "驅動器 › Junus Panel": {
+      "驅動器 / Junus Panel": {
         "inserted": 1
       },
-      "驅動器 › Argus": {
+      "驅動器 / Argus": {
         "inserted": 1
       },
-      "Renishaw 回授元件產品 › 開放式光學尺 › 光學尺帶規格總表": {
-        "inserted": 1
-      },
-      "固態繼電器 › i-autoc 固態繼電器PCB安裝型": {
+      "固態繼電器 / i-autoc 固態繼電器PCB安裝型": {
         "inserted-before-application": 1
       },
-      "固態繼電器 › 面板安裝型固態繼電器": {
+      "固態繼電器 / 面板安裝型固態繼電器": {
         "inserted-before-application": 1
       },
-      "固態繼電器 › 導軌安裝型固態繼電器": {
+      "固態繼電器 / 導軌安裝型固態繼電器": {
         "inserted-before-application": 1
       },
-      "固態繼電器 › 正反轉模組": {
+      "固態繼電器 / 正反轉模組": {
         "inserted-before-application": 1
       },
-      "固態繼電器 › 調壓模組": {
+      "固態繼電器 / 調壓模組": {
         "inserted-before-application": 1
       },
-      "固態繼電器 › 智能模組": {
+      "固態繼電器 / 智能模組": {
         "inserted": 1
       },
-      "固態繼電器 › DRA系列工業模組": {
+      "固態繼電器 / DRA系列工業模組": {
         "inserted": 1
       },
-      "固態繼電器 › 電力調整器": {
+      "固態繼電器 / 電力調整器": {
         "inserted-before-application": 1
       },
-      "固態繼電器 › 溫控器": {
+      "固態繼電器 / 溫控器": {
         "inserted-before-application": 1
       },
-      "電動缸 › SMAC › SMAC圓形音圈致動器": {
+      "鼓風機 / 移動式防爆徑向鼓風機": {
         "inserted": 1
       },
-      "電動缸 › SMAC › SMAC線性加旋轉致動器": {
+      "空氣軸承 / 滾珠•滾柱軸承 / PM": {
         "inserted": 1
       },
-      "電動缸 › SMAC › SMAC線性滑塊致動器": {
+      "山洋電氣 SANYO DENKI / DC冷卻風扇": {
         "inserted": 1
       },
-      "電動缸 › Thomson › Thomson智慧型重載電動推桿": {
+      "山洋電氣 SANYO DENKI / ACDC風扇": {
         "inserted": 1
       },
-      "電動缸 › Thomson › Thomson通用工業電動推桿": {
-        "inserted": 1
-      },
-      "電動缸 › Thomson › Thomson精密與特殊應用電動推桿": {
-        "inserted": 1
-      },
-      "電動缸 › Thomson › Thomson軌道式電動推桿": {
-        "inserted": 1
-      },
-      "各類馬達 › 步進馬達 › Novanta IMS MDrive 線性執行器": {
-        "needs-review-unknown-module": 1
-      },
-      "鼓風機 › 移動式防爆徑向鼓風機": {
-        "inserted": 1
-      },
-      "空氣軸承 / 滾珠•滾柱軸承 › PM › PM B.V. 精密線性軸承": {
-        "inserted": 1
-      },
-      "其他回授元件 › ASM › ASM 角度感測器": {
-        "inserted-before-application": 1
-      },
-      "其他回授元件 › ASM › ASM 傾角感測器（Inclination Sensors）": {
-        "inserted-before-application": 1
-      },
-      "山洋電氣 SANYO DENKI › DC冷卻風扇": {
-        "inserted": 1
-      },
-      "山洋電氣 SANYO DENKI › ACDC風扇": {
-        "inserted": 1
-      },
-      "山洋電氣 SANYO DENKI › AC冷卻風扇": {
+      "山洋電氣 SANYO DENKI / AC冷卻風扇": {
         "inserted": 1
       }
-    }
+    },
+    "unknown_heading_count": 0,
+    "resolved_by_agent_rule_count": 0,
+    "html_pages_changed_by_agent_rule_count": 0
   },
   "pages": [
     {
@@ -877,7 +568,7 @@
       "spec_candidate_path": "F:/Taiwan_Servo_website_management_Codex_File/generated/batch-spec-upgrade/runs/20260701-novanta-ims-spec-inserts/id-80-novanta-ims/backend-fragment.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-novanta-ims-spec-inserts/id-80-novanta-ims/backend-fragment.html",
       "candidate_score": 210,
-      "status": "needs-review-unknown-module",
+      "status": "inserted-before-application",
       "anchor": "inserted-before-application",
       "validation": {
         "hasSeries": false,
@@ -895,9 +586,7 @@
         "pdfLinks": 1,
         "cadRefs": 30,
         "specImages": 0,
-        "unknownHeadings": [
-          "MForce 產品型號總覽"
-        ],
+        "unknownHeadings": [],
         "warnings": []
       }
     },
@@ -1522,7 +1211,7 @@
       "spec_candidate_path": "F:/Taiwan_Servo_website_management_Codex_File/generated/batch-spec-upgrade/runs/20260701-karl-klein-spec-inserts/id-101-karl-klein/backend-fragment.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-karl-klein-spec-inserts/id-101-karl-klein/backend-fragment.html",
       "candidate_score": 210,
-      "status": "needs-review-unknown-module",
+      "status": "inserted-before-application",
       "anchor": "inserted-before-application",
       "validation": {
         "hasSeries": false,
@@ -1540,13 +1229,7 @@
         "pdfLinks": 3,
         "cadRefs": 0,
         "specImages": 0,
-        "unknownHeadings": [
-          "低壓工業鼓風機系列 (Low Pressure)",
-          "中壓與高壓系列 (Medium & High Pressure)",
-          "特殊應用鼓風機",
-          "ATEX 防爆與安全系列",
-          "特殊材質系列"
-        ],
+        "unknownHeadings": [],
         "warnings": []
       }
     },
@@ -3004,7 +2687,7 @@
       "spec_candidate_path": "F:/Taiwan_Servo_website_management_Codex_File/generated/batch-spec-upgrade/runs/20260701-sejinigb-spec-inserts/id-152-sejinigb/specs-insert-TO-COPY-UTF8.txt",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sejinigb-spec-inserts/id-152-sejinigb/specs-insert-TO-COPY-UTF8.txt",
       "candidate_score": 185,
-      "status": "needs-review-unknown-module",
+      "status": "inserted-before-application",
       "anchor": "inserted-before-application",
       "validation": {
         "hasSeries": false,
@@ -3022,9 +2705,7 @@
         "pdfLinks": 0,
         "cadRefs": 0,
         "specImages": 0,
-        "unknownHeadings": [
-          "規格與性能參數 (Specifications)"
-        ],
+        "unknownHeadings": [],
         "warnings": []
       }
     },
@@ -3681,7 +3362,7 @@
       "spec_candidate_path": "F:/Taiwan_Servo_website_management_Codex_File/generated/batch-spec-upgrade/runs/20260702-cmco-lifting-id173-spec-inserts/id-173-cmco-lifting/backend-fragment.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-cmco-lifting-id173-spec-inserts/id-173-cmco-lifting/backend-fragment.html",
       "candidate_score": 210,
-      "status": "needs-review-unknown-module",
+      "status": "inserted",
       "anchor": "inserted-fallback-end",
       "validation": {
         "hasSeries": false,
@@ -3699,10 +3380,7 @@
         "pdfLinks": 19,
         "cadRefs": 0,
         "specImages": 0,
-        "unknownHeadings": [
-          "蝸輪絲桿升降機系列 (Screw Jacks)",
-          "電動推桿系列 (Actuators)"
-        ],
+        "unknownHeadings": [],
         "warnings": []
       }
     },
@@ -4423,7 +4101,7 @@
       "spec_candidate_path": "F:/Taiwan_Servo_website_management_Codex_File/generated/batch-spec-upgrade/runs/20260702-harmonic-kdu-id199-spec-inserts/id-199-harmonic-drive-kdu-direct-drive-motor/backend-fragment.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-kdu-id199-spec-inserts/id-199-harmonic-drive-kdu-direct-drive-motor/backend-fragment.html",
       "candidate_score": 210,
-      "status": "needs-review-unknown-module",
+      "status": "inserted-before-application",
       "anchor": "inserted-before-application",
       "validation": {
         "hasSeries": false,
@@ -4441,9 +4119,7 @@
         "pdfLinks": 6,
         "cadRefs": 2,
         "specImages": 0,
-        "unknownHeadings": [
-          "型號規格詳情"
-        ],
+        "unknownHeadings": [],
         "warnings": []
       }
     },
@@ -4493,7 +4169,7 @@
       "spec_candidate_path": "F:/Taiwan_Servo_website_management_Codex_File/generated/batch-spec-upgrade/runs/20260702-harmonic-hpgp-hpg-id202-spec-inserts/id-202-harmonic-drive-hpgp-hpg-planetary-gearheads/backend-fragment.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-hpgp-hpg-id202-spec-inserts/id-202-harmonic-drive-hpgp-hpg-planetary-gearheads/backend-fragment.html",
       "candidate_score": 210,
-      "status": "needs-review-unknown-module",
+      "status": "inserted-before-application",
       "anchor": "inserted-before-application",
       "validation": {
         "hasSeries": false,
@@ -4511,9 +4187,7 @@
         "pdfLinks": 15,
         "cadRefs": 0,
         "specImages": 0,
-        "unknownHeadings": [
-          "全系列產品陣容"
-        ],
+        "unknownHeadings": [],
         "warnings": []
       }
     },
@@ -4994,7 +4668,7 @@
       "spec_candidate_path": "F:/Taiwan_Servo_website_management_Codex_File/generated/batch-spec-upgrade/runs/20260702-alljet-nano-alignment-stage-id218-spec-inserts/id-218-alljet-nano-precision-alignment-stage/backend-fragment.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-alljet-nano-alignment-stage-id218-spec-inserts/id-218-alljet-nano-precision-alignment-stage/backend-fragment.html",
       "candidate_score": 210,
-      "status": "needs-review-unknown-module",
+      "status": "inserted-before-application",
       "anchor": "inserted-before-application",
       "validation": {
         "hasSeries": false,
@@ -5012,9 +4686,7 @@
         "pdfLinks": 0,
         "cadRefs": 0,
         "specImages": 0,
-        "unknownHeadings": [
-          "產品核心規格 (Standard Specifications)"
-        ],
+        "unknownHeadings": [],
         "warnings": []
       }
     },
@@ -5064,7 +4736,7 @@
       "spec_candidate_path": "F:/Taiwan_Servo_website_management_Codex_File/generated/batch-spec-upgrade/runs/20260702-alljet-linear-stage-module-id226-spec-inserts/id-226-alljet-single-axis-linear-motor-module/backend-fragment.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-alljet-linear-stage-module-id226-spec-inserts/id-226-alljet-single-axis-linear-motor-module/backend-fragment.html",
       "candidate_score": 210,
-      "status": "needs-review-unknown-module",
+      "status": "inserted",
       "anchor": "inserted-fallback-end",
       "validation": {
         "hasSeries": false,
@@ -5082,9 +4754,7 @@
         "pdfLinks": 0,
         "cadRefs": 3,
         "specImages": 0,
-        "unknownHeadings": [
-          "重點應用場景"
-        ],
+        "unknownHeadings": [],
         "warnings": []
       }
     },
@@ -6120,7 +5790,7 @@
       "spec_candidate_path": "F:/Taiwan_Servo_website_management_Codex_File/generated/batch-spec-upgrade/runs/20260702-harmonic-sha-id273-spec-inserts/id-273-harmonic-drive-sha-ac-servo-actuator/backend-fragment.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-sha-id273-spec-inserts/id-273-harmonic-drive-sha-ac-servo-actuator/backend-fragment.html",
       "candidate_score": 210,
-      "status": "needs-review-unknown-module",
+      "status": "inserted",
       "anchor": "inserted",
       "validation": {
         "hasSeries": true,
@@ -6138,9 +5808,7 @@
         "pdfLinks": 16,
         "cadRefs": 0,
         "specImages": 0,
-        "unknownHeadings": [
-          "產業應用範疇"
-        ],
+        "unknownHeadings": [],
         "warnings": []
       }
     },
@@ -7987,7 +7655,7 @@
       "spec_candidate_path": "F:/Taiwan_Servo_website_management_Codex_File/generated/batch-spec-upgrade/runs/20260703-worker-f-fms-349-350/id-349-rtm-x42-bc-brake-control/backend-fragment.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-f-fms-349-350/id-349-rtm-x42-bc-brake-control/backend-fragment.html",
       "candidate_score": 210,
-      "status": "needs-review-unknown-module",
+      "status": "inserted-before-application",
       "anchor": "inserted-before-application",
       "validation": {
         "hasSeries": false,
@@ -8005,9 +7673,7 @@
         "pdfLinks": 3,
         "cadRefs": 0,
         "specImages": 0,
-        "unknownHeadings": [
-          "系統模組規格 (Modules)"
-        ],
+        "unknownHeadings": [],
         "warnings": []
       }
     },
@@ -8055,7 +7721,7 @@
       "spec_candidate_path": "F:/Taiwan_Servo_website_management_Codex_File/generated/batch-spec-upgrade/runs/20260703-worker-g-acs-352/id-352-acs-software-suite/backend-fragment.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-g-acs-352/id-352-acs-software-suite/backend-fragment.html",
       "candidate_score": 210,
-      "status": "needs-review-unknown-module",
+      "status": "inserted",
       "anchor": "inserted-before-downloads",
       "validation": {
         "hasSeries": false,
@@ -8073,9 +7739,7 @@
         "pdfLinks": 0,
         "cadRefs": 1,
         "specImages": 0,
-        "unknownHeadings": [
-          "行業應用實例"
-        ],
+        "unknownHeadings": [],
         "warnings": []
       }
     },
@@ -8090,7 +7754,7 @@
       "spec_candidate_path": "F:/Taiwan_Servo_website_management_Codex_File/generated/batch-spec-upgrade/runs/20260701-copley-spec-inserts/id-354-copley/backend-fragment.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-copley-spec-inserts/id-354-copley/backend-fragment.html",
       "candidate_score": 210,
-      "status": "needs-review-unknown-module",
+      "status": "inserted-before-application",
       "anchor": "inserted-before-application",
       "validation": {
         "hasSeries": false,
@@ -8108,12 +7772,7 @@
         "pdfLinks": 12,
         "cadRefs": 0,
         "specImages": 0,
-        "unknownHeadings": [
-          "Xenus Plus 系列 &ndash; CANopen (4 kHz)",
-          "Xenus Plus 系列 &ndash; EtherCAT (4 kHz)",
-          "Xenus Plus 系列 &ndash; MACRO (4 kHz)",
-          "Xenus 系列 &ndash; CANopen (經典/強化型)"
-        ],
+        "unknownHeadings": [],
         "warnings": []
       }
     },
@@ -8896,7 +8555,7 @@
       "spec_candidate_path": "F:/Taiwan_Servo_website_management_Codex_File/generated/batch-spec-upgrade/runs/20260701-novanta-ims-spec-inserts/id-388-novanta-ims/backend-fragment.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-novanta-ims-spec-inserts/id-388-novanta-ims/backend-fragment.html",
       "candidate_score": 210,
-      "status": "needs-review-unknown-module",
+      "status": "inserted-before-application",
       "anchor": "inserted-before-application",
       "validation": {
         "hasSeries": false,
@@ -8914,9 +8573,7 @@
         "pdfLinks": 0,
         "cadRefs": 7,
         "specImages": 0,
-        "unknownHeadings": [
-          "線性執行器系列選型"
-        ],
+        "unknownHeadings": [],
         "warnings": []
       }
     },
