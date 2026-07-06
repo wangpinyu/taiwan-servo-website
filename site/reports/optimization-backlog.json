@@ -1,12 +1,11 @@
 {
   "summary": {
-    "generated_at": "2026-07-06T01:11:04.965Z",
+    "generated_at": "2026-07-06T01:26:46.604Z",
     "total_categories": 18,
     "total_pages": 248,
-    "total_blocking_pages": 33,
+    "total_blocking_pages": 20,
     "status_counts": {
-      "agent-approved-clean": 215,
-      "agent-structure-review": 13,
+      "agent-approved-clean": 228,
       "agent-source-needed": 20
     }
   },
@@ -17,8 +16,7 @@
       "branch": "phase-1-smac-spec-standard",
       "total": 14,
       "status_counts": {
-        "agent-approved-clean": 13,
-        "agent-structure-review": 1
+        "agent-approved-clean": 14
       },
       "pages": [
         {
@@ -85,9 +83,9 @@
           "product_id": "173",
           "title": "CMCO 升降器",
           "preview_rel": "preview/products/detail/173.html",
-          "overlay_status": "needs-review-unknown-module",
+          "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-structure-review",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -162,18 +160,7 @@
           "critical": []
         }
       ],
-      "blocking_pages": [
-        {
-          "product_id": "173",
-          "title": "CMCO 升降器",
-          "preview_rel": "preview/products/detail/173.html",
-          "overlay_status": "needs-review-unknown-module",
-          "qa_status": "pass",
-          "agent_status": "agent-structure-review",
-          "warnings": [],
-          "critical": []
-        }
-      ],
+      "blocking_pages": [],
       "source_pages": []
     },
     {
@@ -182,8 +169,7 @@
       "branch": "phase-2-drivers-spec-review",
       "total": 12,
       "status_counts": {
-        "agent-approved-clean": 10,
-        "agent-structure-review": 2
+        "agent-approved-clean": 12
       },
       "pages": [
         {
@@ -200,9 +186,9 @@
           "product_id": "80",
           "title": "Novanta IMS Mdrive 微步進驅動器",
           "preview_rel": "preview/products/detail/80.html",
-          "overlay_status": "needs-review-unknown-module",
+          "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-structure-review",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -240,9 +226,9 @@
           "product_id": "354",
           "title": "Xenus 驅動器",
           "preview_rel": "preview/products/detail/354.html",
-          "overlay_status": "needs-review-unknown-module",
+          "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-structure-review",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -307,28 +293,7 @@
           "critical": []
         }
       ],
-      "blocking_pages": [
-        {
-          "product_id": "80",
-          "title": "Novanta IMS Mdrive 微步進驅動器",
-          "preview_rel": "preview/products/detail/80.html",
-          "overlay_status": "needs-review-unknown-module",
-          "qa_status": "pass",
-          "agent_status": "agent-structure-review",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "354",
-          "title": "Xenus 驅動器",
-          "preview_rel": "preview/products/detail/354.html",
-          "overlay_status": "needs-review-unknown-module",
-          "qa_status": "pass",
-          "agent_status": "agent-structure-review",
-          "warnings": [],
-          "critical": []
-        }
-      ],
+      "blocking_pages": [],
       "source_pages": []
     },
     {
@@ -337,9 +302,8 @@
       "branch": "phase-2-motors-spec-review",
       "total": 24,
       "status_counts": {
-        "agent-approved-clean": 21,
-        "agent-source-needed": 2,
-        "agent-structure-review": 1
+        "agent-approved-clean": 22,
+        "agent-source-needed": 2
       },
       "pages": [
         {
@@ -576,9 +540,9 @@
           "product_id": "388",
           "title": "Novanta IMS MDrive 線性執行器",
           "preview_rel": "preview/products/detail/388.html",
-          "overlay_status": "needs-review-unknown-module",
+          "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-structure-review",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         }
@@ -601,16 +565,6 @@
           "overlay_status": "inserted",
           "qa_status": "pass",
           "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "388",
-          "title": "Novanta IMS MDrive 線性執行器",
-          "preview_rel": "preview/products/detail/388.html",
-          "overlay_status": "needs-review-unknown-module",
-          "qa_status": "pass",
-          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         }
@@ -644,9 +598,8 @@
       "branch": "phase-2-drivers-spec-review",
       "total": 18,
       "status_counts": {
-        "agent-approved-clean": 11,
-        "agent-source-needed": 6,
-        "agent-structure-review": 1
+        "agent-approved-clean": 12,
+        "agent-source-needed": 6
       },
       "pages": [
         {
@@ -823,9 +776,9 @@
           "product_id": "352",
           "title": "軟體開發與模擬套件",
           "preview_rel": "preview/products/detail/352.html",
-          "overlay_status": "needs-review-unknown-module",
+          "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-structure-review",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         }
@@ -888,16 +841,6 @@
           "overlay_status": "no-spec-module",
           "qa_status": "no-spec-module",
           "agent_status": "agent-source-needed",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "352",
-          "title": "軟體開發與模擬套件",
-          "preview_rel": "preview/products/detail/352.html",
-          "overlay_status": "needs-review-unknown-module",
-          "qa_status": "pass",
-          "agent_status": "agent-structure-review",
           "warnings": [],
           "critical": []
         }
@@ -971,8 +914,7 @@
       "branch": "phase-3-harmonic-drive",
       "total": 29,
       "status_counts": {
-        "agent-approved-clean": 26,
-        "agent-structure-review": 3
+        "agent-approved-clean": 29
       },
       "pages": [
         {
@@ -999,9 +941,9 @@
           "product_id": "199",
           "title": "KDU",
           "preview_rel": "preview/products/detail/199.html",
-          "overlay_status": "needs-review-unknown-module",
+          "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-structure-review",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -1019,9 +961,9 @@
           "product_id": "202",
           "title": "HPGP/HPG系列 行星減速機",
           "preview_rel": "preview/products/detail/202.html",
-          "overlay_status": "needs-review-unknown-module",
+          "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-structure-review",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -1069,9 +1011,9 @@
           "product_id": "273",
           "title": "SHA",
           "preview_rel": "preview/products/detail/273.html",
-          "overlay_status": "needs-review-unknown-module",
+          "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-structure-review",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -1266,38 +1208,7 @@
           "critical": []
         }
       ],
-      "blocking_pages": [
-        {
-          "product_id": "199",
-          "title": "KDU",
-          "preview_rel": "preview/products/detail/199.html",
-          "overlay_status": "needs-review-unknown-module",
-          "qa_status": "pass",
-          "agent_status": "agent-structure-review",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "202",
-          "title": "HPGP/HPG系列 行星減速機",
-          "preview_rel": "preview/products/detail/202.html",
-          "overlay_status": "needs-review-unknown-module",
-          "qa_status": "pass",
-          "agent_status": "agent-structure-review",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "273",
-          "title": "SHA",
-          "preview_rel": "preview/products/detail/273.html",
-          "overlay_status": "needs-review-unknown-module",
-          "qa_status": "pass",
-          "agent_status": "agent-structure-review",
-          "warnings": [],
-          "critical": []
-        }
-      ],
+      "blocking_pages": [],
       "source_pages": []
     },
     {
@@ -2364,8 +2275,7 @@
       "branch": "phase-4-fms-tension",
       "total": 26,
       "status_counts": {
-        "agent-approved-clean": 25,
-        "agent-structure-review": 1
+        "agent-approved-clean": 26
       },
       "pages": [
         {
@@ -2612,9 +2522,9 @@
           "product_id": "349",
           "title": "線纜煞車控制器 RTM X42.BC",
           "preview_rel": "preview/products/detail/349.html",
-          "overlay_status": "needs-review-unknown-module",
+          "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-structure-review",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -2629,18 +2539,7 @@
           "critical": []
         }
       ],
-      "blocking_pages": [
-        {
-          "product_id": "349",
-          "title": "線纜煞車控制器 RTM X42.BC",
-          "preview_rel": "preview/products/detail/349.html",
-          "overlay_status": "needs-review-unknown-module",
-          "qa_status": "pass",
-          "agent_status": "agent-structure-review",
-          "warnings": [],
-          "critical": []
-        }
-      ],
+      "blocking_pages": [],
       "source_pages": []
     },
     {
@@ -3024,8 +2923,7 @@
       "branch": "phase-5-sejinigb",
       "total": 2,
       "status_counts": {
-        "agent-approved-clean": 1,
-        "agent-structure-review": 1
+        "agent-approved-clean": 2
       },
       "pages": [
         {
@@ -3042,25 +2940,14 @@
           "product_id": "152",
           "title": "SEJINIGB 模組化齒圈轉台",
           "preview_rel": "preview/products/detail/152.html",
-          "overlay_status": "needs-review-unknown-module",
+          "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-structure-review",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         }
       ],
-      "blocking_pages": [
-        {
-          "product_id": "152",
-          "title": "SEJINIGB 模組化齒圈轉台",
-          "preview_rel": "preview/products/detail/152.html",
-          "overlay_status": "needs-review-unknown-module",
-          "qa_status": "pass",
-          "agent_status": "agent-structure-review",
-          "warnings": [],
-          "critical": []
-        }
-      ],
+      "blocking_pages": [],
       "source_pages": []
     },
     {
@@ -3069,17 +2956,16 @@
       "branch": "phase-5-blowers",
       "total": 2,
       "status_counts": {
-        "agent-structure-review": 1,
-        "agent-approved-clean": 1
+        "agent-approved-clean": 2
       },
       "pages": [
         {
           "product_id": "101",
           "title": "Karl Klein鼓風機",
           "preview_rel": "preview/products/detail/101.html",
-          "overlay_status": "needs-review-unknown-module",
+          "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-structure-review",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -3094,18 +2980,7 @@
           "critical": []
         }
       ],
-      "blocking_pages": [
-        {
-          "product_id": "101",
-          "title": "Karl Klein鼓風機",
-          "preview_rel": "preview/products/detail/101.html",
-          "overlay_status": "needs-review-unknown-module",
-          "qa_status": "pass",
-          "agent_status": "agent-structure-review",
-          "warnings": [],
-          "critical": []
-        }
-      ],
+      "blocking_pages": [],
       "source_pages": []
     },
     {
@@ -3114,8 +2989,7 @@
       "branch": "phase-5-automation-systems",
       "total": 5,
       "status_counts": {
-        "agent-approved-clean": 3,
-        "agent-structure-review": 2
+        "agent-approved-clean": 5
       },
       "pages": [
         {
@@ -3132,9 +3006,9 @@
           "product_id": "218",
           "title": "奈米精度對位定位平台",
           "preview_rel": "preview/products/detail/218.html",
-          "overlay_status": "needs-review-unknown-module",
+          "overlay_status": "inserted-before-application",
           "qa_status": "pass",
-          "agent_status": "agent-structure-review",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -3152,9 +3026,9 @@
           "product_id": "226",
           "title": "單軸線馬模組",
           "preview_rel": "preview/products/detail/226.html",
-          "overlay_status": "needs-review-unknown-module",
+          "overlay_status": "inserted",
           "qa_status": "pass",
-          "agent_status": "agent-structure-review",
+          "agent_status": "agent-approved-clean",
           "warnings": [],
           "critical": []
         },
@@ -3169,28 +3043,7 @@
           "critical": []
         }
       ],
-      "blocking_pages": [
-        {
-          "product_id": "218",
-          "title": "奈米精度對位定位平台",
-          "preview_rel": "preview/products/detail/218.html",
-          "overlay_status": "needs-review-unknown-module",
-          "qa_status": "pass",
-          "agent_status": "agent-structure-review",
-          "warnings": [],
-          "critical": []
-        },
-        {
-          "product_id": "226",
-          "title": "單軸線馬模組",
-          "preview_rel": "preview/products/detail/226.html",
-          "overlay_status": "needs-review-unknown-module",
-          "qa_status": "pass",
-          "agent_status": "agent-structure-review",
-          "warnings": [],
-          "critical": []
-        }
-      ],
+      "blocking_pages": [],
       "source_pages": []
     },
     {

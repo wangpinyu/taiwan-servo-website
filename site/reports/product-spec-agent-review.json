@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T01:11:04.855Z",
+  "generated_at": "2026-07-06T01:26:46.487Z",
   "scope": "GitHub-ready AI agent review decisions",
   "policy": {
     "default_reviewer": "AI agent",
@@ -18,8 +18,7 @@
   "summary": {
     "total_pages": 248,
     "agent_status_counts": {
-      "agent-approved-clean": 215,
-      "agent-structure-review": 13,
+      "agent-approved-clean": 228,
       "agent-source-needed": 20
     }
   },
@@ -134,7 +133,7 @@
       ],
       "preview_rel": "preview/products/detail/80.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-novanta-ims-spec-inserts/id-80-novanta-ims/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 1,
@@ -153,9 +152,9 @@
       "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-structure-review",
-        "decision": "需確認模組歸類",
-        "reason": "未知或需人工命名判斷的模組：MForce 產品型號總覽"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -777,7 +776,7 @@
       ],
       "preview_rel": "preview/products/detail/101.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-karl-klein-spec-inserts/id-101-karl-klein/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 1,
@@ -796,9 +795,9 @@
       "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-structure-review",
-        "decision": "需確認模組歸類",
-        "reason": "未知或需人工命名判斷的模組：低壓工業鼓風機系列 (Low Pressure) / 中壓與高壓系列 (Medium & High Pressure) / 特殊應用鼓風機 / ATEX 防爆與安全系列 / 特殊材質系列"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -2257,7 +2256,7 @@
       ],
       "preview_rel": "preview/products/detail/152.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-sejinigb-spec-inserts/id-152-sejinigb/specs-insert-TO-COPY-UTF8.txt",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 1,
@@ -2276,9 +2275,9 @@
       "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-structure-review",
-        "decision": "需確認模組歸類",
-        "reason": "未知或需人工命名判斷的模組：規格與性能參數 (Specifications)"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -2932,7 +2931,7 @@
       ],
       "preview_rel": "preview/products/detail/173.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-cmco-lifting-id173-spec-inserts/id-173-cmco-lifting/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted",
       "qa_status": "pass",
       "counts": {
         "details": 10,
@@ -2951,9 +2950,9 @@
       "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-structure-review",
-        "decision": "需確認模組歸類",
-        "reason": "未知或需人工命名判斷的模組：蝸輪絲桿升降機系列 (Screw Jacks) / 電動推桿系列 (Actuators)"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -3675,7 +3674,7 @@
       ],
       "preview_rel": "preview/products/detail/199.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-kdu-id199-spec-inserts/id-199-harmonic-drive-kdu-direct-drive-motor/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 2,
@@ -3694,9 +3693,9 @@
       "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-structure-review",
-        "decision": "需確認模組歸類",
-        "reason": "未知或需人工命名判斷的模組：型號規格詳情"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -3743,7 +3742,7 @@
       ],
       "preview_rel": "preview/products/detail/202.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-hpgp-hpg-id202-spec-inserts/id-202-harmonic-drive-hpgp-hpg-planetary-gearheads/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 4,
@@ -3762,9 +3761,9 @@
       "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-structure-review",
-        "decision": "需確認模組歸類",
-        "reason": "未知或需人工命名判斷的模組：全系列產品陣容"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4256,7 +4255,7 @@
       ],
       "preview_rel": "preview/products/detail/218.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-alljet-nano-alignment-stage-id218-spec-inserts/id-218-alljet-nano-precision-alignment-stage/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 1,
@@ -4275,9 +4274,9 @@
       "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-structure-review",
-        "decision": "需確認模組歸類",
-        "reason": "未知或需人工命名判斷的模組：產品核心規格 (Standard Specifications)"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -4324,7 +4323,7 @@
       ],
       "preview_rel": "preview/products/detail/226.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-alljet-linear-stage-module-id226-spec-inserts/id-226-alljet-single-axis-linear-motor-module/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted",
       "qa_status": "pass",
       "counts": {
         "details": 1,
@@ -4343,9 +4342,9 @@
       "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-structure-review",
-        "decision": "需確認模組歸類",
-        "reason": "未知或需人工命名判斷的模組：重點應用場景"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -5380,7 +5379,7 @@
       ],
       "preview_rel": "preview/products/detail/273.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260702-harmonic-sha-id273-spec-inserts/id-273-harmonic-drive-sha-ac-servo-actuator/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted",
       "qa_status": "pass",
       "counts": {
         "details": 3,
@@ -5399,9 +5398,9 @@
       "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-structure-review",
-        "decision": "需確認模組歸類",
-        "reason": "未知或需人工命名判斷的模組：產業應用範疇"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -7249,7 +7248,7 @@
       ],
       "preview_rel": "preview/products/detail/349.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-f-fms-349-350/id-349-rtm-x42-bc-brake-control/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 4,
@@ -7264,15 +7263,13 @@
       },
       "critical": [],
       "warnings": [],
-      "page_seo_qa_status": "warn",
-      "page_seo_warnings": [
-        "table_3_model_header_not_detected"
-      ],
+      "page_seo_qa_status": "pass",
+      "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-structure-review",
-        "decision": "需確認模組歸類",
-        "reason": "未知或需人工命名判斷的模組：系統模組規格 (Modules)"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -7317,7 +7314,7 @@
       ],
       "preview_rel": "preview/products/detail/352.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260703-worker-g-acs-352/id-352-acs-software-suite/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted",
       "qa_status": "pass",
       "counts": {
         "details": 1,
@@ -7336,9 +7333,9 @@
       "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-structure-review",
-        "decision": "需確認模組歸類",
-        "reason": "未知或需人工命名判斷的模組：行業應用實例"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -7350,7 +7347,7 @@
       ],
       "preview_rel": "preview/products/detail/354.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-copley-spec-inserts/id-354-copley/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 6,
@@ -7369,9 +7366,9 @@
       "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-structure-review",
-        "decision": "需確認模組歸類",
-        "reason": "未知或需人工命名判斷的模組：Xenus Plus 系列 &ndash; CANopen (4 kHz) / Xenus Plus 系列 &ndash; EtherCAT (4 kHz) / Xenus Plus 系列 &ndash; MACRO (4 kHz) / Xenus 系列 &ndash; CANopen (經典/強化型)"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
@@ -8151,7 +8148,7 @@
       ],
       "preview_rel": "preview/products/detail/388.html",
       "spec_candidate_rel": "generated/batch-spec-upgrade/runs/20260701-novanta-ims-spec-inserts/id-388-novanta-ims/backend-fragment.html",
-      "overlay_status": "needs-review-unknown-module",
+      "overlay_status": "inserted-before-application",
       "qa_status": "pass",
       "counts": {
         "details": 1,
@@ -8170,9 +8167,9 @@
       "page_seo_warnings": [],
       "page_seo_critical": [],
       "agent_review": {
-        "status": "agent-structure-review",
-        "decision": "需確認模組歸類",
-        "reason": "未知或需人工命名判斷的模組：線性執行器系列選型"
+        "status": "agent-approved-clean",
+        "decision": "AI agent 審核通過",
+        "reason": "規格模組與產品頁 SEO/結構 QA 均無 critical 或 warning。"
       }
     },
     {
