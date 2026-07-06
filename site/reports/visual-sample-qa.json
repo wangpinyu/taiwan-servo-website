@@ -1,0 +1,1013 @@
+{
+  "generated_at": "2026-07-06T08:58:47.713Z",
+  "scope": {
+    "sample_ids": [
+      "244",
+      "373",
+      "374",
+      "375",
+      "376",
+      "100",
+      "167",
+      "79",
+      "241"
+    ],
+    "viewports": [
+      {
+        "name": "desktop-1366x900",
+        "width": 1366,
+        "height": 900,
+        "mobile": false
+      },
+      {
+        "name": "mobile-390x844",
+        "width": 390,
+        "height": 844,
+        "mobile": true
+      }
+    ],
+    "note": "Uses isolated headless Edge and the local static preview server."
+  },
+  "summary": {
+    "total_checks": 18,
+    "pass": 18,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "product_id": "244",
+      "title": "ACS EtherCAT控制主機+內建驅動器O",
+      "category_path": [
+        "ACS 控制器 / 驅動器",
+        "ACS EtherCAT控制主機+內建驅動器",
+        "ACS EtherCAT控制主機+內建驅動器O"
+      ],
+      "preview_rel": "preview/products/detail/244.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "desktop-1366x900",
+      "viewport": {
+        "width": 1366,
+        "height": 900,
+        "mobile": false
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/244.html",
+        "title": "ACS EtherCAT控制主機+內建驅動器O-星泰國際科技股份有限公司",
+        "h1": [
+          "ACS EtherCAT控制主機+內建驅動器O"
+        ],
+        "scrollWidth": 1351,
+        "clientWidth": 1351,
+        "horizontalOverflow": false,
+        "imageCount": 25,
+        "visibleImageCount": 10,
+        "brokenImages": [],
+        "tableCount": 7,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 1,
+        "disclosureSamples": [
+          "ACS\nACS EtherCAT控制主機+內建驅動器O5 份 PDF 規格文件；PDF 可於本頁下載。\n展開 / 收合"
+        ],
+        "viewport": {
+          "width": 1366,
+          "height": 900
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "244",
+      "title": "ACS EtherCAT控制主機+內建驅動器O",
+      "category_path": [
+        "ACS 控制器 / 驅動器",
+        "ACS EtherCAT控制主機+內建驅動器",
+        "ACS EtherCAT控制主機+內建驅動器O"
+      ],
+      "preview_rel": "preview/products/detail/244.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "mobile-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "mobile": true
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/244.html",
+        "title": "ACS EtherCAT控制主機+內建驅動器O-星泰國際科技股份有限公司",
+        "h1": [
+          "ACS EtherCAT控制主機+內建驅動器O"
+        ],
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false,
+        "imageCount": 25,
+        "visibleImageCount": 9,
+        "brokenImages": [],
+        "tableCount": 7,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 1,
+        "disclosureSamples": [
+          "ACS\nACS EtherCAT控制主機+內建驅動器O5 份 PDF 規格文件；PDF 可於本頁下載。\n展開 / 收合"
+        ],
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "373",
+      "title": "SMAC圓形音圈致動器",
+      "category_path": [
+        "電動缸",
+        "SMAC",
+        "SMAC圓形音圈致動器"
+      ],
+      "preview_rel": "preview/products/detail/373.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "desktop-1366x900",
+      "viewport": {
+        "width": 1366,
+        "height": 900,
+        "mobile": false
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/373.html",
+        "title": "SMAC圓形音圈致動器-星泰國際科技股份有限公司",
+        "h1": [
+          "SMAC圓形音圈致動器"
+        ],
+        "scrollWidth": 1351,
+        "clientWidth": 1351,
+        "horizontalOverflow": false,
+        "imageCount": 13,
+        "visibleImageCount": 6,
+        "brokenImages": [],
+        "tableCount": 4,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 2,
+        "disclosureSamples": [
+          "CBLCBL 圓形音圈致動器標準圓形電動缸系列，文件涵蓋 CBL35、CBL50 與 SMAC Actuators User Manual。5 files展開 / 收合",
+          "CBL-CCBL-C 內建控制器系列內建控制器版本，文件涵蓋 CBL35C、CBL50C、CBL built-in controller datasheet 與 VLCI-R3 manual。4 files展開 / 收合"
+        ],
+        "viewport": {
+          "width": 1366,
+          "height": 900
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "373",
+      "title": "SMAC圓形音圈致動器",
+      "category_path": [
+        "電動缸",
+        "SMAC",
+        "SMAC圓形音圈致動器"
+      ],
+      "preview_rel": "preview/products/detail/373.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "mobile-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "mobile": true
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/373.html",
+        "title": "SMAC圓形音圈致動器-星泰國際科技股份有限公司",
+        "h1": [
+          "SMAC圓形音圈致動器"
+        ],
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false,
+        "imageCount": 13,
+        "visibleImageCount": 6,
+        "brokenImages": [],
+        "tableCount": 4,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 2,
+        "disclosureSamples": [
+          "CBLCBL 圓形音圈致動器標準圓形電動缸系列，文件涵蓋 CBL35、CBL50 與 SMAC Actuators User Manual。5 files展開 / 收合",
+          "CBL-CCBL-C 內建控制器系列內建控制器版本，文件涵蓋 CBL35C、CBL50C、CBL built-in controller datasheet 與 VLCI-R3 manual。4 files展開 / 收合"
+        ],
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "374",
+      "title": "SMAC線性加旋轉致動器",
+      "category_path": [
+        "電動缸",
+        "SMAC",
+        "SMAC線性加旋轉致動器"
+      ],
+      "preview_rel": "preview/products/detail/374.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "desktop-1366x900",
+      "viewport": {
+        "width": 1366,
+        "height": 900,
+        "mobile": false
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/374.html",
+        "title": "SMAC線性加旋轉致動器-星泰國際科技股份有限公司",
+        "h1": [
+          "SMAC線性加旋轉致動器"
+        ],
+        "scrollWidth": 1351,
+        "clientWidth": 1351,
+        "horizontalOverflow": false,
+        "imageCount": 18,
+        "visibleImageCount": 9,
+        "brokenImages": [],
+        "tableCount": 6,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 4,
+        "disclosureSamples": [
+          "LARLAR 線性旋轉致動器主力線性加旋轉系列，官方文件涵蓋 LAR31 與多個 LAR model datasheet。2 files展開 / 收合",
+          "LBRLBR 線性旋轉致動器高負載或較大機構需求的線性旋轉系列，官方資料含 LBR datasheet 與 model drawing PDF。1 files展開 / 收合",
+          "LCRLCR 線性旋轉致動器緊湊型線性旋轉系列，官方資料含 LCR13、LCR16、LCR20 與 user manual。4 files展開 / 收合",
+          "LDRLDR 線性旋轉致動器Direct drive 類型線性旋轉系列，官方資料含 LDR13、LDR16、LDR20 PDF。3 files展開 / 收合"
+        ],
+        "viewport": {
+          "width": 1366,
+          "height": 900
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "374",
+      "title": "SMAC線性加旋轉致動器",
+      "category_path": [
+        "電動缸",
+        "SMAC",
+        "SMAC線性加旋轉致動器"
+      ],
+      "preview_rel": "preview/products/detail/374.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "mobile-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "mobile": true
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/374.html",
+        "title": "SMAC線性加旋轉致動器-星泰國際科技股份有限公司",
+        "h1": [
+          "SMAC線性加旋轉致動器"
+        ],
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false,
+        "imageCount": 18,
+        "visibleImageCount": 8,
+        "brokenImages": [],
+        "tableCount": 6,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 4,
+        "disclosureSamples": [
+          "LARLAR 線性旋轉致動器主力線性加旋轉系列，官方文件涵蓋 LAR31 與多個 LAR model datasheet。2 files展開 / 收合",
+          "LBRLBR 線性旋轉致動器高負載或較大機構需求的線性旋轉系列，官方資料含 LBR datasheet 與 model drawing PDF。1 files展開 / 收合",
+          "LCRLCR 線性旋轉致動器緊湊型線性旋轉系列，官方資料含 LCR13、LCR16、LCR20 與 user manual。4 files展開 / 收合",
+          "LDRLDR 線性旋轉致動器Direct drive 類型線性旋轉系列，官方資料含 LDR13、LDR16、LDR20 PDF。3 files展開 / 收合"
+        ],
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "375",
+      "title": "SMAC線性滑塊致動器",
+      "category_path": [
+        "電動缸",
+        "SMAC",
+        "SMAC線性滑塊致動器"
+      ],
+      "preview_rel": "preview/products/detail/375.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "desktop-1366x900",
+      "viewport": {
+        "width": 1366,
+        "height": 900,
+        "mobile": false
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/375.html",
+        "title": "SMAC線性滑塊致動器-星泰國際科技股份有限公司",
+        "h1": [
+          "SMAC線性滑塊致動器"
+        ],
+        "scrollWidth": 1351,
+        "clientWidth": 1351,
+        "horizontalOverflow": false,
+        "imageCount": 19,
+        "visibleImageCount": 9,
+        "brokenImages": [],
+        "tableCount": 7,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 5,
+        "disclosureSamples": [
+          "LDSLDS 線性滑塊小型、成本效率高的線性滑塊，適合精密位移與掃描需求。1 files展開 / 收合",
+          "LCSLCS 多行程滑塊多行程滑塊系列，適合送料、掃描、測試與量測。1 files展開 / 收合",
+          "LASLAS 高推力滑塊高推力精密定位系列，適合 Soft-Land 與脆弱零件處理。1 files展開 / 收合",
+          "SLASLA 交叉滾柱導軌滑塊零背隙、高剛性與高解析度掃描應用。1 files展開 / 收合",
+          "LBSLBS 小型滑塊小型 slide actuator，適合短行程定位與掃描應用。1 files展開 / 收合"
+        ],
+        "viewport": {
+          "width": 1366,
+          "height": 900
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "375",
+      "title": "SMAC線性滑塊致動器",
+      "category_path": [
+        "電動缸",
+        "SMAC",
+        "SMAC線性滑塊致動器"
+      ],
+      "preview_rel": "preview/products/detail/375.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "mobile-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "mobile": true
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/375.html",
+        "title": "SMAC線性滑塊致動器-星泰國際科技股份有限公司",
+        "h1": [
+          "SMAC線性滑塊致動器"
+        ],
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false,
+        "imageCount": 19,
+        "visibleImageCount": 8,
+        "brokenImages": [],
+        "tableCount": 7,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 5,
+        "disclosureSamples": [
+          "LDSLDS 線性滑塊小型、成本效率高的線性滑塊，適合精密位移與掃描需求。1 files展開 / 收合",
+          "LCSLCS 多行程滑塊多行程滑塊系列，適合送料、掃描、測試與量測。1 files展開 / 收合",
+          "LASLAS 高推力滑塊高推力精密定位系列，適合 Soft-Land 與脆弱零件處理。1 files展開 / 收合",
+          "SLASLA 交叉滾柱導軌滑塊零背隙、高剛性與高解析度掃描應用。1 files展開 / 收合",
+          "LBSLBS 小型滑塊小型 slide actuator，適合短行程定位與掃描應用。1 files展開 / 收合"
+        ],
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "376",
+      "title": "Thomson智慧型重載電動推桿",
+      "category_path": [
+        "電動缸",
+        "Thomson",
+        "Thomson智慧型重載電動推桿"
+      ],
+      "preview_rel": "preview/products/detail/376.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "desktop-1366x900",
+      "viewport": {
+        "width": 1366,
+        "height": 900,
+        "mobile": false
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/376.html",
+        "title": "Thomson智慧型重載電動推桿-星泰國際科技股份有限公司",
+        "h1": [
+          "Thomson智慧型重載電動推桿"
+        ],
+        "scrollWidth": 1351,
+        "clientWidth": 1351,
+        "horizontalOverflow": false,
+        "imageCount": 21,
+        "visibleImageCount": 10,
+        "brokenImages": [],
+        "tableCount": 8,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 2,
+        "disclosureSamples": [
+          "ElectrakElectrak XD 智慧型重載線性致動器Electrak XD 官方 Performance Specifications。展開 / 收合",
+          "ElectrakElectrak HD 重載線性致動器Electrak HD 官方 Performance Specifications。展開 / 收合"
+        ],
+        "viewport": {
+          "width": 1366,
+          "height": 900
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "376",
+      "title": "Thomson智慧型重載電動推桿",
+      "category_path": [
+        "電動缸",
+        "Thomson",
+        "Thomson智慧型重載電動推桿"
+      ],
+      "preview_rel": "preview/products/detail/376.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "mobile-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "mobile": true
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/376.html",
+        "title": "Thomson智慧型重載電動推桿-星泰國際科技股份有限公司",
+        "h1": [
+          "Thomson智慧型重載電動推桿"
+        ],
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false,
+        "imageCount": 21,
+        "visibleImageCount": 9,
+        "brokenImages": [],
+        "tableCount": 8,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 2,
+        "disclosureSamples": [
+          "ElectrakElectrak XD 智慧型重載線性致動器Electrak XD 官方 Performance Specifications。展開 / 收合",
+          "ElectrakElectrak HD 重載線性致動器Electrak HD 官方 Performance Specifications。展開 / 收合"
+        ],
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "100",
+      "title": "Thomson 電動缸",
+      "category_path": [
+        "電動缸",
+        "Thomson",
+        "Thomson 電動缸"
+      ],
+      "preview_rel": "preview/products/detail/100.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "desktop-1366x900",
+      "viewport": {
+        "width": 1366,
+        "height": 900,
+        "mobile": false
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/100.html",
+        "title": "Thomson 電動缸-星泰國際科技股份有限公司",
+        "h1": [
+          "Thomson 電動缸"
+        ],
+        "scrollWidth": 1351,
+        "clientWidth": 1351,
+        "horizontalOverflow": false,
+        "imageCount": 11,
+        "visibleImageCount": 4,
+        "brokenImages": [],
+        "tableCount": 5,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 1,
+        "disclosureSamples": [
+          "PCPC Series 精密電動缸RediMount 馬達轉接與 PC 系列精密電動缸。展開 / 收合"
+        ],
+        "viewport": {
+          "width": 1366,
+          "height": 900
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "100",
+      "title": "Thomson 電動缸",
+      "category_path": [
+        "電動缸",
+        "Thomson",
+        "Thomson 電動缸"
+      ],
+      "preview_rel": "preview/products/detail/100.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "mobile-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "mobile": true
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/100.html",
+        "title": "Thomson 電動缸-星泰國際科技股份有限公司",
+        "h1": [
+          "Thomson 電動缸"
+        ],
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false,
+        "imageCount": 11,
+        "visibleImageCount": 4,
+        "brokenImages": [],
+        "tableCount": 5,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 1,
+        "disclosureSamples": [
+          "PCPC Series 精密電動缸RediMount 馬達轉接與 PC 系列精密電動缸。展開 / 收合"
+        ],
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "167",
+      "title": "SMAC 線性致動器",
+      "category_path": [
+        "電動缸",
+        "SMAC",
+        "SMAC 線性致動器"
+      ],
+      "preview_rel": "preview/products/detail/167.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "desktop-1366x900",
+      "viewport": {
+        "width": 1366,
+        "height": 900,
+        "mobile": false
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/167.html",
+        "title": "SMAC 線性致動器-星泰國際科技股份有限公司",
+        "h1": [
+          "SMAC 線性致動器"
+        ],
+        "scrollWidth": 1351,
+        "clientWidth": 1351,
+        "horizontalOverflow": false,
+        "imageCount": 28,
+        "visibleImageCount": 12,
+        "brokenImages": [],
+        "tableCount": 18,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 10,
+        "disclosureSamples": [
+          "LTL\n    LTL Series超薄型 linear actuator，適合低高度與緊密機構配置。 Stroke 10-25 mm；Peak Force 12-17 N；Cont. Force 依型號 N。\n    4 models\n    展開 / 收合",
+          "LPL\n    LPL Series長行程平行式 linear actuator，適合以電動方式取代氣壓缸的長行程推送。 Stroke 8-250 mm；Peak Force 55 N；Cont. Force 依型號 N。\n    7 models\n    展開 / 收合",
+          "LDL\n    LDL Series氣壓缸替代取向的 brushless linear actuator，強調成本、循環壽命與可程式控制。 Stroke 10-100 mm；Peak Force 11.2-90 N；Cont. Force 依型號 N。\n    11 models\n    展開 / 收合",
+          "LDL-C\n    LDL Series with Built-in ControllerLDL 內建控制器版本，適合需要節省控制器空間的單軸應用。 Stroke 10-100 mm；Peak Force 11.2-90 N；Cont. Force 依型號 N。\n    11 models\n    展開 / 收合",
+          "MLA\n    MLA Series小型量測 / probe 用 linear actuator，適合精密接觸與檢測。 Stroke 10 mm；Peak Force 4 N；Cont. Force 依型號 N。\n    1 models\n    展開 / 收合",
+          "MSA\n    MSA Series超薄量測 actuator，適合空間受限的量測或檢測配置。 Stroke 10 mm；Peak Force 依型號 N；Cont. Force 依型號 N。\n    1 models\n    展開 / 收合",
+          "LAL\n    LAL SeriesSMAC 原始 linear actuator 系列，涵蓋較高推力與多種行程。 Stroke 15-150 mm；Peak Force 6-500 N；Cont. Force 2.4-200 N。\n    21 models\n    展開 / 收合",
+          "LCA\n    LCA Series高循環壽命 compact linear actuator，可選多種行程與推力。 Stroke 10-250 mm；Peak Force 2.6-130 N；Cont. Force 2.5-52 N。\n    42 models\n    展開 / 收合"
+        ],
+        "viewport": {
+          "width": 1366,
+          "height": 900
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "167",
+      "title": "SMAC 線性致動器",
+      "category_path": [
+        "電動缸",
+        "SMAC",
+        "SMAC 線性致動器"
+      ],
+      "preview_rel": "preview/products/detail/167.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "mobile-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "mobile": true
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/167.html",
+        "title": "SMAC 線性致動器-星泰國際科技股份有限公司",
+        "h1": [
+          "SMAC 線性致動器"
+        ],
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false,
+        "imageCount": 28,
+        "visibleImageCount": 11,
+        "brokenImages": [],
+        "tableCount": 18,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [
+          "產品系列"
+        ],
+        "applicationHeadings": [
+          "應用領域"
+        ],
+        "disclosureIndicatorCount": 10,
+        "disclosureSamples": [
+          "LTL\n    LTL Series超薄型 linear actuator，適合低高度與緊密機構配置。 Stroke 10-25 mm；Peak Force 12-17 N；Cont. Force 依型號 N。\n    4 models\n    展開 / 收合",
+          "LPL\n    LPL Series長行程平行式 linear actuator，適合以電動方式取代氣壓缸的長行程推送。 Stroke 8-250 mm；Peak Force 55 N；Cont. Force 依型號 N。\n    7 models\n    展開 / 收合",
+          "LDL\n    LDL Series氣壓缸替代取向的 brushless linear actuator，強調成本、循環壽命與可程式控制。 Stroke 10-100 mm；Peak Force 11.2-90 N；Cont. Force 依型號 N。\n    11 models\n    展開 / 收合",
+          "LDL-C\n    LDL Series with Built-in ControllerLDL 內建控制器版本，適合需要節省控制器空間的單軸應用。 Stroke 10-100 mm；Peak Force 11.2-90 N；Cont. Force 依型號 N。\n    11 models\n    展開 / 收合",
+          "MLA\n    MLA Series小型量測 / probe 用 linear actuator，適合精密接觸與檢測。 Stroke 10 mm；Peak Force 4 N；Cont. Force 依型號 N。\n    1 models\n    展開 / 收合",
+          "MSA\n    MSA Series超薄量測 actuator，適合空間受限的量測或檢測配置。 Stroke 10 mm；Peak Force 依型號 N；Cont. Force 依型號 N。\n    1 models\n    展開 / 收合",
+          "LAL\n    LAL SeriesSMAC 原始 linear actuator 系列，涵蓋較高推力與多種行程。 Stroke 15-150 mm；Peak Force 6-500 N；Cont. Force 2.4-200 N。\n    21 models\n    展開 / 收合",
+          "LCA\n    LCA Series高循環壽命 compact linear actuator，可選多種行程與推力。 Stroke 10-250 mm；Peak Force 2.6-130 N；Cont. Force 2.5-52 N。\n    42 models\n    展開 / 收合"
+        ],
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "79",
+      "title": "Copley 伺服驅動器及閉迴路步進驅動器",
+      "category_path": [
+        "驅動器",
+        "Copley 伺服驅動器及閉迴路步進驅動器"
+      ],
+      "preview_rel": "preview/products/detail/79.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "desktop-1366x900",
+      "viewport": {
+        "width": 1366,
+        "height": 900,
+        "mobile": false
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/79.html",
+        "title": "Copley 伺服驅動器及閉迴路步進驅動器-星泰國際科技股份有限公司",
+        "h1": [
+          "Copley 伺服驅動器及閉迴路步進驅動器"
+        ],
+        "scrollWidth": 1351,
+        "clientWidth": 1351,
+        "horizontalOverflow": false,
+        "imageCount": 77,
+        "visibleImageCount": 8,
+        "brokenImages": [],
+        "tableCount": 19,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [],
+        "applicationHeadings": [],
+        "disclosureIndicatorCount": 11,
+        "disclosureSamples": [
+          "NanoNano HP (NES/NPS)官方 Models 規格表展開 / 收合",
+          "NanoNano PLUS (NEP/NPP)官方 Models 規格表展開 / 收合",
+          "NanoNano PLUS HP (NEP/NPP)官方 Models 規格表展開 / 收合",
+          "XenusXenus PLUS Compact (XEC/XPC)官方 Models 規格表展開 / 收合",
+          "XenusXenus PLUS Dual-Axis (XE2/XP2/XM2)官方 Models 規格表展開 / 收合",
+          "AccelnetAccelnet PLUS Panel (BEL/BPL/BML)官方 Models 規格表展開 / 收合",
+          "StepnetStepnet PLUS Dual-Axis Panel (TE2/TP2)官方 Models 規格表展開 / 收合",
+          "M-SeriesM-Series 3-Axis Module (ME3/MP3)官方 Models 規格表展開 / 收合"
+        ],
+        "viewport": {
+          "width": 1366,
+          "height": 900
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "79",
+      "title": "Copley 伺服驅動器及閉迴路步進驅動器",
+      "category_path": [
+        "驅動器",
+        "Copley 伺服驅動器及閉迴路步進驅動器"
+      ],
+      "preview_rel": "preview/products/detail/79.html",
+      "agent_status": "agent-approved-clean",
+      "expected_spec": true,
+      "viewport_name": "mobile-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "mobile": true
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/79.html",
+        "title": "Copley 伺服驅動器及閉迴路步進驅動器-星泰國際科技股份有限公司",
+        "h1": [
+          "Copley 伺服驅動器及閉迴路步進驅動器"
+        ],
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false,
+        "imageCount": 77,
+        "visibleImageCount": 7,
+        "brokenImages": [],
+        "tableCount": 19,
+        "hasProductSpecTitle": true,
+        "specHeadings": [
+          "產品規格詳情"
+        ],
+        "productSeriesHeadings": [],
+        "applicationHeadings": [],
+        "disclosureIndicatorCount": 11,
+        "disclosureSamples": [
+          "NanoNano HP (NES/NPS)官方 Models 規格表展開 / 收合",
+          "NanoNano PLUS (NEP/NPP)官方 Models 規格表展開 / 收合",
+          "NanoNano PLUS HP (NEP/NPP)官方 Models 規格表展開 / 收合",
+          "XenusXenus PLUS Compact (XEC/XPC)官方 Models 規格表展開 / 收合",
+          "XenusXenus PLUS Dual-Axis (XE2/XP2/XM2)官方 Models 規格表展開 / 收合",
+          "AccelnetAccelnet PLUS Panel (BEL/BPL/BML)官方 Models 規格表展開 / 收合",
+          "StepnetStepnet PLUS Dual-Axis Panel (TE2/TP2)官方 Models 規格表展開 / 收合",
+          "M-SeriesM-Series 3-Axis Module (ME3/MP3)官方 Models 規格表展開 / 收合"
+        ],
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "241",
+      "title": "測試-ACS硬體分類",
+      "category_path": [
+        "ACS 控制器 / 驅動器",
+        "測試-ACS分類",
+        "測試-ACS硬體分類"
+      ],
+      "preview_rel": "preview/products/detail/241.html",
+      "agent_status": "agent-approved-exception",
+      "expected_spec": false,
+      "viewport_name": "desktop-1366x900",
+      "viewport": {
+        "width": 1366,
+        "height": 900,
+        "mobile": false
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/241.html",
+        "title": "測試-ACS硬體分類-星泰國際科技股份有限公司",
+        "h1": [
+          "測試-ACS硬體分類"
+        ],
+        "scrollWidth": 1351,
+        "clientWidth": 1351,
+        "horizontalOverflow": false,
+        "imageCount": 3,
+        "visibleImageCount": 2,
+        "brokenImages": [],
+        "tableCount": 1,
+        "hasProductSpecTitle": false,
+        "specHeadings": [],
+        "productSeriesHeadings": [],
+        "applicationHeadings": [],
+        "disclosureIndicatorCount": 0,
+        "disclosureSamples": [],
+        "viewport": {
+          "width": 1366,
+          "height": 900
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "product_id": "241",
+      "title": "測試-ACS硬體分類",
+      "category_path": [
+        "ACS 控制器 / 驅動器",
+        "測試-ACS分類",
+        "測試-ACS硬體分類"
+      ],
+      "preview_rel": "preview/products/detail/241.html",
+      "agent_status": "agent-approved-exception",
+      "expected_spec": false,
+      "viewport_name": "mobile-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "mobile": true
+      },
+      "observed": {
+        "url": "http://127.0.0.1:8891/preview/products/detail/241.html",
+        "title": "測試-ACS硬體分類-星泰國際科技股份有限公司",
+        "h1": [
+          "測試-ACS硬體分類"
+        ],
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false,
+        "imageCount": 3,
+        "visibleImageCount": 2,
+        "brokenImages": [],
+        "tableCount": 1,
+        "hasProductSpecTitle": false,
+        "specHeadings": [],
+        "productSeriesHeadings": [],
+        "applicationHeadings": [],
+        "disclosureIndicatorCount": 0,
+        "disclosureSamples": [],
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "status": "pass",
+      "critical": [],
+      "warnings": []
+    }
+  ]
+}
