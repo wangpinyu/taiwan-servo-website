@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>花蓮景點・吃喝地圖｜森林系出發</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+*{box-sizing:border-box} :root{--bg:#f5f7f8;--card:#fff;--text:#15212a;--muted:#6c7880;--spot:#2368d8;--food:#df6b20;--origin:#c53636;--line:#e3e8eb}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans-serif;color:var(--text);background:var(--bg)}
+.page{max-width:1500px;margin:auto;padding:16px} h1{margin:0 0 5px;font-size:clamp(22px,3vw,34px)}
+.subtitle{color:var(--muted);margin-bottom:12px;line-height:1.55}
+.toolbar{display:flex;gap:9px;align-items:center;flex-wrap:wrap;padding:11px;background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:12px;position:sticky;top:0;z-index:1001;box-shadow:0 5px 18px rgba(0,0,0,.05)}
+.check{display:flex;align-items:center;gap:7px;padding:9px 12px;border:1px solid var(--line);border-radius:999px;font-weight:700;cursor:pointer;background:#fff}.check input{width:18px;height:18px}
+.dot{width:10px;height:10px;border-radius:50%}.spotdot{background:var(--spot)}.fooddot{background:var(--food)}
+.search{flex:1 1 220px;min-width:180px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;font-size:15px}
+.quick{display:flex;gap:6px;flex-wrap:wrap}button{border:1px solid var(--line);background:#fff;border-radius:9px;padding:9px 10px;font-weight:700;cursor:pointer}
+.layout{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(320px,.8fr);gap:12px}
+#map{height:calc(100vh - 170px);min-height:600px;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#dde4e8}
+.side{height:calc(100vh - 170px);min-height:600px;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px}
+.summary{display:flex;justify-content:space-between;margin:2px 2px 10px}.count{color:var(--muted);font-size:14px}
+.card{padding:12px;border:1px solid var(--line);border-radius:12px;margin-bottom:9px;cursor:pointer;background:#fff}.card:hover{border-color:#aebbc2}
+.row1{display:flex;justify-content:space-between;gap:8px}.name{font-weight:800}.mins{white-space:nowrap;font-size:13px;font-weight:800;padding:5px 8px;border-radius:999px;background:#f0f3f5}
+.tags{margin-top:7px;display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:12px;padding:3px 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.tag.spot{border-color:#c9dcff;color:#1f5eba;background:#f4f8ff}.tag.food{border-color:#f7d2bb;color:#a94f18;background:#fff8f3}
+.note{margin-top:7px;color:var(--muted);font-size:13px;line-height:1.45}.actions{display:flex;gap:7px;margin-top:9px}
+.link{text-decoration:none;color:#15212a;border:1px solid var(--line);border-radius:8px;padding:7px 9px;font-size:13px;font-weight:700}
+.marker{width:29px;height:29px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);border:2px solid #fff;box-shadow:0 1px 5px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center}
+.marker span{transform:rotate(45deg);color:#fff;font-size:13px;font-weight:900}.marker.spot{background:var(--spot)}.marker.food{background:var(--food)}.marker.origin{background:var(--origin)}
+.loading{position:absolute;z-index:900;left:50%;top:80px;transform:translateX(-50%);background:rgba(255,255,255,.95);border:1px solid var(--line);border-radius:999px;padding:9px 13px;font-size:13px}
+.notice{font-size:12px;color:var(--muted);line-height:1.55;margin-top:10px}
+@media(max-width:850px){.page{padding:10px}.layout{grid-template-columns:1fr}#map{height:58vh;min-height:430px}.side{height:auto;min-height:0}.quick{width:100%}.quick button{flex:1}}
+</style>
+</head>
+<body>
+<div class="page">
+<h1>花蓮景點・吃喝地圖</h1>
+<div class="subtitle">起點：森林系包棟民宿（吉安鄉吉興四街 131 號）｜車程為規劃用概略值，出發時請以 Google Maps 即時導航為準。</div>
+<div class="toolbar">
+<label class="check"><input id="spotToggle" type="checkbox" checked><span class="dot spotdot"></span>景點</label>
+<label class="check"><input id="foodToggle" type="checkbox" checked><span class="dot fooddot"></span>吃喝／名產</label>
+<input id="search" class="search" placeholder="搜尋：七星潭、麻糬、早餐、海線…">
+<div class="quick"><button onclick="setMode('all')">全部</button><button onclick="setMode('spot')">只看景點</button><button onclick="setMode('food')">只看吃喝</button></div>
+</div>
+<div class="layout">
+<div style="position:relative"><div id="loading" class="loading">正在定位地圖標記…</div><div id="map"></div></div>
+<aside class="side"><div class="summary"><strong>從森林系出發</strong><span id="count" class="count"></span></div><div id="list"></div>
+<div class="notice">地圖標記使用公開地圖搜尋定位；若個別店家定位失敗，卡片仍可直接開 Google Maps。立川漁場歸在景點；東大門夜市歸在吃喝。</div></aside>
+</div></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const DATA = [{"name":"森林系包棟民宿","type":"origin","subtype":"住宿起點","minutes":0,"query":"花蓮縣吉安鄉吉興四街131號","note":"目前住宿起點"},{"name":"吉安慶修院","type":"spot","subtype":"文化／建築","minutes":5,"query":"吉安慶修院 花蓮","note":"離住宿最近，適合補空檔"},{"name":"張家樹園","type":"spot","subtype":"農場／拍照","minutes":8,"query":"張家樹園 花蓮","note":"團體行程好安排"},{"name":"花蓮文化創意產業園區","type":"spot","subtype":"文創／雨備","minutes":15,"query":"花蓮文化創意產業園區","note":"市區行程、雨天可考慮"},{"name":"花蓮將軍府1936","type":"spot","subtype":"建築／市區","minutes":18,"query":"花蓮將軍府1936","note":"市區散步、商店、拍照"},{"name":"太平洋公園","type":"spot","subtype":"海景／散步","minutes":18,"query":"太平洋公園 花蓮","note":"可與東大門夜市一起排"},{"name":"松園別館","type":"spot","subtype":"歷史建築","minutes":20,"query":"松園別館 花蓮","note":"市區景點，約 1 小時"},{"name":"鯉魚潭","type":"spot","subtype":"湖景／活動","minutes":23,"query":"鯉魚潭 花蓮 壽豐","note":"踩船、SUP、散步，團體適合"},{"name":"七星潭","type":"spot","subtype":"海景","minutes":28,"query":"七星潭 花蓮","note":"經典海景，停留時間彈性大"},{"name":"立川漁場","type":"spot","subtype":"體驗／餐飲","minutes":32,"query":"立川漁場 花蓮","note":"摸蜆＋用餐，可同時算景點與餐飲"},{"name":"雲山水夢幻湖","type":"spot","subtype":"湖景／拍照","minutes":38,"query":"雲山水夢幻湖 花蓮","note":"適合與立川、鯉魚潭串線"},{"name":"牛山呼庭","type":"spot","subtype":"海岸／草地","minutes":45,"query":"牛山呼庭 花蓮","note":"台11線景觀點"},{"name":"芭崎觀景台","type":"spot","subtype":"海岸／觀景","minutes":48,"query":"芭崎觀景台 花蓮","note":"台11線順遊停靠"},{"name":"崇德瑩農場","type":"spot","subtype":"山海／農場","minutes":55,"query":"崇德瑩農場 花蓮","note":"北線景觀，適合拍照與團體"},{"name":"清水斷崖","type":"spot","subtype":"自然景觀","minutes":58,"query":"清水斷崖 花蓮","note":"出發前確認蘇花路況"},{"name":"林田山林業文化園區","type":"spot","subtype":"森林／歷史","minutes":55,"query":"林田山林業文化園區 花蓮","note":"縱谷線內容完整"},{"name":"新社梯田","type":"spot","subtype":"海岸／梯田","minutes":65,"query":"新社梯田 花蓮","note":"台11線海岸景觀"},{"name":"花蓮觀光糖廠","type":"spot","subtype":"園區／冰品","minutes":68,"query":"花蓮觀光糖廠 光復","note":"縱谷休息站，也可以吃冰"},{"name":"大農大富平地森林園區","type":"spot","subtype":"森林／單車","minutes":70,"query":"大農大富平地森林園區 花蓮","note":"空間大，適合騎腳踏車"},{"name":"馬太鞍溼地","type":"spot","subtype":"生態／部落","minutes":72,"query":"馬太鞍溼地 花蓮","note":"生態與部落體驗取向"},{"name":"石門遊憩區","type":"spot","subtype":"海蝕地形","minutes":78,"query":"石門遊憩區 花蓮 豐濱","note":"台11線順路，停留約半小時"},{"name":"石梯坪","type":"spot","subtype":"海岸／地質","minutes":92,"query":"石梯坪 花蓮","note":"海線主景點，適合留 1–2 小時"},{"name":"慶修院馬告香腸","type":"food","subtype":"小吃","minutes":6,"query":"慶修院 馬告香腸 花蓮","note":"離民宿近，可搭慶修院"},{"name":"吉安黃昏市場","type":"food","subtype":"市場／多選擇","minutes":9,"query":"吉安黃昏市場 花蓮","note":"多人各自買最方便"},{"name":"一品坊早點","type":"food","subtype":"早餐","minutes":15,"query":"一品坊早點 花蓮","note":"早餐候選"},{"name":"一青苑手工茶殿","type":"food","subtype":"手搖飲","minutes":16,"query":"一青苑手工茶殿 花蓮","note":"你先前指定想喝"},{"name":"叮哥茶飲 花商店","type":"food","subtype":"手搖飲","minutes":18,"query":"叮哥茶飲 花商店 花蓮","note":"你先前指定想喝"},{"name":"液香扁食","type":"food","subtype":"花蓮小吃","minutes":16,"query":"液香扁食 花蓮","note":"扁食代表候選"},{"name":"老牌炸蛋蔥油餅","type":"food","subtype":"花蓮小吃","minutes":18,"query":"老牌炸蛋蔥油餅 花蓮","note":"炸蛋蔥油餅候選"},{"name":"炸蛋蔥油餅 黃車","type":"food","subtype":"花蓮小吃","minutes":18,"query":"炸蛋蔥油餅 黃車 花蓮","note":"同區可擇一，不必兩家都吃"},{"name":"公正包子店","type":"food","subtype":"包子／蒸餃","minutes":16,"query":"公正包子店 花蓮 仁愛街46號","note":"知名銅板小吃"},{"name":"周家蒸餃小籠包","type":"food","subtype":"小籠包／蒸餃","minutes":16,"query":"周家蒸餃小籠包 花蓮","note":"可與公正二選一"},{"name":"玉里橋頭臭豆腐 花蓮店","type":"food","subtype":"臭豆腐","minutes":14,"query":"玉里橋頭臭豆腐 花蓮店","note":"不用開到玉里即可吃"},{"name":"鵝肉先生","type":"food","subtype":"正餐／小吃","minutes":16,"query":"鵝肉先生 花蓮","note":"市區正餐候選"},{"name":"海埔蚵仔煎","type":"food","subtype":"晚間小吃","minutes":15,"query":"海埔蚵仔煎 花蓮","note":"晚間小吃候選"},{"name":"五霸焦糖包心粉圓","type":"food","subtype":"甜點","minutes":16,"query":"五霸焦糖包心粉圓 花蓮","note":"飯後甜點"},{"name":"一心泡泡冰","type":"food","subtype":"冰品","minutes":18,"query":"一心泡泡冰 花蓮","note":"市區冰品"},{"name":"惠比須餅舖","type":"food","subtype":"伴手禮／糕餅","minutes":16,"query":"惠比須餅舖 花蓮","note":"傳統糕餅伴手禮"},{"name":"洄瀾薯道 中華一店","type":"food","subtype":"伴手禮／花蓮薯","minutes":16,"query":"洄瀾薯道中華一店 花蓮","note":"花蓮薯類伴手禮"},{"name":"阿美麻糬 中華門市","type":"food","subtype":"伴手禮／麻糬","minutes":16,"query":"阿美麻糬 中華門市 花蓮","note":"麻糬伴手禮"},{"name":"德利豆乾 總店","type":"food","subtype":"伴手禮／豆乾","minutes":16,"query":"德利豆乾 總店 花蓮","note":"鹹食伴手禮"},{"name":"花蓮縣餅 站前門市","type":"food","subtype":"伴手禮／糕餅","minutes":20,"query":"花蓮縣餅 站前門市","note":"奶油酥條等伴手禮"},{"name":"曾記麻糬 花蓮車站門市","type":"food","subtype":"伴手禮／麻糬","minutes":20,"query":"曾記麻糬 花蓮車站門市","note":"回程／車站附近方便買"},{"name":"東大門夜市","type":"food","subtype":"夜市／多選擇","minutes":18,"query":"東大門夜市 花蓮","note":"14 人最方便，各自找想吃的"},{"name":"原野牧場","type":"food","subtype":"咖啡／輕食","minutes":29,"query":"原野牧場 七星潭 花蓮","note":"適合搭七星潭"},{"name":"佳興冰菓店","type":"food","subtype":"檸檬汁／小吃","minutes":50,"query":"佳興冰菓店 花蓮 新城 博愛路22號","note":"適合北線順吃，不建議專程跑"}];
+const ORIGIN_QUERY="花蓮縣吉安鄉吉興四街131號";
+const fallback={"森林系包棟民宿":[23.9535,121.5655],"吉安慶修院":[23.9730,121.5653],"張家樹園":[23.9783,121.5760],"花蓮文化創意產業園區":[23.9753,121.6044],"花蓮將軍府1936":[23.9847,121.6113],"太平洋公園":[23.9734,121.6154],"松園別館":[23.9875,121.6124],"鯉魚潭":[23.9282,121.5080],"七星潭":[24.0280,121.6270],"立川漁場":[23.8722,121.5070],"雲山水夢幻湖":[23.8710,121.5160],"牛山呼庭":[23.7670,121.5900],"芭崎觀景台":[23.7050,121.5600],"崇德瑩農場":[24.1670,121.6550],"清水斷崖":[24.2180,121.6880],"林田山林業文化園區":[23.7170,121.3970],"新社梯田":[23.6520,121.5480],"花蓮觀光糖廠":[23.6580,121.4200],"大農大富平地森林園區":[23.6030,121.4230],"馬太鞍溼地":[23.6610,121.4140],"石門遊憩區":[23.5900,121.5100],"石梯坪":[23.4860,121.5100]};
+const map=L.map('map').setView([23.93,121.55],10);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+const markers=new Map(); const cache=JSON.parse(localStorage.getItem('hlGeoCacheV4')||'{}');
+function mkIcon(p){let cls=p.type==='origin'?'origin':p.type,s=p.type==='origin'?'⌂':p.type==='spot'?'景':'食';return L.divIcon({className:'',html:`<div class="marker ${cls}"><span>${s}</span></div>`,iconSize:[30,30],iconAnchor:[15,30],popupAnchor:[0,-28]})}
+function dir(p){return `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(ORIGIN_QUERY)}&destination=${encodeURIComponent(p.query)}&travelmode=driving`}
+function place(p){return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.query)}`}
+function label(p){return p.type==='spot'?'景點':p.type==='food'?'吃喝／名產':'住宿起點'}
+async function geocode(p){if(cache[p.query])return cache[p.query];if(fallback[p.name])return fallback[p.name];try{const r=await fetch('https://photon.komoot.io/api/?limit=1&lang=zh&q='+encodeURIComponent(p.query+' 台灣'));const j=await r.json();if(j.features&&j.features.length){const c=j.features[0].geometry.coordinates,pos=[c[1],c[0]];cache[p.query]=pos;localStorage.setItem('hlGeoCacheV4',JSON.stringify(cache));return pos}}catch(e){}return p.type==='food'?[23.978+(Math.random()-.5)*.016,121.604+(Math.random()-.5)*.016]:null}
+function popup(p){return `<b>${p.name}</b><br>${label(p)}・${p.subtype}<br>${p.type==='origin'?'住宿起點':'從森林系約 '+p.minutes+' 分鐘'}<br>${p.note||''}<br><br><a target="_blank" rel="noopener" href="${dir(p)}">Google Maps 導航</a>`}
+async function init(){await Promise.all(DATA.map(async p=>{const pos=await geocode(p);if(!pos)return;const m=L.marker(pos,{icon:mkIcon(p)}).addTo(map).bindPopup(popup(p));markers.set(p.name,m)}));document.getElementById('loading').style.display='none';apply()}
+function visible(p){if(p.type==='origin')return true;const s=document.getElementById('spotToggle').checked,f=document.getElementById('foodToggle').checked,q=document.getElementById('search').value.trim().toLowerCase();return ((p.type==='spot'&&s)||(p.type==='food'&&f))&&(!q||(p.name+' '+p.subtype+' '+p.note).toLowerCase().includes(q))}
+function apply(){const list=document.getElementById('list');list.innerHTML='';DATA.forEach(p=>{const m=markers.get(p.name);if(!m)return;if(visible(p)){if(!map.hasLayer(m))m.addTo(map)}else if(map.hasLayer(m))map.removeLayer(m)});const arr=DATA.filter(visible).filter(p=>p.type!=='origin').sort((a,b)=>a.minutes-b.minutes);document.getElementById('count').textContent=arr.length+' 個選項';arr.forEach(p=>{const d=document.createElement('div');d.className='card';const c=p.type==='spot'?'spot':'food';d.innerHTML=`<div class="row1"><div class="name">${p.name}</div><div class="mins">約 ${p.minutes} 分</div></div><div class="tags"><span class="tag ${c}">${label(p)}</span><span class="tag">${p.subtype}</span></div><div class="note">${p.note}</div><div class="actions"><a class="link" href="${dir(p)}" target="_blank">🚗 導航</a><a class="link" href="${place(p)}" target="_blank">📍 查看地點</a></div>`;d.onclick=e=>{if(e.target.closest('a'))return;const m=markers.get(p.name);if(m){map.setView(m.getLatLng(),Math.max(map.getZoom(),13));m.openPopup()}};list.appendChild(d)})}
+function setMode(x){spotToggle.checked=x!=='food';foodToggle.checked=x!=='spot';if(x==='all'){spotToggle.checked=true;foodToggle.checked=true}apply()}
+spotToggle.onchange=foodToggle.onchange=search.oninput=apply;
+init();apply();
+</script>
+</body>
+</html>
